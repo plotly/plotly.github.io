@@ -460,7 +460,7 @@ header h1 {
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
@@ -616,7 +616,7 @@ form {
   margin-bottom: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
-  font-weight: normal;
+  font-weight: 300;
   color: #474747;
   text-indent: 6px;
   letter-spacing: -1px;
