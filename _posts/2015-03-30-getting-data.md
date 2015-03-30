@@ -76,24 +76,21 @@ permalink: /getting-data
 </tbody>
 </table>
 
+<h1><a href="http://www.vernier.com/">Vernier</a></h1>
+
+<br />
+<br />
+
+<p>Using Vernier in your classroom and your students have Chromebooks? Using the <a href="http://www.vernier.com/products/software/data-share/">Vernier Data Share app</a>, you can export data directly to Plotly, which gives you a seamless workflow on your Chromebook. An export to Plotly with Logger Pro is coming soon.</p>
+
 <table>
 <tbody>
-
 <tr>
-<td>Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu.</td>
-<td><img src="http://i.imgur.com/Skp90ha.png"></td>
+<td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Plotly</b></td> to open the collected data in Plotly's web app.
+<td><img src="http://i.imgur.com/6snjGKq.png"></td>
 </tr>
-
-<tr>
-<td>Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on <strong>Perform Chi-squared Test</strong>.</td>
-<td><img src="http://i.imgur.com/i6Y1ZiD.png"></td>
-</tr>
-
-<tr>
-<td>Plotly puts our results in the first two columns to the right of our data. In this case, the chi-squared statistic is 4.1456 and the P-value is 0.04174. By convention, because 0.04174 is less than 0.05, we decide that the difference is statistically significant. In other words, we reject the null hypothesis and conclude that there must be a relation between vegetarianism and gender.</td>
-<td><img src="http://i.imgur.com/7fkBMjX.png"></td>
-</tr>
-
 </tbody>
 </table>
+
+
 
