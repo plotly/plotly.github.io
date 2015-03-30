@@ -9,6 +9,9 @@ permalink: /chi-square-test
     <script data-plotly="jackp:4102" src="https://plot.ly/embed.js" async></script>
 </div>
 
+<br>
+<br>
+
 <p>The chi-squared test is a statistical hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. For example, we could use a chi-squared test to evaluate if a coin is likely biased or to determine if elevated cholesterol is related to gender.</p>
 
 <p>The general strategy to perform a chi-squared test is to calculate the chi-squared value (or chi-squared statistic), and then use a table of chi-squared values to estimate the probability that our result is due to chance alone. This probability is called the p-value. The null hypothesis, i.e., that the difference between expected and observed frequencies isn’t significant, is typically accepted for p-values greater than .05.</p>
@@ -17,7 +20,13 @@ permalink: /chi-square-test
 
 <p>Here’s how to use Plotly to calculate both the chi-squared statistic and the p-value for you.</p>
 
+<br>
+<br>
+
 <h1 id="step-1-:-set-up-the-grid"><a href="#step-1-:-set-up-the-grid">Step 1 : Set up the grid</a></h1>
+
+<br>
+<br>
 
 <table>
 <tbody>
