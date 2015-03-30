@@ -13,12 +13,12 @@ permalink: /getting-data
 <br />
 <br />
 
-<p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. The tools below address that and make it easier to get data: <a href="www.data.gov">Data.gov</a>, <a href="https://www.quandl.com/">Quandl</a> and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to parnter with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
+<p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="www.data.gov">Data.gov</a>, <a href="https://www.quandl.com/">Quandl</a> and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
 <table>
 <tbody>
 <tr>
-<td>Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data in any graph you make from the data set.</td>
+<td>Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data.</td>
 <td><img src="http://i.imgur.com/oHGa7HP.png"></td>
 </tr>
 </tbody>
@@ -32,7 +32,7 @@ permalink: /getting-data
 <br />
 <br />
 
-<p>Data.gov is the home of the U.S. Government's open data and home to over 124,651 data sets. They've recently built an "Open With" option that let's you send the data directly to Plotly to create interactive graphs for free. Data.gov supports direct exports to Plotly on smaller CSV and XLS files. Look for the "Open With" menu when searching through their data sets.</p>
+<p>Data.gov is the home of the U.S. Government's open data and hosts over 124,651 data sets. They've recently built an "Open With" option that let's you send the data directly to Plotly to create interactive graphs for free. This feature is supported on smaller CSV and XLS files. Look for the "Open With" menu when searching through their data sets.</p>
 
 <table>
 <tbody>
@@ -49,7 +49,7 @@ permalink: /getting-data
 <td><img src="http://i.imgur.com/L5LLlFn.png"></td>
 </tr>
 <tr>
-<td>Once you select a data set, look for the "Open With" option (this option will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Plotly's Web App.</td>
+<td>Once you select a data set, look for the "Open With" option (this will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Plotly's Web App.</td>
 <td><img src="http://i.imgur.com/IowB7mf.png"></td>
 </tr>
 </tbody>
@@ -63,7 +63,7 @@ permalink: /getting-data
 <br />
 <br />
 
-<p>Quandl is a search engine for numerical data. They host data sets from hundreds of publishers, all organized and easy to search. From any Quandl dataset page, simply click on the button marked Tools: Plotly under the section titled "Export Data". Quandl automatically sends the data to a new Plotly table, neatly formatted and organized and ready for graphing.</p>
+<p>Quandl is a search engine for numerical data. They host data sets from hundreds of publishers, all organized and easy to search. Quandl automatically sends data to a new Plotly spreadsheet, neatly formatted, organized and ready for graphing.</p>
 
 <table>
 <tbody>
@@ -87,7 +87,7 @@ permalink: /getting-data
 <br />
 <br />
 
-<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers and experiments) for science classrooms and labs around the world. Using Vernier in your classroom and your students have Chromebooks? Using one of Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), you can export data directly to Plotly, which gives you a seamless workflow on your Chromebook. An export to Plotly with Logger Pro is coming soon.</p>
+<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers and experiments) for science classrooms and labs around the world. Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), allow you to use their excellent hardware across platforms, from most devices. You can export data directly to Plotly, which gives you a seamless workflow on your Chromebook, iPad or tablet. An export to Plotly with Logger Pro is coming soon.</p>
 
 <table>
 <tbody>
