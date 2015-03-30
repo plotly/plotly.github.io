@@ -37,6 +37,9 @@ permalink: /chi-square-test
 </tbody>
 </table>
 
+<br />
+<br />
+
 <h1 id="step-2:-running-basic-statistics"><a href="#step-2:-running-basic-statistics">Step 2: Chi-squared test</a></h1>
 
 <br />
@@ -48,11 +51,6 @@ permalink: /chi-square-test
 <tr>
 <td>Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu.</td>
 <td><img src="http://i.imgur.com/Skp90ha.png"></td>
-</tr>
-
-<tr>
-<td>Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on <strong>Perform Chi-squared Test</strong>.</td>
-<td><img src="http://i.imgur.com/i6Y1ZiD.png"></td>
 </tr>
 
 <tr>
