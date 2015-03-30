@@ -30,7 +30,7 @@ permalink: /getting-data
 <table>
 <tbody>
 <tr>
-<td>When you go to <a href="www.data.gov>Data.gov</a>, you'll see a box to search the data sets and icons to browse by topic.</td>
+<td>When you go to <a href="www.data.gov">Data.gov</a>, you'll see a box to search the data sets and icons to browse by topic.</td>
 <td><img src="http://i.imgur.com/K8MSiIV.png"></td>
 </tr>
 <tr>
@@ -51,10 +51,29 @@ permalink: /getting-data
 <br />
 <br />
 
-<h1 id="step-2:-running-basic-statistics"><a href="#step-2:-running-basic-statistics">Step 2: Chi-squared test</a></h1>
+<h1><a href="https://www.quandl.com/help/plotly">Quandl</a></h1>
 
 <br />
 <br />
+
+<p>From any Quandl dataset page, simply click on the button marked Tools: Plotly under the section titled "Export Data". Quandl automatically sends the data to a new Plotly table, neatly formatted and organized and ready for graphing.</p>
+
+<table>
+<tbody>
+<tr>
+<td>From <a href="www.data.gov">Quandl's</a> homepage, select <b>COLLECTIONS BROWSER</b> from the "Platform" drop-down menu.</td>
+<td><img src="http://i.imgur.com/HcAPBqq.png"></td>
+</tr>
+<tr>
+<td>You can navigate through Quandl's collections using the toolbar on the right. Here we selected MARKETS, COMMODITIES, Farms and Fishery.</td>
+<td><img src="http://i.imgur.com/BZEQ9C4.png"></td>
+</tr>
+<tr>
+<td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the Plotly button, and the data set will open inside Plotly's Web App.</td>
+<td><img src="http://i.imgur.com/L5LLlFn.png"></td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <tbody>
