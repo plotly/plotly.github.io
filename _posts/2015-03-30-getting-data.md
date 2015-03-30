@@ -65,12 +65,12 @@ permalink: /getting-data
 <td><img src="http://i.imgur.com/HcAPBqq.png"></td>
 </tr>
 <tr>
-<td>You can navigate through Quandl's collections using the toolbar on the right. Here we selected MARKETS, COMMODITIES, Farms and Fishery.</td>
+<td>You can navigate through Quandl's collections using the toolbar on the right. Here we selected <b>MARKETS</b>, <b>COMMODITIES</b>, <b>Farms and Fishery</b>.</td>
 <td><img src="http://i.imgur.com/BZEQ9C4.png"></td>
 </tr>
 <tr>
-<td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the Plotly button, and the data set will open inside Plotly's Web App.</td>
-<td><img src="http://i.imgur.com/L5LLlFn.png"></td>
+<td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the <b>Plotly</b> button, and the data set will open inside Plotly's Web App.</td>
+<td><img src="http://i.imgur.com/2ttCf9B.png"></td>
 </tr>
 </tbody>
 </table>
