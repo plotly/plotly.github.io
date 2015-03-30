@@ -19,7 +19,7 @@ permalink: /getting-data
 <tbody>
 <tr>
 <td>Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data.</td>
-<td><img src="http://i.imgur.com/oHGa7HP.png"></td>
+<td><img src="http://i.imgur.com/esByc8X.png"></td>
 </tr>
 </tbody>
 </table>
