@@ -39,7 +39,7 @@ permalink: /getting-data
 <td><img src="http://i.imgur.com/zdbxVr3.png"></td>
 </tr>
 <tr>
-<td>The toolbar on the left lets us filter the data by type, tags, format and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is a good idea.</td>
+<td>The toolbar on the left lets us filter the data by type, tags, format and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is helpful.</td>
 <td><img src="http://i.imgur.com/L5LLlFn.png"></td>
 </tr>
 <tr>
@@ -86,7 +86,7 @@ permalink: /getting-data
 <table>
 <tbody>
 <tr>
-<td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Plotly</b></td> to open the collected data in Plotly's web app.
+<td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Plotly</b> to open the collected data in Plotly's web app.</td>
 <td><img src="http://i.imgur.com/6snjGKq.png"></td>
 </tr>
 </tbody>
