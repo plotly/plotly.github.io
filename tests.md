@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: tutorial
 permalink: /tests
-title: "Articles"
 ---
 
-tests.md
+this is tests.md
