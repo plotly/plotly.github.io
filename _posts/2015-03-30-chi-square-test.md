@@ -9,8 +9,8 @@ permalink: /chi-square-test
     <script data-plotly="jackp:4102" src="https://plot.ly/embed.js" async></script>
 </div>
 
-<br>
-<br>
+<br />
+<br />
 
 <p>The chi-squared test is a statistical hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. For example, we could use a chi-squared test to evaluate if a coin is likely biased or to determine if elevated cholesterol is related to gender.</p>
 
@@ -20,13 +20,13 @@ permalink: /chi-square-test
 
 <p>Here’s how to use Plotly to calculate both the chi-squared statistic and the p-value for you.</p>
 
-<br>
-<br>
+<br />
+<br />
 
 <h1 id="step-1-:-set-up-the-grid"><a href="#step-1-:-set-up-the-grid">Step 1 : Set up the grid</a></h1>
 
-<br>
-<br>
+<br />
+<br />
 
 <table>
 <tbody>
