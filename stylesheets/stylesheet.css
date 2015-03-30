@@ -494,7 +494,7 @@ header h2 {
 }
 
 #main-content img {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 aside#sidebar {
@@ -599,6 +599,7 @@ th {
 td {
   font-weight: normal;
   text-align: left;
+  padding: 20px 0px;
 }
 
 td img{
