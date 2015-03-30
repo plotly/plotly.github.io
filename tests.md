@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-permalink: /tests
+permalink: /tests.html
 ---
 
 this is tests.md
