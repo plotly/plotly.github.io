@@ -4,28 +4,12 @@ layout: tutorial
 permalink: /histograms
 ---
 
-{% extends "pages/base_generic_pages.html" %}
 
-{% block secondary_nav %}
-    <header class="header-bar header-bar--secondary">
-        <div class="header-bar__inner header-bar__inner--breadcrumb">
-            <ol class="nav breadcrumb--path flush">
-                <li class="breadcrumb__root"><a href="/learn/" class="link--primary-nav">Learn</a></li>
-                <li class="link--primary-nav active">Histrograms</li>
-            </ol>
-        </div>
-    </header>
-{% endblock %}
 
-{% block page_heading %}
-    <h1 class="kilo banner__text">Intro to Histograms</h1>
-{% endblock %}
+<h1 class="kilo banner__text">Intro to Histograms</h1>
 
-{% block page_content %}
-    <article>
-        <section class="section">
-            <section class="section__inner">
-                <h2 class="heading beta push--bottom">What is a Histogram?</h2>
+
+<h2 class="heading beta push--bottom">What is a Histogram?</h2>
 
                 <p>
                     Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line.
