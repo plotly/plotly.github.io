@@ -1,7 +1,7 @@
 ---
 title: Markdown
 layout: tutorial
-permalink:
+permalink: markdown-test
 ---
 
 This is the first paragraph.
