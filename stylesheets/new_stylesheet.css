@@ -2,7 +2,7 @@
    background-color: #ffffff;
    height: 80px;
 /**   min-width: 1048px; **/
-   width: 100%;
+   min-width: 100%;
    line-height: 78px;
    display: block;
 }
