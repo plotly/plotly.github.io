@@ -1,3 +1,58 @@
-img {
- margin: auto;
+.headerbar{
+   background-color: #ffffff;
+   height: 80px;
+   min-width: 1048px;
+   line-height: 78px;
 }
+/**
+header::after
+content: "";
+display: table;
+box-sizing: border-box;
+**/
+
+headerbar{
+line-height: 78px;
+}
+
+.headerbar-leftside {
+    margin-left: 70px;
+    display: inline-block;
+    float: left;
+    max-width: 200px;
+    white-space: nowrap;
+    margin-right: 70px;
+}
+
+.logo {
+    font-size: 26px !important;
+    font-weight: 200;
+    color: #447BDC;
+    text-decoration: none;
+}
+
+.ploticon-plotlylogo {
+    font-family: "plotlylogo";
+}
+
+.logo em {
+    font-style: normal;
+}
+
+
+
+
+.headerbar-rightside {
+    display: inline-block;
+    float: right;
+    margin-left: 0px;
+    max-width: 500px;
+    white-space: nowrap;
+    margin-right: 70px;
+}
+
+.headerbar-nav {
+    display: inline-block;
+    vertical-align: super;
+}
+
