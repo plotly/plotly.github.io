@@ -1,6 +1,6 @@
 ---
 title: Chi square test
-layout: tutorial
+layout: base
 permalink: /chi-square-test
 ---
 
