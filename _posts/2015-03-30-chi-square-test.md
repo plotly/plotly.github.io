@@ -2,6 +2,7 @@
 title: Chi square test
 layout: layout
 permalink: /chi-square-test
+thumbnail: https://plot.ly/online-graphing/wp-content/uploads/2015/03/Screen-Shot-2015-03-26-at-2.27.24-PM-266x370.png
 ---
 
 <div>
