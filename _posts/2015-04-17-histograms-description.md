@@ -20,17 +20,17 @@ To construct a histogram, a section of the number line is divided into equal chu
                 
 Next, count up how many data points sit inside each bin, and draw bars, one for each bin, whose heights correspond to the number of data points. This process is illustrated below.
 
-<img class="article-img" src="https://plot.ly/static/img/literacy/fig2.jpg" id="fig2" width="600" height="226" />
+<img src="https://plot.ly/static/img/literacy/fig2.jpg" id="fig2" width="600" height="226" />
 
 Label the data (in the example below each data point is an SAT score), draw in a y-axis which counts the number of data points in each bin, and finally label your bins.
                 
 
-<img class="article-img" src="https://plot.ly/static/img/literacy/fig3.jpg" id="fig3" width="600" height="267.76" />
+<img src="https://plot.ly/static/img/literacy/fig3.jpg" id="fig3" width="600" height="267.76" />
 
 And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the <b class="keyword">sample size</b>), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
                 
 
-<img class="article-img" src="https://plot.ly/static/img/literacy/fig5.jpg" id="fig5" width="423.09" height="407.88" />
+<img src="https://plot.ly/static/img/literacy/fig5.jpg" id="fig5" width="423.09" height="407.88" />
 
 ##How to Read a Histogram
 
