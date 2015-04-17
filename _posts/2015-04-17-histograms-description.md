@@ -124,7 +124,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
                     <td>13.33</td>
                 </tr>
                 <tr class="row--even">
-                    <td><strong>Frequency Denisty Distribution</strong></td>
+                    <td><strong>Frequency Density Distribution</strong></td>
                     <td>n/&#916;x</td>
                     <td><em>Sum product of bar heights and bin width to find number of data points in range</em></td>
                     <td>2.50E-3</td>
@@ -134,7 +134,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
                     <td>5.00E-3</td>
                 </tr>
                 <tr>
-                    <td><strong>Probability Denisty Distribution</strong></td>
+                    <td><strong>Probability Density Distribution</strong></td>
                     <td>(n/N)/&#916;x</td>
                     <td><em>Sum product of bar heights and bin width to find probability of data falling in range</em></td>
                     <td>1.67E-4</td>
