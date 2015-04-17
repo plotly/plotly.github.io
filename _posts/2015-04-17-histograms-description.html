@@ -194,3 +194,128 @@ permalink: /histograms
             </section>
         </section>
     </article>
+
+    <script src = "/static/js/plugins/waypoints.min.js"></script>
+
+    <script type = 'text/javascript'>
+        $(document).ready(function(direction) {
+            $('#fig1').waypoint(
+                function() {
+                    $(this).attr("src", "https://plot.ly/static/img/literacy/fig1.gif");
+                    $('#fig2').attr("src", "https://plot.ly/static/img/literacy/fig2.jpg");
+                    $('#fig3').attr("src", "https://plot.ly/static/img/literacy/fig3.jpg");
+                    $('#fig4').attr("src", "https://plot.ly/static/img/literacy/fig4.jpg");
+                    $('#fig5').attr("src", "https://plot.ly/static/img/literacy/fig5.jpg");
+                    $('#fig6').attr("src", "https://plot.ly/static/img/literacy/fig6.jpg");
+                    $('#fig7').attr("src", "https://plot.ly/static/img/literacy/fig7.jpg");
+                    $('#fig8').attr("src", "https://plot.ly/static/img/literacy/fig8.jpg");
+                },
+                { offset: '50%' }
+            );
+
+            $('#fig2').waypoint(
+                function(direction) {
+                        $(this).attr("src", "https://plot.ly/static/img/literacy/fig2.gif");
+                        $('#fig3').attr("src", "https://plot.ly/static/img/literacy/fig3.jpg");
+                        $('#fig1').attr("src", "https://plot.ly/static/img/literacy/fig1.jpg");
+                        $('#fig4').attr("src", "https://plot.ly/static/img/literacy/fig4.jpg");
+                        $('#fig5').attr("src", "https://plot.ly/static/img/literacy/fig5.jpg");
+                        $('#fig6').attr("src", "https://plot.ly/static/img/literacy/fig6.jpg");
+                        $('#fig7').attr("src", "https://plot.ly/static/img/literacy/fig7.jpg");
+                        $('#fig8').attr("src", "https://plot.ly/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '40%' }
+            );
+
+            $('#fig3').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig3.gif");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig4').attr("src", "/static/img/literacy/fig4.jpg");
+                        $('#fig5').attr("src", "/static/img/literacy/fig5.jpg");
+                        $('#fig6').attr("src", "/static/img/literacy/fig6.jpg");
+                        $('#fig7').attr("src", "/static/img/literacy/fig7.jpg");
+                        $('#fig8').attr("src", "/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '40%' }
+            );
+
+            $('#fig4').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig4.gif");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig3').attr("src", "/static/img/literacy/fig3.jpg");
+                        $('#fig5').attr("src", "/static/img/literacy/fig5.jpg");
+                        $('#fig6').attr("src", "/static/img/literacy/fig6.jpg");
+                        $('#fig7').attr("src", "/static/img/literacy/fig7.jpg");
+                        $('#fig8').attr("src", "/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '40%' }
+            );
+
+            $('#fig5').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig5.gif");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig3').attr("src", "/static/img/literacy/fig3.jpg");
+                        $('#fig4').attr("src", "/static/img/literacy/fig4.jpg");
+                        $('#fig6').attr("src", "/static/img/literacy/fig6.jpg");
+                        $('#fig7').attr("src", "/static/img/literacy/fig7.jpg");
+                        $('#fig8').attr("src", "/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '40%' }
+            );
+
+            $('#fig6').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig6.gif");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig3').attr("src", "/static/img/literacy/fig3.jpg");
+                        $('#fig4').attr("src", "/static/img/literacy/fig4.jpg");
+                        $('#fig5').attr("src", "/static/img/literacy/fig5.jpg");
+                        $('#fig7').attr("src", "/static/img/literacy/fig7.jpg");
+                        $('#fig8').attr("src", "/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '40%' }
+            );
+
+            $('#fig7').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig7.gif");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig3').attr("src", "/static/img/literacy/fig3.jpg");
+                        $('#fig4').attr("src", "/static/img/literacy/fig4.jpg");
+                        $('#fig5').attr("src", "/static/img/literacy/fig5.jpg");
+                        $('#fig6').attr("src", "/static/img/literacy/fig6.jpg");
+                        $('#fig8').attr("src", "/static/img/literacy/fig8.jpg");
+                },
+
+                { offset: '50%' }
+            );
+
+            $('#fig8').waypoint(
+                function(direction) {
+                        $(this).attr("src", "/static/img/literacy/fig8.gif");
+                        $('#fig1').attr("src", "/static/img/literacy/fig1.jpg");
+                        $('#fig2').attr("src", "/static/img/literacy/fig2.jpg");
+                        $('#fig3').attr("src", "/static/img/literacy/fig3.jpg");
+                        $('#fig4').attr("src", "/static/img/literacy/fig4.jpg");
+                        $('#fig5').attr("src", "/static/img/literacy/fig5.jpg");
+                        $('#fig6').attr("src", "/static/img/literacy/fig6.jpg");
+                        $('#fig7').attr("src", "/static/img/literacy/fig7.jpg");
+                },
+
+                { offset: '50%' }
+            );
+        });
+ </script>
