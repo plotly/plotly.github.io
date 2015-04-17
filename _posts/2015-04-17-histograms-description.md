@@ -16,7 +16,7 @@ Histogram plots are used to better understand how frequently or infrequently cer
 To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
                 
 
-<img src="https://plot.ly/static/img/literacy/fig1.gif" id="fig1" width="600" height="40" />
+<img src="https://plot.ly/static/img/literacy/fig1.gif" id="fig1" width="600" height="35" />
                 
 Next, count up how many data points sit inside each bin, and draw bars, one for each bin, whose heights correspond to the number of data points. This process is illustrated below.
 
