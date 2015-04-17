@@ -1,8 +1,10 @@
 .headerbar{
    background-color: #ffffff;
    height: 80px;
-   min-width: 1048px;
+/**   min-width: 1048px; **/
+   width: 100%;
    line-height: 78px;
+   display: block;
 }
 /**
 header::after
@@ -14,6 +16,7 @@ box-sizing: border-box;
 headerbar{
 line-height: 78px;
 }
+
 
 .headerbar-leftside {
     margin-left: 70px;
@@ -38,9 +41,6 @@ line-height: 78px;
 .logo em {
     font-style: normal;
 }
-
-
-
 
 .headerbar-rightside {
     display: inline-block;
