@@ -8,87 +8,85 @@ permalink: /histograms
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 
-                ##What is a Histogram?
+##What is a Histogram?
 
                 
-                    Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line.
+Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line.
 
-                    To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
+To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
                 
 
-                <img src="https://plot.ly/static/img/literacy/fig1.gif" id="fig1" width="600" height="76"/>
+<img src="https://plot.ly/static/img/literacy/fig1.gif" id="fig1" width="600" height="76"/>
                 
-                Next, count up how many data points sit inside each bin, and draw bars, one for each bin, whose heights correspond to the number of data points. This process is illustrated below.
+Next, count up how many data points sit inside each bin, and draw bars, one for each bin, whose heights correspond to the number of data points. This process is illustrated below.
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig2.jpg" id="fig2" width="600" height="226" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig2.jpg" id="fig2" width="600" height="226" />
 
-                Label the data (in the example below each data point is an SAT score), draw in a y-axis which counts the number of data points in each bin, and finally label your bins.
-                
-
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig3.jpg" id="fig3" width="600" height="267.76" />
-
-                    And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the <b class="keyword">sample size</b>), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
+Label the data (in the example below each data point is an SAT score), draw in a y-axis which counts the number of data points in each bin, and finally label your bins.
                 
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig5.jpg" id="fig5" width="423.09" height="407.88" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig3.jpg" id="fig3" width="600" height="267.76" />
 
-                ##How to Read a Histogram
-
-                
-                    The nature of a histogram makes it easy to find values for <em>ranges</em> of data, across many bins. Say you were interested in how many people scored between 1600 and 2400 on the SAT. Just add up the heights of the bars in that range.
+And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the <b class="keyword">sample size</b>), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
                 
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig6.jpg" id="fig6" width="423.09" height="259.56" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig5.jpg" id="fig5" width="423.09" height="407.88" />
 
-                
-                    A histogram shows what proportions of a dataset fall within which ranges. Another way of saying this is a histogram shows the approximate shape of the data’s <strong>distribution</strong>. You can read more about distributions <a class="link--impt" href="http://en.wikipedia.org/wiki/Distribution_(mathematics)">here</a>, but in brief, they are mathematical functions which describe the same frequency vs. value relationship shown on a histogram, but in a theoretical, idealized case.
-                
+##How to Read a Histogram
 
-                Often when we create a histogram of a dataset, we want to compare it to a theoretical distribution. SAT scores, for example, are designed to match a common distribution called a <a class="link--impt" href="http://en.wikipedia.org/wiki/Normal_distribution">Normal (or Gaussian) Distribution</a>. In the image below, you can see our histogram overlaid with a normal distribution (the lighter shaded area).
+The nature of a histogram makes it easy to find values for <em>ranges</em> of data, across many bins. Say you were interested in how many people scored between 1600 and 2400 on the SAT. Just add up the heights of the bars in that range.
                 
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig4.jpg" id="fig4" width="600" height="364.29" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig6.jpg" id="fig6" width="423.09" height="259.56" />
 
                 
-                    The animation above demonstrates what happens as our sample set of data grows: we are able to create more and more bins within the same range of values. As the sample size grows, we divide the histogram into thinner and thinner bins, and see the shape get closer and closer to a normal distribution.
-
-                ##Normalizing a Histogram
-
-                
-                    While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as <strong>normalizing</strong> (not to be confused with Normal distributions!), and can be done in a few different ways.
+A histogram shows what proportions of a dataset fall within which ranges. Another way of saying this is a histogram shows the approximate shape of the data’s <strong>distribution</strong>. You can read more about distributions <a class="link--impt" href="http://en.wikipedia.org/wiki/Distribution_(mathematics)">here</a>, but in brief, they are mathematical functions which describe the same frequency vs. value relationship shown on a histogram, but in a theoretical, idealized case.
                 
 
-                ###Probability distributions
-
-                
-                    While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a <em>random</em> person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our <strong>frequency distribution</strong> into a <strong>discrete probability distribution</strong>. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
+Often when we create a histogram of a dataset, we want to compare it to a theoretical distribution. SAT scores, for example, are designed to match a common distribution called a <a class="link--impt" href="http://en.wikipedia.org/wiki/Normal_distribution">Normal (or Gaussian) Distribution</a>. In the image below, you can see our histogram overlaid with a normal distribution (the lighter shaded area).
                 
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig7.jpg" id="fig7" width="423.09" height="259.56" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig4.jpg" id="fig4" width="600" height="364.29" />
 
-                    It turns out converting from frequency to probability is very simple, we just divide each frequency by the total sample size (so a given bin with a frequency of 50 out of 200 total data points becomes a probability of 0.25, or 25% likely). Because we divide every bar by the same number, everything shrinks by the same proportion and the shape remains the same.
+                
+The animation above demonstrates what happens as our sample set of data grows: we are able to create more and more bins within the same range of values. As the sample size grows, we divide the histogram into thinner and thinner bins, and see the shape get closer and closer to a normal distribution.
+
+##Normalizing a Histogram
+
+While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as <strong>normalizing</strong> (not to be confused with Normal distributions!), and can be done in a few different ways.
+                
+
+###Probability distributions
+
+                
+While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a <em>random</em> person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our <strong>frequency distribution</strong> into a <strong>discrete probability distribution</strong>. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
+                
+
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig7.jpg" id="fig7" width="423.09" height="259.56" />
+
+It turns out converting from frequency to probability is very simple, we just divide each frequency by the total sample size (so a given bin with a frequency of 50 out of 200 total data points becomes a probability of 0.25, or 25% likely). Because we divide every bar by the same number, everything shrinks by the same proportion and the shape remains the same.
  
-                ###Probability density distributions
+###Probability density distributions
 
-                    We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a <strong>probability density distribution</strong>. These histograms are used to model <strong>probability density functions</strong>, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of <em>any</em> value occurring is 1).
+We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a <strong>probability density distribution</strong>. These histograms are used to model <strong>probability density functions</strong>, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of <em>any</em> value occurring is 1).
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig8.jpg" id="fig8" width="423.09" height="259.56" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig8.jpg" id="fig8" width="423.09" height="259.56" />
 
-                    For a fixed data range, probability density functions are a good way to compare histograms of different sample sizes &mdash; as the sample size gets larger, the bins get thinner, so the heights stay comparable.
+For a fixed data range, probability density functions are a good way to compare histograms of different sample sizes &mdash; as the sample size gets larger, the bins get thinner, so the heights stay comparable.
 
-                ###Frequency density distributions
+###Frequency density distributions
 
                 
-                    Finally, frequency distributions can also be divided by bin width to give <strong>frequency density distributions</strong>. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.
+Finally, frequency distributions can also be divided by bin width to give <strong>frequency density distributions</strong>. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.
                 
 
-                ##Normalization Quick Reference
+##Normalization Quick Reference
 
-                    For a quick summary of the normalization types, let's look at our sample histogram again, with n data points per bin. Total data points (N) = 15 and bin width (&#916;x) = 400.
+For a quick summary of the normalization types, let's look at our sample histogram again, with n data points per bin. Total data points (N) = 15 and bin width (&#916;x) = 400.
 
-                <img class="article-img" src="https://plot.ly/static/img/literacy/fig9.jpg" id="fig9" width="423.09" height="259.56" />
+<img class="article-img" src="https://plot.ly/static/img/literacy/fig9.jpg" id="fig9" width="423.09" height="259.56" />
 
-            <table class="table--striped">
+<table class="table--striped">
                 <tr class="row--even">
                     <th><strong>Histogram Type</strong></th>
                     <th><strong>Height Formula</strong></th>
@@ -149,12 +147,12 @@ permalink: /histograms
                     <td>5.00E-4</td>
                     <td>3.33E-4</td>
                 </tr>
-            </table>
+</table>
 
-                    Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
+Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
  
-                    ###Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
+###Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
 
 
     <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
