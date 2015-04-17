@@ -9,9 +9,7 @@ permalink: /histograms
 
 
                 
-Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line.
-
-To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
+Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line. To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
                 
 
 <img src="https://plot.ly/static/img/literacy/fig1.gif" id="fig1" width="600" height="35" />
@@ -25,20 +23,20 @@ Label the data (in the example below each data point is an SAT score), draw in a
 
 <img src="https://plot.ly/static/img/literacy/fig3.jpg" id="fig3" width="600" height="267.76" />
 
-And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the <b class="keyword">sample size</b>), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
+And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the **sample size**), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
                 
 
 <img src="https://plot.ly/static/img/literacy/fig5.jpg" id="fig5" width="423.09" height="407.88" />
 
 ##How to Read a Histogram
 
-The nature of a histogram makes it easy to find values for <em>ranges</em> of data, across many bins. Say you were interested in how many people scored between 1600 and 2400 on the SAT. Just add up the heights of the bars in that range.
+The nature of a histogram makes it easy to find values for *ranges* of data, across many bins. Say you were interested in how many people scored between 1600 and 2400 on the SAT. Just add up the heights of the bars in that range.
                 
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/fig6.jpg" id="fig6" width="423.09" height="259.56" />
 
                 
-A histogram shows what proportions of a dataset fall within which ranges. Another way of saying this is a histogram shows the approximate shape of the data’s <strong>distribution</strong>. You can read more about distributions <a class="link--impt" href="http://en.wikipedia.org/wiki/Distribution_(mathematics)">here</a>, but in brief, they are mathematical functions which describe the same frequency vs. value relationship shown on a histogram, but in a theoretical, idealized case.
+A histogram shows what proportions of a dataset fall within which ranges. Another way of saying this is a histogram shows the approximate shape of the data’s **distribution**. You can read more about distributions <a class="link--impt" href="http://en.wikipedia.org/wiki/Distribution_(mathematics)">here</a>, but in brief, they are mathematical functions which describe the same frequency vs. value relationship shown on a histogram, but in a theoretical, idealized case.
                 
 
 Often when we create a histogram of a dataset, we want to compare it to a theoretical distribution. SAT scores, for example, are designed to match a common distribution called a <a class="link--impt" href="http://en.wikipedia.org/wiki/Normal_distribution">Normal (or Gaussian) Distribution</a>. In the image below, you can see our histogram overlaid with a normal distribution (the lighter shaded area).
@@ -51,13 +49,13 @@ The animation above demonstrates what happens as our sample set of data grows: w
 
 ##Normalizing a Histogram
 
-While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as <strong>normalizing</strong> (not to be confused with Normal distributions!), and can be done in a few different ways.
+While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as **normalizing** (not to be confused with Normal distributions!), and can be done in a few different ways.
                 
 
 ###Probability distributions
 
                 
-While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a <em>random</em> person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our <strong>frequency distribution</strong> into a <strong>discrete probability distribution</strong>. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
+While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a *random* person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our **frequency distribution** into a **discrete probability distribution**. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
                 
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/fig7.jpg" id="fig7" width="423.09" height="259.56" />
@@ -66,7 +64,7 @@ It turns out converting from frequency to probability is very simple, we just di
  
 ###Probability density distributions
 
-We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a <strong>probability density distribution</strong>. These histograms are used to model <strong>probability density functions</strong>, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of <em>any</em> value occurring is 1).
+We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a **probability density distribution**. These histograms are used to model **probability density functions**, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of *any* value occurring is 1).
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/fig8.jpg" id="fig8" width="423.09" height="259.56" />
 
@@ -75,7 +73,7 @@ For a fixed data range, probability density functions are a good way to compare 
 ###Frequency density distributions
 
                 
-Finally, frequency distributions can also be divided by bin width to give <strong>frequency density distributions</strong>. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.
+Finally, frequency distributions can also be divided by bin width to give **frequency density distributions**. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.
                 
 
 ##Normalization Quick Reference
