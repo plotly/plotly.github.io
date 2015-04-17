@@ -3,6 +3,12 @@ title: Plotly Help
 layout: tutorial
 ---
 
+{% for page in site.posts %}
+  <h1>{{ page.title }} </h1>
+  <a href="{{ page.permalink }}">{{ page.permalink }}</a>
+
+{% endfor %}
+
 <!-- basic charts -->
 
 <h3>
