@@ -154,10 +154,9 @@ Don't worry if this seems like a lot of calculation. Plotly does it for you, and
  
 ###Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
 
+<script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 
-    <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
-
-    <script type = 'text/javascript'>
+<script type = 'text/javascript'>
         $(document).ready(function(direction) {
             $('#fig1').waypoint(
                 function() {
@@ -278,4 +277,4 @@ Don't worry if this seems like a lot of calculation. Plotly does it for you, and
                 { offset: '50%' }
             );
         });
- </script>
+</script>
