@@ -8,7 +8,6 @@ permalink: /histograms
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 {% highlight python %}
-```
 import plotly.plotly as py
 from plotly.graph_objs import *
 
@@ -21,7 +20,6 @@ data = Data([
     )
 ])
 plot_url = py.plot(data, filename='basic-histogram')
-```
 {% endhighlight %}
 
          
