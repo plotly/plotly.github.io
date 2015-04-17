@@ -7,7 +7,9 @@ permalink: /histograms
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-
+```python
+py.iplot(Histogram(x=[1,2,3]))
+```
                 
 Histogram plots are used to better understand how frequently or infrequently certain values occur in a given set of data. To understand the method behind constructing a histogram, imagine a set of values that are spaced out along a number line. To construct a histogram, a section of the number line is divided into equal chunks, called **bins**. In the image below, the data is divided into five bins (note that for a histogram, the bins all must be the same width).
                 
