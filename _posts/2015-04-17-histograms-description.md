@@ -146,7 +146,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
 Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
  
-###Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
+####Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 
