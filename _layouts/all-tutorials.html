@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  {% include new_header.html %}
+  
+  <body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>{{page.title}}</h1>
+        <h2>{{page.subtitle}}</h2>
+      </div>
+    </header>
+
+    <div>
+      <div>
+        <section>
+          {% for page in posts %}
+            {{page.title}}
+
+  
+        </section>
+      </div>
+    </div>
+  </div>
+  </body>
+  {% include new_footer.html %}
+</html>
