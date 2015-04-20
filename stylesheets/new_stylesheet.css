@@ -1,3 +1,9 @@
+p{
+	text-align: justify;
+}
+/**************************
+HEADER STYLING
+**************************/
 .headerbar{
    background-color: #ffffff;
    height: 80px;
@@ -164,4 +170,14 @@ FOOTER STYLING
     padding: 20px 0 0 0;
     font-size: 12px;
     background-color: #f3f3f3;
+}
+
+.footerarea .columns{
+	margin-left: 10px;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+	.footerarea .columns{
+		margin-left: 0;}
 }
