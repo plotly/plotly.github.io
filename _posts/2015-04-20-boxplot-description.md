@@ -11,11 +11,11 @@ permalink: /boxplot
 ###What is a Boxplot?
 ####The Box
 
-Boxplots are used to better understand how values are spaced out in different sets of data. To understand the method behind constructing a boxplot, imagine a set of values that are spaced out along a number line. First, draw a line at the  **median ** of the data set &mdash; the value in the set which divides it evenly in half, with an equal number of points smaller and larger. If there are an even number of points in the dataset (as in the example below), the median is halfway between the two central points.
+Boxplots are used to better understand how values are spaced out in different sets of data. To understand the method behind constructing a boxplot, imagine a set of values that are spaced out along a number line. First, draw a line at the  **median** of the data set &mdash; the value in the set which divides it evenly in half, with an equal number of points smaller and larger. If there are an even number of points in the dataset (as in the example below), the median is halfway between the two central points.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig1.gif" id = 'boxplotfig1' width = "600" height = "159.3" />
 
-Next, divide each half of the dataset in half again, dividing it into four even sets of points. These four sections are called  **quartiles **. The leftmost line marks  **Q1 **, the first quartile, while the rightmost line marks  **Q3 ** or the third quartile (the median can also be called Q2).
+Next, divide each half of the dataset in half again, dividing it into four even sets of points. These four sections are called  **quartiles**. The leftmost line marks  **Q1**, the first quartile, while the rightmost line marks  **Q3 ** or the third quartile (the median can also be called Q2).
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig2.jpg" id = "boxplotfig2" width = "600" height = "159.3" />
 
@@ -25,11 +25,11 @@ Connect the lines you've drawn. This boxplot is starting to look more boxy...
 
 ####The Whiskers
 
-Every boxplot has lines at Q1, the median, and Q3. The other major feature of a boxplot is its  **whiskers **, which can be drawn using a few different methods. Plotly offers three methods, which you can switch between under Style &rarr; Show Points.
+Every boxplot has lines at Q1, the median, and Q3. The other major feature of a boxplot is its  **whiskers**, which can be drawn using a few different methods. Plotly offers three methods, which you can switch between under Style &rarr; Show Points.
 
 #####Whiskers With All Points Visible
 	
-To draw the whiskers when all points are displayed, Plotly first calculates the  **interquartile range (IQR) **, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier **). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
+To draw the whiskers when all points are displayed, Plotly first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier **). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
 	
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig4b.jpg" id = "boxplotfig4" width = "588.4" height = "197.99" />
 
@@ -56,7 +56,7 @@ You might also need to jitter the points if values are not continuous, but fall 
 	
 #####Two Types of Outliers
 
-When in "Outlier" mode, Plotly makes a distinction between two types of outliers:  **outliers ** are more than 3 &#215; IQR above Q3 or below Q1, and are represented by a <em>filled</em> circle.  **Suspected outliers ** are more than 1.5 IQR but less than 3 IQR above Q3 or below Q1 and are represented by an <em>open</em> circle, as shown below.
+When in "Outlier" mode, Plotly makes a distinction between two types of outliers:  **outliers** are more than 3 &#215; IQR above Q3 or below Q1, and are represented by a <em>filled</em> circle.  **Suspected outliers** are more than 1.5 IQR but less than 3 IQR above Q3 or below Q1 and are represented by an <em>open</em> circle, as shown below.
 	
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig8b.jpg" id = "boxplotfig8" width = "600" height = "234.24" />
 
@@ -97,9 +97,9 @@ On a boxplot, the outliers stand out and seem important. While they're interesti
 
 Usually, boxplots are used to compare multiple different series of data. It's perfectly valid to create a boxplot for one series, although a [histogram](/histogram/) might give a more complex or complete picture of the data. Some examples of data sets to compare:
 
-* **Multiple trials of the same experiment: ** In many Scientific fields, when the same experiment is run many times, the results are tracked in a boxplot to show consistencies or inconsistencies across trials.
-* **Multiple trials of different experiments: ** Many similar experiments might be run, with some condition or parameter changing each time. A boxplot might help find trends or patterns. The above example of tracking hours slept on various days fits this model.
-* **Data broken up by category: ** A boxplot can serve a similar function as a bar graph, but with many values in each category. You could make a boxplot of batting averages, with different trials corresponding to different teams, for example.
+* **Multiple trials of the same experiment:** In many Scientific fields, when the same experiment is run many times, the results are tracked in a boxplot to show consistencies or inconsistencies across trials.
+* **Multiple trials of different experiments:** Many similar experiments might be run, with some condition or parameter changing each time. A boxplot might help find trends or patterns. The above example of tracking hours slept on various days fits this model.
+* **Data broken up by category:** A boxplot can serve a similar function as a bar graph, but with many values in each category. You could make a boxplot of batting averages, with different trials corresponding to different teams, for example.
 
 You should also make sure that the data in each series follows some guidelines:
 
