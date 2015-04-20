@@ -1,21 +1,19 @@
 ---
 layout: new_layout
-title: BoxPlots
+title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
 permalink: /boxplot
 ---
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-##Intro to Boxplots
-###What is a Boxplot?
 ####The Box
 
 Boxplots are used to better understand how values are spaced out in different sets of data. To understand the method behind constructing a boxplot, imagine a set of values that are spaced out along a number line. First, draw a line at the  **median** of the data set &mdash; the value in the set which divides it evenly in half, with an equal number of points smaller and larger. If there are an even number of points in the dataset (as in the example below), the median is halfway between the two central points.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig1.gif" id = 'boxplotfig1' width = "600" height = "159.3" />
 
-Next, divide each half of the dataset in half again, dividing it into four even sets of points. These four sections are called  **quartiles**. The leftmost line marks  **Q1**, the first quartile, while the rightmost line marks  **Q3 ** or the third quartile (the median can also be called Q2).
+Next, divide each half of the dataset in half again, dividing it into four even sets of points. These four sections are called  **quartiles**. The leftmost line marks  **Q1**, the first quartile, while the rightmost line marks  **Q3** or the third quartile (the median can also be called Q2).
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig2.jpg" id = "boxplotfig2" width = "600" height = "159.3" />
 
@@ -46,6 +44,7 @@ You can also show no data points at all on a boxplot. In this case, the whiskers
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig6.jpg" id = "boxplotfig6" width = "504.52" height = "145.72" />
 
 ####Other Boxplot Features
+
 #####Too Many Points: Jitter
 	
 Sometimes when viewing all data, the points become stacked on top of each other and it's difficult to see their individual values. In this case, the points can be "jittered" in Plotly, or moved away from the number line a random distance between 0 and a value of your choosing.
@@ -84,10 +83,10 @@ Overall, the students sleep less and less as the week goes on, then they sleep m
 				
 While the boxes and whiskers show the same overall trend as the medians, they also contain much more information. Some example information you could draw from the boxes:
 
-*On weeknights, the boxes are not symmetrical. Remember that in the upper region (Q2 to Q3) and the lower region (Q1 to Q2) there are the <em>same number of points</em>. This means that the 5 students are more closely packed together in the upper region.
-*The large box on Saturday shows how inconsistent sleep habits are. The 10 students in the middle two quartiles sleep in a range that's about 4 hours wide.
-*For days without outliers, the whiskers represent the minimum and maximum values. We see that students have relatively diverse sleep patterns, with the narrowest total range (on Wednesday) being over 3 hours.
-*Weekday whiskers reinforce the pattern that the 10 students who sleep the least have very diverse (spread out) sleep patterns.
+* On weeknights, the boxes are not symmetrical. Remember that in the upper region (Q2 to Q3) and the lower region (Q1 to Q2) there are the <em>same number of points</em>. This means that the 5 students are more closely packed together in the upper region.
+* The large box on Saturday shows how inconsistent sleep habits are. The 10 students in the middle two quartiles sleep in a range that's about 4 hours wide.
+* For days without outliers, the whiskers represent the minimum and maximum values. We see that students have relatively diverse sleep patterns, with the narrowest total range (on Wednesday) being over 3 hours.
+* Weekday whiskers reinforce the pattern that the 10 students who sleep the least have very diverse (spread out) sleep patterns.
 
 ###The Outliers
 
@@ -103,9 +102,9 @@ Usually, boxplots are used to compare multiple different series of data. It's pe
 
 You should also make sure that the data in each series follows some guidelines:
 
-*The data sets must be measuring the same value, with the same units!
-*Boxplots should not be constructed for very small data sets. A data set with only three points in it, for example, shouldn't logically be divided into four quartiles. In these cases, you can just graph the data as a scatterplot, without any boxes.
-*Usually, different trials should contain the same total number of data points. If one set is much larger than another, for example, it has a larger chance of containing random outliers. Someone looking at your boxplot and seeing one series with five or six outliers, and no outliers elsewhere, might draw incorrect conclusions.
+* The data sets must be measuring the same value, with the same units!
+* Boxplots should not be constructed for very small data sets. A data set with only three points in it, for example, shouldn't logically be divided into four quartiles. In these cases, you can just graph the data as a scatterplot, without any boxes.
+* Usually, different trials should contain the same total number of data points. If one set is much larger than another, for example, it has a larger chance of containing random outliers. Someone looking at your boxplot and seeing one series with five or six outliers, and no outliers elsewhere, might draw incorrect conclusions.
 
 #####Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
 
