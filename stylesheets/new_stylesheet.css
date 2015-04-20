@@ -155,8 +155,12 @@ FOOTER STYLING
 	color: #69738a;
 }
 
+.footer-top{
+	border-top: 1px solid #cccccc;
+}
+
 .footer-bottom {
-    padding: 25px 0;
+    padding: 20px 0 0 0;
     font-size: 12px;
-	background-color: #f3f3f3;
+    background-color: #f3f3f3;
 }
