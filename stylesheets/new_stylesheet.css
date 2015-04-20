@@ -172,12 +172,33 @@ FOOTER STYLING
     background-color: #f3f3f3;
 }
 
+.respfooter{
+	width: 40%;
+	height: 200px;}
 
 /* For devices larger than 550px */
 @media (max-width: 550px) {
 	.footerarea .columns{
 	margin-left: 10px;}
 }
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+	.respfooter{
+		width: 30.6666666667%;
+		height: 200px;}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.respfooter{
+		width: 30.6666666667%;
+		height: 200px;}
+}
+
 
 
 /*************************
