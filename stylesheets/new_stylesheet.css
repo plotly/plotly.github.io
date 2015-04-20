@@ -131,7 +131,7 @@ FOOTER STYLING
 **************************/
 
 .footerarea{
-	color: #69738A;
+    color: #69738A;
 }
 
 .footerarea h6 {
@@ -147,8 +147,8 @@ FOOTER STYLING
     color: #8c97af;
     font-size: 12px;
     font-weight: 400;
-	list-style: none;
-	line-height: 12px;
+    list-style: none;
+    line-height: 12px;
     font-family: "Open sans",verdana,arial,sans-serif;
 }
 
@@ -176,5 +176,92 @@ FOOTER STYLING
 /* For devices larger than 550px */
 @media (max-width: 550px) {
 	.footerarea .columns{
-		margin-left: 10px;}
+	margin-left: 10px;}
+}
+
+
+/*************************
+POP-UP MENU STYLING
+**************************/
+.hamburger{
+	display: none;
+}
+
+#popmenufull{
+	z-index: 99999;
+	position: fixed;
+	opacity: 0.90;
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.popupheader{
+	display: block;
+	width: 100%;
+	clear: both;
+	height: 80px;
+
+}
+
+.popupheader a{
+	line-height: 78px;
+}
+
+.popupmenu{
+	padding-top: 20px;
+}
+
+.popupmenu li{
+	list-style: none;
+}
+
+.popupmenu a{
+	color: #69738a;
+	text-decoration: none;
+    	font-size: 20px;
+    	font-weight: 150;
+}
+.popupmenu a:hover{
+	color: #447bdc;
+}
+
+.close{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+	.hidesmall{
+	display: none
+	}
+	.headerbar{
+	width: 100%;
+	min-width: 150px;
+	}
+	
+	.headerbar-leftside {
+	margin-left: 20px;
+	max-width: 100px;
+	margin-right: 25px;
+	}
+
+	.hamburger{
+	float: right;
+	display: block;
+	max-width: 40px;
+	max-height: 30px;
+    	margin-right: 40px;
+	margin-top: 20px;
+	}
+
 }
