@@ -41,6 +41,8 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
+.space	{ 
+  margin: 1px;}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -401,6 +403,7 @@ hr {
 img { 
   margin: auto;
   display: block;
+  max-width: 100%;
 }
 
 /* Media Queries
