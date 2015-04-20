@@ -119,3 +119,44 @@ border-bottom: 2px solid #447bdc;
 color: #447bcd;
 cursor: pointer
 }
+
+/*************************
+FOOTER STYLING
+**************************/
+
+.footerarea{
+	color: #69738A;
+}
+
+.footerarea h6 {
+    color: #447bdc;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footerarea li{
+    color: #8c97af;
+    font-size: 12px;
+    font-weight: 400;
+	list-style: none;
+	line-height: 12px;
+    font-family: "Open sans",verdana,arial,sans-serif;
+}
+
+.footerarea a{
+	text-decoration: none;
+	color: #8c97af;
+}
+
+.footerarea a:hover{
+	color: #69738a;
+}
+
+.footer-bottom {
+    padding: 25px 0;
+    font-size: 12px;
+	background-color: #f3f3f3;
+}
