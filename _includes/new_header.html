@@ -13,7 +13,7 @@
         </a>
     </div>
 
-  <div class="headerbar-rightside">
+  <div class="headerbar-rightside hidesmall">
       
       <a href="#" id="toolsignin" class="headerbar-nav-item" target="_self">Sign In</a>
       <a href="#" id="signup" class="secondary" target="_self">sign up</a>
@@ -27,7 +27,7 @@
       </a>
   </div>
 
-  <div class="headerbar-nav">
+  <div class="headerbar-nav hidesmall">
       <a href="/plot" class="link --headerbar" target="_self">
       <span class="headerbar-nav-item ">Workspace</span>
       </a>
@@ -44,5 +44,51 @@
       <span class="headerbar-nav-item ">Enterprise</span>
       </a>
   </div>
+  
+  <div class="hamburger">
+		<a href='#popmenufull' onclick='return clickfullmenu();'>
+			<img src="hamburger.png" alt="Menu" id="hamburgerlink" onmouseover="this.src='hamburgerdark.png'" onmouseout="this.src='hamburger.png'">
+		</a>
+	</div>
 
 </div>
+
+<!-- POP UP MENU -->
+	<div id="popmenufull" style="display:none;">	 
+			<div class="popupheader">
+					<div class="headerbar-leftside">
+						<a href="/feed/" class="logo">
+							<i class="ploticon-plotlylogo"></i>
+							<em>plotly</em>
+						</a>
+					</div>
+
+
+					
+					<a href='#popmenufull' onclick='return clickfullmenu();'>
+					<div class="close"><img alt="close" src="close.png"></div> </a>
+			</div>	
+						
+			<div class="popupmenu">
+				<ul>
+					<li><a href="">Workspace</a></li>
+					<li><a href="">Explore</a></li>
+					<li><a href="">API</a></li>
+					<li><a href="">Enterprise</a></li>
+				</ul>
+			</div>
+
+	</div>
+
+  <!-- POPUP MENU FULL PAGE -->
+	<script>
+		function clickfullmenu(){
+			var thediv=document.getElementById('popmenufull');
+			if(thediv.style.display == "none"){
+				thediv.style.display = "";
+			}else{
+				thediv.style.display = "none";
+			}
+			return false;
+				}
+	</script>
