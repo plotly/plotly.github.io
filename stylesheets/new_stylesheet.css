@@ -132,6 +132,7 @@ FOOTER STYLING
 
 .footerarea{
     color: #69738A;
+    background-color: #F3F3F3;
 }
 
 .footerarea h6 {
@@ -163,13 +164,12 @@ FOOTER STYLING
 
 .footer-top{
 	padding-top: 30px;
-	border-top: 1px solid #cccccc;
 }
 
 .footer-bottom {
     padding: 20px 0 0 0;
     font-size: 12px;
-    background-color: #f3f3f3;
+    background-color: #e0e2e5;
 }
 
 .respfooter{
