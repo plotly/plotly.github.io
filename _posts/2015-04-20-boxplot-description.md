@@ -165,7 +165,7 @@ You should also make sure that the data in each series follows some guidelines:
         $('#boxplotfig3').waypoint(
                 function(direction)
                 {
-                        $(this).attr("src", "/static/img/literacy/boxplot/boxplotfig3.gif");
+                        $(this).attr("src", "https://plot.ly/static/img/literacy/boxplot/boxplotfig3.gif");
                         $('#boxplotfig2').attr("src", "https://plot.ly/static/img/literacy/boxplot/boxplotfig2.jpg");
                         $('#boxplotfig1').attr("src", "https://plot.ly/static/img/literacy/boxplot/boxplotfig1.jpg");
                         $('#boxplotfig4').attr("src", "https://plot.ly/static/img/literacy/boxplot/boxplotfig4b.jpg");
