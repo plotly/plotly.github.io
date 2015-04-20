@@ -143,6 +143,14 @@ For a quick summary of the normalization types, let's look at our sample histogr
                 </tr>
 </table>
 
+Histogram Type|Height Formula|Description|400 - 800|800 - 1200|1200 - 1600|1600 - 2000|2000 - 2400
+--------------|--------------|-----------|---------|----------|-----------|-----------|-----------
+Frequency Distribution|n|Sum bar heights to find number of data points in range|1|4|5|3|2
+Discrete Probability Distribution|n/N|Sum bar heights to find probability of data falling in range|0.067|0.267|0.333|0.200|0.133
+Discrete Percentage Probability Distribution|100 &#215; n/N|Sum bar heights to find percent probability of data falling in range|6.67|26.67|33.33|20.00|13.33
+Frequency Density Distribution|n/&#916;x|Sum product of bar heights and bin width to find number of data points in range|2.50E-3|1.00E-2|1.25E-2|7.50E-3|5.00E-3
+Probability Density Distribution|(n/N)/&#916;x|Sum product of bar heights and bin width to find probability of data falling in range|1.67E-4|6.67E-4|8.33E-4|5.00E-4|3.33E-4
+
 Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
  
