@@ -119,7 +119,7 @@ permalink: /make-a-line-or-scatter-graph
 <tr>
 <td>Your finished chart should look something like this.</td>
 <td>
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Alt Text](https://jackdev_img.s3.amazonaws.com/MattSundquist/493/2_5VEI6V286QQEAAEE4KSV16HJDJFKR4.png?Signature=4%2BUtoPrwMeK4iyfPLPdwN6Na%2BKQ%3D&Expires=1521741473&AWSAccessKeyId=AKIAIBZ7BBOARABGY22Q)
 </td>
 </tr>
 </tbody>
