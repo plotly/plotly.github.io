@@ -247,7 +247,7 @@ POP-UP MENU STYLING
 .popupmenu a{
 	color: #69738a;
 	text-decoration: none;
-    	font-size: 80px;
+    	font-size: 40px;
     	font-weight: 150;
 }
 .popupmenu a:hover{
