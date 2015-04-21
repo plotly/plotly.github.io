@@ -144,7 +144,7 @@ popover. Select the “Page” option, and hide the arrow. Because our note has 
 <td>
 <a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png" data-lightbox="image-14"><br />
 <img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png" alt="How to make a bubble chart online 14" /><br />
-</a>Source: GapMinder via &lt;a href=&#8221;https://plot.ly/bchartoff/707&#8243;&gt;bchartoff&lt;/a&gt;
+Source: GapMinder
 </td>
 </tr>
 <tr>
