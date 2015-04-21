@@ -4,7 +4,6 @@ title: Make a Line or Scatter Graph
 subtitle: A Step by Step Guide to Line and Scatter Graphs
 permalink: /make-a-line-or-scatter-graph
 ---
-
 ##Make a line or scatter graph
 
 <iframe src="https://plot.ly/~cimar/195.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
@@ -70,14 +69,9 @@ permalink: /make-a-line-or-scatter-graph
 
 ###Step 3: Style it!
 
+Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.| [![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)
+
 <table>
-<tbody>
-<tr>
-<td>Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png" data-lightbox="image-14">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png" alt="How to make a line graph and scatter plot online 14" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png" data-lightbox="image-14">
-</a></td>
-</tr>
 <tr>
 <td>This is how the “Style” tab of the TRACES popover on “trace 0” should look. We’ve smoothed the line, changed the stroke, and made the markers larger.</td>
 <td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png" data-lightbox="image-05">
@@ -119,13 +113,8 @@ permalink: /make-a-line-or-scatter-graph
 <tr>
 <td>Your finished chart should look something like this.</td>
 <td>
-
-[Alt Text](https://jackdev_img.s3.amazonaws.com/MattSundquist/493/2_5VEI6V286QQEAAEE4KSV16HJDJFKR4.png?Signature=4%2BUtoPrwMeK4iyfPLPdwN6Na%2BKQ%3D&Expires=1521741473&AWSAccessKeyId=AKIAIBZ7BBOARABGY22Q)
-
+![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
 </td>
 </tr>
 </tbody>
 </table>
-
-|![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)|lskdfjls|
-
