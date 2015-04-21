@@ -1,6 +1,6 @@
 ---
 title: Data integrations
-layout: tutorial
+layout: new_layout
 permalink: /getting-data
 ---
 
