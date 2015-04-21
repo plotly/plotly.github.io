@@ -127,5 +127,5 @@ permalink: /make-a-line-or-scatter-graph
 </tbody>
 </table>
 
-![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
+|![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)|lskdfjls|
 
