@@ -143,7 +143,9 @@ popover. Select the “Page” option, and hide the arrow. Because our note has 
 <td>Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source.</td>
 <td>
 [<img src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png"/>](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png)
-Source: GapMinder via [bchartoff](https://plot.ly/bchartoff/707)</td>
+
+Source: GapMinder via [bchartoff](https://plot.ly/bchartoff/707)
+</td>
 </tr>
 <tr>
 <td>Your finished chart should look something like this:
