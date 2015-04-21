@@ -6,14 +6,10 @@ permalink: /make-bubble-chart
 ---
 
 ##Make a bubble chart
-Share, tweet or +1 this page
-[<img src="https://plot.ly/online-graphing/wp-content/plugins/simple-share-buttons-adder/buttons/simple/facebook.png" title="Facebook" class="ssba" alt="Share on Facebook" />](http://www.facebook.com/sharer.php?u=https://plot.ly/online-graphing/tutorials/make-a-bubble-chart/"  target="_blank)
-[<img src="https://plot.ly/online-graphing/wp-content/plugins/simple-share-buttons-adder/buttons/simple/twitter.png" title="Twitter" class="ssba" alt="Tweet about this on Twitter" />](http://twitter.com/share?url=https://plot.ly/online-graphing/tutorials/make-a-bubble-chart/&amp;text=Make+a+bubble+chart+)
-[<img src="https://plot.ly/online-graphing/wp-content/plugins/simple-share-buttons-adder/buttons/simple/google.png" title="Google+" class="ssba" alt="Share on Google+" /></a>](https://plus.google.com/share?url=https://plot.ly/online-graphing/tutorials/make-a-bubble-chart/)
 
 <iframe src="https://plot.ly/~cimar/211.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
-##[Step 1: Set up the grid](#step-1:-set-up-the-grid)
 
+##Step 1: Set up the grid
 
 <table>
 <tbody>
@@ -96,14 +92,11 @@ popover in the toolbar.This is what the “Range” tab for the X Axis looks lik
 </tr>
 </tbody>
 </table>
-<h1 id="step-3:-style-and-annotate!" class="subsection" style="text-align: center;"><a href="#step-3:-style-and-annotate!">
-Step 3: Style and annotate!
-</a>
-For more on bubble charts, check out our <a href="http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts">blog post</a>.
-For more on bubble charts, check out our <a href="http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts">blog post</a>.
-&nbsp;
-&nbsp;
-&nbsp;
+
+##Step 3: Style and annotate!
+
+For more on bubble charts, check out our (blog post)[http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts]
+
 <table>
 <tbody>
 <tr>
