@@ -5,8 +5,6 @@ subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /make-a-graph-with-error-bars
 ---
 
-##Make a graph with error bars</span></h1>
-
 <iframe src="https://plot.ly/~Dreamshot/1151.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
 
 ###Step 1: Set up the grid
