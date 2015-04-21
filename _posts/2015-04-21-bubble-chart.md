@@ -5,8 +5,6 @@ subtitle: A Step by Step Guide to Bubble Charts
 permalink: /make-bubble-chart
 ---
 
-##Make a bubble chart
-
 <iframe src="https://plot.ly/~cimar/211.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
 
 ##Step 1: Set up the grid
@@ -143,9 +141,9 @@ popover. Select the “Page” option, and hide the arrow. Because our note has 
 </tr>
 <tr>
 <td>Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png" data-lightbox="image-14">
-<img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png" alt="How to make a bubble chart online 14" />
-</a>Source: GapMinder via &lt;a href=&#8221;https://plot.ly/bchartoff/707&#8243;&gt;bchartoff&lt;/a&gt;</td>
+<td><a href="" data-lightbox="image-14">
+[<img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png" alt="How to make a bubble chart online 14"/>](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-bubble-chart-online/image14.png)
+Source: GapMinder via [bchartoff](https://plot.ly/bchartoff/707)</td>
 </tr>
 <tr>
 <td>Your finished chart should look something like this:
