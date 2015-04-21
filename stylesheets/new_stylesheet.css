@@ -326,7 +326,7 @@ POP-UP MENU STYLING
 	margin-top: 20px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1090px) {
 	.hidesmall{
 	display: none
 	}
