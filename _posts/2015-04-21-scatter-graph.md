@@ -70,50 +70,10 @@ permalink: /make-a-line-or-scatter-graph
 ###Step 3: Style it!
 
 Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.| [![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)
-
-<table>
-<tr>
-<td>This is how the “Style” tab of the TRACES popover on “trace 0” should look. We’ve smoothed the line, changed the stroke, and made the markers larger.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png" data-lightbox="image-05">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png" alt="How to make a line graph and scatter plot online 05" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png" data-lightbox="image-05">
-</a></td>
-</tr>
-<tr>
-<td>This is how the “Style” tab of the TRACES popover on “trace 1” should look. We’ve changed the stroke and its weight.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image01.png" data-lightbox="image-01">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image01.png" alt="How to make a line graph and scatter plot online 01" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image01.png" data-lightbox="image-01">
-</a></td>
-</tr>
-<tr>
-<td>This is how the “Style” tab of the TRACES popover on “trace 2” should look. We’ve changed the shape of the marker and its outline.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image03.png" data-lightbox="image-03">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image03.png" alt="How to make a line graph and scatter plot online 03" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image03.png" data-lightbox="image-03">
-</a></td>
-</tr>
-<tr>
-<td>This is how the LAYOUT popover should look. We’re giving the plot a grey background.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image17.png" data-lightbox="image-17">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image17.png" alt="How to make a line graph and scatter plot online 17" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image17.png" data-lightbox="image-17">
-</a><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image07.png" data-lightbox="image-07">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image07.png" alt="How to make a line graph and scatter plot online 07" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image07.png" data-lightbox="image-07">
-</a></td>
-</tr>
-<tr>
-<td>This is how the AXES popover should look.  We’re giving the plot white gridlines.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image15.png" data-lightbox="image-15">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image15.png" alt="How to make a line graph and scatter plot online 15" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image15.png" data-lightbox="image-15">
-</a></td>
-</tr>
-<tr>
-<td>We’re hiding our legend in the LEGEND popover.</td>
-<td><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image18.png" data-lightbox="image-18">
-</a><img class="aligncenter" title="" src="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image18.png" alt="How to make a line graph and scatter plot online 18" /><a href="https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image18.png" data-lightbox="image-18">
-</a></td>
-</tr>
-<tr>
-
-</tr>
-</tbody>
-</table>
-
+This is how the “Style” tab of the TRACES popover on “trace 0” should look. We’ve smoothed the line, changed the stroke, and made the markers larger.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png)
+This is how the “Style” tab of the TRACES popover on “trace 1” should look. We’ve changed the stroke and its weight.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image01.png)
+This is how the “Style” tab of the TRACES popover on “trace 2” should look. We’ve changed the shape of the marker and its outline.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image03.png)
+This is how the LAYOUT popover should look. We’re giving the plot a grey background.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image17.png)
+This is how the AXES popover should look.  We’re giving the plot white gridlines.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image15.png)
+We’re hiding our legend in the LEGEND popover.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image18.png)
 Your finished chart should look something like this.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
