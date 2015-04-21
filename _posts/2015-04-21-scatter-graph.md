@@ -6,7 +6,7 @@ permalink: /make-a-line-or-scatter-graph
 ---
 ##Make a line or scatter graph
 
-<iframe ![](https://plot.ly/~cimar/195.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
+<iframe src="https://plot.ly/~cimar/195.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
 
 ###Step 1: Set up the grid
 
