@@ -69,7 +69,8 @@ permalink: /make-a-line-or-scatter-graph
 
 ###Step 3: Style it!
 
-Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.| [![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)
+Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.|
+[![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image14.png)
 This is how the “Style” tab of the TRACES popover on “trace 0” should look. We’ve smoothed the line, changed the stroke, and made the markers larger.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image05.png)
 This is how the “Style” tab of the TRACES popover on “trace 1” should look. We’ve changed the stroke and its weight.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image01.png)
 This is how the “Style” tab of the TRACES popover on “trace 2” should look. We’ve changed the shape of the marker and its outline.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image03.png)
