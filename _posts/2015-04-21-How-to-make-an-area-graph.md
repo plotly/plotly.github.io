@@ -21,7 +21,9 @@ Area plots are the same as scatter and line plots, but with different trace opti
 </tr>
 </tbody>
 </table>
+
 ###Step 2: Adding fill under traces
+
 To make an area plot from a line plot, edit the “Fill To” attribute in the Mode tab of the TRACES popover.
 <table>
 <tbody>
