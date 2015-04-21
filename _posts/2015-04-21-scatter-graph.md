@@ -4,6 +4,7 @@ title: Make a Line or Scatter Graph
 subtitle: A Step by Step Guide to Line and Scatter Graphs
 permalink: /make-a-line-or-scatter-graph
 ---
+##Make a line or scatter graph
 
 <iframe src="https://plot.ly/~cimar/195.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
 
@@ -110,10 +111,9 @@ Now your plot should look something like this: a mixed line and scatter plot. We
 </a></td>
 </tr>
 <tr>
-<td>Your finished chart should look something like this.</td>
-<td>
-![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
-</td>
+
 </tr>
 </tbody>
 </table>
+
+Your finished chart should look something like this.| ![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
