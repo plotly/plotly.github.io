@@ -119,7 +119,7 @@ permalink: /make-a-line-or-scatter-graph
 <tr>
 <td>Your finished chart should look something like this.</td>
 <td>
-![How to make a line graph and scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-line-graph-and-scatter-plot-online/image04.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 </td>
 </tr>
 </tbody>
