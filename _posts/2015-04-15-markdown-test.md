@@ -1,6 +1,6 @@
 ---
 title: Markdown
-layout: tutorial
+layout: new_layout
 permalink: markdown-test
 ---
 
