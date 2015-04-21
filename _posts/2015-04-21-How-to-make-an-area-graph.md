@@ -1,10 +1,9 @@
 ---
 layout: two_column_layout
-title: Make an Area Graph
-subtitle: How to
+title: How to Make an Area Graph
+subtitle: A Step by Step Guide to Making an Area Graph
 permalink: /make-an-area-graph
 ---
-##How to make an area graph
 
 <iframe src="https://plot.ly/~Dreamshot/564.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
 
