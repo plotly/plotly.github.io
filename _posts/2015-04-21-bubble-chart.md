@@ -95,7 +95,7 @@ popover in the toolbar.This is what the “Range” tab for the X Axis looks lik
 
 ##Step 3: Style and annotate!
 
-For more on bubble charts, check out our [blog pos](http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts)
+For more on bubble charts, check out our [blog post](http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts)
 
 <table>
 <tbody>
