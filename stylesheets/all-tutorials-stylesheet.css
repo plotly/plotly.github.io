@@ -44,4 +44,7 @@ img{
     width: 30.6666666667%;
     margin-left: 1%;
     margin-right: 1%;
+    width: 100%;
+    float: left;
+    box-sizing: border-box; 
 }
