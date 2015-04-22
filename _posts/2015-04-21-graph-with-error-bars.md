@@ -5,7 +5,11 @@ subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /make-a-graph-with-error-bars
 ---
 
-<iframe src="https://plot.ly/~Dreamshot/1151.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
+<div>
+    <a href="https://plot.ly/~Dreamshot/1151/" target="_blank" title="Points Scored in First Seven Games of Season" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/1151.png" alt="Points Scored in First Seven Games of Season" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:1151" src="https://plot.ly/embed.js" async></script>
+</div>
+
 
 ###Step 1: Set up the grid
 
