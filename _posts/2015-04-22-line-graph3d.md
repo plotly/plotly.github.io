@@ -21,6 +21,7 @@ Three-dimensional line graphs are often used by mathematicians and scientists to
 ###Step 1: Set up the grid
 
 We’re going to set up the grid with three columns of data, each representing one of the functions of $ t $ above. If you want a shortcut, you can find the data at: [https://plot.ly/~mariahh/71.](https://plot.ly/~mariahh/71)
+
 To start, visit the Plotly workspace at [https://plot.ly/plotSelect](https://plot.ly/plot) +NEW, and then Grid. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image10.png)
 Select 3d line plots from the MAKE A PLOT menu.The instructions in the sidebar explain the structure of the data we will need to produce. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image05.png)
 First, we will generate the $ z(t)=t $ values using the *Generate x-values* option in the DATA TOOLS menu. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image04.png)
