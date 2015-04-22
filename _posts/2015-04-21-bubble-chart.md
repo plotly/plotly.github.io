@@ -4,6 +4,7 @@ title: Make a Bubble Chart
 subtitle: A Step by Step Guide to Bubble Charts
 permalink: /make-bubble-chart
 imageurl: http://i.imgur.com/nw806BP.png
+state: active
 ---
 
 <div>
