@@ -1,7 +1,7 @@
 ---
 layout: all-tutorials
-title: PLotly Tutorials
-subtitle: Online Graphing for everyone
+title: Plotly Tutorials
+subtitle: Online Graphing for Everyone
 permalink: /all-tutorials
 ---
 
