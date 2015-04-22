@@ -4,7 +4,7 @@
 }
 
 .thumpad:hover{
-	box-shadow: inset 0px 0px 20px 20px #ffffff;
+	box-shadow: inset 0px 0px 20px 20px teal;
 }
 
 .bigcontainer{
