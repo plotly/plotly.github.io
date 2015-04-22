@@ -3,6 +3,11 @@
 	background-color: #ffffff;
 }
 
+.thumpad p{
+	margin: 10px;
+}
+
+
 .thumpad:hover{
 	box-shadow: 0px 0px 30px 5px #cccccc;
 }
