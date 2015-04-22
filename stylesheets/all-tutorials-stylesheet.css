@@ -1,0 +1,38 @@
+.thumpad{
+	margin-bottom: 10px;
+	background-color: #ccc;
+}
+
+.bigcontainer{
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+.centered{
+	text-align: center;
+}
+
+.totpadding{
+	margin-top: 40px;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+img{
+	min-width: 100%;
+}
+
+.sectionbg{
+    background-color: #F3F3F3;
+	width: 100%;
+}
+
+.sectionseparator{
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
