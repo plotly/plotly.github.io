@@ -78,7 +78,46 @@
 							{% endif %}
 		        			{% endfor %}
 					</div>
-
+					<div class="two columns">
+						<h6>Statistical</h6>
+						{% for page in site.posts %}
+							{% if page.category == 'statistical' %}
+								<li> {{page.title}} </li>
+							{% endif %}
+		        			{% endfor %}
+					</div>
+					<div class="two columns">
+						<h6>3D</h6>
+						{% for page in site.posts %}
+							{% if page.category == '3D' %}
+								<li> {{page.title}} </li>
+							{% endif %}
+		        			{% endfor %}
+					</div>
+					<div class="two columns">
+						<h6>Text & Links</h6>
+						{% for page in site.posts %}
+							{% if page.category == 'textandlinks' %}
+								<li> {{page.title}} </li>
+							{% endif %}
+		        			{% endfor %}
+					</div>
+					<div class="two columns">
+						<h6>Classroom</h6>
+						{% for page in site.posts %}
+							{% if page.category == 'classroom' %}
+								<li> {{page.title}} </li>
+							{% endif %}
+		        			{% endfor %}
+					</div>
+					<div class="two columns">
+						<h6>Videos</h6>
+						{% for page in site.posts %}
+							{% if page.category == 'videos' %}
+								<li> {{page.title}} </li>
+							{% endif %}
+		        			{% endfor %}
+					</div>
 
 
 				</div>
