@@ -1,6 +1,7 @@
 .thumpad{
 	margin-bottom: 10px;
 	background-color: #ccc;
+	box-shadow: 60px -16px teal;
 }
 
 .bigcontainer{
