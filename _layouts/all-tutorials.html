@@ -69,15 +69,15 @@
 
 		<div class="sectionseparator totpadding">
 				<h2 class="centered">Explore</h2>
+
 				<div class="row">
-					lksfdjlsk
-				</div>
-				<div class="row">
-					<div class="two columns"> 
+
 						{% for page in site.posts %}
-							<li> {{page.title}} </li>
+							<div class="two columns">
+								<li> {{page.title}} </li>
+							</div>
 		        			{% endfor %}
-					</div>
+
 					<div class="two columns"> 
 						<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
 						<p> Section Title </p>
