@@ -70,12 +70,16 @@
 				<h2 class="centered">Explore</h2>
 
 				<div class="row">
-
+					<div class="two columns">
+						<h6>Basic</h6>
 						{% for page in site.posts %}
-							<div class="two columns">
+							{% if page.category == 'basic' %}
 								<li> {{page.title}} </li>
-							</div>
+							{% endif %}
 		        			{% endfor %}
+					</div>
+
+
 
 				</div>
 		</div>
