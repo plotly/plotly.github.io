@@ -4,6 +4,7 @@ title: Histograms
 subtitle: What is a histogram?
 permalink: /histograms
 imageurl: http://i.imgur.com/0fcTTZC.png
+state: active
 ---
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
