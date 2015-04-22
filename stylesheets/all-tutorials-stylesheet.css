@@ -40,7 +40,7 @@ img{
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
-.column:first-child,.column, .columns {
+.column:first-child, .columns:first-child, .column, .columns {
     margin-left: 1%;
     margin-right: 1%;
 }
