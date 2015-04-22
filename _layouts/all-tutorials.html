@@ -41,7 +41,12 @@
 		<div class="sectionseparator totpadding">
 			<h2 class="centered">PLOTLY TUTORIALS</h2>
 				<div class="row">
-					lksfdjlsk
+					{% for page in site.posts %}
+						<div class="four columns thumpad"> 
+							<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
+							<p> {{page.title}} </p>
+						</div>
+	        			{% endfor %}
 				</div>
 				<div id="container" class="js-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
 		
