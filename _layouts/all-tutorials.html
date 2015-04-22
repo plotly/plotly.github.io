@@ -42,9 +42,11 @@
 			<h2 class="centered">PLOTLY TUTORIALS</h2>
 				<div class="row">
 					{% for page in site.posts %}
-						<div class="thumpad alltutcol"> 
-							<img src="{{page.imageurl}}">
-							<p> {{page.title}} </p>
+						{% if page.state == 'active' %}  
+							<div class="thumpad alltutcol"> 
+								<img src="{{page.imageurl}}">
+								<p> {{page.title}} </p>
+						{% endif %}
 
 						</div>
 	        			{% endfor %}
@@ -84,9 +86,6 @@
 	</div>
     </div>
   
-
-
-
 
   </body>
   {% include new_footer.html %}
