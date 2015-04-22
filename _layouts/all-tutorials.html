@@ -76,6 +76,10 @@
 					<div class="two columns"> 
 						<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
 						<p> Section Title </p>
+						{% for page in site.posts %}
+							<li> {{page.title}} </li>
+						</div>
+	        			{% endfor %}
 					</div>
 					<div class="two columns"> 
 						<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
