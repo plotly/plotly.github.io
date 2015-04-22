@@ -41,18 +41,14 @@
 		<div class="sectionseparator totpadding">
 			<h2 class="centered">PLOTLY TUTORIALS</h2>
 				<div class="row">
-					{% for page in site.posts %}
-						{% if page.state == 'active' %}  
+					{% for page in site.posts where page.state == 'active'%}
 							<div class="thumpad alltutcol"> 
 								<img src="{{page.imageurl}}">
 								<p> {{page.title}} </p>
 							</div>
-						{% endif %}
+
 
 	        			{% endfor %}
-				</div>
-				<div id="container" class="js-masonry" data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
-		
 				</div>
 		</div>
 	
