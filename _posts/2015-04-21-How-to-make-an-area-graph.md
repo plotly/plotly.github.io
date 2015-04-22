@@ -4,6 +4,7 @@ title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
 permalink: /make-an-area-graph
 imageurl: http://i.imgur.com/oEA0qhx.png
+state: active
 ---
 
 <div>
