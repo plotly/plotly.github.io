@@ -16,9 +16,7 @@
         	<div class="container paddingbottom">
 	        	<h1 class="centered">{{page.title}}</h1>
 	        	<h2 class="centered">{{page.subtitle}}</h2>
-	        	{% for page in site.posts %}
-	        			<p> {{page.title}} </p>
-	        	{% endfor %}
+
 
 		</div>
 		<div class="row"> 
@@ -56,6 +54,12 @@
 				<h2 class="centered">Projects</h2>
 				<h3 class="centered">In need of inspiration? See what Plot.ly can do!</h3>
 				<div class="row">
+					{% for page in site.posts %}
+						<div class="four columns thumpad"> 
+							<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
+							<p> {{page.title}} </p>
+						</div>
+	        			{% endfor %}
 					<div class="four columns thumpad"> 
 						<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
 						<p> Section Title </p>
