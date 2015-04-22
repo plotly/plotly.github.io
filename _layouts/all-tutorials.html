@@ -17,6 +17,10 @@
 	        	<h1 class="centered">{{page.title}}</h1>
 	        	<h2 class="centered">{{page.subtitle}}</h2>
 	        	{% for page in posts %}
+	        		{% assign loopindex = forloop.index | modulo: 4 %}
+				 {% if loopindex == 1 %}
+        			<div class="row">
+        			{% endif %}
 		        	<p>{{page.title}}</p>
 		        {% endfor %}
 		</div>
