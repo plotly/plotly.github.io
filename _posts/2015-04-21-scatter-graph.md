@@ -6,7 +6,7 @@ permalink: /make-a-line-or-scatter-graph
 ---
 
 <div>
-    <a href="https://plot.ly/~cimar/195/" target="_blank" title="trace 0, trace 2, trace 1" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/195.png" alt="trace 0, trace 2, trace 1" style="max-width: 100%;width: 1522px;"  width="1522" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~cimar/195/" target="_blank" title="trace 0, trace 2, trace 1" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/195.png" alt="trace 0, trace 2, trace 1" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="cimar:195" src="https://plot.ly/embed.js" async></script>
 </div>
 
