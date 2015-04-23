@@ -5,6 +5,7 @@ subtitle: A Step by Step Guide to Making a 3D Line Graph
 permalink: /make-a-3d-line-graph
 imageurl: http://i.imgur.com/1Gp0Mcx.png
 state: active
+tags: 3d
 ---
 
 <div>
