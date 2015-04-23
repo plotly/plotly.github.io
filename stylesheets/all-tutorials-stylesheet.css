@@ -59,10 +59,17 @@ img{
 
 .sectionseparator li{
 	list-style: none;
-	color: #8c97af;
 	font-size: 12px;
 }
 
+.sectionseparator a{
+	text-decoration: none;
+	color: #8c97af;
+}
+
+.sectionseparator a:hover{
+	color: #69738a;
+}
 
 @media (min-width: 550px) {
 	.alltutcol {
