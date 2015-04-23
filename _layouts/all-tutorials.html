@@ -43,10 +43,10 @@
 				<div class="row">
 					{% for page in site.posts %}
 						{% if page.state == 'active' %}
-							<div class="thumpad alltutcol tutblocks"> 
+							<a href="http://help.plot.ly/{{page.permalink}}><div class="thumpad alltutcol tutblocks"> 
 								<img src="{{page.imageurl}}">
 								<p> {{page.title}} </p>
-							</div>
+							</div></a>
 						{% endif %}
 	        			{% endfor %}
 				</div>
