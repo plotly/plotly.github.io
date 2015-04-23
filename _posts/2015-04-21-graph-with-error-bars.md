@@ -1,6 +1,6 @@
 ---
 layout: two_column_layout
-title: Make a graph with error bars
+title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /make-a-graph-with-error-bars
 imageurl: http://i.imgur.com/dweTBwv.png?1
