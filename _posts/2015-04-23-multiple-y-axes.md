@@ -22,7 +22,7 @@ Create a Plotly graph or open a graph with 2 or more traces, like the one to the
 
 Now, we’ll add a second y-axis to the right-hand-side of this plot. Make sure that your browser is pointed to [https://plot.ly/plot](https://plot.ly/plot) and that you have this chart &#8211; [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) &#8211; or another one open for editing.
 
-Click on the AXES icon on the Plotly toolbar to open the AXES editing popover. ![How to make a graph with multiple axes online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-graph-with-multiple-axes-online/image11.png)
+Click on the AXES icon on the Plotly toolbar to open the AXES editing popover. | ![How to make a graph with multiple axes online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-graph-with-multiple-axes-online/image11.png)
 
 The AXES popover appears. Here’s what it looks like. Click on the “+” to add a new axis. | ![How to make a graph with multiple axes online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-graph-with-multiple-axes-online/image10.png)
 
