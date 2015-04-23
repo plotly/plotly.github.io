@@ -90,7 +90,7 @@
 					<div class="two columns">
 						<h6>3D</h6>
 						{% for page in site.posts %}
-							{% if page.tags contains == '3D' %}
+							{% if page.tags contains '3D' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
@@ -98,7 +98,7 @@
 					<div class="two columns">
 						<h6>Text & Links</h6>
 						{% for page in site.posts %}
-							{% if page.category == 'textandlinks' %}
+							{% if page.tags contains 'textandlinks' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
@@ -106,7 +106,7 @@
 					<div class="two columns">
 						<h6>Classroom</h6>
 						{% for page in site.posts %}
-							{% if page.category == 'classroom' %}
+							{% if page.tags contains 'classroom' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
@@ -114,7 +114,7 @@
 					<div class="two columns">
 						<h6>Videos</h6>
 						{% for page in site.posts %}
-							{% if page.category == 'videos' %}
+							{% if page.tags contains 'videos' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
