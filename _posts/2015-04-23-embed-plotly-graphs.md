@@ -87,4 +87,4 @@ Paste the HTML code into your site’s source code, and resize as needed.  At Pl
 
 ### Wordpress
 
-We developed a [wordpress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress&#8217;s admin. Check it out: ![https://wordpress.org/plugins/wp-plotly/](https://wordpress.org/plugins/wp-plotly)
+We developed a [wordpress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress&#8217;s admin. Check it out: [https://wordpress.org/plugins/wp-plotly/](https://wordpress.org/plugins/wp-plotly)
