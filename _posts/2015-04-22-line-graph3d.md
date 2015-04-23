@@ -36,11 +36,17 @@ Finally, select 3d line plots from the MAKE A PLOT menu. Choose the column “t�
 Your plot should look something like this. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image08.png)
 
 Open the TRACES popover in the toolbar. Using the *Style* tab you can change the style, thickness and color of the helix.To close the Traces popover, click on the “X” in the upper right. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image00.png)
+
 You can add a title by clicking on *Click to enter Plot title*. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image03.png)
+
 Wait, there’s more! In the LAYOUT popover, we can change the Scene color, the margin color, the font of the title and more. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image12.png)
+
 Want to see the original points that generated your 3d line plot? Go back to the TRACES popover. Change the Lines/Markers to the dot with line. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image11.png)
+
 Don’t forget to save your work by clicking on SAVE in the toolbar above your graph.Once you’ve saved your graph, you can use the Share popover to add collaborators (they’ll have access to both your graph and your data).If you make your graph public, you can share using Facebook, Twitter or Google+. Need help embedding your graph in your website or blog? We have a <a href="https://plot.ly/how-to-embed-plotly-graphs-in-websites/">tutorial for that.| ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image06.png)
+
 Don’t forget, your graph is interactive! Using your mouse, you can drag the helix to change perspective. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image13.png)
+
 Love what you made? You can [share, download](https://plot.ly/share-print/) and [embed](https://plot.ly/embed/) your plots.You can find the graph used in this tutorial, and the underlying data at: [https://plot.ly/~mariahh/72](https://plot.ly/~mariahh/72)
 
 
