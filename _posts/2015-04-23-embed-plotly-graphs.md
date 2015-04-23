@@ -1,5 +1,5 @@
 ---
-layout: two-column_layout
+layout: two_column_layout
 title: Embed Plotly Graphs in A Blog or Website
 subtitle: How to Embed Plotly Graphs
 permalink: /embed-plotly-graphs-in-a-blog-or-website/
