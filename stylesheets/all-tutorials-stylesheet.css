@@ -55,6 +55,9 @@ img{
     margin-right: 1%;
     float: left;
     box-sizing: border-box; 
+}
+
+.tutblocks{
     min-height: 315px;
 }
 
