@@ -13,7 +13,9 @@ state: active
 </div>
 
 Most graphs have two axes, referred to often as the $ x $ axis and the $ y $ axis. We use a graph to understand the relationship between these two variables. A three-dimensional graph lets you introduce a third axis, typically called the $ z $ axis, and can help you understand the relationship between three variables.
+
 Three-dimensional scatter plots are best when you have at least three features that you want to highlight in your graph. Using color and size you can highlight two additional features in your graph. Plotly’s interactive tools also let you explore your plot by zooming, hovering, and rotating your plot.
+
 For this tutorial, we’re using the “Prestige” dataset from R’s “car” package. The data set contains information about status (quantified with the Pineo-Porter index), salary, years of schooling, and gender for job categories in the 1970s. You can learn more [here](http://www.princeton.edu/~otorres/Regression101R.pdf). If you follow along with the R tutorial at the link, you can take advantage of Plotly’s awesome [styling](http://vimeo.com/94000688), collaboration and [sharing](https://plot.ly/how-to-share-and-print-plotly-graphs/) tools. If you want to know about integrating Plotly with R, we have [excellent documentation](http://plot.ly/R)!
 
 ###Step 1: Set up the grid
@@ -32,6 +34,7 @@ Don’t forget to save your work by clicking on SAVE in the toolbar above your g
 
 ###Step 3: It’s interactive!
 
-Love what you made? You can [share, download](https://plot.ly/how-to-share-and-print-plotly-graphs/) and [embed](https://plot.ly/how-to-embed-plotly-graphs-in-websites/) your plots. You can find the graph used in this tutorial, and the underlying data at: (https://plot.ly/~mariahh/90)[https://plot.ly/~mariahh/90]
+Love what you made? You can [share, download](https://plot.ly/how-to-share-and-print-plotly-graphs/) and [embed](https://plot.ly/how-to-embed-plotly-graphs-in-websites/) your plots. You can find the graph used in this tutorial, and the underlying data at: [https://plot.ly/~mariahh/90](https://plot.ly/~mariahh/90)
+
 Your 3d scatter plot is interactive! Different views help us understand different information contained in the data set.In this view, we can see information about prestige and years of schooling. We can see that the number of years of schooling is correlated to prestige. This relationship appears to hold true for jobs dominated by both men (in green) and women (in blue). | ![How to make a 3d scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-scatter-plot-online/image04.png)
 Changing the view allows us to compare salary and schooling. In this view we see clearly that jobs dominated by women tend to be lower wage jobs. | ![How to make a 3d scatter plot online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-scatter-plot-online/image09.png)
