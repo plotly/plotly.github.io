@@ -27,8 +27,7 @@ We’ve already entered the [Gallup poll data into Plotly](https://plot.ly/976/~
 
 ###Step 2: Chi-squared test
 
-Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | 
-![Chi square tes](http://i.imgur.com/Skp90ha.png)
+Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Chi square tes](http://i.imgur.com/Skp90ha.png)
 
 Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on **Perform Chi-squared Test**. | ![Chi square tes](http://i.imgur.com/i6Y1ZiD.png)
 
