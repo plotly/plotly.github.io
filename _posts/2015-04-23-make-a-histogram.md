@@ -18,7 +18,7 @@ Follow along below to make a histogram of your own. If you’re unfamiliar with 
 ### Step 1: Set up the grid
 
 This is one way you could set up Plotly’s grid to make the graph above.  Copy the data here: [https://plot.ly/~cimar/127](https://plot.ly/~cimar/127) | ![How to make a histogram online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image01.png)
-Select “Histogram” from the MAKE A PLOT menu. | ![How to make a histogram online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image18.png]
+Select “Histogram” from the MAKE A PLOT menu. | ![How to make a histogram online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image18.png)
 Select only one column of data for a basic histogram (two with the ‘group by’ option)… | ![How to make a histogram online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image05.png)
 &#8230;These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or “bin” of values appears in the column. To learn more see: [https://help.plot.ly/histogram/](/histogram/) | ![How to Make a Histogram Online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image15.gif)
 Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/add-data-to-the-plotly-grid/](https://plot.ly/add-data-to-the-plotly-grid)) | ![How to make a histogram online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-histogram-online/image21.png)
