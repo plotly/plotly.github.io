@@ -5,6 +5,7 @@ subtitle: A Step by Step Guide to Line and Scatter Graphs
 permalink: /make-a-line-or-scatter-graph
 imageurl: http://i.imgur.com/bvoMPwi.png
 state: active
+tags: basic
 ---
 
 <div>
