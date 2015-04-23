@@ -74,7 +74,7 @@
 					<div class="two columns">
 						<h6>Basic</h6>
 						{% for page in site.posts %}
-							{% if page.category == 'graph' %}
+							{% if page.tags contains 'basic' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
@@ -82,7 +82,7 @@
 					<div class="two columns">
 						<h6>Statistical</h6>
 						{% for page in site.posts %}
-							{% if page.category == 'statistical' %}
+							{% if page.tags contains 'statistical' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
@@ -90,7 +90,7 @@
 					<div class="two columns">
 						<h6>3D</h6>
 						{% for page in site.posts %}
-							{% if page.category == '3D' %}
+							{% if page.tags contains == '3D' %}
 								<li> {{page.title}} </li>
 							{% endif %}
 		        			{% endfor %}
