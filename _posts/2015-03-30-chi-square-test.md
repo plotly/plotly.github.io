@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Chi-Square Test
 subtitle: A Step by Step Guide to the Chi-Square Test
 permalink: /chi-square-test
-imageurl: http://i.imgur.com/Y7kJBSC.png
+imageurl: http://i.imgur.com/aKvOs24.png" title="source: imgur.com
 state: active
 tags: classroom statistical
 ---
