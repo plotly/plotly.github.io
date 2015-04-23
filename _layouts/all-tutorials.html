@@ -75,7 +75,7 @@
 						<h6>Basic</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -83,7 +83,7 @@
 						<h6>Statistical</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -91,7 +91,7 @@
 						<h6>3D</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains '3D' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -99,7 +99,7 @@
 						<h6>Text & Links</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'textandlinks' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -107,7 +107,7 @@
 						<h6>Classroom</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'classroom' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -115,7 +115,7 @@
 						<h6>Videos</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'videos' %}
-								<li> {{page.title}} </li>
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
 							{% endif %}
 		        			{% endfor %}
 					</div>
