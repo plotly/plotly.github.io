@@ -44,9 +44,4 @@ Don’t forget, your graph is interactive! Using your mouse, you can drag the he
 Love what you made? You can [share, download](https://plot.ly/share-print/) and [embed](https://plot.ly/embed/) your plots.You can find the graph used in this tutorial, and the underlying data at: [https://plot.ly/~mariahh/72](https://plot.ly/~mariahh/72)
 
 
-<script type='text/x-mathjax-config'>
-MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']], processEscapes: true}});
-</script>
-
-<script type='text/javascript' src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML%2CSafe.js&#038;ver=4.1'></script>
 
