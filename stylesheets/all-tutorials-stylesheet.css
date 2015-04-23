@@ -57,6 +57,11 @@ img{
     box-sizing: border-box; 
 }
 
+.sectionseparator li{
+	list-style: none;
+	color: #8c97af;
+	font-size: 12px;
+}
 
 
 @media (min-width: 550px) {
