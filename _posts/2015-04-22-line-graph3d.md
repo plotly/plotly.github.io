@@ -33,8 +33,7 @@ Finally, select 3d line plots from the MAKE A PLOT menu. Choose the column “t�
 
 ###Step 2: Style it
 
-Your plot should look something like this.|
-![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image08.png)
+Your plot should look something like this.| ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image08.png)
 Open the TRACES popover in the toolbar. Using the *Style* tab you can change the style, thickness and color of the helix.To close the Traces popover, click on the “X” in the upper right. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image00.png)
 You can add a title by clicking on *Click to enter Plot title*. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image03.png)
 Wait, there’s more! In the LAYOUT popover, we can change the Scene color, the margin color, the font of the title and more. | ![How to make a 3d line chart online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-3d-line-chart-online/image12.png)
