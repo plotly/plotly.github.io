@@ -57,11 +57,13 @@ img{
     box-sizing: border-box; 
 }
 
-.tutblocks{
-    min-height: 315px;
-}
+
 
 @media (min-width: 550px) {
 	.alltutcol {
 	    width: 30.6666666667%;}
+	.tutblocks{
+	   min-height: 315px;}
+	.projectblock{
+	    min-height: 190px;}
 }
