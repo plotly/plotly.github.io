@@ -5,6 +5,7 @@ subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
 permalink: /multiple-y-axes-graph
 imageurl: http://i.imgur.com/lpBvF0r.png
 state: active
+tags: basic
 ---
 
 <div>
