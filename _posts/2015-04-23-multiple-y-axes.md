@@ -56,6 +56,8 @@ There should now be a nice space between your 2 y-axes on the right-hand-side. Y
 If you haven’t already, you can assign the blue data trace to the third y-axis. Now, every data trace has its own y-axis. The set-up for how to do this in the TRACES popover is shown on the right. | ![How to make a graph with multiple axes online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-graph-with-multiple-axes-online/image16.png)
 
 
-Your finished graph should look something like the one below. Notice that I added tick marks and colored the axes lines and labels to match the trace colors. Check out our video <a href="http://vimeo.com/94000688" target="_blank">styling tutorial to learn more. You can do this yourself under the “Lines” and “Labels” tabs for each y-axes in the AXES popover. Questions? Email education@plot.ly
+Your finished graph should look something like the one below. Notice that I added tick marks and colored the axes lines and labels to match the trace colors. Check out our video [styling](http://vimeo.com/94000688) tutorial to learn more. You can do this yourself under the “Lines” and “Labels” tabs for each y-axes in the AXES popover. Questions? Email education@plot.ly
+
+
 ![How to make a graph with multiple axes online](https://plot.ly/static/learn/images/web_app_tutorials/how-to-make-a-graph-with-multiple-axes-online/image05.png)
 
