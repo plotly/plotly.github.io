@@ -55,7 +55,7 @@ img{
     margin-right: 1%;
     float: left;
     box-sizing: border-box; 
-    height: 315px;
+    min-height: 315px;
 }
 
 @media (min-width: 550px) {
