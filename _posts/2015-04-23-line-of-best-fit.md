@@ -2,8 +2,8 @@
 layout: two_column_layout
 title: Create a Line of Best Fit
 subtitle: How to create a line of best fit
-permalink: /create-a-line-of-best-fit-online/
-imageurl:http://i.imgur.com/fzkGllW.png
+permalink: /create-a-line-of-best-fit-online
+imageurl: http://i.imgur.com/fzkGllW.png
 state: active
 ---
 
