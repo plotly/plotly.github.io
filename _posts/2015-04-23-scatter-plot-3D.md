@@ -1,10 +1,11 @@
 ---
 layout: two_column_layout
-title: Make a 3D Scatter PLot
+title: Make a 3D Scatter Plot
 subtitle: A Step by Step Guide to Making a 3D Scatter PLot
 permalink: /make-a-3d-scatter-plot
 imageurl: http://i.imgur.com/tJkfuY4.png
 state: active
+tags: graph3d
 ---
 
 <div>
