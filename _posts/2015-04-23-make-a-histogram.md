@@ -2,8 +2,8 @@
 layout: two_column_layout
 title: Make a Histogram
 subtitle: A Step by Step Guide to Making a Histogram
-permalink: /make-a-3d-scatter-plot
-imageurl: http://i.imgur.com/tJkfuY4.png
+permalink: /make-a-histogram
+imageurl: http://i.imgur.com/wlYSfl1.png
 state: active
 tags: statistical
 ---
