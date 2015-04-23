@@ -20,7 +20,8 @@ This 4-step tutorial will show you how to make the graph below from a simple dat
 
 ###Step 1: Enter your data
 
-Upload a spreadsheet to the &#8216;Grid&#8217; view either by copy-pasting the cells you want from your spreadsheet, or by uploading that sheet using the &#8216;Add Data&#8217; button. Plotly supports: **list file formats**. For comparison, or if you would like to skip this step, you can access my data already loaded to the grid, <a href="https://plot.ly/~cimar/32">here</a>.
+Upload a spreadsheet to the &#8216;Grid&#8217; view either by copy-pasting the cells you want from your spreadsheet, or by uploading that sheet using the &#8216;Add Data&#8217; button. Plotly supports: **list file formats**. For comparison, or if you would like to skip this step, you can access my data already loaded to the grid, [here](https://plot.ly/~cimar/32).
+
 In this data from a simulated free-fall experiment, we controlled distance and measured time, but we're actually interested in acceleration &#8212; the change in velocity over time. So we&#8217;re plotting time as &#8216;x&#8217; and velocity as &#8216;y&#8217;. The slope of this trend line will give us the gravitational constant.
 
 For a scatter plot we need an independent and dependent variable &#8212; i.e. a column of **x-coordinates** and a column of associated **y-coordinates**.To select a column as your independent variable, click **&#8220;choose as x&#8221;** beneath the column header. To select your dependent variable, click **&#8220;choose as y&#8221;** beneath the column header.The buttons marking your selected variables should both now be blue. If you accidentally selected multiple columns for either of these, they may be orange or green. This is OK! Keep clicking the &#8216;choose&#8217; buttons until the ones you do not want to plot are again white, and the ones you do are blue (see right) | ![Line of best fir online](https://plot.ly/static/img/tutorial/fits/step_1_data.png)
@@ -37,18 +38,8 @@ Okay — here&#8217;s the moment you&#8217;ve been waiting for. In the &#8216;Pl
 
 ![Line of best fit](https://plot.ly/static/img/tutorial/fits/3_fit.png)
 
-This will open up a dialogue pane. Click **Add fit to this trace**: ![Line of best fit](https://plot.ly/static/img/tutorial/fits/3_dialogue.png)
-Plotly is a versatile tool, so there are a number of advanced options. But our task is simple! To generate the straight line that best fits our data, we&#8217;ll:
-
-- stay in the **Basic** tab,
-- select the **Choose a predefined fit function** radio button,
-- select the **Linear** function family from the drop down,
-- and then click the **Run this fit** button at the bottom.
-
-Voila — we have a line of best fit! The **a** value is the **y-intercept** of our line, and the **b** value is its **slope**.
-
-**R<sup>2</sup>** and **Standard error** are measures of how closely the line fits the data, and have to do with how this line was calculated. If you&#8217;d like to learn more about these metrics, [Wikipedia](http://en.wikipedia.org/wiki/Linear_regression) is a good resource.
-Check the **&#8220;Add results as plot annotation&#8221;** box to annotate the graph the line&#8217;s equation: **y = 0.222 + 9.635x**. | ![Line of best fit](https://plot.ly/static/img/tutorial/fits/3_dialogue2.png)
+This will open up a dialogue pane. Click **Add fit to this trace**: | ![Line of best fit](https://plot.ly/static/img/tutorial/fits/3_dialogue.png)
+Plotly is a versatile tool, so there are a number of advanced options. But our task is simple! To generate the straight line that best fits our data, we&#8217;ll: </br> - stay in the **Basic** tab, </br> - select the **Choose a predefined fit function** radio button, </br> - select the **Linear** function family from the drop down, </br> - and then click the **Run this fit** button at the bottom. </br> Voila — we have a line of best fit! The **a** value is the **y-intercept** of our line, and the **b** value is its **slope**. </br> **R<sup>2</sup>** and **Standard error** are measures of how closely the line fits the data, and have to do with how this line was calculated. If you&#8217;d like to learn more about these metrics, [Wikipedia](http://en.wikipedia.org/wiki/Linear_regression) is a good resource. </br> Check the **&#8220;Add results as plot annotation&#8221;** box to annotate the graph the line&#8217;s equation: **y = 0.222 + 9.635x**. | ![Line of best fit](https://plot.ly/static/img/tutorial/fits/3_dialogue2.png)
 
 Your plot should now look something like this:
 ![Line of best fit](http://ec2-54-172-55-46.compute-1.amazonaws.com/wp-content/uploads/2015/01/fits-300x242.png)
