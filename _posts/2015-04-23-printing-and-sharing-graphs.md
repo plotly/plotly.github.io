@@ -59,5 +59,12 @@ To print a Plotly graph, we recommend you save the graph to your computer, and t
 </tbody>
 </table>
 
-**Quick tip:** Let’s say you want to print a copy of the graph we embedded at the top of this tutorial. That graph is hosted at: [https://plot.ly/~abtran/14](https://plot.ly/~abtran/14)
-To print that graph, you can add **.png**, **.pdf**, or **.svg** to the end of the URL, open the webpage and print from your browser. For example: [https://plot.ly/~abtran/14.pdf](https://plot.ly/~abtran/14) opens a pdf version of your graph. You can save or print right from the browser.
+**Quick tip:** Let’s say you want to print a copy of the graph we embedded at the top of this tutorial. That graph is hosted at:
+
+[https://plot.ly/~abtran/14](https://plot.ly/~abtran/14)
+
+To print that graph, you can add **.png**, **.pdf**, or **.svg** to the end of the URL, open the webpage and print from your browser. For example:
+
+[https://plot.ly/~abtran/14.pdf](https://plot.ly/~abtran/14)
+
+opens a pdf version of your graph. You can save or print right from the browser.
