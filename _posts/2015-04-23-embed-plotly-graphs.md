@@ -5,6 +5,7 @@ subtitle: How to Embed Plotly Graphs
 permalink: /embed-plotly-graphs-in-a-blog-or-website/
 imageurl: http://i.imgur.com/w6ORNmV.png
 state: active
+tags: basic
 ---
 
 When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!
