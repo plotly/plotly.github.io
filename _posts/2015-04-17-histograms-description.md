@@ -5,7 +5,7 @@ subtitle: What is a histogram?
 permalink: /histograms
 imageurl: http://i.imgur.com/AxENM9I.png
 state: active
-tags: STATISTICAL GRAPHS
+tags: statistics basic
 
 
 ---
