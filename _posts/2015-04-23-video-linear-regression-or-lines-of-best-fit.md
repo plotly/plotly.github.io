@@ -5,7 +5,7 @@ subtitle: How to create a line of best fit
 permalink: /linear-regression-or-lines-of-best-fit
 imageurl: http://i.imgur.com/WW63xEM.png
 state: active
-tags: basic, classroom, videos, textandlink
+tags: basic classroom videos textandlink
 ---
 
 To play with the graph shown in this video, see [Velocity (m/s) versus Time (s)](https://plot.ly/37/~cimar/).
