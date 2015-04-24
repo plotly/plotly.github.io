@@ -19,7 +19,7 @@ You can embed a Plotly graph with using HTML code or an iFrame. We show you how 
 There are two places to locate the embed code in Plotly.  If you want to share someone else’s graph, Option 1, is the easier choice.  If you’re in your workspace, then you’ll want to check out Option 2.
 
 
-**Option 1: **
+**Option 1:**
 
 If the graph you’re looking at is displayed in the format seen on the right, then Option 1 is for you. | ![How to embed Plotly graphs in websites](https://plot.ly/static/learn/images/web_app_tutorials/how-to-embed-plotly-graphs-in-websites/image03.png)
 Notice the sharing options located in the bottom right corner.  You want to click on the button &lt;/&gt; . | ![How to embed Plotly graphs in websites](https://plot.ly/static/learn/images/web_app_tutorials/how-to-embed-plotly-graphs-in-websites/image09.png)
