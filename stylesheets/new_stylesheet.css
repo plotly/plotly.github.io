@@ -133,6 +133,7 @@ FOOTER STYLING
 .footerarea{
     color: #69738A;
     background-color: #F3F3F3;
+    border-top: 1px solid #ccc;
 }
 
 .footerarea h6 {
