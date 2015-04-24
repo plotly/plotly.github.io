@@ -53,6 +53,7 @@ Remember: our null hypothesis is that all three products have the same likelihoo
 From our observed data, the failure rate is highest in Product A (25%) and lowest in Product C (16.7%), but it could be the case that these proportions only differed because not enough data was observed (i.e., “due to chance alone”). To see if this is the case, we pretend that the malfunction rate is the same across the three products. Our best guess at the malfunction rate under the assumption of no difference is the average malfunction rate calculated in the totals column (20%). Using this number we can calculate the proportion of each product expected to fail under a common failure rate of 20%:
 
 Expected Frequencies (multiply the average failure rate by the total number of each product)
+
 |                         | **Product A** | **Product B** | **Product C** | **Total** |
 | ----------:             | :-----------: | :-----------: | :-----------: | :-------: |
 | Number that failed      | 20%\*100      | 20%\*200      | 20%\*150      | 90 (20%)  |
@@ -60,6 +61,7 @@ Expected Frequencies (multiply the average failure rate by the total number of e
 | Total                   | 100           | 200           | 150           | 450       |
 
 Expected Frequencies (calculated)
+
 |                         | **Product A** | **Product B** | **Product C** | **Total** |
 | ----------:             | :-----------: | :-----------: | :-----------: | :-------: |
 | Number that failed      | 20            | 40            | 30            | 90 (20%)  |
@@ -69,10 +71,11 @@ Expected Frequencies (calculated)
 Now here is where the magic takes place! We need to compare, for each highlighted cell in the table, the number of products that were expected to fail (highlighted in green) to the number of products that actually did fail (the observed frequencies; highlighted in grey). 
 
 Observed vs. Expected Frequencies
+
 |                         | **Product A** | **Product B** | **Product C** | **Total** |
 | ----------:             | :-----------: | :-----------: | :-----------: | :-------: |
 | Number that failed      | 20            | 40            | 30            | 90 (20%)  |
 | Number that did not fail| 80            | 160           | 120           | 360 (80%) |
 | Total                   | 100           | 200           | 150           | 450       |
 
-Intuitively, if the null hypothesis is true, then the expected frequencies should be very close to the observed frequencies for all cells in the table. The chi-squared test uses the magnitudes of the differences between the observed and expected frequencies as part of the calculation. To perform the test, we perform calculations to create the chi-squared test statistic and use a table to decide if the statistic offers evidence against the null hypothesis. We’ll present the test statistic here, and then spend a little time breaking down what it all means. Our test statistic, denoted by X2 is $\Chi^2$.
+Intuitively, if the null hypothesis is true, then the expected frequencies should be very close to the observed frequencies for all cells in the table. The chi-squared test uses the magnitudes of the differences between the observed and expected frequencies as part of the calculation. To perform the test, we perform calculations to create the chi-squared test statistic and use a table to decide if the statistic offers evidence against the null hypothesis. We’ll present the test statistic here, and then spend a little time breaking down what it all means. Our test statistic, denoted by X2 is \[\Chi^2\].
