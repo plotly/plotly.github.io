@@ -263,10 +263,30 @@ POP-UP MENU STYLING
 	margin-top: 20px;
 }
 
+/*****************************
+RESPONSIVE TABLE
+*****************************/
+.responsive-table{
+	display: block;
+}
+
+.img-responsive-table{
+	display: none;
+	}
+
 @media (max-width: 1100px) {
+	.responsive-table{
+	display: none;
+	}
+	
+	.img-responsive-table{
+		display: block;
+	}
+	
 	.hidesmall{
 	display: none
 	}
+	
 	.headerbar{
 	width: 100%;
 	min-width: 150px;
