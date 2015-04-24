@@ -3,7 +3,7 @@ layout: new_layout
 title: Histograms
 subtitle: What is a histogram?
 permalink: /histograms
-imageurl: http://i.imgur.com/0fcTTZC.png
+imageurl: http://i.imgur.com/AxENM9I.png
 state: active
 tags: STATISTICAL GRAPHS
 
