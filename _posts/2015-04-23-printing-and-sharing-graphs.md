@@ -5,6 +5,7 @@ subtitle: How to Print and Share Graphs
 permalink: /printing-and-sharing-graphs
 imageurl: http://i.imgur.com/UegCjiK.png
 state: active
+tags: classroom basic
 ---
 
 <div>
