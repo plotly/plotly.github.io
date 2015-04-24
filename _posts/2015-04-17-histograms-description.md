@@ -88,6 +88,71 @@ For a quick summary of the normalization types, let's look at our sample histogr
 <img class="img-responsive-table" src="http://i.imgur.com/PU1ercR.png" title="histogram table">
 
 <div class="responsive-table">
+           <table class="table--striped">
+                <tr class="row--even">
+                    <th><strong>Histogram Type</strong></th>
+                    <th><strong>Height Formula</strong></th>
+                    <th><strong>Description</strong></th>
+                    <th><strong>400 - 800</strong></th>
+                    <th><strong>800 - 1200</strong></th>
+                    <th><strong>1200 - 1600</strong></th>
+                    <th><strong>1600 - 2000</strong></th>
+                    <th><strong>2000 - 2400</strong></th>
+                </tr>
+                <tr>
+                    <td><strong>Frequency Distribution</strong></td>
+                    <td>n</td>
+                    <td><em>Sum bar heights to find number of data points in range</em></td>
+                    <td>1</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>2</td>
+                </tr>
+                <tr class="row--even">
+                    <td><strong>Discrete Probability Distribution</strong></td>
+                    <td>n/N</td>
+                    <td><em>Sum bar heights to find probability of data falling in range</em></td>
+                    <td>0.067</td>
+                    <td>0.267</td>
+                    <td>0.333</td>
+                    <td>0.200</td>
+                    <td>0.133</td>
+                </tr>
+                <tr>
+                    <td><strong>Discrete Percentage Probability Distribution</strong></td>
+                    <td>100 &#215; n/N</td>
+                    <td><em>Sum bar heights to find percent probability of data falling in range</em></td>
+                    <td>6.67</td>
+                    <td>26.67</td>
+                    <td>33.33</td>
+                    <td>20.00</td>
+                    <td>13.33</td>
+                </tr>
+                <tr class="row--even">
+                    <td><strong>Frequency Denisty Distribution</strong></td>
+                    <td>n/&#916;x</td>
+                    <td><em>Sum product of bar heights and bin width to find number of data points in range</em></td>
+                    <td>2.50E-3</td>
+                    <td>1.00E-2</td>
+                    <td>1.25E-2</td>
+                    <td>7.50E-3</td>
+                    <td>5.00E-3</td>
+                </tr>
+                <tr>
+                    <td><strong>Probability Denisty Distribution</strong></td>
+                    <td>(n/N)/&#916;x</td>
+                    <td><em>Sum product of bar heights and bin width to find probability of data falling in range</em></td>
+                    <td>1.67E-4</td>
+                    <td>6.67E-4</td>
+                    <td>8.33E-4</td>
+                    <td>5.00E-4</td>
+                    <td>3.33E-4</td>
+                </tr>
+            </table>
+</div>
+
+<div class="responsive-table">
 Histogram Type|Height Formula|Description|400 - 800|800 - 1200|1200 - 1600|1600 - 2000|2000 - 2400
 --------------|--------------|-----------|---------|----------|-----------|-----------|-----------
 Frequency Distribution|n|Sum bar heights to find number of data points in range|1|4|5|3|2
