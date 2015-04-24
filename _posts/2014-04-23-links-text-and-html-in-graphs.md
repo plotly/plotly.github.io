@@ -5,6 +5,7 @@ subtitle: How to insert link, text and HTML in graphs
 permalink: /source-links-text-and-html-in-graphs/
 imageurl: http://i.imgur.com/OsibU8Q.png
 state: active
+tags: textandlink
 ---
 
 <div>
@@ -20,15 +21,19 @@ Plotly uses a subset of HTML tags to do things like newline (&lt;br&gt;), bold (
 For this tutorial, we’ll examine some of the styling from the graph: [https://plot.ly/609/~Dreamshot/](https://plot.ly/609/~Dreamshot/). If you want to edit the graph yourself, you can click the link above.
 
 | The title of this graph has two features: it’s on two lines, and the first line is bolded. To create the line break, all we have to do is enter `&lt;br&gt;` where we want the break to appear: *How Apple’s Stock Reacts to New Product Announcements &lt;br&gt; Apple’s stock price after product announcements (indexed to closing price on the day of the announcement)* | ![Links in Graphs](https://plot.ly/online-graphing/wp-content/uploads/2015/01/image01.png) *Graph title after adding a line break* |
-| To add bold text, we enclose the text with `&lt;b&gt;&#8230;&lt;/b&gt;`: *&lt;b&gt;How Apple’s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt; Apple’s stock price after product announcements (indexed to closing price on the day of the announcement)* | [Link and text in graphs](https://plot.ly/online-graphing/wp-content/uploads/2015/01/image02.png) *Graph title after adding bold tags.** * |
-| The sources at the bottom of the graph contain hyperlinks so that the reader has a direct link to the source. This source link is added to the **x axis label** of the graph. The line that says “Source: " [Statista](http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/)” is written as: *Source: &lt;a href=&#8221;http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/&#8221;&gt;Statista&lt;/a&gt;* |
-| ![Link and text in graphs](https://plot.ly/static/learn/images/web_app_tutorials/adding-HTML-and-links-to-charts/image00.png) *x axis label with source links.* |
+| To add bold text, we enclose the text with `&lt;b&gt;&#8230;&lt;/b&gt;`: *&lt;b&gt;How Apple’s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt; Apple’s stock price after product announcements (indexed to closing price on the day of the announcement)* | [Link and text in graphs](https://plot.ly/online-graphing/wp-content/uploads/2015/01/image02.png) *Graph title after adding bold tags.* |
+| The sources at the bottom of the graph contain hyperlinks so that the reader has a direct link to the source. This source link is added to the **x axis label** of the graph. The line that says “Source: " [Statista](http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/)” is written as: *Source: &lt;a href=&#8221;http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/&#8221;&gt;Statista&lt;/a&gt;* | ![Link and text in graphs](https://plot.ly/static/learn/images/web_app_tutorials/adding-HTML-and-links-to-charts/image00.png) *x axis label with source links.* |
+
 | The source link above was added to the <strong>x axis label</strong> of the graph, but you can also place a source link anywhere on the graph by adding an <strong>annotation</strong>. A popular place to position source links using annotations is in the bottom-right of the graph. To add an annotation, click on *NOTES* in the toolbar, then click on the &#8220;+&#8221;. You can drag the note and arrow to place it as you like.|![Link and text in graphs](https://plot.ly/online-graphing/wp-content/uploads/2015/01/Screen-Shot-2015-02-19-at-10.55.48-AM.png) |
 
 
 ###Step 2: The essentials
 
 TypeCodeWhat you’ll seeHints
+
+<img class="img-responsive-table" src="http://i.imgur.com/w1UUU9x.png">
+
+<div class="responsive-table">
 
 <table>
 <thead></thead>
@@ -77,9 +82,15 @@ Plotly&lt;/a&gt;</td>
 </tbody>
 </table>
 
+</div>
+
 You can also add characters to your titles and annotation with HTML entities. Here are a few you might find useful. You can find the full collection [here](http://character-code.com/).
 
 TypeCodeWhat you’ll seeHints
+
+<img class="img-responsive-table" src="http://i.imgur.com/G4mFrMI.png">
+
+<div class="responsive-table">
 
 <table id="text-table" >
 <thead></thead>
@@ -116,3 +127,5 @@ TypeCodeWhat you’ll seeHints
 </tr>
 </tbody>
 </table>
+
+</div>
