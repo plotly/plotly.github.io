@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: two_column_layout
 title: Links, text and HTML in Graphs
 subtitle: How to insert link, text and HTML in graphs
 permalink: /source-links-text-and-html-in-graphs/
