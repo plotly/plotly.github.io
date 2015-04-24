@@ -12,6 +12,11 @@ iframe{
 TABLES
 ***********************/
 
+.responsive-table td{
+ width: auto;
+}
+
+
 td{
 width: 50%;
 }
