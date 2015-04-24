@@ -73,6 +73,10 @@ img{
 .sectionseparator a:hover{
 	color: #69738a;
 }
+.sectionseparator:last-child{
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
 
 @media (min-width: 550px) {
 	.alltutcol {
