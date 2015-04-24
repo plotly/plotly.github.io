@@ -5,6 +5,7 @@ subtitle: How to create a line of best fit
 permalink: /create-a-line-of-best-fit-online
 imageurl: http://i.imgur.com/fzkGllW.png
 state: active
+tags: classroom statistical
 ---
 
 One of the most basic but potent combos in data visualization is the **scatter plot and trend line**.
