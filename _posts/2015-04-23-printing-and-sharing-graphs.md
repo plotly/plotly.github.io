@@ -24,7 +24,9 @@ The “Sharing settings” box gives you complete control of your chart&#8217;s 
 ### Printing: Save and print.
 
 To print a Plotly graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace.
+
 In your workspace, look for the Download button in the toolbar above your graph. To save time, you can use our keyboard shortcuts. On a Mac, “Command-P” and on a PC “Control-P” | ![How to share and print plotly graphs](https://plot.ly/static/learn/images/web_app_tutorials/how-to-share-and-print-plotly-graphs/image02.png)
+
 From the “Download/Export” box, you can select from a.png, .pdf, .svg or .eps files. Once you’ve picked your favorite file format, click the download button. The file will be saved in your download folder. Open the file, and print. Notice the “Include public link” button. Select the box to include your graph&#8217;s URL on the static image. This way, if you email your graph to a friend, they will have an easy way to find your interactive graph and data. | ![How to share and print plotly graphs](https://plot.ly/static/learn/images/web_app_tutorials/how-to-share-and-print-plotly-graphs/image05.png)
 
 **Quick tip:** Let’s say you want to print a copy of the graph we embedded at the top of this tutorial. That graph is hosted at:
