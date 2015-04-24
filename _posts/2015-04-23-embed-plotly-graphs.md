@@ -34,13 +34,21 @@ In the sharing box that opens, click on the Embed &lt;/&gt; button. You’ll nee
 
 
 If you need an iFrame, copy and paste the snippet below.  You’ll have to replace the URL of our graph with your own.
+
 &lt;iframe
+
 width=&#8221;640&#8243;
+
 height=&#8221;480&#8243;
+
 frameborder=&#8221;0&#8243;
+
 seamless=&#8221;seamless&#8221;
+
 scrolling=&#8221;no&#8221;
+
 src=&#8221;https://plot.ly/~Dreamshot/411/.embed?width=640&amp;height=480&#8243;
+
 &gt;&lt;/iframe&gt;
 
 ### Step 2: Paste the HTML into your site’s code
