@@ -14,8 +14,11 @@ tags: textandlinks basic
 </div>
 
 Making a graph with dates and times?
+
 If you’re uploading data into the grid, our parsing algorithm checks your data against more than 400 date formats to find the best match, even when your dates are in several styles. It takes a bit of extra time, but we think you’ll be happy with the results. Read more below to learn how to enter dates and times in the grid, and how to change the format displayed on your graph.
+
 **Plotly’s date format is `yyyy-mm-dd HH:MM:SS.ssssss`**. You can enter this format directly, or depending on your data entry method, use our parsers to convert for you.
+
 For our API users, we have guides for time series in [MATLAB](https://plot.ly/matlab/time-series/), [Python](https://plot.ly/python/time-series/), and [R](https://plot.ly/r/time-series/). If you’re using Python, we accept `datetime.date` and `datetime.datetime` formats. For plotly.js, we support JavaScript Date objects. Using MATLAB, you can specify the date format directly so our parser knows what to do. In R, we support R’s classes Date, POSIXlt and POSIXct in our ggplot2 to Plotly conversion.
 
 ### Entering dates and times in Plotly’s grid
