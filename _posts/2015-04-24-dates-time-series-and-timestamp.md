@@ -27,7 +27,10 @@ To enter dates directly in the grid, you’ll need to use the format:
 **yyyy-mm-dd HH:MM:SS.ssssss**
 Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. Your entry must include the four-digit year.
 
-<table class="responsive-table">
+<img class="img-responsive-table" src="http://i.imgur.com/WbnqYK2.png">
+
+<div class="responsive-table">
+<table>
 <thead>
 <th>Format</th>
 <th>Example</th>
@@ -61,10 +64,15 @@ Note that the hour must be a number between 00 and 23, with hours 12 through 23 
 </tr>
 </tbody>
 </table>
+</div>
 
 You can truncate the fractional seconds to any number of digits. All other truncations require you to keep entire fields. Here are a few common mistakes to avoid.
 
-<table class="responsive-table">
+<img class="img-responsive-table" src="http://i.imgur.com/iqAL8Hl.png">
+
+<div class="responsive-table">
+
+<table>
 <thead>
 <th>Format</th>
 <th>Error</th>
@@ -101,6 +109,8 @@ You can truncate the fractional seconds to any number of digits. All other trunc
 </tbody>
 </table>
 
+</div>
+
 ###Importing files with dates and times
 
 Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Plotly will parse the data for you into our native format so you’re ready to customize your graph. | ![Date format and time series](https://plot.ly/static/learn/images/web_app_tutorials/date-format-and-time-series/image00.png)
@@ -116,7 +126,11 @@ If you don’t specify any “Custom date format”, Plotly will choose the form
 
 Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting).
 
-<table class="responsive-table">
+<img class="img-responsive-table" src="http://i.imgur.com/DQ1vC1m.png">
+
+<div class="responsive-table">
+
+<table>
 <thead>
 <th>Format</th>
 <th>Meaning</th>
@@ -185,3 +199,4 @@ Some common date and time formats are included in the table below. Can’t find 
 </tr>
 </tbody>
 </table>
+</div>
