@@ -5,7 +5,7 @@ subtitle: What is a BoxPlot?
 permalink: /boxplot
 imageurl: http://i.imgur.com/j0u0nvv.png
 state: active
-tags: statistics basic
+tags: statistical basic
 ---
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
