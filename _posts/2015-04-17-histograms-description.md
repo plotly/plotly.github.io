@@ -115,7 +115,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
                     <td><em>Sum bar heights to find probability of data falling in range</em></td>
                     <td>0.067</td>
                     <td>0.267</td>
-                    <td>0.333</td>
+                    <td class="highlight">0.333</td>
                     <td>0.200</td>
                     <td>0.133</td>
                 </tr>
