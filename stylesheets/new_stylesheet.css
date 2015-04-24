@@ -180,7 +180,7 @@ FOOTER STYLING
 /* For devices larger than 550px */
 @media (max-width: 550px) {
 	.footerarea .columns{
-	margin-left: 10px;}
+	margin-left: 5px;}
 }
 
 
