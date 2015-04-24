@@ -342,6 +342,9 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
+.highlight{
+  background-color: #ccc;
+}
 
 
 /* Spacing
