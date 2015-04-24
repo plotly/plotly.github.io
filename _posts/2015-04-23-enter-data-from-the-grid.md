@@ -15,7 +15,9 @@ You can type your data directly into a grid, or copy it from a spreadsheet and p
 
 
 Open a + NEW grid from the file well. | ![Add data to the plotly grid](https://plot.ly/online-graphing/wp-content/uploads/2015/01/Screen-Shot-2015-01-28-at-10.48.09-PM.png)
+
 Type directly into the cells, or type &#8220;ctrl-v&#8221; to paste in clipboard content. | ![Add data to the plotly grid](https://plot.ly/static/learn/images/web_app_tutorials/add-data-to-the-plotly-grid/image03.png)
+
 Name your new grid and save it to the filewell, to have it on-hand for future plots and to share it. | ![Add data to the plotly grid](https://plot.ly/static/learn/images/web_app_tutorials/add-data-to-the-plotly-grid/image12.png) ![Add data to the plotly grid](https://plot.ly/static/learn/images/web_app_tutorials/add-data-to-the-plotly-grid/image07.png)
 
 You can also import .csv, .xls, or .xlsx files directly into Plotly. Additionally, you can import data from Google Drive and Dropbox.
