@@ -1,13 +1,13 @@
 .thumpad{
 	margin-bottom: 10px;
 	background-color: #ffffff;
-	text-align: center;
 	color: #1d3b84;
 	font-family: "Open Sans",verdana,arial,sans-serif;
 }
 
 .thumpad p, .thumpad h5{
 	margin: 3px;
+	text-align: center;
 }
 
 .thumpad p,{
