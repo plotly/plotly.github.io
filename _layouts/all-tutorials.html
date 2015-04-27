@@ -97,7 +97,7 @@
 					<div class="two columns">
 						<h6>Basic</h6>
 						{% for page in site.posts %}
-							{% if page.tags | downcase contains 'basic' %}
+							{% if {{page.tags | downcase}} contains 'basic' %}
 							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
