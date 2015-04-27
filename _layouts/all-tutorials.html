@@ -96,7 +96,9 @@
 						<h6>Basic</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
+								{% for page in site.posts limit: 8 %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+								{% endfor %}
 							{% endif %}
 		        			{% endfor %}
 					</div>
