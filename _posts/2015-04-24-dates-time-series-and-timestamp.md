@@ -5,7 +5,7 @@ subtitle: Dates and Times in Plotly
 permalink: /dates-time-series-and-timestamp-formatting-in-plotly/
 imageurl: http://i.imgur.com/dYghm9t.png
 state: active
-tags: textandlinks bAsic
+tags: textandlinks basic
 ---
 
 <div>
