@@ -48,8 +48,21 @@
 		<div class="sectionseparator totpadding">
 			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
 				<div class="row">
-					{% for page in site.posts limit: 2 %}
+					{% assign postcount = 6 %}
+					{% for page in site.posts limit: 6 %}
 						{% if page.state == 'active' %}
+							<a href="http://help.plot.ly/{{page.permalink}}">
+							<div class="thumpad alltutcol tutblocks"> 
+								<img src="{{page.imageurl}}">
+								<p> {{page.title}} </p>
+							</div></a>
+							{% increment postcount 6 %}
+						{% endif %}
+	        			{% endfor %}
+	        			
+	        			On click:
+	        			{% for page in site.posts limit: postcount offset: postcount %}
+	        				{% if page.state == 'active' %}
 							<a href="http://help.plot.ly/{{page.permalink}}">
 							<div class="thumpad alltutcol tutblocks"> 
 								<img src="{{page.imageurl}}">
@@ -57,6 +70,7 @@
 							</div></a>
 						{% endif %}
 	        			{% endfor %}
+	        			
 				</div>
 		</div>
 	
