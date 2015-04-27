@@ -22,19 +22,19 @@
 
 			<div class="four columns thumpad"> 
 				<a href="#tutorialsect">
-				<img src="http://i.imgur.com/OxZfJ3U.png"/>
+				<img src="http://i.imgur.com/OxZfJ3U.png" alt="web app"/>
 				<h5> Web App </h5>
 				</a>
 			</div>
 			<div class="four columns thumpad"> 
 				<a href="https://plot.ly/api/">
-				<img src="http://i.imgur.com/5YEkTgO.png" />
+				<img src="http://i.imgur.com/5YEkTgO.png" alt="web app"/>
 				<h5> APIs </h5>
 				</a>
 			</div>
 			<div class="four columns thumpad">
 				<a href="https://plot.ly/workshop/">
-				<img src="http://i.imgur.com/FCI2Xcy.png">
+				<img src="http://i.imgur.com/FCI2Xcy.png alt="web app"">
 				<h5> Hardware</h5>
 				</a>
 			</div>
@@ -53,7 +53,7 @@
 						{% if page.state == 'active' %}
 							<a href="http://help.plot.ly/{{page.permalink}}">
 							<div class="thumpad alltutcol tutblocks"> 
-								<img src="{{page.imageurl}}">
+								<img src="{{page.imageurl}}" alt="Tutorial">
 								<p> {{page.title}} </p>
 							</div></a>
 						{% endif %}
@@ -80,7 +80,7 @@
 				<div class="row">
 					{% for page in site.posts %}
 						<div class="thumpad alltutcol projectblock"> 
-							<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890"> 
+							<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890" alt="Project"> 
 							<p> {{page.title}} </p>
 						</div>
 	        			{% endfor %}
@@ -96,7 +96,9 @@
 						<h6>Basic</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -104,7 +106,9 @@
 						<h6>Statistical</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -112,7 +116,9 @@
 						<h6>3D</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'graph3d' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -120,7 +126,9 @@
 						<h6>Text &amp; Links</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'textandlinks' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -128,7 +136,9 @@
 						<h6>Classroom</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'classroom' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
@@ -136,7 +146,9 @@
 						<h6>Videos</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'videos' %}
+							<ul>
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
+							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
