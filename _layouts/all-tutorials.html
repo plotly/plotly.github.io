@@ -96,9 +96,14 @@
 						<h6>Basic</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
-								{% for post limit:8 %}
-									<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
-								{% endfor %}
+								{% assign listcounta = 1 %}
+									{% if listcounta >= 8 %} 
+										<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+										{% listcounta += 1 %}
+									{% else %}
+										{% break %}
+									{% endif %}
+								
 							{% endif %}
 		        			{% endfor %}
 					</div>
