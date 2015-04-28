@@ -126,7 +126,7 @@ body {
   font-size: .875em;/* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.7;
   font-weight: 180;
-  font-family: "Open sans",verdana,arial,sans-serif;
+  font-family: "Open sans light",verdana,arial,sans-serif;
   color: #1d3b84; }
 
 
@@ -135,10 +135,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  color: #45a9ff;
+  color: #447adb;
   font-weight: 400;
 }
-h1 { font-size: 3.23077rem; line-height: 1.14286;  letter-spacing: -.1rem;}
+h1 { font-size:65px; line-height: 66px;  letter-spacing: -0.25rem;}
 h2 { font-size: 2rem; line-height: 1.14286; letter-spacing: -.1rem; }
 h3 { font-size: 1.8rem; line-height: 1.14286;  letter-spacing: -.1rem; }
 h4 { font-size: 1.61538rem; line-height: 1.14286; letter-spacing: -.08rem; }
