@@ -17,7 +17,7 @@ Plotly has built in statistical tools to help you analyze data with only a few c
 
 We’re set up for both descriptive and inferential statistics, so whether you’re looking to plot a graph with error bars (see our awesome tutorial [here](/how-to-make-a-graph-with-error-bars/) or do a simple statistical analysis of the ages of Nobel Prize winners, you’ve come to the right place.
 
-Our statistics tool computes the minimum and maximum values, mean, median, quartiles, standard deviation, variance and standard error. The data in this tutorial comes from [http://www.nber.org/nobel/](http://www.nber.org/nobel/"), which was used by Jones and Weinberg in their paper [“Age dynamics in scientific creativity”](http://www.pnas.org/content/108/47/18910).
+Our statistics tool computes the minimum and maximum values, mean, median, quartiles, standard deviation, variance and standard error. The data in this tutorial comes from [http://www.nber.org/nobel/](http://www.nber.org/nobel/), which was used by Jones and Weinberg in their paper [“Age dynamics in scientific creativity”](http://www.pnas.org/content/108/47/18910).
 
 
 ###Step 1 : Set up the grid
