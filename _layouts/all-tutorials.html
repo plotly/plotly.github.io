@@ -171,8 +171,8 @@ $(document).ready(function () {
     var shown =  3;
     $('#loadMore').click(function () {
         shown = $('#myList li:visible').size()+3;
-        if(shown< items) {$('#myList li:lt('+shown+')').show().fadeIn();}
-        else {$('#myList li:lt('+items+')').show().fadeIn();
+        if(shown< items) {$('#myList li:lt('+shown+')').fadeIn();}
+        else {$('#myList li:lt('+items+')').fadeIn();
              $('#loadMore').hide();
              }
     });
