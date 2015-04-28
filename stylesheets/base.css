@@ -126,7 +126,7 @@ body {
   font-size: .875em;/* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.7;
   font-weight: 180;
-  font-family: "Open sans light",verdana,arial,sans-serif;
+  font-family: "Open sans",verdana,arial,sans-serif;
   color: #1d3b84; }
 
 
@@ -164,7 +164,7 @@ td, p {
   font-size: 15px;
   line-height: 21px;
   color: #69738a;
-  font-family: "Open sans light",verdana,arial,sans-serif;
+  font-family: "Open sans",verdana,arial,sans-serif;
 }
 
 .smalltext{
