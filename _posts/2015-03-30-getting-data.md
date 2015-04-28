@@ -1,7 +1,10 @@
 ---
+layout: two_column_layout
 title: Data integrations
-layout: new_layout
 permalink: /getting-data
+imageurl:
+state: active
+tags: classroom basic
 ---
 
 <div>
@@ -15,17 +18,9 @@ permalink: /getting-data
 
 <p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="www.data.gov">Data.gov</a>, <a href="https://www.quandl.com/">Quandl</a> and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
-<table>
-<tbody>
-<tr>
-<td>Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data.</td>
-<td><img src="http://i.imgur.com/esByc8X.png"></td>
-</tr>
-</tbody>
-</table>
+Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="http://i.imgur.com/esByc8X.png">
 
-<br />
-<br />
+
 
 <h1><a href="https://www.data.gov/meta/open-apps/">Data.gov</a></h1>
 
