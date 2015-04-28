@@ -85,6 +85,7 @@ img{
 	border-bottom-style: none;
 }
 
+/*
 #myList li{
 	display:none;
 	list-style: none;
@@ -96,6 +97,7 @@ img{
 	color: #ffffff;
 	text-align: center;
 }
+*/
 
 @media (min-width: 550px) {
 	.alltutcol {
