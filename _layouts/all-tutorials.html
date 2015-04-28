@@ -70,6 +70,7 @@
 							</div></a></li>
 						{% endif %}
 	        			{% endfor %}
+	        			</ul>
 				<div id="loadMore" class="four columns"  >
         				<a class="btn">
 						Load More
@@ -98,13 +99,14 @@
 				<div class="row">
 					<div class="two columns">
 						<h6>Basic</h6>
+						<ul id="explorelist">
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
-							<ul id="explorelist">
+							
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
-							</ul>
 							{% endif %}
 		        			{% endfor %}
+		        			</u>
 					</div>
 					<div class="two columns">
 						<h6>Statistical</h6>
@@ -179,7 +181,7 @@ $(document).ready(function () {
     $('#exploreMore').click(function () {
         shown = $('#explorelist li:visible').size()+3;
         if(shown< items) {$('#explorelist li:lt('+shown+')').fadeIn();}
-        else {$(#explorelist li:lt('+items+')').fadeIn();
+        else {$('#explorelist li:lt('+items+')').fadeIn();
              $('#exploreMore').hide();
              }
     });
