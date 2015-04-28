@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 });
 
-/*
+
 $(document).ready(function () {
     $('.explorelistb li:lt(3)').show();
     var items =  100;  
@@ -24,7 +24,7 @@ $(document).ready(function () {
              }
     });
 });
-
+/*
 $(document).ready(function () {
     $('.explorelistc li:lt(3)').show();
     var items =  100;  
