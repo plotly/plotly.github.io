@@ -85,6 +85,17 @@ img{
 	border-bottom-style: none;
 }
 
+#myList li{
+	display:none;
+	list-style: none;
+}
+
+#loadMore, #loadMore a, #loadMore a:hover{
+	display: block;
+	clear: both;
+	color: #ffffff;
+}
+
 @media (min-width: 550px) {
 	.alltutcol {
 	    width: 30.6666666667%;}
