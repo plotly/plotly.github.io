@@ -175,8 +175,7 @@ FOOTER STYLING
 }
 
 .footer-bottom .columns {
-	width: 100%;
-	padding-left: 1%;
+	max-width: 100%;
 	
 }
 
