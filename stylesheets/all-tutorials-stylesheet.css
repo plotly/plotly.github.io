@@ -101,7 +101,10 @@ img{
 }
 
 #loadMore{
-	margin-left: 33.6667%;}
+
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
 @media (min-width: 550px) {
 	.alltutcol {
@@ -111,5 +114,5 @@ img{
 	.projectblock{
 	    min-height: 190px;}
 	#loadMore{
-	margin: auto;}
+	margin-left: 33.6667%;}
 }
