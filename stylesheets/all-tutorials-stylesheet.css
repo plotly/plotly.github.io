@@ -97,8 +97,11 @@ img{
 	clear: both;
 	color: #ffffff;
 	text-align: center;
+
 }
 
+#loadMore{
+	margin-left: 33.6667%;}
 
 @media (min-width: 550px) {
 	.alltutcol {
