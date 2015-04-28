@@ -154,8 +154,8 @@ h1{
   h2 { font-size: 48px; }
   h3 { font-size: 31px; }
   h4 { font-size: 21px; }
-  h5 { font-size: 1.61538rem; }
-  h6 { font-size: 1.5rem; }
+  h5 { font-size: 21px; }
+  h6 { font-size: 21px; }
 }
 
 td, p {
