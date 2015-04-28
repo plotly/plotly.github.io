@@ -92,7 +92,7 @@ img{
 } 
 */
 
-#loadMore, #loadMore a, #loadMore a:hover{
+#loadMore, #loadMore a, #loadMore a:hover, #exploreMore, #exploreMore a, #loadMore a:hover{
 	display: block;
 	clear: both;
 	color: #ffffff;
@@ -100,7 +100,7 @@ img{
 
 }
 
-#loadMore{
+#loadMore, #exploreMore{
 
     margin-left: 1%;
     margin-right: 1%;
@@ -113,6 +113,6 @@ img{
 	   min-height: 315px;}
 	.projectblock{
 	    min-height: 190px;}
-	#loadMore{
+	#loadMore, #exploreMore{
 	margin-left: 33.6667%;}
 }
