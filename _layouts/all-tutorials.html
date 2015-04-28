@@ -68,9 +68,11 @@
 							</div></a></li>
 						{% endif %}
 	        			{% endfor %}
-	        			<div id="loadMore">Load more</div>
-	        			
-				</div>
+	        			<div id="loadMore">
+	        				<a class="btn " id="add-tab" href="#loadMore" target="_self">
+							Load More
+						 </a>
+					</div>
 		</div>
 	
 		<div class="sectionseparator totpadding">
@@ -164,10 +166,7 @@
 <script>
 
 $(document).ready(function () {
-    // Load the first 3 list items from another HTML file
-    //$('#myList').load('externalList.html li:lt(3)');
     $('#myList li:lt(3)').show();
-    $('#showLess').hide();
     var items =  100;  
     var shown =  3;
     $('#loadMore').click(function () {
