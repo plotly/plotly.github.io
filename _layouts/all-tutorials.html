@@ -10,6 +10,8 @@
           <title>Plotly</title>
           <meta name="description" content="Collaborative Data Science" />
   	</head>
+  	
+
   
   {% include new_header.html %}
 
@@ -50,28 +52,19 @@
 		<div class="sectionseparator totpadding">
 			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
 				<div class="row">
-					{% assign postcount = 6 %}
-					{% for page in site.posts limit: 6 %}
+					<ul id="myList">
+					{% for page in site.posts limit: 100 %}
 						{% if page.state == 'active' %}
-							<a href="http://help.plot.ly/{{page.permalink}}">
+							<li><a href="http://help.plot.ly/{{page.permalink}}">
 							<div class="thumpad alltutcol tutblocks"> 
 								<img src="{{page.imageurl}}" alt="Tutorial">
 								<p> {{page.title}} </p>
-							</div></a>
+							</div></a></li>
 						{% endif %}
 	        			{% endfor %}
 	        			<div class="thumpad alltutcol tutblocks"> 
 	        			On click:
 	        			</div>
-	        			{% for page in site.posts limit: postcount offset: postcount %}
-	        				{% if page.state == 'active' %}
-							<a href="http://help.plot.ly/{{page.permalink}}">
-							<div class="thumpad alltutcol tutblocks"> 
-								<img src="{{page.imageurl}}"  alt="Tutorial">
-								<p> {{page.title}} </p>
-							</div></a>
-						{% endif %}
-	        			{% endfor %}
 	        			
 				</div>
 		</div>
@@ -160,8 +153,32 @@
 		</div>
 	</div>
     </div>
-  
+	{% include new_footer.html %}  
+	<!-- Load More Buttons -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function () {
+    // Load the first 3 list items from another HTML file
+    //$('#myList').load('externalList.html li:lt(3)');
+    $('#myList li:lt(3)').show();
+    $('#showLess').hide();
+    var items =  100;  
+    var shown =  3;
+    $('#loadMore').click(function () {
+        shown = $('#myList li:visible').size()+3;
+        if(shown< items) {$('#myList li:lt('+shown+')').show();}
+        else {$('#myList li:lt('+items+')').show();
+             $('#loadMore').hide();
+             }
+    });
+
+});
+
+</script>
+
 
   </body>
-  {% include new_footer.html %}
+
 </html>
