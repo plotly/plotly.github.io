@@ -11,6 +11,12 @@
           <meta name="description" content="Collaborative Data Science" />
   	</head>
   	
+  		<style>
+	#myList li{ display:none;
+	list-style: none;
+	
+	}
+</style>
 
   
   {% include new_header.html %}
@@ -62,9 +68,7 @@
 							</div></a></li>
 						{% endif %}
 	        			{% endfor %}
-	        			<div class="thumpad alltutcol tutblocks"> 
-	        			On click:
-	        			</div>
+	        			<div id="loadMore">Load more</div>
 	        			
 				</div>
 		</div>
