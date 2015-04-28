@@ -110,6 +110,7 @@
 					</div>
 					<div class="two columns">
 						<h6>Statistical</h6>
+						<ul class="explorelist">
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
 							<ul >
@@ -117,6 +118,7 @@
 							</ul>
 							{% endif %}
 		        			{% endfor %}
+		        			</ul>
 					</div>
 					<div class="two columns">
 						<h6>3D</h6>
