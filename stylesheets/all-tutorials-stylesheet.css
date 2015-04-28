@@ -94,6 +94,7 @@ img{
 	display: block;
 	clear: both;
 	color: #ffffff;
+	text-align: center;
 }
 
 @media (min-width: 550px) {
