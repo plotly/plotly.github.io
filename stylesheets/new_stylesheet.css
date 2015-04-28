@@ -167,7 +167,7 @@ FOOTER STYLING
 	padding-top: 30px;
 }
 
-.footer-bottom {
+.footer-bottom .columns{
     padding: 20px 0 0 0;
     font-size: 12px;
     background-color: #e0e2e5;
