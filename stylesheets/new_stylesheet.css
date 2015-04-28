@@ -171,16 +171,15 @@ FOOTER STYLING
     padding: 20px 0 0 0;
     font-size: 12px;
     background-color: #e0e2e5;
+    width: 95%;
+    margin-left: 1%;
 }
 
 .respfooter{
 	width: 40%;
 	height: 200px;}
 
-.footerarea .columns{
-  width: 95%
-  margin-left: 1%;
-}
+
 
 /* For devices larger than 550px */
 @media (max-width: 550px) {
