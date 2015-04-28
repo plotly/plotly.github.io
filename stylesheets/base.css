@@ -163,8 +163,27 @@ p {
   font-weight: 300;
   font-size: 15px;
   line-height: 21px;
-  color: #69738;
+  color: #69738a;
+  font-family: "Open sans light",verdana,arial,sans-serif;
 }
+
+.smalltext{
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 17px;
+  color: #69738a;
+  font-family: "Open sans regular",verdana,arial,sans-serif;
+}
+
+
+.minitext{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: #a1a9ba;
+  font-family: "Open sans regular",verdana,arial,sans-serif;
+}
+
 
 
 /* Links
