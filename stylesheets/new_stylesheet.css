@@ -167,12 +167,17 @@ FOOTER STYLING
 	padding-top: 30px;
 }
 
-.footer-bottom .columns{
+.footer-bottom {
     padding: 20px 0 0 0;
     font-size: 12px;
     background-color: #e0e2e5;
-    width: 100%;
-    padding-left: 1%;
+
+}
+
+.footer-bottom .columns {
+	width: 100%;
+	padding-left: 1%;
+	
 }
 
 .respfooter{
