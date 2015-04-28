@@ -158,7 +158,7 @@ h1{
   h6 { font-size: 1.5rem; }
 }
 
-p {
+td, p {
   margin-top: 0;
   font-weight: 300;
   font-size: 15px;
@@ -357,7 +357,9 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px solid #E1E1E1;
+  
+}
 th:first-child,
 td:first-child {
   padding-left: 0; }
