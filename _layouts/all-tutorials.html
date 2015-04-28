@@ -15,7 +15,7 @@
 		#myList li{ display:none;
 		list-style: none; }
 		
-		#explorelist li{ display:none;
+		.explorelist li{ display:none;
 		list-style: none; }
 	</style>
 
@@ -99,7 +99,7 @@
 				<div class="row">
 					<div class="two columns">
 						<h6>Basic</h6>
-						<ul id="explorelist">
+						<ul class="explorelist">
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
 							
@@ -175,14 +175,14 @@
   	<script src="/javascripts/loadmore.js"></script>
 <script>
 $(document).ready(function () {
-    $('#explorelist li:lt(3)').show();
+    $('.explorelist li:lt(3)').show();
     var items =  100;  
     var shown =  3;
     $('#exploreMore').click(function () {
-        shown = $('#explorelist li:visible').size()+3;
-        if(shown< items) {$('#explorelist li:lt('+shown+')').fadeIn();}
-        else {$('#explorelist li:lt('+items+')').fadeIn();
-             $('#exploreMore').hide();
+        shown = $('.explorelist li:visible').size()+3;
+        if(shown< items) {$('.explorelist li:lt('+shown+')').fadeIn();}
+        else {$('.explorelist li:lt('+items+')').fadeIn();
+             $('.exploreMore').hide();
              }
     });
 
