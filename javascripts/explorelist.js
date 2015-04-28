@@ -6,7 +6,7 @@ $(document).ready(function () {
         shown = $('.explorelista li:visible').size()+3;
         if(shown< items) {$('.explorelista li:lt('+shown+')').fadeIn();}
         else {$('.explorelista li:lt('+items+')').fadeIn();
-             $('.exploreMore').hide();
+             $('#exploreMore').hide();
              }
     });
 });
