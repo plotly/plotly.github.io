@@ -43,6 +43,11 @@
   box-sizing: border-box; }
 .space	{ 
   margin: 1px;}
+.footerarea .columns {
+  width: 98%
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
