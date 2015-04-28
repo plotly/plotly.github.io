@@ -91,14 +91,14 @@ img{
 	list-style: none;
 } 
 */
-/*
+
 #loadMore, #loadMore a, #loadMore a:hover{
 	display: block;
 	clear: both;
 	color: #ffffff;
 	text-align: center;
 }
-*/
+
 
 @media (min-width: 550px) {
 	.alltutcol {
