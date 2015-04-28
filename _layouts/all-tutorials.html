@@ -14,6 +14,9 @@
   	<style>
 		#myList li{ display:none;
 		list-style: none; }
+		
+		.explorelist li{ display:none;
+		list-style: none; }
 	</style>
 
 
@@ -97,7 +100,7 @@
 						<h6>Basic</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -107,7 +110,7 @@
 						<h6>Statistical</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -117,7 +120,7 @@
 						<h6>3D</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'graph3d' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -127,7 +130,7 @@
 						<h6>Text &amp; Links</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'textandlinks' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -137,7 +140,7 @@
 						<h6>Classroom</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'classroom' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -147,12 +150,17 @@
 						<h6>Videos</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'videos' %}
-							<ul>
+							<ul class="explorelist">
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
 							</ul>
 							{% endif %}
 		        			{% endfor %}
 					</div>
+				<div id="exploreMore" class="four columns"  >
+        				<a class="btn">
+						Load More
+					 </a>
+				</div>
 
 
 				</div>
@@ -164,25 +172,21 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   	<script src="/javascripts/loadmore.js"
 
-<!--
-<script>
-
 $(document).ready(function () {
-    $('#myList li:lt(3)').show();
+    $('.explorelist li:lt(3)').show();
     var items =  100;  
     var shown =  3;
-    $('#loadMore').click(function () {
-        shown = $('#myList li:visible').size()+3;
-        if(shown< items) {$('#myList li:lt('+shown+')').fadeIn();}
-        else {$('#myList li:lt('+items+')').fadeIn();
-             $('#loadMore').hide();
+    $('#exploreMore').click(function () {
+        shown = $('explorelist li:visible').size()+3;
+        if(shown< items) {$('explorelist li:lt('+shown+')').fadeIn();}
+        else {$('explorelist li:lt('+items+')').fadeIn();
+             $('#exploreMore').hide();
              }
     });
 
 });
 
 </script>
--->
 
 
   </body>
