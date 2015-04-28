@@ -177,6 +177,11 @@ FOOTER STYLING
 	width: 40%;
 	height: 200px;}
 
+.footerarea .columns{
+  width: 95%
+  margin-left: 1%;
+}
+
 /* For devices larger than 550px */
 @media (max-width: 550px) {
 
