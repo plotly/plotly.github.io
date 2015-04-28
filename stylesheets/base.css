@@ -125,7 +125,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: .875em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.7;
   font-weight: 200;
   font-family: "Open sans",verdana,arial,sans-serif;
