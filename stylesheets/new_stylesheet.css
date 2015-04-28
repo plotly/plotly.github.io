@@ -146,7 +146,7 @@ FOOTER STYLING
     text-transform: uppercase;
 }
 
-.footerarea li{
+.footerarea li, .footerarea a, .footerarea p{
     color: #8c97af;
     font-size: 12px;
     font-weight: 400;
