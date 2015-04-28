@@ -110,7 +110,7 @@
 						<h6>Statistical</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
-							<ul class="explorelist">
+							<ul >
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -120,7 +120,7 @@
 						<h6>3D</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'graph3d' %}
-							<ul class="explorelist">
+							<ul >
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -130,7 +130,7 @@
 						<h6>Text &amp; Links</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'textandlinks' %}
-							<ul class="explorelist">
+							<ul >
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -140,7 +140,7 @@
 						<h6>Classroom</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'classroom' %}
-							<ul class="explorelist">
+							<ul >
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							</ul>
 							{% endif %}
@@ -150,7 +150,7 @@
 						<h6>Videos</h6>
 						{% for page in site.posts %}
 							{% if page.tags contains 'videos' %}
-							<ul class="explorelist">
+							<ul >
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
 							</ul>
 							{% endif %}
@@ -177,9 +177,9 @@ $(document).ready(function () {
     var items =  100;  
     var shown =  3;
     $('#exploreMore').click(function () {
-        shown = $('explorelist li:visible').size()+3;
-        if(shown< items) {$('explorelist li:lt('+shown+')').fadeIn();}
-        else {$('explorelist li:lt('+items+')').fadeIn();
+        shown = $('.explorelist li:visible').size()+3;
+        if(shown< items) {$('.explorelist li:lt('+shown+')').fadeIn();}
+        else {$('.explorelist li:lt('+items+')').fadeIn();
              $('#exploreMore').hide();
              }
     });
