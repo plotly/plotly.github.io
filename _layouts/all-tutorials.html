@@ -91,7 +91,7 @@
 				<h2 class="centered">Projects</h2>
 				<h3 class="centered">In need of inspiration? See what Plot.ly can do!</h3>
 				<div class="row">
-					{% for page in site.posts %}
+					{% for page in site.posts limit:6 %}
 						<div class="thumpad alltutcol projectblock"> 
 							<img src="https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/medium/elk---twitter.png?1428343890" alt="Project"> 
 							<h6 class="centered"> {{page.title}} </h6>
