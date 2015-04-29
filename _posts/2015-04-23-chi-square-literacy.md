@@ -82,7 +82,7 @@ Intuitively, if the null hypothesis is true, then the expected frequencies shoul
 
 $$\chi^2 =\sum_{i}\frac{(E_i-O_i)^2}{E_i},$$
 
-where $E_i$ denotes the expected frequency for cell $i$, and $O_i$ denotes the observed frequency for cell $i$. A large $\chi^2$ value is evidence against the null hypothesis.
+where $E_i$ denotes the expected frequency for cell $i$, and $O_i$ denotes the observed frequency for cell $i$. The larger the $\chi^2$ value, the more evidence there is against the null hypothesis.
 
 So what does it all mean? Remember, we take the difference between the expected and observed frequencies to begin to quantify how different each observed frequency is from what we would expect under the null hypothesis. Now, the reason we take the square of these differences is because we will eventually be summing up all the differences, and we need to give equal weight to a negative difference (e.g., 20-25=-5) as we do to a positive difference (30-25=5) since both of these differences are of the same absolute magnitude. We then divide this squared difference by the expected frequency so that a difference of 5 units is counted as a big difference when the expected frequency is 10, but this same absolute difference is counted as a small relative difference when the expected frequency is 1000.
 
