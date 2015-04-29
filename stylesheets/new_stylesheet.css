@@ -2,9 +2,7 @@ p{
 	text-align: justify;
 }
 
-.nowraptitle{
-	    white-space: nowrap;
-}
+
 /**************************
 HEADER STYLING
 **************************/
@@ -214,7 +212,6 @@ FOOTER STYLING
 
 
 
-
 /*************************
 POP-UP MENU STYLING
 **************************/
@@ -319,4 +316,10 @@ RESPONSIVE TABLE
 	margin-top: 20px;
 	}
 
+}
+
+@media (min-width: 550px) {
+	.nowraptitle{
+		    white-space: nowrap;
+	}
 }
