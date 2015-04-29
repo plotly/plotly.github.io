@@ -112,7 +112,7 @@ title: Plotly Help
 
 				<div class="row">
 					<div class="two columns">
-						<h6>Basic</h6>
+						<h6 class="nowraptitle">Basic</h6>
 						<ul class="explorelista">
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' limit:6 %}
@@ -122,7 +122,7 @@ title: Plotly Help
 		        			</ul>
 					</div>
 					<div class="two columns">
-						<h6>Statistical</h6>
+						<h6 class="nowraptitle">Statistical</h6>
 						<ul class="explorelistb">
 						{% for page in site.posts %}
 							{% if page.tags contains 'statistical' %}
@@ -132,7 +132,7 @@ title: Plotly Help
 		        			</ul>
 					</div>
 					<div class="two columns">
-						<h6>3D</h6>
+						<h6 class="nowraptitle">3D</h6>
 						<ul class="explorelistc">
 						{% for page in site.posts %}
 							{% if page.tags contains 'graph3d' %}
@@ -142,7 +142,7 @@ title: Plotly Help
 		        			</ul>
 					</div>
 					<div class="two columns">
-						<h6>Text &amp; Links</h6>
+						<h6 class="nowraptitle">Text &amp; Links</h6>
 						<ul class="explorelistd">
 						{% for page in site.posts %}
 							{% if page.tags contains 'textandlinks' %}
@@ -152,7 +152,7 @@ title: Plotly Help
 		        			</ul>
 					</div>
 					<div class="two columns">
-						<h6>Classroom</h6>
+						<h6 class="nowraptitle">Classroom</h6>
 						<ul class="exploreliste">
 						{% for page in site.posts %}
 							{% if page.tags contains 'classroom' %}
@@ -162,7 +162,7 @@ title: Plotly Help
 		        			</ul>
 					</div>
 					<div class="two columns">
-						<h6>Videos</h6>
+						<h6 class="nowraptitle">Videos</h6>
 						<ul class="explorelistf">
 						{% for page in site.posts %}
 							{% if page.tags contains 'videos' %}
@@ -171,8 +171,6 @@ title: Plotly Help
 		        			{% endfor %}
 		        			</ul>
 					</div>
-
-
 
 				</div>
 		</div>
