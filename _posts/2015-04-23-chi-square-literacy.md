@@ -34,11 +34,13 @@ For the third and fourth examples, the null hypothesis is that the stated distri
 
 In this section, we will walk you through how to calculate the chi-squared statistic step-by-step, using some data. For example, suppose we are interested in Example 2 and we’ve observed the following:
 
+<div class="responsive-table">
 |                         | **Product A** | **Product B** | **Product C** | 
 | ----------:             | :-----------: | :-----------: | :-----------: |
 | Number that failed      | 25            | 40            | 25            |
 | Number that did not fail| 75            | 160           | 125           |
 | Total                   | 100           | 200           | 150           |
+</div>
 
 As with all hypothesis testing, the first step is to start by creating a null hypothesis that corresponds to no difference/relationship between the groups. If the null hypothesis is indeed true, then what is our best guess of what the data would look like? For this example, the null hypothesis would imply that the failure rates across products are the same, and our best guess at the common failure rate is denoted by the failure rate when combining all the data across the groups (which is a weighted average). The next step is to create a table of counts we’d expect using the common failure rate and see how far off the actual data is from this table. If each cell count is very different, then this will provide more evidence against the null hypothesis and our test statistic becomes large. On the other hand, if the numbers in the cells are very similar then this will translate into little evidence against our null hypothesis.  Let’s see the test in action.
 
@@ -88,7 +90,11 @@ So what does it all mean? Remember, we take the difference between the expected 
 
 Using our example data, the calculation looks like this:
 
+<img class="img-responsive-table" src="http://i.imgur.com/Ik7pjGa.png" title="source: imgur.com" />
+
+<div class="responsive-table">
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(25-20)^2}{20}+\frac{(40-40)^2}{40}+\frac{(25-30)^2}{30}+\frac{(75-80)^2}{80}+\frac{(160-160)^2}{160}+\frac{(125-120)^2}{120}=2.64$$
+</div>
 
 The last step is to determine if this difference is large enough to provide evidence against the null hypothesis. To do that, we compare the chi-squared value to a statistical distribution known as the chi-squared distribution. We make this comparison because if the null hypothesis is true, then the observed test statistic, 2.64, should be drawn from a chi-squared distribution. So if we compared 2.64 with the chi-squared distribution, it would be reasonable to say that a random draw from the distribution could equal 2.64. The chi-squared distribution also requires that you provide the corresponding “degrees of freedom”. This is equal $(r-1)\times(c-1)$, where $r$ is the number of rows in the table, and $c$ is the number of columns in the table. Thus, for this example $r=3$ and $c=3$ so that $df=(3-1)X(2-1)=2$. We can ask Plotly what is the chance of observing a chi-squared statistic larger than or equal to 2.64 in the situation where there is no difference between the products. This probability (know as the p-value) is 26.7%, meaning that it is likely that you would observe this data under the null hypothesis. Thus, we would say that there is no evidence against the null hypothesis that the failure rates between the products are the same. If the probability had been much smaller, say either 5% or 10%, then there would have been more evidence against the null hypothesis. By convention, people use cut-offs of 1%, 5% or 10% to denote enough evidence to reject the null hypothesis in favour of the alternative hypothesis. For example, if we calculated a probability of 4.3% (rather than 26.7%) we could have then concluded that there is enough evidence against the null hypothesis and evidence supporting an alternative hypothesis that the failure rates between the three products differ. 
 
