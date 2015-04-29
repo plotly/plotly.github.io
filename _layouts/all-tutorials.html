@@ -119,10 +119,10 @@
 		        			
 		        			{% case page in site.posts %}
 		        			<p>basic</p>
-						{% when page.tags contains 'basic' %}
+						{% when tags contains 'basic' %}
 							<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 						<p>statistical</p>
-						{% when page.tags contains 'statistical' %}
+						{% when tags contains 'statistical' %}
 						hit 2 or 3
 						{% else %}
 						... else ...
