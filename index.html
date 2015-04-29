@@ -1,43 +1,185 @@
----
-title: Plotly Help
-layout: tutorial
----
+<!DOCTYPE html>
+<html>
+    <head>
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/new_stylesheet.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/all-tutorials-stylesheet.css">
+          <link rel="shortcut icon" href="http://i.imgur.com/9FahkKk.png" type="image/x-icon" />
+          <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
+  	
+          
+          <title>Plotly</title>
+          <meta name="description" content="Collaborative Data Science" />
+  	
+  	
+  	<style>
+		#myList li{ display:none;
+		list-style: none; }
 
-{% for page in site.posts %}
-  <h1>{{ page.title }} </h1>
-  <a href="{{ page.permalink }}">{{ page.permalink }}</a>
-  <img src="{{ page.thumbnail }}">
-{% endfor %}
+	</style>
+	</head>
 
-<!-- basic charts -->
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-Basic charts</h3>
-<ul>
-  <li><a href="#">How to create a bar chart</a></li>
-  <li><a href="#">How to create a scatter chart</a></li>
-</ul>
+  {% include new_header.html %}
 
-<!-- 3d charts -->
+  <body>
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-3d charts</h3>
-<ul>
-  <li><a href="#">How to create a 3d surface plot</a></li>
-  <li><a href="#">How to create a 3d line plot</a></li>
-</ul>
+        <div class="bigcontainer" >
+        	<div class="container paddingbottom">
+	        	<h1 class="centered">{{page.title}}</h1>
+	        	<h2 class="centered">{{page.subtitle}}</h2>
+		</div>
+		<div class="row"> 
 
-<!-- stats tutorials -->
+			<div class="four columns thumpad"> 
+				<a href="#tutorialsect">
+				<img src="http://i.imgur.com/OxZfJ3U.png" alt="web app" />
+				<h3 class="centered"> Web App </h3>
+				</a>
+			</div>
+			<div class="four columns thumpad"> 
+				<a href="https://plot.ly/api/">
+				<img src="http://i.imgur.com/5YEkTgO.png" alt="APIs" />
+				<h3 class="centered"> APIs </h3>
+				</a>
+			</div>
+			<div class="four columns thumpad">
+				<a href="https://plot.ly/workshop/">
+				<img src="http://i.imgur.com/FCI2Xcy.png" alt="Hardware" />
+				<h3 class="centered"> Hardware</h3>
+				</a>
+			</div>
+		</div>
+		
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-Statistics in Plotly</h3>
-<ul>
-  <li><a href="#">Line of best fit</a></li>
-  <li><a href="#">Chi square test</a></li>
-</ul>
+	</div>
+
+<div class="sectionbg ">
+	<div class="container">
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+					<ul id="myList">
+					{% for page in site.posts limit: 100 %}
+						{% if page.state == 'active' %}
+							<li><a href="http://help.plot.ly/{{page.permalink}}">
+							<div class="thumpad alltutcol tutblocks"> 
+								{% if page.imageurl == "" or page.imageurl == nil %}
+									<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+								{% else %}
+									<img src="{{page.imageurl}}" alt="Tutorial">
+								{% endif %}
+									<h5 class="centered"> {{page.title}} </h5>
+							</div></a></li>
+						{% endif %}
+	        			{% endfor %}
+	        			</ul>
+				<div id="loadMore" class="four columns"  >
+        				<a class="btn">
+						Load More
+					 </a>
+				</div>
+			</div>
+		</div>
+
+	
+		<div class="sectionseparator totpadding">
+				<h2 class="centered">API Clients</h2>
+				<div class="row">
+						<div class="thumpad alltutcol projectblock"> 
+							<img src="http://i.imgur.com/9BOu5Mx.jpg" title="MATLAB" />
+							<h6 class="centered"> MATLAB </h6>
+						</div>
+						<div class="thumpad alltutcol projectblock"> 
+							<img src="http://i.imgur.com/zlLK7js.png" title="Python" />
+							<h6 class="centered"> Python </h6>
+						</div>
+						<div class="thumpad alltutcol projectblock"> 
+							<img src="http://i.imgur.com/7QfwMJy.png" title="R" />
+							<h6 class="centered"> R </h6>
+						</div>
+				</div>
+		</div>
+	
+
+		<div class="sectionseparator totpadding">
+				<h2 class="centered">Explore</h2>
+
+				<div class="row">
+					<div class="two columns">
+						<h6>Basic</h6>
+						<ul class="explorelista">
+						{% for page in site.posts %}
+							{% if page.tags contains 'basic' limit:6 %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+		        				{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+					<div class="two columns">
+						<h6>Statistical</h6>
+						<ul class="explorelistb">
+						{% for page in site.posts %}
+							{% if page.tags contains 'statistical' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+					<div class="two columns">
+						<h6>3D</h6>
+						<ul class="explorelistc">
+						{% for page in site.posts %}
+							{% if page.tags contains 'graph3d' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+					<div class="two columns">
+						<h6>Text &amp; Links</h6>
+						<ul class="explorelistd">
+						{% for page in site.posts %}
+							{% if page.tags contains 'textandlinks' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+					<div class="two columns">
+						<h6>Classroom</h6>
+						<ul class="exploreliste">
+						{% for page in site.posts %}
+							{% if page.tags contains 'classroom' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+							{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+					<div class="two columns">
+						<h6>Videos</h6>
+						<ul class="explorelistf">
+						{% for page in site.posts %}
+							{% if page.tags contains 'videos' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
+							{% endif %}
+		        			{% endfor %}
+		        			</ul>
+					</div>
+
+
+
+				</div>
+		</div>
+	</div>
+    </div>
+	{% include new_footer.html %}  
+	<!-- Load More Buttons -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  	<script src="/javascripts/loadmore.js"></script>
+  	<script src="/javascripts/explorelist.js"></script>
+
+  </body>
+
+</html>
