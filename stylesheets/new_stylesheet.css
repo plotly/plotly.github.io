@@ -1,6 +1,10 @@
 p{
 	text-align: justify;
 }
+
+.nowraptitle{
+	    white-space: nowrap;
+}
 /**************************
 HEADER STYLING
 **************************/
