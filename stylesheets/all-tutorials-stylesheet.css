@@ -113,7 +113,13 @@ img{
 	.tutblocks{
 	   min-height: 315px;}
 	.projectblock{
-	    min-height: 190px;}
+	    min-height: 220px;
+	}
+	.projectblock h6{
+	margin-bottom:0;
+	padding-top: 10px;
+	}
 	#loadMore, #exploreMore{
-	margin-left: 33.6667%;}
+	margin-left: 33.6667%;
+	}
 }
