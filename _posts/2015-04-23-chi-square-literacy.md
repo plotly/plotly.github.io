@@ -95,11 +95,12 @@ $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(25-20)^2}{20}+\frac{(40-40)^2}{4
 </div>
 
 This table shows each cell's contribution to the chi-squared statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
+
 |                         | **Product A** | **Product B** | **Product C** |
 | ----------:             | :-----------: | :-----------: | :-----------: |
 | Number that failed      | 1.25          | 0             | 0.8333        | 
 | Number that did not fail| 0.3125        | 0             | 0.2083        | 
-| Sum across all cells:   | 2.64
+| Sum across all cells:   | 2.64          |               |               |
 
 The last step is to determine if the calculated chi-squared value of 2.64 is large enough to provide evidence against the null hypothesis. To do that, we compare this value to a statistical distribution known as the chi-squared distribution. We make this comparison because if the null hypothesis is true, then the observed test statistic, 2.64, should be drawn from a chi-squared distribution. So if we compared 2.64 with the chi-squared distribution, it would be reasonable to say that a random draw from the distribution could equal 2.64. The chi-squared distribution also requires that you provide the corresponding “degrees of freedom”. This is equal $(r-1)\times(c-1)$, where $r$ is the number of rows in the table, and $c$ is the number of columns in the table. Thus, for this example $r=3$ and $c=3$ so that $df=(3-1)X(2-1)=2$. We can ask Plotly what is the chance of observing a chi-squared statistic larger than or equal to 2.64 in the situation where there is no difference between the products. This probability (know as the p-value) is 26.7%, meaning that it is likely that you would observe this data under the null hypothesis. Thus, we would say that there is no evidence against the null hypothesis that the failure rates between the products are the same. If the probability had been much smaller, say either 5% or 10%, then there would have been more evidence against the null hypothesis. By convention, people use cut-offs of 1%, 5% or 10% to denote enough evidence to reject the null hypothesis in favour of the alternative hypothesis. For example, if we calculated a probability of 4.3% (rather than 26.7%) we could have then concluded that there is enough evidence against the null hypothesis and evidence supporting an alternative hypothesis that the failure rates between the three products differ. 
 
