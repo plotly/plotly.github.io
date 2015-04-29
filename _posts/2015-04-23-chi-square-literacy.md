@@ -74,8 +74,8 @@ Observed vs. Expected Frequencies
 
 |                         | **Product A** | **Product B** | **Product C** | **Total** |
 | ----------:             | :-----------: | :-----------: | :-----------: | :-------: |
-| Number that failed      | 20            | 40            | 30            | 90 (20%)  |
-| Number that did not fail| 80            | 160           | 120           | 360 (80%) |
+| Number that failed      | 25 vs. 20     | 40 vs. 40     | 25 vs. 30     | 90 (20%)  |
+| Number that did not fail| 75 vs. 80     | 160 vs. 160   | 125 vs. 120   | 360 (80%) |
 | Total                   | 100           | 200           | 150           | 450       |
 
 Intuitively, if the null hypothesis is true, then the expected frequencies should be very close to the observed frequencies for all cells in the table. The chi-squared test uses the magnitudes of the differences between the observed and expected frequencies as part of the calculation. To perform the test, we perform calculations to create the chi-squared test statistic and use a table to decide if the statistic offers evidence against the null hypothesis. We’ll present the test statistic here, and then spend a little time breaking down what it all means. Our test statistic, denoted by $\chi^2$ is 
