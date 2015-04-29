@@ -34,13 +34,11 @@ For the third and fourth examples, the null hypothesis is that the stated distri
 
 In this section, we will walk you through how to calculate the chi-squared statistic step-by-step, using some data. For example, suppose we are interested in Example 2 and we’ve observed the following:
 
-<div class="responsive-table">
 |                         | **Product A** | **Product B** | **Product C** | 
 | ----------:             | :-----------: | :-----------: | :-----------: |
 | Number that failed      | 25            | 40            | 25            |
 | Number that did not fail| 75            | 160           | 125           |
 | Total                   | 100           | 200           | 150           |
-</div>
 
 As with all hypothesis testing, the first step is to start by creating a null hypothesis that corresponds to no difference/relationship between the groups. If the null hypothesis is indeed true, then what is our best guess of what the data would look like? For this example, the null hypothesis would imply that the failure rates across products are the same, and our best guess at the common failure rate is denoted by the failure rate when combining all the data across the groups (which is a weighted average). The next step is to create a table of counts we’d expect using the common failure rate and see how far off the actual data is from this table. If each cell count is very different, then this will provide more evidence against the null hypothesis and our test statistic becomes large. On the other hand, if the numbers in the cells are very similar then this will translate into little evidence against our null hypothesis.  Let’s see the test in action.
 
@@ -90,7 +88,7 @@ So what does it all mean? Remember, we take the difference between the expected 
 
 Using our example data, the calculation looks like this:
 
-<img class="img-responsive-table" src="http://i.imgur.com/Ik7pjGa.png" title="source: imgur.com" />
+<img class="img-responsive-table" src="http://i.imgur.com/Ik7pjGa.png" title="equation" />
 
 <div class="responsive-table">
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(25-20)^2}{20}+\frac{(40-40)^2}{40}+\frac{(25-30)^2}{30}+\frac{(75-80)^2}{80}+\frac{(160-160)^2}{160}+\frac{(125-120)^2}{120}=2.64$$
