@@ -112,7 +112,11 @@
 						<ul class="explorelista">
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' limit:6 %}
-								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+								{% for page %}
+									{% if page.title != "" or page.title != nil %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
+									{% endif %}
+								{% endfor %}
 							{% endif %}
 		        			{% endfor %}
 		        			</ul>
