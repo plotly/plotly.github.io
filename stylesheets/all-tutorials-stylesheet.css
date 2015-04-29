@@ -1,3 +1,10 @@
+.verticalcenter{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
 .thumpad{
 	margin-bottom: 10px;
 	background-color: #ffffff;
