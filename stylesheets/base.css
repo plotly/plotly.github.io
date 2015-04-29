@@ -41,8 +41,13 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
+.footcolumn,
+.footcolumns {
+  width: 99%;
+  float: left;
+  box-sizing: border-box; }
 .space	{ 
-  margin: 1px;}
+  margin: 1%;}
 
 
 /* For devices larger than 400px */
