@@ -69,10 +69,10 @@
 						{% if page.state == 'active' %}
 							<li><a href="http://help.plot.ly/{{page.permalink}}">
 							<div class="thumpad alltutcol tutblocks"> 
-								{% if page.imageur == blank %}
-									<img src="{{page.imageurl}}" alt="Tutorial">
-								{% else %}
+								{% if page.imageurl == blank %}
 									<img src="http://i.imgur.com/OxaI1VF.png" alt="Tutorial" />
+								{% else %}
+									<img src="{{page.imageurl}}" alt="Tutorial">
 								{% endif %}
 								<div class="verticalcenter">
 									<h5 class="centered"> {{page.title}} </h5>
