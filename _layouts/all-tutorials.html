@@ -110,14 +110,8 @@
 					<div class="two columns">
 						<h6>Basic</h6>
 						<ul class="explorelista">
-						{% for page in site.posts %}
-							{% if page.tags contains 'basic' %}
-								{% for page limit:6 %}
-									{% if page.title != "" or page.title != nil %}
+						{% for page in site.posts where page.tags contains 'basic' limit:6 %}
 									<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
-									{% endif %}
-								{% endfor %}
-							{% endif %}
 		        			{% endfor %}
 		        			</ul>
 					</div>
