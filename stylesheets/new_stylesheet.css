@@ -318,7 +318,7 @@ RESPONSIVE TABLE
 
 }
 
-@media (min-width: 550px) {
+@media (min-width: 700px) {
 	.nowraptitle{
 		    white-space: nowrap;
 	}
