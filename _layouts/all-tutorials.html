@@ -130,7 +130,7 @@
 					<div class="two columns">
 						<h6>3D</h6>
 						<ul class="explorelistc">
-						{% for page in site.posts limit:6 %}
+						{% for page in site.posts %}
 							{% if page.tags contains 'graph3d' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
