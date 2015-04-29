@@ -109,7 +109,6 @@
 				<div class="row">
 					<div class="two columns">
 						<h6>Basic</h6>
-						
 						<ul class="explorelista">
 						{% for page in site.posts %}
 							{% if page.tags contains 'basic' limit:6 %}
@@ -117,13 +116,12 @@
 		        				{% endif %}
 		        			{% endfor %}
 		        			</ul>
-		        			
 					</div>
 					<div class="two columns">
 						<h6>Statistical</h6>
 						<ul class="explorelistb">
 						{% for page in site.posts %}
-							{% if page.tags contains 'statistical' limit:6 %}
+							{% if page.tags contains 'statistical' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
@@ -143,7 +141,7 @@
 						<h6>Text &amp; Links</h6>
 						<ul class="explorelistd">
 						{% for page in site.posts %}
-							{% if page.tags contains 'textandlinks' limit: 6%}
+							{% if page.tags contains 'textandlinks' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
@@ -153,7 +151,7 @@
 						<h6>Classroom</h6>
 						<ul class="exploreliste">
 						{% for page in site.posts %}
-							{% if page.tags contains 'classroom' limit:6 %}
+							{% if page.tags contains 'classroom' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a></li>
 							{% endif %}
 		        			{% endfor %}
@@ -163,7 +161,7 @@
 						<h6>Videos</h6>
 						<ul class="explorelistf">
 						{% for page in site.posts %}
-							{% if page.tags contains 'videos' limit: 6 %}
+							{% if page.tags contains 'videos' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">{{page.title}}</a> </li>
 							{% endif %}
 		        			{% endfor %}
