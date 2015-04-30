@@ -15,7 +15,6 @@
   box-sizing: border-box; 
 }
 
-/*
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
 	list-style: none;
 	font-size: 12px;
@@ -26,9 +25,6 @@
 .sectionseparator_a a:hover, .sectionseparator_b a:hover{
 	color: #69738a;
 }
-
-
-*/
 
 
 .alltutcol {
