@@ -126,8 +126,7 @@ img{
 	.alltutcol {
 		width: 22.6667%;
 	}
-	.tutblocks{
-	   min-height: 375px;}
+
 	.projectblock{
 	    min-height: 220px;
 	}
@@ -138,4 +137,26 @@ img{
 	#loadMore, #exploreMore{
 	margin-left: 33.6667%;
 	}
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.tutblocks{
+	   min-height: 275px;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.tutblocks{
+	   min-height: 325px;}
+	
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.tutblocks{
+	   min-height: 375px;}
+	
 }
