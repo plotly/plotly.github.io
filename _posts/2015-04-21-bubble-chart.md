@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Bubble Chart
 subtitle: A Step by Step Guide to Bubble Charts
-permalink: /make-bubble-chart
+permalink: /make-a-bubble-chart
 imageurl: http://i.imgur.com/nw806BP.png
 state: active
 tags: basic
