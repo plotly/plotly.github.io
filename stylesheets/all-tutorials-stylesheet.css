@@ -39,6 +39,11 @@
     box-sizing: border-box; 
 }
 
+.alltutcol img{
+	width: 100%;
+}
+
+
 .tutorialsect_title{
 	padding-top: 30px;
 	padding bottom: 30px;
