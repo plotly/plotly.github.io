@@ -1,13 +1,19 @@
-
+/* Page Sectioning */
 .sectionseparator_a{
 	    background-color: #EEEEEE;
-
 }
 .sectionseparator_b{
 	    background-color: #FBFBFD;
-
 }
 
+.bigcontainer{
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  box-sizing: border-box; 
+}
 
 
 
