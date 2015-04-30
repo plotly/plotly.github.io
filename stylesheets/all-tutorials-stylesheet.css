@@ -65,7 +65,7 @@ img{
 }
 .alltutcol {
     width: 100%;
-    margin: 40px 3%;
+    margin: 40px 5%;
     float: left;
     box-sizing: border-box; 
 }
@@ -111,7 +111,7 @@ img{
 
 @media (min-width: 550px) {
 	.alltutcol {
-		width: 26.6667%;
+		width: 22.6667%;
 	}
 	.tutblocks{
 	   min-height: 315px;}
