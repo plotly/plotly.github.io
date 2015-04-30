@@ -84,6 +84,8 @@
 		margin-left: 4.166666666667%;
 		margin-top: 20px;
 		margin-bottom: 20px;
+		min-height: 375px;
+		background-color: #ffffff;
 	}
 	.tutorialsect_title{
 		padding-left: 5%;
