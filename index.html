@@ -116,13 +116,13 @@ title: Plotly Help
 							</div>
 						</div>
 						<div class="thumpad alltutcol projectblock"> 
-							<div id="apir">
-							<a href="https://plot.ly/r/" onmouseover="apirhover">
+							<div id="api_r" onmouseover="return api_r_hover">
+							<a href="https://plot.ly/r/" >
 								<img src="http://i.imgur.com/xapt1aB.png" title="R" />
 								<h6 class="centered"> R </h6>
 							</a>
 							</div>
-							<div id="apirhover" style="display:none; z-index: 999999;">
+							<div id="api_r_hover" style="display:none; z-index: 999999;">
 								 <h6>Plotly's R / RStudio API Client </h6>
 								 <p>Create graphs and manage your Plotly account with R. Convert ggplot2 figures to Plotly graphs drawn in D3.js</p>
 							</div>
@@ -137,17 +137,17 @@ title: Plotly Help
   	<script src="/javascripts/loadmore.js"></script>
   	<script src="/javascripts/explorelist.js"></script>
   	
-	<script>
-		function apirhover(){
-			var thediv=document.getElementById('apirhover');
-			if(thediv.style.display == "none"){
-				thediv.style.display = "";
-			}else{
-				thediv.style.display = "none";
+<script>
+	function api_r_hover(){
+		var thediv=document.getElementById('api_r_hover');
+		if(thediv.style.display == "none"){
+			thediv.style.display = "";
+		}else{
+			thediv.style.display = "none";
+		}
+		return false;
 			}
-			return false;
-				}
-	</script>
+</script>>
 
 
   </body>
