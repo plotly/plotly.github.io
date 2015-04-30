@@ -65,7 +65,7 @@ title: Plotly Help
 			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
 				<div class="row">
 					<ul id="myList">
-					{% for page in site.posts limit: 100 %}
+					{% for page in site.posts limit: 3 %}
 						{% if page.state == 'active' %}
 							<li><a href="http://help.plot.ly/{{page.permalink}}">
 							<div class="thumpad alltutcol tutblocks"> 
@@ -79,9 +79,9 @@ title: Plotly Help
 						{% endif %}
 	        			{% endfor %}
 	        			</ul>
-				<div id="loadMore" class="four columns"  >
+				<div class="four columns"  >
         				<a class="btn">
-						Load More
+						VIEW ALL TUTORIALS
 					 </a>
 				</div>
 			</div>
