@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+.centered{
+	text-align: center;
+}
+
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
 	list-style: none;
 	font-size: 12px;
