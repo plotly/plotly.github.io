@@ -4,6 +4,13 @@
 	color: #1d3b84;
 	font-family: "Open Sans",verdana,arial,sans-serif;
 }
+.titlecenter{
+	width: 100%;
+	min-height: 40px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%)
+}
 
 .thumpad p, .thumpad h5{
 	margin: 3px;
