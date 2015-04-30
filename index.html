@@ -117,7 +117,7 @@ title: Plotly Help
 						</div>
 						<div class="thumpad alltutcol projectblock"> 
 							<div id="api-r">
-							<a href="https://plot.ly/r/" onmouseover="api-mat-hover">
+							<a href="https://plot.ly/r/" onmouseover="api-r-hover">
 								<img src="http://i.imgur.com/xapt1aB.png" title="R" />
 								<h6 class="centered"> R </h6>
 							</a>
@@ -136,6 +136,19 @@ title: Plotly Help
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   	<script src="/javascripts/loadmore.js"></script>
   	<script src="/javascripts/explorelist.js"></script>
+  	
+	<script>
+		function api-r-hover(){
+			var thediv=document.getElementById('api-r-hover');
+			if(thediv.style.display == "none"){
+				thediv.style.display = "";
+			}else{
+				thediv.style.display = "none";
+			}
+			return false;
+				}
+	</script>
+
 
   </body>
 
