@@ -1,3 +1,12 @@
+#alltutorialsect{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#alltutorialsect h3{
+	padding-left: 5%;
+}
+
 .thumpad{
 	margin-bottom: 15px;
 	background-color: #ffffff;
