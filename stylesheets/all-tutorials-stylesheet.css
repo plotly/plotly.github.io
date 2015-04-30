@@ -19,9 +19,6 @@
 	text-decoration: none;
 }
 
-.thumpad:hover{
-	box-shadow: 0px 0px 30px 5px #cccccc;
-}
 
 .bigcontainer{
   position: relative;
