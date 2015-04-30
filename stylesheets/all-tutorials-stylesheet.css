@@ -23,7 +23,7 @@
 .bigcontainer{
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; 
@@ -65,8 +65,7 @@ img{
 }
 .alltutcol {
     width: 100%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 40px 3%;
     float: left;
     box-sizing: border-box; 
 }
@@ -112,7 +111,8 @@ img{
 
 @media (min-width: 550px) {
 	.alltutcol {
-	    width: 30.6666666667%;}
+		width: 26.6667%;
+	}
 	.tutblocks{
 	   min-height: 315px;}
 	.projectblock{
