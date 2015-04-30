@@ -1,13 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************
+OLD STYLING
+******************************************/
+/*
 #alltutorialsect{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
+.titlecenter{
+	padding: 15px;
+}
 
 .tutorialsect_title h3{
 	padding-left: 5%;
-	padding-top: 60px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 0px;
 }
 
 .thumpad{
@@ -67,14 +97,17 @@ img{
 }
 
 .sectionbg{
-    background-color: #F3F3F3;
+    background-color: #EEEEEE;
 	width: 100%;
 }
 
-.sectionseparator{
-	border-bottom-color: #cccccc;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
+.sectionseparator_a{
+	    background-color: #EEEEEE;
+
+}
+.sectionseparator_b{
+	    background-color: #FBFBFD;
+
 }
 .alltutcol {
     width: 100%;
@@ -100,14 +133,14 @@ img{
 	border-bottom-width: 0px;
 	border-bottom-style: none;
 }
-
+*/
 /*
 #myList li{
 	display:none;
 	list-style: none;
 } 
 */
-
+/*
 #loadMore, #loadMore a, #loadMore a:hover, #exploreMore, #exploreMore a, #loadMore a:hover{
 	display: block;
 	clear: both;
@@ -139,24 +172,25 @@ img{
 	}
 }
 
+*/
 
-
-/* Larger than tablet */
+/* Larger than tablet *//*
 @media (min-width: 750px) {
 	.tutblocks{
 	   min-height: 275px;}
 }
-
-/* Larger than desktop */
+*/
+/* Larger than desktop *//*
 @media (min-width: 1000px) {
 	.tutblocks{
 	   min-height: 325px;}
 	
 }
-
-/* Larger than Desktop HD */
+*/
+/* Larger than Desktop HD *//*
 @media (min-width: 1200px) {
 	.tutblocks{
 	   min-height: 375px;}
 	
 }
+*/
