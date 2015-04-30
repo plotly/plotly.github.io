@@ -183,16 +183,16 @@ FOOTER STYLING
 }
 
 
-/* Larger than mobile */
-@media (max-width: 400px) 
+
+
+
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
 .respfooter{
 	width: 40%;
 	height: 200px;}
 
 
-
-/* For devices larger than 550px */
-@media (max-width: 550px) {
 
 }
 
