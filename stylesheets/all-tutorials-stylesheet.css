@@ -13,8 +13,8 @@
   margin: 0 auto;
   padding: 20px 40px;
   box-sizing: border-box;
+  background-color: green;
 }
-
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
 	list-style: none;
@@ -25,6 +25,11 @@
 
 .sectionseparator_a a:hover, .sectionseparator_b a:hover{
 	color: #69738a;
+}
+
+#alltutorialsect{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
@@ -44,6 +49,8 @@
 	background-color: #ffffff;
 	color: #1d3b84;
 	font-family: "Open Sans",verdana,arial,sans-serif;
+	margin-right:
+	margin-le;
 }
 
 
@@ -65,8 +72,7 @@
 
 @media (min-width: 550px) {
 	.alltutcol {
-		width: 24.33333333%;
-		margin: 40px 1.5%;
+		width: 33.33333333%;
 	}
 	.tutorialsect_title{
 		padding-left: 5%;
