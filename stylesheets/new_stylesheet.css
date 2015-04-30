@@ -182,6 +182,9 @@ FOOTER STYLING
 	
 }
 
+
+/* Larger than mobile */
+@media (max-width: 400px) 
 .respfooter{
 	width: 40%;
 	height: 200px;}
@@ -199,15 +202,13 @@ FOOTER STYLING
 @media (min-width: 400px) {
 
 	.respfooter{
-		width: 30.6666666667%;
-		height: 200px;}
+		width: 30.6666666667%;}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	.respfooter{
-		width: 30.6666666667%;
-		height: 200px;}
+		width: 30.6666666667%;}
 }
 
 
