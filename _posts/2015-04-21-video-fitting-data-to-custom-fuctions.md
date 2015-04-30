@@ -2,7 +2,7 @@
 layout: new_layout
 title: Fitting Data to Custom Functions
 subtitle: Video
-permalink: /VIDEO-fitting-data-to-custom-functions
+permalink: /fitting-data-to-custom-functions
 imageurl: http://i.imgur.com/vPUQC0Y.png
 state: active
 tags: videos classroom statistical
