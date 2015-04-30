@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/new_stylesheet.css">
+	  <link rel="stylesheet" type="text/css" href="/stylesheets/all-tutorials-stylesheet.css">
+          <link rel="shortcut icon" href="http://i.imgur.com/9FahkKk.png" type="image/x-icon" />
+          <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
+  	
+          
+          <title>Plotly</title>
+          <meta name="description" content="Collaborative Data Science" />
+  	
+  	
+  	<style>
+		#myList li{ display:none;
+		list-style: none; }
+
+	</style>
+	</head>
+
+
+  {% include new_header.html %}
+
+  <body>
+
+
+<div class="sectionbg ">
+	<div class="container">
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>Basic</h3>
+						<ul>
+							{% for page in site.posts %}
+								{% if page.state == 'active' and page.tags contains 'basic' %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">
+									<div class="thumpad alltutcol tutblocks"> 
+										{% if page.imageurl == "" or page.imageurl == nil %}
+											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+										{% else %}
+											<img src="{{page.imageurl}}" alt="Tutorial">
+										{% endif %}
+											<h5 class="centered"> {{page.title}} </h5>
+									</div></a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>Statistical</h3>
+						<ul>
+							{% for page in site.posts %}
+								{% if page.state == 'active' and page.tags contains 'graph3d' %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">
+									<div class="thumpad alltutcol tutblocks"> 
+										{% if page.imageurl == "" or page.imageurl == nil %}
+											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+										{% else %}
+											<img src="{{page.imageurl}}" alt="Tutorial">
+										{% endif %}
+											<h5 class="centered"> {{page.title}} </h5>
+									</div></a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>3D</h3>
+						<ul>
+							{% for page in site.posts %}
+								{% if page.state == 'active' and page.tags contains 'graph3d' %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">
+									<div class="thumpad alltutcol tutblocks"> 
+										{% if page.imageurl == "" or page.imageurl == nil %}
+											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+										{% else %}
+											<img src="{{page.imageurl}}" alt="Tutorial">
+										{% endif %}
+											<h5 class="centered"> {{page.title}} </h5>
+									</div></a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>Text &amp; Links</h3>
+						<ul>
+							{% for page in site.posts %}
+								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
+									<li><a href="http://help.plot.ly/{{page.permalink}}">
+									<div class="thumpad alltutcol tutblocks"> 
+										{% if page.imageurl == "" or page.imageurl == nil %}
+											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+										{% else %}
+											<img src="{{page.imageurl}}" alt="Tutorial">
+										{% endif %}
+											<h5 class="centered"> {{page.title}} </h5>
+									</div></a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>Classroom</h3>
+						<ul>
+							{% for page in site.posts %}
+							{% if page.state == 'active' and page.tags contains 'classroom' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">
+								<div class="thumpad alltutcol tutblocks"> 
+									{% if page.imageurl == "" or page.imageurl == nil %}
+										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+									{% else %}
+										<img src="{{page.imageurl}}" alt="Tutorial">
+									{% endif %}
+										<h5 class="centered"> {{page.title}} </h5>
+								</div></a></li>
+							{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+		<div class="sectionseparator totpadding">
+			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
+				<div class="row">
+						<h3>Videos</h3>
+						<ul>
+							{% for page in site.posts %}
+							{% if page.state == 'active' and page.tags contains 'videos' %}
+								<li><a href="http://help.plot.ly/{{page.permalink}}">
+								<div class="thumpad alltutcol tutblocks"> 
+									{% if page.imageurl == "" or page.imageurl == nil %}
+										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
+									{% else %}
+										<img src="{{page.imageurl}}" alt="Tutorial">
+									{% endif %}
+										<h5 class="centered"> {{page.title}} </h5>
+								</div></a></li>
+							{% endif %}
+							{% endfor %}
+						</ul>
+				</div>
+		</div>
+
+	</div>
+    </div>
+	{% include new_footer.html %}  
+	<!-- Load More Buttons -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  	<script src="/javascripts/loadmore.js"></script>
+  	<script src="/javascripts/explorelist.js"></script>
+
+  </body>
+
+</html>
