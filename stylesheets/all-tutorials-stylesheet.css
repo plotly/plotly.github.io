@@ -59,8 +59,11 @@
 
 @media (min-width: 550px) {
 	.alltutcol {
-		width: 22.6667%;
-		margin: 40px 5%;
+		width: 28.6667%;
+		margin: 40px 0.777%;
+	}
+	.tutorialsect_title{
+		padding-left: 5%;
 	}
 
 /*
