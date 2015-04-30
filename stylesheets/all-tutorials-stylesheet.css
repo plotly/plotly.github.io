@@ -13,20 +13,93 @@
   margin: 0 auto;
   padding: 20px 0px;
   box-sizing: border-box; 
-  background-color: green;
+}
+
+
+.sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+	color: #8c97af;
+}
+
+.sectionseparator_a a:hover, .sectionseparator_b a:hover{
+	color: #69738a;
 }
 
 
 
 
 
+.alltutcol {
+    width: 100%;
+    margin: 40px 5%;
+    float: left;
+    box-sizing: border-box; 
+}
+
+.thumpad{
+	margin-bottom: 15px;
+	background-color: #ffffff;
+	color: #1d3b84;
+	font-family: "Open Sans",verdana,arial,sans-serif;
+}
+
+
+.thumpad p, .thumpad h5{
+	margin: 3px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.thumpad p,{
+	font-size: 1.1em;
+}
+
+.thumpad a{
+	text-decoration: none;
+}
 
 
 
+@media (min-width: 550px) {
+	.alltutcol {
+		width: 22.6667%;
+	}
+
+	.projectblock{
+	    min-height: 220px;
+	}
+	.projectblock h6{
+	margin-bottom:0;
+	padding-top: 10px;
+	}
+	#loadMore, #exploreMore{
+	margin-left: 33.6667%;
+	}
+}
 
 
 
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.tutblocks{
+	   min-height: 275px;}
+}
 
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.tutblocks{
+	   min-height: 325px;}
+	
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.tutblocks{
+	   min-height: 375px;}
+	
+}
 
 
 
