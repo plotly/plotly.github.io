@@ -142,10 +142,11 @@ FOOTER STYLING
 .footerarea h6 {
     color: #447bdc;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 700;
     padding-bottom: 0px;
     text-align: left;
     text-transform: uppercase;
+    line-height: 22.2833px;
 }
 
 .footerarea li, .footerarea a, .footerarea p{
@@ -153,8 +154,7 @@ FOOTER STYLING
     font-size: 12px;
     font-weight: 400;
     list-style: none;
-    line-height: 14px;
-    font-family: "Open sans",verdana,arial,sans-serif;
+    line-height: 18px;
 }
 
 .footerarea a{
