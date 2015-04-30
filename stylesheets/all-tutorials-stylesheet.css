@@ -13,6 +13,7 @@
   margin: 0 auto;
   padding: 20px 40px;
   box-sizing: border-box;
+  background-color: green;
 }
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
