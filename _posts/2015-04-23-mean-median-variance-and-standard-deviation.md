@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Mean, Median, Variance and Standard Deviation
 subtitle: Basic Statistics
-permalink: /mean-median-variance-standard-deviation/
+permalink: /basic-statistics-mean-median-standard-deviation
 imageurl: http://i.imgur.com/mszcoQr.png
 state: active
 tags: classroom statistical
