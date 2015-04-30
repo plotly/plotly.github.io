@@ -2,7 +2,7 @@
 layout: new_layout
 title: Video - Fitting Data With Error Bars
 subtitle: How to Fit Data with Error Bars
-permalink: /video-fitting-data-with-error-bars/
+permalink: /video-fitting-data-with-error-bars
 imageurl: http://i.imgur.com/0TUQYy6.png
 state: active
 tags: videos classroom statistical
