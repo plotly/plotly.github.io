@@ -12,7 +12,8 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 40px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
