@@ -35,7 +35,7 @@ title: Plotly Tutorials
 		<div class="sectionseparator totpaddingtut">
 			<h2 class="centered" id="alltutorialsect">PLOTLY TUTORIALS</h2>
 				<div class="row">
-						<a href="#basic" name="basic"><h3>Basic</h3></a>
+						<a class="tutorialsect_title" href="#basic" name="basic"><h3>Basic</h3></a>
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'basic' %}
@@ -57,7 +57,7 @@ title: Plotly Tutorials
 		</div>
 		<div class="sectionseparator totpaddingtut">
 				<div class="row">
-						<a href="#statistical" name="statistical"><h3>Statistical</h3></a>
+						<a class="tutorialsect_title" href="#statistical" name="statistical"><h3>Statistical</h3></a>
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'graph3d' %}
@@ -79,7 +79,7 @@ title: Plotly Tutorials
 		</div>
 		<div class="sectionseparator totpaddingtut">
 				<div class="row">
-						<a href="#graph3d" name="graph3d"><h3>3D</h3></a>
+						<a class="tutorialsect_title" href="#graph3d" name="graph3d"><h3>3D</h3></a>
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'graph3d' %}
@@ -101,7 +101,7 @@ title: Plotly Tutorials
 		</div>
 		<div class="sectionseparator totpaddingtut">
 				<div class="row">
-						<a href="#textandlinks" name="textandlinks"><h3>Text &amp; Links</h3></a>
+						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks"><h3>Text &amp; Links</h3></a>
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
@@ -123,7 +123,7 @@ title: Plotly Tutorials
 		</div>
 		<div class="sectionseparator totpaddingtut">
 				<div class="row">
-						<a href="#classroom" name="classroom"><h3>Classroom</h3></a>
+						<a class="tutorialsect_title" href="#classroom" name="classroom"><h3>Classroom</h3></a>
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'classroom' %}
@@ -145,7 +145,7 @@ title: Plotly Tutorials
 		</div>
 		<div class="sectionseparator totpaddingtut">
 				<div class="row">
-						<a href="videos" name="videos"><h3>Videos</h3></a>
+						<a class="tutorialsect_title" ref="videos" name="videos"><h3>Videos</h3></a>
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'videos' %}
