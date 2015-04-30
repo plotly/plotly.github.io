@@ -6,10 +6,7 @@
 }
 .titlecenter{
 	width: 100%;
-	min-height: 40px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%)
+	min-height: 60px;
 }
 
 .thumpad p, .thumpad h5{
