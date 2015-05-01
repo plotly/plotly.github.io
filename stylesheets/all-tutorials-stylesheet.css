@@ -84,11 +84,16 @@
 		margin-left: 4.166666666667%;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		min-height: 360px;
+		min-height: 420px;
 		background-color: #ffffff;
 	}
 	.tutorialsect_title{
 		padding-left: 5%;
+	}
+	.alltutcol h5{
+		padding-top 10px;
+		padding-left: 3px;
+		padding-right: 3px;
 	}
 
 /*
