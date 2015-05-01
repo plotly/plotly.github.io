@@ -130,7 +130,7 @@ img{
 	padding: 10px;
 }
 
-.transparency{
+#rText{
 	min-width: 100%;
 	min-height: 100%;
 	background: rgba(255,255,255,0.5);
