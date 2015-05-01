@@ -182,5 +182,10 @@ img{
 @media (min-width: 1200px) {
 	.tutblocks{
 	   min-height: 345px;}
+	.tutblocks h5{
+		font-size: 18px;
+		padding-top: 12px;
+	}
+	}
 }
 
