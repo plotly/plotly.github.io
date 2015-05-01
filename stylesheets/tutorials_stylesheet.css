@@ -1,5 +1,6 @@
 #rImg{
 	z-index: 1;
+	position: absolute; top: 0px; left: 0px;
 }
 
 #alltutorialsect{
@@ -136,6 +137,7 @@ img{
 	text-align: left;
 	padding: 20px;
 	z-index: 999999;
+	position: absolute; top: 0px; left: 0px;
 }
 .transparency p{
 	text-align: left;
