@@ -162,9 +162,10 @@ img{
 	margin-left: 33.6667%;
 	}
 	.tutblocks{
-	   min-height: 225px;}
+	   min-height: 205px;
+	}
 	.tutblocks h5{
-		font-size: 16px;
+		font-size: 14px;
 		padding-top: 10px;
 	}
 }
