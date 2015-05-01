@@ -128,15 +128,11 @@ img{
 .transparency{
 	min-width: 100%;
 	min-height: 100%;
-	opacity: 0.5;
-	background-color: #ffffff;
-}
-
-.apidesc{
+	background: rgba(255,255,255,0.5);
 	text-align: left;
 	padding: 20px;
 }
-.apidesc p{
+.transparency p{
 	text-align: left;
 }
 
