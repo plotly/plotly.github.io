@@ -174,8 +174,13 @@ img{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.tutblocks{
-	   min-height: 325px;}
-	
+	   min-height: 275px
+	}
+	.tutblocks h5{
+		font-size: 18px;
+		padding-top: 8px;
+	}
+
 }
 
 /* Larger than Desktop HD */
@@ -185,7 +190,6 @@ img{
 	.tutblocks h5{
 		font-size: 18px;
 		padding-top: 12px;
-	}
 	}
 }
 
