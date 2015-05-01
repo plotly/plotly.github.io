@@ -3,7 +3,7 @@ layout: new_layout
 title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
 permalink: /boxplot
-imageurl: /static/images/box-plot/box-plot-thumbnail.png
+imageurl: https://raw.githubusercontent.com/plotly/plotly.github.io/master/_posts/static/images/box-plot/box-plot-thumnail.png
 state: active
 tags: statistical basic
 ---
