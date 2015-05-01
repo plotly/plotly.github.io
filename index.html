@@ -137,9 +137,9 @@ title: Plotly Help
 		<div class="sectionseparator totpadding">
 				<h2 class="centered">API Clients</h2>
 				<div class="row">
-						<div class="thumpad alltutcol projectblock" onmouseover="movingIn()" onmouseout="movingOut()">
+						<div class="thumpad alltutcol projectblock" onmouseover="movingInMat()" onmouseout="movingOutMat()">
 							<div id="matlabImg">
-								<a href="https://plot.ly/matlab/" onmouseover="api-mat-hover">
+								<a href="https://plot.ly/matlab/">
 									<img src="http://i.imgur.com/FGTe7SD.png" title="MATLAB" />
 									<h6 class="centered"> MATLAB </h6>
 								</a>
@@ -149,26 +149,26 @@ title: Plotly Help
 								<p>Create graphs and manage your Plotly account with MATLAB. Convert MATLAB figures to Plotly graphs drawn in D3.js</p>
 							</div>
 						</div>
-						<div class="thumpad alltutcol projectblock"> 
-							<div id="api-py">
-								<a href="https://plot.ly/python/" onmouseover="api-py-hover">
+						<div class="thumpad alltutcol projectblock" onmouseover="movingInPy()" onmouseout="movingOutPy()">
+							<div id="pyImg">
+								<a href="https://plot.ly/python/">
 									<img src="http://i.imgur.com/AyXLtfa.png" title="Python" />
 									<h6 class="centered"> Python </h6>
 								</a>
 							</div>
-							<div id="api-py-hover" style="display:none;">
+							<div id="pyText" style="display:none;">
 								<h6>Plotly's Python API Client</h6>
 								<p>Create graphs and manage your Plotly account with Python. Convert matplotlib figures to Plotly graphs drawn in D3.js.</p>
 							</div>
 						</div>
-						<div class="thumpad alltutcol projectblock"> 
-							<div id="api_r" onmouseover="return api_r_hover();">
+						<div class="thumpad alltutcol projectblock" onmouseover="movingInR()" onmouseout="movingOutR()">
+							<div id="rImg" >
 							<a href="https://plot.ly/r/" >
 								<img src="http://i.imgur.com/xapt1aB.png" title="R" />
 								<h6 class="centered"> R </h6>
 							</a>
 							</div>
-							<div id="api_r_hover" style="display:none; z-index: 999999;">
+							<div id="rText" style="display:none;">
 								 <h6>Plotly's R / RStudio API Client </h6>
 								 <p>Create graphs and manage your Plotly account with R. Convert ggplot2 figures to Plotly graphs drawn in D3.js</p>
 							</div>
@@ -183,7 +183,7 @@ title: Plotly Help
   	<script src="/javascripts/loadmore.js"></script>
   	<script src="/javascripts/explorelist.js"></script>
   	-->
-  	
+<!--  	
 <script>
 	function api_r_hover(){
 		var thediv=document.getElementById('api_r_hover');
@@ -195,18 +195,34 @@ title: Plotly Help
 		return false;
 			}
 </script>
+-->
 
 <script>			
-	function movingIn() {
+	function movingInMat() {
 			var hidethisimg=document.getElementById('matlabImg');
 			var showthisimg=document.getElementById('matlabText');
 			hidethisimg.style.display = "none";
 			showthisimg.style.display = "";
 	}
 	
-	function movingOut() {	
+	function movingOutMat() {	
 			var hidethisimg=document.getElementById('matlabText');
 			var showthisimg=document.getElementById('matlabImg');
+			hidethisimg.style.display = "none";
+			showthisimg.style.display = "";
+	}	
+</script>
+<script>			
+	function movingInPy() {
+			var hidethisimg=document.getElementById('pyImg');
+			var showthisimg=document.getElementById('pyText');
+			hidethisimg.style.display = "none";
+			showthisimg.style.display = "";
+	}
+	
+	function movingOutPy() {	
+			var hidethisimg=document.getElementById('pyText');
+			var showthisimg=document.getElementById('pyImg');
 			hidethisimg.style.display = "none";
 			showthisimg.style.display = "";
 	}	
