@@ -3,7 +3,7 @@ layout: new_layout
 title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
 permalink: /boxplot
-imageurl: ../_posts/static/images/box-plot/box-plot-thumnail.png
+imageurl: /images/download-button.png
 state: active
 tags: statistical basic
 ---
