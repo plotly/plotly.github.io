@@ -131,6 +131,7 @@ img{
 	background: rgba(255,255,255,0.5);
 	text-align: left;
 	padding: 20px;
+	z-index: 999999;
 }
 .transparency p{
 	text-align: left;
