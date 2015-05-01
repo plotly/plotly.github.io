@@ -161,6 +161,12 @@ img{
 	#loadMore, #exploreMore{
 	margin-left: 33.6667%;
 	}
+	.tutblocks{
+	   min-height: 225px;}
+	.tutblocks h5{
+		font-size: 16px;
+		padding-top: 10px;
+	}
 }
 
 
@@ -168,7 +174,12 @@ img{
 /* Larger than tablet */
 @media (min-width: 750px) {
 	.tutblocks{
-	   min-height: 275px;}
+	   min-height: 245px;}
+	.tutblocks h5{
+		font-size: 16px;
+		padding-top: 10px;
+	}
+
 }
 
 /* Larger than desktop */
