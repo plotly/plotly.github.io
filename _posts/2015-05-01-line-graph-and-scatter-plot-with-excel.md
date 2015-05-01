@@ -1,9 +1,9 @@
 ---
-layout: new_layout
+layout: two_column_layout
 title: How to Make a Line and Scatter PLot with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-line-graph-and-scatter-plot-with-excel/
-imageurl: http://i.imgur.com/AxENM9I.png
+imageurl: 
 state: inactive
 tags: excel
 ---
