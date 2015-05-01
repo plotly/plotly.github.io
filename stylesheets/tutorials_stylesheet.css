@@ -170,6 +170,6 @@ img{
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	.tutblocks{
-	   min-height: 375px;}
+	   min-height: 325px;}
 	
 }
