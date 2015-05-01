@@ -23,6 +23,7 @@
 	margin: 3px;
 	margin-top: 5px;
 	text-align: center;
+	padding: 5px;
 }
 
 .thumpad p,{
@@ -171,5 +172,5 @@ img{
 @media (min-width: 1200px) {
 	.tutblocks{
 	   min-height: 325px;}
-	
 }
+
