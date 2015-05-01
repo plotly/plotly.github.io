@@ -137,14 +137,14 @@ title: Plotly Help
 		<div class="sectionseparator totpadding">
 				<h2 class="centered">API Clients</h2>
 				<div class="row">
-						<div class="thumpad alltutcol projectblock"> 
-							<div id="api-mat">
+						<div class="thumpad alltutcol projectblock" onmouseover="movingIn()" onmouseout="movingOut()">
+							<div id="matlabImg">
 								<a href="https://plot.ly/matlab/" onmouseover="api-mat-hover">
 									<img src="http://i.imgur.com/FGTe7SD.png" title="MATLAB" />
 									<h6 class="centered"> MATLAB </h6>
 								</a>
 							</div>
-							<div id="api-mat-hover" style="display:none;">
+							<div id="matlabText" style="display:none;">
 								<h6>Plotly's MATLAB API Client</h6>
 								<p>Create graphs and manage your Plotly account with MATLAB. Convert MATLAB figures to Plotly graphs drawn in D3.js</p>
 							</div>
@@ -196,6 +196,21 @@ title: Plotly Help
 			}
 </script>
 
+<script>			
+	function movingIn() {
+			var hidethisimg=document.getElementById('matlabImg');
+			var showthisimg=document.getElementById('matlabText');
+			hidethisimg.style.display = "none";
+			showthisimg.style.display = "";
+	}
+	
+	function movingOut() {	
+			var hidethisimg=document.getElementById('matlabText');
+			var showthisimg=document.getElementById('matlabImg');
+			hidethisimg.style.display = "none";
+			showthisimg.style.display = "";
+	}	
+</script>
 
   </body>
 
