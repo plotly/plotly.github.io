@@ -126,11 +126,17 @@ img{
 }
 
 .transparency{
-	background: rgba(255, 255, 255, 0.1);
+	min-width: 100%;
+	min-height: 100%;
+	opacity: 0.5;
+	background-color: #ffffff;
+}
+
+.apidesc{
 	text-align: left;
 	padding: 20px;
 }
-.transparency p{
+.apidesc p{
 	text-align: left;
 }
 
