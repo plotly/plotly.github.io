@@ -91,7 +91,7 @@ img{
 @media (min-width: 550px) {
 	.projectblock, .transparency{
 	    height: 200px;
-	    padding: 0px;
+	    padding-top: 3px;
 	}
 	
 	.transparency p{
