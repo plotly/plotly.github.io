@@ -83,15 +83,26 @@ img{
     margin-right: 1%;
 }
 
+.projectblock h6{
+	margin-bottom:0;
+	padding-top: 10px;
+	}
 
 @media (min-width: 550px) {
 	.projectblock, .transparency{
 	    height: 200px;
+	    padding: 0px;
 	}
-	.projectblock h6{
-	margin-bottom:0;
-	padding-top: 10px;
+	
+	.transparency p{
+	   font-size: 11px;
+	   line-height: 13px;
 	}
+	.transparency h6{
+	   font-size: 13px;
+	   line-height: 15px;
+	}
+
 	#loadMore, #exploreMore{
 	margin-left: 33.6667%;
 	}
@@ -102,6 +113,12 @@ img{
 @media (min-width: 750px) {
 	.projectblock, .transparency{
 	    min-height: 250px;
+	}
+	.transparency p{
+	   font-size: 12px;
+	}
+	.transparency h6{
+	   font-size: 18px;
 	}
 
 }
