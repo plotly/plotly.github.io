@@ -1,10 +1,4 @@
-/* Page Sectioning */
-.sectionseparator_a{
-	    background-color: #EEEEEE;
-}
-.sectionseparator_b{
-	    background-color: #FBFBFD;
-}
+/* Page Layout */
 
 .bigcontainer{
   position: relative;
@@ -15,8 +9,13 @@
   box-sizing: border-box;
 }
 
-.centered{
-	text-align: center;
+/* Page Sectioning */
+.sectionseparator_a{
+	background-color: #EEEEEE;
+}
+
+.sectionseparator_b{
+	    background-color: #FBFBFD;
 }
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
@@ -30,52 +29,54 @@
 	color: #69738a;
 }
 
+/* Spacing modifications */
+
 #alltutorialsect{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
+/* Title Styling */
+
+.tutorialsect_title{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* Tutorial Blocks */
 
 .alltutcol {
     width: 100%;
     float: left;
     box-sizing: border-box; 
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .alltutcol img{
 	width: 100%;
 }
 
+/* Tutorial Block Titles */
 
-.tutorialsect_title{
-	padding-top: 20px;
-	padding bottom: 10px;
-	text-align: center;
-}
-
-.thumpad{
-	margin-bottom: 15px;
-	background-color: #ffffff;
-	color: #1d3b84;
-	font-family: "Open Sans",verdana,arial,sans-serif;
-}
-
-
-.thumpad p, .thumpad h5{
-	margin: 3px;
-	margin-top: 5px;
-	text-align: center;
-}
-
-.thumpad p,{
-	font-size: 1.1em;
-}
-
-.thumpad a{
-	text-decoration: none;
+.titlecenter{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-color: #ffffff;
 }
 
 
+.titlecenter h5{
+    margin-top: auto;
+	margin-bottom: auto;
+	}
 
 @media (min-width: 550px) {
 	.alltutcol {
@@ -84,197 +85,19 @@
 		margin-left: 4.166666666667%;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		min-height: 420px;
 		background-color: #ffffff;
 	}
 	.tutorialsect_title{
 		padding-left: 5%;
 	}
-	.centered h5{
-		padding-top: 10px;
-		padding-left: 3px;
-		padding-right: 3px;
-	}
-
-/*
-	.projectblock{
-	    min-height: 220px;
-	}
-	.projectblock h6{
-	margin-bottom:0;
-	padding-top: 10px;
-	}
-	#loadMore, #exploreMore{
-	margin-left: 33.6667%;
-	}
-	*/
 }
 
 
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-	.tutblocks{
-	   min-height: 275px;}
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-	.tutblocks{
-	   min-height: 325px;}
-	
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
-	.tutblocks{
-	   min-height: 375px;}
-	
-}
-
-
-
-
-
-/******************************************
-OLD STYLING
-******************************************/
-/*
-#alltutorialsect{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.titlecenter{
-	padding: 15px;
-}
-
-.tutorialsect_title h3{
-	padding-left: 5%;
-	padding-top: 40px;
-	padding-bottom: 0px;
-}
-
-.thumpad{
-	margin-bottom: 15px;
-	background-color: #ffffff;
-	color: #1d3b84;
-	font-family: "Open Sans",verdana,arial,sans-serif;
-}
-
-
-.thumpad p, .thumpad h5{
-	margin: 3px;
-	margin-top: 5px;
-	text-align: center;
-}
-
-.thumpad p,{
-	font-size: 1.1em;
-}
-
-.thumpad a{
-	text-decoration: none;
-}
-
-
-.bigcontainer{
-  position: relative;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
-}
-
-.centered{
-	text-align: center;
-}
-
-.totpadding{
-	margin-top: 40px;
-	padding-top: 40px;
-	padding-bottom: 80px;
-}
-
-.totpaddingtut{
-	margin-top: 0px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.paddingbottom{
-	padding-bottom: 40px;
-}
-
-img{
-	min-width: 100%;
-}
-
-.sectionbg{
-    background-color: #EEEEEE;
-	width: 100%;
-}
-
-.sectionseparator_a{
-	    background-color: #EEEEEE;
-
-}
-.sectionseparator_b{
-	    background-color: #FBFBFD;
-
-}
-.alltutcol {
-    width: 100%;
-    margin: 40px 5%;
-    float: left;
-    box-sizing: border-box; 
-}
-
-.sectionseparator li{
-	list-style: none;
-	font-size: 12px;
-}
-
-.sectionseparator a{
-	text-decoration: none;
-	color: #8c97af;
-}
-
-.sectionseparator a:hover{
-	color: #69738a;
-}
-.sectionseparator:last-child{
-	border-bottom-width: 0px;
-	border-bottom-style: none;
-}
-*/
-/*
-#myList li{
-	display:none;
-	list-style: none;
-} 
-*/
-/*
-#loadMore, #loadMore a, #loadMore a:hover, #exploreMore, #exploreMore a, #loadMore a:hover{
-	display: block;
-	clear: both;
-	color: #ffffff;
-	text-align: center;
-
-}
-
-#loadMore, #exploreMore{
-
-    margin-left: 1%;
-    margin-right: 1%;
-}
 
 @media (min-width: 550px) {
 	.alltutcol {
 		width: 22.6667%;
 	}
-
 	.projectblock{
 	    min-height: 220px;
 	}
@@ -285,27 +108,36 @@ img{
 	#loadMore, #exploreMore{
 	margin-left: 33.6667%;
 	}
+	.titlecenter h5{
+	font-size: 14px;
+	}
+			
 }
 
-*/
 
-/* Larger than tablet *//*
+/* Larger than tablet */
 @media (min-width: 750px) {
-	.tutblocks{
-	   min-height: 275px;}
+
+.titlecenter h5{
+	font-size: 16px;
+	}
+
 }
-*/
-/* Larger than desktop *//*
+
+/* Larger than desktop */
 @media (min-width: 1000px) {
-	.tutblocks{
-	   min-height: 325px;}
+
+.titlecenter h5{
+	font-size: 18px;
+	}
 	
 }
-*/
-/* Larger than Desktop HD *//*
+
+/* Larger than Desktop HD */
 @media (min-width: 1200px) {
-	.tutblocks{
-	   min-height: 375px;}
+
+.titlecenter h5{
+	font-size: 18px;
+	}
 	
 }
-*/
