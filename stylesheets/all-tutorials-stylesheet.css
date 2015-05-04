@@ -69,6 +69,8 @@
   height: 100px;
   padding-right: 8px;
   padding-left: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 
