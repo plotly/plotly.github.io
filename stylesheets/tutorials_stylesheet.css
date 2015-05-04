@@ -109,7 +109,7 @@ img{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.projectblock, .transparency{
-	    height: 350px;
+	    height: 300px;
 	}
 	
 }
