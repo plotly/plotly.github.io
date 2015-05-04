@@ -1,7 +1,9 @@
 p{
 	text-align: justify;
 }
-
+.centered{
+	text-align: center;
+}
 
 /**************************
 HEADER STYLING
