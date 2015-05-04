@@ -4,6 +4,9 @@ p{
 .centered{
 	text-align: center;
 }
+.no_underline{
+	text-decoration: none;
+}
 
 /**************************
 HEADER STYLING
