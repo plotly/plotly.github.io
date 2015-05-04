@@ -67,8 +67,8 @@
   justify-content: center;
   flex-direction: column;
   height: 100px;
-  padding-right: 3px;
-  padding-left: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
   background-color: #ffffff;
 }
 
