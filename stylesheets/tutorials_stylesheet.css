@@ -28,6 +28,18 @@ img{
 	border-bottom-style: solid;
 }
 
+.sectionseparator li{
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+	color: #8c97af;
+}
+
+.sectionseparator a:hover, .sectionseparator a:hover{
+	color: #69738a;
+}
+
+
 /* API Clients Section */
 #matlabText{
 	background-img: url('http://i.imgur.com/FGTe7SD.png');
