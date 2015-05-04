@@ -79,6 +79,9 @@
     margin-top: auto;
 	margin-bottom: auto;
 	}
+.tutorialsect_title{
+		padding-left: 0px;
+	}
 
 @media (min-width: 550px) {
 	.alltutcol {
