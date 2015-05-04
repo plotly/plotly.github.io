@@ -3,10 +3,11 @@ layout: new_layout
 title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
 permalink: /boxplot
-imageurl: /static/images/box-plot/box-plot-thumnail.png
+imageurl: http://i.imgur.com/wo5d98d.png
 state: active
 tags: statistical basic
 ---
+
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
