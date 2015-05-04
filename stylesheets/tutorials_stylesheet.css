@@ -109,7 +109,7 @@ img{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.projectblock, .transparency{
-	    min-height: 320px;
+	    min-height: 350px;
 	}
 	
 }
@@ -117,7 +117,7 @@ img{
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	.projectblock, .transparency{
-	    min-height: 320px;
+	    height: 350px;
 	}
 	
 }
