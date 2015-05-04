@@ -14,6 +14,11 @@ tags: basic statistical
 </div>
 
 
+
+<iframe src="https://plot.ly/~cimar/203.embed?width=800&amp;height=500" width="800" height="500" frameborder="0" scrolling="no" seamless="seamless"></iframe>
+
+
+
 If you think you want to know more about what box plots are, read this dataliteracy article by Ben Chartoff: [http://plot.ly/boxplot](http://plot.ly/boxplot). Follow along below to make a boxplot of your own.
 
 ### Step 1: Set up the grid
