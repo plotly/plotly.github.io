@@ -90,28 +90,9 @@
 	.tutorialsect_title{
 		padding-left: 5%;
 	}
-}
-
-
-
-@media (min-width: 550px) {
-	.alltutcol {
-		width: 22.6667%;
-	}
-	.projectblock{
-	    min-height: 220px;
-	}
-	.projectblock h6{
-	margin-bottom:0;
-	padding-top: 10px;
-	}
-	#loadMore, #exploreMore{
-	margin-left: 33.6667%;
-	}
 	.titlecenter h5{
-	font-size: 14px;
+	font-size: 16px;
 	}
-			
 }
 
 
