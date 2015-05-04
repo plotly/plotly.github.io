@@ -53,6 +53,16 @@ img{
 	background-img: url('http://i.imgur.com/xapt1aB.png');
 }
 
+.projectblock h6{
+	margin-bottom:0;
+	padding-top: 10px;
+	}
+
+.projectblock, .transparency{
+	    height: 350px;
+	    padding: 10px;
+	}
+
 .projectblock{
 	padding: 10px;
 }
@@ -83,10 +93,7 @@ img{
     margin-right: 1%;
 }
 
-.projectblock h6{
-	margin-bottom:0;
-	padding-top: 10px;
-	}
+
 
 @media (min-width: 550px) {
 	.projectblock, .transparency{
