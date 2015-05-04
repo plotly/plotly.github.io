@@ -85,8 +85,7 @@ img{
 
 
 @media (min-width: 550px) {
-
-	.projectblock{
+	.projectblock, .transparency{
 	    min-height: 320px;
 	}
 	.projectblock h6{
@@ -96,4 +95,29 @@ img{
 	#loadMore, #exploreMore{
 	margin-left: 33.6667%;
 	}
+	
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.projectblock, .transparency{
+	    min-height: 320px;
+	}
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.projectblock, .transparency{
+	    min-height: 320px;
+	}
+	
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.projectblock, .transparency{
+	    min-height: 320px;
+	}
+	
 }
