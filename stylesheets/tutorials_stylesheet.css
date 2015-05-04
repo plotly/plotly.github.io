@@ -2,6 +2,9 @@
 .centered{
 	text-align: center;
 }
+.four .columns a{
+	text-decoration: none;
+}
 
 .totpadding{
 	margin-top: 40px;
