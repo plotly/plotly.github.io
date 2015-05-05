@@ -8,6 +8,8 @@ state: inactive
 tags: excel
 ---
 
+#How to Make a Graph with Error Bars with Excel 
+
 <div>
 	<a href="https://plot.ly/~cimar/208/" target="_blank" title="Mean" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/208.png" alt="Mean" style="max-width: 100%;width: 1218px;"  width="1218" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
 	<script data-plotly="cimar:208" src="https://plot.ly/embed.js" async></script>
