@@ -69,7 +69,7 @@ It turns out converting from frequency to probability is very simple, we just di
 
 We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a **probability density distribution**. These histograms are used to model **probability density functions**, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of *any* value occurring is 1).
 
-<img class="article-img" src="static/images/histograms-description/08-histogram-description.gif" id="fig8" width="423.09" height="259.56" />
+<img class="article-img" src="/static/images/histograms-description/08-histogram-description.gif" id="fig8" width="423.09" height="259.56" />
 
 For a fixed data range, probability density functions are a good way to compare histograms of different sample sizes &mdash; as the sample size gets larger, the bins get thinner, so the heights stay comparable.
 
@@ -83,9 +83,9 @@ Finally, frequency distributions can also be divided by bin width to give **freq
 
 For a quick summary of the normalization types, let's look at our sample histogram again, with n data points per bin. Total data points (N) = 15 and bin width (&#916;x) = 400.
 
-<img class="article-img" src="static/images/histograms-description/09-histogram-description.jpg" id="fig9" width="423.09" height="259.56" />
+<img class="article-img" src="/static/images/histograms-description/09-histogram-description.jpeg" id="fig9" width="423.09" height="259.56" />
 
-<img class="img-responsive-table" src="static/images/histograms-description/10-histogram-description.png" title="histogram table">
+<img class="img-responsive-table" src="/static/images/histograms-description/10-histogram-description.png" title="histogram table">
 
 <div class="responsive-table">
            <table class="table--striped">
