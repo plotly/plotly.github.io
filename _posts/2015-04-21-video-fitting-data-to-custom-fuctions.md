@@ -8,6 +8,8 @@ state: active
 tags: videos classroom statistical
 ---
 
+#Fitting Data to Custom Functions
+
 To play with the graph shown in this video, see [Hill Equation: Fraction of occupied ligand sites vs. Free ligand concentration](https://plot.ly/2503/~chris/).
 
 <div>
