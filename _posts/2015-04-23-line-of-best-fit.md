@@ -8,6 +8,8 @@ state: active
 tags: classroom statistical
 ---
 
+#Create a Line of Best Fit
+
 One of the most basic but potent combos in data visualization is the **scatter plot and trend line**.
 
 Whether you're trying to find the gravitational constant or to see [which professions tend to do better than average at making someone more money than his parents](https://plot.ly/~Vox/6/the-big-picturehousehold-income-during-childhood-vs-income-during-adulthood/), Plotly is the tool for you!
