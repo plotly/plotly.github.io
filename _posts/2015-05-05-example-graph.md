@@ -10,7 +10,7 @@ tags:
 
 
 
-Using <pre><code></code></pre>
+Using <pre>&lt;code&gt; &lt;/code&gt;</pre>
 
 <pre>
 <code>
@@ -23,7 +23,7 @@ URL: https://plot.ly
 </code>
 </pre>
 
-If we add style the <code> as white-space: normal
+If we add style the &lt;code&gt; as white-space: normal
 
 <pre><code style="white-space: normal;">
 Author: Plotly Technologies Inc.  
