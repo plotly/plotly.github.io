@@ -4,7 +4,7 @@ title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /how-to-make-example
 imageurl: http://i.imgur.com/dweTBwv.png?1
-state: active
+state: inactive
 tags: statistical
 ---
 
