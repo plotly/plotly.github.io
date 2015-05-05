@@ -21,21 +21,21 @@ Area plots are the same as scatter and line plots, but with different trace opti
 ###Step 1: Setting up the data in the grid
 
 
-This is how you would set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~Dreamshot/566](https://plot.ly/~Dreamshot/566])). Click the blue plot button to create the chart. | ![How to make an area chart](/static/images/How-to-make-an-area-graph/image00.png)
+This is how you would set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~Dreamshot/566](https://plot.ly/~Dreamshot/566])). Click the blue plot button to create the chart. | ![How to make an area chart](/static/images/How-to-make-an-area-graph/image10.png)
 
 ###Step 2: Adding fill under traces
 
 To make an area plot from a line plot, edit the “Fill To” attribute in the Mode tab of the TRACES popover.
 
-Here’s how the TRACES popover for “trace 0” looks. Notice “Fill To” has been set to “Y=0”. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image09.png)
-Here’s how the TRACES popover for “trace 1” looks. Notice “Fill To” has been set to “Next Y”. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image04.png)
+Here’s how the TRACES popover for “trace 0” looks. Notice “Fill To” has been set to “Y=0”. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image09.png)
+Here’s how the TRACES popover for “trace 1” looks. Notice “Fill To” has been set to “Next Y”. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image04.png)
 
 ###Step 3: Optional styling to make your plot prettier
 
 Nice! Now you have your area plot. If you want, you can change the colors and apply smoothing to the lines to get a chart that looks like one at the top of the tutorial.
 
-Here’s how your area chart looks before styling. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image00.png)
-Here’s how the TRACES popover looks with smoothing and the change of colors. The smoothing button is highlighted in red. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image06.png) ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image02.png)
-Here’s how the AXES popover looks with the axes lines thickened and made white. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image07.png)
-Here’s how the LAYOUT popover looks with the plot and margin background color changed to grey. |![Ĥow to make an area chart online](/static/images/how-to-make-an-area-graph/image03.png)
-Your finished chart should look something like this. | ![How to make an area chart online](/static/images/how-to-make-an-area-graph/image01.png)
+Here’s how your area chart looks before styling. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image00.png)
+Here’s how the TRACES popover looks with smoothing and the change of colors. The smoothing button is highlighted in red. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image06.png) ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image02.png)
+Here’s how the AXES popover looks with the axes lines thickened and made white. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image07.png)
+Here’s how the LAYOUT popover looks with the plot and margin background color changed to grey. |![Ĥow to make an area chart online](/static/images/How-to-make-an-area-graph/image03.png)
+Your finished chart should look something like this. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/image01.png)
