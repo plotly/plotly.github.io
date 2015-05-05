@@ -8,6 +8,12 @@ state: active
 tags: statistical
 ---
 
+<style>
+code{
+  font-familly: sans-serif;
+  }
+
+</style>
 
 ```
 Author: Plotly Technologies Inc.  <br />
