@@ -11,10 +11,15 @@ tags: statistical
 
 ```
 Author: Plotly Technologies Inc.  
+
 Title: Collaborative data science  
+
 Publisher: Plotly Technologies Inc.  
+
 Place of publication: Montréal, QC  
+
 Date of publication: 2015  
+
 URL: https://plot.ly  
 ```
 
