@@ -34,7 +34,7 @@ In this tutorial, you will learn how to make multiple-axes charts, like the one 
    formats.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 19" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image19.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 19" src="/static/images/graph-with-multiple-axes-with-excel/image19.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ In this tutorial, you will learn how to make multiple-axes charts, like the one 
   </a>
 </td>
 <td>
-   <img alt="How to make a graph with multiple axes with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image17.png" title=""/>
+   <img alt="How to make a graph with multiple axes with excel 17" src="/static/images/graph-with-multiple-axes-with-excel/image17.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -76,7 +76,7 @@ https://plot.ly/~Dreamshot/575 </a>
    editing popover.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 11" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image11.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 11" src="/static/images/graph-with-multiple-axes-with-excel/image11.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -90,7 +90,7 @@ https://plot.ly/~Dreamshot/575 </a>
    ” to add a new axis.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 10" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image10.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 10" src="/static/images/graph-with-multiple-axes-with-excel/image10.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -98,7 +98,7 @@ https://plot.ly/~Dreamshot/575 </a>
    Here is where we add an extra y-axis to the right-hand-side of the graph. Select “Right” like in the screenshot, and click the blue “Go” button.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 15" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image15.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 15" src="/static/images/graph-with-multiple-axes-with-excel/image15.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ https://plot.ly/~Dreamshot/575 </a>
    popover and take a look at our chart - It now has a second y-axis! Click on the second y-axis label to give it a name. In this chart, I named it “Y-Axis Number 2”.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image07.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 07" src="/static/images/graph-with-multiple-axes-with-excel/image07.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ High five! You’ve created a second y-axis (on the right), but all three of the
    popover.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 11" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image11.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 11" src="/static/images/graph-with-multiple-axes-with-excel/image11.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -137,7 +137,7 @@ High five! You’ve created a second y-axis (on the right), but all three of the
    Select the green trace from the traces dropdown. Then, click “Y2” under “Axes” to assign the green trace to the new y-axis.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 08" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image08.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 08" src="/static/images/graph-with-multiple-axes-with-excel/image08.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ High five! You’ve created a second y-axis (on the right), but all three of the
    popover to inspect your chart. Notice that the green trace now scales with second y-axis on the right-hand-side.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image00.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 00" src="/static/images/graph-with-multiple-axes-with-excel/image00.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -164,7 +164,7 @@ If you’re reading this, you probably know that the range of each of your x and
    Notice that the last green point overlaps the the last blue point. It would be clearer if there was a separation between these points.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image00.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 00" src="/static/images/graph-with-multiple-axes-with-excel/image00.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -172,7 +172,7 @@ If you’re reading this, you probably know that the range of each of your x and
    Move your cursor around the bottom-corner of your chart until the cursor icon changes to a downward-facing arrow. Then, click and drag downwards.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image14.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 14" src="/static/images/graph-with-multiple-axes-with-excel/image14.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -181,7 +181,7 @@ If you’re reading this, you probably know that the range of each of your x and
   <p class="push-half--ends">
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image13.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 13" src="/static/images/graph-with-multiple-axes-with-excel/image13.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -196,7 +196,7 @@ If you’re reading this, you probably know that the range of each of your x and
    To add a third y-axis, follow same the steps above in “Adding a second y-axis.” This time, assign the blue data trace to the third y-axis. When you’re done, your chart might look like the chart on the right. Notice that the second and third y-axes on the right are overlapping. Don’t worry, we’ll clean this up in the next section.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image02.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 02" src="/static/images/graph-with-multiple-axes-with-excel/image02.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -211,7 +211,7 @@ If you’re reading this, you probably know that the range of each of your x and
    In this chart, the 2nd and 3rd y-axes are overlapping. Ugly! These steps will show you how to space them apart.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image02.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 02" src="/static/images/graph-with-multiple-axes-with-excel/image02.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -221,7 +221,7 @@ If you’re reading this, you probably know that the range of each of your x and
    popover again and select “X Axis” in the dropdown. Go to the “Layout” tab and change the span of the x-axis to 0 through 0.8. This will create extra space on the right-hand-side of the plot for our new y-axis. Nice!
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image12.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 12" src="/static/images/graph-with-multiple-axes-with-excel/image12.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -237,7 +237,7 @@ If you’re reading this, you probably know that the range of each of your x and
    popover. Change its “Anchor to” attribute to “Free” and “Position” to 1 (see screenshot).
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 01" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image01.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 01" src="/static/images/graph-with-multiple-axes-with-excel/image01.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -245,7 +245,7 @@ If you’re reading this, you probably know that the range of each of your x and
    There should now be a nice space between your 2 y-axes on the right-hand-side. Your chart should look something like the one on the right. If you have a legend and its overlapping the 3rd y-axis, you can click-and-drag the legend to move it more to the right of the chart.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image03.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 03" src="/static/images/graph-with-multiple-axes-with-excel/image03.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -253,7 +253,7 @@ If you’re reading this, you probably know that the range of each of your x and
    If you haven’t already, you can assign the blue data trace to the third y-axis. Now, every data trace has its own y-axis. The set-up for how to do this in the TRACES popover is shown on the right.
  </td>
  <td>
-	<img alt="How to make a graph with multiple axes with excel 16" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image16.png" title=""/>
+	<img alt="How to make a graph with multiple axes with excel 16" src="/static/images/graph-with-multiple-axes-with-excel/image16.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -268,7 +268,7 @@ If you’re reading this, you probably know that the range of each of your x and
      on the toolbar.
    </td>
    <td>
-      <img alt="How to make a graph with multiple axes with excel 20" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image20.png" title=""/>
+      <img alt="How to make a graph with multiple axes with excel 20" src="/static/images/graph-with-multiple-axes-with-excel/image20.png" title=""/>
    </td>
   </tr>
   <tr>
@@ -282,7 +282,7 @@ If you’re reading this, you probably know that the range of each of your x and
      Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
    </td>
    <td>
-      <img alt="How to make a graph with multiple axes with excel 21" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image21.png" title=""/>
+      <img alt="How to make a graph with multiple axes with excel 21" src="/static/images/graph-with-multiple-axes-with-excel/image21.png" title=""/>
    </td>
   </tr>
 <td>
@@ -296,7 +296,7 @@ If you’re reading this, you probably know that the range of each of your x and
    popover. Questions? Email
    rosie@plot.ly
 </td><td>
-   <img alt="How to make a graph with multiple axes with excel 05" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-multiple-axes-with-excel/image05.png" title=""/>
+   <img alt="How to make a graph with multiple axes with excel 05" src="/static/images/graph-with-multiple-axes-with-excel/image05.png" title=""/>
 </td></tr>
 </tbody>
    </table>
