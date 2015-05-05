@@ -32,8 +32,8 @@ tags: excel
    formats.
  </td>
  <td>
-   <a data-lightbox="image24" href="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image24.png">
-	<img alt="How to make a graph with error bars with excel 24" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image24.png" title=""/>
+   <a data-lightbox="image24" href="/static/images/graph-with-error-bars-with-excel/image24.png">
+	<img alt="How to make a graph with error bars with excel 24" src="/static/images/graph-with-error-bars-with-excel/image24.png" title=""/>
    </a>
  </td>
 </tr>
@@ -49,7 +49,7 @@ tags: excel
    </a>
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 25" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image25.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 25" src="/static/images/graph-with-error-bars-with-excel/image25.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -59,13 +59,13 @@ tags: excel
    menu. You can also add error bars to line plots and bar charts.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 16" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image16.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 16" src="/static/images/graph-with-error-bars-with-excel/image16.png" title=""/>
    <tr>
 	<td>
 	  Click the “Error bars” option in the sidebar.
 	</td>
 	<td>
-	   <img alt="How to make a graph with error bars with excel 15" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image15.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 15" src="/static/images/graph-with-error-bars-with-excel/image15.png" title=""/>
 	</td>
    </tr>
    <tr>
@@ -73,7 +73,7 @@ tags: excel
 	  Select the column of error values that correspond to your y-values.
 	</td>
 	<td>
-	   <img alt="How to make a graph with error bars with excel 20" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image20.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 20" src="/static/images/graph-with-error-bars-with-excel/image20.png" title=""/>
 	</td>
    </tr>
    <tr>
@@ -81,7 +81,7 @@ tags: excel
 	  (Alternatives: you can also select error values to correspond to your x-values or...
 	</td>
 	<td>
-	   <img alt="How to make a graph with error bars with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image13.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 13" src="/static/images/graph-with-error-bars-with-excel/image13.png" title=""/>
 	</td>
    </tr>
    <tr>
@@ -89,8 +89,8 @@ tags: excel
 	  ...by selecting  the“Asymmetric errors” option instead, you can set two different sets of error values for each coordinate. “Ey-” sets the length of the bar extending beneath each point, and “Ey” sets the length of the bar extending out from above it.)
 	</td>
 	<td>
-	   <img alt="How to make a graph with error bars with excel 23" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image23.png" title=""/>
-	   <img alt="How to make a graph with error bars with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image07.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 23" src="/static/images/graph-with-error-bars-with-excel/image23.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 07" src="/static/images/graph-with-error-bars-with-excel/image07.png" title=""/>
 	</td>
    </tr>
    <tr>
@@ -102,7 +102,7 @@ tags: excel
 	  )
 	</td>
 	<td>
-	   <img alt="How to make a graph with error bars with excel 18" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image18.png" title=""/>
+	   <img alt="How to make a graph with error bars with excel 18" src="/static/images/graph-with-error-bars-with-excel/image18.png" title=""/>
 	</td>
    </tr>
  </td>
@@ -121,8 +121,8 @@ tags: excel
    popover in the toolbar.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image00.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image12.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 00" src="/static/images/graph-with-error-bars-with-excel/image00.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 12" src="/static/images/graph-with-error-bars-with-excel/image12.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ tags: excel
    popover should look like. We changed the weight of the bars, and made their feet a little wider.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 11" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image11.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 11" src="/static/images/graph-with-error-bars-with-excel/image11.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -143,8 +143,8 @@ tags: excel
    For example, you can add red error bars to the x-coordinates of every point, and set their length to 4% of the x-coordinate’s value.)
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 05" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image05.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 21" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image21.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 05" src="/static/images/graph-with-error-bars-with-excel/image05.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 21" src="/static/images/graph-with-error-bars-with-excel/image21.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -159,8 +159,8 @@ tags: excel
    Your plot should look something like this. In order to get the graph at the top of the chart, you’ll need to style it.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image14.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image12.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 14" src="/static/images/graph-with-error-bars-with-excel/image14.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 12" src="/static/images/graph-with-error-bars-with-excel/image12.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -174,8 +174,8 @@ tags: excel
    </a>
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image17.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 08" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image08.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 17" src="/static/images/graph-with-error-bars-with-excel/image17.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 08" src="/static/images/graph-with-error-bars-with-excel/image08.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -185,8 +185,8 @@ tags: excel
    popover should look. We’ve nudged the top margin, and we’re giving our chart a grey background. We’ve also changed the font.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image02.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image03.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 02" src="/static/images/graph-with-error-bars-with-excel/image02.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 03" src="/static/images/graph-with-error-bars-with-excel/image03.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -196,7 +196,7 @@ tags: excel
    popover looks like for “All Axes”. We’ve made the grid lines white.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 22" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image22.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 22" src="/static/images/graph-with-error-bars-with-excel/image22.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -206,7 +206,7 @@ tags: excel
    popover.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 06" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image06.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 06" src="/static/images/graph-with-error-bars-with-excel/image06.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -216,8 +216,8 @@ tags: excel
    on the toolbar.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 27" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image27.png" title=""/>
-	<img alt="How to make a graph with error bars with excel 26" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image26.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 27" src="/static/images/graph-with-error-bars-with-excel/image27.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 26" src="/static/images/graph-with-error-bars-with-excel/image26.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -225,7 +225,7 @@ tags: excel
    Your finished chart should look something like this:
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 01" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image01.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 01" src="/static/images/graph-with-error-bars-with-excel/image01.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -239,7 +239,7 @@ tags: excel
    Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
  </td>
  <td>
-	<img alt="How to make a graph with error bars with excel 28" src="/static/learn/images/excel_tutorials/how-to-make-a-graph-with-error-bars-with-excel/image28.png" title=""/>
+	<img alt="How to make a graph with error bars with excel 28" src="/static/images/graph-with-error-bars-with-excel/image28.png" title=""/>
  </td>
 </tr>
 </tbody>
