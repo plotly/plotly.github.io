@@ -21,7 +21,7 @@ Area plots are the same as scatter and line plots, but with different trace opti
 ###Step 1: Setting up the data in the grid
 
 
-This is how you would set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~Dreamshot/566](https://plot.ly/~Dreamshot/566])). Click the blue plot button to create the chart. | ![How to make an area chart](/static/images/how-to-make-an-area-graph/image10.png)
+This is how you would set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~Dreamshot/566](https://plot.ly/~Dreamshot/566])). Click the blue plot button to create the chart. | ![How to make an area chart](/static/images/How-to-make-an-area-graph/image00.png)
 
 ###Step 2: Adding fill under traces
 
