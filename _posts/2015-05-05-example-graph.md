@@ -10,7 +10,7 @@ tags:
 
 
 
-Using <pre>&lt;code&gt; &lt;/code&gt;</pre>
+Wrapping text in <pre>&lt;code&gt; &lt;/code&gt;</pre>
 
 <pre>
 <code>
