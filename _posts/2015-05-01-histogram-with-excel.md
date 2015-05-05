@@ -38,7 +38,7 @@ xlsx
 formats
 </td>
 <td>
-<img alt="How to make a histogram with excel 30" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image30.png" title=""/>
+<img alt="How to make a histogram with excel 30" src="/static/images/histogram-with-excel/image30.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ How to plot from the Grid
 </a>
 </td>
 <td>
-<img alt="How to make a histogram with excel 28" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image28.png" title=""/>
+<img alt="How to make a histogram with excel 28" src="/static/images/histogram-with-excel/image28.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -63,7 +63,7 @@ MAKE A PLOT
 menu.
 </td>
 <td>
-<img alt="How to make a histogram with excel 18" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image18.png" title=""/>
+<img alt="How to make a histogram with excel 18" src="/static/images/histogram-with-excel/image18.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -73,7 +73,7 @@ one
 column of data for a basic histogram (two with the ‘group by’ option)…
 </td>
 <td>
-<img alt="How to make a histogram with excel 05" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image05.png" title=""/>
+<img alt="How to make a histogram with excel 05" src="/static/images/histogram-with-excel/image05.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ https://plot.ly/histogram/
 </a>
 </td>
 <td>
-<img alt="How to make a histogram with excel 15" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image15.gif" title=""/>
+<img alt="How to make a histogram with excel 15" src="/static/images/histogram-with-excel/image15.gif" title=""/>
 </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ Click the blue plot button in the sidebar to create the chart.  (For more help w
 https://plot.ly/add-data-to-the-plotly-grid/</a>)
 </td>
 <td>
-<img alt="How to make a histogram with excel 21" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image21.png" title=""/>
+<img alt="How to make a histogram with excel 21" src="/static/images/histogram-with-excel/image21.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -109,8 +109,8 @@ https://plot.ly/add-data-to-the-plotly-grid/</a>)
 Your plot should look something like this.  Open the FIT DATA popover in the toolbar.
 </td>
 <td>
-<img alt="How to make a histogram with excel 20" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image20.png" title=""/>
-<img alt="How to make a histogram with excel 27" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image27.png" title=""/>
+<img alt="How to make a histogram with excel 20" src="/static/images/histogram-with-excel/image20.png" title=""/>
+<img alt="How to make a histogram with excel 27" src="/static/images/histogram-with-excel/image27.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -120,8 +120,8 @@ Set up the “Basic” tab to draw a
 <a class="link--impt" href="http://en.wikipedia.org/wiki/Gaussian_function" target="_blank"> Gaussian Peak </a> based on the data. Leave the other options blank and click the “Run this fit” button at the bottom.
 </td>
 <td>
-<img alt="How to make a histogram with excel 04" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image04.png" title=""/>
-<img alt="How to make a histogram with excel 09" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image09.png" title=""/>
+<img alt="How to make a histogram with excel 04" src="/static/images/histogram-with-excel/image04.png" title=""/>
+<img alt="How to make a histogram with excel 09" src="/static/images/histogram-with-excel/image09.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -129,7 +129,7 @@ Set up the “Basic” tab to draw a
 Voila, a curve!
 </td>
 <td>
-<img alt="How to make a histogram with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image03.png" title=""/>
+<img alt="How to make a histogram with excel 03" src="/static/images/histogram-with-excel/image03.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -140,7 +140,7 @@ a+h*exp( -(x-x0)^2/(2*w^2))
 </td>
 <td>
 <p class="push-half--ends">
-<img alt="How to make a histogram with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image14.png" title=""/>
+<img alt="How to make a histogram with excel 14" src="/static/images/histogram-with-excel/image14.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -150,8 +150,8 @@ TRACES
 popover. You’ll probably want to remake your fit with the revised trace.)
 </td>
 <td>
-<img alt="How to make a histogram with excel 11" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image11.png" title=""/>
-<img alt="How to make a histogram with excel 06" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image06.png" title=""/>
+<img alt="How to make a histogram with excel 11" src="/static/images/histogram-with-excel/image11.png" title=""/>
+<img alt="How to make a histogram with excel 06" src="/static/images/histogram-with-excel/image06.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -165,8 +165,8 @@ popover. You’ll probably want to remake your fit with the revised trace.)
 Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style and annotate it. Open the NOTES popover.
 </td>
 <td>
-<img alt="How to make a histogram with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image03.png" title=""/>
-<img alt="How to make a histogram with excel 22" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image22.png" title=""/>
+<img alt="How to make a histogram with excel 03" src="/static/images/histogram-with-excel/image03.png" title=""/>
+<img alt="How to make a histogram with excel 22" src="/static/images/histogram-with-excel/image22.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -175,7 +175,7 @@ This is what the NOTES popover looks like. The “+” sign adds new notes.
 Hide the arrow. Set the “Move with” option to “Data”, as the note refers to a specific pair of points on the plot.
 </td>
 <td>
-<img alt="How to make a histogram with excel 24" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image24.png" title=""/>
+<img alt="How to make a histogram with excel 24" src="/static/images/histogram-with-excel/image24.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -183,7 +183,7 @@ Hide the arrow. Set the “Move with” option to “Data”, as the note refers
 Find the note on the plot, and drag it to where you want it. Click the note to edit its text. Use markup to style and format it.
 </td>
 <td>
-<img alt="How to make a histogram with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image17.png" title=""/>
+<img alt="How to make a histogram with excel 17" src="/static/images/histogram-with-excel/image17.png" title=""/>
 &lt;b&gt;MEAN: 72.8"&lt;br&gt;MEDIAN:73"&lt;/b&gt;
 </td>
 </tr>
@@ -192,7 +192,7 @@ Find the note on the plot, and drag it to where you want it. Click the note to e
 Click the plot title and axis titles to edit their text. Use markup to link to your source.
 </td>
 <td>
-<img alt="How to make a histogram with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image00.png" title=""/>
+<img alt="How to make a histogram with excel 00" src="/static/images/histogram-with-excel/image00.png" title=""/>
 &lt;b&gt;HEIGHT (INCHES)&lt;/b&gt;&lt;br&gt;&lt;a href="http://theleafsnation.com/2014/5/25/justin-s-nhl-draftbook-2013-1963"&gt;NHL Draftbook, Justin Fisher&lt;/a&gt;
 </td>
 </tr>
@@ -201,8 +201,8 @@ Click the plot title and axis titles to edit their text. Use markup to link to y
 This is what the “Style” tab of the TRACES popover looks like for the “Height” trace. We’ve changed the bar color and made them narrower.
 </td>
 <td>
-<img alt="How to make a histogram with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image13.png" title=""/>
-<img alt="How to make a histogram with excel 26" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image26.png" title=""/>
+<img alt="How to make a histogram with excel 13" src="/static/images/histogram-with-excel/image13.png" title=""/>
+<img alt="How to make a histogram with excel 26" src="/static/images/histogram-with-excel/image26.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -210,7 +210,7 @@ This is what the “Style” tab of the TRACES popover looks like for the “Hei
 This is what the “Style” tab of the TRACES popover looks like for the “Height - fit” trace. We’ve changed the line color and stroke.
 </td>
 <td>
-<img alt="How to make a histogram with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image07.png" title=""/>
+<img alt="How to make a histogram with excel 07" src="/static/images/histogram-with-excel/image07.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -218,8 +218,8 @@ This is what the “Style” tab of the TRACES popover looks like for the “Hei
 This is what the “General” and “Margins” tabs of the LAYOUT popover should look like. We’re giving our plot a grey background, and we’ve changed some of the font options.
 </td>
 <td>
-<img alt="How to make a histogram with excel 23" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image23.png" title=""/>
-<img alt="How to make a histogram with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image02.png" title=""/>
+<img alt="How to make a histogram with excel 23" src="/static/images/histogram-with-excel/image23.png" title=""/>
+<img alt="How to make a histogram with excel 02" src="/static/images/histogram-with-excel/image02.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -227,7 +227,7 @@ This is what the “General” and “Margins” tabs of the LAYOUT popover shou
 This is what the “Lines” tab of the AXES popover looks like. We’re hiding the body grid lines, and colored the zero line red.
 </td>
 <td>
-<img alt="How to make a histogram with excel 19" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image19.png" title=""/>
+<img alt="How to make a histogram with excel 19" src="/static/images/histogram-with-excel/image19.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -235,7 +235,7 @@ This is what the “Lines” tab of the AXES popover looks like. We’re hiding 
 We’re removing the legend from the sidebar in the LEGEND popover.
 </td>
 <td>
-<img alt="How to make a histogram with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image12.png" title=""/>
+<img alt="How to make a histogram with excel 12" src="/static/images/histogram-with-excel/image12.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -243,8 +243,8 @@ We’re removing the legend from the sidebar in the LEGEND popover.
 You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Plotly graph by clicking DOWNLOAD on the toolbar.
 </td>
 <td>
-<img alt="How to make a histogram with excel 31" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image31.png" title=""/>
-<img alt="How to make a histogram with excel 29" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image29.png" title=""/>
+<img alt="How to make a histogram with excel 31" src="/static/images/histogram-with-excel/image31.png" title=""/>
+<img alt="How to make a histogram with excel 29" src="/static/images/histogram-with-excel/image29.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -252,7 +252,7 @@ You can download your finished Plotly graph to embed in your Excel workbook. We 
 Your finished chart should look something like this:
 </td>
 <td>
-<img alt="How to make a histogram with excel 08" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image08.png" title=""/>
+<img alt="How to make a histogram with excel 08" src="/static/images/histogram-with-excel/image08.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -260,7 +260,7 @@ Your finished chart should look something like this:
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
-<img alt="How to make a histogram with excel 32" src="/static/learn/images/excel_tutorials/how-to-make-a-histogram-with-excel/image32.png" title=""/>
+<img alt="How to make a histogram with excel 32" src="/static/images/histogram-with-excel/image32.png" title=""/>
 </td>
 </tr>
 </tbody>
