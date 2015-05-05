@@ -34,7 +34,7 @@ xlsx
 formats
 </td>
 <td>
-<img alt="How to make an area chart with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image17.png" title=""/>
+<img alt="How to make an area chart with excel 17" src="/static/images/area-charts-in-excel-with-plotly/image17.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 
 </td>
 <td>
-<img alt="How to make an area chart with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image12.png" title=""/>
+<img alt="How to make an area chart with excel 12" src="/static/images/area-charts-in-excel-with-plotly/image12.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ TRACES
 popover for “trace 0” looks. Notice “Fill To” has been set to “Y=0”.
 </td>
 <td>
-<img alt="How to make an area chart with excel 09" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image09.png" title=""/>
+<img alt="How to make an area chart with excel 09" src="/static/images/area-charts-in-excel-with-plotly/image09.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -79,7 +79,7 @@ TRACES
 popover for “trace 1” looks. Notice “Fill To” has been set to “Next Y”.
 </td>
 <td>
-<img alt="How to make an area chart with excel 04" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image04.png" title=""/>
+<img alt="How to make an area chart with excel 04" src="/static/images/area-charts-in-excel-with-plotly/image04.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ Nice! Now you have your area plot. If you want, you can change the colors and ap
 Here’s how your area chart looks before styling.
 </td>
 <td>
-<img alt="How to make an area chart with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image00.png" title=""/>
+<img alt="How to make an area chart with excel 00" src="/static/images/area-charts-in-excel-with-plotly/image00.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -104,8 +104,8 @@ Here’s how your area chart looks before styling.
 Here’s how the TRACES popover looks with smoothing and the change of colors. The smoothing button is highlighted in red.
 </td>
 <td>
-<img alt="How to make an area chart with excel 06" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image06.png" title=""/>
-<img alt="How to make an area chart with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image02.png" title=""/>
+<img alt="How to make an area chart with excel 06" src="/static/images/area-charts-in-excel-with-plotly/image06.png" title=""/>
+<img alt="How to make an area chart with excel 02" src="/static/images/area-charts-in-excel-with-plotly/image02.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -115,7 +115,7 @@ AXES
 popover looks with the axes lines thickened and made white.
 </td>
 <td>
-<img alt="How to make an area chart with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image07.png" title=""/>
+<img alt="How to make an area chart with excel 07" src="/static/images/area-charts-in-excel-with-plotly/image07.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -125,7 +125,7 @@ LAYOUT
 popover looks with the plot and margin background color changed to grey.
 </td>
 <td>
-<img alt="How to make an area chart with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image03.png" title=""/>
+<img alt="How to make an area chart with excel 03" src="/static/images/area-charts-in-excel-with-plotly/image03.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -135,8 +135,8 @@ DOWNLOAD
 on the toolbar.
 </td>
 <td>
-<img alt="How to make an area chart with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image14.png" title=""/>
-<img alt="How to make an area chart with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image13.png" title=""/>
+<img alt="How to make an area chart with excel 14" src="/static/images/area-charts-in-excel-with-plotly/image14.png" title=""/>
+<img alt="How to make an area chart with excel 13" src="/static/images/area-charts-in-excel-with-plotly/image13.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ on the toolbar.
 Your finished chart should look something like this.
 </td>
 <td>
-<img alt="How to make an area chart with excel 01" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image01.png" title=""/>
+<img alt="How to make an area chart with excel 01" src="/static/images/area-charts-in-excel-with-plotly/image01.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -158,7 +158,7 @@ PICTURE.
 Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
-<img alt="How to make an area chart with excel 18" src="/static/learn/images/excel_tutorials/how-to-make-an-area-chart-with-excel/image18.png" title=""/>
+<img alt="How to make an area chart with excel 18" src="/static/images/area-charts-in-excel-with-plotly/image18.png" title=""/>
 </td>
 </tr>
 </tbody>
