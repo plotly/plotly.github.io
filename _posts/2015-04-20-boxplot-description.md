@@ -11,6 +11,8 @@ tags: statistical basic
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+#What is a BoxPlot?
+
 ####The Box
 
 Boxplots are used to better understand how values are spaced out in different sets of data. To understand the method behind constructing a boxplot, imagine a set of values that are spaced out along a number line. First, draw a line at the  **median** of the data set &mdash; the value in the set which divides it evenly in half, with an equal number of points smaller and larger. If there are an even number of points in the dataset (as in the example below), the median is halfway between the two central points.
