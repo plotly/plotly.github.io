@@ -8,6 +8,8 @@ state: inactive
 tags: excel
 ---
 
+# Make a Bubble Chart with Excel
+
 <div>
     <a href="https://plot.ly/~cimar/211/" target="_blank" title="Life Expectancy v. Per Capita GDP, 2007" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/211.png" alt="Life Expectancy v. Per Capita GDP, 2007" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="cimar:211" src="https://plot.ly/embed.js" async></script>
