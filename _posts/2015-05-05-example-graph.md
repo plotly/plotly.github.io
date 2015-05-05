@@ -9,17 +9,8 @@ tags:
 ---
 
 
-<pre><code style="white-space: normal;">
-Author: Plotly Technologies Inc.  
-Title: Collaborative data science  
-Publisher: Plotly Technologies Inc.  
-Place of publication: Montréal, QC  
-Date of publication: 2015  
-URL: https://plot.ly  
-</code></pre>
 
-
-
+Using <pre><code></code></pre>
 
 <pre>
 <code>
@@ -31,4 +22,15 @@ Date of publication: 2015
 URL: https://plot.ly  
 </code>
 </pre>
+
+If we add style the <code> as white-space: normal
+
+<pre><code style="white-space: normal;">
+Author: Plotly Technologies Inc.  
+Title: Collaborative data science  
+Publisher: Plotly Technologies Inc.  
+Place of publication: Montréal, QC  
+Date of publication: 2015  
+URL: https://plot.ly  
+</code></pre>
 
