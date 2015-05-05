@@ -9,6 +9,8 @@ tags: STATISTICS
 
 ---
 
+#Chi-square Test
+
 ###When do you use a chi-squared test?
 
 The chi-squared test is a statistical test that you can use to test if there are differences across groups of categorical data. There are two general settings where the chi-squared test is appropriate. In the first setting, you are interested in knowing whether two categorical variables are related. In the second setting, you only have one categorical variable and a specific hypothesis about the distribution of this variable across the categories.
