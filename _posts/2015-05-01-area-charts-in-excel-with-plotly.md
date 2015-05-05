@@ -8,7 +8,7 @@ state: inactive
 tags: excel
 ---
 
-##How to make an area chart in Excel 
+#How to make an area chart in Excel 
 
 <div>
     <a href="https://plot.ly/~Dreamshot/564/" target="_blank" title="&lt;br&gt;NYC vs. LA: Population 1900-2010" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/564.png" alt="&lt;br&gt;NYC vs. LA: Population 1900-2010" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
