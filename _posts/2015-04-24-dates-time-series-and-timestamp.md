@@ -8,6 +8,8 @@ state: active
 tags: textandlinks basic
 ---
 
+#Dates, Time Series and Timestamp Format in Plotly
+
 <div>
     <a href="https://plot.ly/~empet/55/" target="_blank" title="Top 5 Browsers from July 2013 to July 2014" style="display: block; text-align: center;"><img src="https://plot.ly/~empet/55.png" alt="Top 5 Browsers from July 2013 to July 2014" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="empet:55" src="https://plot.ly/embed.js" async></script>
