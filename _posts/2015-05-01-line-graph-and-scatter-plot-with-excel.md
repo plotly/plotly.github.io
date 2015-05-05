@@ -34,7 +34,7 @@ xlsx
 formats.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 22" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image22.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 22" src="/static/images/line-graph-and-scatter-plot-with-excel/image22.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -49,7 +49,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 </a>
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 19" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image19.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 19" src="/static/images/line-graph-and-scatter-plot-with-excel/image19.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -57,7 +57,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 Select “Line plot” from the MAKE A PLOT menu.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image02.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 02" src="/static/images/line-graph-and-scatter-plot-with-excel//image02.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ Select “Line plot” from the MAKE A PLOT menu.
 Click the blue plot button in the sidebar to create the chart.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image13.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 13" src="/static/images/line-graph-and-scatter-plot-with-excel/image13.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -80,8 +80,8 @@ Click the blue plot button in the sidebar to create the chart.
 Your plot should look something like this.  All the traces are line plots with markers.  The first step to styling it into the mixed-type graph above is to open the TRACES popover in the toolbar.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image12.png" title=""/>
-<img alt="How to make a line graph and scatter plot with excel 11" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image11.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 12" src="/static/images/line-graph-and-scatter-plot-with-excel/image12.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 11" src="/static/images/line-graph-and-scatter-plot-with-excel/image11.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -89,7 +89,7 @@ Your plot should look something like this.  All the traces are line plots with m
 Here’s how the “Mode” tab of the TRACES popover for “trace 0” should look.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 09" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image09.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 09" src="/static/images/line-graph-and-scatter-plot-with-excel/image09.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -97,7 +97,7 @@ Here’s how the “Mode” tab of the TRACES popover for “trace 0” should l
 Here’s how the “Mode” tab of the TRACES popover for “trace 1” should look. Notice that we’ve selected the marker without a line option -- this is how you get a scatter plot.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image00.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 00" src="/static/images/line-graph-and-scatter-plot-with-excel/image00.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -105,7 +105,7 @@ Here’s how the “Mode” tab of the TRACES popover for “trace 1” should l
 Here’s how the “Mode” tab of the TRACES popover for “trace 2” should look. Notice that we’ve selected the line without marker option.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 10" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image10.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 10" src="/static/images/line-graph-and-scatter-plot-with-excel/image10.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -120,7 +120,7 @@ Here’s how the “Mode” tab of the TRACES popover for “trace 2” should l
 Now your plot should look something like this: a mixed line and scatter plot. We still have some styling to do to get the plot at the top of this tutorial! Open TRACES again.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image14.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 14" src="/static/images/line-graph-and-scatter-plot-with-excel/image14.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -128,7 +128,7 @@ Now your plot should look something like this: a mixed line and scatter plot. We
 This is how the “Style” tab of the TRACES popover on “trace 0” should look. We’ve smoothed the line, changed the stroke, and made the markers larger.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 05" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image05.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 05" src="/static/images/line-graph-and-scatter-plot-with-excel/image05.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -136,7 +136,7 @@ This is how the “Style” tab of the TRACES popover on “trace 0” should lo
 This is how the “Style” tab of the TRACES popover on “trace 1” should look. We’ve changed the stroke and its weight.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 01" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image01.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 01" src="/static/images/line-graph-and-scatter-plot-with-excel/image01.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -144,7 +144,7 @@ This is how the “Style” tab of the TRACES popover on “trace 1” should lo
 This is how the “Style” tab of the TRACES popover on “trace 2” should look. We’ve changed the shape of the marker and its outline.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 03" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image03.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 03" src="/static/images/line-graph-and-scatter-plot-with-excel/image03.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -152,8 +152,8 @@ This is how the “Style” tab of the TRACES popover on “trace 2” should lo
 This is how the LAYOUT popover should look. We’re giving the plot a grey background.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image17.png" title=""/>
-<img alt="How to make a line graph and scatter plot with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image07.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 17" src="/static/images/line-graph-and-scatter-plot-with-excel/image17.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 07" src="/static/images/line-graph-and-scatter-plot-with-excel/image07.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -161,7 +161,7 @@ This is how the LAYOUT popover should look. We’re giving the plot a grey backg
 This is how the AXES popover should look.  We’re giving the plot white gridlines
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 15" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image15.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 15" src="/static/images/line-graph-and-scatter-plot-with-excel/image15.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -169,7 +169,7 @@ This is how the AXES popover should look.  We’re giving the plot white gridlin
 We’re hiding our legend in the LEGEND popover.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 18" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image18.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 18" src="/static/images/line-graph-and-scatter-plot-with-excel/image18.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -177,8 +177,8 @@ We’re hiding our legend in the LEGEND popover.
 You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Plotly graph by clicking DOWNLOAD on the toolbar.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 23" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image23.png" title=""/>
-<img alt="How to make a line graph and scatter plot with excel 20" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image20.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 23" src="/static/images/line-graph-and-scatter-plot-with-excel/image23.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 20" src="/static/images/line-graph-and-scatter-plot-with-excel/image20.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -186,7 +186,7 @@ You can download your finished Plotly graph to embed in your Excel workbook. We 
 Your finished chart should look something like this.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 04" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image04.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 04" src="/static/images/line-graph-and-scatter-plot-with-excel/image04.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -194,7 +194,7 @@ Your finished chart should look something like this.
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in theILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 21" src="/static/learn/images/excel_tutorials/how-to-make-a-line-graph-and-scatter-plot-with-excel/image21.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 21" src="/static/images/line-graph-and-scatter-plot-with-excel/image21.png" title=""/>
 </td>
 </tr>
 </tbody>
