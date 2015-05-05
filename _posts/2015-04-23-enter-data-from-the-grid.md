@@ -8,6 +8,8 @@ state: active
 tags: basic, classroom
 ---
 
+#How to Enter Data in the Grid
+
 ### Step 1: Set up the Grid
 
 The first step to making any Plotly graph is setting up the data in a grid.
