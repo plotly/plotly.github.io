@@ -35,7 +35,7 @@ Follow along below to make a heatmap in Plotly.
    The rows and columns of the grid will correspond to the rows and columns of the heat map.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 21" src="/static/images/heat-map-with-excel/ image21.png" title=""/>
+	<img alt="How to make a heatmap with excel 21" src="/static/images/heat-map-with-excel/image21.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@ Follow along below to make a heatmap in Plotly.
    </a>
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 19" src="/static/images/heat-map-with-excel/ image19.png" title=""/>
+	<img alt="How to make a heatmap with excel 19" src="/static/images/heat-map-with-excel/image19.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -60,7 +60,7 @@ Follow along below to make a heatmap in Plotly.
    menu.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 06" src="/static/images/heat-map-with-excel/ image06.png" title=""/>
+	<img alt="How to make a heatmap with excel 06" src="/static/images/heat-map-with-excel/image06.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ Follow along below to make a heatmap in Plotly.
    options in the sidebar and click “Select all columns” button.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 10" src="/static/images/heat-map-with-excel/ image10.png" title=""/>
+	<img alt="How to make a heatmap with excel 10" src="/static/images/heat-map-with-excel/image10.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -78,7 +78,7 @@ Follow along below to make a heatmap in Plotly.
    Deselect any columns you don’t want to plot, and your row names column if you have one. This will be your “y” value.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 02" src="/static/images/heat-map-with-excel/ image02.png" title=""/>
+	<img alt="How to make a heatmap with excel 02" src="/static/images/heat-map-with-excel/image02.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -90,7 +90,7 @@ Follow along below to make a heatmap in Plotly.
    )
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 07" src="/static/images/heat-map-with-excel/ image07.png" title=""/>
+	<img alt="How to make a heatmap with excel 07" src="/static/images/heat-map-with-excel/image07.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -107,8 +107,8 @@ Follow along below to make a heatmap in Plotly.
    popover in the toolbar.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 00" src="/static/images/heat-map-with-excel/ image00.png" title=""/>
-	<img alt="How to make a heatmap with excel 12" src="/static/images/heat-map-with-excel/ image12.png" title=""/>
+	<img alt="How to make a heatmap with excel 00" src="/static/images/heat-map-with-excel/image00.png" title=""/>
+	<img alt="How to make a heatmap with excel 12" src="/static/images/heat-map-with-excel/image12.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -119,7 +119,7 @@ Follow along below to make a heatmap in Plotly.
    red-yellow-blue.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 14" src="/static/images/heat-map-with-excel/ image14.png" title=""/>
+	<img alt="How to make a heatmap with excel 14" src="/static/images/heat-map-with-excel/image14.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -127,7 +127,7 @@ Follow along below to make a heatmap in Plotly.
    For this particular data, we also want to center our gradient so that yellow correlates to a value of 60.2, and everything above or below is a little red or green. The easiest way to do this is by nudging the “Z range” values in the “Range/bins” tab to converge on our desired midpoint  -- we compressed our range, but you can also stretch it if you prefer the effect.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 03" src="/static/images/heat-map-with-excel/ image03.png" title=""/>
+	<img alt="How to make a heatmap with excel 03" src="/static/images/heat-map-with-excel/image03.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -137,8 +137,8 @@ Follow along below to make a heatmap in Plotly.
    , just change the “Type” setting in the “Mode” tab.)
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 13" src="/static/images/heat-map-with-excel/ image13.png" title=""/>
-	<img alt="How to make a heatmap with excel 01" src="/static/images/heat-map-with-excel/ image01.png" title=""/>
+	<img alt="How to make a heatmap with excel 13" src="/static/images/heat-map-with-excel/image13.png" title=""/>
+	<img alt="How to make a heatmap with excel 01" src="/static/images/heat-map-with-excel/image01.png" title=""/>
  </td>
 </tr>
 </tbody>
@@ -153,8 +153,8 @@ Follow along below to make a heatmap in Plotly.
    Your plot should look something like this.  There’s a little more styling you need to do to get the graph at the top of the chart.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 16" src="/static/images/heat-map-with-excel/ image16.png" title=""/>
-	<img alt="How to make a heatmap with excel 12" src="/static/images/heat-map-with-excel/ image12.png" title=""/>
+	<img alt="How to make a heatmap with excel 16" src="/static/images/heat-map-with-excel/image16.png" title=""/>
+	<img alt="How to make a heatmap with excel 12" src="/static/images/heat-map-with-excel/image12.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -164,8 +164,8 @@ Follow along below to make a heatmap in Plotly.
    popover should look. We’ve nudged the margins to accommodate the y-axis labels, and we’re giving our chart a grey background.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 11" src="/static/images/heat-map-with-excel/ image11.png" title=""/>
-	<img alt="How to make a heatmap with excel 04" src="/static/images/heat-map-with-excel/ image04.png" title=""/>
+	<img alt="How to make a heatmap with excel 11" src="/static/images/heat-map-with-excel/image11.png" title=""/>
+	<img alt="How to make a heatmap with excel 04" src="/static/images/heat-map-with-excel/image04.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -173,7 +173,7 @@ Follow along below to make a heatmap in Plotly.
    We’ve titled our chart, and used markup to format our text and source our data.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 09" src="/static/images/heat-map-with-excel/ image09.png" title=""/>
+	<img alt="How to make a heatmap with excel 09" src="/static/images/heat-map-with-excel/image09.png" title=""/>
    OKCupid Compatibility by Religion&lt;br&gt;Source: &lt;a href=”
    <a class="link--impt" href="http://blog.okcupid.com/index.php/how-races-and-religions-match-in-online-dating" target="_blank">
 	http://blog.okcupid.com/index.php/how-races-and-religions-match-in-online-dating
@@ -188,8 +188,8 @@ Follow along below to make a heatmap in Plotly.
    on the toolbar.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 22" src="/static/images/heat-map-with-excel/ image22.png" title=""/>
-	<img alt="How to make a heatmap with excel 20" src="/static/images/heat-map-with-excel/ image20.png" title=""/>
+	<img alt="How to make a heatmap with excel 22" src="/static/images/heat-map-with-excel/image22.png" title=""/>
+	<img alt="How to make a heatmap with excel 20" src="/static/images/heat-map-with-excel/image20.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Follow along below to make a heatmap in Plotly.
    Your finished chart should look something like this:
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 15" src="/static/images/heat-map-with-excel/ image15.png" title=""/>
+	<img alt="How to make a heatmap with excel 15" src="/static/images/heat-map-with-excel/image15.png" title=""/>
  </td>
 </tr>
 <tr>
@@ -211,7 +211,7 @@ Follow along below to make a heatmap in Plotly.
    Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
  </td>
  <td>
-	<img alt="How to make a heatmap with excel 23" src="/static/images/heat-map-with-excel/ image23.png" title=""/>
+	<img alt="How to make a heatmap with excel 23" src="/static/images/heat-map-with-excel/image23.png" title=""/>
  </td>
 </tr>
 </tbody>
