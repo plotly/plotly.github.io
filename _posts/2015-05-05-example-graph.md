@@ -34,3 +34,13 @@ URL: https://plot.ly  <br />
   Date of publication: 2015  
   URL: https://plot.ly  
   ```
+
+
+<code>
+Author: Plotly Technologies Inc.  <br />
+Title: Collaborative data science  <br />
+Publisher: Plotly Technologies Inc.  <br />
+Place of publication: Montréal, QC  <br />
+Date of publication: 2015  <br />
+URL: https://plot.ly  <br />
+</code>
