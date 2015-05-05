@@ -12,8 +12,7 @@ tags:
 
 Wrapping text in <pre>&lt;code&gt; &lt;/code&gt;</pre>
 
-<pre>
-<code style="width: 300px;">
+<pre><code style="width: 300px;">
 Author: Plotly Technologies Inc.  
 Title: Collaborative data science  
 Publisher: Plotly Technologies Inc.  
