@@ -23,12 +23,12 @@ Here’s how to use Plotly to calculate both the chi-squared statistic and the p
 
 ###Step 1 : Set up the grid
 
-We’ve already entered the [Gallup poll data into Plotly](https://plot.ly/976/~mariahh). Click the link to open the data in your workspace. | ![Chi square test](http://i.imgur.com/eZ222ec.png)
+We’ve already entered the [Gallup poll data into Plotly](https://plot.ly/976/~mariahh). Click the link to open the data in your workspace. | ![Chi square test](/static/images/chi-square/01-chi-square.png)
 
 ###Step 2: Chi-squared test
 
-Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Chi square tes](http://i.imgur.com/Skp90ha.png)
+Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Chi square tes](/static/images/chi-square/02-chi-square.png)
 
-Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on **Perform Chi-squared Test**. | ![Chi square tes](http://i.imgur.com/i6Y1ZiD.png)
+Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on **Perform Chi-squared Test**. | ![Chi square tes](/static/images/chi-square/03-chi-square.png)
 
-Plotly puts our results in the first two columns to the right of our data. In this case, the chi-squared statistic is 4.1456 and the P-value is 0.04174. By convention, because 0.04174 is less than 0.05, we decide that the difference is statistically significant. In other words, we reject the null hypothesis and conclude that there must be a relation between vegetarianism and gender. | ![Chi square tes](http://i.imgur.com/7fkBMjX.png)
+Plotly puts our results in the first two columns to the right of our data. In this case, the chi-squared statistic is 4.1456 and the P-value is 0.04174. By convention, because 0.04174 is less than 0.05, we decide that the difference is statistically significant. In other words, we reject the null hypothesis and conclude that there must be a relation between vegetarianism and gender. | ![Chi square tes](/static/images/chi-square/04-chi-square.png)
