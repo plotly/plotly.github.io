@@ -159,7 +159,8 @@ FOOTER STYLING
     font-size: 12px;
     font-weight: 400;
     list-style: none;
-    line-height: 4px;
+    line-height: 12px;
+    margin-top: auto;
 }
 
 .footerarea a{
