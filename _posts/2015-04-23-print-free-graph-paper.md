@@ -8,6 +8,8 @@ state: active
 tags: classroom
 ---
 
+#Print Free Graph Paper Online
+
 ###Click to download a graph paper pdf
 
 [Letter (8.5&#8243; x 11&#8243;) &#8211; 5mm grid](https://plot.ly/static/pdf/graphpaper_5mm.pdf) | [A4 (8.27&#8243; x 11.69&#8243;) &#8211; 5mm grid](https://plot.ly/static/pdf/graphpaper_a4_5mm.pdf)
