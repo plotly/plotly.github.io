@@ -83,7 +83,7 @@ Finally, frequency distributions can also be divided by bin width to give **freq
 
 For a quick summary of the normalization types, let's look at our sample histogram again, with n data points per bin. Total data points (N) = 15 and bin width (&#916;x) = 400.
 
-<img class="article-img" src="/static/images/histograms-description/09-histogram-description.jpeg" id="fig9" width="423.09" height="259.56" />
+<img class="article-img" src="/static/images/histograms-description/09-histogram-description.jpg" id="fig9" width="423.09" height="259.56" />
 
 <img class="img-responsive-table" src="/static/images/histograms-description/10-histogram-description.png" title="histogram table">
 
