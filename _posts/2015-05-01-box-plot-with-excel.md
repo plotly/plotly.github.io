@@ -38,7 +38,7 @@ xlsx
 formats.
 </td>
 <td>
-<img alt="How to make a box plot with excel 22" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image22.png" title=""/>
+<img alt="How to make a box plot with excel 22" src="/static/images/box-plot-with-excel/image22.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ How to plot from the Grid
 </a>
 </td>
 <td>
-<img alt="How to make a box plot with excel 20" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image20.png" title=""/>
+<img alt="How to make a box plot with excel 20" src="/static/images/box-plot-with-excel/image20.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -63,7 +63,7 @@ MAKE A PLOT
 menu.
 </td>
 <td>
-<img alt="How to make a box plot with excel 18" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image18.png" title=""/>
+<img alt="How to make a box plot with excel 18" src="/static/images/box-plot-with-excel/image18.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 )
 </td>
 <td>
-<img alt="How to make a box plot with excel 09" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image09.png" title=""/>
+<img alt="How to make a box plot with excel 09" src="/static/images/box-plot-with-excel/image09.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -92,8 +92,8 @@ TRACES
 popover in the toolbar.
 </td>
 <td>
-<img alt="How to make a box plot with excel 12" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image12.png" title=""/>
-<img alt="How to make a box plot with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image13.png" title=""/>
+<img alt="How to make a box plot with excel 12" src="/static/images/box-plot-with-excel/image12.png" title=""/>
+<img alt="How to make a box plot with excel 13" src="/static/images/box-plot-with-excel/image13.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -103,7 +103,7 @@ TRACES
 popover should look like for “All Traces (Box)”. We’ve elected to show all points alongside our boxes, not just the outliers.
 </td>
 <td>
-<img alt="How to make a box plot with excel 02" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image02.png" title=""/>
+<img alt="How to make a box plot with excel 02" src="/static/images/box-plot-with-excel/image02.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -118,8 +118,8 @@ popover should look like for “All Traces (Box)”. We’ve elected to show all
 Your plot should look something like this. In order to get the graph at the top of the chart, you’ll need to style it more.
 </td>
 <td>
-<img alt="How to make a box plot with excel 05" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image05.png" title=""/>
-<img alt="How to make a box plot with excel 13" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image13.png" title=""/>
+<img alt="How to make a box plot with excel 05" src="/static/images/box-plot-with-excel/image05.png" title=""/>
+<img alt="How to make a box plot with excel 13" src="/static/images/box-plot-with-excel/image13.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ We’ve narrowed our boxes, spread them out more, and stroked them with a thinne
 
 </td>
 <td>
-<img alt="How to make a box plot with excel 10" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image10.png" title=""/>
+<img alt="How to make a box plot with excel 10" src="/static/images/box-plot-with-excel/image10.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -142,7 +142,7 @@ TRACES
 popover. This is what the tab looks like for “Carmelo Anthony”.
 </td>
 <td>
-<img alt="How to make a box plot with excel 16" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image16.png" title=""/>
+<img alt="How to make a box plot with excel 16" src="/static/images/box-plot-with-excel/image16.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -153,7 +153,7 @@ popover.)
 
 </td>
 <td>
-<img alt="How to make a box plot with excel 19" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image19.png" title=""/>
+<img alt="How to make a box plot with excel 19" src="/static/images/box-plot-with-excel/image19.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -163,8 +163,8 @@ LAYOUT
 popover should look. We’ve nudged the top margin, and we’re giving our chart a grey background. We’ve also changed the font.
 </td>
 <td>
-<img alt="How to make a box plot with excel 04" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image04.png" title=""/>
-<img alt="How to make a box plot with excel 06" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image06.png" title=""/>
+<img alt="How to make a box plot with excel 04" src="/static/images/box-plot-with-excel/image04.png" title=""/>
+<img alt="How to make a box plot with excel 06" src="/static/images/box-plot-with-excel/image06.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -174,7 +174,7 @@ AXES
 popover looks like for “All Axes”. We’ve made the grid lines white, and the x-axis a little heavier.
 </td>
 <td>
-<img alt="How to make a box plot with excel 14" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image14.png" title=""/>
+<img alt="How to make a box plot with excel 14" src="/static/images/box-plot-with-excel/image14.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -184,7 +184,7 @@ AXES
 popover looks like for “X Axis”. We’ve rotated the labels.
 </td>
 <td>
-<img alt="How to make a box plot with excel 00" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image00.png" title=""/>
+<img alt="How to make a box plot with excel 00" src="/static/images/box-plot-with-excel/image00.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -194,7 +194,7 @@ LEGEND
 popover.
 </td>
 <td>
-<img alt="How to make a box plot with excel 08" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image08.png" title=""/>
+<img alt="How to make a box plot with excel 08" src="/static/images/box-plot-with-excel/image08.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -202,7 +202,7 @@ popover.
 We’ve titled our chart, and used markup to format our text and source our data, which in this case is another plotly graph.
 </td>
 <td>
-<img alt="How to make a box plot with excel 07" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image07.png" title=""/>
+<img alt="How to make a box plot with excel 07" src="/static/images/box-plot-with-excel/image07.png" title=""/>
 Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href="https://plot.ly/jackp/969"&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;
 </td>
 </tr>
@@ -213,8 +213,8 @@ DOWNLOAD
 on the toolbar.
 </td>
 <td>
-<img alt="How to make a box plot with excel 23" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image23.png" title=""/>
-<img alt="How to make a box plot with excel 21" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image21.png" title=""/>
+<img alt="How to make a box plot with excel 23" src="/static/images/box-plot-with-excel/image23.png" title=""/>
+<img alt="How to make a box plot with excel 21" src="/static/images/box-plot-with-excel/image21.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -222,7 +222,7 @@ on the toolbar.
 Your finished chart should look something like this:
 </td>
 <td>
-<img alt="How to make a box plot with excel 17" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image17.png" title=""/>
+<img alt="How to make a box plot with excel 17" src="/static/images/box-plot-with-excel/image17.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -236,7 +236,7 @@ PICTURE.
 Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
-<img alt="How to make a box plot with excel 24" src="/static/learn/images/excel_tutorials/how-to-make-a-box-plot-with-excel/image24.png" title=""/>
+<img alt="How to make a box plot with excel 24" src="/static/images/box-plot-with-excel/image24.png" title=""/>
 </td>
 </tr>
 </tbody>
