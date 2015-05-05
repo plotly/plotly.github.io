@@ -1,12 +1,14 @@
 ---
 layout: two_column_layout
 title: Make a 3D Scatter Plot
-subtitle: A Step by Step Guide to Making a 3D Scatter PLot
+subtitle: A Step by Step Guide to Making a 3D Scatter Plot
 permalink: /make-a-3d-scatter-plot
 imageurl: http://i.imgur.com/tJkfuY4.png
 state: active
 tags: graph3d
 ---
+
+# Making a 3D Scatter Plot
 
 <div>
     <a href="https://plot.ly/~mariahh/90/" target="_blank" title="Income, education, gender and prestige" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/90.png" alt="Income, education, gender and prestige" style="max-width: 100%;width: 1031px;"  width="1031" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
