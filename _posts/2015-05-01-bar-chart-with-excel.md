@@ -37,7 +37,7 @@ xlsx
 formats.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 26" src="/static/images/box-plot-with-excel/image26.png" title=""/>
+<img alt="How to make a bar chart with excel 26" src="/static/images/bar-chart-with-excel/image26.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -53,7 +53,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 
 </td>
 <td>
-<img alt="How to make a bar chart with excel 24" src="/static/images/box-plot-with-excel/image24.png" title=""/>
+<img alt="How to make a bar chart with excel 24" src="/static/images/bar-chart-with-excel/image24.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -63,7 +63,7 @@ MAKE A PLOT
 menu.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 02" src="/static/images/box-plot-with-excel/image02.png" title=""/>
+<img alt="How to make a bar chart with excel 02" src="/static/images/bar-chart-with-excel/image02.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -71,7 +71,7 @@ menu.
 Click the blue plot button in the sidebar to create the chart.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 11" src="/static/images/box-plot-with-excel/image11.png" title=""/>
+<img alt="How to make a bar chart with excel 11" src="/static/images/bar-chart-with-excel/image11.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ xlsx
 formats
 </td>
 <td>
-<img alt="How to make a bar chart with excel 27" src="/static/images/box-plot-with-excel/image27.png" title=""/>
+<img alt="How to make a bar chart with excel 27" src="/static/images/bar-chart-with-excel/image27.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -111,7 +111,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 </a>
 </td>
 <td>
-<img alt="How to make a bar chart with excel 24" src="/static/images/box-plot-with-excel/image24.png" title=""/>
+<img alt="How to make a bar chart with excel 24" src="/static/images/bar-chart-with-excel/image24.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ MAKE A PLOT
 menu.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 19" src="/static/images/box-plot-with-excel/image19.png" title=""/>
+<img alt="How to make a bar chart with excel 19" src="/static/images/bar-chart-with-excel/image19.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -131,8 +131,8 @@ OPTIONS
 in the sidebar, and select your options column.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 12" src="/static/images/box-plot-with-excel/image12.png" title=""/>
-<img alt="How to make a bar chart with excel 06" src="/static/images/box-plot-with-excel/image06.png" title=""/>
+<img alt="How to make a bar chart with excel 12" src="/static/images/bar-chart-with-excel/image12.png" title=""/>
+<img alt="How to make a bar chart with excel 06" src="/static/images/bar-chart-with-excel/image06.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -140,7 +140,7 @@ in the sidebar, and select your options column.
 Click the blue plot button in the sidebar to create the chart.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 11" src="/static/images/box-plot-with-excel/image11.png" title=""/>
+<img alt="How to make a bar chart with excel 11" src="/static/images/bar-chart-with-excel/image11.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -157,8 +157,8 @@ TRACES
 popover in the toolbar.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 20" src="/static/images/box-plot-with-excel/image20.png" title=""/>
-<img alt="How to make a bar chart with excel 14" src="/static/images/box-plot-with-excel/image14.png" title=""/>
+<img alt="How to make a bar chart with excel 20" src="/static/images/bar-chart-with-excel/image20.png" title=""/>
+<img alt="How to make a bar chart with excel 14" src="/static/images/bar-chart-with-excel/image14.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -168,8 +168,8 @@ TRACES
 popover for “All Traces (Bar)” should look.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 01" src="/static/images/box-plot-with-excel/image01.png" title=""/>
-<img alt="How to make a bar chart with excel 08" src="/static/images/box-plot-with-excel/image08.png" title=""/>
+<img alt="How to make a bar chart with excel 01" src="/static/images/bar-chart-with-excel/image01.png" title=""/>
+<img alt="How to make a bar chart with excel 08" src="/static/images/bar-chart-with-excel/image08.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -181,8 +181,8 @@ overlay
 your bars, instead of grouping them, just change the “Mode” setting.)
 </td>
 <td>
-<img alt="How to make a bar chart with excel 04" src="/static/images/box-plot-with-excel/image04.png" title=""/>
-<img alt="How to make a bar chart with excel 23" src="/static/images/box-plot-with-excel/image23.png" title=""/>
+<img alt="How to make a bar chart with excel 04" src="/static/images/bar-chart-with-excel/image04.png" title=""/>
+<img alt="How to make a bar chart with excel 23" src="/static/images/bar-chart-with-excel/image23.png" title=""/>
 </td>
 </tr>
 </tbody>
@@ -199,7 +199,7 @@ TRACES
 again.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 00" src="/static/images/box-plot-with-excel/image00.png" title=""/>
+<img alt="How to make a bar chart with excel 00" src="/static/images/bar-chart-with-excel/image00.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -211,7 +211,7 @@ every
 option in this panel: Opacity, Bar Gap, Group Gap, Fill, and Border.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 17" src="/static/images/box-plot-with-excel/image17.png" title=""/>
+<img alt="How to make a bar chart with excel 17" src="/static/images/bar-chart-with-excel/image17.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -221,7 +221,7 @@ TRACES
 popover on “SF Zoo” should look.  These are the same as for LA Zoo, but fill and border are different colors.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 03" src="/static/images/box-plot-with-excel/image03.png" title=""/>
+<img alt="How to make a bar chart with excel 03" src="/static/images/bar-chart-with-excel/image03.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -231,8 +231,8 @@ LAYOUT
 popover should look. We’re changing the font throughout the plot.  We’re also giving the plot a grey background, and nudging the margins.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 07" src="/static/images/box-plot-with-excel/image07.png" title=""/>
-<img alt="How to make a bar chart with excel 13" src="/static/images/box-plot-with-excel/image13.png" title=""/>
+<img alt="How to make a bar chart with excel 07" src="/static/images/bar-chart-with-excel/image07.png" title=""/>
+<img alt="How to make a bar chart with excel 13" src="/static/images/bar-chart-with-excel/image13.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -242,7 +242,7 @@ AXES
 popover should look.  We’re giving the plot thicker white gridlines.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 09" src="/static/images/box-plot-with-excel/image09.png" title=""/>
+<img alt="How to make a bar chart with excel 09" src="/static/images/bar-chart-with-excel/image09.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -252,7 +252,7 @@ LEGEND
 popover should look, we’re giving it a grey background, too.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 18" src="/static/images/box-plot-with-excel/image18.png" title=""/>
+<img alt="How to make a bar chart with excel 18" src="/static/images/bar-chart-with-excel/image18.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -262,8 +262,8 @@ DOWNLOAD
 on the toolbar.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 28" src="/static/images/box-plot-with-excel/image28.png" title=""/>
-<img alt="How to make a bar chart with excel 25" src="/static/images/box-plot-with-excel/image25.png" title=""/>
+<img alt="How to make a bar chart with excel 28" src="/static/images/bar-chart-with-excel/image28.png" title=""/>
+<img alt="How to make a bar chart with excel 25" src="/static/images/bar-chart-with-excel/image25.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -271,7 +271,7 @@ on the toolbar.
 Your finished chart should look something like this.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 22" src="/static/images/box-plot-with-excel/image22.png" title=""/>
+<img alt="How to make a bar chart with excel 22" src="/static/images/bar-chart-with-excel/image22.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -285,7 +285,7 @@ PICTURE
 Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
-<img alt="How to make a bar chart with excel 29" src="/static/images/box-plot-with-excel/image29.png" title=""/>
+<img alt="How to make a bar chart with excel 29" src="/static/images/bar-chart-with-excel/image29.png" title=""/>
 </td>
 </tr>
 </tbody>
