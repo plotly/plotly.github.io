@@ -136,6 +136,15 @@ color: #447bcd;
 cursor: pointer
 }
 
+
+/***********************
+SOCIAL SHARE STYLING
+************************/
+.share_bar{
+	height: 40px;
+	margin: auto;
+}
+
 /*************************
 FOOTER STYLING
 **************************/
