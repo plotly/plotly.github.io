@@ -8,6 +8,8 @@ p{
 	text-decoration: none;
 }
 
+
+
 /**************************
 HEADER STYLING
 **************************/
@@ -188,8 +190,17 @@ FOOTER STYLING
 	
 }
 
+/***********************
+NAVIGATION BAR STYLING
+***********************/
+.navigation-bar{
+	min-width: 100%;
+	background-color: #274478;
+}
 
-
+.navigation-bar p, .navigation-bar a {
+	color: #ffffff;
+}
 
 
 /* For devices smaller than 550px */
