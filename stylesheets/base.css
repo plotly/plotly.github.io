@@ -209,8 +209,8 @@ a:hover {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button,
-button,
+.button_b,
+button_b,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -231,12 +231,12 @@ input[type="button"] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
-.button:hover,
-button:hover,
+.button_b:hover,
+button_b:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.button:focus,
+.button_b:focus,
 button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
@@ -244,24 +244,24 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+.button_b.button_b-primary,
+button_b.button_b-primary,
+input[type="submit"].button_b-primary,
+input[type="reset"].button_b-primary,
+input[type="button"].button_b-primary {
   color: #FFF;
   background-color: #33C3F0;
   border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+.button_b.button_b-primary:hover,
+button_b.button_b-primary:hover,
+input[type="submit"].button_b-primary:hover,
+input[type="reset"].button_b-primary:hover,
+input[type="button"].button_b-primary:hover,
+.button_b.button_b-primary:focus,
+button_b.button_b-primary:focus,
+input[type="submit"].button_b-primary:focus,
+input[type="reset"].button_b-primary:focus,
+input[type="button"].button_b-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
@@ -385,8 +385,8 @@ td:last-child {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button,
-.button {
+button_b,
+.button_b {
   margin-bottom: 1rem; }
 input,
 textarea,
