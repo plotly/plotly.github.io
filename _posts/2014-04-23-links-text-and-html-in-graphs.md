@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Links, text and HTML in Graphs
 subtitle: How to insert link, text and HTML in graphs
-permalink: /source-links-text-and-html-in-graphs
+permalink: /adding-HTML-and-links-to-charts
 imageurl: http://i.imgur.com/OsibU8Q.png
 state: active
 tags: textandlinks
