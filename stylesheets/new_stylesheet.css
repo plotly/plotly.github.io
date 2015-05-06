@@ -208,12 +208,12 @@ FOOTER STYLING
 
 /* For devices smaller than 550px */
 @media (max-width: 400px) {
-.respfooter{
+	.respfooter{
 	width: 40%;
 	height: 200px;}
 }
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 	.respfooter{
 		width: 30.6666666667%;
 		height: 200px;
