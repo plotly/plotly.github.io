@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Box Plot
 subtitle: A Step by Step Guide to Making a Box Plot
-permalink: /make-a-box-plot
+permalink: /how-to-make-a-box-plot-online
 imageurl: http://i.imgur.com/YPS9jee.png
 state: active
 tags: basic statistical
