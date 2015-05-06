@@ -164,6 +164,7 @@ FOOTER STYLING
     list-style: none;
     line-height: 4px;
     margin-top: 15px;
+    text-wrap: none;
 }
 
 .footerarea a{
