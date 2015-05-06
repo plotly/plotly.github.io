@@ -147,9 +147,10 @@ SOCIAL SHARE STYLING
 }
 .share_one{
 	padding-top: 10px;
+	display: inline;
 }
 .share_two{
-
+	display: inline;
 }
 
 /*************************
