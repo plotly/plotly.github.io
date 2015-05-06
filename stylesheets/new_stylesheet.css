@@ -190,18 +190,7 @@ FOOTER STYLING
 	
 }
 
-/***********************
-NAVIGATION BAR STYLING
-***********************/
-.navigation-bar{
-	min-width: 100%;
-	background-color: #274478;
-	height: 20px;
-}
 
-.navigation-bar p, .navigation-bar a {
-	color: #ffffff;
-}
 
 
 /* For devices smaller than 550px */
@@ -230,6 +219,21 @@ NAVIGATION BAR STYLING
 }
 
 
+/***********************
+NAVIGATION BAR STYLING
+***********************/
+.navigation-bar{
+	min-width: 100%;
+	background-color: #274478;
+	height: 40px;
+}
+
+.navigation-bar p, .navigation-bar a {
+    color: #dddddd;
+    font-weight: 600;
+    line-height: 40px;
+    text-decoration: none;
+}
 
 /*************************
 POP-UP MENU STYLING
