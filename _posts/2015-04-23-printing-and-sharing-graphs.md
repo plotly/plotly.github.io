@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Printing and Sharing Graphs
 subtitle: How to Print and Share Graphs
-permalink: /printing-and-sharing-graphs
+permalink: /how-to-share-and-print-plotly-graphs
 imageurl: http://i.imgur.com/UegCjiK.png
 state: active
 tags: classroom basic
