@@ -200,6 +200,11 @@ FOOTER STYLING
 	display: inline-block;
 }
 
+.plotly-social-media-small li{
+	display: inline;
+	padding-left: 3px;
+}
+
 
 /* For devices smaller than 550px */
 @media (max-width: 550px) {
