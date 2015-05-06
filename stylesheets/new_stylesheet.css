@@ -164,7 +164,6 @@ FOOTER STYLING
     list-style: none;
     line-height: 4px;
     margin-top: 15px;
-    text-wrap: none;
 }
 
 .footerarea a{
@@ -208,7 +207,7 @@ FOOTER STYLING
 
 
 /* For devices smaller than 550px */
-@media (max-width: 550px) {
+@media (max-width: 400px) {
 .respfooter{
 	width: 40%;
 	height: 200px;}
