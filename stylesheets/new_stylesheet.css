@@ -213,7 +213,7 @@ FOOTER STYLING
 	height: 200px;}
 }
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
 	.respfooter{
 		width: 30.6666666667%;
 		height: 200px;
