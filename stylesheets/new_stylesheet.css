@@ -207,11 +207,12 @@ FOOTER STYLING
 
 
 /* For devices smaller than 550px */
-@media (max-width: 400px) {
+@media (max-width: 550px) {
 	.respfooter{
 	width: 40%;
 	height: 200px;}
 }
+
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 1000px) {
 	.respfooter{
@@ -219,7 +220,6 @@ FOOTER STYLING
 		height: 200px;
 	}
 }
-
 
 /* Larger than mobile *//*
 @media (min-width: 400px) {
