@@ -18,8 +18,8 @@ tags: statistical
 
 ###Step 1: Set up the grid
 
-This is one way you could set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~cimar/209](https://plot.ly/~cimar/209) ). | ![How to make a graph with error bars online](http://bit.ly/1CNWpHw)
-Select “Scatter plot” from the MAKE A PLOT menu. You can also add error bars to line plots and bar charts. | ![How to make a graph with error bars online](http://bit.ly/1JRj76o)
+This is one way you could set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~cimar/209](https://plot.ly/~cimar/209) ). | ![How to make a graph with error bars online](/static/images/graph-with-error-bars/bit1.png)
+Select “Scatter plot” from the MAKE A PLOT menu. You can also add error bars to line plots and bar charts. | ![How to make a graph with error bars online](/static/images/graph-with-error-bars/bit2.png)
 Click the “Error bars” option in the sidebar.| ![How to make a graph with error bars online](/static/images/graph-with-error-bars/image15.png)
 Select the column of error values that correspond to your y-values. | ![How to make a graph with error bars online](/static/images/graph-with-error-bars/image20.png)
 (Alternatives: you can also select error values to correspond to your x-values or | ![How to make a graph with error bars online](/static/images/graph-with-error-bars/image13.png)
