@@ -191,7 +191,14 @@ FOOTER STYLING
 	
 }
 
+.social_icon{
+	color: #447bdc;
+	font-size: 21px;
+}
 
+.plotly-social-media-small{
+	display: inline-block;
+}
 
 
 /* For devices smaller than 550px */
