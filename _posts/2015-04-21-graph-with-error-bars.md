@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
-permalink: /how-to-make-a-graph-with-error-bars
+permalink: /how-to-make-a-graph-with-error-bars-online
 imageurl: http://i.imgur.com/dweTBwv.png?1
 state: active
 tags: statistical
