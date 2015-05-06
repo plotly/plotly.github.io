@@ -212,7 +212,13 @@ FOOTER STYLING
 	width: 40%;
 	height: 200px;}
 }
-
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 700px) {
+	.respfooter{
+		width: 30.6666666667%;
+		height: 200px;
+	}
+}
 
 
 /* Larger than mobile *//*
@@ -222,11 +228,7 @@ FOOTER STYLING
 		width: 30.6666666667%;}
 } */
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-	.respfooter{
-		width: 30.6666666667%;}
-}
+
 
 
 /***********************
