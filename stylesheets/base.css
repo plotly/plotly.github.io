@@ -197,6 +197,9 @@ td, p {
   font-family: "Open sans regular",verdana,arial,sans-serif;
 }
 
+p{
+	text-align: justify;
+}
 
 
 /* Links
