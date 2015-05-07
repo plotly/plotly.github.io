@@ -4,7 +4,7 @@ title: Make a Histogram with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-histogram-with-excel
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
