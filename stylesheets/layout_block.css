@@ -69,7 +69,7 @@ POP-UP MENU STYLING
 .popupmenu{
 	padding-top: 20px;
 }
-.close{
+.popupmenu-close{
 	float: right;
 	height: 30px;
 	width: 30px;
