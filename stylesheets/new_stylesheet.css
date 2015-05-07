@@ -55,7 +55,7 @@ HEADER STYLING
     height: 78px;
 }
 
-.logo{
+.headerbar-logo{
     font-size: 26px !important;
     font-weight: 200;
     color: #447BDC;
@@ -66,7 +66,7 @@ HEADER STYLING
     font-family: "plotlylogo";
 }
 
-.logo em {
+.headerbar-logo em {
     font-style: normal;
 }
 
