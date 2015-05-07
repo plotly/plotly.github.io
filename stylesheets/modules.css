@@ -144,6 +144,94 @@ NAVIGATION BAR STYLING
     text-decoration: none;
 }
 
+/*****************************
+ALL TUTORIALS SECTION STYLING
+*****************************/
+/* Spacing modifications */
+
+#alltutorialsect{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sectionseparator_b .titlecenter{
+	background-color: #EEEEEE;
+}
+
+.sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+/*	color: #8c97af; */
+}
+
+
+.sectionseparator_a a:hover, .sectionseparator_b a:hover{
+/*	color: #69738a; */
+}
+/* Title Styling */
+
+.tutorialsect_title{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Tutorial Block Titles */
+
+.titlecenter{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+
+.titlecenter h5{
+    margin-top: auto;
+	margin-bottom: auto;
+	}
+.tutorialsect_title{
+		padding-left: 0px;
+	}
+
+@media (min-width: 550px) {
+	.tutorialsect_title{
+		padding-left: 5%;
+	}
+	.titlecenter h5{
+	font-size: 16px;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+.titlecenter h5{
+	font-size: 16px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+.titlecenter h5{
+	font-size: 18px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+.titlecenter h5{
+	font-size: 18px;
+	}
+}
 
 
 
