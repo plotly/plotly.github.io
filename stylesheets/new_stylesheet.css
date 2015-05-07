@@ -62,6 +62,10 @@ HEADER STYLING
     text-decoration: none;
 }
 
+.logo:hover{
+	color: #2d56aa;
+}
+
 .ploticon-plotlylogo {
     font-family: "plotlylogo";
 }
