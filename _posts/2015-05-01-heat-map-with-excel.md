@@ -4,7 +4,7 @@ title: How to Make a Heatmap with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-heatmap-with-excel
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
