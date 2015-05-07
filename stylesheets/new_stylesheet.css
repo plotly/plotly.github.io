@@ -17,6 +17,10 @@ p{
 	text-decoration: none;
 }
 
+.hover_light:hover{
+	opacity= 0.5;
+}
+
 
 @media (max-width: 550px) {
 .float_right{
