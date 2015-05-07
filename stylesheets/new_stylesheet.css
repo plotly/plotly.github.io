@@ -21,7 +21,9 @@ p{
 @media (max-width: 550px) {
 .float_right{
 	float: none;
-	margin: auto;
+	margin: auto;}
+.centered_on_mobile{
+	text-align: center;
 }
 	
 }
