@@ -8,6 +8,9 @@ p{
 	text-decoration: none;
 }
 
+.padding_left{
+    padding-left: 35px;
+}
 
 
 /**************************
@@ -262,7 +265,6 @@ NAVIGATION BAR STYLING
     font-weight: 600;
     line-height: 40px;
     text-decoration: none;
-    padding-left: 35px;
 }
 
 @media (max-width: 1100px) {
