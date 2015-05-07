@@ -22,7 +22,7 @@ p{
 .float_right{
 	float: none;
 	margin: auto;}
-.centered_on_mobile{
+.centered_on_mobile, .centered_on_mobile p{
 	text-align: center;
 }
 	
