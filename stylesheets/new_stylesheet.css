@@ -44,14 +44,6 @@ p{
 /**************************
 HEADER STYLING
 **************************/
-.headerbar{
-   background-color: #ffffff;
-   height: 80px;
-   width: 100%;
-   line-height: 78px;
-   display: block;
-   min-width: 1080px;
-}
 
 .headerbar-leftside {
     margin-left: 70px;
@@ -167,12 +159,6 @@ HEADER STYLING
 .secondary:hover {
 	background: none repeat scroll 0 0 #69738a;
 	color: white;
-}
-
-.headerbar{
-	border-bottom-color: #cccccc;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
 }
 
 .headerbar-nav-item:hover, .headerbar-nav-item.lateralmenu-item.is-active{
