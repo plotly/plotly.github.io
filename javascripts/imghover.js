@@ -34,3 +34,12 @@ function movingOutR() {
 		hidethisimg.style.display = "none";
 		showthisimg.style.display = "";
 }	
+
+function movingInR() {
+		var showthisimg=document.getElementById('thumtext');
+		showthisimg.style.display = "";
+}
+function movingOutR() {	
+		var hidethisimg=document.getElementById('thumtext');
+		hidethisimg.style.display = "none";
+}
