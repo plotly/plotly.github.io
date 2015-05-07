@@ -21,6 +21,52 @@ CONTAINER
 /********************
 FOOTER
 ********************/
+.footerarea{
+    color: #69738A;
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    padding-left: 5px; 
+}
+
+.footer-top{
+	padding-top: 30px;
+}
+
+.footer-bottom {
+    padding: 20px 0 0 0;
+    font-size: 12px;
+    background-color: #e0e2e5;
+
+}
+
+.footer-bottom .columns {
+	max-width: 100%;
+	
+}
+
+/* For devices smaller than 550px */
+@media (max-width: 550px) {
+	.respfooter{
+	width: 40%;
+	height: 200px;}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 1000px) {
+	.respfooter{
+		width: 30.6666666667%;
+		height: 200px;
+	}
+}
+
+/* Larger than mobile *//*
+@media (min-width: 400px) {
+
+	.respfooter{
+		width: 30.6666666667%;}
+} */
+
+
 
 /********************
 ONE-COLUMN LAYOUT
@@ -33,3 +79,12 @@ TWO-COLUMN LAYOUT
 /************************
 PAGE-WIDE SECTION LAYOUT
 ************************/
+
+/***********************
+NAVIGATION BAR STYLING
+***********************/
+.navigation-bar{
+	min-width: 100%;
+	background-color: #274478;
+	height: 40px;
+}
