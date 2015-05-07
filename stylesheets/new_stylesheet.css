@@ -12,6 +12,11 @@ p{
     padding-left: 70px;
 }
 
+@media (max-width: 1100px) {
+	.padding_left{
+	padding-left: 20px;
+	}
+}
 
 /**************************
 HEADER STYLING
@@ -267,11 +272,7 @@ NAVIGATION BAR STYLING
     text-decoration: none;
 }
 
-@media (max-width: 1100px) {
-	.navigation-bar p, .navigation-bar a {
-	padding-left: 12px;
-	}
-}
+
 
 
 /*************************
