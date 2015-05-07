@@ -55,7 +55,7 @@ HEADER STYLING
     height: 78px;
 }
 
-.logo {
+.headerbar-logo, .headerbar-logo a{
     font-size: 26px !important;
     font-weight: 200;
     color: #447BDC;
