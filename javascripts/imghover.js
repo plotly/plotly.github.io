@@ -59,3 +59,4 @@ function movingOutThumbC() {
 		var hidethisimg=document.getElementById('thumtextC');
 		hidethisimg.style.display = "none";
 }
+ 
