@@ -1,0 +1,35 @@
+/********************
+HEADER
+********************/
+.headerbar{
+   background-color: #ffffff;
+   height: 80px;
+   width: 100%;
+   line-height: 78px;
+   display: block;
+   min-width: 1080px;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+
+/********************
+CONTAINER
+********************/
+
+/********************
+FOOTER
+********************/
+
+/********************
+ONE-COLUMN LAYOUT
+********************/
+
+/********************
+TWO-COLUMN LAYOUT
+********************/
+
+/************************
+PAGE-WIDE SECTION LAYOUT
+************************/
