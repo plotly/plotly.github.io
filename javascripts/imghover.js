@@ -35,11 +35,27 @@ function movingOutR() {
 		showthisimg.style.display = "";
 }	
 
-function movingInThumb() {
-		var showthisimg=document.getElementById('thumtext');
+function movingInThumbA() {
+		var showthisimg=document.getElementById('thumtextA');
 		showthisimg.style.display = "";
 }
-function movingOutThumb() {	
-		var hidethisimg=document.getElementById('thumtext');
+function movingOutThumbA() {	
+		var hidethisimg=document.getElementById('thumtextA');
+		hidethisimg.style.display = "none";
+}
+function movingInThumbB() {
+		var showthisimg=document.getElementById('thumtextB');
+		showthisimg.style.display = "";
+}
+function movingOutThumbB() {	
+		var hidethisimg=document.getElementById('thumtextB');
+		hidethisimg.style.display = "none";
+}
+function movingInThumbC() {
+		var showthisimg=document.getElementById('thumtextC');
+		showthisimg.style.display = "";
+}
+function movingOutThumbC() {	
+		var hidethisimg=document.getElementById('thumtextC');
 		hidethisimg.style.display = "none";
 }
