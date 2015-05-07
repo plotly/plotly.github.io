@@ -45,6 +45,17 @@ HEADER
 CONTAINER
 ********************/
 
+.bigcontainer{
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+
+
 /********************
 FOOTER
 ********************/
@@ -106,6 +117,43 @@ TWO-COLUMN LAYOUT
 /************************
 PAGE-WIDE SECTION LAYOUT
 ************************/
+.sectionseparator_a{
+	background-color: #EEEEEE;
+}
+
+.sectionseparator_b{
+	    background-color: #FFFFFF;
+}
+
+/************************
+TUTORIAL BLOCKS
+************************/
+
+.alltutcol {
+    width: 100%;
+    float: left;
+    box-sizing: border-box; 
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.alltutcol img{
+	width: 100%;
+}
+
+@media (min-width: 550px) {
+	.alltutcol {
+		width: 25%;
+		margin-right: 4.166666666667%;
+		margin-left: 4.166666666667%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background-color: #ffffff;
+	}
+
+
 
 /***********************
 NAVIGATION BAR STYLING
