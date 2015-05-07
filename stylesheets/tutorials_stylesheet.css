@@ -27,6 +27,10 @@ img{
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
+.sectionseparator:last-child{
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
 
 .sectionseparator li{
 	list-style: none;
