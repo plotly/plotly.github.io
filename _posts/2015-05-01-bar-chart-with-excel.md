@@ -4,7 +4,7 @@ title: How to Make a Bar Chart in Excel
 subtitle: Plotly with Excel
 permalink: how-to-make-a-bar-chart-with-excel/
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
