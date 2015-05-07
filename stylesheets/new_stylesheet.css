@@ -11,6 +11,9 @@ p{
 .padding_left{
     padding-left: 70px;
 }
+.no_deco{
+	text-decoration: none;
+}
 
 @media (max-width: 1100px) {
 	.padding_left{
