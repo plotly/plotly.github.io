@@ -111,6 +111,12 @@ HEADER STYLING
 	}
 }
 
+@media (min-width: 700px) {
+	.button {
+		margin: 0 5px 10px;
+	}
+}
+
 .secondary {
     background: none repeat scroll 0 0 #8c97af;
 	    border: medium none;
