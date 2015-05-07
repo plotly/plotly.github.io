@@ -261,39 +261,8 @@ NAVIGATION BAR STYLING
 /*************************
 POP-UP MENU STYLING
 **************************/
-.hamburger{
-	display: none;
-}
-
-#popmenufull{
-	z-index: 99999;
-	position: fixed;
-	opacity: 0.95;
-	background-color: #ffffff;
-	width: 100%;
-	height: 100%;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.popupheader{
-	display: block;
-	width: 100%;
-	clear: both;
-	height: 80px;
-
-}
-
 .popupheader a{
 	line-height: 78px;
-}
-
-.popupmenu{
-	padding-top: 20px;
 }
 
 .popupmenu li{
@@ -308,14 +277,6 @@ POP-UP MENU STYLING
 }
 .popupmenu a:hover{
 	color: #447bdc;
-}
-
-.close{
-	float: right;
-	height: 30px;
-	width: 30px;
-	margin-right: 40px;
-	margin-top: 20px;
 }
 
 
