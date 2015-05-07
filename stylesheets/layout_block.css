@@ -13,6 +13,12 @@ HEADER
 	border-bottom-style: solid;
 }
 
+@media (max-width: 1100px) {
+	.headerbar{
+	width: 100%;
+	min-width: 150px;
+	}
+}
 
 /********************
 CONTAINER
