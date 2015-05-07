@@ -7,67 +7,6 @@ p{
 }
 
 
-/**************************
-HEADER STYLING
-**************************/
-
-.headerbar-leftside {
-    margin-left: 70px;
-    display: inline-block;
-    float: left;
-    max-width: 200px;
-    white-space: nowrap;
-    margin-right: 70px;
-    height: 78px;
-}
-
-.logo{
-    font-size: 26px !important;
-    font-weight: 200;
-    color: #447BDC;
-    text-decoration: none;
-}
-
-.logo:hover{
-	color: #2d56aa;
-}
-
-.ploticon-plotlylogo {
-    font-family: "plotlylogo";
-}
-
-.logo em {
-    font-style: normal;
-}
-
-.headerbar-rightside {
-    display: inline-block;
-    float: right;
-    margin-left: 0px;
-    max-width: 500px;
-    white-space: nowrap;
-    margin-right: 70px;
-}
-
-.headerbar-nav {
-    display: inline-block;
-    vertical-align: super;
-}
-
-.headerbar-nav-item {
-    color: #69738a;
-    display: inline-block;
-    font-size: 10pt;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    font-family: "Open sans",verdana,arial,sans-serif;
-	text-decoration: none;
-}
-
-.headerbar a{
-	text-decoration: none;
-}
 
 .button {
     background-color: #447bdc;
@@ -131,11 +70,7 @@ HEADER STYLING
 	color: white;
 }
 
-.headerbar-nav-item:hover, .headerbar-nav-item.lateralmenu-item.is-active{
-border-bottom: 2px solid #447bdc;
-color: #447bcd;
-cursor: pointer
-}
+
 
 
 /***********************
