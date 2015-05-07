@@ -302,6 +302,14 @@ BUTTONS
 	color: white;
 }
 
+/***********************
+Tutorials Index Page Styling
+************************/
+
+.categories{
+	min-height: 400px;
+}
+
 
 
 
