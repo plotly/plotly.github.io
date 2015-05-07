@@ -4,7 +4,7 @@ title: Make an Area Chart in Excel
 subtitle: Plotly with Excel
 permalink: how-to-make-an-area-chart-with-excel/
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
