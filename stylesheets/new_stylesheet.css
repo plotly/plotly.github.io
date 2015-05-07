@@ -24,6 +24,11 @@ p{
 .categories{
 	min-height: 400px;
 }
+@media (min-width: 700px) {
+	.nowraptitle{
+		    white-space: nowrap;
+	}
+}
 
 @media (max-width: 550px) {
 .float_right{
@@ -313,39 +318,6 @@ POP-UP MENU STYLING
 	margin-top: 20px;
 }
 
-/*****************************
-RESPONSIVE TABLE
-*****************************/
-.responsive-table{
-	display: block;
-}
-
-.responsive-table td{
-	border-bottom: 1px solid #E1E1E1;
-}
-
-.img-responsive-table{
-	display: none;
-	}
-	
-.full-width-table{
-	min-width: 100%;
-}
 
 
-@media (max-width: 1100px) {
-	.responsive-table{
-	display: none;
-	}
-	
-	.img-responsive-table{
-		display: block;
-	}
 
-}
-
-@media (min-width: 700px) {
-	.nowraptitle{
-		    white-space: nowrap;
-	}
-}
