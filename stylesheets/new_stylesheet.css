@@ -256,9 +256,11 @@ NAVIGATION BAR STYLING
 /*************************
 POP-UP MENU STYLING
 **************************/
+/*
 .hamburger{
 	display: none;
 }
+*/
 
 #popmenufull{
 	z-index: 99999;
