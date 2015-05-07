@@ -106,8 +106,8 @@ HEADER STYLING
 @media (max-width: 550px) {
 	.button {
 		min-width: 100%;
-		    margin: 0 10px;
-		    padding: 5px;
+	        margin: 5px 0;
+		padding: 5px 0;
 	}
 }
 
