@@ -96,11 +96,17 @@ HEADER STYLING
     font-weight: 400;
     line-height: 1.5;
     margin: 0 5px 10px 0;
-    padding: 5px 1em;
+    padding: 5px;
     text-transform: uppercase;
     vertical-align: middle;
     white-space: nowrap;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 550px) {
+	.button {
+		min-width: 100%;
+	}
 }
 
 .secondary {
