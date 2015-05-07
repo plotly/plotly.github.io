@@ -4,7 +4,7 @@ title: How to Make a Graph with Error Bars with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-graph-with-error-bars-with-excel
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
