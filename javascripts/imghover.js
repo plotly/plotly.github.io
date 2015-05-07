@@ -35,11 +35,11 @@ function movingOutR() {
 		showthisimg.style.display = "";
 }	
 
-function movingInR() {
+function movingInThumb() {
 		var showthisimg=document.getElementById('thumtext');
 		showthisimg.style.display = "";
 }
-function movingOutR() {	
+function movingOutThumb() {	
 		var hidethisimg=document.getElementById('thumtext');
 		hidethisimg.style.display = "none";
 }
