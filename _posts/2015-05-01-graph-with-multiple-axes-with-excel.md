@@ -4,7 +4,7 @@ title: How to Make a Graph with Multiple Axes with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-graph-with-multiple-axes-with-excel
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
