@@ -73,86 +73,6 @@ p{
 
 
 
-/***********************
-SOCIAL SHARE STYLING
-************************/
-.share_bar{
-	height: 40px;
-	margin: auto;
-	width: 300px;
-}
-.share_one{
-	padding-top: 10px;
-	display: inline;
-}
-.share_two{
-	display: inline;
-}
-
-/*************************
-FOOTER STYLING
-**************************/
-
-.footer-bottom {
-    font-size: 12px;
-}
-
-.footerarea h6 {
-    color: #447bdc;
-    font-size: 13px;
-    font-weight: 700;
-    padding-bottom: 0px;
-    text-align: left;
-    text-transform: uppercase;
-    line-height: 8px;
-}
-
-.footerarea li, .footerarea a, .footerarea p{
-    color: #8c97af;
-    font-size: 12px;
-    font-weight: 400;
-    list-style: none;
-    line-height: 4px;
-    margin-top: 15px;
-}
-
-.footerarea a{
-	text-decoration: none;
-	color: #8c97af;
-}
-
-.footerarea a:hover{
-	color: #69738a;
-}
-
-.social_icon{
-	color: #447bdc;
-	font-size: 21px;
-}
-
-.plotly-social-media-small{
-	display: inline-block;
-}
-
-.plotly-social-media-small li{
-	display: inline;
-	padding-right: 8px;
-}
-
-
-/***********************
-NAVIGATION BAR STYLING
-***********************/
-
-.navigation-bar p, .navigation-bar a {
-    color: #dddddd;
-    font-weight: 600;
-    line-height: 40px;
-    text-decoration: none;
-}
-
-
-
 
 /*************************
 POP-UP MENU STYLING
@@ -175,9 +95,6 @@ POP-UP MENU STYLING
 	color: #447bdc;
 }
 
-/*************************
-POP-UP MENU STYLING
-**************************/
 .hamburger{
 	display: none;
 }
