@@ -4,7 +4,7 @@ title: Make a Bubble Chart with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-bubble-chart-with-excel
 imageurl: 
-state: inactive
+state: active
 tags: excel
 ---
 
