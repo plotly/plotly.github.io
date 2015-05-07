@@ -17,10 +17,13 @@ p{
 	text-decoration: none;
 }
 
-.hover-light:hover{
+.hoverlight:hover{
 	opacity= 0.5;
 }
 
+.categories{
+	min-height: 400px;
+}
 
 @media (max-width: 550px) {
 .float_right{
