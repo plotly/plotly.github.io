@@ -61,7 +61,7 @@ title: Plotly Tutorials
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'basic' %}
 									<li><a href="http://help.plot.ly/{{page.permalink}}">
-									<div class="box"> 
+									<div> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 										{% else %}
@@ -80,13 +80,14 @@ title: Plotly Tutorials
 	</div>
 	<div class="sectionseparator_b">
 		<div class="bigcontainer">
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'statistical' %}
 									<li><a href="http://help.plot.ly/{{page.permalink}}">
-									<div class="alltutcol"> 
+									<div> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 										{% else %}
@@ -99,19 +100,21 @@ title: Plotly Tutorials
 								{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
 	<div class="sectionseparator_a">
 		<div class="bigcontainer">
 
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'graph3d' %}
 									<li><a href="http://help.plot.ly/{{page.permalink}}">
-									<div class="alltutcol"> 
+									<div> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 										{% else %}
@@ -124,19 +127,21 @@ title: Plotly Tutorials
 								{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
 	<div class="sectionseparator_b">
 		<div class="bigcontainer">
 
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks" id="textandlinks"><h2>Text &amp; Links</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
 									<li><a href="http://help.plot.ly/{{page.permalink}}">
-									<div class="alltutcol"> 
+									<div> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 										{% else %}
@@ -149,18 +154,20 @@ title: Plotly Tutorials
 								{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
 	<div class="sectionseparator_a">
 		<div class="bigcontainer">
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'classroom' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">
-								<div class="alltutcol"> 
+								<div> 
 									{% if page.imageurl == "" or page.imageurl == nil %}
 										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 									{% else %}
@@ -173,18 +180,20 @@ title: Plotly Tutorials
 							{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
 	<div class="sectionseparator_b">
 		<div class="bigcontainer">
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" ref="videos" name="videos" id="videos"><h2>Videos</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'videos' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">
-								<div class="alltutcol"> 
+								<div> 
 									{% if page.imageurl == "" or page.imageurl == nil %}
 										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 									{% else %}
@@ -197,18 +206,20 @@ title: Plotly Tutorials
 							{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
 	<div class="sectionseparator_a">
 		<div class="bigcontainer">
-				<div class="row">
+				<div class="row grid_three_area">
 						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2></a>
+						<div class="grid_three">
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'excel' %}
 								<li><a href="http://help.plot.ly/{{page.permalink}}">
-								<div class="alltutcol"> 
+								<div> 
 									{% if page.imageurl == "" or page.imageurl == nil %}
 										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 									{% else %}
@@ -221,6 +232,7 @@ title: Plotly Tutorials
 							{% endif %}
 							{% endfor %}
 						</ul>
+						</div>
 				</div>
 		</div>
 	</div>
