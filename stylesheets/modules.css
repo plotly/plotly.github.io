@@ -555,9 +555,7 @@ POP-UP MENU STYLING
 	color: #447bdc;
 }
 
-.hamburger{
-	display: none;
-}
+
 
 #popmenufull{
 	z-index: 99999;
