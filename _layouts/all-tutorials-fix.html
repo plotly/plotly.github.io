@@ -192,8 +192,8 @@ title: Plotly Tutorials
 						<ul>
 							{% for page in site.posts %}
 							{% if page.state == 'active' and page.tags contains 'videos' %}
-								<li class="no-break"><a href="http://help.plot.ly/{{page.permalink}}">
-								<div> 
+								<li><a href="http://help.plot.ly/{{page.permalink}}">
+								<div class="no-break"> 
 									{% if page.imageurl == "" or page.imageurl == nil %}
 										<img src="http://i.imgur.com/QstxYEf.png" alt="Tutorial" />
 									{% else %}
