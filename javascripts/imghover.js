@@ -38,7 +38,7 @@ function movingOutR() {
 function movingInThumbA() {
 		var hidethisimg=document.getElementById('thumimgA');
 		var showthisimg=document.getElementById('thumtextA');
-		hidethisimg.style.opacity = "0.5";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutThumbA() {	
@@ -50,7 +50,7 @@ function movingOutThumbA() {
 function movingInThumbB() {
 		var hidethisimg=document.getElementById('thumimgB');
 		var showthisimg=document.getElementById('thumtextB');
-		hidethisimg.style.opacity = "0.5";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutThumbB() {	
@@ -62,7 +62,7 @@ function movingOutThumbB() {
 function movingInThumbC() {
 		var hidethisimg=document.getElementById('thumimgC');
 		var showthisimg=document.getElementById('thumtextC');
-		hidethisimg.style.opacity = "0.5";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutThumbC() {	
