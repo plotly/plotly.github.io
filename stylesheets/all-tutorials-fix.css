@@ -5,9 +5,9 @@ article {
   -webkit-column-width: 25%;
  -moz-column-width: 25%;
   column-width: 25%;
-  -moz-column-gap: 4.16667%;
+/*  -moz-column-gap: 4.16667%;
   -webkit-column-gap: 4.16667%;
-  column-gap: 4.16667%;
+  column-gap: 4.16667%; */
 }
 .box img{
     width: 100%;
