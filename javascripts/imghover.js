@@ -45,7 +45,7 @@ function movingOutThumbA() {
 		var hidethisimg=document.getElementById('thumtextA');
 		var showthisimg=document.getElementById('thumimgA');
 		hidethisimg.style.display = "none";
-		showthisimg.style.display = "";
+		showthisimg.style.opacity = "1";
 }
 function movingInThumbB() {
 		var showthisimg=document.getElementById('thumtextB');
