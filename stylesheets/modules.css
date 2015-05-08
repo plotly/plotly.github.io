@@ -347,8 +347,9 @@ margin: 3px 0;}
 }
 
 .categories p{
-padding: 20% 20px 0px 20px;
-text-align: center;
+	padding: 20% 20px 0px 20px;
+	text-align: center;
+	font-weight: 400;
 }
 
 @media (max-width: 750px){
@@ -385,8 +386,9 @@ CLIENT APIS Rollover styling
 }
 
 #matlabText, #pyText, #rText {
-padding: 20% 20px 0px 20px;
-text-align: center;
+	padding: 20% 20px 0px 20px;
+	text-align: center;
+	font-weight: 400;
 }
 
 @media (max-width: 750px){
