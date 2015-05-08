@@ -81,9 +81,9 @@ img{
 
 
 /* Button Styling */
-/*
 
-#loadMore, #loadMore a, #loadMore a:hover, #exploreMore, #exploreMore a, #loadMore a:hover{
+
+#loadMore, #loadMore a, #loadMore a:hover, /*#exploreMore, #exploreMore a, #loadMore a:hover */{
 	display: block;
 	clear: both;
 	color: #ffffff;
@@ -91,14 +91,14 @@ img{
 
 }
 
-#loadMore, #exploreMore{
+#loadMore /*, #exploreMore*/{
 
     margin-left: 1%;
     margin-right: 1%;
     text-decoration: none;
 	font-size: 12px;
 }
-
+/*
 
 
 @media (min-width: 550px) {
@@ -115,8 +115,8 @@ img{
 	   font-size: 13px;
 	   line-height: 15px;
 	}
-
-	#loadMore, #exploreMore{
+*/
+	#loadMore /*, #exploreMore */{
 	margin-left: 37.5%;
 	width: 25%;
 	font-size: 8px;
