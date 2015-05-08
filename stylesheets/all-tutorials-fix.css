@@ -8,9 +8,9 @@ article {
 /*  -moz-column-gap: 4.16667%;
   -webkit-column-gap: 4.16667%;
   column-gap: 4.16667%; */
-  -moz-column-gap: 10em;
-  -webkit-column-gap: 10em;
-  column-gap: 10em;
+  -moz-column-gap: 8em;
+  -webkit-column-gap: 8em;
+  column-gap: 8em;
 }
 .box img{
     width: 100%;
