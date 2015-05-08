@@ -1,4 +1,4 @@
-.grid-three {
+.grid_three {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -12,11 +12,11 @@
   -webkit-column-gap: 3em;
   column-gap: 3em;
 }
-.box img{
+.grid-three img{
     width: 100%;
 }
 
-.column_area{
+.grid_three_area{
   padding: 0 4.16667%;
 }
 
@@ -29,4 +29,8 @@
   -webkit-column-gap: 0;
   -column-gap: 0;
   }
+  .grid_three_area{
+  padding: 0 40px;
+}
+  
 }
