@@ -54,8 +54,9 @@ title: Plotly Tutorials
 				
 			</div>
 			
-				<div class="row article">
+				<div class="article">
 						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic</h2></a>
+						<article>
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'basic' %}
@@ -73,6 +74,7 @@ title: Plotly Tutorials
 								{% endif %}
 							{% endfor %}
 						</ul>
+						</article>
 				</div>
 		</div>	
 	</div>
