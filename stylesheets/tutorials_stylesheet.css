@@ -1,11 +1,11 @@
 /* Page Styling */
 
-.totpadding{
+.tuthome-padding{
 	padding-top: 40px;
 	padding-bottom: 80px;
 }
 
-.paddingbottom{
+.tuthome-padding-b{
 	padding-bottom: 40px;
 }
 
@@ -13,29 +13,29 @@ img{
 	min-width: 100%;
 }
 
-.sectionbg{
+.tuthome-section-bg{
     background-color: #F3F3F3;
-	width: 100%;
+    width: 100%;
 }
 
-.sectionseparator{
+.tuthome-section{
 	border-bottom-color: #cccccc;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
-.sectionseparator:last-child{
+.tuthome-section:last-child{
 	border-bottom-width: 0px;
 	border-bottom-style: none;
 }
 
-.sectionseparator li{
+.tuthome-section li{
 	list-style: none;
 	font-size: 12px;
 	text-decoration: none;
 	color: #8c97af;
 }
 
-.sectionseparator a:hover, .sectionseparator a:hover{
+.tuthome-section a:hover, .tuthome-section a:hover{
 	color: #69738a;
 }
 
