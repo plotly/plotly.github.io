@@ -13,6 +13,10 @@ article {
     width: 100%;
 }
 
+.column_area{
+  padding: 0 4.16667%;
+}
+
 @media (max-width: 550px) {
   article{
   -webkit-column-count: 1;
