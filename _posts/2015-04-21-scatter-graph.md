@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Line or Scatter Graph
 subtitle: A Step by Step Guide to Line and Scatter Graphs
 permalink: /how-to-make-a-line-graph-and-scatter-plot-online
-imageurl: http://i.imgur.com/bvoMPwi.png
+imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
 tags: basic
 ---
