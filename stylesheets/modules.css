@@ -534,4 +534,59 @@ CLIENT APIS Rollover styling
 	line-height: 27px;
 	}
 }
+/*************************
+POP-UP MENU STYLING
+**************************/
+.popupheader a{
+	line-height: 78px;
+}
+
+.popupmenu li{
+	list-style: none;
+}
+
+.popupmenu a{
+	color: #69738a;
+	text-decoration: none;
+    	font-size: 40px;
+    	font-weight: 150;
+}
+.popupmenu a:hover{
+	color: #447bdc;
+}
+
+.hamburger{
+	display: none;
+}
+
+#popmenufull{
+	z-index: 99999;
+	position: fixed;
+	opacity: 0.95;
+	background-color: #ffffff;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.popupheader{
+	display: block;
+	width: 100%;
+	clear: both;
+	height: 80px;
+}
+.popupmenu{
+	padding-top: 20px;
+}
+.close{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
 
