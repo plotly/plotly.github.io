@@ -43,7 +43,9 @@ function movingInThumbA() {
 }
 function movingOutThumbA() {	
 		var hidethisimg=document.getElementById('thumtextA');
+		var showthisimg=document.getElementById('thumimgA');
 		hidethisimg.style.display = "none";
+		showthisimg.style.display = "";
 }
 function movingInThumbB() {
 		var showthisimg=document.getElementById('thumtextB');
