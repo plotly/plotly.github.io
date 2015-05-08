@@ -158,6 +158,11 @@ NAVIGATION BAR STYLING
     text-decoration: none;
 }
 
+@media (max-width: 400px) {
+	.navigation-bar p, .navigation-bar a {
+	    font-size: 12px;}
+}
+
 /*****************************
 ALL TUTORIALS SECTION STYLING
 *****************************/
