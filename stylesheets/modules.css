@@ -370,6 +370,8 @@ CLIENT APIS Rollover styling
 
 .categories-apis{
 	position: relative;
+	height: 350px;
+	padding: 10px;
 }
 
 #matlabImg, #pyImg, #rImg, #matlabText, #pyText, #rText {
@@ -408,6 +410,15 @@ CLIENT APIS Rollover styling
 	    height: 200px;
 	    padding: 3px;
 	}
+	.categories-apis p{
+	   font-size: 11px;
+	   line-height: 13px;
+	}
+	.categories-apis h6{
+	   font-size: 13px;
+	   line-height: 15px;
+	}
+	
 }
 
 /* Larger than tablet */
@@ -415,6 +426,14 @@ CLIENT APIS Rollover styling
 	.categories-apis{
 	    min-height: 250px;
 	    padding: 10px;
+	}
+	.categories-apis p{
+	   font-size: 12px;
+	   line-height: 14px;
+	}
+	.categories-apis h6{
+	   font-size: 18px;
+   	   line-height: 20px;
 	}
 }
 
@@ -424,6 +443,14 @@ CLIENT APIS Rollover styling
 	height: 300px;
 	padding: 10px;
 	}
+	.categories-apis p{
+	font-size: 15px;
+	line-height: 21px;
+	}
+	.categories-apis h6{
+	font-size: 21px; 
+	line-height: 27px;
+	}
 }
 
 /* Larger than Desktop HD */
@@ -431,6 +458,14 @@ CLIENT APIS Rollover styling
 .categories-apis{
 	    height: 350px;
 	    padding: 10px;
+	}
+	.categories-apis p{
+	  font-size: 15px;
+	  line-height: 21px;
+	}
+	.categories-apis h6{
+	font-size: 21px; 
+	line-height: 27px;
 	}
 }
 
