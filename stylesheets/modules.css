@@ -335,6 +335,7 @@ margin: 3px 0;}
 
 #thumimgA, #thumimgB, #thumimgC, #thumtextA, #thumtextB, #thumtextC{
 	position: absolute;
+	max-width: 100%;
 }
 
 #thumimgA, #thumimgB, #thumimgC {
