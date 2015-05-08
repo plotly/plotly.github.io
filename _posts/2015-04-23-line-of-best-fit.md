@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Create a Line of Best Fit
 subtitle: How to create a line of best fit
 permalink: /create-a-line-of-best-fit-online
-imageurl: http://i.imgur.com/fzkGllW.png
+imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: classroom statistical
 ---
