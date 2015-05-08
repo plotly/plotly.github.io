@@ -20,7 +20,7 @@
   padding: 0 4.16667%;
 }
 
-.is-block{
+.no-break{
     -webkit-column-break-inside:avoid;
        -moz-column-break-inside:avoid;
             column-break-inside:avoid;
