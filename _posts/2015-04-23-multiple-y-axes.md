@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Multiple Y Axes Graph
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
 permalink: /how-to-make-a-graph-with-multiple-axes-online
-imageurl: http://i.imgur.com/lpBvF0r.png
+imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: active
 tags: basic
 ---
