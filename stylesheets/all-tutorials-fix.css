@@ -1,0 +1,20 @@
+article {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 300px;
+ -moz-column-width: 300px;
+  column-width: 300px;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
+}
+
+@media (max-width: 550px) {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -moz-column-gap: 0;
+  -webkit-column-gap: 0;
+  -column-gap: 0;
+}
