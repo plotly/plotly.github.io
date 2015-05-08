@@ -38,7 +38,7 @@ function movingOutR() {
 function movingInThumbA() {
 		var hidethisimg=document.getElementById('thumimgA');
 		var showthisimg=document.getElementById('thumtextA');
-		hidethisimg.style.display = "none";
+		hidethisimg..style.opacity = "0.5";
 		showthisimg.style.display = "";
 }
 function movingOutThumbA() {	
