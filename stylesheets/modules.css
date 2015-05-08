@@ -384,7 +384,7 @@ CLIENT APIS Rollover styling
 	z-index: 999;
 }
 
-.categories-apis p{
+#matlabText, #pyText, #rText {
 padding: 20% 20px 0px 20px;
 text-align: center;
 }
