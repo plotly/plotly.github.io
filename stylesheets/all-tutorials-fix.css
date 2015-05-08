@@ -11,10 +11,12 @@ article {
 }
 
 @media (max-width: 550px) {
+  article{
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
   -moz-column-gap: 0;
   -webkit-column-gap: 0;
   -column-gap: 0;
+  }
 }
