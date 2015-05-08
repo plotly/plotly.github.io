@@ -1,6 +1,9 @@
 /* Page Styling */
 
 
+.centered{
+	text-align: center;
+}
 .totpadding{
 	padding-top: 40px;
 	padding-bottom: 80px;
