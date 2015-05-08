@@ -327,9 +327,20 @@ Tutorials Index Page Styling
 
 .categories{
 	min-height: 400px;
+	position: relative;
 }
 
 .categories h3{
 margin: 3px 0;}
 
+#thumimgA, #thumimgB, #thumimgC, #thumtextA, #thumtextB, #thumtextC{
+	position: absolute;
+}
 
+#thumimgA, #thumimgB, #thumimgC {
+	z-index: 99;
+}
+
+#thumtextA, #thumtextB, #thumtextC{
+	z-index: 999;
+}
