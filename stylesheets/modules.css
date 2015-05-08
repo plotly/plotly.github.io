@@ -373,6 +373,7 @@ CLIENT APIS Rollover styling
 	height: 350px;
 	padding: 10px;
 	text-align: center;
+	font-weight: 400;
 }
 
 #matlabImg, #pyImg, #rImg, #matlabText, #pyText, #rText {
