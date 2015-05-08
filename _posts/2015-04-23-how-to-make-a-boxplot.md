@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Box Plot
 subtitle: A Step by Step Guide to Making a Box Plot
 permalink: /how-to-make-a-box-plot-online
-imageurl: http://i.imgur.com/YPS9jee.png
+imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: basic statistical
 ---
