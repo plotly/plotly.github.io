@@ -163,6 +163,7 @@ NAVIGATION BAR STYLING
 	    font-size: 12px;}
 }
 
+
 /*****************************
 ALL TUTORIALS SECTION STYLING
 *****************************/
@@ -322,8 +323,71 @@ BUTTONS
 }
 
 /***********************
-Tutorials Index Page Styling
+TUTORIAL HOME PAGE STYLING
 ************************/
+
+.tuthome-padding{
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.tuthome-padding-b{
+	padding-bottom: 40px;
+}
+
+.tuthome-section-bg{
+    background-color: #F3F3F3;
+    width: 100%;
+}
+
+.tuthome-section{
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.tuthome-section:last-child{
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+}
+
+.tuthome-section li{
+	list-style: none;
+	font-size: 12px;
+	text-decoration: none;
+	color: #8c97af;
+}
+
+.tuthome-section a:hover, .tuthome-section a:hover{
+	color: #69738a;
+}
+/* Button Styling */
+
+
+#loadMore, #loadMore a, #loadMore a:hover{
+	display: block;
+	clear: both;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+#loadMore{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+	font-size: 12px;
+}
+
+@media (min-width: 550px){
+	#loadMore {
+	margin-left: 37.5%;
+	width: 25%;
+	font-size: 8px;
+	}
+}
+
+
 
 .categories{
 	min-height: 350px;
