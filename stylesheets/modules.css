@@ -345,3 +345,7 @@ margin: 3px 0;}
 #thumtextA, #thumtextB, #thumtextC{
 	z-index: 999;
 }
+
+.categories p{
+padding: 20% 20px 0px 20px;}
+
