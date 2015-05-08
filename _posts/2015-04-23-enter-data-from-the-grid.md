@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Enter Data in the Grid
 subtitle: A Step by Step Guide to Entering Data in the Grid
 permalink: /add-data-to-the-plotly-grid
-imageurl: http://i.imgur.com/tTCqHem.png
+imageurl: /static/images/enter-data-from-the-grid/thum-enter-data-from-the-grid.png
 state: active
 tags: basic, classroom
 ---
