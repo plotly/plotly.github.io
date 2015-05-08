@@ -1,38 +1,38 @@
 function movingInMat() {
 		var hidethisimg=document.getElementById('matlabImg');
 		var showthisimg=document.getElementById('matlabText');
-		hidethisimg.style.display = "none";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutMat() {	
 		var hidethisimg=document.getElementById('matlabText');
 		var showthisimg=document.getElementById('matlabImg');
 		hidethisimg.style.display = "none";
-		showthisimg.style.display = "";
+		showthisimg.style.opacity = "1";
 }	
 function movingInPy() {
 		var hidethisimg=document.getElementById('pyImg');
 		var showthisimg=document.getElementById('pyText');
-		hidethisimg.style.display = "none";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutPy() {	
 		var hidethisimg=document.getElementById('pyText');
 		var showthisimg=document.getElementById('pyImg');
 		hidethisimg.style.display = "none";
-		showthisimg.style.display = "";
+		showthisimg.style.opacity = "1";
 }	
 function movingInR() {
 		var hidethisimg=document.getElementById('rImg');
 		var showthisimg=document.getElementById('rText');
-		hidethisimg.style.display = "none";
+		hidethisimg.style.opacity = "0.3";
 		showthisimg.style.display = "";
 }
 function movingOutR() {	
 		var hidethisimg=document.getElementById('rText');
 		var showthisimg=document.getElementById('rImg');
 		hidethisimg.style.display = "none";
-		showthisimg.style.display = "";
+		showthisimg.style.opacity = "1";
 }	
 
 function movingInThumbA() {
