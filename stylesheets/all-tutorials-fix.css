@@ -9,7 +9,8 @@ article {
   -webkit-column-gap: 4.16667%;
   column-gap: 4.16667%;
 }
-.box{
+.box img{
+    width: 100%;
 }
 
 @media (max-width: 550px) {
