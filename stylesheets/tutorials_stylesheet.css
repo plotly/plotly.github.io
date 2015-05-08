@@ -45,7 +45,7 @@ img{
 
 
 /* API Clients Section */
-/*
+
 #matlabText{
 	background-img: url('http://i.imgur.com/FGTe7SD.png');
 }
@@ -80,7 +80,7 @@ img{
 .transparency p{
 	text-align: left;
 }
-*/
+
 
 
 /* Button Styling */
@@ -94,14 +94,14 @@ img{
 
 }
 
-#loadMore /*, #exploreMore*/{
+#loadMore, #exploreMore{
 
     margin-left: 1%;
     margin-right: 1%;
     text-decoration: none;
 	font-size: 12px;
 }
-/*
+
 
 
 @media (min-width: 550px) {
@@ -118,16 +118,16 @@ img{
 	   font-size: 13px;
 	   line-height: 15px;
 	}
-*/
-	#loadMore /*, #exploreMore */{
+
+	#loadMore , #exploreMore {
 	margin-left: 37.5%;
 	width: 25%;
 	font-size: 8px;
 	}
 	
 }
-*/
-/* Larger than tablet *//*
+
+/* Larger than tablet */
 @media (min-width: 750px) {
 	.projectblock, .transparency{
 	    min-height: 250px;
@@ -147,8 +147,8 @@ img{
 	}
 
 }
-*/
-/* Larger than desktop *//*
+
+/* Larger than desktop */
 @media (min-width: 1000px) {
 	.projectblock, .transparency{
 	height: 300px;
@@ -164,8 +164,8 @@ img{
 	}
 	
 }
-*/
-/* Larger than Desktop HD *//*
+
+/* Larger than Desktop HD */
 @media (min-width: 1200px) {
 	.projectblock, .transparency{
 	    height: 350px;
@@ -182,4 +182,4 @@ img{
 
 	
 }
-*/
+
