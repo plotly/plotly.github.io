@@ -362,3 +362,41 @@ text-align: center;
 	}
 }	
 
+
+/********************
+CLIENT APIS Rollover styling
+********************/
+
+.categories-apis{
+	position: relative;
+}
+
+#matlabImg, #pyImg, #rImg, #matlabText, #pyText, #rText {
+	position: absolute;
+	max-width: 100%;
+}
+
+#matlabImg, #pyImg, #rImg {
+	z-index: 99;
+}
+
+#matlabText, #pyText, #rTextC{
+	z-index: 999;
+}
+
+.categories-apis p{
+padding: 20% 20px 0px 20px;
+text-align: center;
+}
+
+@media (max-width: 750px){
+	.categories-apis p{
+	font-size:12 px;
+	}
+}
+@media (max-width: 550px){
+	.categories-apis p{
+	font-size:18 px;
+	}
+}	
+
