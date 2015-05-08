@@ -83,7 +83,7 @@ img{
 /* Button Styling */
 
 
-#loadMore, #loadMore a, #loadMore a:hover, /*#exploreMore, #exploreMore a, #loadMore a:hover */{
+#loadMore, #loadMore a, #loadMore a:hover /*, #exploreMore, #exploreMore a, #loadMore a:hover */{
 	display: block;
 	clear: both;
 	color: #ffffff;
