@@ -326,7 +326,7 @@ Tutorials Index Page Styling
 ************************/
 
 .categories{
-	min-height: 400px;
+	min-height: 350px;
 	position: relative;
 }
 
@@ -407,7 +407,7 @@ CLIENT APIS Rollover styling
 
 
 @media (min-width: 550px) {
-	.categories-apis{
+	.categories, .categories-apis{
 	    height: 200px;
 	    padding: 3px;
 	}
@@ -424,7 +424,7 @@ CLIENT APIS Rollover styling
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-	.categories-apis{
+	.categories, .categories-apis{
 	    min-height: 250px;
 	    padding: 10px;
 	}
@@ -440,7 +440,7 @@ CLIENT APIS Rollover styling
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-	.categories-apis{
+	.categories, .categories-apis{
 	height: 300px;
 	padding: 10px;
 	}
@@ -456,7 +456,7 @@ CLIENT APIS Rollover styling
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-.categories-apis{
+	.categories, .categories-apis{
 	    height: 350px;
 	    padding: 10px;
 	}
