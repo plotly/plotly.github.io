@@ -1,7 +1,7 @@
 function movingInMat() {
 		var hidethisimg=document.getElementById('matlabImg');
 		var showthisimg=document.getElementById('matlabText');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutMat() {	
@@ -13,7 +13,7 @@ function movingOutMat() {
 function movingInPy() {
 		var hidethisimg=document.getElementById('pyImg');
 		var showthisimg=document.getElementById('pyText');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutPy() {	
@@ -25,7 +25,7 @@ function movingOutPy() {
 function movingInR() {
 		var hidethisimg=document.getElementById('rImg');
 		var showthisimg=document.getElementById('rText');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutR() {	
@@ -38,7 +38,7 @@ function movingOutR() {
 function movingInThumbA() {
 		var hidethisimg=document.getElementById('thumimgA');
 		var showthisimg=document.getElementById('thumtextA');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutThumbA() {	
@@ -50,7 +50,7 @@ function movingOutThumbA() {
 function movingInThumbB() {
 		var hidethisimg=document.getElementById('thumimgB');
 		var showthisimg=document.getElementById('thumtextB');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutThumbB() {	
@@ -62,7 +62,7 @@ function movingOutThumbB() {
 function movingInThumbC() {
 		var hidethisimg=document.getElementById('thumimgC');
 		var showthisimg=document.getElementById('thumtextC');
-		hidethisimg.style.opacity = "0.3";
+		hidethisimg.style.opacity = "0.2";
 		showthisimg.style.display = "";
 }
 function movingOutThumbC() {	
