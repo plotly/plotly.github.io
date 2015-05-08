@@ -3,7 +3,7 @@ layout: new_layout
 title: Video - Linear Regression or Lines of Best Fit
 subtitle: How to create a line of best fit
 permalink: /video-linear-regressions-or-lines-of-best-fit
-imageurl: http://i.imgur.com/WW63xEM.png
+imageurl: /static/images/box-plot/thum-video-linear-regression-or-lines-of-best-fit.png
 state: active
 tags: basic classroom videos textandlink
 ---
