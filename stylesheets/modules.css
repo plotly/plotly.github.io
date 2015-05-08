@@ -400,5 +400,37 @@ CLIENT APIS Rollover styling
 	.categories-apis p{
 	font-size:18 px;
 	}
-}	
+}
+
+
+@media (min-width: 550px) {
+	.categories-apis{
+	    height: 200px;
+	    padding: 3px;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.categories-apis{
+	    min-height: 250px;
+	    padding: 10px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.categories-apis{
+	height: 300px;
+	padding: 10px;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+.categories-apis{
+	    height: 350px;
+	    padding: 10px;
+	}
+}
 
