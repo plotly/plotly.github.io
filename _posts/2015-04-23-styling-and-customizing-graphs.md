@@ -3,7 +3,7 @@ layout: new_layout
 title: Video - Styling and Customizing Graphs
 subtitle: How to
 permalink: /video-styling-and-customizing-graphs
-imageurl: http://i.imgur.com/A6zhjG0.png
+imageurl: /static/images/video-styling-and-customizing-graphs/thum-video-styling-and-customizing-graphs.png
 state: active
 tags: classroom basic videos
 ---
