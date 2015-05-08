@@ -48,19 +48,26 @@ function movingOutThumbA() {
 		showthisimg.style.opacity = "1";
 }
 function movingInThumbB() {
+		var hidethisimg=document.getElementById('thumimgB');
 		var showthisimg=document.getElementById('thumtextB');
+		hidethisimg.style.opacity = "0.5";
 		showthisimg.style.display = "";
 }
 function movingOutThumbB() {	
 		var hidethisimg=document.getElementById('thumtextB');
+		var showthisimg=document.getElementById('thumimgB');
 		hidethisimg.style.display = "none";
+		showthisimg.style.opacity = "1";
 }
 function movingInThumbC() {
+		var hidethisimg=document.getElementById('thumimgC');
 		var showthisimg=document.getElementById('thumtextC');
+		hidethisimg.style.opacity = "0.5";
 		showthisimg.style.display = "";
 }
 function movingOutThumbC() {	
 		var hidethisimg=document.getElementById('thumtextC');
+		var showthisimg=document.getElementById('thumimgC');
 		hidethisimg.style.display = "none";
+		showthisimg.style.opacity = "1";
 }
- 
