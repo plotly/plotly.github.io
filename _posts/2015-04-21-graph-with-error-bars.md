@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /how-to-make-a-graph-with-error-bars-online
-imageurl: http://i.imgur.com/dweTBwv.png?1
+imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: statistical
 ---

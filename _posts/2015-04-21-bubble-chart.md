@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Bubble Chart
 subtitle: A Step by Step Guide to Bubble Charts
 permalink: /how-to-make-a-bubble-chart-online
-imageurl: http://i.imgur.com/nw806BP.png
+imageurl: /static/images/bubble-chart/thum-bubble-chart.png
 state: active
 tags: basic
 ---

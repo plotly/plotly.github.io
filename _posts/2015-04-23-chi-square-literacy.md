@@ -3,8 +3,8 @@ layout: new_layout
 title: Chi-square
 subtitle: Understanding when to use a chi square test?
 permalink: /chi-square
-imageurl: http://i.imgur.com/0fcTTZC.png
-state: inactive
+imageurl: /static/images/chi-square/thum-chi-square.png
+state: active
 tags: STATISTICS 
 
 ---

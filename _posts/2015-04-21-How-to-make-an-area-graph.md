@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
 permalink: /how-to-make-an-area-chart-online
-imageurl: http://i.imgur.com/oEA0qhx.png
+imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-graph.png
 state: active
 tags: basic
 ---
