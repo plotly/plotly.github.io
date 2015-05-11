@@ -182,6 +182,16 @@ td, p {
 
 @media (min-width: 550px) {
 td img {
+	max-width: 275px;
+}
+}
+@media (min-width: 750px) {
+td img {
+	max-width: 350px;
+}
+}
+@media (min-width: 1000px) {
+td img {
 	max-width: 500px;
 }
 }
