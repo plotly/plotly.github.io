@@ -1,4 +1,4 @@
- ---
+---
 layout: two_column_layout
 title: How to sign up to Plotly
 subtitle: A guide to signing up to Plotly
