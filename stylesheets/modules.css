@@ -123,6 +123,13 @@ FOOTER STYLING
     margin-top: 15px;
 }
 
+@media (max-width: 550px) {
+	.footer-bottom li, .footer-bottom a, .footer-bottom p{
+	margin-top: 2px;	
+	margin: 0 0 10px 3px;}
+	
+}
+
 .footerarea a{
 	text-decoration: none;
 	color: #8c97af;
