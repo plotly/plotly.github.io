@@ -1,3 +1,4 @@
 <!-- SEO Tags - title, meta_description, image -->
-<title>{% if tags and tags.title %}{{tags.title}}{% else %}plotly{% endif %}</title>
+<title>{% if page.title == "" or page.title == nil %}plotly{% else %}{{page.title}}{% endif %}</title>
+
 
