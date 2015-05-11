@@ -181,7 +181,7 @@ td, p {
 }
 
 td img {
-	max-with: 500px;
+	max-width: 500px;
 }
 
 .smalltext{
