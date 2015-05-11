@@ -182,7 +182,7 @@ td, p {
 
 @media (min-width: 550px) {
 td img {
-	max-width: 750px;
+	max-width: 500px;
 }
 }
 
