@@ -19,7 +19,7 @@ meta_description: A tutorial on reliable data sources. Make graphs online and fo
 
 <p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="www.data.gov">Data.gov</a>, <a href="https://www.quandl.com/">Quandl</a> and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
-Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="http://i.imgur.com/esByc8X.png">
+Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/esByc8X.png">
 
 
 
@@ -34,19 +34,19 @@ Keeping track of your data source is important. That's why Plotly automatically 
 <tbody>
 <tr>
 <td>When you go to <a href="www.data.gov">Data.gov</a>, you'll see a box to search the data sets and icons to browse by topic.</td>
-<td><img src="http://i.imgur.com/K8MSiIV.png"></td>
+<td><img src="/static/images/getting-data/K8MSiIV.png"></td>
 </tr>
 <tr>
 <td>We selected <b>Consumer</b>, which opens a description of the collection, highlights, and recent updates. Clicking on <b>Data</b> brings us to the data sets.</td>
-<td><img src="http://i.imgur.com/zdbxVr3.png"></td>
+<td><img src="/static/images/getting-data/zdbxVr3.png"></td>
 </tr>
 <tr>
 <td>The toolbar on the left lets us filter the data by type, tags, format and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is helpful.</td>
-<td><img src="http://i.imgur.com/L5LLlFn.png"></td>
+<td><img src="/static/images/getting-data/L5LLlFn.png"></td>
 </tr>
 <tr>
 <td>Once you select a data set, look for the "Open With" option (this will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Plotly's Web App.</td>
-<td><img src="http://i.imgur.com/IowB7mf.png"></td>
+<td><img src="/static/images/getting-data/IowB7mf.png"></td>
 </tr>
 </tbody>
 </table>
@@ -65,15 +65,15 @@ Keeping track of your data source is important. That's why Plotly automatically 
 <tbody>
 <tr>
 <td>From <a href="www.data.gov">Quandl's</a> homepage, select <b>COLLECTIONS BROWSER</b> from the "Platform" drop-down menu.</td>
-<td><img src="http://i.imgur.com/HcAPBqq.png"></td>
+<td><img src="/static/images/getting-data/HcAPBqq.png"></td>
 </tr>
 <tr>
 <td>You can navigate through Quandl's collections using the toolbar on the right. Here we selected <b>MARKETS</b>, <b>COMMODITIES</b>, <b>Farms and Fishery</b>.</td>
-<td><img src="http://i.imgur.com/BZEQ9C4.png"></td>
+<td><img src="/static/images/getting-data/BZEQ9C4.png"></td>
 </tr>
 <tr>
 <td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the <b>Plotly</b> button, and the data set will open inside Plotly's Web App.</td>
-<td><img src="http://i.imgur.com/2ttCf9B.png"></td>
+<td><img src="/static/images/getting-data/2ttCf9B.png"></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ Keeping track of your data source is important. That's why Plotly automatically 
 <tbody>
 <tr>
 <td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Plotly</b> to open the collected data in Plotly's web app.</td>
-<td><img src="http://i.imgur.com/6snjGKq.png"></td>
+<td><img src="/static/images/getting-data/6snjGKq.png"></td>
 </tr>
 </tbody>
 </table>
