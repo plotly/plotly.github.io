@@ -32,7 +32,6 @@ For this tutorial, we’ll examine some of the styling from the graph: [https://
 
 ###Step 2: The essentials
 
-TypeCodeWhat you’ll seeHints
 
 <img class="img-responsive-table" src="/static/images/links-text-and-html-in-graphs/table1.png">
 
@@ -41,6 +40,12 @@ TypeCodeWhat you’ll seeHints
 <table>
 <thead></thead>
 <tbody>
+<tr>
+<td><b>Type</b></td>
+<td><b>Code</b></td>
+<td><b>What you'll see</b></td>
+<td><b>Hints</b></td>
+</tr>
 <tr>
 <td>Newline</td>
 <td>Forced &lt;br&gt; break.</td>
@@ -89,7 +94,6 @@ Plotly&lt;/a&gt;</td>
 
 You can also add characters to your titles and annotation with HTML entities. Here are a few you might find useful. You can find the full collection [here](http://character-code.com/).
 
-TypeCodeWhat you’ll seeHints
 
 <img class="img-responsive-table" src="/static/images/links-text-and-html-in-graphs/table2.png">
 
@@ -98,6 +102,12 @@ TypeCodeWhat you’ll seeHints
 <table id="text-table" >
 <thead></thead>
 <tbody>
+<tr>
+<td><b>Type</b></td>
+<td><b>Code</b></td>
+<td><b>What you'll see</b></td>
+<td><b>Hints</b></td>
+</tr>
 <tr>
 <td>Greek characters</td>
 <td>&amp;mu;</td>
