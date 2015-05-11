@@ -5,3 +5,13 @@
 <!-- Bing tags -->
     <meta name="msvalidate.01" content="D319859A832F9F1D15A7646E2A42150A" />
 <!-- /Bing tags -->
+
+<!-- Facebook tags -->
+    <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}plotly{% endif %}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="{% if page.imageurl %}{{page.image}}{% else %}{% '/images/twitter-default.png' %}{% endif %}">
+    <meta property="og:description" content="{% if page.meta_description %}{{page.meta_description}}{% else %}Plotly is the easiest way to graph and share your data.{% endif %}"/>
+    <meta property="og:url"
+    <meta property="fb:admins" content="1123751525"/>
+    <meta property="fb:admins" content="22418"/>
+<!--/ Facebook tags -->
