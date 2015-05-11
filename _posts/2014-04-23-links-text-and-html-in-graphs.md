@@ -9,12 +9,13 @@ tags: textandlinks
 meta_description: How to insert links, text and html in plotly charts. Make graphs online and for free with Plotly
 ---
 
+#Links, Text, and HTML in Graphs
+
 <div>
     <a href="https://plot.ly/~Dreamshot/609/" target="_blank" title="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/609.png" alt="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:609" src="https://plot.ly/embed.js" async></script>
 </div>
 
-#Links, Text, and HTML in Graphs
 Want to add a link to the data source on one of your graphs? Need superscripts or subscripts in your title? Plotly supports several HTML tags and codes for special characters, like Greek letters.  In this tutorial we’ll show you the basics of integrating these features with Plotly using our Web App. Looking for even more formatting options? LaTeX offers additional flexibility. Check out our tutorial [here](https://plot.ly/LaTeX-basics/).
 Plotly uses a subset of HTML tags to do things like newline (&lt;br&gt;), bold (&lt;b&gt;&lt;/b&gt;), italics (&lt;i&gt;&lt;/i&gt;), and hyperlinks (&lt;a href=’&#8230;’&gt;&lt;/a&gt;). Tags &lt;em&gt;, &lt;sup&gt;, and &lt;sub&gt; are also supported. Follow along below for some examples.
 
