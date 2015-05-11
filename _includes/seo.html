@@ -1,4 +1,4 @@
 <!-- SEO Tags - title, meta_description, image -->
 <title>{% if page.title == "" or page.title == nil %}plotly{% else %}{{page.title}}{% endif %}</title>
-<meta name="description" content="{% if tags and tags.meta_description %}{{tags.meta_description}}{% else %}Plotly is the easiest way to graph and share your data.{% endif %}">
+<meta name="description" content="{% if page.meta_description %}{{page.meta_description}}{% else %}Plotly is the easiest way to graph and share your data.{% endif %}">
 
