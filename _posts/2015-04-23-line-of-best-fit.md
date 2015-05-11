@@ -36,7 +36,7 @@ For a scatter plot we need an independent and dependent variable &#8212; i.e. a 
 
 When you have two columns selected to plot in the &#8216;Grid&#8217; view, select **&#8216;Scatter plot&#8217;** from the blue dropdown at the top of the dialogue pane to the left.Now click the big blue button at the bottom. A new tab will open with our plot in it &#8212; take a look! | ![line of best fit online](https://plot.ly/static/img/tutorial/fits/2_dialogue.png)
 
-The plot should look something like this: | ![Line of best fit](http://ec2-54-172-55-46.compute-1.amazonaws.com/wp-content/uploads/2015/01/velocity.png)
+The plot should look something like this: | ![Line of best fit](/static/images/line-of-best-fit/scatter-plot.png)
 
 ###Step 3: Generate a fit to your data
 
