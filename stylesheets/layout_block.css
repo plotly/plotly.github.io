@@ -41,6 +41,9 @@ CONTAINER
   box-sizing: border-box;
 }
 
+.smallcontainer{
+   max-width: 900px;	
+}
 
 
 /********************
