@@ -6,7 +6,7 @@ permalink: /histograms
 imageurl: /static/images/histograms-description/thum-histogram-description.png
 state: active
 tags: statistical basic
-
+meta_description: A step by step tutorial on histograms. Make a histogram online and for free with Plotly
 
 ---
 

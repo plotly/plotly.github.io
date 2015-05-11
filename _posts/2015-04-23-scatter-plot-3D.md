@@ -6,6 +6,7 @@ permalink: /how-to-make-a-3d-scatter-plot-online
 imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: graph3d
+meta_description: Make a 3D scatter plot online and for free with Plotly
 ---
 
 # Making a 3D Scatter Plot

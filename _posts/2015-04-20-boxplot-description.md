@@ -6,6 +6,7 @@ permalink: /boxplot
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: statistical basic
+meta_description: A step by step tutorial on BoxPlots. Make a boxplot online and for free with Plotly
 ---
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>

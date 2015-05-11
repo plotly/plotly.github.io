@@ -6,6 +6,7 @@ permalink: how-to-make-a-bar-chart-with-excel/
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a bar chart with excel online and for free with Plotly
 ---
 
 #How to Make a Bar Chart in Excel

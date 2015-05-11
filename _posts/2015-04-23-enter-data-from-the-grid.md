@@ -6,6 +6,7 @@ permalink: /add-data-to-the-plotly-grid
 imageurl: /static/images/enter-data-from-the-grid/thum-enter-data-from-the-grid.png
 state: active
 tags: basic, classroom
+meta_description: Enter data in the grid of your Plotly graph online and for free
 ---
 
 #How to Enter Data in the Grid

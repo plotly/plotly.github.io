@@ -6,6 +6,7 @@ permalink: /how-to-make-a-line-graph-and-scatter-plot-with-excel/
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a Line and Scatter Plot with Excel Online
 ---
 
 #How to Make a Line Graph and a Scatter Plot in Excel 

@@ -6,6 +6,7 @@ permalink: /how-to-make-an-area-chart-online
 imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-graph.png
 state: active
 tags: basic
+meta_description: Make an area graph online and for free with Plotly
 ---
 
 #Make an Area Graph

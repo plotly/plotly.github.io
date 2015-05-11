@@ -6,6 +6,7 @@ permalink: /how-to-make-a-heatmap-with-excel
 imageurl: 
 state: active
 tags: excel
+meta_description: make a heatmap with excel online
 ---
 
 #How to Make a Heatmap with Excel

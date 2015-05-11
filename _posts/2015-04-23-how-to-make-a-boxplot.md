@@ -6,6 +6,7 @@ permalink: /how-to-make-a-box-plot-online
 imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: basic statistical
+meta_description: Make a box plot graph online and for free with Plotly
 ---
 
 #Make a Box Plot

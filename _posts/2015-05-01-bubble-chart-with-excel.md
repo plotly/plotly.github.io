@@ -6,6 +6,7 @@ permalink: /how-to-make-a-bubble-chart-with-excel
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a bubble chart with excel online and for free with Plotly
 ---
 
 # Make a Bubble Chart with Excel

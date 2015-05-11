@@ -6,6 +6,7 @@ permalink: /how-to-make-a-bubble-chart-online
 imageurl: /static/images/bubble-chart/thum-bubble-chart.png
 state: active
 tags: basic
+meta_description: Make a bubble chart online and for free with Plotly
 ---
 
 #Make a Bubble Chart

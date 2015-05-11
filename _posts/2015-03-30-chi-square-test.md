@@ -6,6 +6,7 @@ permalink: /chi-square-test
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: active
 tags: classroom statistical
+meta_description: A step by step tutorial on Chi-Square tests. Make a graph online and for free with Plotly
 ---
 
 #Chi-Square Test

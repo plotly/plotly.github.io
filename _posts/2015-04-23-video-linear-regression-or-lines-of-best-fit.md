@@ -6,6 +6,7 @@ permalink: /video-linear-regressions-or-lines-of-best-fit
 imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
 state: active
 tags: basic classroom videos textandlink
+meta_description: Make a line of best fit graph online and for free with Plotly
 ---
 
 # Linear Regression or Lines of Best Fit

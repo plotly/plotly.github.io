@@ -6,6 +6,7 @@ permalink: /video-fitting-data-with-error-bars
 imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
 state: active
 tags: videos classroom statistical
+meta_description: Fit data with error bars online and for free with Plotly
 ---
 
 #Fitting Data With Error Bars

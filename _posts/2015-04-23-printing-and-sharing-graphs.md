@@ -6,6 +6,7 @@ permalink: /how-to-share-and-print-plotly-graphs
 imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
 tags: classroom basic
+meta_description: Print and share graphs online and for free with Plotly
 ---
 
 #Printing and Sharing Graphs

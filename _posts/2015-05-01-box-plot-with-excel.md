@@ -6,6 +6,7 @@ permalink: /how-to-make-a-box-plot-with-excel
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a box plot with excel online and for free with Plotly
 ---
 
 # How to Make a Box Plot with Excel 

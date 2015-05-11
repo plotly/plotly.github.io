@@ -5,6 +5,7 @@ permalink: /getting-data
 imageurl:
 state: active
 tags: classroom basic
+meta_description: A tutorial on reliable data sources. Make graphs online and for free with Plotly
 ---
 
 <div>

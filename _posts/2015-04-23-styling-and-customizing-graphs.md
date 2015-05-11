@@ -1,11 +1,12 @@
 ---
 layout: new_layout
 title: Video - Styling and Customizing Graphs
-subtitle: How to
+subtitle: How to style and customize graphs
 permalink: /video-styling-and-customizing-graphs
 imageurl: /static/images/styling-and-customizing-graphs/thum-styling-and-customizing-graphs.png
 state: active
 tags: classroom basic videos
+meta_description: Style and customize graphs online and for free with Plotly
 ---
 
 #Styling and Customizing Graphs

@@ -6,6 +6,7 @@ permalink: /adding-HTML-and-links-to-charts
 imageurl: http://i.imgur.com/OsibU8Q.png
 state: active
 tags: textandlinks
+meta_description: How to insert links, text and html in plotly charts. Make graphs online and for free with Plotly
 ---
 
 <div>

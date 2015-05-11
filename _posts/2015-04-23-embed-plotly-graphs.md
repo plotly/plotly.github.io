@@ -6,6 +6,7 @@ permalink: /how-to-embed-plotly-graphs-in-websites
 imageurl: /static/images/embed-plotly-graphs/thum-embed-plotly-graphs.png
 state: active
 tags: basic
+meta_description: Embed a graph in a blog or website online and for free with Plotly
 ---
 
 #Embed Plotly Graphs in A Blog or Website

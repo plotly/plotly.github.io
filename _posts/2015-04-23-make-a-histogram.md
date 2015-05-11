@@ -6,6 +6,7 @@ permalink: /how-to-make-a-histogram-online
 imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: statistical
+meta_description: Make a histogram online and for free with Plotly
 ---
 
 #A Step by Step Guide to Making a Histogram

@@ -6,6 +6,7 @@ permalink: /how-to-make-a-graph-with-error-bars-with-excel
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a graph with error bars with excel online and for free with plotly
 ---
 
 #How to Make a Graph with Error Bars with Excel 

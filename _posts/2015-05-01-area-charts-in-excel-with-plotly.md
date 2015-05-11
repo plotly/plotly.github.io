@@ -6,6 +6,7 @@ permalink: how-to-make-an-area-chart-with-excel/
 imageurl: 
 state: active
 tags: excel
+meta_description: Make an area chart with excel online and for free with Plotly
 ---
 
 #How to make an area chart in Excel 

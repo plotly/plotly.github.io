@@ -6,6 +6,7 @@ permalink: /basic-statistics-mean-median-standard-deviation
 imageurl: /static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png
 state: active
 tags: classroom statistical
+meta_description: Analyze basic statistics like the mean, median, variance and standard deviation online and for free with Plotly
 ---
 
 #Mean, Median, Variance and Standard Deviation

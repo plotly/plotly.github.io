@@ -6,6 +6,7 @@ permalink: /create-a-line-of-best-fit-online
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: classroom statistical
+meta_description: Make a line of best fit graph online and for free with Plotly
 ---
 
 #Create a Line of Best Fit

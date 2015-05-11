@@ -6,6 +6,7 @@ permalink: /how-to-make-a-graph-with-error-bars-online
 imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: statistical
+meta_description: Make a graph with error bars online and for free with Plotly
 ---
 
 #Make a Graph with Error Bars

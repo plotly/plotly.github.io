@@ -6,6 +6,7 @@ permalink: /how-to-make-a-line-graph-and-scatter-plot-online
 imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
 tags: basic
+meta_description: Make a line or scatter graph online and for free with Plotly
 ---
 
 #Make a Line or Scatter Graph

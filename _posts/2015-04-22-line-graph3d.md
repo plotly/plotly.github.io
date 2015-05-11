@@ -6,6 +6,7 @@ permalink: /how-to-make-a-3d-line-chart-online
 imageurl: /static/images/line-graph3d/line-graph3d.png
 state: active
 tags: graph3d
+meta_description: Make a 3D line graph online and for free with Plotly
 ---
 
 #Make a 3D Line Graph

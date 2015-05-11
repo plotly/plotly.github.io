@@ -6,6 +6,7 @@ permalink: /how-to-make-a-histogram-with-excel
 imageurl: 
 state: active
 tags: excel
+meta_description: Make a histogram with excel online
 ---
 
 # Make a Histogram with Excel 

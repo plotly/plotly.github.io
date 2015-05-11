@@ -6,6 +6,7 @@ permalink: /fitting-data-to-custom-functions
 imageurl: /static/images/video-fitting-data-to-custom-functions/thum-video-fitting-data-to-custom-functions.png
 state: active
 tags: videos classroom statistical
+meta_description:Fit data to custom functions online and for free with Plotly
 ---
 
 #Fitting Data to Custom Functions

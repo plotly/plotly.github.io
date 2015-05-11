@@ -6,6 +6,7 @@ permalink: /print-free-graph-paper-online
 imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
 tags: classroom
+meta_description: Print graph paper online and for free with Plotly
 ---
 
 #Print Free Graph Paper Online
