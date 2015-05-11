@@ -47,7 +47,7 @@ To tell Plotly that you want to use LaTeX, you’ll need to put a dollar sign on
      </p>
     </td>
     <td>
-       <img alt="Latex basics 02" src="/static/learn/images/web_app_tutorials/LaTeX-basics/image02.png" title=""/>
+       <img alt="Latex basics 02" src="/static/images/LaTeX-basics/image02.png" title=""/>
     </td>
    </tr>
    <tr>
@@ -69,7 +69,7 @@ To tell Plotly that you want to use LaTeX, you’ll need to put a dollar sign on
      </p>
     </td>
     <td>
-       <img alt="Latex basics 01" src="/static/learn/images/web_app_tutorials/LaTeX-basics/image01.png" title=""/>
+       <img alt="Latex basics 01" src="/static/images/LaTeX-basics/image01.png" title=""/>
     </td>
    </tr>
   </tbody>
@@ -227,7 +227,7 @@ Now we’re ready to fill in the $x$ axis label using some of the code featured 
  </p>
 </td>
 <td>
-	<img alt="Latex basics 03" src="/static/learn/images/web_app_tutorials/LaTeX-basics/image03.png" title=""/>
+	<img alt="Latex basics 03" src="/static/images/LaTeX-basics/image03.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -244,7 +244,7 @@ Now we’re ready to fill in the $x$ axis label using some of the code featured 
  </p>
 </td>
 <td>
-<img alt="Latex basics 00" src="/static/learn/images/web_app_tutorials/LaTeX-basics/image00.png" title=""/>
+<img alt="Latex basics 00" src="/static/images/LaTeX-basics/image00.png" title=""/>
 </td>
 </tr>
 </tbody>
