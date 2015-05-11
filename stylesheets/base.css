@@ -180,8 +180,10 @@ td, p {
   font-family: "Open sans",verdana,arial,sans-serif;
 }
 
+@media (min-width: 550px) {
 td img {
-	max-width: 500px;
+	max-width: 750px;
+}
 }
 
 .smalltext{
