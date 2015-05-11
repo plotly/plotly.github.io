@@ -377,6 +377,11 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+table{
+	max-width: 100%;
+}
+
 th,
 td {
   padding: 12px 15px;
@@ -392,6 +397,7 @@ td:last-child {
 .highlight{
   background-color: #ccc;
 }
+
 
 
 /* Spacing
