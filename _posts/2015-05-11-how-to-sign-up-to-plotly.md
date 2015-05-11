@@ -23,7 +23,8 @@ meta_description: How to sign up to Plotly. Make and share graphs online.
        <img alt="How to sign up to plotly 02" src="/static/images/how-to-sign-up-to-plotly/image02.png" title=""/>
     </td>
    </tr>
-  </tbody>
+   </tbody>
+  </table>
 
 You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify your address after you’ve signed up.
 
