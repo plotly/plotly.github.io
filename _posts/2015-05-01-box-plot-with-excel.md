@@ -18,7 +18,7 @@ meta_description: Make a box plot with excel online and for free with Plotly
 
 If you think you want to know more about what box plots are, read this data literacy article by Ben Chartoff:
 <a class="link--impt" href="/boxplot">
-http://plot.ly/boxplot
+http://help.plot.ly/boxplot
 </a>
 . Follow along below to make a boxplot of your own.
 

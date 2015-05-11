@@ -20,7 +20,7 @@ meta_description: Make a box plot graph online and for free with Plotly
 
 
 
-If you think you want to know more about what box plots are, read this dataliteracy article by Ben Chartoff: [http://plot.ly/boxplot](http://plot.ly/boxplot). Follow along below to make a boxplot of your own.
+If you think you want to know more about what box plots are, read this dataliteracy article by Ben Chartoff: [http://help.plot.ly/boxplot](http://help.plot.ly/boxplot). Follow along below to make a boxplot of your own.
 
 ### Step 1: Set up the grid
 
