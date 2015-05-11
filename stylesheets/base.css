@@ -408,6 +408,11 @@ td:last-child {
   background-color: #ccc;
 }
 
+@media (max-width: 550px) {
+	td {
+	text-align: justify;}
+}
+
 
 
 /* Spacing
