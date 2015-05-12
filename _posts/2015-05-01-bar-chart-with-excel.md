@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Make a Bar Chart in Excel 
 subtitle: Plotly with Excel
 permalink: how-to-make-a-bar-chart-with-excel/
-imageurl: 
+imageurl: /static/images/bar-chart-with-excel/thum-bar-chart-with-excel.png
 state: active
 tags: excel
 meta_description: Make a bar chart with excel online and for free with Plotly

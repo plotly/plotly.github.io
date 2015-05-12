@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Bubble Chart with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-bubble-chart-with-excel
-imageurl: 
+imageurl: /static/images/bubble-chart-with-excel/thum-bubble-chart-with-excel.png
 state: active
 tags: excel
 meta_description: Make a bubble chart with excel online and for free with Plotly

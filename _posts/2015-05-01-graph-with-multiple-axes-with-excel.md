@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Make a Graph with Multiple Axes with Excel 
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-graph-with-multiple-axes-with-excel
-imageurl: 
+imageurl: /static/images/graph-with-multiple-axes-with-excel/thum-graph-with-multiple-axes-with-excel.png
 state: active
 tags: excel
 meta_description: make a graph with multiple axes with excel online

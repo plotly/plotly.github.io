@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a Histogram with Excel 
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-histogram-with-excel
-imageurl: 
+imageurl: /static/images/histogram-with-excel/thum-histogram-with-excel.png
 state: active
 tags: excel
 meta_description: Make a histogram with excel online

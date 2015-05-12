@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Make a Heatmap with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-heatmap-with-excel
-imageurl: 
+imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
 meta_description: make a heatmap with excel online

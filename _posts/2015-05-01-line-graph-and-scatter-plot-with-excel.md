@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Make a Line and Scatter Plot with Excel
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-line-graph-and-scatter-plot-with-excel/
-imageurl: 
+imageurl: /static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
 tags: excel
 meta_description: Make a Line and Scatter Plot with Excel Online
@@ -58,7 +58,7 @@ https://plot.ly/add-data-to-the-plotly-grid/
 Select “Line plot” from the MAKE A PLOT menu.
 </td>
 <td>
-<img alt="How to make a line graph and scatter plot with excel 02" src="/static/images/line-graph-and-scatter-plot-with-excel//image02.png" title=""/>
+<img alt="How to make a line graph and scatter plot with excel 02" src="/static/images/line-graph-and-scatter-plot-with-excel/image02.png" title=""/>
 </td>
 </tr>
 <tr>

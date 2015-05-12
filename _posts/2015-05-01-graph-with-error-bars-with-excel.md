@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How to Make a Graph with Error Bars with Excel 
 subtitle: Plotly with Excel
 permalink: /how-to-make-a-graph-with-error-bars-with-excel
-imageurl: 
+imageurl: /static/images/graph-with-error-bars-with-excel/thum-graph-with-error-bars-with-excel.png
 state: active
 tags: excel
 meta_description: Make a graph with error bars with excel online and for free with plotly
