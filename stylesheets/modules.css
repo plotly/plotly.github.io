@@ -608,5 +608,11 @@ POP-UP MENU STYLING
 	height: 30px;
 	width: 30px;
 	margin-right: 40px;
-	margin-top: 20px;
+	margin-top: 20px;}
 
+/****************
+TUTORIAL STYLING
+****************/
+.graphembed{
+	max-height: 400px;
+}
