@@ -26,3 +26,19 @@ If your data looks like a parabola or you calculate that the rate of change is a
 We have lots of great tutorials to help you make line graphs, scatter plots, histograms, bar charts and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials).
 
 You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to make a plot from the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use a data set that you can find at: <br><br>[https://plot.ly/~mariahh/51](https://plot.ly/~mariahh/51) | ![Quadratic fits](/static/images/quadratic-fits/import-data.png)
+To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Plotly will automatically select the first column of data to be x values, and the second column to be y values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** box in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Quadratic fits](/static/images/quadratic-fits/plot-menu.png)
+
+To find the curve of best fit, click **FIT DATA** in the toolbar just above your plot. In this example, we picked the $y$ values to be close to the squares of the $x$ values, so it makes sense to fit the data with a quadratic curve.<br><br>When you click **FIT DATA**, you’ll see the **Fitting to trace** popover open. Select **Add fit to this trace**. | ![Quadratic fits](/static/images/quadratic-fits/add-fit.png)
+Select **Quadratic** from the drop-down menu. | ![Quadratic fits](/static/images/quadratic-fits/quadratic-fit-function.png)
+You’ll be given the option to guess the coefficients $a$, $b$ and $c$, but this isn’t required. | ![Quadratic fits](/static/images/quadratic-fits/guess-coefficients.png)
+Our **Advanced** tab offers even more flexibility. You can incorporate error data into your fit, restrict the fit to a subset of your data, extend the domain, and change the number of points in the output fit.. | ![Quadratic fits](/static/images/quadratic-fits/advanced-options.png)
+To run Plotly’s fit, click on the **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will include an annotation with $R^2$ value and an equation for the curve of best fit. | ![Quadratic fits](/static/images/quadratic-fits/run-fit.png)
+To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Quadratic fits](/static/images/quadratic-fits/quadratic-fit-graph.png)
+It’s easy to add another fit to our graph to compare. In the picture on the right, I’ve added a linear fit, and we can see that it isn’t a good choice. | ![Quadratic fits](/static/images/quadratic-fits/add-another-fit.png)
+Want to remove a fit? Click **FIT DATA** in the toolbar. You will see each fit in the **Fitting to trace** popover. Just click on the trash can icon of the fit you want to remove. | ![Quadratic fits](/static/images/quadratic-fits/delete-fit.png)
+
+Love what you made? You can share, print, download and embed your plots. 
+
+You can find the graph used in this tutorial, and the underlying data at:
+
+https://plot.ly/~mariahh/56
