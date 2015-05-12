@@ -16,3 +16,5 @@ meta_description: A tutorial on quadratic regression. Make graphs online and for
 </div>
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit quadratic curves to your data and explain what that means. Make sure to check out our other [tutorials](/tutorials) to learn how to fit your data with other [polynomials](/polynomial-fits), [gaussians](/gaussian-fits), [exponentials](/exponential-fits) and [logarithms](/logarithmic-fits).
+
+Type | type
