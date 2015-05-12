@@ -25,4 +25,4 @@ If your data looks like a parabola or you calculate that the rate of change is a
 
 We have lots of great tutorials to help you make line graphs, scatter plots, histograms, bar charts and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials).
 
-You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to make a plot from the grid”](/add-data-to-the-plotly-grid) tutorial.<br>For this tutorial we’ll use a data set that you can find at: <br>[https://plot.ly/~mariahh/51](https://plot.ly/~mariahh/51) | ![Quadratic fits](/static/images/quadratic-fits/import-data.png)
+You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to make a plot from the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use a data set that you can find at: <br><br>[https://plot.ly/~mariahh/51](https://plot.ly/~mariahh/51) | ![Quadratic fits](/static/images/quadratic-fits/import-data.png)
