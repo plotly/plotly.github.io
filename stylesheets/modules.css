@@ -260,6 +260,21 @@ ALL TUTORIALS SECTION STYLING
 	}
 }
 
+/* Excel logo */
+.container-excel{
+	position: relative;}
+.container-pic-excel{
+	position: absotule;
+	float: left;}
+
+.excel-logo{
+	z-index: 999;
+	position: absolute;
+	float: right;
+	max-width: 20%;
+}
+
+
 
 /********
 BUTTONS
