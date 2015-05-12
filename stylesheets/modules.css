@@ -265,13 +265,15 @@ ALL TUTORIALS SECTION STYLING
 	position: relative;}
 .container-pic-excel{
 	position: absotule;
-	float: left;}
+	float: left;
+	z-index: 99;
+}
 
 .excel-logo{
 	z-index: 999;
 	position: absolute;
 	float: right;
-	max-width: 20%;
+	max-width: 20px;
 }
 
 
