@@ -262,9 +262,10 @@ ALL TUTORIALS SECTION STYLING
 
 /* Excel logo */
 .container-excel{
-	position: relative;}
+	position: relative;
+}
 .container-pic-excel{
-	position: absotule;
+	position: absolute;
 	float: left;
 	z-index: 99;
 }
