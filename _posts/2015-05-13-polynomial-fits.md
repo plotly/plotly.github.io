@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Polynomial fits
 permalink: /polynomial-fits
 imageurl: /static/images/polynomial-fits/
-state: draft
+state: inactive
 tags: classroom basic
 meta_description: A tutorial on polynomial regression. Make graphs online and for free with Plotly
 ---
@@ -27,8 +27,8 @@ To fit the data with a polynomial curve we choose coefficients that minimize the
 
 We have lots of great tutorials to help you make scatter plots, line graphs, histograms, bar charts, and more. If you need help, head to our [tutorials page](/tutorials). 
 
-You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Upload data to Plotly](/static/images/polynomial-fits/upload-data-to-plotly.png)
-To use the data, look for the **Fork and edit** button, just above the data set, on the right side of your screen. Click it and a copy of the data will open in your workspace. | ![Copy data to your workspace](/static/images/polynomial-fits/copy-data-to-your-workspace.png)
+You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Button to upload data to Plotly](/static/images/polynomial-fits/button-to-upload-data-to-plotly.png)
+To use the data, look for the **Fork and edit** button, just above the data set, on the right side of your screen. Click it and a copy of the data will open in your workspace. | ![Copy data to your Plotly workspace](/static/images/polynomial-fits/copy-data-to-your-plotly-workspace.png)
 To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Plotly will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** box in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot](/static/images/polynomial-fits/make-a-scatter-plot.png)
 
 ### **Step 2:** Polynomial regression
