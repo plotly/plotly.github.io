@@ -2,10 +2,10 @@
 layout: two_column_layout
 title: Polynomial fits
 permalink: /polynomial-fits
-imageurl: /static/images/polynomial-fits/
+imageurl: /static/images/polynomial-fits/fourth-order-polynomial-fit
 state: inactive
 tags: classroom basic
-meta_description: A tutorial on polynomial regression. Make graphs online and for free with Plotly
+meta_description: Learn how to easily fit data with polynomials using our free online regression calculator. Plotly is the best online tool for graphing and analyzing data.
 ---
 
 #Fitting data with a polynomial
@@ -29,12 +29,19 @@ We have lots of great tutorials to help you make scatter plots, line graphs, his
 
 You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Button to upload data to Plotly](/static/images/polynomial-fits/button-to-upload-data-to-plotly.png)
 To use the data, look for the **Fork and edit** button, just above the data set, on the right side of your screen. Click it and a copy of the data will open in your workspace. | ![Copy data to your Plotly workspace](/static/images/polynomial-fits/copy-data-to-your-plotly-workspace.png)
-To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Plotly will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** box in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot](/static/images/polynomial-fits/make-a-scatter-plot.png)
+To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Plotly will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** box in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot with Plotly](/static/images/polynomial-fits/make-a-scatter-plot-with-plotly.png)
 
 ### **Step 2:** Polynomial regression
 
 To find the curve of best fit, we’ll use the **FIT DATA** button. You can find this button in the toolbar just above your plot. In their paper, Pérez-Lara et al. analyzed several models and determined that a fourth degree polynomial was the best choice, so we’ll use a fourth degree polynomial here.<br><br>When you click **FIT DATA**, you’ll see the **Fitting to trace** popover open. Select **Add fit to this trace**. | ![Fitting data with Plotly](/static/images/polynomial-fits/fitting-data-with-plotly.png)
 Select Polynomial from the drop down menu. | ![Polynomial fit with Plotly](/static/images/polynomial-fits/select-polynomial-fit.png)
-You’ll be given the option to choose the degree of the polynomial--following the work of Pérez-Lara et al., we select **4th order**. | ![Degree 4 polynomial fit](/static/images/polynomial-fits/select-4th-order-polynomial.png)
-Our **Advanced** tab gives you even more flexibility. You can incorporate error data into your fit, restrict the fit to a subset of your data, and change the number of points in the output fit. | ![Advanced polynomial fit options](/static/images/polynomial-fits/advanced-fit-options.png)
-Now click on the blue **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will display the line of best fit equation and $R^2$-value. | ![Advanced polynomial fit options](/static/images/polynomial-fits/advanced-fit-options.png)
+You’ll be given the option to choose the degree of the polynomial--following the work of Pérez-Lara et al., we select **4th order**. | ![Select 4th order polynomial fit](/static/images/polynomial-fits/select-4th-order-polynomial-fit.png)
+Our **Advanced** tab gives you even more flexibility. You can incorporate error data into your fit, restrict the fit to a subset of your data, and change the number of points in the output fit. | ![Advanced fit options with Plotly](/static/images/polynomial-fits/advanced-fit-options-tab-with-plot.png)
+Now click on the blue **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will display the line of best fit equation and $R^2$-value. | ![Run the fit and add results as annotation](/static/images/polynomial-fits/run-the-fit-and-add-results-as-annotation.png)
+To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Close the Fitting to trace popover and style with options in TRACES](/static/images/polynomial-fits/close-the-fitting-to-trace-popover-and-style-with-options-in-traces.png)
+
+Love what you made? You can share, print, download and embed your plots. 
+
+You can find the graph used in this tutorial, and the underlying data at:
+
+[https://plot.ly/~mariahh/94](https://plot.ly/~mariahh/94)
