@@ -9,7 +9,7 @@ Once you've loaded the data in Plotly, select the "text" group by option on the 
 This will instruct Plotly to display the text for each point directly on the plot.
 Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." 
 
-(image - 1)
+<a href="http://imgur.com/MQcRYpB"><img src="http://i.imgur.com/MQcRYpB.png" title="source: imgur.com" /></a>
 
 ###Step 3 : Labeling Points with Text
 
