@@ -1,4 +1,37 @@
 ###Step 1 : Set up the grid
 
-We’ve already entered the [loss data]() into Plotly.
+We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly.
 Click the link to open the data in your workspace. 
+
+###Step 2 : Sort by Text
+
+Once you've loaded the data in Plotly, select the "text" group by option on the left panel. 
+This will instruct Plotly to display the text for each point directly on the plot.
+Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." 
+
+(image - 1)
+
+###Step 3 : Labeling Points with Text
+
+Your newly-graphed data should look something like this:
+
+(image - 2)
+
+Next, you'll want to select TRACES and then scan down to Lines/Markers and select the Aa option overlayed on a scatter point.
+
+
+(image - 3)
+
+Then, head to "Style" in the tabbed navigation and click the up arrow to bring the text labels above the scatter points.
+
+###Step 4 : Finishing Up, Styling Your Graph
+
+Your graph should now look something like this:
+
+(image - 4)
+
+Be sure to label your axes. The finished product should look something like this:
+
+(image - 5)
+
+Here is [our version] (https://plot.ly/~Dreamshot/3168) of the graph
