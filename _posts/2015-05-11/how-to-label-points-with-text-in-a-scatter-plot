@@ -9,29 +9,30 @@ Once you've loaded the data in Plotly, select the "text" group by option on the 
 This will instruct Plotly to display the text for each point directly on the plot.
 Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." 
 
-<a href="http://imgur.com/MQcRYpB"><img src="http://i.imgur.com/MQcRYpB.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/MQcRYpB"><img src="http://i.imgur.com/MQcRYpB.png" title="Grid" /></a>
 
 ###Step 3 : Labeling Points with Text
 
 Your newly-graphed data should look something like this:
 
-(image - 2)
+<a href="http://imgur.com/oJfGE3r"><img src="http://i.imgur.com/oJfGE3r.png" title="New Graph" /></a>
 
 Next, you'll want to select TRACES and then scan down to Lines/Markers and select the Aa option overlayed on a scatter point.
 
-
-(image - 3)
+<a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
 
 Then, head to "Style" in the tabbed navigation and click the up arrow to bring the text labels above the scatter points.
+
+<a href="http://imgur.com/jZBxIkZ"><img src="http://i.imgur.com/jZBxIkZ.png" title="Adjust Text Location" /></a>
 
 ###Step 4 : Finishing Up, Styling Your Graph
 
 Your graph should now look something like this:
 
-(image - 4)
+<a href="http://imgur.com/gWDKwfP"><img src="http://i.imgur.com/gWDKwfP.png" title="New Graph" /></a>
 
 Be sure to label your axes. The finished product should look something like this:
 
-(image - 5)
+<a href="http://imgur.com/Bucc1yu"><img src="http://i.imgur.com/Bucc1yu.png" title="Final Product" /></a>
 
 Here is [our version] (https://plot.ly/~Dreamshot/3168) of the graph
