@@ -11,9 +11,10 @@ meta_description: Learn how to easily fit data with polynomials using our free o
 #Fitting data with a polynomial
 
 <div>
-    <a href="https://plot.ly/~MattSundquist/12720/" target="_blank" title="Native Mexican Turkey&#39;s Growth" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/12720.png" alt="Native Mexican Turkey&#39;s Growth" style="max-width: 100%;width: 712px;"  width="712" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="MattSundquist:12720" src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~mariahh/2903/" target="_blank" title="Native Mexican Turkey&#39;s Growth" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/2903.png" alt="Native Mexican Turkey&#39;s Growth" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="mariahh:2903" src="https://plot.ly/embed.js" async></script>
 </div>
+
 
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit polynomial curves to your data and explain what that means. Make sure to check out our other [tutorials](/tutorials) to learn how to fit your data with [Gaussians](/gaussian-fits), [exponentials](/exponential-fits) and [logarithms](/logarithmic-fits).
