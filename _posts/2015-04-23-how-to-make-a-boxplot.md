@@ -6,7 +6,7 @@ permalink: /how-to-make-a-box-plot-online
 imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: basic statistical
-meta_description: Make a box plot graph online and for free with Plotly
+meta_description: Boxplots are used to better understand how values are spaced out in different sets of data. Follow this step-by-step tutorial to make a boxplot for free and online with Plotly.
 ---
 
 #Make a Box Plot
