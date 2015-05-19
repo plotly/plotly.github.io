@@ -54,4 +54,4 @@ Love what you made? You can [share, print, download](how-to-share-and-print-plot
 
 You can find the graph used in this tutorial, and the underlying data at:
 
-https://plot.ly/~mariahh/63
+[https://plot.ly/~mariahh/63](https://plot.ly/~mariahh/63)
