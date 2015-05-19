@@ -6,7 +6,7 @@ permalink: /chi-square-test
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: active
 tags: classroom statistical
-meta_description: The chi-square test is a statistical hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. In this step by step tutorial, learn to use Plotly's chi-square test calculator.
+meta_description: The chi-square test is a hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. Learn to use Plotly's chi-square test.
 ---
 
 #Chi-Square Test
