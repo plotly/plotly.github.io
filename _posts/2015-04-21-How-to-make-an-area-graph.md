@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
-permalink: /how-to-make-an-area-chart-online
+permalink: /area-graph
 imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-graph.png
 state: active
 tags: basic
-meta_description: Make an area graph online and for free with Plotly
+meta_description: An area graph is a type of line graph where the area between the lines and the x-axis is filled with color or texture. In this step-by-step tutorial, learn to make a area graph online.
 ---
 
 #Make an Area Graph
