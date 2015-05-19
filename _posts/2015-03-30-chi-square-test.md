@@ -6,7 +6,7 @@ permalink: /chi-square-test
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: active
 tags: classroom statistical
-meta_description: A step by step tutorial on Chi-Square tests. Make a graph online and for free with Plotly
+meta_description: The chi-squared test is a statistical hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. In this step by step tutorial, learn to use Plotly's chi-square test calculator.
 ---
 
 #Chi-Square Test
@@ -30,8 +30,8 @@ We’ve already entered the [Gallup poll data into Plotly](https://plot.ly/976/~
 
 ###Step 2: Chi-squared test
 
-Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Chi square tes](/static/images/chi-square/02-chi-square.png)
+Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Chi square test](/static/images/chi-square/02-chi-square.png)
 
-Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on **Perform Chi-squared Test**. | ![Chi square tes](/static/images/chi-square/03-chi-square.png)
+Because we want to compare the sample data with what we would expect assuming no gender bias, we select “choose as obs” in the Vegetarian column and “choose as exp” in the Expected vegetarian column. Next, click on **Perform Chi-squared Test**. | ![Chi square test](/static/images/chi-square/03-chi-square.png)
 
-Plotly puts our results in the first two columns to the right of our data. In this case, the chi-squared statistic is 4.1456 and the P-value is 0.04174. By convention, because 0.04174 is less than 0.05, we decide that the difference is statistically significant. In other words, we reject the null hypothesis and conclude that there must be a relation between vegetarianism and gender. | ![Chi square tes](/static/images/chi-square/04-chi-square.png)
+Plotly puts our results in the first two columns to the right of our data. In this case, the chi-squared statistic is 4.1456 and the P-value is 0.04174. By convention, because 0.04174 is less than 0.05, we decide that the difference is statistically significant. In other words, we reject the null hypothesis and conclude that there must be a relation between vegetarianism and gender. | ![Chi square test](/static/images/chi-square/04-chi-square.png)
