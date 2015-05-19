@@ -40,7 +40,7 @@ Our **Advanced** tab gives you even more flexibility. You can incorporate error 
 Now click on the blue **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will display the line of best fit equation and $R^2$-value. | ![Run the fit and add results as annotation](/static/images/polynomial-fits/run-the-fit-and-add-results-as-annotation.png)
 To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Close the Fitting to trace popover and style with options in TRACES](/static/images/polynomial-fits/close-the-fitting-to-trace-popover-and-style-with-options-in-traces.png)
 
-Love what you made? You can share, print, download and embed your plots. 
+Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/). 
 
 You can find the graph used in this tutorial, and the underlying data at:
 
