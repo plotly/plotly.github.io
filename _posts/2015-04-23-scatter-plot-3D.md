@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Make a 3D Scatter Plot
 subtitle: A Step by Step Guide to Making a 3D Scatter Plot
-permalink: /how-to-make-a-3d-scatter-plot-online
+permalink: /3d-scatter-plot
 imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: graph3d
-meta_description: Make a 3D scatter plot online and for free with Plotly
+meta_description: A tutorial on how to make a 3d scatter plot. Plotly is the easiest and fastest way to make and share graphs online.
 ---
 
 # Making a 3D Scatter Plot
