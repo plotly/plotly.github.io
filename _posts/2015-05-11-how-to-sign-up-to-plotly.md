@@ -57,7 +57,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
     <td>
      <p >
       Visit
-      <a class="link--impt" href="">
+      <a class="link--impt" href="/">
        help.plot.ly
       </a>
       to check out tutorials on how to use the GUI and the APIs
