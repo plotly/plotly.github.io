@@ -6,7 +6,7 @@ permalink: /boxplot
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: statistical basic
-meta_description: A step by step tutorial on BoxPlots. Make a boxplot online and for free with Plotly
+meta_description: Boxplots are used to better understand how values are spaced out in different sets of data. An interactive tutorial on how boxplots are made, and the information they display.
 ---
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
