@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Create a Line of Best Fit
 subtitle: How to create a line of best fit
-permalink: /create-a-line-of-best-fit-online
+permalink: /create-a-line-of-best-fit
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: classroom statistical
-meta_description: Make a line of best fit graph online and for free with Plotly
+meta_description: Make best fit lines of data online and for free with plotly. A step-by-step tutorial of how to make best fit lines and regressions in your web browser with plotly.
 ---
 
 #Create a Line of Best Fit
