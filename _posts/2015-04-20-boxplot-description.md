@@ -2,11 +2,11 @@
 layout: new_layout
 title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
-permalink: /boxplot
+permalink: /box-plot
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: statistical basic
-meta_description: Boxplots are used to better understand how values are spaced out in different sets of data. An interactive tutorial on how boxplots are made, and the information they display.
+meta_description: Box plots are used to better understand how values are spaced out in different sets of data. An interactive tutorial on how box plots are made, and the information they display.
 ---
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
