@@ -6,7 +6,7 @@ permalink: /how-to-share-and-print-plotly-graphs
 imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
 tags: classroom basic
-meta_description: Print and share graphs online and for free with Plotly
+meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Plotly. A step-by-step tutorial of how to save, download, and share Plotly graphs.
 ---
 
 #Printing and Sharing Graphs
