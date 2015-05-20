@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
-permalink: /graph-with-error-bars
+permalink: /make-a-graph-with-error-bars
 imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: statistical
