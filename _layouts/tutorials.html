@@ -56,7 +56,7 @@ title: Plotly Tutorials
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'basic' %}
-									<li><a href="http://help.plot.ly/{{page.permalink}}">
+									<li><a href="http://help.plot.ly{{page.permalink}}">
 									<div class="alltutcol"> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="/images/default.png" alt="Tutorial" />
