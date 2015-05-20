@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Make a Histogram with Excel 
 subtitle: Plotly with Excel
-permalink: /how-to-make-a-histogram-with-excel
+permalink: /excel/histogram
 imageurl: /static/images/histogram-with-excel/thum-histogram-with-excel.png
 state: active
 tags: excel
-meta_description: Make a histogram with excel online
+meta_description: A tutorial on how to make a histogram with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 ---
 
 # Make a Histogram with Excel 
