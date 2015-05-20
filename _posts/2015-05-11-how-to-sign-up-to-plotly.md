@@ -6,7 +6,7 @@ permalink: /how-to-sign-up-to-plotly
 imageurl:
 state: active
 tags: basic
-meta_description: How to sign up to Plotly. Make and share graphs online.
+meta_description: How to sign up to Plotly. Plotly is the easiest way to make and share graphs, online and for free.
 ---
  
 #How to sign up for Plotly
@@ -57,8 +57,8 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
     <td>
      <p >
       Visit
-      <a class="link--impt" href="/learn">
-       plot.ly/learn
+      <a class="link--impt" href="">
+       help.plot.ly
       </a>
       to check out tutorials on how to use the GUI and the APIs
      </p>
