@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Make a Bubble Chart with Excel
 subtitle: Plotly with Excel
-permalink: /how-to-make-a-bubble-chart-with-excel
+permalink: /excel/bubble-chart
 imageurl: /static/images/bubble-chart-with-excel/thum-bubble-chart-with-excel.png
 state: active
 tags: excel
-meta_description: Make a bubble chart with excel online and for free with Plotly
+meta_description: A tutorial on how to make a bubble chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 ---
 
 # Make a Bubble Chart with Excel
