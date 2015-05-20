@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Print Free Graph Paper Online
 subtitle: 
-permalink: /print-free-graph-paper-online
+permalink: /print-free-graph-paper
 imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
 tags: classroom
-meta_description: Print graph paper online and for free with Plotly
+meta_description: Free PDF download of printable graph paper, available in different formats and sizes.
 ---
 
 #Print Free Graph Paper Online
