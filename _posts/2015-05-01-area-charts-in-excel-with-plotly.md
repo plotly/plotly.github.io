@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Make an Area Chart in Excel
 subtitle: Plotly with Excel
-permalink: how-to-make-an-area-chart-with-excel/
+permalink: /excel/area-charts
 imageurl: /static/images/area-charts-in-excel-with-plotly/thum-area-charts-in-excel-with-plotly.png
 state: active
 tags: excel
-meta_description: Make an area chart with excel online and for free with Plotly
+meta_description: A tutorial on how to make an area chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 ---
 
 #How to make an area chart in Excel 
