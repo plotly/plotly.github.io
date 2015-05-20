@@ -2,11 +2,11 @@
 layout: new_layout
 title: Video - Styling and Customizing Graphs
 subtitle: How to style and customize graphs
-permalink: /video-styling-and-customizing-graphs
+permalink: /styling-and-customizing-graphs-video
 imageurl: /static/images/styling-and-customizing-graphs/thum-styling-and-customizing-graphs.png
 state: active
 tags: classroom basic videos
-meta_description: Style and customize graphs online and for free with Plotly
+meta_description: Learn how to style and customize Plotly graphs in under a minute. Plotly is the easiest way to make and share graphs, online and for free.
 ---
 
 #Styling and Customizing Graphs
