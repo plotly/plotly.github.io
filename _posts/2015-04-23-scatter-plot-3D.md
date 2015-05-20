@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a 3D Scatter Plot
 subtitle: A Step by Step Guide to Making a 3D Scatter Plot
-permalink: /3d-scatter-plot
+permalink: /make-a-3d-scatter-plot
 imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: graph3d
