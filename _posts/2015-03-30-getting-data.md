@@ -17,10 +17,11 @@ meta_description: A tutorial on reliable data sources including Data.gov. Plotly
 <br />
 <br />
 
-<p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="www.data.gov">Data.gov</a>, <a href="https://www.quandl.com/">Quandl</a> and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
+<p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="www.data.gov">Data.gov</a>, <a href="http://arohatgi.info/WebPlotDigitizer/">WebPlotDigitizer</a>, <a href="https://www.quandl.com/">Quandl</a>, <a href="https://import.io/">import.io</a>, and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
 Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/esByc8X.png">
 
+You can also [sync Plotly graphs with arbitrary externally sourced data](http://chriddyp.github.io/external-source-plotter/) in order to directly embed your graph in your webpage, without needing to send your user to Plotly's webpage. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox. 
 
 
 <h1><a href="https://www.data.gov/meta/open-apps/">Data.gov</a></h1>
@@ -53,6 +54,23 @@ Keeping track of your data source is important. That's why Plotly automatically 
 
 <br />
 <br />
+
+<h1><a href="http://arohatgi.info/WebPlotDigitizer/tutorial.html">WebPlotDigitizer</a></h1>
+
+<br />
+<br />
+
+[WebPlotDigitizer](http://arohatgi.info/WebPlotDigitizer/) lets you automatically grab data from an image and export the data directly to Plotly. With Plotly you can recreate an interactive version of the graph, easily stylize your work, and even analyze the data. 
+
+Let’s say, for example, you’re reading this wonderful [Mother Jones article](http://www.motherjones.com/blue-marble/2013/12/signal-increasing-hurricane-intensity-finally-emerging-noise) on the rising strength of hurricanes. The source of this data is an academic paper we don’t have access to, but WPD can grab the data and send it Plotly.
+
+The first step is to save a copy of the image (or take a screen shot). Then open [WebPlotDigitizer's App](http://arohatgi.info/WebPlotDigitizer/app). Click on "File", and then "Load image". Upload your saved image. | ![Upload data to WebPlotDigitizer](/static/images/getting-data/upload-file-to-webplotdigitizer.png)
+We select the plot type (in this case "2D (X-Y) Plot") and click on "Align Axes". WebPlotDigitizer gives simple instructions to select four points to align the axes.<br><br>This particular graph has an $x$-axis with value labels but no tick marks. To be as precise as possible, we can mouse over a known value, such as the data peak at 1983. Any time you mouse over your WPD graph, the panel in the upper right corner zooms in and displays coordinates as $[x,y]$. Once we find the appropriate $x$-coordinate (in this case 73.78), we can move our mouse to the x-axis to select the first point.<br><br>We use the same method for the other three points. Click "Complete!" once you've selected four points.| ![Align axes by selecting points](/static/images/getting-data/align-axes-by-selecting-points.png)
+We now enter the point values we selected for the points selected on the $x$ and $y$ axes. Because this graph has years on the $x$-axis, we use the format "yyyy/mm/dd". Click "Okay". | ![Label selected points on axes](/static/images/getting-data/label-selected-points-on-axes.png)
+We'll use the default manual mode, and add a point by clicking on each peak and valley on the line that defines the graph. Once this is complete, we click on "View Data" to open the extracted data set. | ![Manually select peaks and valleys](/static/images/getting-data/manually-select-peaks-and-valleys.png)
+Click on the "Graph in Plotly" button to recreate the graph. Once the graph loads, you can click on **VIEW DATA** to see the underlying data. | ![Click on graph in Plotly to export the data](/static/images/getting-data/click-on-graph-in-plotly-to-export-the-data.png)
+
+Check out our short video on [Styling and Customizing Graphs](http://help.plot.ly/styling-and-customizing-graphs-video/) to make the hurricane graph your own.
 
 <h1><a href="https://www.quandl.com/help/plotly">Quandl</a></h1>
 
