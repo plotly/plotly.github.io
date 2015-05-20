@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Embed Plotly Graphs in A Blog or Website
 subtitle: How to Embed Plotly Graphs
-permalink: /how-to-embed-plotly-graphs-in-websites
+permalink: /embed-graphs-in-websites
 imageurl: /static/images/embed-plotly-graphs/thum-embed-plotly-graphs.png
 state: active
 tags: basic
-meta_description: Embed a graph in a blog or website online and for free with Plotly
+meta_description: A tutorial on how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and Wordpress. Plotly is the easiest way to graph and share your data.
 ---
 
 #Embed Plotly Graphs in A Blog or Website
