@@ -8,6 +8,7 @@ state: active
 tags: classroom statistical
 meta_description: Make best fit lines of data online and for free with Plotly. A step-by-step tutorial of how to make best fit lines and regressions in your web browser with Plotly.
 popularity: frontpage
+actioncall: Make a Line of Best Fit
 ---
 
 #Make a Line of Best Fit

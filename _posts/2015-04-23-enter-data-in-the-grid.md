@@ -7,6 +7,7 @@ imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
 tags: basic, classroom
 meta_description: A step-by-step tutorial on how to enter data in Plotly for easy, online graphing. Upload data from your computer, import from Google Drive, or import from Dropbox.
+actioncall: Make a Graph
 ---
 
 #How to Enter Data in the Grid

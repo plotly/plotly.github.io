@@ -7,6 +7,7 @@ imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make an box plot with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+actioncall: Make a Box Plot
 ---
 
 # How to Make a Box Plot with Excel 

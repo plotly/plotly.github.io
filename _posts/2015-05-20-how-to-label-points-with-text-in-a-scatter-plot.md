@@ -7,6 +7,7 @@ imageurl:
 state: inactive
 tags: basic
 meta_description: Label points with text in a scatter plot online and for free with Plotly
+actioncall: make a scatter plot
 ---
 
 ###Step 1 : Set up the grid

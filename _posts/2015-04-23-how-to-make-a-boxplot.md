@@ -8,6 +8,7 @@ state: active
 tags: basic statistical
 meta_description: Box plots are used to better understand how values are spaced out in different sets of data. Follow this step-by-step tutorial to make a box plot for free and online with Plotly.
 popularity: frontpage
+actioncall: Make a Box Plot
 ---
 
 #Make a Box Plot

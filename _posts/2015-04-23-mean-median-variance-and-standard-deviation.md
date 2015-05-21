@@ -7,6 +7,7 @@ imageurl: /static/images/mean-median-variance-and-standard-deviation/thum-mean-m
 state: active
 tags: classroom statistical
 meta_description: Calculate and analyze basic statistics like the mean, median, variance and standard deviation online and for free with Plotly.
+actioncall: Make a graph
 ---
 
 #Mean, Median, Variance and Standard Deviation

@@ -1,3 +1,5 @@
+{% if page.actioncall != "" or page.actioncall != nil %}
 <div class="wide row">
-<a class="button no_underline align-right callaction" href="https://plot.ly/plot">Make a {{page.charttype}} chart</a>
+<a class="button no_underline align-right callaction" href="https://plot.ly/plot">{{page.actioncall | capitalize}}</a>
 </div>
+{% endif %}

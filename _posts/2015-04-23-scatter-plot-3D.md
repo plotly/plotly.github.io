@@ -7,6 +7,7 @@ imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: graph3d
 meta_description: A tutorial on how to make a 3d scatter plot. Plotly is the easiest and fastest way to make and share graphs online.
+actioncall: Make a 3D Sccatter Plot
 ---
 
 # Making a 3D Scatter Plot

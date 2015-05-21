@@ -355,6 +355,7 @@ CALL TO ACTION BUTTON
 		margin: 10px 5%;
 		min-width: 90%;
 		text-align: center;
+		margin-right: 5%;
 	}
 }
 @media (max-width: 1100px) {

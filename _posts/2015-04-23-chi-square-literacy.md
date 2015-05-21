@@ -7,6 +7,7 @@ imageurl: /static/images/chi-square/thum-chi-square.png
 state: inactive
 tags: STATISTICS 
 meta_description: Tutorial on the chi-square test. Make a graph online and for free with Plotly
+actioncall: Make a Graph
 ---
 
 #Chi-square Test

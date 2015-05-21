@@ -7,6 +7,7 @@ imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-g
 state: active
 tags: classroom basic
 meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Plotly. A step-by-step tutorial of how to save, download, and share Plotly graphs.
+actioncall: Make a Graph
 ---
 
 #Printing and Sharing Graphs

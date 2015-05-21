@@ -7,6 +7,7 @@ imageurl: /static/images/LaTeX-basics/thum-LaTeX-basics.png
 state: active
 tags: basic
 meta_description: How to add scientific equations and mathematical symbols to your graph with LaTeX. Plotly is the easiest way to make and share graphs, online and for free.
+actioncall: make a chart
 ---
 
 #LaTeX Basics with Plotly

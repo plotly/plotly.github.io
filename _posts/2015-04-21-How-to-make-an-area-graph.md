@@ -7,6 +7,7 @@ imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-grap
 state: active
 tags: basic
 meta_description: An area graph is a type of line graph where the area between the lines and the x-axis is filled with color or texture. In this step-by-step tutorial, learn to make a area graph online.
+actioncall: Make an Area Graph
 ---
 
 #Make an Area Graph

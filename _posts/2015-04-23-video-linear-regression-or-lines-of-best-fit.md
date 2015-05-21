@@ -7,6 +7,7 @@ imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video
 state: active
 tags: basic classroom videos textandlink
 meta_description: Learn to calculate a line of best fit in less than two minutes. Plotly is the easiest and fastest way to make and share graphs online.
+actioncall: Make a Chart
 ---
 
 # Linear Regression or Lines of Best Fit

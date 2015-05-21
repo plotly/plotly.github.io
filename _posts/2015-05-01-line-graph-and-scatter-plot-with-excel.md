@@ -7,6 +7,7 @@ imageurl: /static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-
 state: active
 tags: excel
 meta_description: A tutorial on how to make line graphs and scatter plots with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+actioncall: make a like and scatter plot
 ---
 
 #How to Make a Line Graph and a Scatter Plot in Excel 

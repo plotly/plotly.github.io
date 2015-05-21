@@ -6,6 +6,7 @@ imageurl: /static/images/exponential-fits/fourth-order-polynomial-fit
 state: inactive
 tags: classroom basic
 meta_description: Learn how to easily fit data with exponential functions using our free online regression calculator. Plotly is the best online tool for graphing and analyzing data.
+actioncall: Make a chart
 ---
 
 #Fitting data with an exponential function

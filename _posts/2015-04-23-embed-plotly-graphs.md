@@ -8,6 +8,7 @@ state: active
 tags: basic
 meta_description: A tutorial on how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and Wordpress. Plotly is the easiest way to graph and share your data.
 popularity: frontpage
+actioncall: Make a Graph
 ---
 
 #Embed Plotly Graphs in A Blog or Website

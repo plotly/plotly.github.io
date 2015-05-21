@@ -8,6 +8,7 @@ state: active
 tags: statistical
 meta_description: A tutorial on how to make a histogram online. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
+actioncall: Make a Histogram
 ---
 
 #A Step by Step Guide to Making a Histogram

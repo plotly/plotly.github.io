@@ -8,6 +8,7 @@ state: active
 tags: basic
 meta_description: A tutorial on how to make a line graph and a scatter plot online. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
+actioncall: Make a Line or Scatter Graph
 ---
 
 #Make a Line or Scatter Graph
