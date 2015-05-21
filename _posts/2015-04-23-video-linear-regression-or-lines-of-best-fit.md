@@ -13,4 +13,4 @@ meta_description: Learn to calculate a line of best fit in less than two minutes
 
 To play with the graph shown in this video, see [Velocity (m/s) versus Time (s)](https://plot.ly/37/~cimar/).
 
-<iframe src="//player.vimeo.com/video/102272367" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/k5DXRSAf20c" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
