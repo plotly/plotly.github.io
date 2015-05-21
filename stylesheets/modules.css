@@ -344,6 +344,14 @@ BUTTONS
 	color: white;
 }
 
+/*********************
+CALL TO ACTION BUTTON
+*********************/
+.callaction{
+	margin: 10px 10px 10px;
+}
+
+
 /***********************
 TUTORIAL HOME PAGE STYLING
 ************************/

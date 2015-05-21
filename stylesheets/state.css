@@ -11,9 +11,13 @@
 	text-decoration: none;}
 .hoverlight:hover{
 	opacity= 0.5;}
-.wide-right{
+.wide{
 	width: 100%;
-	float: right;}
+}
+.align-right{
+	float: right;
+}
+
 @media (max-width: 550px) {
 	.float_right{
 		float: none;
