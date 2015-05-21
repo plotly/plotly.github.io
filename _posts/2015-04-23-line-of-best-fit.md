@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
-title: Create a Line of Best Fit
-subtitle: How to create a line of best fit
+title: Make a Line of Best Fit
+subtitle: How to make a line of best fit
 permalink: /make-a-line-of-best-fit
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
@@ -10,7 +10,7 @@ meta_description: Make best fit lines of data online and for free with Plotly. A
 popularity: frontpage
 ---
 
-#Create a Line of Best Fit
+#Make a Line of Best Fit
 
 One of the most basic but potent combos in data visualization is the **scatter plot and trend line**.
 
