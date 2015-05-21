@@ -9,7 +9,7 @@ tags: videos classroom statistical
 meta_description:Learn to fit your data with custom functions in our less than 2 minute video. Plotly is the easiest and fastest way to make and share graphs online.
 ---
 
-#Fitting Data to Custom Functions
+#Fitting Data with Custom Functions
 
 To play with the graph shown in this video, see [Hill Equation: Fraction of occupied ligand sites vs. Free ligand concentration](https://plot.ly/2503/~chris/).
 
