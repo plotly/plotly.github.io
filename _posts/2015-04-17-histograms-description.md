@@ -7,7 +7,7 @@ imageurl: /static/images/histograms-description/thum-histogram-description.png
 state: active
 tags: statistical basic
 meta_description: What is a histogram? When do you use a histogram? An interactive lesson on how to read a histogram, how a histogram is made, and how to analyze a histogram.
-
+popularity: frontpage
 ---
 
 #Intro to Histograms

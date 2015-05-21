@@ -84,94 +84,21 @@ title: Plotly Help
 			<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
 				<div class="row">
 					<ul id="myList">
-					
-							<li><a href="http://help.plot.ly/create-a-line-of-best-fit-online">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/fzkGllW.png" alt="Line of best fit" />
-									<div class="titlecenter">
-										<h5 class="centered"> Create a line of best fit </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-box-plot-online" class="no_underline">
-							<div class=" alltutcol "> 
-									<img src="/static/images/box-plot/box-plot-thumbnail.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Box Plots </h5>
-									<div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/histograms/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/AxENM9I.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Histograms </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-graph-with-error-bars-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/0TUQYy6.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Create a Graph with Error Bars </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-line-graph-and-scatter-plot-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/bvoMPwi.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Line and Scatter Graph </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-histogram-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/wlYSfl1.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Histogram </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-heatmap-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/qV64EAX.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Heat Map </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-embed-plotly-graphs-in-websites/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/w6ORNmV.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Embed Plotly Graphs in a Blog or Website </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-graph-with-multiple-axes-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/lpBvF0r.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Graph with Multiple Y Axes Online </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-bubble-chart-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/nw806BP.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Bubble Chart </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-box-plot-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/YPS9jee.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Box Plot </h5>
-									</div>
-							</div></a></li>
-							<li><a href="http://help.plot.ly/how-to-make-a-bar-chart-online/">
-							<div class=" alltutcol "> 
-									<img src="http://i.imgur.com/tbjRqDx.png" alt="Tutorial" />
-									<div class="titlecenter">
-										<h5 class="centered"> Make a Bar Graph </h5>
-									</div>
-							</div></a></li>
-
-
-
+							{% for page in site.posts %}
+								{% if page.state == 'active' and page.popularity contains 'frontpage' %}
+									<li><a href="http://help.plot.ly{{page.permalink}}">
+									<div class="alltutcol"> 
+										{% if page.imageurl == "" or page.imageurl == nil %}
+											<img src="/images/default.png" alt="Tutorial" />
+										{% else %}
+											<img src="{{page.imageurl}}" alt="Tutorial">
+										{% endif %}
+											<div class="titlecenter">
+												<h5 class="centered"> {{page.title}} </h5>
+											</div>
+									</div></a></li>
+								{% endif %}
+							{% endfor %}
 	        			</ul>
 				<div id="loadMore" class="four columns"  >
         				<a class="button no_underline" href="http://help.plot.ly/tutorials" >

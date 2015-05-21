@@ -7,6 +7,7 @@ imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: statistical
 meta_description: A tutorial on how to make a histogram online. Plotly is the easiest and fastest way to make and share graphs online.
+popularity: frontpage
 ---
 
 #A Step by Step Guide to Making a Histogram

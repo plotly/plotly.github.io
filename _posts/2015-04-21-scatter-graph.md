@@ -7,6 +7,7 @@ imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
 tags: basic
 meta_description: A tutorial on how to make a line graph and a scatter plot online. Plotly is the easiest and fastest way to make and share graphs online.
+popularity: frontpage
 ---
 
 #Make a Line or Scatter Graph

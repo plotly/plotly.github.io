@@ -7,6 +7,7 @@ imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: statistical
 meta_description: A tutorial on how to make a graph with error bars online. Plotly is the easiest and fastest way to make and share graphs online.
+popularity: frontpage
 ---
 
 #Make a Graph with Error Bars
