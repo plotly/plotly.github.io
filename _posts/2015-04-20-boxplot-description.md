@@ -2,7 +2,7 @@
 layout: new_layout
 title: Intro to BoxPlots
 subtitle: What is a BoxPlot?
-permalink: /box-plot
+permalink: /what-is-a-box-plot
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: statistical basic
