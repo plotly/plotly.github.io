@@ -350,6 +350,13 @@ CALL TO ACTION BUTTON
 .callaction{
 	margin: 10px 10px 10px;
 }
+@media (max-width: 550px) {
+	.callaction {
+		margin: 10px 5%;
+		min-width: 90%;
+		text-align: center;
+	}
+}
 
 
 /***********************
