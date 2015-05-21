@@ -15,4 +15,4 @@ meta_description: Learn to fit your data with custom functions in our less than 
 To play with the graph shown in this video, see [Hill Equation: Fraction of occupied ligand sites vs. Free ligand concentration](https://plot.ly/2503/~chris/).
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o_A8Nzz31gc" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/o_A8Nzz31gc" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
