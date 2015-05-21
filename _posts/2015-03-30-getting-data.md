@@ -98,6 +98,25 @@ Check out our short video on [Styling and Customizing Graphs](http://help.plot.l
 </tbody>
 </table>
 
+<br />
+<br />
+
+<h1><a href="http://blog.import.io/post/plotly-integration">import.io</a></h1>
+
+Import.io is a great service to help you scrape data automatically from webpages. To utilize the Plotly export, you'll need to head over to [import.io](https://import.io) and set up a free account.
+
+[Ikea](http://www.ikea.com/ca) (in Canada) has [77 table lamps for sale](http://www.ikea.com/ca/en/catalog/categories/departments/living_room/10732/) on their webpage. Let's say you are interested in the average price of their offerings, or perhaps would like to make a histogram of the prices. Instead of manually extracting the data, we can use import.io.
+
+Open [import.io](https://import.io/), and sign in. Enter the URL of the page with the data you want to extract. Click on "Try it Out". | ![Enter URL at import.io](/static/images/getting-data/enter-url-at-import-io.png)
+You'll see the data appear in spreadsheet form. Look for the pink "Get API" button in the lower right. Click it. | ![Use get API button to extract data](/static/images/getting-data/use-get-api-button-to-extract-data.png)
+Click on the "Copy this to My Data" button in the box that appears, and you'll see the data in a form where we can select columns to extract. Click the Plot.ly button above the data. | ![Click Plot.ly to extract](/static/images/getting-data/click-plot-ly-to-extract.png)
+We can check the columns of data what we wish to extract to Plotly. Here we choose "producttitle_value" and "price_value_prices". Finally, click on the blue "Export to Plot.ly" button. | ![Select columns to export](/static/images/getting-data/select-columns-to-export.png)
+
+The data will open in a Plotly grid, where you can analyze and graph the data. You might like to check out our tutorials on [basic statistics](/basic-statistics-mean-median-standard-deviation) and [histograms](/make-a-histogram) to get some ideas.
+
+<br />
+<br />
+
 <h1><a href="http://www.vernier.com/">Vernier</a></h1>
 
 <br />
