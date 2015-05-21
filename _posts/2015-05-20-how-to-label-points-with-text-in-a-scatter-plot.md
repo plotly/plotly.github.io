@@ -4,7 +4,7 @@ title: How To Label Points With Text in a Scatter Plot
 subtitle: A Step by Step Guide to Labeling Points With Text in a Scatter Plot
 permalink: /how-to-label-points-with-text-in-a-scatter-plot-online
 imageurl: 
-state: active
+state: inactive
 tags: basic
 meta_description: Label points with text in a scatter plot online and for free with Plotly
 ---
