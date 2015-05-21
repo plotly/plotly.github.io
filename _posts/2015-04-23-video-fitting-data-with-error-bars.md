@@ -13,4 +13,4 @@ meta_description: Learn to fit data with error bars in under two minutes. Plotly
 
 To play with the graph shown in this video, see [Intensity (AU) vs Normalized wavelength (nm)](https://plot.ly/2505/~chris/).
 
-<iframe src="//player.vimeo.com/video/102276458" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/eWan9iNJtaA" width="100%" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
