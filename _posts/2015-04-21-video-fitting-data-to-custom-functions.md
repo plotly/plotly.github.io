@@ -6,8 +6,9 @@ permalink: /fitting-data-to-custom-functions-video
 imageurl: /static/images/video-fitting-data-to-custom-functions/thum-video-fitting-data-to-custom-functions.png
 state: active
 tags: videos classroom statistical
-meta_description:Learn to fit your data with custom functions in our less than 2 minute video. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Learn to fit your data with custom functions in our less than 2 minute video. Plotly is the easiest and fastest way to make and share graphs online.
 ---
+
 
 #Fitting Data with Custom Functions
 
