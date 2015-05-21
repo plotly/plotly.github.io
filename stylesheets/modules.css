@@ -348,7 +348,7 @@ BUTTONS
 CALL TO ACTION BUTTON
 *********************/
 .callaction{
-	margin: 10px 10px 10px;
+	margin: 10px 70px 10px;
 }
 @media (max-width: 550px) {
 	.callaction {
@@ -357,7 +357,11 @@ CALL TO ACTION BUTTON
 		text-align: center;
 	}
 }
-
+@media (max-width: 1100px) {
+	.callaction {
+		margin-right: 40px;
+	}
+}
 
 /***********************
 TUTORIAL HOME PAGE STYLING
