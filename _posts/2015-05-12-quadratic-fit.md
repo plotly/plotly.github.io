@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Quadratic fits
 permalink: /quadratic-fits
-imageurl: /static/images/quadratic-fits/thumb-quadratic-fit.png
+imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
 tags: classroom basic
 meta_description: A tutorial on quadratic regression. Make graphs online and for free with Plotly
