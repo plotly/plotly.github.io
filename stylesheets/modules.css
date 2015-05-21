@@ -358,9 +358,14 @@ CALL TO ACTION BUTTON
 		margin-right: 5%;
 	}
 }
-@media (max-width: 1100px) {
+@media (min-width: 550px) {
 	.callaction {
 		margin-right: 40px;
+	}
+}
+@media (min-width: 1100px) {
+	.callaction {
+		margin-right: 70px;
 	}
 }
 
