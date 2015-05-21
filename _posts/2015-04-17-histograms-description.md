@@ -2,7 +2,7 @@
 layout: new_layout
 title: Histograms
 subtitle: What is a histogram?
-permalink: /histograms
+permalink: /histogram
 imageurl: /static/images/histograms-description/thum-histogram-description.png
 state: active
 tags: statistical basic
