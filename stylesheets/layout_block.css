@@ -144,6 +144,25 @@ TUTORIAL BLOCKS
 	}
 }
 
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.alltutcol{ min-height: 240px;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.alltutcol{ min-height: 290px;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.alltutcol{ min-height: 350px;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	.alltutcol{ min-height: 400px;}
+}
 
 /***********************
 NAVIGATION BAR STYLING
