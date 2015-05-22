@@ -7,20 +7,20 @@ Click the link to open the data in your workspace.
 
 Once the data has opened in your workspace, specify your X and Y AXES, then select "Group By" in the left panel display and specify the right-most column, the name, as "G." Lastly, head up to the "MAKE A PLOT" button and select "Scatter plots." Then make a "Scatter plot." See the image below for a visualization. 
 
-http://i.imgur.com/QBU8Y5D.png
+<center><a href="http://imgur.com/QBU8Y5D"><img src="http://i.imgur.com/QBU8Y5D.png" title="source: imgur.com" /></a></center>
 
 ###Step 3: Editing Your Graph
 
 Your newly-graphed data should look something like this:
 
-http://i.imgur.com/cxEk2ST.png
+<center><a href="http://imgur.com/cxEk2ST"><img src="http://i.imgur.com/cxEk2ST.png" title="source: imgur.com" /></a></center>
 
 You'll want to add labels for the X and Y axes (Sepal Length and Width, respectively). Notice how your legend specifies the type of Iris; each Iris has a different scatter color on the plot.
 
-http://i.imgur.com/byvVi9M.png
+<center><a href="http://imgur.com/byvVi9M"><img src="http://i.imgur.com/byvVi9M.png" title="source: imgur.com" /></a></center>
 
 ###Step 4: Final Product
 
 Remember to title your plot. You can hover over the scatter points for more information!
 
-<a href="http://imgur.com/G0vyKpj"><img src="http://i.imgur.com/G0vyKpj.png" title="source: imgur.com" /></a>
+<center><a href="http://imgur.com/G0vyKpj"><img src="http://i.imgur.com/G0vyKpj.png" title="source: imgur.com" /></a></center>
