@@ -56,10 +56,6 @@ title: Plotly Tutorials
 						<ul>
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.tags contains 'basic' %}
-									{% assign loopindexthree = forloop.index | modulo: 3 %}
-										{% if loopindexthree == 1 %}
-											<div class="three-column-clear"></div>
-										{% endif %}
 									<li><a href="http://help.plot.ly{{page.permalink}}">
 									<div class="alltutcol"> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
@@ -71,6 +67,7 @@ title: Plotly Tutorials
 												<h5 class="centered"> {{page.title}} </h5>
 											</div>
 									</div></a></li>
+									<div class="{% cycle 'group 2': '', '', 'three-column-clear' %}"></div>
 								{% endif %}
 							{% endfor %}
 						</ul>
@@ -95,6 +92,7 @@ title: Plotly Tutorials
 											<h5 class="centered"> {{page.title}} </h5>
 										</div>
 									</div></a></li>
+									<div class="{% cycle 'group 3': '', '', 'three-column-clear' %}"></div>
 								{% endif %}
 							{% endfor %}
 						</ul>
@@ -120,6 +118,7 @@ title: Plotly Tutorials
 												<h5 class="centered"> {{page.title}} </h5>
 											</div>
 									</div></a></li>
+									<div class="{% cycle 'group 4': '', '', 'three-column-clear' %}"></div>
 								{% endif %}
 							{% endfor %}
 						</ul>
@@ -145,6 +144,7 @@ title: Plotly Tutorials
 												<h5 class="centered"> {{page.title}} </h5>
 											</div>
 									</div></a></li>
+									<div class="{% cycle 'group 5': '', '', 'three-column-clear' %}"></div>
 								{% endif %}
 							{% endfor %}
 						</ul>
@@ -169,6 +169,7 @@ title: Plotly Tutorials
 											<h5 class="centered"> {{page.title}} </h5>
 										</div>
 								</div></a></li>
+								<div class="{% cycle 'group 6': '', '', 'three-column-clear' %}"></div>
 							{% endif %}
 							{% endfor %}
 						</ul>
@@ -193,6 +194,7 @@ title: Plotly Tutorials
 											<h5 class="centered"> {{page.title}} </h5>
 										</div>
 								</div></a></li>
+								<div class="{% cycle 'group 7': '', '', 'three-column-clear' %}"></div>
 							{% endif %}
 							{% endfor %}
 						</ul>
@@ -220,6 +222,7 @@ title: Plotly Tutorials
 										<h5 class="centered"> {{page.title}} </h5>
 									</div>
 								</div></a></li>
+								<div class="{% cycle 'group 8': '', '', 'three-column-clear' %}"></div>
 							{% endif %}
 							{% endfor %}
 						</ul>
