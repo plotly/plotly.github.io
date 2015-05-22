@@ -85,7 +85,11 @@ title: Plotly Help
 				<div class="row">
 					<ul id="myList">
 							{% for page in site.posts %}
-								{% if page.state == 'active' and page.popularity contains 'frontpage' %}
+								{% if page.state == 'active' and page.popularity contains 'frontpage' %}		
+									{% assign loopindexthree = forloop.index | modulo: 3 %}
+											{% if loopindexthree == 1 %}
+												<div class="three-column-clear"></div>
+											{% endif %}	
 									<li><a href="http://help.plot.ly{{page.permalink}}">
 									<div class="alltutcol"> 
 										{% if page.imageurl == "" or page.imageurl == nil %}

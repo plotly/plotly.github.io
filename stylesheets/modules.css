@@ -47,6 +47,7 @@ HEADER STYLING
 
 .headerbar-nav-item {
     color: #69738a;
+	fill: #69738a;
     display: inline-block;
     font-size: 10pt;
     padding-left: 20px;
@@ -274,7 +275,9 @@ ALL TUTORIALS SECTION STYLING
 	bottom: 4px;
 }
 
-
+.three-column-clear{
+		clear: both;}
+}
 
 /********
 BUTTONS

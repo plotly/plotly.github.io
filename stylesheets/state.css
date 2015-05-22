@@ -12,12 +12,9 @@
 .hoverlight:hover{
 	opacity= 0.5;}
 .wide{
-	width: 100%;
-}
+	width: 100%;}
 .align-right{
-	float: right;
-}
-
+	float: right;}
 @media (max-width: 550px) {
 	.float_right{
 		float: none;
