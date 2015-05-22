@@ -23,4 +23,4 @@ http://i.imgur.com/byvVi9M.png
 
 Remember to title your plot. You can hover over the scatter points for more information!
 
-http://i.imgur.com/G0vyKpj.png
+<a href="http://imgur.com/G0vyKpj"><img src="http://i.imgur.com/G0vyKpj.png" title="source: imgur.com" /></a>
