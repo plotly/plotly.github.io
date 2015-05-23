@@ -1,3 +1,15 @@
+---
+layout: two_column_layout
+title: Zoom, Pan, and Hover Controls in Plotly Graphs
+subtitle: A Step by Step Guide to Zoom, Pan, and Hover Controls in Plotly Graphs
+permalink: /zoom-pan-hover-controls-in-plotly-graphs-online
+imageurl: 
+state: inactive
+tags: basic
+meta_description: Zoom, Pan, and Hover Controls in Plotly Graphs online and for free with Plotly
+actioncall: interactive graphs
+---
+
 Plotly graphs offer zoom, pan, and hover functionality. 
 Focus on intricate data in an instant or zoom out to see the bigger picture. 
 The data is always at your finger tips.
