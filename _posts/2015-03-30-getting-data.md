@@ -28,8 +28,6 @@ You can also [sync Plotly graphs with arbitrary externally sourced data](http://
 
 <h1><a href="https://www.data.gov/meta/open-apps/">Data.gov</a></h1>
 
-<br />
-<br />
 
 <p>Data.gov is the home of the U.S. Government's open data and hosts over 124,651 data sets. They've recently built an "Open With" option that let's you send the data directly to Plotly to create interactive graphs for free. This feature is supported on smaller CSV and XLS files. Look for the "Open With" menu when searching through their data sets.</p>
 
@@ -44,7 +42,7 @@ You can also [sync Plotly graphs with arbitrary externally sourced data](http://
 <td><img src="/static/images/getting-data/zdbxVr3.png"></td>
 </tr>
 <tr>
-<td>The toolbar on the left lets us filter the data by type, tags, format and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is helpful.</td>
+<td>The toolbar on the left lets us filter the data by type, tags, format, and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is helpful.</td>
 <td><img src="/static/images/getting-data/L5LLlFn.png"></td>
 </tr>
 <tr>
@@ -59,9 +57,6 @@ You can also [sync Plotly graphs with arbitrary externally sourced data](http://
 
 <h1><a href="http://arohatgi.info/WebPlotDigitizer/tutorial.html">WebPlotDigitizer</a></h1>
 
-<br />
-<br />
-
 [WebPlotDigitizer](http://arohatgi.info/WebPlotDigitizer/) lets you automatically grab data from an image and export the data directly to Plotly. With Plotly you can recreate an interactive version of the graph, easily stylize your work, and even analyze the data. 
 
 Let’s say, for example, you’re reading this [Mother Jones article](http://www.motherjones.com/blue-marble/2013/12/signal-increasing-hurricane-intensity-finally-emerging-noise) on the rising strength of hurricanes. The source of this data is an academic paper we don’t have access to, but WebPlotDigitizer can grab the data and send it Plotly.
@@ -69,15 +64,12 @@ Let’s say, for example, you’re reading this [Mother Jones article](http://ww
 The first step is to save a copy of the image (or take a screen shot). Then open [WebPlotDigitizer's App](http://arohatgi.info/WebPlotDigitizer/app). Click on **File**, and then **Load Image**. Upload your saved image. | ![Upload data to WebPlotDigitizer](/static/images/getting-data/upload-file-to-webplotdigitizer.png)
 We select the plot type (in this case "2D (X-Y) Plot") and click on **Align Axes**. WebPlotDigitizer gives simple instructions to select four points to align the axes.<br><br>This particular graph has an $x$-axis with value labels but no tick marks. To be as precise as possible, we can mouse over a known value, such as the data peak at 1983. Any time you mouse over your WPD graph, the panel in the upper right corner zooms in and displays coordinates as $[x,y]$. Once we find the appropriate $x$-coordinate (in this case 73.78), we can move our mouse to the $x$-axis to select the first point.<br><br>We use the same method for the other three points. Click **Complete!** once you've selected four points.| ![Align axes by selecting points](/static/images/getting-data/align-axes-by-selecting-points.png)
 We now enter the point values we selected for the points selected on the $x$ and $y$ axes. Because this graph has years on the $x$-axis, we use the format "yyyy/mm/dd". Click **Okay**. | ![Label selected points on axes](/static/images/getting-data/label-selected-points-on-axes.png)
-We'll use the default manual mode, and add a point by clicking on each peak and valley on the line that defines the graph. Once this is complete, we click on "View Data" to open the extracted data set. | ![Manually select peaks and valleys](/static/images/getting-data/manually-select-peaks-and-valleys.png)
+We'll use the default manual mode, and add a point by clicking on each peak and valley on the line that defines the graph. Once this is complete, we click on **View Data** to open the extracted data set. | ![Manually select peaks and valleys](/static/images/getting-data/manually-select-peaks-and-valleys.png)
 Click on the **Graph in Plotly** button to recreate the graph. Once the graph loads, you can click on **VIEW DATA** to see the underlying data. | ![Click on graph in Plotly to export the data](/static/images/getting-data/click-on-graph-in-plotly-to-export-the-data.png)
 
 Check out our short video on [Styling and Customizing Graphs](http://help.plot.ly/styling-and-customizing-graphs-video/) to make the hurricane graph your own.
 
 <h1><a href="https://www.quandl.com/help/plotly">Quandl</a></h1>
-
-<br />
-<br />
 
 <p>Quandl is a search engine for numerical data. They host data sets from hundreds of publishers, all organized and easy to search. Quandl automatically sends data to a new Plotly spreadsheet, neatly formatted, organized and ready for graphing.</p>
 
@@ -108,7 +100,7 @@ Import.io is a great service to help you scrape data automatically from webpages
 [Ikea](http://www.ikea.com/ca) (in Canada) has [77 table lamps for sale](http://www.ikea.com/ca/en/catalog/categories/departments/living_room/10732/) on their webpage. Let's say you are interested in the average price of their offerings, or perhaps would like to make a histogram of the prices. Instead of manually extracting the data, we can use import.io.
 
 Open [import.io](https://import.io/), and sign in. Enter the URL of the page with the data you want to extract. Click on **Try it Out**. | ![Enter URL at import.io](/static/images/getting-data/enter-url-at-import-io.png)
-You'll see the data appear in spreadsheet form. Look for the pink**Get API** button in the lower right. Click it. | ![Use get API button to extract data](/static/images/getting-data/use-get-api-button-to-extract-data.png)
+You'll see the data appear in spreadsheet form. Look for the pink **Get API** button in the lower right. Click it. | ![Use get API button to extract data](/static/images/getting-data/use-get-api-button-to-extract-data.png)
 Click on the **Copy this to My Data** button in the box that appears, and you'll see the data in a form where we can select columns to extract. Click the Plot.ly button above the data. | ![Click Plot.ly to extract](/static/images/getting-data/click-plot-ly-to-extract.png)
 We can check the columns of data what we wish to extract to Plotly. Here we choose "producttitle_value" and "price_value_prices". Finally, click on the blue **Export to Plot.ly** button. | ![Select columns to export](/static/images/getting-data/select-columns-to-export.png)
 
@@ -119,10 +111,8 @@ The data will open in a Plotly grid, where you can analyze and graph the data. Y
 
 <h1><a href="http://www.vernier.com/">Vernier</a></h1>
 
-<br />
-<br />
 
-<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers and experiments) for science classrooms and labs around the world. Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), allow you to use their excellent hardware across platforms, from most devices. You can export data directly to Plotly, which gives you a seamless workflow on your Chromebook, iPad or tablet. An export to Plotly with Logger Pro is coming soon.</p>
+<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers, and experiments) for science classrooms and labs around the world. Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), allow you to use their excellent hardware across platforms, from most devices. You can export data directly to Plotly, which gives you a seamless workflow on your Chromebook, iPad, or tablet. An export to Plotly with Logger Pro is coming soon.</p>
 
 <table>
 <tbody>
