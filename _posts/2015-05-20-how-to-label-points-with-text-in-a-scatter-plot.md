@@ -9,7 +9,7 @@ tags: basic
 meta_description: Label points with text in a scatter plot online and for free with Plotly
 actioncall: make a scatter plot
 ---
-
+ 
 #How To Label Points With Text in a Scatter Plot
 
 <div>
