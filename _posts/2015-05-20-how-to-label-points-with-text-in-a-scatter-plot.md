@@ -10,6 +10,8 @@ meta_description: Label points with text in a scatter plot online and for free w
 actioncall: make a scatter plot
 ---
 
+#How To Label Points With Text in a Scatter Plot
+
 ###Step 1 : Set up the grid
 
 We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly.
