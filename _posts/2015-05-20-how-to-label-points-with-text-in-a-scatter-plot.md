@@ -47,4 +47,4 @@ Be sure to label your axes. The finished product should look something like this
 
 <a href="http://imgur.com/Bucc1yu"><img src="http://i.imgur.com/Bucc1yu.png" title="Final Product" /></a>
 
-Here is [our version] (https://plot.ly/~Dreamshot/3313) of the graph
+Here is [our version] (https://plot.ly/~Dreamshot/3313) of the graph.
