@@ -10,6 +10,8 @@ meta_description: Color Points of a Scatter Plot by a Third Column online and fo
 actioncall: make a scatter plot
 ---
 
+#How to Color Points of a Scatter Plot by a Third Column
+
 ###Step 1 : Set up the grid
 
 We’ve already entered the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into Plotly. 
