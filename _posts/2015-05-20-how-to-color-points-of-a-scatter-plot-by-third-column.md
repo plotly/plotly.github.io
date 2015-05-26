@@ -24,7 +24,7 @@ Click the link to open the data in your workspace.
 
 ###Step 2: Graph the data
 
-Once the data has opened in your workspace, specify your X and Y AXES, then select "Group By" in the left panel display and specify the right-most column, the name, as "G." Lastly, head up to the "MAKE A PLOT" button and select "Scatter plots." Then make a "Scatter plot." See the image below for a visualization. 
+Once the data has opened in your workspace, specify your X and Y AXES, then select **Group By** in the left panel display and specify the right-most column, the name, as **G**. Lastly, head up to the "MAKE A PLOT" button and select **Scatter plots**. Then make a **Scatter plot**. See the image below for a visualization. 
 
 <center><a href="http://imgur.com/QBU8Y5D"><img src="http://i.imgur.com/QBU8Y5D.png" title="Graph the data" /></a></center>
 
