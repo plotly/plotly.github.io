@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to Making a Heat Map
-permalink: /make-a-heatmap
+permalink: /continuous-filled-error-bars
 imageurl: http://cloud.originlab.com/www/resources/graph_gallery/images_galleries_new/Error_Bars_with_Fill_Area_s.png
 state: active
 tags: basic
