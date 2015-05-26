@@ -10,6 +10,8 @@ meta_description: Zoom, Pan, and Hover Controls in Plotly Graphs online and for 
 actioncall: interactive graphs
 ---
 
+#Zoom, Pan, and Hover Controls in Plotly Graphs
+
 Plotly graphs offer zoom, pan, and hover functionality. 
 Focus on intricate data in an instant or zoom out to see the bigger picture. 
 The data is always at your finger tips.
