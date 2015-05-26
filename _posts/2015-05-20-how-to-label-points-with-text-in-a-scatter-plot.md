@@ -21,13 +21,13 @@ actioncall: make a scatter plot
 
 We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. Click the link to open the data.
 
-Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/8Cwm0FB"><img src="http://i.imgur.com/8Cwm0FB.png" title="Fork and edit" /></a>
+Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/kgcUpBv"><img src="http://i.imgur.com/kgcUpBv.png" title="Fork the Data" /></a>
 
 ### **Step 2:** Sort by Text
 
 Once you've loaded the data in Plotly, select the **text** group by option on the left panel. 
 This will instruct Plotly to display the text for each point directly on the plot.
-Thereafter, click **MAKE A PLOT** then **SCATTER PLOTS**. | <a href="http://imgur.com/Ubvs4GE"><img src="http://i.imgur.com/Ubvs4GE.png" title="Sort by Text" /></a>
+Thereafter, click **MAKE A PLOT** then **SCATTER PLOTS**. | <a href="http://imgur.com/FYbjZty"><img src="http://i.imgur.com/FYbjZty.png" title="Sort by Text" /></a>
 
 ### **Step 3:** Labeling Points with Text
 
