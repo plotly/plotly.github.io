@@ -21,7 +21,7 @@ actioncall: make a scatter plot
 
 We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. Click the link to open the data.
 
-Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/iBY3AOg"><img src="http://i.imgur.com/iBY3AOg.png" title="Fork and edit" /></a>
+Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/8Cwm0FB"><img src="http://i.imgur.com/8Cwm0FB.png" title="Fork and edit" /></a>
 
 ### **Step 2:** Sort by Text
 
@@ -31,20 +31,25 @@ Thereafter, click **MAKE A PLOT** then **SCATTER PLOTS**. | ![screen shot 2015-0
 
 ### **Step 3:** Labeling Points with Text
 
-Your newly-graphed data should look something like this: | <a href="http://imgur.com/oJfGE3r"><img src="http://i.imgur.com/oJfGE3r.png" title="New Graph" /></a>
+Your newly-graphed data should look something like this: | <a href="http://imgur.com/Djfz4y0"><img src="http://i.imgur.com/Djfz4y0.png" title="New Graph" /></a>
 
-Next, you'll want to select TRACES and then scan down to Lines/Markers and select the Aa option overlayed on a scatter point. | <a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
+Next, you'll want to select **TRACES**, for Col1, and then scan down to Lines/Markers and select the **Aa** option overlayed on a scatter point. | <a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
 
 Then, head to **Style** in the tabbed navigation and click the up arrow to bring the text labels above the scatter points. | <a href="http://imgur.com/jZBxIkZ"><img src="http://i.imgur.com/jZBxIkZ.png" title="Adjust Text Location" /></a>
+
+Repeat this process for Col4 and Col7. For Col4, click the down arrow to bring the text labels below the scatter points. For Col7, click the up arrow to bring the text labels above the scatter points. | <a href="http://imgur.com/zoxrGNi"><img src="http://i.imgur.com/zoxrGNi.png" title="Scatter position" /></a>
 
 ### **Step 4:** Finishing Up, Styling Your Graph
 
 Your graph should now look something like this:
 
-<a href="http://imgur.com/gWDKwfP"><img src="http://i.imgur.com/gWDKwfP.png" title="New Graph" /></a>
+<a href="http://imgur.com/IMdRjip"><img src="http://i.imgur.com/IMdRjip.png" title="New Graph" /></a>
+
+To make your scatter points match, head to **TRACES**, then in the drop down menu select the tab called **All traces (scatter)**. Go to the **Style** tab and set your marker color to your liking. |
+<a href="http://imgur.com/PNQvQjz"><img src="http://i.imgur.com/PNQvQjz.png" title="Scatter color" /></a>
 
 Be sure to label your axes. The finished product should look something like this:
 
-<a href="http://imgur.com/Bucc1yu"><img src="http://i.imgur.com/Bucc1yu.png" title="Final Product" /></a>
+<a href="http://imgur.com/88Yl3n2"><img src="http://i.imgur.com/88Yl3n2.png" title="Final Product" /></a>
 
 Here is [our version] (https://plot.ly/~Dreamshot/3313) of the graph
