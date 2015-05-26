@@ -22,6 +22,8 @@ actioncall: make a scatter plot
 We’ve already entered the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into Plotly. 
 Click the link to open the data in your workspace. 
 
+Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/FKZKylI"><img src="http://i.imgur.com/FKZKylI.png" title="Fork and edit" /></a>
+
 ###Step 2: Graph the data
 
 Once the data has opened in your workspace, specify your X and Y AXES, then select **Group By** in the left panel display and specify the right-most column, the name, as **G**. Lastly, head up to the "MAKE A PLOT" button and select **Scatter plots**. Then make a **Scatter plot**. See the image below for a visualization. 
