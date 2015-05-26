@@ -1,9 +1,9 @@
 ---
-layout: two_column_layout
+layout: new_layout
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to Making a Heat Map
 permalink: /continuous-filled-error-bars
-imageurl: http://cloud.originlab.com/www/resources/graph_gallery/images_galleries_new/Error_Bars_with_Fill_Area_s.png
+imageurl: https://plot.ly/~TestBot/20387.png
 state: active
 tags: basic
 meta_description: Make graphs with filled area bars to denote confidence intervals. Plotly is the easiest way to graph your data online.
@@ -36,3 +36,8 @@ Make the other border line transparent.
 Make the center trace a scatter plot.
 ![image](https://cloud.githubusercontent.com/assets/1280389/7815922/5aa089fc-0399-11e5-8928-e15bcf2a4797.png)
 
+Hide the lower lower border trace from the legend. 
+![image](https://cloud.githubusercontent.com/assets/1280389/7816051/10c9579a-039a-11e5-9bdd-6d97b699ceeb.png)
+
+Update the legend
+![image](https://cloud.githubusercontent.com/assets/1280389/7816069/2747f4d6-039a-11e5-9959-03b7cc012de7.png)
