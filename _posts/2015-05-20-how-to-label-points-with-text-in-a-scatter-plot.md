@@ -12,6 +12,11 @@ actioncall: make a scatter plot
 
 #How To Label Points With Text in a Scatter Plot
 
+<div>
+    <a href="https://plot.ly/~Dreamshot/3168/" target="_blank" title="Losses for Selected Companies" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3168.png" alt="Losses for Selected Companies" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="mariahh:3168" src="https://plot.ly/embed.js" async></script>
+</div>
+
 ### **Step 1:** Set up the grid
 
 We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. Click the link to open the data.
