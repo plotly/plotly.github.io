@@ -12,6 +12,11 @@ actioncall: interactive graphs
 
 #Zoom, Pan, and Hover Controls in Plotly Graphs
 
+<div>
+    <a href="https://plot.ly/~Dreamshot/628" target="_blank" title="Climate Change Attribution" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/628.png" alt="Climate Change Attribution" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
+</div>
+
 Plotly graphs offer zoom, pan, and hover functionality. 
 Focus on intricate data in an instant or zoom out to see the bigger picture. 
 The data is always at your finger tips.
