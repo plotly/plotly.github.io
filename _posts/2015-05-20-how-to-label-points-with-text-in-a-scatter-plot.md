@@ -14,8 +14,9 @@ actioncall: make a scatter plot
 
 ### **Step 1:** Set up the grid
 
-We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly.
-Click the link to open the data in your workspace. 
+We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. Click the link to open the data.
+
+Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/iBY3AOg"><img src="http://i.imgur.com/iBY3AOg.png" title="Fork and edit" /></a>
 
 ### **Step 2:** Sort by Text
 
