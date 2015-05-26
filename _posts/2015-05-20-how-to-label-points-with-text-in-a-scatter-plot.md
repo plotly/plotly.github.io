@@ -21,7 +21,7 @@ Click the link to open the data in your workspace.
 
 Once you've loaded the data in Plotly, select the **text** group by option on the left panel. 
 This will instruct Plotly to display the text for each point directly on the plot.
-Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." | ![screen shot 2015-05-18 at 8 38 58 am](https://cloud.githubusercontent.com/assets/12309334/7714162/673b68de-fe4a-11e4-9d38-06132ac30de0.png)
+Thereafter, click **MAKE A PLOT** then **SCATTER PLOTS**. | ![screen shot 2015-05-18 at 8 38 58 am](https://cloud.githubusercontent.com/assets/12309334/7714162/673b68de-fe4a-11e4-9d38-06132ac30de0.png)
 
 ### **Step 3:** Labeling Points with Text
 
