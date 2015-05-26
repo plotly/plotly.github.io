@@ -12,34 +12,26 @@ actioncall: make a scatter plot
 
 #How To Label Points With Text in a Scatter Plot
 
-###Step 1 : Set up the grid
+### **Step 1:** Set up the grid
 
 We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly.
 Click the link to open the data in your workspace. 
 
-###Step 2 : Sort by Text
+### **Step 2:** Sort by Text
 
 Once you've loaded the data in Plotly, select the "text" group by option on the left panel. 
 This will instruct Plotly to display the text for each point directly on the plot.
-Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." 
+Thereafter, click "MAKE A PLOT" then "SCATTER PLOTS." | ![screen shot 2015-05-18 at 8 38 58 am](https://cloud.githubusercontent.com/assets/12309334/7714162/673b68de-fe4a-11e4-9d38-06132ac30de0.png)
 
-![screen shot 2015-05-18 at 8 38 58 am](https://cloud.githubusercontent.com/assets/12309334/7714162/673b68de-fe4a-11e4-9d38-06132ac30de0.png)
+### **Step 3:** Labeling Points with Text
 
-###Step 3 : Labeling Points with Text
+Your newly-graphed data should look something like this: | <a href="http://imgur.com/oJfGE3r"><img src="http://i.imgur.com/oJfGE3r.png" title="New Graph" /></a>
 
-Your newly-graphed data should look something like this:
+Next, you'll want to select TRACES and then scan down to Lines/Markers and select the Aa option overlayed on a scatter point. | <a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
 
-<a href="http://imgur.com/oJfGE3r"><img src="http://i.imgur.com/oJfGE3r.png" title="New Graph" /></a>
+Then, head to "Style" in the tabbed navigation and click the up arrow to bring the text labels above the scatter points. | <a href="http://imgur.com/jZBxIkZ"><img src="http://i.imgur.com/jZBxIkZ.png" title="Adjust Text Location" /></a>
 
-Next, you'll want to select TRACES and then scan down to Lines/Markers and select the Aa option overlayed on a scatter point.
-
-<a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
-
-Then, head to "Style" in the tabbed navigation and click the up arrow to bring the text labels above the scatter points.
-
-<a href="http://imgur.com/jZBxIkZ"><img src="http://i.imgur.com/jZBxIkZ.png" title="Adjust Text Location" /></a>
-
-###Step 4 : Finishing Up, Styling Your Graph
+### **Step 4:** Finishing Up, Styling Your Graph
 
 Your graph should now look something like this:
 
