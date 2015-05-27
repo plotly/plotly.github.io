@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: one_column_layout
 title: Zoom, Pan, and Hover Controls in Plotly Graphs
 subtitle: A Step by Step Guide to Zoom, Pan, and Hover Controls in Plotly Graphs
 permalink: /zoom-pan-hover-controls-in-plotly-graphs-online
