@@ -1,6 +1,6 @@
 ---
 layout: two_column_layout
-title: How to Color Points of a Scatter Plot by a Third Column
+title: Color Points of a Scatter Plot by a Third Column
 subtitle: A Step by Step Guide to Color Points of a Scatter Plot by a Third Column
 permalink: /how-to-color-points-of-a-scatter-plot-by-third-column-online
 imageurl: 
