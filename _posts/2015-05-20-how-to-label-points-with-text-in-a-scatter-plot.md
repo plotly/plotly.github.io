@@ -1,13 +1,13 @@
 ---
 layout: two_column_layout
 title: Label Points With Text in a Scatter Plot
-subtitle: A Step by Step Guide to Labeling Points With Text in a Scatter Plot
-permalink: /how-to-label-points-with-text-in-a-scatter-plot-online
+subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
+permalink: /label-points-with-text-in-a-scatter-plot
 imageurl: 
 state: inactive
 tags: basic
-meta_description: Label points with text in a scatter plot online and for free with Plotly
-actioncall: make a scatter plot
+meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Plotly.
+actioncall: Make a scatter plot
 ---
 
 #How To Label Points With Text in a Scatter Plot
