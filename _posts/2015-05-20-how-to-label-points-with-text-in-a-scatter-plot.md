@@ -37,5 +37,5 @@ Repeat this process for Col4 and Col7. For Col4, we position the text labels bel
 
 Your graph should now look something like this: | ![Image of default graph with point labels](http://i.imgur.com/e4hzV9Z.png)
 To make your scatter points all have the same color, head to **TRACES**, then in the drop down menu select the tab called **All traces (scatter)**. Go to the **Style** tab and set the marker color to your liking. | ![Style scatter markers options](http://i.imgur.com/UleA6Gt.png)
-You can label your axes by clicking on the **Click to enter X axis title** and **Click to enter Y axis title** on your graph. The finished product should look something like this: | ![Finished graph with labeled points.](http://i.imgur.com/g8CP06Y.png)
+You can label your axes by clicking on the **Click to enter X axis title** and **Click to enter Y axis title** on your graph. The finished product should look something like this: | ![Finished graph with labeled points.](http://i.imgur.com/XxC9gVH.png)
 
