@@ -17,7 +17,7 @@ actioncall: Make a graph
     <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Plotly graphs let you zoom, pan, and hover. Zoom in to reveal important details or zoom out to see the bigger picture. The data is always at your finger tips.
+Bring your graphing and data analysis to the next level! Plotly lets you zoom, pan, and hover. Zoom in to reveal important details or zoom out to see the bigger picture. The data is always at your finger tips.
 
 In this guide, we'll show you how to 
 
