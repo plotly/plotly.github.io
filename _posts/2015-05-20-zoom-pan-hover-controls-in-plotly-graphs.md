@@ -42,7 +42,7 @@ Follow along and investigate the impact of various factors (volanic, ozone, sola
 
 ###4. Change the hover mode
 
-Looking for more details about using dates, time series and timestamp formats in Plotly? We have a [tutorial](https://plot.ly/date-format-and-time-series/) for that!
+Looking for more details about using dates, time series and timestamp formats in Plotly? We have a [tutorial](/date-format-and-time-series/) for that!
 
 <a href="http://imgur.com/kv5ewp3"><img src="http://i.imgur.com/kv5ewp3.gif" title="Change the hover mode" /></a>
 
