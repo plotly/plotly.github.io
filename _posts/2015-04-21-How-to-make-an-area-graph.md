@@ -40,4 +40,4 @@ Here’s how your area chart looks before styling. | ![Chart before styling](/st
 Here’s how the **TRACES** popover looks with smoothing and the change of colors. The smoothing button is highlighted in red. | ![Smoothing button highlighted](/static/images/How-to-make-an-area-graph/smoothing-button-highlighted.png) ![Trace 1 Style](/static/images/How-to-make-an-area-graph/trace-1-style.png)
 Here’s how the **AXES** popover looks with the axes lines thickened and made white. | ![All axes lines thickened](/static/images/How-to-make-an-area-graph/all-axes-lines-thickened.png)
 Here’s how the **LAYOUT** popover looks with the plot and margin background color changed to grey. |![Grey layout popover](/static/images/How-to-make-an-area-graph/grey-layout-popover.png)
-Your finished chart should look something like this. | ![How to make an area chart online](/static/images/How-to-make-an-area-graph/finished-area-graph.png)
+Your finished chart should look something like this. | ![Finished area graph](/static/images/How-to-make-an-area-graph/finished-area-graph.png)
