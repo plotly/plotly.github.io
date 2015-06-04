@@ -23,14 +23,14 @@ Area plots are the same as scatter and line plots, but with different trace opti
 ###Step 1: Setting up the data in the grid
 
 
-This is how you would set up Plotly’s grid to make the graph above (You can grab the data [here](https://plot.ly/~Dreamshot/566)). Click the blue plot button to create the chart. | ![LA vs NY population](/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
+This is how you would set up Plotly’s grid to make the graph above (You can grab the data [here](https://plot.ly/~Dreamshot/566)). Select **choose as X** for Column 1 and select **choose as Y** for both Columns 2 and 3, then click the blue plot button to create the chart. | ![LA vs NY population](/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
 
 ###Step 2: Adding fill under traces
 
 To make an area plot from a line plot, edit the **Fill To** attribute in the Mode tab of the **TRACES** popover.
 
 Here’s how the **TRACES** popover for “trace 0” looks. Notice **Fill To** has been set to “Y=0”. | ![Trace 0 mode](/static/images/How-to-make-an-area-graph/trace-0-mode.png)
-Here’s how the **TRACES** popover for “trace 1” looks. Notice “Fill To” has been set to “Next Y”. | ![Trace 1 mode](/static/images/How-to-make-an-area-graph/trace-1-mode.png)
+Here’s how the **TRACES** popover for “trace 1” looks. Notice **Fill To** has been set to “Next Y”. | ![Trace 1 mode](/static/images/How-to-make-an-area-graph/trace-1-mode.png)
 
 ###Step 3: Optional styling to make your plot prettier
 
