@@ -25,7 +25,7 @@ If you think you want to know more about what box plots are, read this dataliter
 
 This is one way you could set up Plotly’s grid to make the graph above. Grab the data set  [here](https://plot.ly/~cimar/205). | ![How to make a box plot online](/static/images/how-to-make-a-boxplot/image03.png)
 Select **Box plots** from the **MAKE A PLOT** menu. | ![How to make a box plot online](/static/images/how-to-make-a-boxplot/image18.png)
-Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/add-data-to-the-plotly-grid/](https://plot.ly/add-data-to-the-plotly-grid/) ) | ![How to make a box plot online](/static/images/how-to-make-a-boxplot/image09.png)
+Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see [Add Data to the Plotly Grid](https://plot.ly/add-data-to-the-plotly-grid/) ) | ![How to make a box plot online](/static/images/how-to-make-a-boxplot/image09.png)
 
 ### Step 2: Traces
 
