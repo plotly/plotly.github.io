@@ -42,6 +42,6 @@ Here’s how the **LAYOUT** popover should look. We’ve nudged the top margin, 
 This is what the **Lines** tab of the **AXES** popover looks like for “All Axes”. We’ve made the grid lines white, and the x-axis a little heavier. | ![Lines tab of Axes popover all Axes](/static/images/how-to-make-a-boxplot/lines-tab-axes-popover-all-axes.png)
 This is what the **Labels** tab of the **AXES** popover looks like for “X Axis”. We’ve rotated the labels. | ![Lines popover X axis](/static/images/how-to-make-a-boxplot/lines-tab-axes-popover-x-axis.png)
 We’re hiding the legend in the **LEGEND** popover. | ![Legend popover](/static/images/how-to-make-a-boxplot/legend-popover.png)
-We’ve titled our chart and used markup to format our text and source our data, which in this case is another plotly graph: [Points Scored by the Top 50 Scoring NBA Players in 2012](https://plot.ly/jackp/969). | ![New title](/static/images/how-to-make-a-boxplot/new-title.png) 
+We’ve titled our chart and used markup to format our text and source our data, which in this case is another plotly graph: [Points Scored by the Top 50 Scoring NBA Players in 2012]((https://plot.ly/online-graphing/tutorials/make-a-box-plot/)). | ![New title](/static/images/how-to-make-a-boxplot/new-title.png) 
 Your finished chart should look something like this: | ![Finished chart](/static/images/how-to-make-a-boxplot/finished-chart.png)
 
