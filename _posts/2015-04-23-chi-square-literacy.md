@@ -12,9 +12,9 @@ actioncall: Make a Graph
 
 #Chi-square Test
 
-###When do you use a chi-square test?
+###When do you use a chi-squared test?
 
-The chi-square test is a statistical test that you can use to test if there are differences across groups of categorical data. There are two general settings where the chi-square test is appropriate. In the first setting, you are interested in knowing whether two categorical variables are related. In the second setting, you only have one categorical variable and a specific hypothesis about the distribution of this variable across the categories.
+The chi-squared test is a statistical test that you can use to test if there are differences across groups of categorical data. There are two general settings where the chi-squared test is appropriate. In the first setting, you are interested in knowing whether two categorical variables are related. In the second setting, you only have one categorical variable and a specific hypothesis about the distribution of this variable across the categories.
 
 ####Comparing two categorical variables
 
@@ -30,13 +30,13 @@ The chi-square test is a statistical test that you can use to test if there are 
 
 ####The null hypothesis
 
-For the first two examples, we begin by hypothesizing no relationship between the two variables (this is called our Null Hypothesis). For the first example the null hypothesis is that males and females are equally likely to like videogames and in the second setting the null hypothesis is that all three products have the same failure rate. Using the chi-square test, you will be able to say whether there is evidence in favour of the null hypothesis or against the null hypothesis. 
+For the first two examples, we begin by hypothesizing no relationship between the two variables (this is called our Null Hypothesis). For the first example the null hypothesis is that males and females are equally likely to like videogames and in the second setting the null hypothesis is that all three products have the same failure rate. Using the chi-squared test, you will be able to say whether there is evidence in favour of the null hypothesis or against the null hypothesis. 
 
-For the third and fourth examples, the null hypothesis is that the stated distributions are correct. That is, in the first example the null hypothesis is that your website traffic occurs according to the way your boss told you, and in the second example the null hypothesis is that you received shirts in the proportions specified by your supplier. Again, we can use the chi-square test to say whether there is evidence supporting the null hypothesis or against the null hypothesis. 
+For the third and fourth examples, the null hypothesis is that the stated distributions are correct. That is, in the first example the null hypothesis is that your website traffic occurs according to the way your boss told you, and in the second example the null hypothesis is that you received shirts in the proportions specified by your supplier. Again, we can use the chi-squared test to say whether there is evidence supporting the null hypothesis or against the null hypothesis. 
 
-####How to calculate the chi-square statistic: two variable setting
+####How to calculate the chi-squared statistic: two variable setting
 
-In this section, we will walk you through how to calculate the chi-square statistic step-by-step, using hypothetical data from **Example 2** that we introduced earlier. For example, suppose we observed the following:
+In this section, we will walk you through how to calculate the chi-squared statistic step-by-step, using hypothetical data from **Example 2** that we introduced earlier. For example, suppose we observed the following:
 
 |                         | **Product A** | **Product B** | **Product C** | 
 | ----------:             | :-----------: | :-----------: | :-----------: |
@@ -72,7 +72,7 @@ Expected Frequencies (calculated)
 | Number that did not fail| 80            | 160           | 120           | 360 (80%) |
 | Total                   | 100           | 200           | 150           | 450       |
 
-Now here is where the magic takes place! We need to compare, for each highlighted cell in the table, the number of products that were expected to fail (highlighted in green) to the number of products that actually did fail (the observed frequencies; highlighted in grey). 
+Now here is where the magic takes place! We need to compare, for each cell in the table, the number of products that were expected to fail to the number of products that actually did fail (the observed frequencies). 
 
 Observed vs. Expected Frequencies
 
@@ -82,7 +82,7 @@ Observed vs. Expected Frequencies
 | Number that did not fail| 75 vs. 80     | 160 vs. 160   | 125 vs. 120   | 360 (80%) |
 | Total                   | 100           | 200           | 150           | 450       |
 
-Intuitively, if the null hypothesis is true, then the expected frequencies should be very close to the observed frequencies for all cells in the table. The chi-square test uses the magnitudes of the differences between the observed and expected frequencies as part of the calculation. To perform the test, we perform calculations to create the chi-square test statistic and use a table to decide if the statistic offers evidence against the null hypothesis. We’ll present the test statistic here, and then spend a little time breaking down what it all means. Our test statistic, denoted by $\chi^2$ is 
+Intuitively, if the null hypothesis is true, then the expected frequencies should be very close to the observed frequencies for all cells in the table. The chi-squared test uses the magnitudes of the differences between the observed and expected frequencies as part of the calculation. To perform the test, we perform calculations to create the chi-squared test statistic and use a table to decide if the statistic offers evidence against the null hypothesis. We’ll present the test statistic here, and then spend a little time breaking down what it all means. Our test statistic, denoted by $\chi^2$ is 
 
 $$\chi^2 =\sum_{i}\frac{(E_i-O_i)^2}{E_i},$$
 
@@ -98,7 +98,7 @@ Using our example data, the calculation looks like this:
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(25-20)^2}{20}+\frac{(40-40)^2}{40}+\frac{(25-30)^2}{30}+\frac{(75-80)^2}{80}+\frac{(160-160)^2}{160}+\frac{(125-120)^2}{120}=2.64$$
 </div>
 
-This table shows each cell's contribution to the chi-square statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
+This table shows each cell's contribution to the chi-squared statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
 
 |                         | **Product A** | **Product B** | **Product C** |
 | ----------:             | :-----------: | :-----------: | :-----------: |
@@ -106,24 +106,24 @@ This table shows each cell's contribution to the chi-square statistic. The cells
 | Number that did not fail| 0.3125        | 0             | 0.2083        | 
 | Sum across all cells:   | 2.64          |               |               |
 
-The last step is to determine if the calculated chi-square value of 2.64 is large enough to provide evidence against the null hypothesis. To do that, we compare this value to a statistical distribution known as the chi-square distribution. We make this comparison because if the null hypothesis is true, then the observed test statistic, 2.64, should be drawn from a chi-square distribution. So if we compared 2.64 with the chi-square distribution, it would be reasonable to say that a random draw from the distribution could equal 2.64. The chi-square distribution also requires that you provide the corresponding “degrees of freedom”. This is equal $(r-1)\times(c-1)$, where $r$ is the number of rows in the table, and $c$ is the number of columns in the table. Thus, for this example $r=3$ and $c=3$ so that $df=(3-1)X(2-1)=2$. We can ask Plotly what is the chance of observing a chi-square statistic larger than or equal to 2.64 in the situation where there is no difference between the products. This probability (know as the p-value) is 26.7%, meaning that it is likely that you would observe this data under the null hypothesis. Thus, we would say that there is no evidence against the null hypothesis that the failure rates between the products are the same. If the probability had been much smaller, say either 5% or 10%, then there would have been more evidence against the null hypothesis. By convention, people use cut-offs of 1%, 5% or 10% to denote enough evidence to reject the null hypothesis in favour of the alternative hypothesis. For example, if we calculated a probability of 4.3% (rather than 26.7%) we could have then concluded that there is enough evidence against the null hypothesis and evidence supporting an alternative hypothesis that the failure rates between the three products differ. 
+The last step is to determine if the calculated chi-squared value of 2.64 is large enough to provide evidence against the null hypothesis. To do that, we compare this value to a statistical distribution known as the chi-squared distribution. We make this comparison because if the null hypothesis is true, then the observed test statistic, 2.64, should be drawn from a chi-squared distribution. So if we compared 2.64 with the chi-squared distribution, it would be reasonable to say that a random draw from the distribution could equal 2.64. The chi-squared distribution also requires that you provide the corresponding “degrees of freedom”. This is equal $(r-1)\times(c-1)$, where $r$ is the number of rows in the table, and $c$ is the number of columns in the table. Thus, for this example $r=3$ and $c=3$ so that $df=(3-1)X(2-1)=2$. We can ask Plotly what is the chance of observing a chi-squared statistic larger than or equal to 2.64 in the situation where there is no difference between the products. This probability (know as the p-value) is 26.7%, meaning that it is likely that you would observe this data under the null hypothesis. Thus, we would say that there is no evidence against the null hypothesis that the failure rates between the products are the same. If the probability had been much smaller, say either 5% or 10%, then there would have been more evidence against the null hypothesis. By convention, people use cut-offs of 1%, 5% or 10% to denote enough evidence to reject the null hypothesis in favour of the alternative hypothesis. For example, if we calculated a probability of 4.3% (rather than 26.7%) we could have then concluded that there is enough evidence against the null hypothesis and evidence supporting an alternative hypothesis that the failure rates between the three products differ. 
 
-####How to calculate the chi-square statistic: one variable setting
-In this section, we will walk you through how to calculate the chi-square statistic step-by-step, using hypothetical data from **Example 3** that we introduced earlier. For example, suppose we observed the following number of visitors to your website, and recall your boss's hypothesis about the proportion of website traffic throughout the week:
+####How to calculate the chi-squared statistic: one variable setting
+In this section, we will walk you through how to calculate the chi-squared statistic step-by-step, using hypothetical data from **Example 3** that we introduced earlier. For example, suppose we observed the following number of visitors to your website, and recall your boss's hypothesis about the proportion of website traffic throughout the week:
 
 |                         | **Sunday** | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** | **Saturday** | 
 | ----------:             | :---------:| :---------:| :---------: | :---------:   | :---------:  | :---------:| :---------:  |
 | Boss's hypothesis       | 25%        | 10%        | 10%         | 10%           | 10%          | 10%        | 25%          |
 | Number of unique visitors| 750 | 688 | 1200 | 1100 | 300 | 313 | 650 | 
 
-We will use the chi-square test to determine if the boss's hypothesis regarding traffic website is in-line with what we can observe from the data. First let's add a totals column to the right and also include the row percentage for each day of the week:
+We will use the chi-squared test to determine if the boss's hypothesis regarding traffic website is in-line with what we can observe from the data. First let's add a totals column to the right and also include the row percentage for each day of the week:
 
 |          | **Sunday** | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** | **Saturday** |**Total**| 
 | ----------: | :---------:| :---------:| :---------: | :---------:   | :---------:  | :---------:| :---------:  |:------:|
 | Boss's hypothesis | 25%        | 10%        | 10%         | 10%           | 10%          | 10%        | 25%    |100%|
 | Number of unique visitors| 750 (15.0%) | 688 (13.8%) | 1200 (24.0%) | 1100 (22.0%) | 300 (6.0%) | 313 (6.3%) | 650 (13%) | 5001|
 
-If you compare the hypothetical proportions to the proportions based on the observed data, it doesn't look like your boss is correct - most of the website traffic was observed mid-week (on Tuesday and Wednesday), not on the weekend like your boss hypothesized. To perform a chi-square test in this setting, the next step is to calculate what number of visitors we would have expected each day, had your boss been correct. To do that, we simply multiply the boss's daily expected proportions by the total number of visitors (5001) and add this information to our table:
+If you compare the hypothetical proportions to the proportions based on the observed data, it doesn't look like your boss is correct - most of the website traffic was observed mid-week (on Tuesday and Wednesday), not on the weekend like your boss hypothesized. To perform a chi-squared test in this setting, the next step is to calculate what number of visitors we would have expected each day, had your boss been correct. To do that, we simply multiply the boss's daily expected proportions by the total number of visitors (5001) and add this information to our table:
 
 Expected Frequencies (multiply the boss's hypothetical proportions by the total number of visitors)
 
@@ -147,15 +147,15 @@ To test the hypothesis, we compare the actual number of visitors to the number e
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(1250.25-750)^2}{1250.25}+\frac{(500.1-688)^2}{500.1}+\frac{(500.1-1200)^2}{500.1}+\frac{(500.1-1100)^2}{500.1}+\frac{(500.1-300)^2}{500.1}+\frac{(500.1-313)^2}{500.1}+\frac{(1250.25-650)^2}{1250.25}=2408.14$$
 </div>
 
-This table shows each cell's contribution to the chi-square statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
+This table shows each cell's contribution to the chi-squared statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
 
 |          | **Sunday** | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** | **Saturday** |
 | ----------: | :---------:| :---------:| :---------: | :---------:   | :---------:  | :---------:| :---------:  |
-| Cell chi-square value | 200.16 | 70.60 | 979.52 | 719.62 | 80.06 | 70.00 | 288.18 | 
+| Cell chi-squared value | 200.16 | 70.60 | 979.52 | 719.62 | 80.06 | 70.00 | 288.18 | 
 
-Thus, we can see that the number of visitors on Tuesday and Wednesday were the most discordant from what your boss expected. We're almost there - we just have to determine if the calculated chi-square value of 2408.14 is large enough to provide evidence against the null hypothesis. Remember that we also need the degrees of freedom in order to determine the corresponding p-value. When there is only one categorical variable, the degrees of freedom is just equal to the number of categories minus 1. Here, $df=7-1=6$. When we ask Plotly the probability of observing a chi-square statistic of 2408.14 or larger using 6 degrees of freedom, we find that there is less than a 0.01% chance! Thus, there is very strong evidence against your boss's hypothesis about website traffic. 
+Thus, we can see that the number of visitors on Tuesday and Wednesday were the most discordant from what your boss expected. We're almost there - we just have to determine if the calculated chi-squared value of 2408.14 is large enough to provide evidence against the null hypothesis. Remember that we also need the degrees of freedom in order to determine the corresponding p-value. When there is only one categorical variable, the degrees of freedom is just equal to the number of categories minus 1. Here, $df=7-1=6$. When we ask Plotly the probability of observing a chi-squared statistic of 2408.14 or larger using 6 degrees of freedom, we find that there is less than a 0.01% chance! Thus, there is very strong evidence against your boss's hypothesis about website traffic. 
 
 ###Be careful…
 
-The chi-square statistic won’t perform well if you don’t have enough data! One rule of thumb is that every cell should have an expected frequency of at least 5. The test might perform poorly if your data has many cells with small frequencies and in this case you should collect more data (if you can!) before performing the test. 
+The chi-squared statistic won’t perform well if you don’t have enough data! One rule of thumb is that every cell should have an expected frequency of at least 5. The test might perform poorly if your data has many cells with small frequencies and in this case you should collect more data (if you can!) before performing the test. 
 
