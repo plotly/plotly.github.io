@@ -23,7 +23,7 @@ Area plots are the same as scatter and line plots, but with different trace opti
 ###Step 1: Setting up the data in the grid
 
 
-This is how you would set up Plotly’s grid to make the graph above (You can grab the data [here](https://plot.ly/~Dreamshot/566)). Select **choose as X** for Column 1 and select **choose as Y** for both Columns 2 and 3, then click the blue plot button to create the chart. | ![LA vs NY population](/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
+This is how you would set up Plotly’s grid to make the graph above (you can grab the data [here](https://plot.ly/~Dreamshot/566)). Select **choose as X** for Column 1 and select **choose as Y** for both Columns 2 and 3, then click the blue plot button to create the chart. | ![LA vs NY population](/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
 
 ###Step 2: Adding fill under traces
 
