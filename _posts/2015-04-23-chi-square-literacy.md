@@ -92,11 +92,7 @@ So what does it all mean? Remember, we take the difference between the expected 
 
 Using our example data, the calculation looks like this:
 
-<img class="img-responsive-table" src="http://i.imgur.com/Ik7pjGa.png" title="equation" />
-
-<div class="responsive-table">
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(25-20)^2}{20}+\frac{(40-40)^2}{40}+\frac{(25-30)^2}{30}+\frac{(75-80)^2}{80}+\frac{(160-160)^2}{160}+\frac{(125-120)^2}{120}=2.64$$
-</div>
 
 This table shows each cell's contribution to the chi-square statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
 
@@ -143,9 +139,7 @@ Expected Frequencies (calculated)
 
 To test the hypothesis, we compare the actual number of visitors to the number expected under your boss's hypothesis. Similar to **Example 2**, if the null hypothesis is true the expected frequencies should be very close to the observed frequencies for each day of the week. Using our example data, the calculation looks like this:
 
-<div class="responsive-table-2">
 $$\chi^2=\sum_{i}\frac{(E_i-O_i)^2}{E_i}=\frac{(1250.25-750)^2}{1250.25}+\frac{(500.1-688)^2}{500.1}+\frac{(500.1-1200)^2}{500.1}+\frac{(500.1-1100)^2}{500.1}+\frac{(500.1-300)^2}{500.1}+\frac{(500.1-313)^2}{500.1}+\frac{(1250.25-650)^2}{1250.25}=2408.14$$
-</div>
 
 This table shows each cell's contribution to the chi-square statistic. The cells with the highest contribution to the statistic had observed values that were the most different from what we'd expect under the null hypothesis. 
 
