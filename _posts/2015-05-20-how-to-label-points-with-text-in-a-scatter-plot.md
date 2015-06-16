@@ -23,8 +23,7 @@ The graph above lets you compare relative losses with absolute losses for certai
 
 ### **Step 2:** Associating text to each data point
 
-Once you've loaded the data in Plotly, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels.
-When you're finished, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
+Once you've loaded the data in Plotly, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels. When you're finished, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
 
 ### **Step 3:** Adding text labels to the points of a graph 
 
