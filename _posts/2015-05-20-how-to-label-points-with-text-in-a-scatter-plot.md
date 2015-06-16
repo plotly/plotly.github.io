@@ -19,7 +19,7 @@ actioncall: Make a scatter plot
 
 ### **Step 1:** Set up the grid
 
-The graph above lets you compare relative losses with absolute losses for certain companies after the 2008 crash. The data contains market capitalization values from 2007 and 2009, in billions of dollars. We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. You can click the link to open the data set. Once the data loads, click **Fork and edit** to load the data into your Plotly workspace.| ![Loss data loaded in your workspace for graphing](http://imgur.com/BJDmvAX.png)
+The graph above lets you compare relative losses with absolute losses for certain companies after the 2008 crash. The data contains market capitalization values from 2007 and 2009, in billions of dollars. We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. You can click the link to open the data set. Once the data loads, click **Fork and edit** to load the data into your Plotly workspace. | ![Loss data loaded in your workspace for graphing](http://imgur.com/BJDmvAX.png)
 
 ### **Step 2:** Associating text to each data point
 
