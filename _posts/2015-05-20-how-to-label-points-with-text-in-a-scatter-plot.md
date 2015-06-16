@@ -28,7 +28,7 @@ When you're finsihed, click on the blue **Scatter plot** button in the sidebar. 
 
 ### **Step 3:** Adding text labels to the points of a graph 
 
-Your scatter plot should look something like this: | ![Scatter plot before adding text labels to data points](http://imgur.com/Djfz4y0)
+Your scatter plot should look something like this: | ![Scatter plot before adding text labels to data points](http://imgur.com/Djfz4y0.png)
 To add text labels, open the Traces popover by selecting **TRACES** from the toolbar. You can add labels to an individual trace by selecting that trace from the dropdown menu, or select **All traces (scatter)** to label all the points in your scatter plot. Here we position the labels on individual traces in order to avoid overlapping labels. We start with Col1. In the Mode tab, look for "Lines/Markers" and select the option of text over a point. | ![Labeling points in the TRACES popover.](http://i.imgur.com/RR6XEB0.png)<a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
 To position the labels, click on the **Style** tab in the Traces popover. In order to have the lables appear directly above the data points, click on the arrow that points up in the "...Position" option. | ![Options for positioning the text labels.](http://i.imgur.com/zX85dmL.png)
 Repeat this process for Col4 and Col7. For Col4, we position the text labels below the scatter points. For Col7, we position them above the scatter points. | ![Position text labels below data points](http://i.imgur.com/AfZNp7L.png)
