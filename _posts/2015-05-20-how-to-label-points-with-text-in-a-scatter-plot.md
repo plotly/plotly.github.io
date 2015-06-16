@@ -1,55 +1,40 @@
 ---
 layout: two_column_layout
 title: Label Points With Text in a Scatter Plot
-subtitle: A Step by Step Guide to Labeling Points With Text in a Scatter Plot
-permalink: /how-to-label-points-with-text-in-a-scatter-plot-online
-imageurl: 
+subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
+permalink: /label-points-with-text-in-a-scatter-plot
+imageurl: /static/images/label-points-with-text/scatter-labeled-points.png
 state: inactive
 tags: basic
-meta_description: Label points with text in a scatter plot online and for free with Plotly
-actioncall: make a scatter plot
+meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Plotly.
+actioncall: Make a scatter plot
 ---
 
 #How To Label Points With Text in a Scatter Plot
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/3318" target="_blank" title="Company Losses" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3318.png" alt="Company Losses" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="Dreamshot:3318" src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~Dreamshot/3386" target="_blank" title="Company Losses" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3386.png" alt="Company Losses" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:3386" src="https://plot.ly/embed.js" async></script>
 </div>
 
 ### **Step 1:** Set up the grid
 
-We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. Click the link to open the data.
+The graph above lets you compare relative losses with absolute losses for certain companies after the 2008 crash. The data contains market capitalization values from 2007 and 2009, in billions of dollars. We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. You can click the link to open the data set. Once the data loads, click **Fork and edit** to load the data into your Plotly workspace.| ![Loss data loaded in your workspace for graphing](http://imgur.com/BJDmvAX)
 
-Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/kgcUpBv"><img src="http://i.imgur.com/kgcUpBv.png" title="Fork the Data" /></a>
+### **Step 2:** Associating text to each data point
 
-### **Step 2:** Sort by Text
+Once you've loaded the data in Plotly, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels.
+When you're finsihed, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
 
-Once you've loaded the data in Plotly, select the **text** group by option on the left panel. 
-This will instruct Plotly to display the text for each point directly on the plot.
-Thereafter, click **MAKE A PLOT** then **SCATTER PLOTS**. | <a href="http://imgur.com/FYbjZty"><img src="http://i.imgur.com/FYbjZty.png" title="Sort by Text" /></a>
+### **Step 3:** Adding text labels to the points of a graph 
 
-### **Step 3:** Labeling Points with Text
+Your scatter plot should look something like this: | ![Scatter plot before adding text labels to data points](http://imgur.com/Djfz4y0.png)
+To add text labels, open the Traces popover by selecting **TRACES** from the toolbar. You can add labels to an individual trace by selecting that trace from the dropdown menu, or select **All traces (scatter)** to label all the points in your scatter plot. Here we position the labels on individual traces in order to avoid overlapping labels. We start with Col1. In the Mode tab, look for "Lines/Markers" and select the option of text over a point. | ![Labeling points in the TRACES popover.](http://i.imgur.com/RR6XEB0.png)
+To position the labels, click on the **Style** tab in the Traces popover. In order to have the lables appear directly above the data points, click on the arrow that points up in the "...Position" option. | ![Options for positioning the text labels.](http://i.imgur.com/zX85dmL.png)
+Repeat this process for Col4 and Col7. For Col4, we position the text labels below the scatter points. For Col7, we position them above the scatter points. | ![Position text labels below data points](http://i.imgur.com/AfZNp7L.png)
 
-Your newly-graphed data should look something like this: | <a href="http://imgur.com/Djfz4y0"><img src="http://i.imgur.com/Djfz4y0.png" title="New Graph" /></a>
+### **Step 4:** Styling Your Graph
 
-Next, you'll want to select **TRACES**, for Col1, and then scan down to Lines/Markers and select the **Aa** option overlayed on a scatter point. | <a href="http://imgur.com/RR6XEB0"><img src="http://i.imgur.com/RR6XEB0.png" title="Text Overlay" /></a>
-
-Then, head to **Style** in the tabbed navigation and click the up arrow to bring the text labels above the scatter points. | <a href="http://imgur.com/jZBxIkZ"><img src="http://i.imgur.com/jZBxIkZ.png" title="Adjust Text Location" /></a>
-
-Repeat this process for Col4 and Col7. For Col4, click the down arrow to bring the text labels below the scatter points. For Col7, click the up arrow to bring the text labels above the scatter points. | <a href="http://imgur.com/zoxrGNi"><img src="http://i.imgur.com/zoxrGNi.png" title="Scatter Position" /></a>
-
-### **Step 4:** Finishing Up, Styling Your Graph
-
-Your graph should now look something like this:
-
-<a href="http://imgur.com/IMdRjip"><img src="http://i.imgur.com/IMdRjip.png" title="New Graph" /></a>
-
-To make your scatter points match, head to **TRACES**, then in the drop down menu select the tab called **All traces (scatter)**. Go to the **Style** tab and set your marker color to your liking. |
-<a href="http://imgur.com/PNQvQjz"><img src="http://i.imgur.com/PNQvQjz.png" title="Scatter Color" /></a>
-
-Be sure to label your axes. The finished product should look something like this:
-
-<a href="http://imgur.com/88Yl3n2"><img src="http://i.imgur.com/88Yl3n2.png" title="Final Product" /></a>
-
-Here is [our version] (https://plot.ly/~Dreamshot/3313) of the graph
+Your graph should now look something like this: | ![Image of default graph with point labels](http://i.imgur.com/e4hzV9Z.png)
+To make your scatter points all have the same color, head to **TRACES**, then in the drop down menu select the tab called **All traces (scatter)**. Go to the **Style** tab and set the marker color to your liking. | ![Style scatter markers options](http://i.imgur.com/UleA6Gt.png)
+You can label your axes by clicking on the **Click to enter X axis title** and **Click to enter Y axis title** on your graph. The finished product should look something like this: | ![Finished graph with labeled points.](http://i.imgur.com/XxC9gVH.png)

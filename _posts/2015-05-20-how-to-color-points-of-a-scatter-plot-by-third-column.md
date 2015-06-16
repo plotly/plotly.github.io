@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Color Points of a Scatter Plot by a Third Column
 subtitle: A Step by Step Guide to Color Points of a Scatter Plot by a Third Column
-permalink: /how-to-color-points-of-a-scatter-plot-by-third-column-online
-imageurl: 
+permalink: /color-points-of-a-scatter-plot-by-third-column
+imageurl: static/images/color-points-of-a-scatter-plot-by-third-column/colored-scatter.png
 state: inactive
 tags: basic
-meta_description: Color Points of a Scatter Plot by a Third Column online and for free with Plotly
+meta_description: Color points of a scatter plot by groups defined in a column of your data. Use Plotly to make interactive graphs for free, online. 
 actioncall: make a scatter plot
 ---
 
@@ -19,29 +19,15 @@ actioncall: make a scatter plot
 
 ###Step 1 : Set up the grid
 
-We’ve already entered the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into Plotly. 
-Click the link to open the data in your workspace. 
-
-Next, click **Fork and edit** to load the data into Plotly's workspace. | <a href="http://imgur.com/FKZKylI"><img src="http://i.imgur.com/FKZKylI.png" title="Fork and edit" /></a>
+[R](www.r-project.org/), a free programming environment for statistical computing and graphics, comes with several sample data sets to give you some data to work with right away. We've entered part of the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into a Plotly grid. Our data includes measurements on sepal length and sepal width of 150 different irises, catagorized into three different species.<br><br>Once you've loaded the data, click **Fork and edit** to move the data into your Plotly workspace. | ![Load iris data into your Plotly workspace.](http://i.imgur.com/FKZKylI.png)
 
 ###Step 2: Graph the data
 
-Once the data has opened in your workspace, specify your X and Y AXES, then select **Group By** in the left panel display and specify the right-most column, the name, as **G**. Lastly, head up to the "MAKE A PLOT" button and select **Scatter plots**. Then make a **Scatter plot**. See the image below for a visualization. 
-
-<center><a href="http://imgur.com/QBU8Y5D"><img src="http://i.imgur.com/QBU8Y5D.png" title="Graph the data" /></a></center>
+Select **Scatter Plots** from the **MAKE A PLOT** menu. Click **choose as x** and **choose as y** to specify the columns of $x$ and $y$ data. To color the data points by species, select **Group By** in the sidebar. Now you can select **choose as G** above the column of text, where the species information is contained. Click the blue **Scatter plot** button in the sidebar to create your graph. | ![Partitioning data points for a scatter plot](http://i.imgur.com/QBU8Y5D.png)
 
 ###Step 3: Editing Your Graph
 
-Your newly-graphed data should look something like this:
+Your graph should look something like this: | ![Default three trace scatter plot](http://i.imgur.com/cxEk2ST.png)
+You can add or modify axis labels and the plot title by clicking and typing. Notice how the legend specifies the species of iris and each species has a different color on the plot. | ![Axis titles and trace legends.](http://i.imgur.com/byvVi9M.png)
+Plotly graphs are interactive! You can hover over the scatter points for more information. [Styling options](/styling-and-customizing-graphs-video) are contained in the TRACES popover. Learn more about our [interactive features in three short videos](/zoom-pan-hover-controls). | ![The final graph is interactive.](http://i.imgur.com/hGuXkfN.png)
 
-<center><a href="http://imgur.com/cxEk2ST"><img src="http://i.imgur.com/cxEk2ST.png" title="Editing Your Graph" /></a></center>
-
-You'll want to add labels for the X and Y axes (Sepal Length and Width, respectively). Notice how your legend specifies the type of Iris; each Iris has a different scatter color on the plot.
-
-<center><a href="http://imgur.com/byvVi9M"><img src="http://i.imgur.com/byvVi9M.png" title="Editing Your Graph" /></a></center>
-
-###Step 4: Final Product
-
-Remember to title your plot. You can hover over the scatter points for more information!
-
-<center><a href="http://imgur.com/G0vyKpj"><img src="http://i.imgur.com/G0vyKpj.png" title="Final Product" /></a></center>

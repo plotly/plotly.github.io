@@ -1,13 +1,13 @@
 ---
-layout: two_column_layout
+layout: new_layout
 title: Zoom, Pan, and Hover Controls in Plotly Graphs
-subtitle: A Step by Step Guide to Zoom, Pan, and Hover Controls in Plotly Graphs
-permalink: /zoom-pan-hover-controls-in-plotly-graphs-online
-imageurl: 
+subtitle: Zoom, Pan, and Hover Controls in Three Short Videos
+permalink: /zoom-pan-hover-controls
+imageurl: /static/images/zoom-pan-hover/zoom.png
 state: inactive
 tags: basic
-meta_description: Zoom, Pan, and Hover Controls in Plotly Graphs online and for free with Plotly
-actioncall: interactive graphs
+meta_description: Zoom, pan, and hover controls. Plotly let's you create interactive charts online, and for free, using our web app, MATLAB, Python, or R.
+actioncall: Make a graph
 ---
 
 #Zoom, Pan, and Hover Controls in Plotly Graphs
@@ -17,29 +17,32 @@ actioncall: interactive graphs
     <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Plotly graphs offer zoom, pan, and hover functionality. 
-Focus on intricate data in an instant or zoom out to see the bigger picture. 
-The data is always at your finger tips.
+Bring your graphing and data analysis to the next level! Plotly lets you zoom, pan, and hover. Zoom in to reveal important details or zoom out to see the bigger picture. The data is always at your finger tips.
 
-In this guide, we'll explore these four techniques: drag to zoom-in & double-click to autoscale (1), drag the corners
-of the graph to zoom only along one axis (2), double click an axes to autoscale that axis (3) and changing the hover mode (4). The easiest way to demonstrate each feature is through an informational GIF, so look for one of those on each topic below. We are going to use <a href="https://plot.ly/~Dreamshot/628/climate-change-attribution/">this graph of climate change attribution</a> if you'd like to play with it yourself. 
+In this guide, we'll show you how to 
 
-Demonstrative GIFs: 
+1. Drag to zoom in and double-click to return to the original graph.
+2. Drag the corners of a graph to zoom along one axis.
+3. Double-click to autoscale a single axis.
+4. Change the hover mode to compare data or investigate a single data point.
 
-###1. Dragging to Zoom-In and Double-Clicking to Autoscale
+Follow along and investigate the impact of various factors (volanic, ozone, solar, greenhouse gases, sulfate) with our [graph on historical temperature changes](https://plot.ly/~Dreamshot/628/climate-change-attribution/).
+
+###1. Drag to zoom in and double-click to autoscale
 
 <a href="http://imgur.com/bEL3BAh"><img src="http://i.imgur.com/bEL3BAh.gif" title="Dragging to Zoom-In and Double-Clicking to Autoscale" /></a>
 
-###2. Zoom Only Along One Axis
+###2. Zoom along one axis
 
 <a href="http://imgur.com/2at3hak"><img src="http://i.imgur.com/2at3hak.gif" title="Zoom Only Along One Axis" /></a>
 
-###3. Double Click an Axes to Autoscale that Axis
+###3. Double-click to autoscale a single axis.
 
 <a href="http://imgur.com/6e5g8yJ"><img src="http://i.imgur.com/6e5g8yJ.gif" title="Double Click an Axes to Autoscale that Axis" /></a>
 
-###4. Change the Hover Mode (Date Format and Time Series)
+###4. Change the hover mode
+
+Looking for more details about using dates, time series and timestamp formats in Plotly? We have a [tutorial](/date-format-and-time-series/) for that!
 
 <a href="http://imgur.com/kv5ewp3"><img src="http://i.imgur.com/kv5ewp3.gif" title="Change the hover mode" /></a>
 
-You can find the tutorial we used in (4) <a href="https://plot.ly/date-format-and-time-series/">here</a>.
