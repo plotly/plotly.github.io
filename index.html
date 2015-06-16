@@ -86,7 +86,7 @@ title: Plotly Help
 					<ul id="myList">
 							{% for page in site.posts %}
 								{% if page.state == 'active' and page.popularity contains 'frontpage' %}			
-									<li><a href="http://help.plot.ly{{page.permalink}}">
+									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
 									<div class="alltutcol"> 
 										{% if page.imageurl == "" or page.imageurl == nil %}
 											<img src="/images/default.png" alt="Tutorial" />

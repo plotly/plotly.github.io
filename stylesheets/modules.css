@@ -279,6 +279,9 @@ ALL TUTORIALS SECTION STYLING
 	clear: both;
 }
 
+.no-margin-b{
+	margin-bottom: 0px;
+}
 
 /********
 BUTTONS
@@ -489,6 +492,9 @@ CLIENT APIS Rollover styling
 	padding: 10px;
 	text-align: center;
 	font-weight: 400;
+}
+.categories-apis img{
+	max-width: 100%;
 }
 
 #matlabImg, #pyImg, #rImg, #matlabText, #pyText, #rText {
