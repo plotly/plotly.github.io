@@ -31,9 +31,9 @@ Click the blue plot button in the sidebar to create the chart.  (For more help w
 
 ##Step 2: Sizing and Log Axis
 
-Your plot should look something like this.  Open the TRACES popover in the toolbar. |  ![Initial bubble chart](/static/images/bubble-chart/initial-bubble-chart.png) ![How to make a bubble chart online](/static/images/bubble-chart/traces-popover.png)
-This is what the “Style” tab of the TRACES popover should look like for “All Traces (Scatter)”.We’ve set the “Size” field to scale the bubbles’ diameter, not area. And we’ve evened out the pixel-to-value ratio (the higher the value in the box, the smaller the bubbles will be). We’ve also increased the weight of the white bubble outlines. |  ![Style tab adjusted](/static/images/bubble-chart/style-tab-adjusted.png)
-Now, open the AXES popover in the toolbar. This is what the “Range” tab for the X Axis looks like. From looking at this y vs x bubble chart, it seems there could be an exponential relationship between y and x (y as a function of x). If that's the case, then there is a linear relationship between y and log(x). Indeed, if you use a log scale for the x axis, the bubbles appear more linear. |  ![Axes icon](/static/images/bubble-chart/axes-icon.png)  ![How to make a bubble chart online](/static/images/bubble-chart/log-option.png)
+Your plot should look something like this.  Open the **TRACES** popover in the toolbar. |  ![Initial bubble chart](/static/images/bubble-chart/initial-bubble-chart.png) ![How to make a bubble chart online](/static/images/bubble-chart/traces-popover.png)
+This is what the **Style** tab of the **TRACES** popover should look like for “All Traces (Scatter)”.We’ve set the **Size** field to scale the bubbles’ diameter, not area. And we’ve evened out the pixel-to-value ratio (the higher the value in the box, the smaller the bubbles will be). We’ve also increased the weight of the white bubble outlines. |  ![Style tab adjusted](/static/images/bubble-chart/style-tab-adjusted.png)
+Now, open the **AXES** popover in the toolbar. This is what the **Range** tab for the X Axis looks like. From looking at this y vs x bubble chart, it seems there could be an exponential relationship between y and x (y as a function of x). If that's the case, then there is a linear relationship between y and log(x). Indeed, if you use a log scale for the x axis, the bubbles appear more linear. |  ![Axes icon](/static/images/bubble-chart/axes-icon.png)  ![How to make a bubble chart online](/static/images/bubble-chart/log-option.png)
 
 ##Step 3: Style and annotate!
 
@@ -42,7 +42,7 @@ For more on bubble charts, check out our [blog post](http://blog.plot.ly/post/71
 Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more. |  ![Log bubble chart](/static/images/bubble-chart/log-bubble-chart.png)
 This is what the **General** and **Margins** tabs of the **LAYOUT** popover should look like. We’re giving our plot a grey background, and we’ve changed some of the font options. |  ![General layout options](/static/images/bubble-chart/general-layout-options.png)  ![Layout margins](/static/images/bubble-chart/layout-margins.png)
 This is what the **Lines** tab of the **AXES** popover looks like. We’ve changed the grey grid to white, and increased the line weight. | ![Grid lines](/static/images/bubble-chart/grid-lines.png)
-This is what the LEGEND popover looks like.  We’ve set its background to grey, too. |  ![Legend background](/static/images/bubble-chart/legend-background.png)
+This is what the **LEGEND** popover looks like.  We’ve set its background to grey, too. |  ![Legend background](/static/images/bubble-chart/legend-background.png)
 We’ve titled our chart and axes.  And we’re using markup to link to our source data using the **NOTES** popover. Select the **Page** option, and hide the arrow. Because our note has nothing to do with specific data points, we’re going to nestle it below the x-axis.Now drag it to the bottom corner of your plot. |  ![Add annotation](/static/images/bubble-chart/add-annotation.png) ![New text](/static/images/bubble-chart/new-text.png)
 Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source. |  ![Gapminder](/static/images/bubble-chart/gapminder.png) Source: GapMinder
 
