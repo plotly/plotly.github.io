@@ -31,7 +31,7 @@ Notice the sharing options located in the bottom right corner.  You want to clic
 
 **Option 2:**
 
-To share from your own workspace, click the option to Share in the top right of your browser window. | ![Workspace share option](/static/images/embed-plotly-graphs/workspace-share-option.png)
+To share from your own workspace, click the **Share** option in the top right of your browser window. | ![Workspace share option](/static/images/embed-plotly-graphs/workspace-share-option.png)
 In the **Sharing Settings** box that opens, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that the graph is set to “public” in order to generate the HTML code. | ![Sharing options](/static/images/embed-plotly-graphs/sharing-settings.png)
 
 
