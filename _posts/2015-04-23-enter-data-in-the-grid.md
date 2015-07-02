@@ -18,7 +18,7 @@ The first step to making any Plotly graph is setting up the data in a grid.
 You can type your data directly into a grid, or copy it from a spreadsheet and paste it in.
 
 
-Open a **+ NEW** grid from the file well. | ![New grid](/static/images/enter-data-in-the-grid/new-grid.png)
+Open a **+ NEW GRID** from the file well. | ![New grid](/static/images/enter-data-in-the-grid/new-grid.png)
 
 Type directly into the cells, or type &#8220;ctrl-v&#8221; to paste in clipboard content. | ![Type or paste content](/static/images/enter-data-in-the-grid/type-or-paste-content.png)
 
