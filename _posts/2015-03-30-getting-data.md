@@ -1,6 +1,6 @@
 ---
 layout: two_column_layout
-title: Data integrations
+title: Getting data
 permalink: /getting-data
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
@@ -8,7 +8,7 @@ tags: classroom basic
 meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
 ---
 
-# Data Integrations
+# Getting data
 
 <div>
     <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
