@@ -31,7 +31,7 @@ To enter dates directly in the grid, you’ll need to use the format:
 **yyyy-mm-dd HH:MM:SS.ssssss**
 Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. Your entry must include the four-digit year.
 
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/table1.png">
+<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/correct-date-formats.png">
 
 <div class="responsive-table">
 <table>
@@ -72,7 +72,7 @@ Note that the hour must be a number between 00 and 23, with hours 12 through 23 
 
 You can truncate the fractional seconds to any number of digits. All other truncations require you to keep entire fields. Here are a few common mistakes to avoid.
 
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/table2.png">
+<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/incorrect-date-formats.png">
 
 <div class="responsive-table">
 
@@ -117,20 +117,20 @@ You can truncate the fractional seconds to any number of digits. All other trunc
 
 ###Importing files with dates and times
 
-Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Plotly will parse the data for you into our native format so you’re ready to customize your graph. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image00.png)
+Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Plotly will parse the data for you into our native format so you’re ready to customize your graph. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/import-data-file.png)
 
 ###Custom formats for your graph
 
-When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image01.png)
-To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image04.png)
-Select the Labels tab to reveal options for a “Custom date format” and “Hover format”. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in “Custom date format”, `%b %Y` tells Plotly to display an abbreviated month and the year with century.One extra option: `%{n}f` allows you to show fractional seconds, where “n” tells us the number of digits to include. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image02.png)
-The “Hover format”, `%B %Y`, tells Plotly to show the full month name and year with century when using the hover feature to explore the data. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image06.png)
-To change the number of values displayed on the time axis, use the Ticks tab in the Axes popover. Pick a “Max #” of dates to display, and Plotly automatically finds the greatest lower bound to be evenly spaced along the axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image03.png)
-If you don’t specify any “Custom date format”, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/image05.gif)
+When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)
+To customize, we select **AXES** in the toolbar. In the popover, select the axis you wish to modify. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/select-axis.png)
+Select the **Labels** tab to reveal options for a **Custom date format** and **Hover format**. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in **Custom date format**, `%b %Y` tells Plotly to display an abbreviated month and the year with century.One extra option: `%{n}f` allows you to show fractional seconds, where “n” tells us the number of digits to include. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/axes-labels.png)
+The **Hover format**, `%B %Y`, tells Plotly to show the full month name and year with century when using the hover feature to explore the data. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/hover-format.png)
+To change the number of values displayed on the time axis, use the **Ticks** tab in the **Axes** popover. Pick a “Max #” of dates to display, and Plotly automatically finds the greatest lower bound to be evenly spaced along the axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/axes-ticks.png)
+If you don’t specify any **Custom date format**, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/zoom-level.gif)
 
 Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting).
 
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/table3.png">
+<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/common-date-formats.png">
 
 <div class="responsive-table">
 
