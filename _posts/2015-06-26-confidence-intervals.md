@@ -3,7 +3,7 @@ layout: new_layout
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to Making a Heat Map
 permalink: /continuous-filled-error-bars
-imageurl: https://plot.ly/~chris/10173.png
+imageurl: http://i.imgur.com/IQd9Sv5.png
 state: active
 tags: statistical
 meta_description: Make graphs with filled area bars to denote confidence intervals. Plotly is the easiest way to graph your data online.
