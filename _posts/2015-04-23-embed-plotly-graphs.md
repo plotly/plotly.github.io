@@ -39,7 +39,7 @@ In the **Share Plot** popover that opens, click on the **Embed** &lt;/&gt; butto
 To share your own graph from the Organize app click on the **Share** button above the **Open Plot** button. | ![Share from the Organize app](/static/images/embed-plotly-graphs/share-from-organize-app.jpg)
 This will bring up the **Share Plot** popover. As with option 2, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that either the graph is set to “public” OR the **Enable private share link** option under **Sharable Link** is checked in order to generate the HTML code. | ![Sharable link](/static/images/embed-plotly-graphs/sharable-link.jpg) ![Share plot](/static/images/embed-plotly-graphs/share-plot.jpg)
 
-![Final embedding code](/static/images/embed-plotly-graphs/embed-code.png)
+![Final embedding code](/static/images/embed-plotly-graphs/embed-code.jpg)
 
 
 If you need an iframe, copy and paste the snippet below.  You’ll have to replace the URL of our graph with your own.
