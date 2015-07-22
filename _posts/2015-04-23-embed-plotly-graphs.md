@@ -21,19 +21,23 @@ You can embed a Plotly graph with using HTML code or an iFrame. We show you how 
 
 ###Step 1: Get the HTML snippet
 
-There are two places to locate the embed code in Plotly.  If you want to share someone else’s graph, Option 1, is the easier choice.  If you’re in your workspace, then you’ll want to check out Option 2.
+There are three places to locate the embed code in Plotly.  If you want to share someone else’s graph, option 1 is the easier choice.  If you’re in your own Workspace, then you’ll want to check out option 2. To share from a folder, for example Home, within the Organize app, select option 3.
 
 
 **Option 1:**
 
-To share someone else's graph, as seen on the right, use this Option. | ![Song lengths graph](/static/images/embed-plotly-graphs/song-length.png)
+This option is for sharing someone else's graph, as seen on the right. | ![Song lengths graph](/static/images/embed-plotly-graphs/song-length.png)
 Notice the sharing options located in the bottom right corner.  You want to click on the button &lt;/&gt; . | ![Sharing options](/static/images/embed-plotly-graphs/sharing-options.png)
 
 **Option 2:**
 
 To share from your own workspace, click the **Share** option in the top right of your browser window. | ![Workspace share option](/static/images/embed-plotly-graphs/workspace-share-option.png)
-In the **Sharing Settings** box that opens, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that the graph is set to “public” in order to generate the HTML code. | ![Sharing options](/static/images/embed-plotly-graphs/sharing-settings.png)
+In the **Share Plot** popover that opens, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that the graph is set to “public” in order to generate the HTML code. | ![Sharing options](/static/images/embed-plotly-graphs/share-plot.jpg)
 
+**Option 3:**
+
+To share your own graph from the Organize app click on the **Share** button above the **Open Plot** button. | ![Share from the Organize app](/static/images/embed-plotly-graphs/share-from-organize-app.png)
+This will bring up the **Share Plot** popover. As with option 2, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that either the graph is set to “public” OR the **Enable private share link** option under **Sharable Link** is checked in order to generate the HTML code. | ![Sharable link](/static/images/embed-plotly-graphs/sharable-link.jpg) ![Share plot](/static/images/embed-plotly-graphs/share-plot.jpg)
 
 ![Final embedding code](/static/images/embed-plotly-graphs/embed-code.png)
 
