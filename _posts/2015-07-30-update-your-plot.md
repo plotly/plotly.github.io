@@ -17,17 +17,17 @@ There are two different options for updating your Plots. Note that in both cases
 
 You can update data in a plot by using Insert Info. Do this only if you want to add a new trace to a graph, from either the same Grid or a different one.
 
-1) navigate to the Grid in question in the Workspace and select the drop down next to “Make a new plot”
+1) Navigate to the Grid in question in the Workspace and select the drop down next to “Make a new plot”.  | ![Workspace](/static/images/update-your-plot/workspace.png)
 
-2) select the plot you want to update (note: only open tabs will be shown in the menu so you have to open the tab of the graph you want to update).
+2) select the plot you want to update (note: only open tabs will be shown in the menu so you have to open the tab of the graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
 
-You can open multiple Grids by selecting multiple files and clicking the Open Action above. Data from these Grids can then be inserted into any open Plot.
+You can open multiple Grids by selecting multiple files and clicking the Open Action above. Data from these Grids can then be inserted into any open Plot. | ![Open multiple grids](/static/images/update-your-plot/open-multiple-grids.png)
 
 ### Option 2
 
-1) Create your initial data set and make a new Plot, then save the Plot. Saving the Plot will automatically save a Grid with the same name but with " Grid" appended to the filename. Close the Plot.
+1) Create your initial data set and make a new Plot, then save the Plot. Saving the Plot will automatically save a Grid with the same name but with " Grid" appended to the filename. Close the Plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
 
-2) Click on Organize, open your newly-saved Grid and click Save again.
+2) Click on Organize, open your newly-saved Grid and click Save again. | ![New grid](/static/images/update-your-plot/open-grid.png)
 
 3) When you reopen your Plot you will notice that the Plot has been
 automatically updated with the new modifications.
