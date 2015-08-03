@@ -1,10 +1,11 @@
-Layout: two_column_layout
-Title: Update a Plotly Graph with New Data
-Permalink: /update-your-plot
-Imageurl: 
-State: inactive
-Tags: basic
-Metadescription: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
+layout: two_column_layout
+title: Update a Plotly Graph with New Data
+subtitle: How to update your plotly graphs with new data
+permalink: /update-your-plot
+imageurl: 
+state: inactive
+tags: basic
+meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
 actioncall: Update your plots
 
 #Update your grids and plots
