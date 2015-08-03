@@ -27,7 +27,7 @@ You can open multiple Grids by selecting multiple files and clicking the **Open*
 
 ### Update a Plotly graph with new data
 
-Do you need to modify your data seet? You can update an existing graph as your data changes. 
+Do you need to modify your data set? You can update an existing graph as your data changes. 
 
 1) Create your initial data set and make a new Plot, then save the Plot. Saving the Plot will automatically save a Grid with the same name but with " Grid" appended to the filename. Close the Plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
 
