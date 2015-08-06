@@ -14,17 +14,17 @@ actioncall: Make a plot
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to update your grids and plots with new data. Have a plot [embedded in your webpage or blog](http://help.plot.ly/embed-graphs-in-websites)? When you update your graph using the steps below, the embedded graph will automatically update as well. No need to modify your page with a new URL.
 
-There are two different options for updating your plots. Note that in both cases you have to save your newly-modified grid to update your plot, and you still have to open and close the plot to see the changes.
+There are two different options for updating your plots. Note that in both cases you have to save your newly modified grid to update your plot, and you still have to open and close the plot to see the changes.
 
 Need help making your graph? Check out our other [tutorials](http://help.plot.ly/tutorials/).
 
 ### Update a Plotly graph with new data
 
-Do you need to modify your data set? You can update an existing graph as your data changes. 
+Do you need to modify your dataset? You can update an existing graph as your data changes. 
 
-1) Create your initial data set and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
+1) Create your initial dataset and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an Excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
 
-2) Click on **Organize**, open and edit your newly-saved grid, then click **Save** again. | ![New grid](/static/images/update-your-plot/open-grid.png)
+2) Click on **Organize**, open and edit your newly saved grid, then click **Save** again. | ![New grid](/static/images/update-your-plot/open-grid.png)
 
 3) When you reopen your plot you will notice that it has been
 automatically updated with the new modifications.
@@ -33,7 +33,7 @@ automatically updated with the new modifications.
 
 You can update data in a plot by using **Insert Into**. Do this only if you want to add a new trace to a graph, from either the same grid or a new one.
 
-1) Navigate to the grid in question in the **Workspace** and select the drop down next to **Make a new plot**.  | ![Workspace](/static/images/update-your-plot/workspace.png)
+1) Navigate to the grid in question in the **Workspace** and select the drop-down next to **Make a new plot**.  | ![Workspace](/static/images/update-your-plot/workspace.png)
 
 2) Select the plot you want to update (note: only open tabs will be shown in the menu so you have to open graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
 
