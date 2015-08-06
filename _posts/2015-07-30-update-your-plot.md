@@ -1,12 +1,14 @@
+---
 layout: two_column_layout
 title: Update a Plotly Graph with New Data
 subtitle: How to update your plotly graphs with new data
-permalink: /update-your-plot
-imageurl: 
-state: inactive
+permalink: /update-a-graphs-data
+imageurl: /static/images/embed-plotly-graphs/graph-thumbnail.png
+state: active
 tags: basic
 meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
-actioncall: Update your plots
+actioncall: Make a plot
+---
 
 #Update your grids and plots
 
@@ -15,6 +17,17 @@ Plotly offers free, online tools for analyzing data and making graphs. In this t
 There are two different options for updating your plots. Note that in both cases you have to save your newly-modified grid to update your plot, and you still have to open and close the plot to see the changes.
 
 Need help making your graph? Check out our other [tutorials](http://help.plot.ly/tutorials/).
+
+### Update a Plotly graph with new data
+
+Do you need to modify your data set? You can update an existing graph as your data changes. 
+
+1) Create your initial data set and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
+
+2) Click on **Organize**, open and edit your newly-saved grid, then click **Save** again. | ![New grid](/static/images/update-your-plot/open-grid.png)
+
+3) When you reopen your plot you will notice that it has been
+automatically updated with the new modifications.
 
 ### Insert a new trace into an existing graph.
 
@@ -25,14 +38,3 @@ You can update data in a plot by using **Insert Into**. Do this only if you want
 2) Select the plot you want to update (note: only open tabs will be shown in the menu so you have to open graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
 
 You can open multiple grids by selecting multiple files and clicking the **Open** Action above. Data from these grids can then be inserted into any open plot. | ![Open multiple grids](/static/images/update-your-plot/open-multiple-grids.png)
-
-### Update a Plotly graph with new data
-
-Do you need to modify your data set? You can update an existing graph as your data changes. 
-
-1) Create your initial data set and make a new plot, then save the plot. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename. Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
-
-2) Click on **Organize**, open your newly-saved grid and click **Save** again. | ![New grid](/static/images/update-your-plot/open-grid.png)
-
-3) When you reopen your plot you will notice that it has been
-automatically updated with the new modifications.
