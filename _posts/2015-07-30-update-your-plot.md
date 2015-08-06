@@ -35,6 +35,6 @@ You can update data in a plot by using **Insert Into**. Do this only if you want
 
 1) Navigate to the grid in question in the **Workspace** and select the drop-down next to **Make a new plot**.  | ![Workspace](/static/images/update-your-plot/workspace.png)
 
-2) Select the plot you want to update (note: only open tabs will be shown in the menu so you have to open graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
+2) Select the plot you want to update (note: only open tabs will be shown in the menu so you may have to open the graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
 
 You can open multiple grids by selecting multiple files and clicking the **Open** Action above. Data from these grids can then be inserted into any open plot. | ![Open multiple grids](/static/images/update-your-plot/open-multiple-grids.png)
