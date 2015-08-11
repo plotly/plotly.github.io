@@ -44,15 +44,34 @@ This will bring up the **Share Plot** popover. As with option 2, click on the **
 
 If you need an iframe, copy and paste the snippet below.  You’ll have to replace the URL of our graph with your own.
 
-<div style="background: #f8f8f8; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008000; font-weight: bold">&lt;iframe</span>
-<span style="color: #7D9029">width=</span><span style="color: #BA2121">&quot;640&quot;</span>
-<span style="color: #7D9029">height=</span><span style="color: #BA2121">&quot;480&quot;</span>
-<span style="color: #7D9029">frameborder=</span><span style="color: #BA2121">&quot;0&quot;</span>
-<span style="color: #7D9029">seamless=</span><span style="color: #BA2121">&quot;seamless&quot;</span>
-<span style="color: #7D9029">scrolling=</span><span style="color: #BA2121">&quot;no&quot;</span>
-<span style="color: #7D9029">src=</span><span style="color: #BA2121">&quot;https://plot.ly/~Dreamshot/411/.embed?width=640&amp;height=480&quot;</span>
-<span style="color: #008000; font-weight: bold">&gt;&lt;/iframe&gt;</span>
-</pre></div>
+```html
+<iframe 
+  frameborder="0" seamless="seamless" scrolling="no" 
+  src="https://plot.ly/~Dreamshot/411.embed">
+</iframe>
+```
+
+If you are using a secret link with a private key, update the private link to include `.embed` before the `?share_key` term. Here is an example:
+
+```html
+<iframe 
+  frameborder="0" seamless="seamless" scrolling="no" 
+  src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
+</iframe>
+```
+
+You can control the width and the height of the iframe by adding `width` and `height` keywords into the HTML:
+
+```html
+<iframe 
+  width=750 height=500
+  frameborder="0" seamless="seamless" scrolling="no" 
+  src="https://plot.ly/~Dreamshot/411.embed">
+</iframe>
+```
+
+The graph will autosize in the iframe container.
+
 
 ### Step 2: Paste the HTML into your site’s code
 
