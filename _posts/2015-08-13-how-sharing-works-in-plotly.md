@@ -22,22 +22,15 @@ Private: Only you can view it. It will not appear in the Plotly feed, your profi
 
 Secret: Anyone with this secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody who is viewing that page will be able to view it. You do not need to be logged in to view it.
 
-Private Share Links
+###Private Share Links
 
 A secret link is a private link which can be viewed by anybody with the private link URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
 
-From the **Organize** app you can click on the **Share** button (share-plot)
+From the **Organize** app you can click on the **Share** button  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png) (share-plot) | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
 
+You can tell a privately-shared plot from the word “Private” written above it, accompanied by a closed lock.  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png)
 
-
-(private-share-link)
-
-
-You can tell a privately-shared plot from the word “Private” written above it, accompanied by a closed lock. (shared-plot)
-
-
-
-How do shared folders work? (talk to Alex)
+###How do shared folders work? (talk to Alex)
 
 All Plotly users, free or paid, enjoy unlimited private folders.
 
@@ -49,17 +42,9 @@ Moving an item to a public folder: "[folder name] is public. Moving this to a pu
 
 Creating a new item in a public folder: "[folder name] is public. Creating a file inside of a public folder will make it accessible to everyone. Are you sure?
 
-
-How does this work with the APIs?
+###How does this work with the APIs?
 
  This functionality is also accessible from the [API libraries](https://plot.ly/api). View each page for details:
 - [Python library](https://plot.ly/python/privacy)
 - [R library](https://plot.ly/r/privacy)
 - [MATLAB library](https://plot.ly/matlab/privacy)
-
-
-
- [Yes, make it public] [Cancel]
- [Yes, make it private] [Cancel]
- [Yes, move the file] [Cancel]
- [Yes, create the file] [Cancel]
