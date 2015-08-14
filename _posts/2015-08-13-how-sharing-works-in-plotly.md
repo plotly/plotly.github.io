@@ -24,7 +24,7 @@ There are three types of sharing for your Plotly grids and plots:
 
 ###Sharing Files and Folders
 
-You can toggle individual files and folder between public and private by clicking on the lock icon.  | ![Public file](/static/images/how-sharing-works-in-plotly/public-file.png) | ![Private file](/static/images/how-sharing-works-in-plotly/private-file.png)
+You can toggle individual files and folders between public and private by clicking on the lock icon.  | ![Public file](/static/images/how-sharing-works-in-plotly/public-file.png) | ![Private file](/static/images/how-sharing-works-in-plotly/private-file.png)
 
 ###Private Share Links
 
