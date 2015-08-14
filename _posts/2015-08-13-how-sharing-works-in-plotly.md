@@ -26,7 +26,7 @@ Secret: Anyone with the secret link can view it. It will not appear in the Plotl
 
 A secret link is a private link which can be viewed by anybody with the private link URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
 
-From the **Organize** app you can click on the **Share** button  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png) (share-plot) | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
+From the **Organize** app you can click on the **Share** button  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png) | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
 
 You can tell a privately-shared plot from the word “Private” written above it, accompanied by a closed lock.  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png)
 
