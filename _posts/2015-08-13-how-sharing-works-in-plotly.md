@@ -14,13 +14,13 @@ actioncall: Share your grids, plots and folders
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you some tips for better sharing of your plots, grids and folders using secret links, shared folders and the API. Also make sure to check out our other tutorials.
 
-There are three categories of sharing for your Plotly grids and plots:
+There are three types of sharing for your Plotly grids and plots:
 
 Public: Anyone can view it. It will appear in your profile and can appear in search engines. You do not need to be logged in to Plotly to view it.
 
-Private: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users in your online Plotly account but they will need to be logged in to view it.
+Private: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it.
 
-Secret: Anyone with this secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody who is viewing that page will be able to view it. You do not need to be logged in to view it.
+Secret: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it.
 
 ###Private Share Links
 
@@ -30,21 +30,21 @@ From the **Organize** app you can click on the **Share** button  | ![Shared plot
 
 You can tell a privately-shared plot from the word “Private” written above it, accompanied by a closed lock.  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png)
 
-###How do shared folders work? (talk to Alex)
+###How do shared folders work?
 
-All Plotly users, free or paid, enjoy unlimited private folders.
+All Plotly users, free and paid, enjoy unlimited private folders. Changing a folder's sharing status affects the contents in the following ways:
 
-Changing folder from private to public: "Making this folder public will also make all of its contents public. Are you sure?"
+Changing a folder from private to public changes the status of the contents to public.
 
-Changing folder from public to private: "Are you sure you want to make this folder private?"
+Changing a folder from public to private changes the status of the contents to private.
 
-Moving an item to a public folder: "[folder name] is public. Moving this to a public folder will make it accessible to everyone. Are you sure?"
+Moving a private item to a public folder will make that item public for the time it's in that folder, and the **Sharing** icon will be greyed-out. Moving a public item to a private folder will NOT make that item private.
 
-Creating a new item in a public folder: "[folder name] is public. Creating a file inside of a public folder will make it accessible to everyone. Are you sure?
+Creating a new item in a public folder will create a an item that is public AS LONG AS IT'S IN A PUBLIC FOLDER. Moving it to a private folder or to your Home folder will make it revert to being private. Creating a new item in a private folder will create a private item.
 
 ###How does this work with the APIs?
 
- This functionality is also accessible from the [API libraries](https://plot.ly/api). View each page for details:
+ Similar functionality is also accessible from the various [API libraries](https://plot.ly/api). View each page for details:
 - [Python library](https://plot.ly/python/privacy)
 - [R library](https://plot.ly/r/privacy)
 - [MATLAB library](https://plot.ly/matlab/privacy)
