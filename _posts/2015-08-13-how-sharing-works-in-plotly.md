@@ -26,7 +26,7 @@ There are three types of sharing for your Plotly grids and plots:
 
 You can toggle individual files and folders between public and private by clicking on the lock icon.  | ![Public file](/static/images/how-sharing-works-in-plotly/public-file.png) | ![Private file](/static/images/how-sharing-works-in-plotly/private-file.png)
 
-###Private Share Links
+###Private share links
 
 A secret link is a private link which can be viewed by anybody with the private link URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
 
@@ -36,15 +36,15 @@ You can tell a privately-shared plot from the word “Private” written above i
 
 ###How do shared folders work?
 
-All Plotly users, free and paid, enjoy unlimited private folders. Changing a folder's sharing status affects the contents in the following ways:
+Changing a folder's sharing status affects the contents in the following ways:
 
 Changing a folder from private to public changes the status of the contents to public.
 
-Changing a folder from public to private changes the status of the contents to private.
+Changing a folder from public to private changes the status of the contents to private. Please note that these plots are still subject to the private plot limit of the account, which in the case of free account users is one private plot. Once that limit is reached, additional plots will be public by default. All Plotly users do, however, enjoy unlimited private folders and grids.
 
 Moving a private item to a public folder will make that item public for the time it's in that folder, and the **Sharing** icon will be greyed-out. Moving a public item to a private folder will NOT make that item private.
 
-Creating a new item in a public folder will create a an item that is public as long as it's in a public folder. Moving it to a private folder or to your **Home** folder will make it revert to being private. Creating a new item in a private folder will create a private item.
+Creating a new item in a public folder will create an item that is public as long as it's in a public folder. Moving it to a private folder or to your **Home** folder will make it revert to being private. Creating a new item in a private folder will create a private item. Again please note that this is subject to the private plot limit of the account: once that limit is reached, additional plots will be, or will remain, public.
 
 ###How does this work with the APIs?
 
