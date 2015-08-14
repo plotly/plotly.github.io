@@ -12,15 +12,15 @@ actioncall: Share your grids, plots and folders
 
 #How Sharing Works
 
-Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you some tips for better sharing of your plots, grids and folders using secret links, shared folders and the API. Also make sure to check out our other tutorials.
+Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you some tips for better sharing of your plots, grids and folders using secret links, shared folders and the API. Also make sure to check out our [other tutorials](http://help.plot.ly/).
 
 There are three types of sharing for your Plotly grids and plots:
 
-Public: Anyone can view it. It will appear in your profile and can appear in search engines. You do not need to be logged in to Plotly to view it.
+**Public**: Anyone can view it. It will appear in your profile and can appear in search engines and the Plotly feed. You do not need to be logged in to Plotly to view it.
 
-Private: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it.
+**Private**: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it.
 
-Secret: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it.
+**Secret**: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it.
 
 ###Private Share Links
 
