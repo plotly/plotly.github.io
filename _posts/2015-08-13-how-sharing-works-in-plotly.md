@@ -40,7 +40,7 @@ Changing a folder from public to private changes the status of the contents to p
 
 Moving a private item to a public folder will make that item public for the time it's in that folder, and the **Sharing** icon will be greyed-out. Moving a public item to a private folder will NOT make that item private.
 
-Creating a new item in a public folder will create a an item that is public AS LONG AS IT'S IN A PUBLIC FOLDER. Moving it to a private folder or to your Home folder will make it revert to being private. Creating a new item in a private folder will create a private item.
+Creating a new item in a public folder will create a an item that is public as long as it's in a public folder. Moving it to a private folder or to your **Home** folder will make it revert to being private. Creating a new item in a private folder will create a private item.
 
 ###How does this work with the APIs?
 
