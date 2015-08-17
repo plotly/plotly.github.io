@@ -44,4 +44,4 @@ Follow along and investigate the impact of various factors (volanic, ozone, sola
 
 <a href="http://imgur.com/kv5ewp3"><img src="http://i.imgur.com/kv5ewp3.gif" title="Change the hover mode" /></a>
 
-To change the mode, click on the following buttons. | ![Quadratic fits](/static/images/zoom-pan-hover-controls/compare-data-on-hover.png) | ![Quadratic fits](/static/images/zoom-pan-hover-controls/show-closest-data-on-hover.png)
+To change the mode, click on the following buttons. | ![Quadratic fits](/static/images/zoom-pan-hover/compare-data-on-hover.png) | ![Quadratic fits](/static/images/zoom-pan-hover/show-closest-data-on-hover.png)
