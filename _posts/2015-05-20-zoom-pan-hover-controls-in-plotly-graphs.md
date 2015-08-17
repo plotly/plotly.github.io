@@ -17,7 +17,7 @@ actioncall: Make a graph
     <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to bring your graphing and data analysis to the next level with zoom, pan, and hover. Make sure to check out our other [tutorials](http://help.plot.ly/tutorials/)!
+Plotly offers free, online tools for analyzing data and making graphs. You can bring your graphing and data analysis to the next level with zoom, pan, and hover.
 
 In this guide, we'll show you how to 
 
@@ -27,6 +27,8 @@ In this guide, we'll show you how to
 4. Change the hover mode to compare data or investigate a single data point.
 
 Follow along and investigate the impact of various factors (volanic, ozone, solar, greenhouse gases, sulfate) with our [graph on historical temperature changes](https://plot.ly/~Dreamshot/628/climate-change-attribution/).
+
+Make sure to check out our other [tutorials](http://help.plot.ly/tutorials/)!
 
 ###1. Drag to zoom in and double-click to autoscale
 
