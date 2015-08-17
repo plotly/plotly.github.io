@@ -16,7 +16,7 @@ Plotly offers free, online tools for analyzing data and making graphs. In this t
 
 There are three types of sharing for your Plotly grids and plots:
 
-**Public**: Anyone can view it. It will appear in your profile and can appear in search engines and the Plotly feed. You do not need to be logged in to Plotly to view it.
+**Public**: Anyone can view it. It will appear in your profile and can appear in search engines and can be featured in the Plotly feed. You do not need to be logged in to Plotly to view it.
 
 **Private**: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it.
 
