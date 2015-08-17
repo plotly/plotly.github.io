@@ -19,8 +19,6 @@ actioncall: Make a graph
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to bring your graphing and data analysis to the next level with zoom, pan, and hover. Make sure to check out our other [tutorials](http://help.plot.ly/tutorials/)!
 
- The data is always at your finger tips.
-
 In this guide, we'll show you how to 
 
 1. Drag to zoom in and double-click to return to the original graph.
@@ -46,6 +44,4 @@ Follow along and investigate the impact of various factors (volanic, ozone, sola
 
 <a href="http://imgur.com/kv5ewp3"><img src="http://i.imgur.com/kv5ewp3.gif" title="Change the hover mode" /></a>
 
-###5. Switch between hover modes
-
- | ![Quadratic fits](/static/images/zoom-pan-hover-controls/compare-data-on-hover.png) | ![Quadratic fits](/static/images/zoom-pan-hover-controls/show-closest-data-on-hover.png)
+To change the mode, click on the following buttons. | ![Quadratic fits](/static/images/zoom-pan-hover-controls/compare-data-on-hover.png) | ![Quadratic fits](/static/images/zoom-pan-hover-controls/show-closest-data-on-hover.png)
