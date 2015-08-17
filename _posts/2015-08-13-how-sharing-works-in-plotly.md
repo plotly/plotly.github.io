@@ -16,21 +16,17 @@ Plotly offers free, online tools for analyzing data and making graphs. In this t
 
 There are three types of sharing for your Plotly grids and plots:
 
-**Public**: Anyone can view it. It will appear in your profile and can appear in search engines and can be featured in the Plotly feed. You do not need to be logged in to Plotly to view it.
+**Public**: Anyone can view it. It will appear in your profile and can appear in search engines and can be featured in the Plotly feed. You do not need to be logged in to Plotly to view it.  | ![Public file](/static/images/how-sharing-works-in-plotly/public-file.png)
 
-**Private**: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it.
+**Private**: Only you can view it. It will not appear in the Plotly feed, your profile, or search engines. You must be logged in to Plotly to view it. You can privately share it with other Plotly users but they will need to be logged in to view it. | ![Private file](/static/images/how-sharing-works-in-plotly/private-file.png)
 
-**Secret**: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it.
-
-###Sharing Files and Folders
-
-You can toggle individual files and folders between public and private by clicking on the lock icon.  | ![Public file](/static/images/how-sharing-works-in-plotly/public-file.png) | ![Private file](/static/images/how-sharing-works-in-plotly/private-file.png)
+**Secret**: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it.  | ![Shared plot](/static/images/how-sharing-works-in-plotly/share-plot.png)
 
 ###Private share links
 
 A secret link is a private link which can be viewed by anybody with the private link URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
 
-From the **Organize** app you can click on the **Share** button  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png) | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
+From the **Organize** app you can click on the **Share** button | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
 
 You can tell a privately-shared plot from the word “Private” written above it, accompanied by a closed lock.  | ![Shared plot](/static/images/how-sharing-works-in-plotly/shared-plot.png)
 
