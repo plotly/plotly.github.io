@@ -1,6 +1,6 @@
 ---
 layout: two_column_layout
-title: Data integrations
+title: Getting data
 permalink: /getting-data
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
@@ -8,7 +8,7 @@ tags: classroom basic
 meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
 ---
 
-# Data Integrations
+# Getting data
 
 <div>
     <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -21,9 +21,9 @@ meta_description: A tutorial on reliable data sources including Data.gov. Plotly
 
 <p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="https://www.data.gov/">Data.gov</a>, <a href="http://arohatgi.info/WebPlotDigitizer/">WebPlotDigitizer</a>, <a href="https://www.quandl.com/">Quandl</a>, <a href="https://import.io/">import.io</a>, and <a href="http://www.vernier.com/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
-Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/esByc8X.png">
+Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/data-source-url.png">
 
-You can also [sync Plotly graphs with arbitrary externally sourced data](http://chriddyp.github.io/external-source-plotter/). These graphs can be shared by a URL or embedded in a webpage, and whenever a user views the graph, Plotly fetches the latest data from your web service. Use the [external source plotter](http://chriddyp.github.io/external-source-plotter/) when you don't want to send your user to Plotly's web-app. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox. 
+You can also sync Plotly graphs with [externally sourced data](http://chriddyp.github.io/external-source-plotter/). These graphs can be shared by a URL or embedded in a webpage, and whenever a user views the graph, Plotly fetches the latest data from your web service. Use the [external source plotter](http://chriddyp.github.io/external-source-plotter/) when you don't want to send your user to Plotly's Web App. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox. 
 
 
 <h1><a href="https://www.data.gov/meta/open-apps/">Data.gov</a></h1>
@@ -35,19 +35,19 @@ You can also [sync Plotly graphs with arbitrary externally sourced data](http://
 <tbody>
 <tr>
 <td>When you go to <a href="www.data.gov">Data.gov</a>, you'll see a box to search the data sets and icons to browse by topic.</td>
-<td><img src="/static/images/getting-data/K8MSiIV.png"></td>
+<td><img src="/static/images/getting-data/search-data-gov-sets.png"></td>
 </tr>
 <tr>
 <td>We selected <b>Consumer</b>, which opens a description of the collection, highlights, and recent updates. Clicking on <b>Data</b> brings us to the data sets.</td>
-<td><img src="/static/images/getting-data/zdbxVr3.png"></td>
+<td><img src="/static/images/getting-data/data-gov-data-tab.png"></td>
 </tr>
 <tr>
 <td>The toolbar on the left lets us filter the data by type, tags, format, and more. If you want to quickly find data sets that you can export to Plotly, filtering the format to XLS or CSV is helpful.</td>
-<td><img src="/static/images/getting-data/L5LLlFn.png"></td>
+<td><img src="/static/images/getting-data/filter-format.png"></td>
 </tr>
 <tr>
 <td>Once you select a data set, look for the "Open With" option (this will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Plotly's Web App.</td>
-<td><img src="/static/images/getting-data/IowB7mf.png"></td>
+<td><img src="/static/images/getting-data/rent-estimates.png"></td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ Check out our short video on [Styling and Customizing Graphs](http://help.plot.l
 <tbody>
 <tr>
 <td>From <a href="www.data.gov">Quandl's</a> homepage, select <b>COLLECTIONS BROWSER</b> from the "Platform" drop-down menu.</td>
-<td><img src="/static/images/getting-data/HcAPBqq.png"></td>
+<td><img src="/static/images/getting-data/quandl-homepage.png"></td>
 </tr>
 <tr>
 <td>You can navigate through Quandl's collections using the toolbar on the right. Here we selected <b>MARKETS</b>, <b>COMMODITIES</b>, <b>Farms and Fishery</b>.</td>
