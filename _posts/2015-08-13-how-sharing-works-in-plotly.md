@@ -22,9 +22,9 @@ There are three types of sharing for your Plotly grids and plots:
 
 **Secret**: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it. | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)  | ![Shared plot](/static/images/how-sharing-works-in-plotly/share-plot.png)
 
-###Private share links
+###Secret links
 
-A secret link is a private link which can be viewed by anybody with the private link URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
+A secret link is a private link which can be viewed by anybody with the URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
 
 From the **Organize** app you can click on the **Share** button
 
