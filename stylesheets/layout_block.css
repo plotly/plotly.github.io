@@ -42,7 +42,7 @@ CONTAINER
 }
 
 .smallcontainer{
-   max-width: 900px;	
+   max-width: 900px;
 }
 
 
@@ -52,7 +52,7 @@ FOOTER
 .footerarea{
     color: #69738A;
     background-color: #ffffff;
-    padding-left: 5px; 
+    padding-left: 5px;
 }
 
 .footer-top{
@@ -69,7 +69,7 @@ FOOTER
 
 .footer-bottom .columns {
 	max-width: 100%;
-	
+
 }
 
 /* For devices smaller than 550px */
@@ -122,11 +122,15 @@ TUTORIAL BLOCKS
 .alltutcol {
     width: 100%;
     float: left;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.alltutcol:hover {
+	opacity: 0.7;
 }
 
 .alltutcol img{
@@ -168,7 +172,7 @@ RESPONSIVE TABLE
 .img-responsive-table{
 	display: none;
 	}
-	
+
 .full-width-table{
 	min-width: 100%;
 }
@@ -178,7 +182,7 @@ RESPONSIVE TABLE
 	.responsive-table{
 	display: none;
 	}
-	
+
 	.img-responsive-table{
 		display: block;
 	}
