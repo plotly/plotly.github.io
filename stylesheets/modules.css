@@ -49,7 +49,7 @@ HEADER STYLING
     color: #69738a;
 	fill: #69738a;
     display: inline-block;
-    font-size: 10pt;
+    font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
@@ -62,7 +62,6 @@ HEADER STYLING
 }
 
 .headerbar-nav-item:hover, .headerbar-nav-item.lateralmenu-item.is-active{
-border-bottom: 2px solid #447bdc;
 color: #447bcd;
 cursor: pointer
 }
@@ -72,14 +71,85 @@ cursor: pointer
 	width: 100%;
 	min-width: 150px;
 	}
-	
+
 	.headerbar-leftside {
 	margin-left: 20px;
 	max-width: 100px;
 	margin-right: 25px;
 	}
-	
+
 }
+
+/***********************
+DROP-DOWN MENU
+************************/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  overflow-y: visible;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 150px;
+  border: 1px solid rgba(0,0,0,.2);
+  margin: 0;
+  top: 65px;
+  background-color: #fff;
+  padding: 0 10px;
+  border-radius: 2px;
+  padding: 5px 15px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.1);
+}
+
+.dropdown-menu:after, .dropdown-menu:before {
+  box-sizing: border-box;
+}
+
+.dropdown-menu-item {
+  border-bottom: 1px solid #E7E8E9;
+  font-weight: 600;
+  display: block;
+  clear: both;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.dropdown-menu-item:last-child {
+  border-bottom: 0px none #E7E8E9;
+}
+
+.dropdown-menu-item{
+  display: block;
+  padding: 4px 6px;
+  margin: 0;
+  white-space: nowrap;
+  width: 90%;
+  text-align: left;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5D667A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-menu-item:hover {
+  color: #447bdc;
+}
+
+.carret{
+    width: 0;
+    height: 0;
+    border-top: 4px solid #000;
+    border-left: 4px solid transparent;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    box-sizing: border-box;
+ }
 
 /***********************
 SOCIAL SHARE STYLING
@@ -126,9 +196,9 @@ FOOTER STYLING
 
 @media (max-width: 550px) {
 	.footer-bottom li, .footer-bottom a, .footer-bottom p{
-	margin-top: 2px;	
+	margin-top: 2px;
 	margin: 0 0 10px 3px;}
-	
+
 }
 
 .footerarea a{
@@ -479,7 +549,7 @@ margin: 3px 0;}
 	.categories p{
 	font-size:18 px;
 	}
-}	
+}
 
 
 /********************
@@ -541,7 +611,7 @@ CLIENT APIS Rollover styling
 	   font-size: 13px;
 	   line-height: 15px;
 	}
-	
+
 }
 
 /* Larger than tablet */
@@ -571,7 +641,7 @@ CLIENT APIS Rollover styling
 	line-height: 21px;
 	}
 	.categories-apis h6{
-	font-size: 21px; 
+	font-size: 21px;
 	line-height: 27px;
 	}
 }
@@ -587,7 +657,7 @@ CLIENT APIS Rollover styling
 	  line-height: 21px;
 	}
 	.categories-apis h6{
-	font-size: 21px; 
+	font-size: 21px;
 	line-height: 27px;
 	}
 }
@@ -643,7 +713,12 @@ POP-UP MENU STYLING
 	height: 30px;
 	width: 30px;
 	margin-right: 40px;
-	margin-top: 20px;}
+	margin-top: 20px;
+}
+
+.sub-popmenu a{
+      font-size: 20px;
+}
 
 /****************
 TUTORIAL STYLING
