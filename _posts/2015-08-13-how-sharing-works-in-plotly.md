@@ -3,7 +3,7 @@ layout: two_column_layout
 title: How Sharing Works In Plotly
 subtitle: How sharing works for plotly grids, plots and folders
 permalink: /how-sharing-works-in-plotly
-imageurl: /static/images/how-sharing-works-in-plotly/graph-thumbnail.png
+imageurl: /static/images/how-sharing-works-in-plotly/sharing-thumb.png
 state: active
 tags: basic
 meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
