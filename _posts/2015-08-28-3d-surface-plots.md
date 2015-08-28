@@ -39,10 +39,8 @@ Click "3d surface plot". You can customize every aspect of this chart. Click thr
 ![3D surface plot colorscale options](http://i.imgur.com/Z5hFBT2.png)
 
 
-<a class="button no_underline align-center callaction" href="https://plot.ly/plot">Make your own 3D surface plot</a>
-
-
 ### More resources
+- [Make your own 3D surface plot](https://plot.ly/plot)
 - 3D surface plots in [python](https://plot.ly/python/3d-surface-plots/), [R](https://plot.ly/r/3d-surface-plots/), [MATLAB](https://plot.ly/matlab/3d-surface-plots/), and [other languages](https://plot.ly/api)
 - Plotly is free for public use. For private use, view our [subscription options](https://plot.ly/plans).
 - [View more tutorials](https://help.plot.ly/)
