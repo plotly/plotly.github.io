@@ -18,7 +18,7 @@ Plotly's surface plots are interactive. Click and drag to rotate, scroll to zoom
 
 ### Step 1 - Enter or upload your data into a plotly grid
 
-Visit the (workspace)[https://plot.ly/plot] to enter data. A 3D surface plot graphs data 3D dimensional data: the height at each (x, y) point is given by that point's (z) value. Enter your 3D surface data as a matrix into the spreadsheet.
+Visit the [workspace](https://plot.ly/plot) to enter data. A 3D surface plot graphs data 3D dimensional data: the height at each (x, y) point is given by that point's (z) value. Enter your 3D surface data as a matrix into the spreadsheet.
 
 ![Data of a 3D surface plot](http://i.imgur.com/1IfjB2W.png)
 
