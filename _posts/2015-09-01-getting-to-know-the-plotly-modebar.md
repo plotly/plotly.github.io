@@ -43,6 +43,6 @@ Clicking Autoscale zooms the plot back to a setting that is optimized to include
 
 One of these two buttons is selected at all times.
 
-Clicking Show closest data on hover will display the data for just the one point under the cursor. | ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png) | ![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png)
+Clicking Show closest data on hover will display the data for just the one point under the cursor. | ![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png) | ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png)
 
-Clicking Compare data on hover will show you the data for all points with the same x-value. | ![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png) | ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png)
+Clicking Compare data on hover will show you the data for all points with the same x-value. | ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png) | ![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png)
