@@ -49,5 +49,12 @@ Clicking Compare data on hover will show you the data for all points with the sa
 
 ###3d charts
 
-Three-dimensional charts use a different set of buttons.
+Three-dimensional charts use a different set of buttons. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 
+ | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
+  
+ | ![Turntable Rotation](/static/images/getting-to-know-the-plotly-modebar/turntable-rotation.png)
+
+ | ![Reset Camera to Default](/static/images/getting-to-know-the-plotly-modebar/reset-camera-default.png)
+
+ | ![Reset Camera to Last Save](/static/images/getting-to-know-the-plotly-modebar/reset-camera-last-save.png)
