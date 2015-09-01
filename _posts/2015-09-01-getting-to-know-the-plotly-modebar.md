@@ -1,0 +1,48 @@
+---
+layout: two_column_layout
+title: Getting to Know The Plotly Modebar
+subtitle: A Guide to the Options in the Plotly Modebar
+permalink: /getting-to-know-the-plotly-modebar
+imageurl: /static/images/getting-to-know-the-plotly-modebar/*.png
+state: active
+tags: basic
+meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
+popularity: frontpage
+actioncall: Plotly Modebar options
+---
+
+#Getting to Know The Plotly Modebar
+
+At the top of every Plotly plot you will find nine icons with the following functions:
+
+###Download plot as a PNG 
+
+Clicking this will instantly start a download of the plot in PNG format.  | ![Download plot as a PNG](/static/images/getting-to-know-the-plotly-modebar/download-plot-as-a-png.png)
+
+###Zoom and Pan buttons
+
+Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons. 
+
+Clicking this selects the **Zoom** mode. To zoom in on a region of a Plotly graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
+
+To pan across regions of your graph, select the **Pan** mode. Click and hold your mouse to explore the data. Double-click anywhere to return to the original view. | ![Pan](/static/images/getting-to-know-the-plotly-modebar/pan.png)
+
+###Zoom In/Out
+
+You can zoom in and out by clicking on the + and - buttons. Plotly keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.  | ![Zoom In](/static/images/getting-to-know-the-plotly-modebar/zoom-in.png)  | ![Zoom Out](/static/images/getting-to-know-the-plotly-modebar/zoom-out.png)
+
+###Autoscale and reset axes
+
+When a graph is made using Plotly, we guess how the graph axes should be set. This is called “autoscale”. Sometimes our guess isn’t exactly what the graph creator wants. When a graph is made, the user can change the axes, and then save their graph. You can return to this saved form by clicking on Reset Axes.
+
+Clicking this zooms to include your Axes Range, if this has been set. If it has not been set it zooms to a setting that is optimized to include all the viewable data, the same as if Autoscale had been clicked.  | ![Reset Axes](/static/images/getting-to-know-the-plotly-modebar/reset-axes.png)
+
+Clicking Autoscale zooms the plot back to a setting that is optimized to include all the viewable data regardless of the Axes Range setting. | ![Autoscale](/static/images/getting-to-know-the-plotly-modebar/autoscale.png)
+
+###Hover options
+
+One of these two buttons is selected at all times.
+
+Clicking Show closest data on hover will display the data for just the one point under the cursor. | ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png) | ![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png)
+
+Clicking Compare data on hover will show you the data for all points with the same x-value. | ![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png) | ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png)
