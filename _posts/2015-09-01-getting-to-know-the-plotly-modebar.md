@@ -13,7 +13,7 @@ actioncall: Plotly Modebar options
 
 #Getting to Know The Plotly Modebar
 
-At the top of every Plotly plot you will find nine icons with the following functions:
+At the top of every Cartesian (aka two-dimensional) Plotly plot you will find icons with the following functions. For 3d plots see below:
 
 ###Download plot as a PNG 
 
@@ -46,3 +46,8 @@ One of these two buttons is selected at all times.
 Clicking Show closest data on hover will display the data for just the one point under the cursor. | ![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png) | ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png)
 
 Clicking Compare data on hover will show you the data for all points with the same x-value. | ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png) | ![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png)
+
+###3d charts
+
+Three-dimensional charts use a different set of buttons.
+
