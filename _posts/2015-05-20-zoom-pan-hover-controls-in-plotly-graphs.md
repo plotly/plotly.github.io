@@ -17,7 +17,7 @@ actioncall: Make a graph
     <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Bring your graphing and data analysis to the next level! Plotly lets you zoom, pan, and hover. Zoom in to reveal important details or zoom out to see the bigger picture. The data is always at your finger tips.
+Plotly offers free, online tools for analyzing data and making graphs. You can bring your graphing and data analysis to the next level with zoom, pan, and hover.
 
 In this guide, we'll show you how to 
 
@@ -27,6 +27,8 @@ In this guide, we'll show you how to
 4. Change the hover mode to compare data or investigate a single data point.
 
 Follow along and investigate the impact of various factors (volanic, ozone, solar, greenhouse gases, sulfate) with our [graph on historical temperature changes](https://plot.ly/~Dreamshot/628/climate-change-attribution/).
+
+Make sure to check out our other [tutorials](http://help.plot.ly/tutorials/)!
 
 ###1. Drag to zoom in and double-click to autoscale
 
@@ -42,7 +44,6 @@ Follow along and investigate the impact of various factors (volanic, ozone, sola
 
 ###4. Change the hover mode
 
-Looking for more details about using dates, time series and timestamp formats in Plotly? We have a [tutorial](/date-format-and-time-series/) for that!
-
 <a href="http://imgur.com/kv5ewp3"><img src="http://i.imgur.com/kv5ewp3.gif" title="Change the hover mode" /></a>
 
+To change the mode, click on the following buttons. | ![Quadratic fits](/static/images/zoom-pan-hover/compare-data-on-hover.png) | ![Quadratic fits](/static/images/zoom-pan-hover/show-closest-data-on-hover.png)
