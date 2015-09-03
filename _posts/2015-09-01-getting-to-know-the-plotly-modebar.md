@@ -13,7 +13,7 @@ actioncall: Plotly Modebar options
 
 #Getting to Know The Plotly Modebar
 
-At the top of every Cartesian (aka two-dimensional) Plotly plot you will find icons with the following functions. For 3d plots see below:
+At the top of every Cartesian (two-dimensional) Plotly plot you will find icons with the following functions. For 3d plots see below:
 
 ###Download plot as a PNG 
 
@@ -49,12 +49,12 @@ Clicking Compare data on hover will show you the data for all points with the sa
 
 ###3d charts
 
-Three-dimensional charts use a different set of buttons. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
+Three-dimensional charts use a different set of buttons and adds several new ones. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 
- | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
+Orbital Rotation rotates the plot around its middle point in three-dimensional space. | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
   
- | ![Turntable Rotation](/static/images/getting-to-know-the-plotly-modebar/turntable-rotation.png)
+Turntable Rotation rotates the plot around its middle point while constraining one axis slightly. | ![Turntable Rotation](/static/images/getting-to-know-the-plotly-modebar/turntable-rotation.png)
 
- | ![Reset Camera to Default](/static/images/getting-to-know-the-plotly-modebar/reset-camera-default.png)
+Clicking Reset Camera to Default zooms back to the default position at 45 degrees from all axes. | ![Reset Camera to Default](/static/images/getting-to-know-the-plotly-modebar/reset-camera-default.png)
 
- | ![Reset Camera to Last Save](/static/images/getting-to-know-the-plotly-modebar/reset-camera-last-save.png)
+Clicking Reset Camera to Last Save zooms it to the last saved position as set in the Organize view. | ![Reset Camera to Last Save](/static/images/getting-to-know-the-plotly-modebar/reset-camera-last-save.png)
