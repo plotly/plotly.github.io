@@ -29,7 +29,9 @@ To pan across regions of your graph, select the **Pan** mode. Click and hold you
 
 ###Zoom In/Out
 
-You can zoom in and out by clicking on the + and - buttons. Plotly keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.  | ![Zoom In](/static/images/getting-to-know-the-plotly-modebar/zoom-in.png)  | ![Zoom Out](/static/images/getting-to-know-the-plotly-modebar/zoom-out.png)
+You can zoom in and out by clicking on the + and - buttons. Plotly keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.
+
+![Zoom In](/static/images/getting-to-know-the-plotly-modebar/zoom-in.png)  | ![Zoom Out](/static/images/getting-to-know-the-plotly-modebar/zoom-out.png)
 
 ###Autoscale and reset axes
 
@@ -43,9 +45,15 @@ Clicking Autoscale zooms the plot back to a setting that is optimized to include
 
 One of these two buttons is selected at all times.
 
-Clicking Show closest data on hover will display the data for just the one point under the cursor. | ![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png) | ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png)
+Clicking Show closest data on hover will display the data for just the one point under the cursor. |
+![Show Closest Data Button](/static/images/getting-to-know-the-plotly-modebar/show-closest-data-button.png)
 
-Clicking Compare data on hover will show you the data for all points with the same x-value. | ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png) | ![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png)
+|| ![Show Closest Data](/static/images/getting-to-know-the-plotly-modebar/show-closest-data.png)
+
+Clicking Compare data on hover will show you the data for all points with the same x-value.|
+![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png)
+
+||![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png)
 
 ###3d charts
 
