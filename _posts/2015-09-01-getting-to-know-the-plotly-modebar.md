@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Getting to Know The Plotly Modebar
 subtitle: A Guide to the Options in the Plotly Modebar
 permalink: /getting-to-know-the-plotly-modebar
-imageurl: /static/images/getting-to-know-the-plotly-modebar/*.png
+imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
 tags: basic
 meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
@@ -13,7 +13,7 @@ actioncall: Plotly Modebar options
 
 #Getting to Know The Plotly Modebar
 
-At the top of every Cartesian (two-dimensional) Plotly plot you will find icons with the following functions. For 3d plots see below:
+At the top of every two-dimensional Plotly plot you will find icons with the following functions. For 3d plots see below:
 
 ###Download plot as a PNG 
 
@@ -55,7 +55,7 @@ Clicking Compare data on hover will show you the data for all points with the sa
 
 ###3d charts
 
-Three-dimensional charts use a different set of buttons and adds several new ones. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
+The mode bar for 3d charts gives you additional options for controlling rotations and also lets you toggle between the default view, and your last saved view. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 
 Orbital Rotation rotates the plot around its middle point in three-dimensional space. | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
   
