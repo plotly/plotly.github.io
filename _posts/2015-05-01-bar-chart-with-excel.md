@@ -171,7 +171,7 @@ popover for “All Traces (Bar)” should look.
 </td>
 <td>
 <img alt="All traces" src="/static/images/bar-chart-with-excel/all-traces.png" title=""/>
-<img alt="Chart style horizontal" src="/static/images/bar-chart-with-excel/style-horizontal.png" title=""/>
+<img alt="Chart style horizontal" src="/static/images/bar-chart-with-excel/mode-horizontal.png" title=""/>
 </td>
 </tr>
 <tr>
@@ -210,7 +210,7 @@ This is how the “Style” tab of the
 TRACES
 popover on “LA Zoo” should look. We’ve altered
 every
-option in this panel: Opacity, Bar Gap, Group Gap, Fill, and Border.
+option in this panel: Opacity, Bar Gap, Group Gap, Fill, and Outline.
 </td>
 <td>
 <img alt="Style tab of Traces popover" src="/static/images/bar-chart-with-excel/style-tab-of-traces-popover.png" title=""/>
@@ -220,7 +220,7 @@ option in this panel: Opacity, Bar Gap, Group Gap, Fill, and Border.
 <td>
 This is how the “Style” tab of the
 TRACES
-popover on “SF Zoo” should look.  These are the same as for LA Zoo, but fill and border are different colors.
+popover on “SF Zoo” should look.  These are the same as for LA Zoo, but fill and outline are different colors.
 </td>
 <td>
 <img alt="Style tab options" src="/static/images/bar-chart-with-excel/style-options.png" title=""/>
