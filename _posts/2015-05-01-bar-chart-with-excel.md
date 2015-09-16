@@ -65,7 +65,7 @@ MAKE A PLOT
 menu.
 </td>
 <td>
-<img alt="Make a plot bar charts" src="/static/images/bar-chart-with-excel/make-plot-bar-charts.png" title=""/>
+<img alt="Bar charts in Make a Plot menu" src="/static/images/bar-chart-with-excel/bar-charts-in-make-a-plot-menu.png" title=""/>
 </td>
 </tr>
 <tr>
