@@ -36,7 +36,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
     <td>
      <p >
       Visit
-      <a class="link--impt" href="/plot">
+      <a class="link--impt" href="https://plot.ly/plot">
        plot.ly/plot
       </a>
       to start making your own plots
@@ -57,7 +57,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
     <td>
      <p >
       Visit
-      <a class="link--impt" href="/">
+      <a class="link--impt" href="http://help.plot.ly/">
        help.plot.ly
       </a>
       to check out tutorials on how to use the GUI and the APIs
@@ -78,7 +78,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
    <tr>
     <td>
       Visit
-      <a class="link--impt" href="/feed">
+      <a class="link--impt" href="https://plot.ly/feed/">
        plot.ly/feed
       </a>
       to view some of the best plots out there!
