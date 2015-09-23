@@ -21,7 +21,7 @@ At Plotly, we love sharing. Itâ€™s easy to share or print a Plotly chart. Hereâ€
 
 ###Sharing: Direct link, facebook, and more
 
-Sharing options can be found in the lower right hand corner of a plot. You can use a direct link, a code to embed the graph in your website or blog (we have a <a href="https://plot.ly/embed/">tutorial</a> for that!), or share using Facebook, Twitter or Google+. | ![Sharing options](/static/images/printing-and-sharing-graphs/sharing-options.png)
+Sharing options can be found in the lower right hand corner of a plot. You can use a direct link, a code to embed the graph in your website or blog (we have an <a href="https://plot.ly/embed/">tutorial on embedding</a> for that!), or share using Facebook, Twitter or Google+. | ![Sharing options](/static/images/printing-and-sharing-graphs/sharing-options.png)
 
 To share from the Organize tab, click the Share button as indicated. | ![Share button](/static/images/printing-and-sharing-graphs/share-button.png)
 
