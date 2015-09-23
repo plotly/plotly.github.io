@@ -29,10 +29,10 @@ In the **Share Plot** popover you can set your graph to be public or private. Yo
 
 ### Printing: Save and print.
 
-To print a Plotly graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace.
+To print a Plotly graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace, then save it.
 
 In your workspace, look for the **Export** button in the toolbar above your graph. To save time, you can use the keyboard shortcuts “Command-P” (Mac) and “Control-P” (PC). | ![Export button](/static/images/printing-and-sharing-graphs/export-button.png)
 
-From the “Download/Export” box, you can select from a.png, .pdf, .svg or .eps files. Once you’ve picked your favorite file format, click the download button. The file will be saved in your download folder. Open the file, and print. Notice the “Include public link” button. Select the box to include your graph&#8217;s URL on the static image. This way, if you email your graph to a friend, they will have an easy way to find your interactive graph and data. | ![download export box](/static/images/printing-and-sharing-graphs/download-export.png)
+From the **Download/Export** box, you can select from a.png, .pdf, .svg or .eps files. Once you’ve picked your favorite file format, click the download button. The file will be saved in your download folder. Open the file, and print. Notice the **Include public link** button. Select the box to include your graph&#8217;s URL on the static image. This makes it easier to find your interactive graph and data. | ![download export box](/static/images/printing-and-sharing-graphs/download-export.png)
 
 **Quick tip:** Let’s say you want to print a copy of the graph we embedded at the top of this tutorial. That graph is hosted at [https://plot.ly/~abtran/14](https://plot.ly/~abtran/14). To print that graph, you can add **.png**, **.pdf**, or **.svg** to the end of the URL, open the webpage and print from your browser. For example [https://plot.ly/~abtran/14.pdf](https://plot.ly/~abtran/14). This link opens a pdf version of your graph. You can save or print right from the browser.  | ![final pdf](/static/images/printing-and-sharing-graphs/final-pdf.png)
