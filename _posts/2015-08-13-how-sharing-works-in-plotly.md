@@ -22,9 +22,7 @@ There are three types of sharing for your Plotly grids and plots:
 
 **Secret**: Anyone with the secret link can view it. It will not appear in the Plotly feed, your profile, or search engines. If it is embedded inside a webpage or an IPython notebook, anybody viewing that page will see it. You do not need to be logged in to view it. | ![Private share link](/static/images/how-sharing-works-in-plotly/private-share-link.png)
 
-This option is available from [your list of files](https://plot.ly/organize) under the "Share" icon:
-
-![Shared plot](/static/images/how-sharing-works-in-plotly/share-plot.png)
+This option is available from [your list of files](https://plot.ly/organize) under the "Share" icon: | ![Shared plot](/static/images/how-sharing-works-in-plotly/share-plot.png)
 
 ###Secret links
 
