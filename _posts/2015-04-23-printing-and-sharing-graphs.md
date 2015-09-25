@@ -27,9 +27,9 @@ To share from the Organize tab, click the Share button as indicated. | ![Share b
 
 To share from a plot in the Workspace, click the Share button as indicated. | ![Share from Workspace](/static/images/printing-and-sharing-graphs/sharing-from-workspace.png)
 
-In the **Share Plot** popover you can set your graph to be public or private. You can read more about what this means on our <a href="http://help.plot.ly/how-sharing-works-in-plotly/">How Sharing Works</a> page. | ![Collaborators page](/static/images/printing-and-sharing-graphs/collaborators.png)
+In the **Share Plot** popover you can set your graph to be public or private. You can read more about what this means on our <a href="http://help.plot.ly/how-sharing-works-in-plotly/">How Sharing Works</a> page. The **Collaborators** page lets you share with specific email addresses and Plotly users. | ![Collaborators page](/static/images/printing-and-sharing-graphs/collaborators.png)
 
-The **Collaborators** page lets you share with specific email addresses and Plotly users while the **Sharable Link** page provides you with either a private or public URL. Users you assign as collaborators can edit your graphs with you. You can do this with both public and private graphs. | ![Sharable link](/static/images/printing-and-sharing-graphs/sharable-link.png)
+The **Sharable Link** page provides you with either a private or public URL. Users you assign as collaborators can edit your graphs with you. You can do this with both public and private graphs. | ![Sharable link](/static/images/printing-and-sharing-graphs/sharable-link.png)
 
 ### Printing: Save and print.
 
