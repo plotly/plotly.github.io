@@ -5,238 +5,252 @@ title: Plotly Tutorials
 <!DOCTYPE html>
 <html>
     <head>
-    	<!-- META TAGS -->
-        {% include seo.html %}
-    	
-    	<!-- Fonts -->
-	  <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.min.css" />
-          <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
-          <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
-  	
-    	
-    	<!-- Stylesheets -->
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/layout_block.css">
-  	  <link rel="stylesheet" type="text/css" href="/stylesheets/modules.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/state.css">
-          
+    <!-- META TAGS -->
+    {% include seo.html %}
 
-  	<!--[if IE]>
-  	<style>
-  	.excel-logo{
-		bottom: 80%;
-		}
-  	</style>
-  	<!--[end if]-->
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/layout_block.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/modules.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/state.css">
+
+
+    <!--[if IE]-->
+      <style>
+        .excel-logo{
+          bottom: 80%;
+        }
+      </style>
+    <!--[end if]-->
     </head>
 
 
   {% include new_header.html %}
 
-  <body>
+  <body onscroll="navClass()">
+
+<!-- Navigation -->
 
 	<div class="sectionseparator_a">
-		<div class="bigcontainer">
-			<h1 class="centered" id="alltutorialsect">PLOTLY TUTORIALS</h1>
-			
-			<div class="row centered">
-        			<a class="button no_underline" href="#basic">Basic</a>
-        			<a class="button no_underline" href="#statistical">Statistical</a>
-        			<a class="button no_underline" href="#graph3d">3D</a>
-        			<a class="button no_underline" href="#textandlinks">Text &amp; Links</a>
-        			<a class="button no_underline" href="#classroom">Classroom</a>
-        			<a class="button no_underline" href="#videos">Videos</a>
-        			<a class="button no_underline" href="#excel">Excel</a>
-				
-			</div>
-			
-				<div class="row">
-						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic</h2></a>
-						<ul>
-							{% for page in site.posts %}
-								{% if page.state == 'active' and page.tags contains 'basic' %}
-									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-									<div class="alltutcol"> 
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}" alt="Tutorial">
-										{% endif %}
-											<div class="titlecenter">
-												<h5 class="centered"> {{page.title}} </h5>
-											</div>
-									</div></a></li>
-									<div class="{% cycle 'group 2': '', '', 'three-column-clear' %}"></div>
-								{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>	
+    <div id="scroll-nav" class="nav-scroll-relative">
+      <div class="scroll-button-wrapper">
+        <a class="nav-button" href="#basic">Basic</a>
+        <a class="nav-button" href="#statistical">Statistical</a>
+        <a class="nav-button" href="#graph3d">3D</a>
+        <a class="nav-button" href="#textandlinks">Text &amp; Links</a>
+        <a class="nav-button" href="#classroom">Classroom</a>
+        <a class="nav-button" href="#videos">Videos</a>
+        <a class="nav-button" href="#excel">Excel</a>
+      </div>
+    </div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  			<h1 class="centered" id="alltutorialsect">PLOTLY TUTORIALS</h1>
+
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  								{% if page.state == 'active' and page.tags contains 'basic' %}
+  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  									<div class="alltutcol">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}" alt="Tutorial">
+  										{% endif %}
+  											<div class="titlecenter">
+  												<h5 class="centered"> {{page.title}} </h5>
+  											</div>
+  									</div></a></li>
+  									<div class="{% cycle 'group 2': '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 	<div class="sectionseparator_b">
-		<div class="bigcontainer">
-				<div class="row">
-						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical</h2></a>
-						<ul>
-							{% for page in site.posts %}
-								{% if page.state == 'active' and page.tags contains 'statistical' %}
-									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-									<div class="alltutcol"> 
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}" alt="Tutorial">
-										{% endif %}
-										<div class="titlecenter">
-											<h5 class="centered"> {{page.title}} </h5>
-										</div>
-									</div></a></li>
-									<div class="{% cycle 'group 3': '', '', 'three-column-clear' %}"></div>
-								{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  								{% if page.state == 'active' and page.tags contains 'statistical' %}
+  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  									<div class="alltutcol">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}" alt="Tutorial">
+  										{% endif %}
+  										<div class="titlecenter">
+  											<h5 class="centered"> {{page.title}} </h5>
+  										</div>
+  									</div></a></li>
+  									<div class="{% cycle 'group 3': '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 	<div class="sectionseparator_a">
-		<div class="bigcontainer">
-
-				<div class="row">
-						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D</h2></a>
-						<ul>
-							{% for page in site.posts %}
-								{% if page.state == 'active' and page.tags contains 'graph3d' %}
-									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-									<div class="alltutcol"> 
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}" alt="Tutorial">
-										{% endif %}
-											<div class="titlecenter">
-												<h5 class="centered"> {{page.title}} </h5>
-											</div>
-									</div></a></li>
-									<div class="{% cycle 'group 4': '', '', 'three-column-clear' %}"></div>
-								{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  								{% if page.state == 'active' and page.tags contains 'graph3d' %}
+  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  									<div class="alltutcol">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}" alt="Tutorial">
+  										{% endif %}
+  											<div class="titlecenter">
+  												<h5 class="centered"> {{page.title}} </h5>
+  											</div>
+  									</div></a></li>
+  									<div class="{% cycle 'group 4': '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 	<div class="sectionseparator_b">
-		<div class="bigcontainer">
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
 
-				<div class="row">
-						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks" id="textandlinks"><h2>Text &amp; Links</h2></a>
-						<ul>
-							{% for page in site.posts %}
-								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
-									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-									<div class="alltutcol"> 
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}" alt="Tutorial">
-										{% endif %}
-											<div class="titlecenter">
-												<h5 class="centered"> {{page.title}} </h5>
-											</div>
-									</div></a></li>
-									<div class="{% cycle 'group 5': '', '', 'three-column-clear' %}"></div>
-								{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks" id="textandlinks"><h2>Text &amp; Links</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
+  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  									<div class="alltutcol">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}" alt="Tutorial">
+  										{% endif %}
+  											<div class="titlecenter">
+  												<h5 class="centered"> {{page.title}} </h5>
+  											</div>
+  									</div></a></li>
+  									<div class="{% cycle 'group 5': '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 	<div class="sectionseparator_a">
-		<div class="bigcontainer">
-				<div class="row">
-						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom</h2></a>
-						<ul>
-							{% for page in site.posts %}
-							{% if page.state == 'active' and page.tags contains 'classroom' %}
-								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-								<div class="alltutcol"> 
-									{% if page.imageurl == "" or page.imageurl == nil %}
-										<img src="/images/default.png" alt="Tutorial" />
-									{% else %}
-										<img src="{{page.imageurl}}" alt="Tutorial">
-									{% endif %}
-										<div class="titlecenter">
-											<h5 class="centered"> {{page.title}} </h5>
-										</div>
-								</div></a></li>
-								<div class="{% cycle 'group 6': '', '', 'three-column-clear' %}"></div>
-							{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  							{% if page.state == 'active' and page.tags contains 'classroom' %}
+  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  								<div class="alltutcol">
+  									{% if page.imageurl == "" or page.imageurl == nil %}
+  										<img src="/images/default.png" alt="Tutorial" />
+  									{% else %}
+  										<img src="{{page.imageurl}}" alt="Tutorial">
+  									{% endif %}
+  										<div class="titlecenter">
+  											<h5 class="centered"> {{page.title}} </h5>
+  										</div>
+  								</div></a></li>
+  								<div class="{% cycle 'group 6': '', '', 'three-column-clear' %}"></div>
+  							{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 	<div class="sectionseparator_b">
-		<div class="bigcontainer">
-				<div class="row">
-						<a class="tutorialsect_title" ref="videos" name="videos" id="videos"><h2>Videos</h2></a>
-						<ul>
-							{% for page in site.posts %}
-							{% if page.state == 'active' and page.tags contains 'videos' %}
-								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-								<div class="alltutcol"> 
-									{% if page.imageurl == "" or page.imageurl == nil %}
-										<img src="/images/default.png" alt="Tutorial" />
-									{% else %}
-										<img src="{{page.imageurl}}" alt="Tutorial">
-									{% endif %}
-										<div class="titlecenter">
-											<h5 class="centered"> {{page.title}} </h5>
-										</div>
-								</div></a></li>
-								<div class="{% cycle 'group 7': '', '', 'three-column-clear' %}"></div>
-							{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" ref="videos" name="videos" id="videos"><h2>Videos</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  							{% if page.state == 'active' and page.tags contains 'videos' %}
+  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  								<div class="alltutcol">
+  									{% if page.imageurl == "" or page.imageurl == nil %}
+  										<img src="/images/default.png" alt="Tutorial" />
+  									{% else %}
+  										<img src="{{page.imageurl}}" alt="Tutorial">
+  									{% endif %}
+  										<div class="titlecenter">
+  											<h5 class="centered"> {{page.title}} </h5>
+  										</div>
+  								</div></a></li>
+  								<div class="{% cycle 'group 7': '', '', 'three-column-clear' %}"></div>
+  							{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
+
 	<div class="sectionseparator_a">
-		<div class="bigcontainer">
-				<div class="row">
-						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2></a>
-						<ul>
-							{% for page in site.posts %}
-							{% if page.state == 'active' and page.tags contains 'excel' %}
-								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-								<div class="alltutcol">
-									<div class="container-excel">
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" class="container-pic-excel" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}"  class="container-pic-excel" alt="Tutorial">
-										{% endif %}
-										<img src="/images/Excel_logo.png"  class="excel-logo" alt="excel logo">
-									</div>
-									<div class="titlecenter">
-										<h5 class="centered"> {{page.title}} </h5>
-									</div>
-								</div></a></li>
-								<div class="{% cycle 'group 8': '', '', 'three-column-clear' %}"></div>
-							{% endif %}
-							{% endfor %}
-						</ul>
-				</div>
-		</div>
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  							{% if page.state == 'active' and page.tags contains 'excel' %}
+  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  								<div class="alltutcol">
+  									<div class="container-excel">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" class="container-pic-excel" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}"  class="container-pic-excel" alt="Tutorial">
+  										{% endif %}
+  										<img src="/images/Excel_logo.png"  class="excel-logo" alt="excel logo">
+  									</div>
+  									<div class="titlecenter">
+  										<h5 class="centered"> {{page.title}} </h5>
+  									</div>
+  								</div></a></li>
+  								<div class="{% cycle 'group 8': '', '', 'three-column-clear' %}"></div>
+  							{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
 	</div>
 
 
+	{% include new_footer.html %}
 
-
-
-	{% include new_footer.html %}  
-	<!-- Load More Buttons -->
-	
+  <!-- Scroll Menu -->
+  	<script src="/javascripts/scroll-menu.js"></script>
 
   </body>
 
