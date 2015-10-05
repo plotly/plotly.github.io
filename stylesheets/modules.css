@@ -241,6 +241,23 @@ NAVIGATION BAR STYLING
 	    font-size: 12px;}
 }
 
+#scroll-nav{
+  display: block;
+  width: 18%;
+  margin-left: 2%;
+}
+
+.nav-scroll-fixed{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-scroll-relative{
+  position: relative;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 /*****************************
 ALL TUTORIALS SECTION STYLING
@@ -357,8 +374,6 @@ ALL TUTORIALS SECTION STYLING
 BUTTONS
 *********/
 
-
-
 .button {
     background-color: #447bdc;
     border: medium none;
@@ -392,6 +407,32 @@ BUTTONS
 	}
 }
 
+.scroll-button-wrapper{
+  width: 100%;
+  max-width: 150px;
+}
+
+.nav-button {
+    background-color: #447bdc;
+    border: medium none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 5px 1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    float: left;
+    margin-bottom: 5px;
+    min-width: 100%;
+}
+
 .secondary {
     background: none repeat scroll 0 0 #8c97af;
 	    border: medium none;
@@ -411,7 +452,7 @@ BUTTONS
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-.button:hover, .button.lateralmenu-item.is-active{
+.button:hover, .nav-button:hover, .button.lateralmenu-item.is-active{
 	background: none repeat scroll 0 0 #2d56aa;
 	color: white;
 }
@@ -697,6 +738,7 @@ POP-UP MENU STYLING
 	left: 0px;
 	text-align: center;
 	vertical-align: middle;
+  overflow-y: scroll;
 }
 
 .popupheader{
@@ -725,4 +767,19 @@ TUTORIAL STYLING
 ****************/
 .graphembed{
 	max-height: 300px;
+}
+
+/*****************
+caret
+*****************/
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px solid #000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: '';
+  margin-left: 5px;
 }
