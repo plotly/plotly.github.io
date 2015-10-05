@@ -8,9 +8,7 @@ HEADER
 	line-height: 78px;
 	display: block;
 	min-width: 1080px;
-	border-bottom-color: #cccccc;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
+	border-bottom: 1px solid #cccccc;
 }
 
 .hamburger{
@@ -23,7 +21,7 @@ HEADER
 	display: block;
 	max-width: 40px;
 	max-height: 30px;
-    	margin-right: 40px;
+  margin-right: 40px;
 	margin-top: 20px;
 	}
 }
@@ -41,10 +39,14 @@ CONTAINER
   box-sizing: border-box;
 }
 
+.bigcontainer-w-nav-wrap{
+  width: 80%;
+	margin-left: 20%;
+}
+
 .smallcontainer{
    max-width: 900px;
 }
-
 
 /********************
 FOOTER
