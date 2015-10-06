@@ -115,7 +115,7 @@ You should also make sure that the data in each series follows some guidelines:
 * Box plots should not be constructed for very small data sets. A data set with only three points in it, for example, shouldn't logically be divided into four quartiles. In these cases, you can just graph the data as a scatterplot, without any boxes.
 * Usually, different trials should contain the same total number of data points. If one set is much larger than another, for example, it has a larger chance of containing random outliers. Someone looking at your box plot and seeing one series with five or six outliers, and no outliers elsewhere, might draw incorrect conclusions.
 
-#####Questions? Email us at <a class="link--impt" href="mailto:feedback@plot.ly">feedback@plot.ly</a>.
+#####Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
 
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
