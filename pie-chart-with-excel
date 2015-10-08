@@ -1,26 +1,23 @@
 ---
 layout: two_column_layout
-title: Make a Bubble Chart with Excel
+title: Make a Pie Chart with Excel
 subtitle: Plotly with Excel
-permalink: /excel/bubble-chart
-imageurl: /static/images/bubble-chart-with-excel/thum-bubble-chart-with-excel.png
-state: active
+permalink: /excel/pie-chart
+imageurl: /static/images/pie-chart-with-excel/thum-pie-chart-with-excel.png
+state: inactive
 tags: excel
-meta_description: A tutorial on how to make a bubble chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
-actioncall: Make a Bubble Chart
+meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+actioncall: Make a Pie Chart
 ---
 
-# Make a Bubble Chart with Excel
+# Make a Pie Chart with Excel
 
 <div>
-    <a href="https://plot.ly/~cimar/211/" target="_blank" title="Life Expectancy v. Per Capita GDP, 2007" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/211.png" alt="Life Expectancy v. Per Capita GDP, 2007" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="cimar:211" src="https://plot.ly/embed.js" async></script>
+    <a href="https://plot.ly/~Dreamshot/6177/" target="_blank" title="How Much Money Do You Have in Your Savings Account?" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/6177.png" alt="How Much Money Do You Have in Your Savings Account?" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:6177" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a bubble chart of your own. If you’re unfamiliar with bubble charts, check out this post:
-<a class="link--impt" href="http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts" target="_blank">
-http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
-</a>
+Follow along below to make a pie chart of your own.
 
 ### Step 1: Upload your Excel data to Plotly's grid
 
@@ -29,17 +26,17 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
    <tr>
     <td>
       Open the data file for this tutorial in Excel. You can download the file here in
-      <a class="link--impt" href="https://www.dropbox.com/s/9a4xvg5opx65m4l/Bubble%20Chat%20Data%20copy.xls?raw=1" target="_blank">
+      <a class="link--impt" href="https://www.dropbox.com/s/3h242p30pphiqud/How%20Much%20Money%20do%20You%20Have%20in%20Your%20Savings%20Account_%20copy.xls?raw=1" target="_blank">
        xls
       </a>
       or
-      <a class="link--impt" href="https://www.dropbox.com/s/wnq5oxzpgzlel5p/Bubble%20Chat%20Data.xlsx?raw=1" target="_blank">
+      <a class="link--impt" href="https://www.dropbox.com/s/4kedvb1raefjx7y/How%20Much%20Money%20do%20You%20Have%20in%20Your%20Savings%20Account_.xlsx?raw=1" target="_blank">
        xlsx
       </a>
       formats.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 24" src="/static/images/bubble-chart-with-excel/image24.png" title=""/>
+       <a href="http://imgur.com/xdHKVGX"><img src="http://i.imgur.com/xdHKVGX.png" title="" /></a>
     </td>
    </tr>
    <tr>
@@ -59,37 +56,21 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
    </tr>
    <tr>
     <td>
-      Select “Bubble charts” from the
+      Select “Pie charts” from the
       MAKE A PLOT
       menu.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 10" src="/static/images/bubble-chart-with-excel/image10.png" title=""/>
+      <a href="http://imgur.com/NjOZh0d"><img src="http://i.imgur.com/NjOZh0d.png" title="" /></a>
      </p>
     </td>
    </tr>
    <tr>
     <td>
-      Click the “Size by” option in the sidebar, and the “Text” option.
+      Choose your "label" and "value" column.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 02" src="/static/images/bubble-chart-with-excel/image02.png" title=""/>
-    </td>
-   </tr>
-   <tr>
-    <td>
-      For every set of x and y coordinates you select, select a column of values to set the size of the markers...
-    </td>
-    <td>
-       <img alt="How to make a bubble chart with excel 19" src="/static/images/bubble-chart-with-excel/image19.png" title=""/>
-    </td>
-   </tr>
-   <tr>
-    <td>
-      ...and a column of text notations for every marker, (text notations are not required to make a bubble chart.)
-    </td>
-    <td>
-       <img alt="How to make a bubble chart with excel 03" src="/static/images/bubble-chart-with-excel/image03.png" title=""/>
+       <a href="http://imgur.com/gLmuex2"><img src="http://i.imgur.com/gLmuex2.png" title="" /></a>
     </td>
    </tr>
    <tr>
@@ -101,13 +82,13 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       )
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 15" src="/static/images/bubble-chart-with-excel/image15.png" title=""/>
+       <a href="http://imgur.com/MDMUhho"><img src="http://i.imgur.com/MDMUhho.png" title="" /></a>
     </td>
    </tr>
   </tbody>
  </table>
 
-###Step 2: Sizing and Log Axis
+###Step 2: Sizing and Styling!
 
  <table>
   <tbody>
@@ -118,38 +99,27 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       popover in the toolbar.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 13" src="/static/images/bubble-chart-with-excel/image13.png" title=""/>
-       <img alt="How to make a bubble chart with excel 11" src="/static/images/bubble-chart-with-excel/image11.png" title=""/>
+       <a href="http://imgur.com/Qd3kGT1"><img src="http://i.imgur.com/Qd3kGT1.png" title="" /></a>
+       <a href="http://imgur.com/Pu8Lftp"><img src="http://i.imgur.com/Pu8Lftp.png" title="" /></a>
     </td>
    </tr>
    <tr>
     <td>
       This is what the “Style” tab of the
       TRACES
-      popover should look like for “All Traces (Bubble)”.
-      We’ve set the “Size” field to scale the bubbles’ diameter, not area.  And we’ve evened out the pixel-to-value ratio (the higher the value in the box, the smaller the bubbles will be).
-      We’ve also increased the weight of the white bubble outlines.
+      popover should look like for “Col2”.
+      We’ve set the “Rotation” field to 48. And we’ve set the "Pull apart" feild to 0.05.
+      We’ve also set the "Sector color palette" field to the divering PiYG.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 20" src="/static/images/bubble-chart-with-excel/image20.png" title=""/>
-    </td>
-   </tr>
-   <tr>
-    <td>
-      Now, open the
-      AXES
-      popover in the toolbar.
-      This is what the “Range” tab for the X Axis looks like. We’re opting for a log scale, which will result in a more linear plot.
-    </td>
-    <td>
-       <img alt="How to make a bubble chart with excel 04" src="/static/images/bubble-chart-with-excel/image04.png" title=""/>
-       <img alt="How to make a bubble chart with excel 18" src="/static/images/bubble-chart-with-excel/image18.png" title=""/>
+       <a href="http://imgur.com/befxKks"><img src="http://i.imgur.com/befxKks.png" title="" /></a>
+       <a href="http://imgur.com/Oc0ekHN"><img src="http://i.imgur.com/Oc0ekHN.png" title="" /></a>
     </td>
    </tr>
   </tbody>
  </table>
 
-###Step 3: Style and annotate!
+###Step 3: Final Accents
 
 <table>
   <tbody>
@@ -158,43 +128,32 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 12" src="/static/images/bubble-chart-with-excel/image12.png" title=""/>
+       <a href="http://imgur.com/BNpuz57"><img src="http://i.imgur.com/BNpuz57.png" title="" /></a>
     </td>
    </tr>
    <tr>
     <td>
-      This is what the “General” and “Margins” tabs of the
-      LAYOUT
-      popover should look like. We’re giving our plot a grey background, and we’ve changed some of the font options.
+      This is what the “Text” tab of the
+      TRACES
+      popover should look like. We’ve changed the positioning and display of the legend info.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 07" src="/static/images/bubble-chart-with-excel/image07.png" title=""/>
-       <img alt="How to make a bubble chart with excel 00" src="/static/images/bubble-chart-with-excel/image00.png" title=""/>
-    </td>
-   </tr>
-   <tr>
-    <td>
-      This is what the “Lines” tab of the
-      AXES
-      popover looks like. We’ve changed the grey grid to white, and increased the line weight.
-    </td>
-    <td>
-       <img alt="How to make a bubble chart with excel 17" src="/static/images/bubble-chart-with-excel/image17.png" title=""/>
+       <a href="http://imgur.com/IE7CytX"><img src="http://i.imgur.com/IE7CytX.png" title="" /></a>
     </td>
    </tr>
    <tr>
     <td>
-      This is what the
+      Now head to the 
       LEGEND
-      popover looks like.  We’ve set its background to grey, too.
+      popover and select hide. This eliminates redundant information and crowding on your plot.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 09" src="/static/images/bubble-chart-with-excel/image09.png" title=""/>
+       <a href="http://imgur.com/j6zXlbH"><img src="http://i.imgur.com/j6zXlbH.png" title="" /></a>
     </td>
    </tr>
    <tr>
     <td>
-      We’ve titled our chart and axes.  And we’re using markup to link to our source data using the
+      We’ve titled our chart. And we’re using markup to link to our source data using the
       NOTES
       popover.
       Select the “Page” option, and hide the arrow. Because our note has nothing to do with specific data points, we’re going to nestle it below the x-axis.
@@ -202,7 +161,7 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
     </td>
     <td>
        <img alt="How to make a bubble chart with excel 16" src="/static/images/bubble-chart-with-excel/image16.png" title=""/>
-       <img alt="How to make a bubble chart with excel 01" src="/static/images/bubble-chart-with-excel/image01.png" title=""/>
+       <a href="http://imgur.com/OHaGDoz"><img src="http://i.imgur.com/OHaGDoz.png" title="" /></a>
     </td>
    </tr>
    <tr>
@@ -210,19 +169,19 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 14" src="/static/images/bubble-chart-with-excel/image14.png" title=""/>
-      Source: GapMinder via &lt;a href="https://plot.ly/bchartoff/707"&gt;bchartoff&lt;/a&gt;
+       <a href="http://imgur.com/OHaGDoz"><img src="http://i.imgur.com/OHaGDoz.png" title="" /></a>
+      Source: <a href="http://www.gobankingrates.com/savings-account/62-percent-americans-under-1000-savings-survey-finds/">GOBankingRates</a>
     </td>
    </tr>
    <tr>
     <td>
-      You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Plotly graph by clicking
-      DOWNLOAD
+      You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking
+      EXPORT
       on the toolbar
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 25" src="/static/images/bubble-chart-with-excel/image25.png" title=""/>
-       <img alt="How to make a bubble chart with excel 23" src="/static/images/bubble-chart-with-excel/image23.png" title=""/>
+       <a href="http://imgur.com/j1W3svM"><img src="http://i.imgur.com/j1W3svM.png" title="" /></a>
+       <a href="http://imgur.com/OeC7MYL"><img src="http://i.imgur.com/OeC7MYL.png" title="" /></a>
     </td>
    </tr>
    <tr>
@@ -230,7 +189,7 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       Your finished chart should look something like this:
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 06" src="/static/images/bubble-chart-with-excel/image06.png" title=""/>
+       <a href="http://imgur.com/EUsZAFI"><img src="http://i.imgur.com/EUsZAFI.png" title="" /></a>
     </td>
    </tr>
    <tr>
@@ -244,7 +203,7 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
       Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
     </td>
     <td>
-       <img alt="How to make a bubble chart with excel 26" src="/static/images/bubble-chart-with-excel/image26.png" title=""/>
+       <a href="http://imgur.com/ZC4uQGB"><img src="http://i.imgur.com/ZC4uQGB.png" title="" /></a>
     </td>
    </tr>
   </tbody>
