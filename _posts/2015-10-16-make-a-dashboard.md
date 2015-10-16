@@ -19,80 +19,42 @@ actioncall: Make a Dashboard
 
 Follow along below to make a dashboard of your own.
 
-### Step 1: Authenticate Your Account on Dashboards.ly
+### Step 1 - Authenticate Your Account on Dashboards.ly
 
- <table>
-  <tbody>
-   <tr>
-    <td>
-      Head to Plotly's dashboard site, http://dashboards.ly/.
-    </td>
-    <td>
-       <a href="http://imgur.com/5DyFtIl"><img src="http://i.imgur.com/5DyFtIl.png" title="" /></a>
-    </td>
-   </tr>
+Head to Plotly's dashboard site, http://dashboards.ly/.
+
+![Dashboards homepage](http://i.imgur.com/5DyFtIl.png)
+ 
+### Step 2 - Click "get started" and sign in. 
+
+You'll have to retrieve your API key.
+ 
+![Sign in](http://i.imgur.com/CO5K1Nh.png)
+
+### Step 3 - Authentication
+
+It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to "add to dashboard."
+
+![Add to dashboard](http://i.imgur.com/PTHsUP3.png)   
    
-   <tr>
-    <td>
-      Click "get started" and sign in. You'll have to retrieve your API key. 
-    </td>
-    <td>
-       <a href="http://imgur.com/CO5K1Nh"><img src="http://i.imgur.com/CO5K1Nh.png" title="" /></a>
-    </td>
-   </tr>
+### Step 4 - Create and Edit Your Dashboard 
+
+Once you begin adding graphs to your dashboard, you'll be able to drag to organize them.
    
-   <tr>
-    <td>
-      You'll then be authenticated. It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to "add to dashboard."
-    </td>
-    <td>
-       <a href="http://imgur.com/PTHsUP3"><img src="http://i.imgur.com/PTHsUP3.png" title="" /></a>
-    </td>
-   </tr>
+![Organize your graphs](http://i.imgur.com/az5lky1.png)
+
+### Step 5 - Style your dashboard! 
+
+In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered.
+
+![Styling](http://i.imgur.com/9Thf85r.png)
    
-   ### Step 2: Create and Edit Your Dashboard
+### Step 6 - Finish! 
+
+When you're done, scroll down and click "publish dashboard." You'll be given a URL to see your finished product.
+
+![Publish dashboard](http://i.imgur.com/jvtVyVT.png)
    
-   <tr>
-    <td>
-      Once you begin adding graphs to your dashboard, you'll be able to drag to organize them. 
-    </td>
-    <td>
-       <a href="http://imgur.com/az5lky1"><img src="http://i.imgur.com/az5lky1.png" title="" /></a>
-    </td>
-   </tr>
-   
-   <tr>
-    <td>
-      In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered.
-    </td>
-    <td>
-       <a href="http://imgur.com/9Thf85r"><img src="http://i.imgur.com/9Thf85r.png" title="" /></a>
-    </td>
-   </tr>
-   
-   <tr>
-    <td>
-      In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered.
-    </td>
-    <td>
-       <a href="http://imgur.com/9Thf85r"><img src="http://i.imgur.com/9Thf85r.png" title="" /></a>
-    </td>
-   </tr>
-   
-   <tr>
-    <td>
-      When you're done, scroll down and click "publish dashboard." You'll be given a URL to see your finished product.
-    </td>
-    <td>
-       <a href="http://imgur.com/jvtVyVT"><img src="http://i.imgur.com/jvtVyVT.png" title="" /></a>
-    </td>
-   </tr>
-   
-   <tr>
-    <td>
-      Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST. Got a cool dashboard of your own? Drop us a line!
-    </td>
-    <td>
-       <a href="http://imgur.com/jKd27n7"><img src="http://i.imgur.com/jKd27n7.png" title="" /></a>
-    </td>
-   </tr>
+Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST. Got a cool dashboard of your own? Drop us a line!
+
+![Dashboard](http://i.imgur.com/jKd27n7.png)
