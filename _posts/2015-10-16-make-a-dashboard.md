@@ -12,10 +12,7 @@ actioncall: Make a Dashboard
 
 # Make a Dashboard with Plotly
 
-<div>
-    <a href="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST" target="_blank" title="Quarterly Outlook" style="display: block; text-align: center;"><img src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST" alt="Quarterly Outlook" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST" src="https://plot.ly/embed.js" async></script>
-</div>
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST.embed?width=640&amp;height=480"></iframe>
 
 Follow along below to make a dashboard of your own.
 
