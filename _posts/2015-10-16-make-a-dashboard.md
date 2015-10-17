@@ -4,7 +4,7 @@ title: Make a Dashboard with Plotly
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
 imageurl: http://i.imgur.com/fSpbbqA.png
-state: active
+state: inactive
 tags: dashboards
 meta_description: A tutorial on how to make a dashboard with Plotly. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Dashboard
@@ -45,12 +45,17 @@ Once you begin adding graphs to your dashboard, you'll be able to drag to organi
 In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered.
 
 ![Styling](http://i.imgur.com/9Thf85r.png)
+
+### Step 6 - Add Links to Navigation Bar
+
    
-### Step 6 - Finish! 
+### Step 7 - Publish your dashboard! 
 
 When you're done, scroll down and click "publish dashboard." You'll be given a URL to see your finished product.
 
 ![Publish dashboard](http://i.imgur.com/jvtVyVT.png)
+
+### Step 8 - Embed Your Dashboard
    
 Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST. Got a cool dashboard of your own? Drop us a line!
 
