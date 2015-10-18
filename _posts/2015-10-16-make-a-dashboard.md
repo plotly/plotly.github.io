@@ -57,7 +57,7 @@ When you're done, scroll down and click "publish dashboard." You'll be given a U
 
 ### Step 8 - Embed Your Dashboard
  
-Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours: "<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST"></iframe>" 
+Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours: !"<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST"></iframe>" 
    
 Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST. Got a cool dashboard of your own? Drop us a line!
 
