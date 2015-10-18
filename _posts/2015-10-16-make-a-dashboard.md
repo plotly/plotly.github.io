@@ -44,7 +44,7 @@ Once you begin adding graphs to your dashboard, you'll be able to drag to organi
 
 In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered.
 
-![Styling](http://i.imgur.com/9Thf85r.png)
+![Styling](http://i.imgur.com/v7tXvXQ.png)
 
 ### Step 6 - Add Links to Navigation Bar
 
