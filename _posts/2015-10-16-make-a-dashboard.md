@@ -12,7 +12,7 @@ actioncall: Make a Dashboard
 
 # Make a Dashboard with Plotly
 
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST"></iframe>
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
 
 Follow along below to make a dashboard of your own.
 
@@ -48,7 +48,10 @@ In this particular dashboard, we have six graphs; organizing them in rows of two
 
 ### Step 6 - Add Links to Navigation Bar
 
-   
+As you are editing your dashboard, click settings in the upper right. This will give you the opportunity to adjust your navigation links at the upper left of the dashboard. Relevant links can add value to the dashaboard. 
+
+![Navigation links](http://i.imgur.com/m2T5Kra.png)
+
 ### Step 7 - Publish your dashboard! 
 
 When you're done, scroll down and click "publish dashboard." You'll be given a URL to see your finished product.
@@ -59,8 +62,8 @@ When you're done, scroll down and click "publish dashboard." You'll be given a U
  
 Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours.
 
-![Embed dashboard](http://i.imgur.com/EpKLeAL.png)
+![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)
    
-Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST. Got a cool dashboard of your own? Drop us a line!
+Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS. Got a cool dashboard of your own? Drop us a line!
 
-![Dashboard](http://i.imgur.com/jKd27n7.png)
+![Dashboard](http://i.imgur.com/uhxCioO.png)
