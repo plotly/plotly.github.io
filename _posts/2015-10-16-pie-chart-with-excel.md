@@ -30,7 +30,7 @@ Open the data file for this tutorial in Excel. You can download the file here in
        xlsx
       </a>
       formats.
-![Excel view](http://i.imgur.com/xdHKVGX.png)
+![Excel view](http://i.imgur.com/QyEi1dy.png)
 
 ### Step 2 - Head to Plotly
       
@@ -106,4 +106,4 @@ Your finished chart should look something like this:
 
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 
-![Excel workbook](http://i.imgur.com/ZC4uQGB.png)
+![Excel workbook](http://i.imgur.com/A54g3on.png)
