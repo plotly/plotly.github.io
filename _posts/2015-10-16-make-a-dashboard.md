@@ -12,7 +12,7 @@ actioncall: Make a Dashboard
 
 # Make a Dashboard with Plotly
 
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST.embed?width=640&amp;height=480"></iframe>
+<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-pTJsonHqrwjs4wQ45YBgST"></iframe>
 
 Follow along below to make a dashboard of your own.
 
