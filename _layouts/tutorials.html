@@ -55,7 +55,29 @@ title: Plotly Tutorials
   			<h1 class="centered" id="alltutorialsect">PLOTLY TUTORIALS</h1>
 
   				<div class="row">
-  						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic</h2></a>
+  						<a class="tutorialsect_title" href="#plotlybasic" name="plotlybasic" id="plotlybasic"><h2>Plotly Basics</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  								{% if page.state == 'active' and page.tags contains 'plotlybasic' %}
+  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  									<div class="alltutcol">
+  										{% if page.imageurl == "" or page.imageurl == nil %}
+  											<img src="/images/default.png" alt="Tutorial" />
+  										{% else %}
+  											<img src="{{page.imageurl}}" alt="Tutorial">
+  										{% endif %}
+  											<div class="titlecenter">
+  												<h5 class="centered"> {{page.title}} </h5>
+  											</div>
+  									</div></a></li>
+  									<div class="{% cycle 'group 2': '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic Charts</h2></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'basic' %}
