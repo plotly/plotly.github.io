@@ -71,6 +71,25 @@ You can control the width and the height of the iframe by adding `width` and `he
 
 The graph will autosize in the iframe container.
 
+### <a name="options"></a>Options for customizing the iframe
+
+You can add these URL query parameters to further customize the iframe:
+
+- autosize=True
+- link=false
+- modebar=false
+- logo=false
+- width=100%
+- height=650
+
+| Option  | Description  | Example |
+| :------------ |:---------------:| -----:|
+| ```autosize=True``` | layout.autosize in chart is forced | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
+| ```link=false``` | Plotly "Edit chart" link is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
+| ```modebar=false``` | Plotly toolbar is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
+| ```logo=false``` | Tool bar shows, but Plotly logo does not | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
+| ```width=100%``` | Set chart width within iframe | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
+| ```height=650``` | Set chart height | https://plot.ly/~Dreamshot/411.embed?autosize=True&height=650 |
 
 ### Step 2: Paste the HTML into your site’s code
 
