@@ -536,6 +536,7 @@ TUTORIAL HOME PAGE STYLING
 	padding: 22px;
     	font-size: 14px;
     	font-weight: 200;
+    	min-width: 150px !important;
 }
 
 #loadMore{
