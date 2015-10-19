@@ -5,20 +5,20 @@ subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
 imageurl: http://i.imgur.com/fSpbbqA.png
 state: active
-tags: dashboards
+tags: excel
 meta_description: A tutorial on how to make a dashboard with Plotly. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Dashboard
 ---
 
 # Make a Dashboard with Plotly
 
-<iframe width="640" height="480" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+<iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
 
 Follow along below to make a dashboard of your own.
 
 ### Step 1 - Authenticate Your Account on Dashboards.ly
 
-Head to Plotly's dashboard site, http://dashboards.ly/.
+Head to Plotly's dashboard site: <a href="http://dashboards.ly/">dashboards.ly</a>.
 
 ![Dashboards homepage](http://i.imgur.com/5DyFtIl.png)
  
