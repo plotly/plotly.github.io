@@ -5,7 +5,7 @@ subtitle: How to create a line of best fit
 permalink: /lines-of-best-fit-video
 imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
 state: active
-tags: basic classroom videos textandlink
+tags: videos
 meta_description: Learn to calculate a line of best fit in less than two minutes. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart
 ---
