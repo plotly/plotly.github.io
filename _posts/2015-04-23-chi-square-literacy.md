@@ -1,12 +1,12 @@
 ---
 layout: new_layout
 title: Chi-square
-subtitle: Understanding when to use a chi square test?
+subtitle: Understanding when to use a chi square test
 permalink: /chi-square
 imageurl: /static/images/chi-square/thum-chi-square.png
-state: inactive
-tags: STATISTICS 
-meta_description: Tutorial on the chi-square test. Make a graph online and for free with Plotly
+state: active
+tags: dataliteracy 
+meta_description: What is a chi-square-test? Understanding when and where to use one.
 actioncall: Make a Graph
 ---
 
