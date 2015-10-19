@@ -7,6 +7,7 @@ imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a heatmap with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+popularity: featured
 actioncall: Make a Heatmap
 ---
 
