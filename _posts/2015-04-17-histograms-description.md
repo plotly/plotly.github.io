@@ -1,6 +1,6 @@
 ---
 layout: new_layout
-title: Histograms
+title: Intro to Histograms
 subtitle: What is a histogram?
 permalink: /histogram
 imageurl: /static/images/histograms-description/thum-histogram-description.png
