@@ -21,7 +21,7 @@ HEADER
 	display: block;
 	max-width: 40px;
 	max-height: 30px;
-  margin-right: 40px;
+  	margin-right: 40px;
 	margin-top: 20px;
 	}
 }
@@ -37,7 +37,7 @@ CONTAINER
   margin: 0 auto;
   padding: 20px 40px;
   box-sizing: border-box;
-  background-image: "/images/3d_plot_background.jpg";
+  background-image: url("/images/3d_plot_background.jpg");
   background-position-y: 40%;
   background-position-x: 50%;  
 }
