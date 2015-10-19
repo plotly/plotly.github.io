@@ -281,7 +281,7 @@ title: Plotly Tutorials
   						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2></a>
   						<ul>
   							{% for page in site.posts %}
-  							{% if page.state == 'active' and page.tags contains 'excel' %}
+  							{% if page.state == 'active' and page.tags contains 'excel' and page.popularity contains 'featured' %}
   								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
   								<div class="alltutcol">
   									<div class="container-excel">
