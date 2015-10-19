@@ -41,13 +41,15 @@ title: Plotly Tutorials
 	<div class="sectionseparator_a">
     <div id="scroll-nav" class="nav-scroll-relative">
       <div class="scroll-button-wrapper">
-        <a class="nav-button" href="#basic">Basic</a>
-        <a class="nav-button" href="#statistical">Statistical</a>
-        <a class="nav-button" href="#graph3d">3D</a>
-        <a class="nav-button" href="#textandlinks">Text &amp; Links</a>
-        <a class="nav-button" href="#classroom">Classroom</a>
+        <a class="nav-button" href="#plotlybasic">Plotly basocs</a>      	
+        <a class="nav-button" href="#basic">Basic charts</a>
+        <a class="nav-button" href="#statistical">Statistical charts</a>
+        <a class="nav-button" href="#graph3d">3D charts</a>
+        <a class="nav-button" href="#textandlinks">Charts with Text &amp; Links</a>
+        <a class="nav-button" href="#classroom">Classroom resources</a>
+        <a class="nav-button" href="#dataliteracy">Data literacy</a>
         <a class="nav-button" href="#videos">Videos</a>
-        <a class="nav-button" href="#excel">Excel</a>
+        <a class="nav-button" href="#excel">Plotly & Excel</a>
       </div>
     </div>
     <div class="bigcontainer-w-nav-wrap">
@@ -104,7 +106,7 @@ title: Plotly Tutorials
     <div class="bigcontainer-w-nav-wrap">
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical</h2></a>
+  						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical charts</h2></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'statistical' %}
@@ -131,7 +133,7 @@ title: Plotly Tutorials
     <div class="bigcontainer-w-nav-wrap">
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D</h2></a>
+  						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D charts</h2></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'graph3d' %}
@@ -186,7 +188,7 @@ title: Plotly Tutorials
     <div class="bigcontainer-w-nav-wrap">
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom</h2></a>
+  						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom resources</h2></a>
   						<ul>
   							{% for page in site.posts %}
   							{% if page.state == 'active' and page.tags contains 'classroom' %}
@@ -209,7 +211,36 @@ title: Plotly Tutorials
   		</div>
     </div>
 	</div>
-	<div class="sectionseparator_b">
+	
+		<div class="sectionseparator_b">
+    <div class="bigcontainer-w-nav-wrap">
+  		<div class="bigcontainer">
+  				<div class="row">
+  						<a class="tutorialsect_title" href="#dataliteracy" name="dataliteracy" id="dataliteracy"><h2>Data literacy</h2></a>
+  						<ul>
+  							{% for page in site.posts %}
+  							{% if page.state == 'active' and page.tags contains 'dataliteracy' %}
+  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
+  								<div class="alltutcol">
+  									{% if page.imageurl == "" or page.imageurl == nil %}
+  										<img src="/images/default.png" alt="Tutorial" />
+  									{% else %}
+  										<img src="{{page.imageurl}}" alt="Tutorial">
+  									{% endif %}
+  										<div class="titlecenter">
+  											<h5 class="centered"> {{page.title}} </h5>
+  										</div>
+  								</div></a></li>
+  								<div class="{% cycle 'group 6': '', '', 'three-column-clear' %}"></div>
+  							{% endif %}
+  							{% endfor %}
+  						</ul>
+  				</div>
+  		</div>
+    </div>
+	</div>
+	
+	<div class="sectionseparator_a">
     <div class="bigcontainer-w-nav-wrap">
   		<div class="bigcontainer">
   				<div class="row">
@@ -237,7 +268,7 @@ title: Plotly Tutorials
     </div>
 	</div>
 
-	<div class="sectionseparator_a">
+	<div class="sectionseparator_b">
     <div class="bigcontainer-w-nav-wrap">
   		<div class="bigcontainer">
   				<div class="row">
