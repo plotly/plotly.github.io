@@ -1,12 +1,12 @@
 ---
 layout: two_column_layout
-title: Make a Dashboard with Plotly
+title: Make a Dashboard with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
 imageurl: http://i.imgur.com/fSpbbqA.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a dashboard with Plotly. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Dashboard
 ---
 
