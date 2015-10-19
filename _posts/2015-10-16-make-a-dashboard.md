@@ -67,6 +67,6 @@ Embed your dashboard in an iframe on your own site! Edit the following code, rep
 
 ![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)
    
-Our insurance "Quarterly Outlook" can be found here: http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS. Got a cool dashboard of your own? Drop us a line!
+Our insurance "Quarterly Outlook" can be found here at the secret link dashboards.ly provided: <a href="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS">http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS</a>. Got a cool dashboard of your own? Drop us a line!
 
 ![Dashboard](http://i.imgur.com/uhxCioO.png)
