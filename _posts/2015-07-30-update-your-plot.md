@@ -5,7 +5,7 @@ subtitle: How to update your plotly graphs with new data
 permalink: /update-a-graphs-data
 imageurl: /static/images/update-your-plot/graph-thumbnail.png
 state: active
-tags: basic
+tags: plotlybasic
 meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
 actioncall: Make a plot
 ---
