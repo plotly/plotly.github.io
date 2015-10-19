@@ -4,7 +4,7 @@ title: Getting data
 permalink: /getting-data
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
-tags: classroom basic
+tags: classroom plotlybasic
 meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
 ---
 
