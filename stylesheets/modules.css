@@ -561,7 +561,8 @@ TUTORIAL HOME PAGE STYLING
 	border-radius: 8px;
 	text-align: center;
 	margin-bottom: 100px;
-  height: 200px;
+  	height: 200px;
+  	margin-left: 2% !important;
 }
 
 .categories:hover{
