@@ -1,6 +1,6 @@
 ---
 layout: new_layout
-title: Chi-square
+title: Intro to the chi-square test
 subtitle: Understanding when to use a chi square test
 permalink: /chi-square
 imageurl: /static/images/chi-square/thum-chi-square.png
