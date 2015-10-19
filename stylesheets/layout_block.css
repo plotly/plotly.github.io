@@ -37,6 +37,9 @@ CONTAINER
   margin: 0 auto;
   padding: 20px 40px;
   box-sizing: border-box;
+}
+
+.help-splash{
   background-image: url("/images/3d_plot_background.jpg");
   background-position-y: 40%;
   background-position-x: 50%;  
