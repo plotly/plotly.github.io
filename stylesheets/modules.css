@@ -557,10 +557,25 @@ TUTORIAL HOME PAGE STYLING
 .categories{
 	min-height: 350px;
 	position: relative;
+	background: rgba(255,255,255,0.9);
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.categories:hover{
+	background: rgba(255,255,255,0.5);
 }
 
 .categories h3{
-margin: 3px 0;}
+	margin: 3px 0;
+	margin-bottom: 40px;
+}
+
+.categories img{
+	width: 50px;
+	display: inline-block;
+}
 
 #thumimgA, #thumimgB, #thumimgC, #thumtextA, #thumtextB, #thumtextC{
 	position: absolute;
@@ -573,12 +588,6 @@ margin: 3px 0;}
 
 #thumtextA, #thumtextB, #thumtextC{
 	z-index: 999;
-}
-
-.categories p{
-	padding: 20% 20px 0px 20px;
-	text-align: center;
-	font-weight: 400;
 }
 
 @media (max-width: 750px){
