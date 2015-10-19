@@ -83,7 +83,7 @@ You can add these URL query parameters to further customize the iframe:
 - height=650
 
 | Option  | Description  | Example |
-| :------------ |:---------------:| -----:|
+| :----- |:---------|: ---------------|
 | ```autosize=True``` | layout.autosize in chart is forced | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
 | ```link=false``` | Plotly "Edit chart" link is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
 | ```modebar=false``` | Plotly toolbar is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
