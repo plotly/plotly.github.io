@@ -22,7 +22,7 @@ Head to Plotly's dashboard site: <a href="http://dashboards.ly/">dashboards.ly</
 
 <video width="100%" height="650" autoplay>
   <source src="https://s3.amazonaws.com/plotly-downloads/dashboardsly-splash-3.mp4" type="video/mp4">
-Your browser does not support the video tag.
+(Plotly tried to show a video here, but your browser does not support the video tag.)
 </video>
  
 ### Step 2 - Click "get started" and sign in. 
