@@ -5,7 +5,7 @@ subtitle: How to Fit Data with Error Bars
 permalink: /fitting-data-with-error-bars-video
 imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
 state: active
-tags: videos classroom statistical
+tags: videos
 meta_description: Learn to fit data with error bars in under two minutes. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart with Error Bars
 ---
