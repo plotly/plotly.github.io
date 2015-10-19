@@ -4,7 +4,7 @@ title: Intro to the chi-square test
 subtitle: Understanding when to use a chi square test
 permalink: /chi-square
 imageurl: /static/images/chi-square/thum-chi-square.png
-state: active
+state: inactive
 tags: dataliteracy 
 meta_description: What is a chi-square-test? Understanding when and where to use one.
 actioncall: Make a Graph
