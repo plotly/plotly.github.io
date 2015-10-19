@@ -533,7 +533,9 @@ TUTORIAL HOME PAGE STYLING
 	clear: both;
 	color: #ffffff;
 	text-align: center;
-
+	padding: 22px;
+    	font-size: 18px;
+    	font-weight: 200;
 }
 
 #loadMore{
