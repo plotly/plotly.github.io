@@ -5,7 +5,7 @@ subtitle: A Guide to the Options in the Plotly Modebar
 permalink: /getting-to-know-the-plotly-modebar
 imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
-tags: basic
+tags: plotlybasic
 meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Plotly Modebar options
 ---
