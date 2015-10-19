@@ -4,7 +4,7 @@ title: Quadratic fits
 permalink: /quadratic-fits
 imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
-tags: classroom basic
+tags: classroom
 meta_description: A tutorial on quadratic regression. Make graphs online and for free with Plotly
 actioncall: make a chart
 ---
