@@ -26,7 +26,7 @@ http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts
 ### Step 1: Upload your Excel data to Plotly's grid
 
 Open the data file for this tutorial in Excel. You can download the file here in
-<a class="link--impt" href="https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv" target="_blank">
+<a class="link--impt" href="https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv?raw=1" target="_blank">
 CSV
 </a>
 format.
