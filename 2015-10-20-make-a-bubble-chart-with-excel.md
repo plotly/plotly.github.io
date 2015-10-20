@@ -118,10 +118,9 @@ Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link
 
 ![Source](http://i.imgur.com/hYht3pb.png)
 
-Source: GapMinder via <a href="https://plot.ly/bchartoff/707">bchartoff</a>
+![Source2](http://i.imgur.com/OolkCsB.png)
 
-You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. 
-Download an image of your Plotly graph by clicking EXPORT on the toolbar.
+You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
 
 ![Export](http://i.imgur.com/tIGzmyp.png)
 
