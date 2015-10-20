@@ -19,6 +19,10 @@ actioncall: Make a Graph with Mulitple Y Axes
 
 In this tutorial, you will learn how to make multiple-axes charts, like the one above with 2 y-axes.
 
+### Step 1 - Data
+
+https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv
+
 ### Step 1 - Create a Graph With Multiple Traces
 
 Create a Plotly graph or open a graph with 2 or more traces, like the one below. We will create a separate y-axis for each of these traces. You can follow along by using this Plotly graph: https://plot.ly/~Dreamshot/4437 and find the data here.
