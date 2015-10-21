@@ -17,58 +17,67 @@ actioncall: Make a Graph with Mulitple Y Axes
     <script data-plotly="Dreamshot:4437" src="https://plot.ly/embed.js" async></script>
 </div>
 
-In this tutorial, you will learn how to make multiple-axes charts, like the one above with 2 y-axes.
+Follow along below to make a pie chart of your own.
 
-### Step 1 - Data
+### Step 1 - Upload your Excel data to Plotly's grid
 
-https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv
+Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv">CSV</a>
+format.
 
-### Step 1 - Create a Graph With Multiple Traces
+![Data](http://i.imgur.com/ZFINaQl.png)
 
-Create a Plotly graph or open a graph with 2 or more traces, like the one below. We will create a separate y-axis for each of these traces. You can follow along by using this Plotly graph: https://plot.ly/~Dreamshot/4437 and find the data here.
+### Step 2 - Head to Plotly
+      
+Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
-![Graph](http://i.imgur.com/Rr5gRi2.png)
+### Step 3 - Creating Your Chart
 
-### Step 2 - Adding a Second Y-Axis
+Label your columns like we did below. You'll have three y-axis columns (male number, female number, male:female ratio) and one x-axis column (age). Select “Line plots” from the MAKE A PLOT menu and then click line plot in the bottom left.
 
-Now, we’ll add a second y-axis to the right-hand-side of this plot. Make sure that your browser is pointed to [https://plot.ly/plot](https://plot.ly/plot) and that you have this chart &#8211; [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) &#8211; or another one open for editing.
+![Plotting](http://i.imgur.com/YAzvCSP.png)
 
-Click on the AXES icon on the Plotly toolbar to open the AXES editing popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
+Your plot would initially look something like this.
 
-The AXES popover appears. Here’s what it looks like. Click on the “+” to add a new axis. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image10.png)
+![Original](http://i.imgur.com/ePWOHkx.png)
 
-Here is where we add an extra y-axis to the right-hand-side of the graph. Select “Right” like in the screenshot, and click the blue “Go” button. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image15.png) 
+Head to the TRACES popover and access Col1 and Col3 from the dropdown menu. For "Type" you'll want these traces to be bar. For "Mode" you'll want these traces to be stack. These two traces apply to the first y-axis (the one on the left).
 
-Close the AXES popover and take a look at our chart &#8211; It now has a second y-axis! Click on the second y-axis label to give it a name. In this chart, I named it “Y-Axis Number 2”. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image07.png)
+![Editing](http://i.imgur.com/CdyZaIq.png)
 
-### Step 3 - Assign a Data Trace to the New Y-Axis
+Now, access your third trace (Col4) and prepare to add the second y-axis. Click "New Axis/Subplot..."
 
-High five! You’ve created a second y-axis (on the right), but all three of the data traces still scale with the first y-axis (on the left). What gives? This is because all three traces are still assigned to the first y-axis. You need to assign a trace to the new y-axis in order for its data to scale with it &#8211; the steps below show you how.
+![New Axis](http://i.imgur.com/NBGFIsl.png)
 
-First, click on the TRACES icon on the Plotly toolbar to open the TRACES popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
-Select the green trace from the traces dropdown. Then, click “Y2” under “Axes” to assign the green trace to the new y-axis. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image08.png)
-Close the AXES popover to inspect your chart. Notice that the green trace now scales with second y-axis on the right-hand-side. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image00.png)
+You'll want to apply your new y-axis to the right side of the graph.
 
-###Step 4 - Adjusting the Y-Axis Range Visually
+![Right](http://i.imgur.com/Sp7Mavd.png)
 
-If you’re reading this, you probably know that the range of each of your x and y axes can be precisely adjusted in the AXES popover. It is often faster and easier, however, to adjust the axes range visually by clicking-and-dragging the corners of your graph. See the screenshots below for a preview of how to do this.
+Your graph should now look something like this:
 
-Notice that the last green point overlaps the the last blue point. It would be clearer if there was a separation between these points. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image00.png)
-Move your cursor around the bottom-corner of your chart until the cursor icon changes to a downward-facing arrow. Then, click and drag downwards. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image14.png)
-Nice! The range of the 2nd y-axis is now adjusted, and there is more space between the blue and green traces. Looking much better! | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image13.png)
+![Progress](http://i.imgur.com/WURvnim.png)
+
+Good job, you now have two y-axes. You are now ready for styling!
+
+### Step 4 - Sizing and Styling!
+
+You might notice that the y-axis is busy with grid lines. Open the AXES popover in the toolbar to clean this up. Select the y-axis and turn grid lines "off."
+
+![Grid lines](http://i.imgur.com/yv4OMzR.png)
+
+You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. 
+
+Within the legend on the right side of the graph, you can label your "line" trace "Ratio male/female," Col3 "female," and Col1 "male."
 
 ### Step 5 - Finalizing Your Graph
 
 Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more.
 
+![Final](http://i.imgur.com/118Yipj.png)
+
 We’ve titled our chart. And we’ve linked to our source data in the x-axis label area.
 
 You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
 
-Your finished chart should look something like this:
-
-![Final chart]()
-
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 
-![Excel workbook]()
+![Excel workbook](http://i.imgur.com/szq4417.png)
