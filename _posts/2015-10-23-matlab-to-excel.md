@@ -13,13 +13,13 @@ meta_description: Export MATLAB charts and data to Excel. Easily share charts an
 
 <h1>MATLAB to Excel</h1>
 
-<img src="/images/matlab-to-excel.jpg" />
+<img src="/images/matlab-to-excel-cropped.jpg" />
 
 <h3 style="color:#444;">
     MATLAB chart URL <a href="https://plot.ly/~jackp/3835" target="_blank">https://plot.ly/~jackp/383</a>
 </h3>
 
-<h2>+ <code>.xlsx</code> or <code>.csv</code></h2>
+<h3>+ <code>.xlsx</code> or <code>.csv</code></h3>
 
 <h3 style="color:#444;">
     Download to Excel <a href="https://plot.ly/~jackp/3835.xlsx" target="_blank">https://plot.ly/~jackp/3835<span style="color:red;">.xlsx</span></a>
