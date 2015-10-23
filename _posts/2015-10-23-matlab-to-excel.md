@@ -35,6 +35,6 @@ actioncall: Make a chart
 
 <p>
     <a class="button btn-large" href="https://plot.ly/matlab/">Get started with Plotly for MATLAB</a>
-    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for MATLAB</a></p>
+    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a></p>
 
 </div>
