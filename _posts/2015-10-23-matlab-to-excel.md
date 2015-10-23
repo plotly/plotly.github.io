@@ -7,7 +7,6 @@ imageurl: /static/images/matlab-to-excel.jpg
 state: active
 tags: excel
 meta_description: Export MATLAB charts and data to Excel. Easily share charts and data between MATLAB and Excel users.
-actioncall: Make a Bubble Chart
 ---
 
 #MATLAB to Excel
@@ -18,9 +17,9 @@ actioncall: Make a Bubble Chart
 
 ###Chart URL: <a href="https://plot.ly/~jackp/3835" target="_blank"></a>
 
-##+ ```.xls```
+##+ ```.xlsx```
 
-###Download to Excel! <a href="https://plot.ly/~jackp/3835.xls" target="_blank">https://plot.ly/~jackp/3835.xls</a>
+###Download to Excel: <a href="https://plot.ly/~jackp/3835.xlsx" target="_blank">https://plot.ly/~jackp/3835.xlsx</a>
 
 <div>
     <a href="https://plot.ly/~jackp/3835/" target="_blank" title="MATLAB contour" style="display: block; text-align: center;"><img src="https://plot.ly/~jackp/3835.png" alt="MATLAB contour" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
