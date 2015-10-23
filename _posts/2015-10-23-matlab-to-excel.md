@@ -21,7 +21,7 @@ meta_description: Export MATLAB charts and data to Excel. Easily share charts an
 
 <h3>Download to Excel: <a href="https://plot.ly/~jackp/3835.xlsx" target="_blank">https://plot.ly/~jackp/3835.xlsx</a></h3>
 
-<h3>Download the chart below made in MATLAB to Excel, simply by appending ```.xls``` or ```.csv``` the chart URL. Plotly lets you easily share data and charts between different langauges and platforms.</h3>
+<h3>Download the chart below made in MATLAB to Excel, simply by appending <code>.xls</code> or <code>.csv</code> the chart URL. Plotly lets you easily share data and charts between different langauges and platforms.</h3>
 
 </div>
 
