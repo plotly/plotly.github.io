@@ -3,7 +3,7 @@ layout: two_column_layout
 title: MATLAB to Excel
 subtitle: Exporting MATLAB charts to Excel
 permalink: /excel/matlab-to-excel
-imageurl: /static/images/matlab-to-excel.jpg
+imageurl: /images/matlab-to-excel.jpg
 state: active
 tags: excel
 meta_description: Export MATLAB charts and data to Excel. Easily share charts and data between MATLAB and Excel users.
@@ -11,7 +11,7 @@ meta_description: Export MATLAB charts and data to Excel. Easily share charts an
 
 #MATLAB to Excel
 
-<img src="/static/images/matlab-to-excel.jpg" />
+<img src="/images/matlab-to-excel.jpg" />
 
 ###Download the chart below made in MATLAB to Excel, simply by appending ```.xls``` or ```.csv``` the chart URL. Plotly lets you easily share data and charts between different langauges and platforms.
 
