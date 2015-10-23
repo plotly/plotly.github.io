@@ -16,3 +16,10 @@ actioncall: Make a Graph with a Subplot
     <a href="https://plot.ly/~Dreamshot/404/" target="_blank" title="Photon Density vs. Photon Energy" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/404.png" alt="Photon Density vs. Photon Energy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:404" src="https://plot.ly/embed.js" async></script>
 </div>
+
+Follow along below to make a chart with a subplot.
+
+### Step 1 - Upload your Excel data to Plotly's grid
+
+Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/subplot.csv">CSV</a>
+format.
