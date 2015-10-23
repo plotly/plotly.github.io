@@ -33,8 +33,7 @@ actioncall: Make a chart
 
 <p>Download the chart above made in Python to Excel, simply by appending <code>.xls</code> or <code>.csv</code> to the chart URL. Plotly lets you easily share data and charts between different languages and platforms.</p>
 
-<p>
+<p style="text-align:center;">
     <a class="button btn-large" href="https://plot.ly/python/">Get started with Plotly for Python</a>
     <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a></p>
-
 </div>
