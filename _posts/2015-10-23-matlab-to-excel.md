@@ -33,8 +33,9 @@ actioncall: Make a chart
 
 <p>Download the chart above made in MATLAB to Excel, simply by appending <code>.xls</code> or <code>.csv</code> to the chart URL. Plotly lets you easily share data and charts between different languages and platforms.</p>
 
-<p>
+<p style="text-align:center;">
     <a class="button btn-large" href="https://plot.ly/matlab/">Get started with Plotly for MATLAB</a>
-    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a></p>
+    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a>
+</p>
 
 </div>
