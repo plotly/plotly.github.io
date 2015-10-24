@@ -94,3 +94,5 @@ To change the color scale of a plot:
 After Adding the styling, the plot will look something like this:
 
 ![Styled Surface Plot](/static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png)
+
+Now you can share the generated plot with your peers/collaborators (basically, anyone you want to!)
