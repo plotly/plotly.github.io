@@ -3,7 +3,7 @@ layout: two_column_layout
 title: Make a 3D Surface Plot with Excel
 subtitle: Plotly with Excel
 permalink: /excel/3d-surface
-imageurl: https://plot.ly/~tarzzz/380.png
+imageurl: /static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a 3D Surface Plot. Plotly is the easiest and fastest way to make and share graphs online.
@@ -37,11 +37,11 @@ Select “3D Surface Plot” from the `MAKE A PLOT` button on menu bar.
 
 ![3D Surface Plots](/static/images/3d-surface-plot-with-excel/3d-surface-plot-from-menu.png)
 
-Now choose the input data shape as "Z Matrix", and "Select all columns" for z-values.
+Now choose the input data shape as "Z Matrix".
 
 ![Data Shape Type](/static/images/3d-surface-plot-with-excel/select-data-shape.png)
 
-Click the blue plot button in the sidebar to create the Surface Plot.
+Set "Select all columns" for z-values, and click the blue plot button in the sidebar to create the Surface Plot.
 
 ![Create chart](/static/images/3d-surface-plot-with-excel/plot-surface.png)
 
@@ -93,4 +93,4 @@ To change the color scale of a plot:
 
 After Adding the styling, the plot will look something like this:
 
-<img src="https://plot.ly/~tarzzz/380.png" alt="3D Surface Plot Using Excel" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" />
+![Styled Surface Plot](/static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png)
