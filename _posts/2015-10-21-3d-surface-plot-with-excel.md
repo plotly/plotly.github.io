@@ -11,10 +11,10 @@ actioncall: Make a 3D Surface Plot
 ---
 
 # Make a 3D Surface Plot with Excel
-<div>
-    <a href="https://plot.ly/~tarzzz/380/" target="_blank" title="3D Surface Plot" style="display: block; text-align: center;"><img src="https://plot.ly/~tarzzz/380.png" alt="3D Surface Plot Using Excel" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="tarzzz:" src="https://plot.ly/embed.js" async></script>
+<div >
+    <iframe width="640" height="480" frameborder="1" scrolling="no" src="https://plot.ly/~tarzzz/380.embed"></iframe>
 </div>
+
 
 This step by step tutorial will help you create your own 3D Surface Plots.
 
@@ -96,3 +96,9 @@ After Adding the styling, the plot will look something like this:
 ![Styled Surface Plot](/static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png)
 
 Now you can share the generated plot with your peers/collaborators (basically, anyone you want to!)
+
+Click on share button on left menu bar:
+
+![Share Button](/static/images/3d-surface-plot-with-excel/share-plot-button.png)
+
+You can share it as a web-link, embed in your website(as an iframe), or share it via popular social networking sites. Cool, huh!
