@@ -17,7 +17,7 @@ actioncall: Make a Graph with Mulitple Y Axes
     <script data-plotly="Dreamshot:4437" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a pie chart of your own.
+Follow along below to make a chart with multiple y axes of your own.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
