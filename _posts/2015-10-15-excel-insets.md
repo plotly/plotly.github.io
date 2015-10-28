@@ -1,23 +1,23 @@
 ---
 layout: one_column_layout
-title: Make a Graph With a Subplot in Excel
-subtitle: A Step by Step Guide to Making a Graph with a Subplot in Excel
-permalink: /excel/subplots
+title: Make a Chart with an Inset Plot in Excel
+subtitle: A Step by Step Guide to Making a Graph with an Inset Plot in Excel
+permalink: /excel/insets
 imageurl: /static/images/subplots/thum-subplots.png 
 state: inactive
 tags: basic
-meta_description: Create a graph with a subplot in Excel. Follow our step-by-step tutorial to make a graph with a subplot for free and online with Plotly.
-actioncall: Make a Chart with Subplots
+meta_description: Create a chart with an inset in Excel. Follow our step-by-step tutorial to make a graph with an inset for free and online with Plotly.
+actioncall: Make a Chart with Insets
 ---
 
-#Graph With a Subplot in Excel
+#Chart With a Inset in Excel
 
 <div>
     <a href="https://plot.ly/~Dreamshot/404/" target="_blank" title="Photon Density vs. Photon Energy" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/404.png" alt="Photon Density vs. Photon Energy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:404" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a chart with a subplot.
+Follow along below to make a chart with an inset.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
@@ -47,7 +47,7 @@ Your plot would initially look something like this.
 Head to the TRACES popover and access Col5 from the dropdown menu. From "Axes" you'll want to click New Axis/Subplot
 bar. From New Axis/Subplot you'll want to click "Inset" under New Subplot.
 
-![Create Subplot](http://i.imgur.com/j06ec0P.png)
+![Create Inset](http://i.imgur.com/j06ec0P.png)
 
 Your plot would then look something like this.
 
@@ -72,7 +72,7 @@ You can play with the "Value" option within the error bar menu to get the bars t
 
 ### Step 4 - Sizing and Styling!
 
-Adding titles to the x and y axis of your original plot and subplot are important, as is an overall title for 
+Adding titles to the x and y axis of your original plot and inset plot are important, as is an overall title for 
 your plot. After titling your plot, it should look something like this.
 
 ![Titles](http://i.imgur.com/TYdhLJD.png)
@@ -81,14 +81,14 @@ Head to the LEGEND popover. From there, you can hide your legend; it isn't reall
 
 ![Legend](http://i.imgur.com/2kdhgyE.png)
 
-You might notice that the grid lines on the subplot clash with the grid lines of your original plot. Head to the
+You might notice that the grid lines on the inset plot clash with the grid lines of your original plot. Head to the
 AXES popover, then select X Axis 2 (Y Axis 2) from the drop down menu. Head to "lines" and turn the grid lines off.
 
 ![Grid Lines off X](http://i.imgur.com/zZ6Kozq.png)
 
 ![Grid Lines off Y](http://i.imgur.com/5hcDKAF.png)
 
-In order to get a distinguished subplot "boxed-in" look, you can turn the Axis line and Mirror on in the case of
+In order to get a distinguished inset "boxed-in" look, you can turn the Axis line and Mirror on in the case of
 X Axis 2 (Y Axis 2) and also turn the Zero line off in both cases.
 
 ![Axis Line/Mirror X](http://i.imgur.com/SPOEO1T.png)
