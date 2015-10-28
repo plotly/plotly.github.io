@@ -1,5 +1,5 @@
 ---
-layout: one_column_layout
+layout: two_column_layout
 title: Make a Chart with an Inset Plot in Excel
 subtitle: A Step by Step Guide to Making a Graph with an Inset Plot in Excel
 permalink: /excel/insets
