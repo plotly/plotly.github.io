@@ -10,7 +10,7 @@ meta_description: Create a chart with an inset in Excel. Follow our step-by-step
 actioncall: Make a Chart with Insets
 ---
 
-#Chart With a Inset in Excel
+#Chart with an Inset Plot in Excel
 
 <div>
     <a href="https://plot.ly/~Dreamshot/404/" target="_blank" title="Photon Density vs. Photon Energy" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/404.png" alt="Photon Density vs. Photon Energy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
