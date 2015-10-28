@@ -3,7 +3,7 @@ layout: one_column_layout
 title: Make a Graph With a Subplot in Excel
 subtitle: A Step by Step Guide to Making a Graph with a Subplot in Excel
 permalink: /make-a-graph-with-a-subplot
-imageurl: /excel/subplots/
+imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: inactive
 tags: basic
 meta_description: Create a graph with a subplot in Excel. Follow our step-by-step tutorial to make a graph with a subplot for free and online with Plotly.
