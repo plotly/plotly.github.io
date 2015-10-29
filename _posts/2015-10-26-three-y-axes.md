@@ -85,3 +85,29 @@ for all y-axes.
 Your graph should now look something like this:
 
 ![Progress](http://i.imgur.com/Y4f1J7K.png)
+
+You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. 
+
+Within the legend on the right side of the graph, you can label your "Col2" trace "Cost," Col3 "Output" and Col4 "Defective."
+
+### Step 5 - Finalizing Your Graph
+
+Your plot should now look something like this. In order to get the graph at the top of the tutorial, you’ll need to style it a little more. You can adjust the "Lines/Markers" within the TRACES popover. You can also smooth the line "Shape" within the style tab of the TRACES popover. 
+
+![Lines/Markers](http://i.imgur.com/2REaJST.png)
+
+![Smoothing](http://i.imgur.com/qKPmIem.png)
+
+We’ve titled our chart. We've also colored-coded our y-axis labels to our traces. You can even add "Tick Prefixes" within the AXES popover and "Labels" tab. And we’ve linked to our source data in the x-axis label area.
+
+![Prefixes](http://i.imgur.com/CGk1bET.png)
+
+![Color-coded](http://i.imgur.com/RQg9LOs.png)
+
+You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
+
+![Final](http://i.imgur.com/dKVgLT0.png)
+
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
+
+![Excel workbook]()
