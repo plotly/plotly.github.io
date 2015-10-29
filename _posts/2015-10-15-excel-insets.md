@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Chart with an Inset Plot in Excel
 subtitle: A Step by Step Guide to Making a Graph with an Inset Plot in Excel
-permalink: /make-a-graph-with-an-inset-plot-in-excel
+permalink: /excel/insets
 imageurl: /static/images/subplots/thum-subplots.png 
 state: active
 tags: basic
