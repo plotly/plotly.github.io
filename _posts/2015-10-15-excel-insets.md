@@ -21,7 +21,7 @@ Follow along below to make a chart with an inset.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
-Open the data file for this tutorial in Excel. You can download the file here in <a href="hhttps://raw.githubusercontent.com/plotly/datasets/master/inset.zip">CSV</a>
+Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/inset.zip">CSV</a>
 format.
 
 ![Data](http://i.imgur.com/uPPOAi9.png)
