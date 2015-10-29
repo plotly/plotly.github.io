@@ -4,7 +4,7 @@ title: Make a Chart with an Inset Plot in Excel
 subtitle: A Step by Step Guide to Making a Graph with an Inset Plot in Excel
 permalink: /excel/insets
 imageurl: /static/images/subplots/thum-subplots.png 
-state: inactive
+state: active
 tags: basic
 meta_description: Create a chart with an inset in Excel. Follow our step-by-step tutorial to make a graph with an inset for free and online with Plotly.
 actioncall: Make a Chart with Insets
