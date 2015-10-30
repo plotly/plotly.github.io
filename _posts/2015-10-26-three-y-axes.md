@@ -96,9 +96,9 @@ Your plot should now look something like this. In order to get the graph at the 
 
 We’ve titled our chart. We've also colored-coded our y-axis labels to our traces. You can even add "Tick Prefixes" within the AXES popover and "Labels" tab. And we’ve linked to our source data in the x-axis label area.
 
-![Prefixes](http://i.imgur.com/CGk1bET.png)
+![Prefixes](http://i.imgur.com/AT9d9AH.png)
 
-![Color-coded](http://i.imgur.com/RQg9LOs.png)
+![Color-coded](http://i.imgur.com/oCPqGX2.png)
 
 You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
 
