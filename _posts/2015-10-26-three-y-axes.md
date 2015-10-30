@@ -21,7 +21,7 @@ actioncall: Make a Graph with Three Y Axes
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
-Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.zip">CSV</a>
+Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.csv">CSV</a>
 format.
 
 ![Data](http://i.imgur.com/o0r1tGj.png)
