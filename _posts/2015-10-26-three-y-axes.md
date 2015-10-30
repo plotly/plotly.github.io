@@ -19,8 +19,6 @@ actioncall: Make a Graph with Three Y Axes
     <script data-plotly="Dreamshot:6499" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a pie chart of your own.
-
 ### Step 1 - Upload your Excel data to Plotly's grid
 
 Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.zip">CSV</a>
