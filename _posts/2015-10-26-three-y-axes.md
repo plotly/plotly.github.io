@@ -1,12 +1,12 @@
 ---
 layout: one_column_layout
-title: Three Y Axes Graph
-subtitle: A Step by Step Guide to Making a Graph with Three Y Axes
+title: Three Y Axes Graph in Excel
+subtitle: A Step by Step Guide to Making a Graph with Three Y Axes in Excel
 permalink: /make-a-graph-with-three-y-axes
 imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: inactive
 tags: basic
-meta_description: Create a graph with 3 traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a three axes graph for free and online with Plotly.
+meta_description: Create a graph with 3 traces, with a separate y-axis for each trace in Excel. Follow our step-by-step tutorial to make a three axes graph for free and online with Plotly.
 actioncall: Make a Graph with Three Y Axes
 ---
 
