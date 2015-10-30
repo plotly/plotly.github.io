@@ -23,7 +23,7 @@ Follow along below to make a pie chart of your own.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
-Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.csv">CSV</a>
+Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.zip">CSV</a>
 format.
 
 ![Data](http://i.imgur.com/o0r1tGj.png)
@@ -110,4 +110,4 @@ You can download your finished Plotly graph to embed in your Excel workbook. We 
 
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 
-![Excel workbook]()
+![Excel workbook](http://i.imgur.com/tKH6oDg.png)
