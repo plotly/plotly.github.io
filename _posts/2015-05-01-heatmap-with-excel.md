@@ -9,7 +9,7 @@ tags: excel
 meta_description: A tutorial on how to make a heatmap with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 actioncall: Make a Heatmap
-carouselimageurl: /static/images/bubble-chart-with-excel/thum-bubble-chart-with-excel.png
+carouselimageurl: /static/images/heatmap-carousel.jpg
 ---
 
 #How to Make a Heatmap with Excel
