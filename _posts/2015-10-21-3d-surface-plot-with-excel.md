@@ -8,6 +8,7 @@ state: active
 tags: excel
 meta_description: A tutorial on how to make a 3D Surface Plot. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a 3D Surface Plot
+carouselimageurl: /static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png
 ---
 
 # Make a 3D Surface Plot with Excel
