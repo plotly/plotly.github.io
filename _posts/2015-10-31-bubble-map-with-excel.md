@@ -43,3 +43,10 @@ Select “Bubble map” from the MAKE A PLOT menu and then click bubble map in t
 Your plot would initially look something like this.
 
 ![Original](http://i.imgur.com/CLVEdB1.png)
+
+Since our data only encompasses the U.S., we can change the map layout to focus on the Lower 48, Alaska and Hawaii.
+Head to the LAYOUT popover, then select the "Geo layout" option and select "USA" within the scope dropdown.
+
+![Domain](http://i.imgur.com/abvC6TF.png)
+
+
