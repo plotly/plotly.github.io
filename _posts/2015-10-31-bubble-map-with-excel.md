@@ -12,6 +12,10 @@ actioncall: Make a Bubble Map
 ---
 
 <div>
+    <a href="https://plot.ly/~Dreamshot/6575/" target="_blank" title="City Populations" style="display: block; 
+    text-align: center;"><img src="https://plot.ly/~Dreamshot/6575.png" alt="City Populations" style="max-width: 100%;width: 
+    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:6575" src="https://plot.ly/embed.js" async></script>
 </div>
 
 Follow along below to make a buuble map of your own.
@@ -49,4 +53,20 @@ Head to the LAYOUT popover, then select the "Geo layout" option and select "USA"
 
 ![Domain](http://i.imgur.com/abvC6TF.png)
 
+You can just the "Type" of layout within the dropdown. We suggest going with "Albers usa" for this plot.
 
+![Type](http://i.imgur.com/mo5ncke.png)
+
+### Step 5 - Finalizing Your Graph
+
+We’ve titled our chart. You can too. We came up with "2014 U.S. City Populations."
+
+![Title](http://i.imgur.com/Iu8cKIY.png)
+
+You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
+
+![Export](http://i.imgur.com/Xre9YPA.png)
+
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
+
+![Excel workbook](
