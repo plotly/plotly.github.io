@@ -2,24 +2,24 @@
     <div class="hero-slider">
         {% for page in site.posts limit: 6 %} 
         {% if page.state == 'active' %}
-        <div class="card-container">
-            <article class="card">
-                {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
-                    {{page.carouselimageurl}}
-                    <div class="img" style="background: url({{page.carouselimageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
-                    </div>
-                {% endif %}
-                <div class="body">
-                    <div class="title">
-                        <a href="http://help.plot.ly{{page.permalink}}" class="title">{{page.title}}</a>
-                    </div>
-                    <div class="button">
-                        <a href="http://help.plot.ly{{page.permalink}}" class="view">View<br/>Tutorial</a>
-                    </div>
+            {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
+                <div class="card-container">
+                    <article class="card">
+                        <div class="img" style="background: url({{page.carouselimageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+                        </div>
+                        <div class="body">
+                            <div class="title">
+                                <a href="http://help.plot.ly{{page.permalink}}" class="title">{{page.title}}</a>
+                            </div>
+                            <div class="button">
+                                <a href="http://help.plot.ly{{page.permalink}}" class="view">View<br/>Tutorial</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </article>
-        </div>
-        {% endif %} {% endfor %}
+            {% endif %}
+        {% endif %}
+        {% endfor %}
     </div>
     <br clear="both" />
     <!-- </div> -->
