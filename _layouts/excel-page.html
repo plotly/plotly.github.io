@@ -76,32 +76,25 @@ title: Plotly Excel
   
 
 {% for page in site.posts %}
-  {% for section in page.section %}
-  <section id="{{section | slugify}}">
-  <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">{{section}}</h3>
+    {% for section in page.section %}
+    <section id="{{section | slugify}}">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">{{section}}</h3>
 
-  {% if page.state == 'active' and page.section == section %}
-        <div class="item">
-            <div class="meta">
-                <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+    {% if page.state == 'active' and page.section == section %}
+        {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
+            <div class="item">
+                <div class="meta">
+                    <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+                </div>
+                <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+                </div>
+                <div class="title">
+                    <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+                </div>
             </div>
-             {% if page.imageurl == "" or page.imageurl == nil %}
-             <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
-           
-            </div>
-                <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-              {% else %}
-                 <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
-           
-            </div>
-              {% endif %}
-            
-            <div class="title">
-                <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-            </div>
-        </div>
-        <!-- </div> -->
         {% endif %}
+        <!-- </div> -->
+    {% endif %}
   </section>
   {% endfor %}
 {% endfor %}  
