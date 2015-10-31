@@ -10,7 +10,7 @@ meta_description: A tutorial on how to make a dashboard with Plotly and Excel. P
 popularity: featured
 carouselimageurl: http://i.imgur.com/fSpbbqA.png
 
-section: first section
+section: Dashboards
 
 actioncall: Make a Dashboard
 actioncall-url: http://actioncalllink.com
