@@ -9,7 +9,7 @@ tags: excel
 meta_description: A tutorial on how to make a bubble chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 actioncall: Make a Bubble Chart
-carouselimageurl: /static/images/bubble-carousel.jpg
+carouselimageurl: /images/bubble-carousel.jpg
 ---
 
 # Make a Bubble Chart with Excel
