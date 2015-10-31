@@ -9,7 +9,7 @@ tags: excel
 meta_description: A tutorial on how to make a graph with error bars with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 actioncall: Make a Graph with Error Bars
-carouselimageurl: /static/images/error-carousel.jpg
+carouselimageurl: /images/error-carousel.jpg
 ---
 
 #How to Make a Graph with Error Bars with Excel 
