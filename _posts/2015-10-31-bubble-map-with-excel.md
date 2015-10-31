@@ -26,7 +26,7 @@ Open the data file for this tutorial in Excel. You can download the file here in
 <a href="https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv">CSV</a>
 format.
 
-![Data]()
+![Data](http://i.imgur.com/Xv1qmsQ.png)
 
 ### Step 2 - Head to Plotly
       
@@ -69,4 +69,4 @@ You can download your finished Plotly graph to embed in your Excel workbook. We 
 
 To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
 
-![Excel workbook](
+![Excel workbook](http://i.imgur.com/96NPoql.png)
