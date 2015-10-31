@@ -8,7 +8,6 @@ state: active
 tags: excel
 meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Pie Chart
-carouselimageurl: /static/images/graph-with-error-bars-with-excel/thum-graph-with-error-bars-with-excel.png
 ---
 
 # Make a Pie Chart with Excel
