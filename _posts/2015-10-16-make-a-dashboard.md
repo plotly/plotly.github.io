@@ -8,6 +8,7 @@ state: active
 tags: excel
 meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
+carouselimageurl: http://i.imgur.com/fSpbbqA.png
 
 section: first section
 
