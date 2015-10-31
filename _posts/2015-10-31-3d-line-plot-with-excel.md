@@ -20,7 +20,7 @@ This step by step tutorial will help you create your own 3D Line Plots.
 
 **Sections:** Upload, Create, Decorate and Deploy
 
-**Pre-requisite:** Download the <a class="link--impt" href="https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv" target="_blank">
+**Pre-requisite:** Download the <a class="link--impt" href="https://raw.githubusercontent.com/plotly/datasets/master/line_3d_dataset.csv" target="_blank">
 sample data file</a> required for the plot onto your local system.
 
 ### Upload - Your data to Plotly's grid
@@ -37,7 +37,7 @@ Select “3D Line Plot” from the `MAKE A PLOT` button on menu bar.
 
 ![3D Line Plots](/static/images/3d-line-plot-with-excel/3d-line-plot-from-menu.png)
 
-Select the columns to be used as x,y and z axes for line plot.
+Select the columns to be used as x, y and z axes for line plot.
 
 ![Set Axes](/static/images/3d-line-plot-with-excel/select-data-axes.png)
 
@@ -81,6 +81,6 @@ Now you can share the generated plot with your peers/collaborators (basically, a
 
 Click on share button on left menu bar:
 
-![Share Button](/static/images/3d-surface-plot-with-excel/share-plot-button.png)
+![Share Button](/static/images/3d-line-plot-with-excel/share-plot-button.png)
 
 You can share it as a web-link, embed in your website(as an iframe), or share it via popular social networking sites. Cool, huh!
