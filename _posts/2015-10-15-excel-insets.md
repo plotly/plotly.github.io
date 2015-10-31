@@ -1,36 +1,48 @@
 ---
-layout: two_column_layout
+layout: excel-tutorial-single_layout
 title: Make a Chart with an Inset Plot in Excel
 subtitle: A Step by Step Guide to Making a Graph with an Inset Plot in Excel
 permalink: /excel/insets
 imageurl: /static/images/subplots/thum-subplots.png 
-state: active
-tags: basic
+state: inactive
+tags: excel
 meta_description: Create a chart with an inset in Excel. Follow our step-by-step tutorial to make a graph with an inset for free and online with Plotly.
-actioncall: Make a Chart with Insets
----
+popularity: featured
+carouselimageurl: http://i.imgur.com/xH25cQC.png
 
-#Chart with an Inset Plot in Excel
+section: first section
+
+actioncall: Make a Chart with Insets
+actioncall-url: http://actioncalllink.com
+
+download-url: http://downloadlink.com
+
+similar:
+ - title: Tutorial 1
+   url: http://link.com
+   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Tutorial 2
+   url: http://link.com
+   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Tutorial 3
+   url: http://link.com
+   imgurl: http://i.imgur.com/uhxCioO.png
+
+otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
 <div>
     <a href="https://plot.ly/~Dreamshot/404/" target="_blank" title="Photon Density vs. Photon Energy" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/404.png" alt="Photon Density vs. Photon Energy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:404" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a chart with an inset.
-
-### Step 1 - Upload your Excel data to Plotly's grid
-
-Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/inset.csv">CSV</a>
-format.
-
-![Data](http://i.imgur.com/uPPOAi9.png)
-
-### Step 2 - Head to Plotly
-
-Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free 
-Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will 
-now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" 
+steps:
+ - title: Upload your Excel data to Plotly's grid
+   sub-steps: 
+    -copy: Open the data file for this tutorial in Excel. You can download the file here in <a href="https://raw.githubusercontent.com/plotly/datasets/master/inset.csv">CSV</a> format.
+      img: ![Data](http://i.imgur.com/uPPOAi9.png)
+ - title: Head to Plotly
+   sub-steps:
+   -copy: Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" 
 href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart
