@@ -1,6 +1,6 @@
 <div class="hero">
     <div class="hero-slider">
-        {% for page in site.posts limit: 6 %} 
+        {% for page in site.posts %} 
         {% if page.state == 'active' %}
             {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
                 <div class="card-container">
