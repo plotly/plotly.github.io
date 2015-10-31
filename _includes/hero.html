@@ -4,12 +4,8 @@
         {% if page.state == 'active' %}
         <div class="card-container">
             <article class="card">
-                {% if page.imageurl == "" or page.imageurl == nil %}
-                <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
-                </div>
-                <img src="/images/default.png" alt="Tutorial" /> 
-                {% else %}
-                <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+                {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
+                    <div class="img" style="background: url({{page.carouselimageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
                 </div>
                 {% endif %}
                 <div class="body">
