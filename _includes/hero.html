@@ -5,8 +5,9 @@
         <div class="card-container">
             <article class="card">
                 {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
+                    {{page.carouselimageurl}}
                     <div class="img" style="background: url({{page.carouselimageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
-                </div>
+                    </div>
                 {% endif %}
                 <div class="body">
                     <div class="title">
