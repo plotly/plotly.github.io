@@ -3,7 +3,7 @@ layout: one_column_layout
 title: Make a Bubble Map with Excel
 subtitle: Plotly with Excel
 permalink: /excel/bubble-map
-imageurl: 
+imageurl: static/images/bubble-map.png
 state: inactive
 tags: excel
 meta_description: A tutorial on how to make a bubble map with Excel. Plotly is the easiest and fastest way to 
