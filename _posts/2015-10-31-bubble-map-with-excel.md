@@ -18,7 +18,7 @@ actioncall: Make a Bubble Map
     <script data-plotly="Dreamshot:6575" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a buuble map of your own.
+Follow along below to make a bubble map of your own.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
