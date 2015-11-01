@@ -27,23 +27,17 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-live-graph: <div>
-    <a href="https://plot.ly/~cimar/211/" target="_blank" title="Life Expectancy v. Per Capita GDP, 2007" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/211.png" alt="Life Expectancy v. Per Capita GDP, 2007" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="cimar:211" src="https://plot.ly/embed.js" async></script>
-</div>
+live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
 
 steps: 
-
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv)"
       img: "![Excel view](http://i.imgur.com/5ON7Ypp.png)"
-
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
-
  - title: Sizing and Log Axis
    sub-steps:
     - copy: "Your plot should look something like this. 
@@ -56,7 +50,6 @@ steps:
       img: ![Axes](http://i.imgur.com/zpmMa1X.png)
     - copy: "We’re opting for a log scale, which will result in a more linear plot."
       img: ![Axes2](http://i.imgur.com/ijOtC0F.png)
-
  - title: Style and annotate!
    sub-steps:
     - copy: "Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more."
@@ -73,8 +66,6 @@ steps:
       img: ![Note2](http://i.imgur.com/34heJSi.png)
     - copy: Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source.
       img: ![Source](http://i.imgur.com/hYht3pb.png)
-
-
  - title: Export & Share
    sub-steps:
     - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
