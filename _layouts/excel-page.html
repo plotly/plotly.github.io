@@ -135,7 +135,6 @@ title: Plotly Excel
         var ahref = $(aChild).attr('href');
         aArray.push(ahref);
     } // this for loop fills the aArray with attribute href values
-
     var newArray = $.map(aArray, function(v) {
         return v === "" ? null : v;
     });
@@ -144,7 +143,6 @@ title: Plotly Excel
         var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
         var windowHeight = $(window).height(); // get the height of the window
         var docHeight = $(document).height();
-
         for (var i = 0; i < newArray.length; i++) {
             var theID = newArray[i];
             var divPos = $(theID).offset().top; // get the offset of the div from the top of page
@@ -155,7 +153,6 @@ title: Plotly Excel
                 $("a[href='" + theID + "']").closest('li').removeClass("active");
             }
         }
-
         if (windowPos + windowHeight == docHeight) {
             if (!$("aside li:last-child a").closest('li').hasClass("active")) {
                 var navActiveCurrent = $(".active").closest('a').attr("href");
@@ -164,17 +161,6 @@ title: Plotly Excel
             }
         }
     });
-
-
-
-
-
-
-
-
-
-
-
     $(function() {
         var $item = $('.item');
         $item.hover(function() {
@@ -183,11 +169,6 @@ title: Plotly Excel
             $(this).find('.img').removeClass("hover");
         });
     });
-
-
-
-
-
     </script>
         <script src="/javascripts/owl.carousel.min.js"></script>
     {% include scripts-index.html %}

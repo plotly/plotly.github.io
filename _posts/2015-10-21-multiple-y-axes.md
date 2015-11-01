@@ -4,7 +4,7 @@ title: Multiple Y Axes Graph
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
 permalink: /make-a-graph-with-multiple-axes
 imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
-state: incactive
+state: active
 tags: basic
 meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
 actioncall: Make a Graph with Mulitple Y Axes
@@ -17,7 +17,7 @@ actioncall: Make a Graph with Mulitple Y Axes
     <script data-plotly="Dreamshot:4437" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Follow along below to make a pie chart of your own.
+Follow along below to make a chart with multiple y axes of your own.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 

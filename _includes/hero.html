@@ -1,28 +1,25 @@
 <div class="hero">
     <div class="hero-slider">
-        {% for page in site.posts limit: 6 %} 
+        {% for page in site.posts %} 
         {% if page.state == 'active' %}
-        <div class="card-container">
-            <article class="card">
-                {% if page.imageurl == "" or page.imageurl == nil %}
-                <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+            {% if page.carouselimageurl != "" and page.carouselimageurl != nil %}
+                <div class="card-container">
+                    <article class="card">
+                        <div class="img" style="background: url({{page.carouselimageurl}}) no-repeat center center; background-color: #fff;">
+                        </div>
+                        <div class="body">
+                            <div class="title">
+                                <a href="http://help.plot.ly{{page.permalink}}" class="title">{{page.title}}</a>
+                            </div>
+                            <div class="button">
+                                <a href="http://help.plot.ly{{page.permalink}}" class="view">View<br/>Tutorial</a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-                <img src="/images/default.png" alt="Tutorial" /> 
-                {% else %}
-                <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
-                </div>
-                {% endif %}
-                <div class="body">
-                    <div class="title">
-                        <a href="http://help.plot.ly{{page.permalink}}" class="title">{{page.title}}</a>
-                    </div>
-                    <div class="button">
-                        <a href="http://help.plot.ly{{page.permalink}}" class="view">View<br/>Tutorial</a>
-                    </div>
-                </div>
-            </article>
-        </div>
-        {% endif %} {% endfor %}
+            {% endif %}
+        {% endif %}
+        {% endfor %}
     </div>
     <br clear="both" />
     <!-- </div> -->
