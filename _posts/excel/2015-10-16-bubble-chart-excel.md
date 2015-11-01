@@ -12,7 +12,6 @@ carouselimageurl: /images/bubble-carousel.jpg
 section: Basic Charts
 actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/~jackp/14788/
-<!-- download-url: http://downloadlink.com -->
 
 similar:
  - title: Tutorial 1
