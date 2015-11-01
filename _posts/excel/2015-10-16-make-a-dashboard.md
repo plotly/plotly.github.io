@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Dashboard with Plotly and Excel
+title: Make an Online Dashboard  with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
 imageurl: /static/images/dashboards/dashboard-thumbnail.jpg
