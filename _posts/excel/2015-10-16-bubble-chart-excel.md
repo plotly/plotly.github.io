@@ -13,7 +13,6 @@ section: Basic Charts
 actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/~jackp/14788/
 <!-- download-url: http://downloadlink.com -->
----
 
 similar:
  - title: Tutorial 1
@@ -75,3 +74,4 @@ steps:
       img: "![Finished](http://i.imgur.com/ff5feZ5.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](http://i.imgur.com/DpJJbQP.png)"
+---
