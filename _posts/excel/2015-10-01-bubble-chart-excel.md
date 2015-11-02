@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Bubble Chart Online with Plotly and Excel
 subtitle: Bubble charts with Plotly
-permalink: /excel/bubble-charts
+permalink: /excel/bubble-chart
 imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
 state: active
 tags: excel
@@ -26,7 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+live-graph: <div><a href="https://plot.ly/~cimar/211/" target="_blank" title="Life Expectancy v. Per Capita GDP, 2007" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/211.png" alt="Life Expectancy v. Per Capita GDP, 2007" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a><script data-plotly="cimar:211" src="https://plot.ly/embed.js" async></script></div>
 
 steps: 
  - title: Upload your Excel data to Plotly's grid
