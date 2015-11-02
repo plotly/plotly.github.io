@@ -6,7 +6,7 @@ permalink: /excel/bubble-charts
 imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
 state: active
 tags: excel
-meta_description: A tutorial on how to make a bubble chart online with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a bubble chart online with Excel.
 popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
 section: Basic Charts
