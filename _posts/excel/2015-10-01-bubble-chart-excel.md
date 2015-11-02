@@ -64,7 +64,7 @@ steps:
       img: ![Note](http://i.imgur.com/4CI4Lj7.png)
     - copy: Because our note has nothing to do with specific data points, we’re going to nestle it below the x-axis. Now drag it to the bottom corner of your plot.
       img: ![Note2](http://i.imgur.com/34heJSi.png)
-    - copy: Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link to the data source.
+    - copy: Once your note looks like you want it to, use the HTML anchor tag (<a>) to link to the data source.
       img: ![Source](http://i.imgur.com/hYht3pb.png)
  - title: Export & Share
    sub-steps:
