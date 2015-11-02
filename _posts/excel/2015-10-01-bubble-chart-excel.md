@@ -12,6 +12,7 @@ popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
 actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/~jackp/14788/
+downloadlink: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
 
 similar:
  - title: Tutorial 1
