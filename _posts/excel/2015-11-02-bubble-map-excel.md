@@ -32,46 +32,34 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 steps: 
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv)"
       img: "![Excel view](http://i.imgur.com/5ON7Ypp.png)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
- - title: Sizing and Log Axis
+ - title: Creating Your Chart
    sub-steps:
-    - copy: "Your plot should look something like this."
-      img: "![Progress](http://i.imgur.com/i0m9Oer.png)"
-    - copy: "Open the TRACES popover in the toolbar."
-      img: "![Traces](http://i.imgur.com/9hkxMs2.png)"
-    - copy: "This is what the “Style” tab of the TRACES popover should look like for “All Traces (Bubble)”. We’ve set the “Size” field to scale the bubbles’ diameter, not area. And we’ve evened out the pixel-to-value ratio (the higher the value in the box, the smaller the bubbles will be). We’ve also increased the weight of the white bubble outlines."
-      img: "![Style tab](http://i.imgur.com/wKMZtRX.png)"
-    - copy: "Now, open the AXES popover in the toolbar. This is what the 'Range' tab for the X Axis looks like."
-      img: ![Axes](http://i.imgur.com/zpmMa1X.png)
-    - copy: "We’re opting for a log scale, which will result in a more linear plot."
-      img: ![Axes2](http://i.imgur.com/ijOtC0F.png)
- - title: Style and annotate!
+    - copy: "Label your columns like we did below. You'll have a column for latitude and longitude. Then, click   both the "Size By" and "Text" options on the left; assign "Text" to the city and "Size By" to the population." For ideal bubble sizing on your final chart, organize the cities by population (separate top 2, then 3-10, 11-20, 21-50 and 50-3000).
+      img: "![Labeling]()"
+    - copy: "Your plot would initially look something like this."
+      img: "![Original]()"
+    - copy: "Since our data only encompasses the U.S., we can change the map layout to focus on the Lower 48, Alaska and Hawaii. Head to the LAYOUT popover, then select the "Geo layout" option and select "USA" within the scope dropdown."
+      img: "![Domain]()"
+    - copy: "We suggest changing your "Bubble Scale" for each trace to enhance the visual appeal. Head to the TRACES popover, then the "Style" menu. For "trace 0 [0-2]," use an area of 200. "Trace 1 [3-10]" should have an area of 500, then 1000 for "trace 3 [11-20]," 2000 for "trace 4 [21-50]," and 3000 for "trace 5 [50-3000]."
+      img: ![Bubble Scale]()
+    - copy: "When finished scaling, your plot should look something like this."
+      img: ![Progress]()
+ - title: Finalizing Your Graph
    sub-steps:
-    - copy: "Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more."
-      img: "![Progress3](http://i.imgur.com/ggQMO8z.png)"
-    - copy: "This is what the “General” and “Margins” tabs of the LAYOUT popover should look like. We’re giving our plot a grey background, and we’ve changed some of the font options."
-      img: "![General](http://i.imgur.com/OliO8BP.png)"
-    - copy: "This is what the 'Lines' tab of the AXES popover looks like. We’ve changed the grey grid to white, and increased the line weight."
-      img: ![Lines](http://i.imgur.com/w43GpG1.png)
-    - copy: This is what the LEGEND popover looks like.  We’ve set its background to grey, too.
-      img: ![Legend](http://i.imgur.com/glczRJ3.png)
-    - copy: "We’ve titled our chart and axes. And we’re using markup to link to our source data using the NOTES popover. Select the 'Page' option, and hide the arrow." 
-      img: ![Note](http://i.imgur.com/4CI4Lj7.png)
-    - copy: Because our note has nothing to do with specific data points, we’re going to nestle it below the x-axis. Now drag it to the bottom corner of your plot.
-      img: ![Note2](http://i.imgur.com/34heJSi.png)
-    - copy: Once your note looks like you want it to, use the HTML anchor tag (<a>) to link to the data source.
-      img: ![Source](http://i.imgur.com/hYht3pb.png)
- - title: Export & Share
-   sub-steps:
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-      img: "![Export](http://i.imgur.com/tIGzmyp.png)"
-    - copy: "Your finished chart should look something like this:"
-      img: "![Finished](http://i.imgur.com/ff5feZ5.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel](http://i.imgur.com/DpJJbQP.png)"
+    - copy: "We’ve titled our chart. You can too. We came up with "2014 U.S. City Populations.""
+      img: "![Title]()"
+    - copy: "You can just the "Type" of layout within the dropdown. We suggest going with "Albers usa" for this plot."
+      img: "![Type]()"
+    - copy: "Our legend describes the traces. Remember, we sorted the cities by population earlier. Label your traces accordingly."
+      img: ![Legend]()
+    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+      img: ![Export]()
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version." 
+      img: ![Excel]()
 ---
