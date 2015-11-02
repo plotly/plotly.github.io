@@ -11,7 +11,7 @@ meta_description: A tutorial on how to make a bubble chart online with Excel.
 popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
 actioncall: Make this Bubble Chart
-actioncall-url: https://plot.ly/~jackp/14788/
+actioncall-url: https://plot.ly/14788/~jackp/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
 
 similar:
