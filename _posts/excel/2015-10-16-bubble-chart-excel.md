@@ -6,10 +6,10 @@ permalink: /excel/bubble-charts
 imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
 state: active
 tags: excel
+section: Basic Charts
 meta_description: A tutorial on how to make a bubble chart online with Excel.
 popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
-section: Basic Charts
 actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/~jackp/14788/
 
@@ -39,7 +39,7 @@ steps:
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
  - title: Sizing and Log Axis
    sub-steps:
-    - copy: "Your plot should look something like this. 
+    - copy: "Your plot should look something like this."
       img: "![Progress](http://i.imgur.com/i0m9Oer.png)"
     - copy: "Open the TRACES popover in the toolbar."
       img: "![Traces](http://i.imgur.com/9hkxMs2.png)"
