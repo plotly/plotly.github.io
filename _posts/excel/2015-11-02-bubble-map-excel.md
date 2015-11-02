@@ -1,18 +1,18 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bubble Chart Online with Plotly and Excel
-subtitle: Bubble charts with Plotly
-permalink: /excel/bubble-chart
-imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
-state: active
+title: Make a Bubble Map Online with Plotly and Excel
+subtitle: Bubble maps with Plotly
+permalink: /excel/bubble-map
+imageurl: /static/images/bubble-map.png
+state: inactive
 tags: excel
 section: Basic Charts
-meta_description: A tutorial on how to make a bubble chart online with Excel.
+meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
-carouselimageurl: /images/bubble-carousel.jpg
-actioncall: Make this Bubble Chart
-actioncall-url: https://plot.ly/14788/~jackp/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
+carouselimageurl:
+actioncall: Make this Bubble Map
+actioncall-url: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations/
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
 
 similar:
  - title: Tutorial 1
