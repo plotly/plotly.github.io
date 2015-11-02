@@ -12,7 +12,7 @@ carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
 actioncall: Make a Dashboard
 actioncall-url: http://dashboards.ly/
-<!-- download-url: http://downloadlink.com -->
+download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
  - title: Tutorial 1
