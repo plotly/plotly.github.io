@@ -26,11 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-live-graph: <div>
-    <a href='https://plot.ly/~cimar/211/' target='_blank' title='Life Expectancy v. Per Capita GDP, 2007' style='display: block; text-align: center;'><img src='https://plot.ly/~cimar/211.png' alt='Life Expectancy v. Per Capita GDP, 2007' style='max-width: 100%;width: 560px;'  width='560' onerror='this.onerror=null;this.src='https://plot.ly/404.png';' /></a>
-    <script data-plotly='cimar:211'  src='https://plot.ly/embed.js' async></script>
-</div>
-
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jackp/1835.embed"></iframe>
 
 steps: 
  - title: Upload your Excel data to Plotly's grid
