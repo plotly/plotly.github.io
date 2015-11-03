@@ -17,6 +17,13 @@ similar:
  - title: Tutorial 1
    url: http://link.com
    imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Tutorial 2
+   url: http://link.com
+   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Tutorial 3
+   url: http://link.com
+   imgurl: http://i.imgur.com/uhxCioO.png
+
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).
 

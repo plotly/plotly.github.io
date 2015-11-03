@@ -9,7 +9,7 @@ tags: excel
 section: Basic Charts
 meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
-carouselimageurl:
+carouselimageurl: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations.png
 actioncall: Make this Bubble Map
 actioncall-url: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
@@ -29,7 +29,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6618.embed"></iframe>
 
-steps: 
+steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv)"
@@ -60,6 +60,6 @@ steps:
       img: ![Legend](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/legend-bubble-map.png)
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: ![Export](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/export-bubble-map.png)
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version." 
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
       img: ![Excel]()
 ---
