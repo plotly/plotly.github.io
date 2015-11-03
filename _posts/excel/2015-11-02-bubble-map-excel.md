@@ -27,7 +27,12 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6618.embed"></iframe>
+<div>
+    <a href="https://plot.ly/~Dreamshot/6618/" target="_blank" title="City Populations" style="display: block; 
+    text-align: center;"><img src="https://plot.ly/~Dreamshot/6618.png" alt="City Populations" style="max-width: 100%;width: 
+    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:6618" src="https://plot.ly/embed.js" async></script>
+</div>
 
 steps: 
  - title: Upload your Excel data to Plotly's grid
