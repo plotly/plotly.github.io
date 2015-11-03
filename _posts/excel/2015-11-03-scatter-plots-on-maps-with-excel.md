@@ -27,18 +27,22 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+<div>
+    <a href="https://plot.ly/~Dreamshot/6618/" target="_blank" title="Airport Traffic" style="display: block; 
+    text-align: center;"><img src="https://plot.ly/~Dreamshot/6618.png" alt="Airport Traffic" style="max-width: 100%;width: 
+    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Dreamshot:6618" src="https://plot.ly/embed.js" async></script>
+</div>
 
 steps: 
- - title: Authenticate Your Account on Dashboards.ly
+ - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/)."
-      img: 
-      video: <video width="100%" height="650" autoplay><source src="https://s3.amazonaws.com/plotly-downloads/dashboardsly-splash-3.mp4" type="video/mp4">(Plotly tried to show a video here, but your browser does not support the video tag.)</video>
- - title: Click "get started" and sign in. 
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv)"
+      img: "![Excel view]()"
+ - title: Head to Plotly
    sub-steps:
-    - copy: "You'll have to retrieve your API key."
-      img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+      img: "![Import data](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/import.png)"
  - title: Authentication
    sub-steps:
     - copy: "It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to 'add to dashboard.'"
