@@ -1,18 +1,18 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Scatter Plot on a Map with Plotly and Excel
-subtitle: Dashboards with Plotly
+title: Make a Choropleth Map with Plotly and Excel
+subtitle: Choropleth Maps with Plotly
 permalink: /excel/dashboard
-imageurl: /static//images/scatter-plot-on-maps.png
+imageurl: /static/images/choropleth.png
 state: inactive
 tags: excel
-meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl: 
 section: Basic Charts
-actioncall: Make this Scatter Plot on a Map
+actioncall: Make this Choropleth Map
 actioncall-url: 
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv
 
 similar:
  - title: Tutorial 1
@@ -28,8 +28,8 @@ similar:
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/6618/" target="_blank" title="Airport Traffic" style="display: block; 
-    text-align: center;"><img src="https://plot.ly/~Dreamshot/6618.png" alt="Airport Traffic" style="max-width: 100%;width: 
+    <a href="https://plot.ly/~Dreamshot/6618/" target="_blank" title="Exports" style="display: block; 
+    text-align: center;"><img src="https://plot.ly/~Dreamshot/6618.png" alt="Exports" style="max-width: 100%;width: 
     600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:6618" src="https://plot.ly/embed.js" async></script>
 </div>
@@ -37,16 +37,16 @@ otherlang: Know how to program? See how to create this in [Python](url) or [R](u
 steps: 
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)"
       img: "![Excel view]()"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data]()"
- - title: Authentication
+ - title: Creating Your Chart
    sub-steps:
-    - copy: "It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to 'add to dashboard.'"
-      img: "![Add to dashboard](http://i.imgur.com/PTHsUP3.png)"
+    - copy: 
+      img: 
     - copy: Another associate2
       img: with its associated value2
       imgAlt: hello
