@@ -1,18 +1,18 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make an Online Dashboard  with Plotly and Excel
+title: Make a Scatter Plot on a Map with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
-imageurl: /static/images/dashboards/dashboard-thumbnail.jpg
-state: active
+imageurl: /static//images/scatter-plot-on-maps.png
+state: inactive
 tags: excel
-meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
-carouselimageurl: /images/dashboard-carousel.jpg
-section: Dashboards
-actioncall: Make a Dashboard
-actioncall-url: http://dashboards.ly/
-download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
+carouselimageurl: 
+section: Basic Charts
+actioncall: Make this Scatter Plot on a Map
+actioncall-url: 
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
 
 similar:
  - title: Tutorial 1
