@@ -45,7 +45,7 @@ steps:
       img: "![Import data](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/import.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Label your columns like we did below. You'll have a column for latitude and longitude. Then, click   both the 'Size By' and 'Text' options on the left; assign 'Text' to the city and 'Size By' to the population. For ideal bubble sizing on your final chart, organize the cities by population (separate top 2, then 3-10, 11-20, 21-50 and 50-3000)."
+    - copy: "Head to the 'MAKE A PLOT' dropdown and select 'Bubble map.' Label your columns like we did below. You'll have a column for latitude and longitude. Then, click both the 'Size By' and 'Text' options on the left; assign 'Text' to the city and 'Size By' to the population. For ideal bubble sizing on your final chart, organize the cities by population (separate top 2, then 3-10, 11-20, 21-50 and 50-3000)."
       img: "![Labeling](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/labeling-bubble-map.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/original-bubble-map.png)"
