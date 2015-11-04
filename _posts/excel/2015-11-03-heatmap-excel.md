@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Heatmap Online with Plotly and Excel
 subtitle: Heatmaps with Plotly
 permalink: /excel/heatmap
-imageurl: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.png
+imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
 section: Basic Charts

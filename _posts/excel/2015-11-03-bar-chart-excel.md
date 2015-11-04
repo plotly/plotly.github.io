@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Bar Chart Online with Plotly and Excel
 subtitle: Bar charts with Plotly
 permalink: /excel/bar-chart
-imageurl: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.png
+imageurl: /static/images/bar-chart-with-excel/thum-bar-chart-with-excel.png
 state: active
 tags: excel
 section: Basic Charts

@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Box Plot Online with Plotly and Excel
 subtitle: Box Plots with Plotly
 permalink: /excel/box-plot
-imageurl: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.png
+imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
 tags: excel
 section: Basic Charts

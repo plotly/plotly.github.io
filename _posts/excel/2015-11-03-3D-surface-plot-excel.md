@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a 3D Surface Plot Online with Plotly and Excel
 subtitle: 3D Surface Plots with Plotly
 permalink: /excel/3d-surface-plot
-imageurl: https://plot.ly/~tarzzz/380/volcano-surface-plot.png
+imageurl: /static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png
 state: active
 tags: excel
 section: Basic Charts
