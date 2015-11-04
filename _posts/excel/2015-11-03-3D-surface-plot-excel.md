@@ -35,7 +35,7 @@ steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~tarzzz/380/volcano-surface-plot.csv)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
  - title: Create the 3D Plot
    sub-steps:
@@ -51,7 +51,8 @@ steps:
       img: "![Volcano Plot](/static/images/3d-surface-plot-with-excel/raw-plot.png)"
     - copy: "Now we will add some style elements to the generated plot. First, let's give it a name. We can add a title by clicking on the text box just above the plot:"
       img: "![Volcano Plot](/static/images/3d-surface-plot-with-excel/give-plot-title.png)"
-    - copy: "Styling options are present on the left side of the plot. Change Background color: 1. Click on the 'Axis' selector on the options menu on the left side of the plot 2. Click on the 'Lines' tab from the pop-up. 3. Set 'Background' to 'On' 4. Select background color from the color palette."
+    - copy: "Styling options are present on the left side of the plot.
+    Change Background color: 1. Click on the 'Axis' selector on the options menu on the left side of the plot 2. Click on the 'Lines' tab from the pop-up. 3. Set 'Background' to 'On' 4. Select background color from the color palette."
       img: "![Set Background](/static/images/3d-surface-plot-with-excel/set-background.png)"
  - title: Style the Axes
    sub-steps:
@@ -59,7 +60,7 @@ steps:
       img: "![Set Axis and Grid Color](/static/images/3d-surface-plot-with-excel/set-axis-color.png)"
  - title: Change Color Scales
    sub-steps:
-    - copy: "Plotly allows us to set among a wide range of built in colorscales, In addition to custom color-scale feature. To change the color scale of a plot: 1. Click on the 'Traces' Selector from the style options. 2. Click on 'Style' tab from the pop-up. 3. Turn Auto Color to 'Off', and set one of the color-scales."
+    - copy: "Plotly allows us to set among a wide range of built in colorscales, in addition to custom color-scale feature. To change the color scale of a plot: 1. Click on the 'Traces' Selector from the style options. 2. Click on 'Style' tab from the pop-up. 3. Turn Auto Color to 'Off', and set one of the color-scales."
       img: "![Set Color Scale](/static/images/3d-surface-plot-with-excel/set-colorscale.png)"
  - title: Deploy - Your 3D Surface Plot
    sub-steps:
@@ -67,5 +68,6 @@ steps:
       img: "![Styled Surface Plot](/static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png)"
     - copy: "Now you can share the generated plot with your peers/collaborators (basically, anyone you want to!) Click on share button on left menu bar:"
       img: "![Share Button](/static/images/3d-surface-plot-with-excel/share-plot-button.png)"
-    - copy: "You can share it as a web-link, embed in your website(as an iframe), or share it via popular social networking sites. Cool, huh!"
+    - copy: "You can share it as a web-link, embed in your website (as an iframe), or share it via popular social networking sites. Cool, huh!"
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
 ---
