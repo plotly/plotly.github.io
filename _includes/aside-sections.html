@@ -2,15 +2,15 @@
 <aside class="sidebar">
     <h4>Categories</h4>
     <ul>
-     {% for page in site.posts %}
-     {% for section in page.section %}
-     {% assign thisStep = page.steps[forloop.index0] %}
         <li class="buttonM">
-        <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#{{ section | slugify }}">     
-            {{section}}
-        <paper-ripple fit></paper-ripple></a>
+            <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#basiccharts">
+                Basic Charts
+            <paper-ripple fit></paper-ripple></a>
         </li>
-        {% endfor %}
-        {% endfor %}
+        <li class="buttonM">
+            <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#dashboards">
+                Dashboards
+            <paper-ripple fit></paper-ripple></a>
+        </li>
     </ul>
 </aside>

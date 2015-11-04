@@ -67,7 +67,7 @@ title: Plotly Excel
                 </div>
             </div>
         <div class="content">
-          
+
             <!-- <div class="container"> -->
 
 {% include aside-sections.html %}
@@ -75,39 +75,60 @@ title: Plotly Excel
 <main class="grid-content">
 <div class="grid">
 
-  
 
-{% for page in site.posts %}
-  {% for section in page.section %}
-  <section id="{{section | slugify}}">
-  <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">{{section}}</h3>
 
-  {% if page.state == 'active' and page.section == section %}
-        <div class="item">
-            <div class="meta">
-                <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-            </div>
-             {% if page.imageurl == "" or page.imageurl == nil %}
-             <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
-           
-            </div>
-                <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-              {% else %}
-                 <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
-           
-            </div>
-              {% endif %}
-            
-            <div class="title">
-                <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-            </div>
-        </div>
-        <!-- </div> -->
+
+
+  <section id="basiccharts">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Basic Charts</h3>
+      {% for page in site.posts %}
+        {% if page.section == 'Basic Charts' and page.state == 'active' %}
+          <div class="item">
+              <div class="meta">
+                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+              </div>
+               {% if page.imageurl == "" or page.imageurl == nil %}
+               <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+              </div>
+                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
+                {% else %}
+              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+              </div>
+                {% endif %}
+
+              <div class="title">
+                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+              </div>
+          </div>
         {% endif %}
+      {% endfor %}
   </section>
-  {% endfor %}
-{% endfor %}  
-      
+
+  <section id="dashboards">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Dashboards</h3>
+      {% for page in site.posts %}
+        {% if page.section == 'Dashboards' and page.state == 'active' %}
+          <div class="item">
+              <div class="meta">
+                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+              </div>
+               {% if page.imageurl == "" or page.imageurl == nil %}
+               <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+              </div>
+                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
+                {% else %}
+              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+              </div>
+                {% endif %}
+
+              <div class="title">
+                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+              </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  </section>
+
 
 </div>
 {% include help-box.html %}
@@ -127,7 +148,7 @@ title: Plotly Excel
     <script>
     /**
      * This part handles the highlighting functionality.
-     * We use the scroll functionality again, some array creation and 
+     * We use the scroll functionality again, some array creation and
      * manipulation, class adding and class removing, and conditional testing
      */
     var aChildren = $(".sidebar .wrap ul li").children(); // find the a children of the list items
