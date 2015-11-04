@@ -1,5 +1,5 @@
 ---
-layout: one_column_layout
+layout: two_column_layout
 title: Multiple Y Axes Graph
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
 permalink: /make-a-graph-with-multiple-axes
@@ -27,7 +27,7 @@ format.
 ![Data](http://i.imgur.com/ZFINaQl.png)
 
 ### Step 2 - Head to Plotly
-      
+
 Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart
@@ -64,7 +64,7 @@ You might notice that the y-axis is busy with grid lines. Open the AXES popover 
 
 ![Grid lines](http://i.imgur.com/yv4OMzR.png)
 
-You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. 
+You can adjust the coloring of the traces to your liking or roll with Plotly's defaults.
 
 Within the legend on the right side of the graph, you can label your "line" trace "Ratio male/female," Col3 "female," and Col1 "male."
 

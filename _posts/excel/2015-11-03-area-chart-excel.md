@@ -32,26 +32,25 @@ steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
       img: "![Data](/static/images/area-charts-in-excel-with-plotly/excel-data.png)"
-    - copy:
-   - title: Adding Fill Under Traces
-    sub-steps:
-      - copy: "To make an area plot from a line plot, edit the 'Fill To' attribute in the MODE tab of the TRACES popover."
-      - copy: "Here’s how the TRACES popover for 'trace 0' looks. Notice 'Fill To' has been set to 'Y=0'."
-       img: "![Fill](/static/images/area-charts-in-excel-with-plotly/traces-popover-fill-to.png"
+ - title: Adding Fill Under Traces
+   sub-steps:
+    - copy: "To make an area plot from a line plot, edit the 'Fill To' attribute in the MODE tab of the TRACES popover."
+    - copy: "Here’s how the TRACES popover for 'trace 0' looks. Notice 'Fill To' has been set to 'Y=0'."
+      img: "![Fill](/static/images/area-charts-in-excel-with-plotly/traces-popover-fill-to.png"
     - copy: "Here’s how the TRACES popover for 'trace 1' looks. Notice 'Fill To' has been set to 'Next Y'."
-     img: "![ Set fill to](/static/images/area-charts-in-excel-with-plotly/fill-to-next-y.png)"
+      img: "![ Set fill to](/static/images/area-charts-in-excel-with-plotly/fill-to-next-y.png)"
  - title: Optional styling to make your plot prettier
-    sub-steps:
+   sub-steps:
     - copy: "Nice! Now you have your area plot. If you want, you can change the colors and apply smoothing to the lines to get a chart that looks like one at the top of the tutorial."
     - copy: "Here’s how your area chart looks before styling."
-     img: "![Chart before styling](/static/images/area-charts-in-excel-with-plotly/chart-before-styling.png)"
+      img: "![Chart before styling](/static/images/area-charts-in-excel-with-plotly/chart-before-styling.png)"
     - copy: "Here’s how the TRACES popover looks with smoothing and the change of colors. The smoothing button is highlighted in red."
-     img: "![Smoothing buttons highlighted](/static/images/area-charts-in-excel-with-plotly/smoothing-button-highlighted.png)"
-     img: "![Style Tab](/static/images/area-charts-in-excel-with-plotly/style-tab.png)"
+      img: "![Smoothing buttons highlighted](/static/images/area-charts-in-excel-with-plotly/smoothing-button-highlighted.png)"
+      img: "![Style Tab](/static/images/area-charts-in-excel-with-plotly/style-tab.png)"
     - copy: "Here’s how the AXES popover looks with the axes lines thickened and made white."
-     img: "![Axes popover lines tab](/static/images/area-charts-in-excel-with-plotly/axes-lines.png)"
+      img: "![Axes popover lines tab](/static/images/area-charts-in-excel-with-plotly/axes-lines.png)"
     - copy: "Here’s how the LAYOUT popover looks with the plot and margin background color changed to grey."
-     img: "![Background color](/static/images/area-charts-in-excel-with-plotly/layout-general.png)"
+      img: "![Background color](/static/images/area-charts-in-excel-with-plotly/layout-general.png)"
  - title: Export & Share
    sub-steps:
     - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
