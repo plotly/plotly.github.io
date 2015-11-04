@@ -31,7 +31,7 @@ Click on the AXES icon on the Plotly toolbar to open the AXES editing popover. |
 
 The AXES popover appears. Here’s what it looks like. Click on the “+” to add a new axis. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image10.png)
 
-Here is where we add an extra y-axis to the right-hand-side of the graph. Select “Right” like in the screenshot, and click the blue “Go” button. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image15.png) 
+Here is where we add an extra y-axis to the right-hand-side of the graph. Select “Right” like in the screenshot, and click the blue “Go” button. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image15.png)
 
 Close the AXES popover and take a look at our chart &#8211; It now has a second y-axis! Click on the second y-axis label to give it a name. In this chart, I named it “Y-Axis Number 2”. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image07.png)
 
