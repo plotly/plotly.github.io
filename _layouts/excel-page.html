@@ -75,10 +75,23 @@ title: Plotly Excel
 <main class="grid-content">
 <div class="grid">
 
+  {% for page in site.posts %}
+      {% if page.state == 'active' %}
+          {% if page.section == "BasicCharts" %}
+              {% assign basic_chart = true %}
+          {% elsif page.section == "Maps" %}
+              {% assign map_chart = true %}
+          {% elsif page.section == "3D Charts" %}
+              {% assign 3d_chart = true %}
+          {% elsif page.section == "Layouts" %}
+              {% assign layout_chart = true %}
+          {% elsif page.section == "Dashboards" %}
+              {% assign dashboards = true %}
+          {% endif %}
+      {% endif %}
+  {% endfor %}
 
-
-
-
+{% if basic_chart %}
   <section id="basiccharts">
     <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Basic Charts</h3>
       {% for page in site.posts %}
@@ -103,7 +116,90 @@ title: Plotly Excel
         {% endif %}
       {% endfor %}
   </section>
+{% endif %}
 
+{% if map_chart %}
+  <section id="mapcharts">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Map Charts</h3>
+      {% for page in site.posts %}
+        {% if page.section == 'Maps' and page.state == 'active' %}
+          <div class="item">
+              <div class="meta">
+                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+              </div>
+               {% if page.imageurl == "" or page.imageurl == nil %}
+               <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+              </div>
+                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
+                {% else %}
+              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+              </div>
+                {% endif %}
+
+              <div class="title">
+                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+              </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  </section>
+{% endif %}
+
+{% if 3d_chart %}
+  <section id="threeDCharts">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">3D Charts</h3>
+      {% for page in site.posts %}
+        {% if page.section == '3D Charts' and page.state == 'active' %}
+          <div class="item">
+              <div class="meta">
+                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+              </div>
+               {% if page.imageurl == "" or page.imageurl == nil %}
+               <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+              </div>
+                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
+                {% else %}
+              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+              </div>
+                {% endif %}
+
+              <div class="title">
+                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+              </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  </section>
+{% endif %}
+
+{% if layout_chart %}
+  <section id="layout">
+    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Multiple Axes, Subplots, and Insets</h3>
+      {% for page in site.posts %}
+        {% if page.section == 'Layouts' and page.state == 'active' %}
+          <div class="item">
+              <div class="meta">
+                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
+              </div>
+               {% if page.imageurl == "" or page.imageurl == nil %}
+               <div class="img" style="background: url(images/default.png) no-repeat center center; background-size: cover; background-color: #fff;">
+              </div>
+                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
+                {% else %}
+              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-size: cover;background-color: #fff;">
+              </div>
+                {% endif %}
+
+              <div class="title">
+                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
+              </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  </section>
+{% endif %}
+
+{% if dashboards %}
   <section id="dashboards">
     <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Dashboards</h3>
       {% for page in site.posts %}
@@ -128,7 +224,7 @@ title: Plotly Excel
         {% endif %}
       {% endfor %}
   </section>
-
+{% endif %}
 
 </div>
 {% include help-box.html %}

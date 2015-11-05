@@ -6,7 +6,7 @@ permalink: /excel/bubble-map
 imageurl: /static/images/bubble-map.png
 state: inactive
 tags: excel
-section: Basic Charts
+section: Maps
 meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
 carouselimageurl: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations.png

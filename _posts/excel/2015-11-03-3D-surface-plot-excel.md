@@ -6,7 +6,7 @@ permalink: /excel/3d-surface-plot
 imageurl: /static/images/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: 3D Charts
 meta_description: A tutorial on how to make a 3D surface plot online with Excel.
 popularity: featured
 carouselimageurl: https://plot.ly/~tarzzz/380/volcano-surface-plot.png
