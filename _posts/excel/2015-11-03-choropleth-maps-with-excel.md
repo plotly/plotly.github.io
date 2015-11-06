@@ -4,7 +4,7 @@ title: Make a Choropleth Map with Plotly and Excel
 subtitle: Choropleth Maps with Plotly
 permalink: /excel/dashboard
 imageurl: /static/images/choropleth.png
-state: inactive
+state: active
 tags: excel
 meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
