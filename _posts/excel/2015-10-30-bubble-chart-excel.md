@@ -29,14 +29,14 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jackp/1835.embed"></iframe>
 
-steps: 
+steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv)"
       img: "![Excel view](http://i.imgur.com/5ON7Ypp.png)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
  - title: Sizing and Log Axis
    sub-steps:
@@ -60,7 +60,7 @@ steps:
       img: ![Lines](http://i.imgur.com/w43GpG1.png)
     - copy: This is what the LEGEND popover looks like.  We’ve set its background to grey, too.
       img: ![Legend](http://i.imgur.com/glczRJ3.png)
-    - copy: "We’ve titled our chart and axes. And we’re using markup to link to our source data using the NOTES popover. Select the 'Page' option, and hide the arrow." 
+    - copy: "We’ve titled our chart and axes. And we’re using markup to link to our source data using the NOTES popover. Select the 'Page' option, and hide the arrow."
       img: ![Note](http://i.imgur.com/4CI4Lj7.png)
     - copy: Because our note has nothing to do with specific data points, we’re going to nestle it below the x-axis. Now drag it to the bottom corner of your plot.
       img: ![Note2](http://i.imgur.com/34heJSi.png)

@@ -2083,7 +2083,7 @@ caret
 }
 @media (max-width: 1100px) {
   .hidesmall {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 700px) {
@@ -2570,7 +2570,6 @@ caret
 .headerbar {
   background-color: white;
   height: 80px;
-  min-width: 1048px;
   line-height: 78px;
 }
 
