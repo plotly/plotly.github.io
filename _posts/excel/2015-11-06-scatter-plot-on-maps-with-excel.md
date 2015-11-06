@@ -1,18 +1,18 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Choropleth Map with Plotly and Excel
-subtitle: Choropleth Maps with Plotly
-permalink: /excel/choropleth-map
-imageurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
-state: active
+title: Make a Scatter Plot on a Map with Plotly and Excel
+subtitle: Scatter Plots on Maps with Plotly
+permalink: /excel/scatter-plot-on-maps
+imageurl: /static/images/scatter-plot-on-maps.png
+state: inactive
 tags: excel
-meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl:
 section: Maps
-actioncall: Make this Choropleth Map
+actioncall: Make this Scatter Plot on a Map
 actioncall-url:
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
 
 similar:
  - title: Tutorial 1
