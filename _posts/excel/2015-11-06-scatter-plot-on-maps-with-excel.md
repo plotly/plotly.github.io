@@ -32,11 +32,11 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/choropleth-maps/import.png)"
+      img: "![Import data](https:images.plot.ly/excel/choropleth-maps/import.png)"
  - title: Creating Your Chart
    sub-steps:
     - copy: "Head to the 'MAKE A PLOT' dropdown and select 'Choropleth map.'In this case, we'll only need the 'USA State Abbreviations' and total export value. Set the state abbreviations as 'l' and total export value as 'v.'"
