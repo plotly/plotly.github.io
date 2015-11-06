@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Bubble Map Online with Plotly and Excel
 subtitle: Bubble maps with Plotly
 permalink: /excel/bubble-map
-imageurl: /static/images/bubble-map.png
+imageurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
 state: active
 tags: excel
 section: Maps
@@ -27,12 +27,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-<div>
-    <a href="https://plot.ly/~Dreamshot/6618/" target="_blank" title="City Populations" style="display: block;
-    text-align: center;"><img src="https://plot.ly/~Dreamshot/6618.png" alt="City Populations" style="max-width: 100%;width:
-    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="Dreamshot:6618" src="https://plot.ly/embed.js" async></script>
-</div>
+live-graph: <iframe width="100%" height="800" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~Dreamshot/6618.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
@@ -41,7 +36,7 @@ steps:
       img: "![Excel view](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/excel-view-bubble-map.png)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/import.png)"
  - title: Creating Your Chart
    sub-steps:
@@ -66,5 +61,5 @@ steps:
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/export-bubble-map.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/final-excel-bubble-map.png)""
+      img: "![Excel](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/final-excel-bubble-map.png)"
 ---
