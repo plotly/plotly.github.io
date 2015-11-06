@@ -38,7 +38,7 @@
 				<li><a href="https://plot.ly/product/plotlyjs/" target="_self">Plotly.js</a></li>
 			</ul>
 		</div>
-		<div class="two columns footcolumn respfooter">	
+		<div class="two columns footcolumn respfooter">
      		<h6 class="footer-heading">Connect</h6>
 			<ul class="plotly-social-media-small">
 				<li><a href="//twitter.com/plotlygraphs" target="_blank"><i class="icon-twitter social_icon"></i></a></li>
@@ -50,14 +50,14 @@
 		</div>
 		<div class="one column footcolumn"></div>
 	</div>
-	
+
 	<div class="row footerarea footer-bottom">
 		<div class="one column footcolumn space"> </div>
 		<div class="four columns footcolumn"><p>Copyright &copy; 2015 Plotly. All rights reserved.</p></div>
 		<div class="two columns footcolumn"><a href="https://plot.ly/terms-of-service/" target="_blank" ><p>Terms of Service</p></a></div>
 		<div class="two columns footcolumn"><a href="https://plot.ly/privacy/" target="_blank"><p>Privacy Policy</p></a></div>
-		
-		
+
+
 	</div>
 
 </footer>
@@ -83,8 +83,30 @@ for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElemen
 mixpanel.init("ad6df61d0b9400400b240631576c24d4");</script><!-- end Mixpanel -->
 
 <script type="text/javascript">
+function getQueryParam(param) {
+    param = param.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + param + "=([^&#]*)",
+        regex = new RegExp( regexS ),
+        results = regex.exec(document.URL);
+    if (results === null || (results && typeof(results[1]) !== 'string' && results[1].length)) {
+        return '';
+    } else {
+        return decodeURIComponent(results[1]).replace(/\+/g, ' ');
+    }
+};
+</script>
+
+<script type="text/javascript">
     mixpanel.track("Page visit", {
         "url_group": "help.plot.ly",
         "url": window.location.pathname,
+    });
+</script>
+
+<script type="text/javascript">
+    var visit_origin = getQueryParam("campaign_id");
+
+    mixpanel.register_once({
+        "email_campain_received": visit_origin
     });
 </script>
