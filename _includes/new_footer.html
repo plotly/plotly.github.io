@@ -106,7 +106,7 @@ function getQueryParam(param) {
 <script type="text/javascript">
     var visit_origin = getQueryParam("campaign_id");
 
-    mixpanel.register_once({
-        "email_campain_received": visit_origin
+    mixpanel.register({
+        "email_campaign_received": visit_origin
     });
 </script>
