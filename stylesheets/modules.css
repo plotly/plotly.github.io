@@ -230,7 +230,7 @@ NAVIGATION BAR STYLING
 ***********************/
 
 .navigation-bar p, .navigation-bar a {
-    color: #dddddd;
+    color: white;
     font-weight: 400;
     line-height: 40px;
     text-decoration: none;
@@ -391,6 +391,12 @@ BUTTONS
     vertical-align: middle;
     white-space: nowrap;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.btn-large{
+    padding: 15px 20px;
+    font-size: 14px;
 }
 
 @media (max-width: 550px) {

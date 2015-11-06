@@ -21,7 +21,7 @@ Follow along below to make a pie chart of your own.
 
 ### Step 1 - Upload your Excel data to Plotly's grid
 
-Open the data file for this tutorial in Excel. You can download the file here in 
+Open the data file for this tutorial in Excel. You can download the file here in
 <a class="link--impt" href="https://www.dropbox.com/s/3h242p30pphiqud/How%20Much%20Money%20do%20You%20Have%20in%20Your%20Savings%20Account_%20copy.xls?raw=1" target="_blank">
        xls
       </a>
@@ -33,7 +33,7 @@ Open the data file for this tutorial in Excel. You can download the file here in
 ![Excel view](http://i.imgur.com/QyEi1dy.png)
 
 ### Step 2 - Head to Plotly
-      
+
 Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart
@@ -52,7 +52,7 @@ Click the blue plot button in the sidebar to create the chart. (For more help wi
 
 ###Step 4 - Sizing and Styling!
 
-Your plot should look something like this. 
+Your plot should look something like this.
 
 ![Example plot](http://i.imgur.com/Qd3kGT1.png)
 
@@ -77,7 +77,7 @@ Your plot should now look something like this. In order to get the graph at the 
 ![Plot example](http://i.imgur.com/BNpuz57.png)
 
 This is what the “Text” tab of the TRACES popover should look like. We’ve changed the positioning and display of the legend info.
-    
+
 ![Text tab](http://i.imgur.com/IE7CytX.png)    
 
 Now head to the LEGEND popover and select hide. This eliminates redundant information and crowding on your plot.
