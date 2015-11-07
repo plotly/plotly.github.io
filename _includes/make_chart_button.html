@@ -1,5 +1,5 @@
-{% if page.actioncall != "" or page.actioncall != nil %}
+{% if page.actioncall != "" or page.actioncall != nil or page.actioncall != 'nil' %}
 <div class="wide row">
-<a class="button no_underline align-right callaction" href="https://plot.ly/plot">{{page.actioncall | capitalize}}</a>
+<a class="button no_underline align-right callaction" href={% if page.actioncallurl != "" or page.actioncallurl != nil %}"{{page.actioncallurl}}"{% else %}"https://plot.ly/plot"{% endif %}>{{page.actioncall | capitalize}}</a>
 </div>
 {% endif %}
