@@ -12,24 +12,6 @@ HEADER STYLING
     height: 78px;
 }
 
-.hero-button-cta {
-    font-size: 18px;
-    display: inline-block;
-    padding: 12px 24px;
-    margin: 0px 30px;	
-}
-
-h6 .hero-text-cta{
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-h6 .hero-text-cta > a{
-    color: #447adb;
-    text-decoration: none !important;
-}
-
 .logo{
     font-size: 26px !important;
     font-weight: 200;
@@ -820,4 +802,22 @@ caret
   border-left: 4px solid transparent;
   content: '';
   margin-left: 5px;
+}
+
+.hero-button-cta {
+    font-size: 18px !important;
+    display: inline-block !important;
+    padding: 12px 24px !important;
+    margin: 0px 30px !important;	
+}
+
+.hero-text-cta{
+    color: black !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.hero-text-cta > a{
+    color: #447adb !important;
+    text-decoration: none !important;
 }
