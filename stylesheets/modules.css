@@ -19,6 +19,17 @@ HEADER STYLING
     margin: 0px 30px;	
 }
 
+h6 .hero-text-cta{
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h6 .hero-text-cta > a{
+    color: #447adb;
+    text-decoration: none !important;
+}
+
 .logo{
     font-size: 26px !important;
     font-weight: 200;
