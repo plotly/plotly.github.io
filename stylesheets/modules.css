@@ -244,6 +244,11 @@ NAVIGATION BAR STYLING
     margin: 0px 20px;
 }
 
+.navigation-bar p {
+    position: relative;
+    top: 10px;
+}
+
 @media (max-width: 400px) {
 	.navigation-bar p, .navigation-bar a {
 	    font-size: 12px;}
