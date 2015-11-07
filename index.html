@@ -33,13 +33,12 @@ title: Plotly Help
 
   <body>
 
-        <div class="bigcontainer help-splash" >
-        	<div class="container tuthome-padding-b">
-	        	<h1 class="centered">{{page.title}}</h1>
-	        	<h2 class="centered">{{page.subtitle}}</h2>
+  <div class="bigcontainer help-splash" >
+    <div class="container tuthome-padding-b">
+	     <h1 class="centered">{{page.title}}</h1>
+	     <h2 class="centered">{{page.subtitle}}</h2>
 		</div>
 		<div class="row"> 
-
 			<a href="/tutorials" class="no_underline">
 				<div class="four columns categories" >  
 						<h3 class="centered">Web App</h3>
@@ -64,85 +63,9 @@ title: Plotly Help
 						<p class="centered">Upload Excel sheets to Plotly to build best-practice charts, reports, and dashboards.</p>
 				</div>
 			</a>
-			
-		</div>
-		
+		</div> <!-- row -->
+	</div> <!-- container -->
 
-	</div>
-
-<div class="tuthome-section-bg ">
-	<div class="container">
-		<div class="tuthome-section tuthome-padding">
-			<a href="/tutorials" class="no_underline">
-				<h2 class="centered" id="tutorialsect">PLOTLY TUTORIALS</h2>
-			</a>
-				<div class="row">
-					<ul id="myList">
-							{% for page in site.posts %}
-								{% if page.state == 'active' and page.popularity contains 'frontpage' %}			
-									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-									<div class="alltutcol"> 
-										{% if page.imageurl == "" or page.imageurl == nil %}
-											<img src="/images/default.png" alt="Tutorial" />
-										{% else %}
-											<img src="{{page.imageurl}}" alt="Tutorial">
-										{% endif %}
-											<div class="titlecenter">
-												<h5 class="centered"> {{page.title}} </h5>
-											</div>
-									</div></a></li>
-									<div class="{% cycle 'group 1': '', '', 'three-column-clear' %}"></div>
-								{% endif %}
-							{% endfor %}
-	        			</ul>
-				<div id="loadMore" class="four columns"  >
-        				<a class="button no_underline" href="http://help.plot.ly/tutorials" >
-						VIEW ALL TUTORIALS
-					 </a>
-				</div>
-			</div>
-		</div>
-
-	
-		<div class="tuthome-section tuthome-padding">
-				<a href="https://plot.ly/api/" class="no_underline">
-					<h2 class="centered">API Clients</h2>
-				</a>
-				<div class="row">
-						<a href="https://plot.ly/matlab/"><div class=" alltutcol categories-apis" onmouseover="movingInImgOp(matlabImg, matlabText)" onmouseout="movingOutImgOp(matlabImg, matlabText)">
-							<div id="matlabImg">
-									<img src="http://i.imgur.com/FGTe7SD.png" title="MATLAB" />
-										<h6 class="centered"> MATLAB </h6>
-							</div>
-							<div id="matlabText"  style="display:none;">
-								<h6>Plotly's MATLAB API Client</h6>
-								<p>Create graphs and manage your Plotly account with MATLAB. Convert MATLAB figures to Plotly graphs drawn in D3.js</p>
-							</div>
-						</div></a>
-						<a href="https://plot.ly/python/"><div class=" alltutcol categories-apis" onmouseover="movingInImgOp(pyImg, pyText)" onmouseout="movingOutImgOp(pyImg, pyText)">
-							<div id="pyImg">
-									<img src="http://i.imgur.com/AyXLtfa.png" title="Python" />
-										<h6 class="centered"> Python </h6>
-							</div>
-							<div id="pyText" style="display:none;">
-								<h6>Plotly's Python API Client</h6>
-								<p>Create graphs and manage your Plotly account with Python. Convert matplotlib figures to Plotly graphs drawn in D3.js.</p>
-							</div>
-						</div></a>
-						<a href="https://plot.ly/r/" ><div class=" alltutcol categories-apis" onmouseover="movingInImgOp(rImg, rText)" onmouseout="movingOutImgOp(rImg, rText)">
-							<div id="rImg" >
-								<img src="/images/r-logo-padding.png" title="R" />
-									<h6 class="centered"> R </h6>
-							</div>
-							<div id="rText" style="display:none;">
-								 <h6>Plotly's R / RStudio API Client </h6>
-								 <p>Create graphs and manage your Plotly account with R. Convert ggplot2 figures to Plotly graphs drawn in D3.js</p>
-							</div>
-						</div></a>
-				</div>
-		</div>
-	</div>
-    </div>
 	{% include new_footer.html %}  
 	
 	<!-- Image Hover Script -->
