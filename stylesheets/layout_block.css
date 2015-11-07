@@ -163,8 +163,8 @@ NAVIGATION BAR STYLING
 ***********************/
 .navigation-bar{
 	min-width: 100%;
-	background-color: #274478;
-	height: 40px;
+    	height: 60px;
+    	border-bottom: 1px solid #EEE;
 }
 
 /*****************************
