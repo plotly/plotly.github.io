@@ -9,9 +9,9 @@ tags: excel
 section: Maps
 meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations.png
+carouselimageurl: https://plot.ly/~Dreamshot/6752/_2014-us-city-populations.png
 actioncall: Make this Bubble Map
-actioncall-url: https://plot.ly/~Dreamshot/6618/_2014-us-city-populations/
+actioncall-url: https://plot.ly/~Dreamshot/6752/_2014-us-city-populations/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
 
 similar:
@@ -27,7 +27,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~Dreamshot/6618.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~Dreamshot/6752.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
