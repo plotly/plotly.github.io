@@ -48,25 +48,12 @@ title: Plotly Tutorials
 </div>
 
 <div class="sectionseparator_a">
-    <div id="scroll-nav" class="nav-scroll-relative">
-      <div class="scroll-button-wrapper">
-        <a class="nav-button" href="#plotlybasic">Plotly basics</a>      	
-        <a class="nav-button" href="#basic">Basic charts</a>
-        <a class="nav-button" href="#statistical">Statistical charts</a>
-        <a class="nav-button" href="#graph3d">3D charts</a>
-        <a class="nav-button" href="#textandlinks">Text, LaTex, &amp; Links</a>
-        <a class="nav-button" href="#classroom">Classroom</a>
-        <a class="nav-button" href="#dataliteracy">Data literacy</a>
-        <a class="nav-button" href="#videos">Videos</a>
-        <a class="nav-button" href="#excel">Plotly & Excel</a>
-      </div>
-    </div>
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   			<h1 class="centered" id="alltutorialsect">Plotly Tutorials</h1>
 
   				<div class="row">
-  						<a class="tutorialsect_title" href="#plotlybasic" name="plotlybasic" id="plotlybasic"><h2>Plotly Basics</h2></a>
+  						<a class="tutorialsect_title" href="#plotlybasic" name="plotlybasic" id="plotlybasic"><h2>Plotly Basics</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'plotlybasic' %}
