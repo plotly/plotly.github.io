@@ -8,7 +8,7 @@ HEADER
 	line-height: 78px;
 	display: block;
 	min-width: 1080px;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 0px solid #cccccc;
 }
 
 .hamburger{
@@ -116,7 +116,7 @@ TWO-COLUMN LAYOUT
 PAGE-WIDE SECTION LAYOUT
 ************************/
 .sectionseparator_a{
-	background-color: #EEEEEE;
+	background-color: #FFFFFF;
 }
 
 .sectionseparator_b{
