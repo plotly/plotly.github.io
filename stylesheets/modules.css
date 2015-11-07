@@ -230,10 +230,13 @@ NAVIGATION BAR STYLING
 ***********************/
 
 .navigation-bar p, .navigation-bar a {
-    color: white;
-    font-weight: 400;
+    font-weight: 800;
+    margin-top: 10px;
+    text-transform: uppercase;
     line-height: 40px;
     text-decoration: none;
+    display: inline;
+    font-size: 13px;
 }
 
 @media (max-width: 400px) {
