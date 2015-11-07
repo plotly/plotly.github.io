@@ -12,6 +12,13 @@ HEADER STYLING
     height: 78px;
 }
 
+.hero-button-cta {
+    font-size: 18px;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0px 30px;	
+}
+
 .logo{
     font-size: 26px !important;
     font-weight: 200;
