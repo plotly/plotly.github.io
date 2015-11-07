@@ -199,8 +199,7 @@ RESPONSIVE TABLE
 }
 
 .feedback-section{
-    background: whitesmoke;
     padding: 40px;
     margin-bottom: 50px;
-    border-radius: 8px;
+    border-top: 1px solid #ccc;
 }
