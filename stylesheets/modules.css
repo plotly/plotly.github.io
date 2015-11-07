@@ -270,7 +270,7 @@ ALL TUTORIALS SECTION STYLING
 }
 
 .sectionseparator_b .titlecenter{
-	background-color: #EEEEEE;
+	background-color: rgb(244, 244, 248);
 }
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
@@ -304,7 +304,7 @@ ALL TUTORIALS SECTION STYLING
   padding-left: 8px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: rgb(244, 244, 248)
 }
 
 .titlecenter h5{
