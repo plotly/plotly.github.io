@@ -41,19 +41,19 @@ steps:
  - title: Creating Your Chart
    sub-steps:
     - copy: "Head to the 'MAKE A PLOT' dropdown and select 'Bubble map.' Label your columns like we did below. You'll have a column for latitude and longitude. Then, click both the 'Size By' and 'Text' options on the left; assign 'Text' to the city and 'Size By' to the population."
-      img: "![Labeling](https://images.plot.ly/excel/bubble-maps/labeling-bubble-map.png)"
+      img: "![Labeling](https://images.plot.ly/excel/bubble-maps/grid-bubble-map.png)"
     - copy: "Your plot would initially look something like this."
-      img: "![Original](https://images.plot.ly/excel/bubble-maps/original-bubble-map.png)"
+      img: "![Original](https://images.plot.ly/excel/bubble-maps/original1-bubble-map.png)"
     - copy: "Since our data only encompasses the U.S., we can change the map layout to focus on the Lower 48, Alaska and Hawaii. Head to the LAYOUT popover, then select the 'Geo layout' option and select 'USA' within the scope dropdown."
-      img: "![Domain](https://images.plot.ly/excel/bubble-maps/domain-bubble-map.png)"
+      img: "![Scope](https://images.plot.ly/excel/bubble-maps/scope-bubble-map.png)"
  - title: Finalizing Your Graph
    sub-steps:
     - copy: "We’ve titled our chart. You can too. We came up with '2014 U.S. City Populations.'"
-      img: "![Title](https://images.plot.ly/excel/bubble-maps/title-bubble-map.png)"
+      img: "![Title](https://images.plot.ly/excel/bubble-maps/titling-bubble-map.png)"
     - copy: "You can just the 'Type' of layout within the dropdown. We suggest going with 'Albers usa' for this plot."
-      img: "![Type](https://images.plot.ly/bubble-maps/type-bubble-map.png)"
+      img: "![Type](https://images.plot.ly/excel/bubble-maps/albers-bubble-map.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/bubble-maps/export-bubble-map.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel](https://images.plot.ly/excel/bubble-maps/final-excel-bubble-map.png)"
+      img: "![Excel](https://images.plot.ly/excel/bubble-maps/final1-excel-bubble-map.png)"
 ---
