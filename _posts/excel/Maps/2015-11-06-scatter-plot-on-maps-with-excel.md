@@ -14,15 +14,15 @@ actioncall-url:
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Bubble Map Online
+   url: /excel/bubble-map/
+   imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
+ - title: Plot Choropleth Map Online
+   url: /excel/choropleth-map/
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Add Maps to a Dashboard
+   url: /excel/dashboard/
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
