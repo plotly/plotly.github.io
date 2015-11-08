@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a 3D Scatter Plot (Iris Plot) Online with Plotly and Excel
 subtitle: 3D Scatter Plots with Plotly
 permalink: /excel/3d-scatter-plot
-imageurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/thumb-3d-scatter-plot-with-excel.png
+imageurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/3d-scatter-thumb.png
 state: active
 tags: excel
 section: 3D Charts
