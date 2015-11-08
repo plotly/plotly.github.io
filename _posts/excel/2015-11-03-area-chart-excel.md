@@ -9,7 +9,6 @@ tags: excel
 section: Basic Charts
 meta_description: A tutorial on how to make an area chart online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.png
 actioncall: Make this area chart
 actioncall-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010/
 download-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
