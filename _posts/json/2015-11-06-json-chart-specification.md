@@ -11,9 +11,9 @@ actioncall: Full Plotly JSON Schema
 actioncall-url: https://plot.ly/plot-schema.json
 ---
 
-## The Plotly JSON schema for interactive scientific charts
+## The Plotly JSON schema<br>for interactive scientific charts
 
-The <b>Plotly JSON visualization schema</b> is a declarative format for creating, saving, and sharing interactive scientific charts.
+The <b>Plotly JSON visualization schema</b> is a complete declarative format for creating, saving, and sharing interactive scientific charts.
 
 The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
 
@@ -101,7 +101,7 @@ Using this JSON schema, Plotly handles translation between chart and data format
 - CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
 - Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
 
-### Realtime JSON editor
+### Real-time JSON editor
 
 Try editing the JSON specification in this editor.
 
