@@ -26,3 +26,10 @@
 
 10. Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing. 
 
+11. **Chart sections.** For your chart to display on the help.plot.ly/excel/ homepage, the "section" meta tag must be set to one of the sections here: https://github.com/plotly/plotly.github.io/blob/master/_layouts/excel-page.html#L80
+  - BasicCharts
+  - Maps
+  - 3D Charts
+  - Layouts
+  - Dashboards
+  Note that these sections (except "Dashboards" are in the same order as the Python docs)
