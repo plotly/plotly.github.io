@@ -9,7 +9,6 @@ tags: excel
 section: 3D Charts
 meta_description: A tutorial on how to make a 3D Line Plot online with Excel.
 popularity: featured
-carouselimageurl: http://images.plot.ly/excel/3d-line-plot-with-excel/thumb-3d-line-plot-with-excel.png
 actioncall: Make this 3D Line Plot
 actioncall-url: https://plot.ly/423/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/line_3d_dataset.csv
