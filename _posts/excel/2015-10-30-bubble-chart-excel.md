@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Bubble Chart Online with Plotly and Excel
 subtitle: Bubble charts with Plotly
 permalink: /excel/bubble-chart
-imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
+imageurl: http://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 state: active
 tags: excel
 section: Basic Charts
