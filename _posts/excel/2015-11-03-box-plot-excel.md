@@ -9,7 +9,6 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a box plot online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.png
 actioncall: Make this box plot
 actioncall-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n/
 download-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv
