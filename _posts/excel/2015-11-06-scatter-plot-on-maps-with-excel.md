@@ -50,7 +50,7 @@ steps:
       img: "![Style](https:images.plot.ly/excel/choropleth-maps/style-choropleth-map.png)"
  - title: Finalizing Your Graph
    sub-steps:
-    - copy: "We’ve titled our chart. You can too. We came up with 'Most Trafficked U.S. Airports.'"
+    - copy: "We’ve titled our chart. You can too. We came up with 'Most Trafficked U.S. Airports.' Below that, we've specified that the hover text represents the number of arriving flights in Feb. 2011."
       img: "![Title](https:images.plot.ly/excel/choropleth-maps/title-choropleth-map.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](https:images.plot.ly/excel/choropleth-maps/export-choropleth-map.png)"
