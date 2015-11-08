@@ -11,10 +11,9 @@ actioncall: Full Plotly JSON Schema
 actioncall-url: https://plot.ly/plot-schema.json
 ---
 
-# The Plotly JSON schema
-## for interactive scientific charts
+## The Plotly JSON schema for interactive scientific charts
 
-The <b>Plotly JSON visualization schema</b> is a declarative format for creating, saving, and sharing interactive scientific charts. It is the complete, human-readable text format that attempts to describe all physical attributes of any scientific chart.
+The <b>Plotly JSON visualization schema</b> is a declarative format for creating, saving, and sharing interactive scientific charts.
 
 The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
 
@@ -25,22 +24,20 @@ Domain specific libraries have been written for efficent use of the JSON visuali
 - MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
 - JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
-## Example chart specifications
+### A Simple Bar Cahrt Example
 
 We have more community-created examples on [Plotly's feed](https://plot.ly/feed/). Just append ".json" to any Plotly chart URL to get the JSON specification:
 
-- Interactive chart: https://plot.ly/~empet/6640
-- JSON specification: https://plot.ly/~empet/6640.json
+- Interactive chart: [https://plot.ly/~empet/6640](https://plot.ly/~empet/6640)
+- JSON specification: [https://plot.ly/~empet/6640.json](https://plot.ly/~empet/6640.json)
 
-### Simple bar chart
-
-#### Chart generated
+##### Generated chart
 
 ![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
 
-#### JSON specification
+##### JSON specification
 
-<pre>
+<pre style="padding:20px; background:whitesmoke; font-size:12px;">
 {
     "data": [
         {
