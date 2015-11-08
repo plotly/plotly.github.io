@@ -9,7 +9,6 @@ tags: excel
 section: 3D Plots
 meta_description: A tutorial on how to make a 3D Scatter Plot online with Excel.
 popularity: featured
-carouselimageurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/thumb-3d-scatter-plot-with-excel.png
 actioncall: Make this 3D Scatter Plot
 actioncall-url: https://plot.ly/504/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/iris.csv
