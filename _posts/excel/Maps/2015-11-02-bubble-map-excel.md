@@ -14,15 +14,15 @@ actioncall-url: https://plot.ly/~Dreamshot/6752/_2014-us-city-populations/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map Online
+   url: /excel/choropleth-map/
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Plot Data on a Map Online
+   url: /excel/scatter-plots-on-maps/
+   imgurl: http://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png
+ - title: Add Maps to a Dashboard
+   url: /excel/dashboard/
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
