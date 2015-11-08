@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a 3D Line Plot Online with Plotly and Excel
 subtitle: 3D Line Plots with Plotly
 permalink: /excel/3d-line-plot
-imageurl: http://images.plot.ly/excel/3d-line-plot-with-excel/thumb-3d-line-plot-with-excel.png
+imageurl: http://images.plot.ly/excel/3d-line-plot-with-excel/3d-line-plot-with-excel-thumb.png
 state: active
 tags: excel
 section: 3D Charts
