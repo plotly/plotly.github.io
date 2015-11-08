@@ -17,14 +17,14 @@ The <b>Plotly JSON visualization schema</b> is a complete declarative format for
 
 The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
 
-Domain specific libraries have been written for efficent use of the JSON visualization schema in several lanuages:
+Domain specific libraries have been written for efficent use of the visualization schema in several lanuages:
 
 - Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
 - R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
 - MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
 - JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
-### A Simple Bar Cahrt Example
+### A Simple Bar Chart Example
 
 We have more community-created examples on [Plotly's feed](https://plot.ly/feed/). Just append ".json" to any Plotly chart URL to get the JSON specification:
 
@@ -91,7 +91,7 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 }
 </pre>
 
-Using this JSON schema, Plotly handles translation between chart and data formats:
+Using this JSON schema, it is easy to handle translation between different chart and data formats:
 
 - Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
 - JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
