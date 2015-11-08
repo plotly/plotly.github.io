@@ -94,7 +94,7 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 }
 </pre>
 
-Using this JSON schema, Plotly handles cross-platform translation of chart formats:
+Using this JSON schema, Plotly handles translation between chart and data formats:
 
 - Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
 - JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
