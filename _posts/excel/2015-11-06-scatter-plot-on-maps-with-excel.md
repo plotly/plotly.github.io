@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Scatter Plot on a Map with Plotly and Excel
 subtitle: Scatter Plots on Maps with Plotly
 permalink: /excel/scatter-plot-on-maps
-imageurl: /static/images/scatter-plot-on-maps.png
+imageurl: https://images.plot.ly/excel/scatter-plot-on-a-map/thumbnail-scatter-plot-on-a-map.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
