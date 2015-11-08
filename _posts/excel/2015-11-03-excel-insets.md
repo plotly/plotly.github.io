@@ -13,10 +13,6 @@ carouselimageurl: http://i.imgur.com/xH25cQC.png
 actioncall: Make this inset plot
 actioncall-url:
 download-url:
-similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).
 
