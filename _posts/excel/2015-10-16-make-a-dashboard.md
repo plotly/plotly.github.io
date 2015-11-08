@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make an Online Dashboard  with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
-imageurl: /static/images/dashboards/dashboard-thumbnail.jpg
+imageurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
