@@ -9,7 +9,6 @@ tags: excel
 section: Basic Charts
 meta_description: A tutorial on how to make a heatmap online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.png
 actioncall: Make this Heatmap
 actioncall-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009/
 download-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.csv
