@@ -17,8 +17,12 @@
 6. MAKE SURE TEXT IN IMAGES THAT YOU UPLOAD IS NOT FUZZY. If anything in the image is fuzzy, take a new screenshot and try again.
  
 7. Chart section anchors should also MATCH THE PYTHON DOCS. 
+  - For example https://plot.ly/python/#3d
+  - Would then make the 3d section on the Excel homepage help.plot.ly/excel/#3d
 
 8. All datasets for download should be on Plotly's dataset repo: https://github.com/plotly/datasets
 
 9. All "Open Data in Plotly" links should link to the dataset AS A PUBLIC GRID WITHIN PLOTLY'S WORKSPACE. IE, https://plot.ly/15022/~jackp/ 
+
+10. Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing. 
 
