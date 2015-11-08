@@ -1,5 +1,5 @@
 ---
-layout: one_column_layout
+layout: excel-tutorial-single_layout
 title: Three Y Axes Graph with Plotly and Excel
 subtitle: A Step by Step Guide to Making a Graph with Three Y Axes With Plotly and Excel
 permalink: /excel/3-y-axes
