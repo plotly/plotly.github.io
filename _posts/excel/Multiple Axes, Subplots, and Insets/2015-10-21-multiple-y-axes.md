@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: single-column-layout
 title: Multiple Y Axes Graph With Plotly and Excel
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes With Plotly
 permalink: /excel/multiple-axes/
