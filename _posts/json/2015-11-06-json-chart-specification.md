@@ -20,10 +20,10 @@ The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](htt
 
 Domain specific libraries have been written for efficent use of the JSON visualization schema in several lanuages:
 
--Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
--R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
--MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
--JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
+- Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
+- R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
+- MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
+- JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
 ## Example chart specifications
 
@@ -88,9 +88,9 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 }
 </pre>
 
--Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
--JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
--Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
+- Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
+- JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
+- Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
 ![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
 
 ### Realtime JSON editor
