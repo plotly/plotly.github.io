@@ -7,7 +7,94 @@ imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 meta_description: The Plotly JSON chart schema is the complete, human-readable text format that describes all physical attributes the charts.
 popularity: frontpage
+actioncall: Full Plotly JSON Schema
 actioncall-url: https://plot.ly/plot-schema.json
 ---
 
-# Test
+# Plotly JSON chart schema
+
+The *Plotly JSON visualization schema* is a declarative format for creating, saving, and sharing interactive scientific charts.
+
+The complete JSON schema is maintained at .
+
+Domain specific libraries have been written for efficent use of the JSON visualization schema in several lanuages:
+- Python: https://plot.ly/python/reference/
+- R: https://plot.ly/r/reference/
+- MATLAB: https://plot.ly/matlab/reference/
+- JavaScript: https://plot.ly/javascript/reference/
+
+## Example chart specifications
+
+We have more community-created examples on [Plotly's feed](https://plot.ly/feed/). Just append ".json" to any Plotly chart URL to get the JSON specification:
+
+- Interactive chart: https://plot.ly/~empet/6640
+- JSON specification: https://plot.ly/~empet/6640.json
+
+### Simple bar chart
+
+```json
+{
+    "data": [
+        {
+            "x": [
+                20, 
+                14, 
+                23
+            ], 
+            "y": [
+                "giraffes", 
+                "orangutans", 
+                "monkeys"
+            ], 
+            "marker": {
+                "color": "rgba(55, 128, 191, 0.6)", 
+                "line": {
+                    "color": "rgba(55, 128, 191, 1.0)", 
+                    "width": 1
+                }
+            }, 
+            "name": "SF Zoo", 
+            "orientation": "h", 
+            "type": "bar"
+        }, 
+        {
+            "x": [
+                12, 
+                18, 
+                29
+            ], 
+            "y": [
+                "giraffes", 
+                "orangutans", 
+                "monkeys"
+            ], 
+            "marker": {
+                "color": "rgba(255, 153, 51, 0.6)", 
+                "line": {
+                    "color": "rgba(255, 153, 51, 1.0)", 
+                    "width": 1
+                }
+            }, 
+            "name": "LA Zoo", 
+            "orientation": "h", 
+            "type": "bar"
+        }
+    ], 
+    "layout": {
+        "barmode": "stack"
+    }
+}
+```
+
+- Interactive chart: https://plot.ly/~PlotBot/880
+- JSON specifcation: https://plot.ly/~PlotBot/880
+- Chart image: https://plot.ly/~PlotBot/880.png
+
+![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
+
+### Realtime JSON editor
+
+Try editing the JSON specification in this editor.
+
+<p data-height="580" data-theme-id="15263" data-slug-hash="XmxaXY" data-default-tab="result" data-user="plotly" class='codepen'>See the Pen <a href='http://codepen.io/plotly/pen/XmxaXY/'>Json Editor</a> by Plotly (<a href='http://codepen.io/plotly'>@plotly</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
