@@ -33,4 +33,4 @@
   - Layouts
   - Dashboards
 
-Note that these sections (except "Dashboards" are in the same order as the Python docs)
+Note that these sections (except "Dashboards") are in the same order as the Python docs.
