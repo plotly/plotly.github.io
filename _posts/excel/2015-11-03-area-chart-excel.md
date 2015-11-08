@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Area Chart Online with Plotly and Excel
 subtitle: Area Charts with Plotly
 permalink: /excel/area-chart
-imageurl: /static/images/area-charts-in-excel-with-plotly/thum-area-charts-in-excel-with-plotly.png
+imageurl: http://images.plot.ly/excel/area-charts/thum-area-charts-in-excel-with-plotly.png
 state: active
 tags: excel
 section: Basic Charts
