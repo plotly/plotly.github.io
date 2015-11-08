@@ -19,6 +19,7 @@ The <b>Plotly JSON visualization schema</b> is a declarative format for creating
 The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
 
 Domain specific libraries have been written for efficent use of the JSON visualization schema in several lanuages:
+
 -Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
 -R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
 -MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
