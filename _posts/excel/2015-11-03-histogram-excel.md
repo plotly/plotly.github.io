@@ -9,7 +9,6 @@ tags: excel
 section: Basic Charts
 meta_description: A tutorial on how to make a histrogram online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/214/_2013-nhl-player-height.png
 actioncall: Make this histogram
 actioncall-url: https://plot.ly/~cimar/214/_2013-nhl-player-height
 download-url: https://plot.ly/~cimar/214/_2013-nhl-player-height.csv
