@@ -11,17 +11,18 @@ actioncall: Full Plotly JSON Schema
 actioncall-url: https://plot.ly/plot-schema.json
 ---
 
-# Plotly JSON chart schema
+# The Plotly JSON schema
+## for interactive scientific charts
 
-The *Plotly JSON visualization schema* is a declarative format for creating, saving, and sharing interactive scientific charts.
+The <b>Plotly JSON visualization schema</b> is a declarative format for creating, saving, and sharing interactive scientific charts.
 
-The complete JSON schema is maintained at .
+The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
 
 Domain specific libraries have been written for efficent use of the JSON visualization schema in several lanuages:
-- Python: https://plot.ly/python/reference/
-- R: https://plot.ly/r/reference/
-- MATLAB: https://plot.ly/matlab/reference/
-- JavaScript: https://plot.ly/javascript/reference/
+-Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
+-R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
+-MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
+-JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
 ## Example chart specifications
 
@@ -32,7 +33,7 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 
 ### Simple bar chart
 
-```json
+<pre>
 {
     "data": [
         {
@@ -84,12 +85,11 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
         "barmode": "stack"
     }
 }
-```
+</pre>
 
-- Interactive chart: https://plot.ly/~PlotBot/880
-- JSON specifcation: https://plot.ly/~PlotBot/880
-- Chart image: https://plot.ly/~PlotBot/880.png
-
+-Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
+-JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
+-Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
 ![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
 
 ### Realtime JSON editor
