@@ -34,6 +34,12 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 
 ### Simple bar chart
 
+#### Chart generated
+
+![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
+
+#### JSON specification
+
 <pre>
 {
     "data": [
@@ -88,10 +94,15 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 }
 </pre>
 
+Using this JSON schema, Plotly handles cross-platform translation of chart formats:
+
 - Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
 - JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
 - Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
-![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
+- Python code: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.py)
+- JavaScript code: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.js)
+- CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
+- Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
 
 ### Realtime JSON editor
 
