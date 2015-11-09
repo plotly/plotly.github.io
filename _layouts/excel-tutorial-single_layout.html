@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- META TAGS -->
     {% include seo.html %}
-   
+
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
     <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  	
+
     <!-- Stylesheets -->
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/smooth-scroll.min.js"></script>
 
-   
+    <!-- Print Style -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
+
   </head>
   {% include new_header.html %}
   {% include navigation_bar.html %}
@@ -53,7 +55,7 @@
                   </article>
               {% endfor %}
 </div>
-           	
+
 
 {% include similar-tutorials.html %}
 {% include help-box.html %}
