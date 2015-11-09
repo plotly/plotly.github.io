@@ -40,7 +40,7 @@ steps:
       img: "![Labeling](http://i.imgur.com/YAzvCSP.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://i.imgur.com/ePWOHkx.png)"
-    - copy: "Head to the TRACES popover and access Col1 and Col3 from the dropdown menu. For "Type" you'll want these traces to be bar. For "Mode" you'll want these traces to be stack. These two traces apply to the first y-axis (the one on the left)."
+    - copy: "Head to the TRACES popover and access Col1 and Col3 from the dropdown menu. For 'Type' you'll want these traces to be bar. For 'Mode' you'll want these traces to be stack. These two traces apply to the first y-axis (the one on the left)."
       img: "![Editing](http://i.imgur.com/CdyZaIq.png))"
     - copy: "Now, access your third trace (Col4) and prepare to add the second y-axis. Click 'New Axis/Subplot...'"
       img: "![New Axis](http://i.imgur.com/NBGFIsl.png)"
