@@ -9,7 +9,6 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make an area chart online with Excel.
 popularity: featured
-actioncall: Open Data in Plotly
 actioncall-url: https://plot.ly/15084/~jackp/
 download-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
 
