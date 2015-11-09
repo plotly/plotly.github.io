@@ -53,7 +53,7 @@ steps:
       img: "![Data Points](http://i.imgur.com/iCNNizP.png)"
     - copy: "Then, within the same popover and column, head to the error bar menu. Show both the x and y error bars. You'll immediately notice the change on your graph."
       img: "![Error Bars](http://i.imgur.com/qgrCXqV.png)"
-    - copy: "You can play with the "Value" option within the error bar menu to get the bars to a length of your liking."
+    - copy: "You can play with the 'Value' option within the error bar menu to get the bars to a length of your liking."
  - title: Finalizing Your Graph
    sub-steps:
     - copy: "Adding titles to the x and y axis of your original plot and inset plot are important, as is an overall title for your plot. After titling your plot, it should look something like this."
