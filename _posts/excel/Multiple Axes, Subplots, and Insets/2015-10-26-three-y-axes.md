@@ -16,10 +16,10 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/cost_outp
 similar:
  - title: Make a Graph with Mulitple Y Axes
    url: /excel/multiple-axes/
-   imgurl: http://images.plot.ly/excel/multiple-axes-excel/thumbnail-multiple-axes.png
+   imgurl: http://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
  - title: Make a Chart with an Inset Plot
    url: /excel/insets
-   imgurl: http://images.plot.ly/excel/inset-plot-excel/thumbnail-inset-plot.png
+   imgurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
  - title: Add Maps to a Dashboard
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
