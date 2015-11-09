@@ -14,12 +14,12 @@ actioncall-url:
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv
 
 similar:
- - title: Make a Bubble Map
-   url: /excel/bubble-maps/
-   imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
- - title: Make a Choropleth Map
-   url: /excel/choropleth-maps/
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Graph with Three Y Axes
+   url: /excel/3-y-axes
+   imgurl: http://images.plot.ly/excel/3-y-axes-excel/thumbnail5-3-y-axes.png
+ - title: Make this Chart with an Inset Plot with Plotly
+   url: /excel/insets
+   imgurl: http://images.plot.ly/excel/inset-plot-excel/thumbnail-inset-plot.png
  - title: Add Maps to a Dashboard
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
