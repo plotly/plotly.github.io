@@ -97,8 +97,8 @@ Using this JSON schema, it is easy to handle translation between different chart
 - Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
 - JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
 - Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
-- Python code: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.py)
-- JavaScript code: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.js)
+- Python code: [https://plot.ly/~PlotBot/880.py](https://plot.ly/~PlotBot/880.py)
+- JavaScript code: [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)
 - CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
 - Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
 
