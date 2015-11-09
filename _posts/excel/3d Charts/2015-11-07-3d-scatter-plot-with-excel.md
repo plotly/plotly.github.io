@@ -12,7 +12,7 @@ popularity: featured
 actioncall: Make this 3D Scatter Plot
 actioncall-url: https://plot.ly/504/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/iris.csv
-redirect_from: /excel/3d-surface-plot
+redirect_from: /excel/3d-scatter-plot/
 similar:
  - title: Tutorial 1
    url: http://link.com
