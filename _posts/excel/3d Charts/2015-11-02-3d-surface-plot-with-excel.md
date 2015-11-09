@@ -14,10 +14,10 @@ actioncall: Make this 3D Surface Plot
 actioncall-url: https://plot.ly/380/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv
 similar:
- - title: Make a 3d scatter chart online
+ - title: Make a 3d scatter chart
    url: /excel/3d-scatter-plot/
    imgurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/3d-scatter-thumb.png
- - title: Make a 3d line chart online
+ - title: Make a 3d line chart
    url: /excel/3d-line-plot
    imgurl: http://images.plot.ly/excel/3d-line-plot-with-excel/3d-line-plot-with-excel-thumb.png
  - title: Add a 3d chart to your dashboard
