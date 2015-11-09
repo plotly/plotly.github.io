@@ -99,4 +99,5 @@ actioncall-url: **SHOULD ALWAYS LINK TO THE PLOTLY GRID IN THE WORKSPACE THAT IS
 download-url: **SHOULD ALWAYS DOWNLOAD THE EXACT CSV FILE USED FOR THE TUTORIAL**. IF YOU'RE DATA IS ON THE PLOTLY DATASETS GITHUB PAGE, MAKE A ZIP FILE OF THE DATA SO THAT IT AUTOMATICALLY DOWNLOADS. Examples:
   - https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
   - https://github.com/plotly/datasets/raw/master/2014_ebola.csv.zip
-- redirect_from: Only use this if your are redirecting the URL from an 
+- redirect_from: Only use this if your are redirecting the URL from an old page. Ask before using this. Example:
+https://github.com/plotly/plotly.github.io/blob/master/_posts/excel/3d%20Charts/2015-11-02-3d-surface-plot-with-excel.md
