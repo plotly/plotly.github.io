@@ -14,15 +14,15 @@ actioncall-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-sou
 download-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).
 
