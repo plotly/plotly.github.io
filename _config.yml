@@ -1,4 +1,5 @@
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
