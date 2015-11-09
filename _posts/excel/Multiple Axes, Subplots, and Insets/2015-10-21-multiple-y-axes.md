@@ -4,7 +4,7 @@ title: Multiple Y Axes Graph With Plotly and Excel
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes With Plotly
 permalink: /excel/multiple-axes/
 imageurl: http://images.plot.ly/excel/multiple-axes-excel/thumbnail-multiple-axes.png
-state: inactive
+state: active
 tags: basic
 meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace with Plotly and Excel. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
 popularity: featured
