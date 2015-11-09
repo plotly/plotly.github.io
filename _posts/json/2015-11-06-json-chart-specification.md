@@ -30,6 +30,7 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 
 - Interactive chart: [https://plot.ly/~empet/6640](https://plot.ly/~empet/6640)
 - JSON specification: [https://plot.ly/~empet/6640.json](https://plot.ly/~empet/6640.json)
+- JavaScript specification: [https://plot.ly/~empet/6640.js](https://plot.ly/~empet/6640.js)
 
 ##### Generated chart
 
