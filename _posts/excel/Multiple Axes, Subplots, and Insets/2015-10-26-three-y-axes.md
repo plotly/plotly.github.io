@@ -11,7 +11,7 @@ popularity: featured
 section: Layouts
 actioncall: Make a Graph with Three Y Axes
 actioncall-url: https://plot.ly/6812/~Dreamshot
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.csv.zip
 
 similar:
  - title: Make a Graph with Mulitple Y Axes
