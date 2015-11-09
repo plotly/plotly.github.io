@@ -7,8 +7,8 @@ imageurl:
 state: inactive
 tags: excel
 meta_description: A tutorial on how to make an inset chart online with Excel.
-section: Layout
 popularity: featured
+section: Layout
 actioncall: Make this Chart with an Inset Plot with Plotly
 actioncall-url:
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv
