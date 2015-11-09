@@ -10,7 +10,7 @@ meta_description: Create a graph with 3 traces, with a separate y-axis for each 
 popularity: featured
 section: Layouts
 actioncall: Make a Graph with Three Y Axes
-actioncall-url:
+actioncall-url: https://plot.ly/6812/~Dreamshot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/cost_output_defective.csv
 
 similar:
