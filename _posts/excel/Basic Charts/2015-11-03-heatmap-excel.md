@@ -9,7 +9,6 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a heatmap online with Excel.
 popularity: featured
-actioncall: Open Data in Plotly
 actioncall-url: https://plot.ly/15074/~jackp/
 download-url: https://github.com/plotly/datasets/raw/master/okcupid-compatibility-by-religion.csv.zip
 
