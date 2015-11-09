@@ -10,7 +10,7 @@ See the Meta Tag Reference section at the bottom
 
 When adding a tutorial, its important to make a high-quality thumbnail image for the Excel tutorials home page. Here are some tips to follow:
 
-- Thumbanil images should be at least 677 px X 300 px.
+- Thumbnail images should be at least 677 px X 300 px.
 - Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing. 
 - The thumbnail image has to be the same chart type as the tutorial BUT NOT NECESSARILY THE SAME CHART. Use the Plotly feed, blog, and Google Image search of Plotly charts to find the best screenshot for your thumbnail.
 - Thumbnail images should be CLEAN and not have too much text in them. Look at the Python docs thumbnail images for inspiration.
