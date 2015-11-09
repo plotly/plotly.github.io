@@ -6,7 +6,7 @@ permalink: /excel/bubble-chart
 imageurl: http://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a bubble chart online with Excel.
 popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
