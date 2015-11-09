@@ -4,14 +4,14 @@ title: Make a Chart with an Inset Plot with Plotly and Excel
 subtitle: Chart with an Inset Plot with Plotly
 permalink: /excel/insets
 imageurl: http://images.plot.ly/excel/inset-plot-excel/thumbnail-inset-plot.png
-state: active
+state: inactive
 tags: basic
 meta_description: A tutorial on how to make an inset chart online with Excel. Follow our step-by-step tutorial to make an inset chart for free and online with Plotly.
 popularity: featured
 section: Layouts
 actioncall: Make this Chart with an Inset Plot with Plotly
 actioncall-url: https://plot.ly/6805/~Dreamshot/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv.zip
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv
 
 similar:
  - title: Make a Graph with Three Y Axes
@@ -32,6 +32,7 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/inset.csv)"
+      img: "![Excel view]()"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
