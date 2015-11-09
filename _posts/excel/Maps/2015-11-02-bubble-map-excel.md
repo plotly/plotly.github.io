@@ -14,10 +14,10 @@ actioncall-url: https://plot.ly/~Dreamshot/6752/_2014-us-city-populations/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
 
 similar:
- - title: Make a Choropleth Map Online
+ - title: Make a Choropleth Map
    url: /excel/choropleth-map/
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
- - title: Plot Data on a Map Online
+ - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
    imgurl: http://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png
  - title: Add Maps to a Dashboard
