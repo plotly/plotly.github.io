@@ -10,8 +10,8 @@ section: BasicCharts
 meta_description: A tutorial on how to make a box plot online with Excel.
 popularity: featured
 actioncall: Make this box plot
-actioncall-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n/
-download-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv
+actioncall-url: https://plot.ly/15100/~jackp/
+download-url: https://plot.ly/~cimar/203.csv
 
 similar:
  - title: Make a Choropleth Map
