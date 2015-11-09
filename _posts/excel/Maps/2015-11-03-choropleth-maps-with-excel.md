@@ -9,9 +9,8 @@ tags: excel
 meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 section: Maps
-actioncall: Make this Choropleth Map
-actioncall-url:
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv
+actioncall-url: https://plot.ly/15115/~jackp/
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv.zip
 
 similar:
  - title: Make a Bubble Map
