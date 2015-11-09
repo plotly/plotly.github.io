@@ -14,10 +14,10 @@ actioncall-url:
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
 
 similar:
- - title: Make a Bubble Map Online
+ - title: Make a Bubble Map
    url: /excel/bubble-map/
    imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
- - title: Plot Choropleth Map Online
+ - title: Make a Choropleth Map
    url: /excel/choropleth-map/
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Add Maps to a Dashboard
