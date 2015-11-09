@@ -38,7 +38,7 @@ steps:
       img: "![Import data](http://images.plot.ly/excel/scatter-plot-on-a-map/import-scatter-plot-on-a-map.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Label your columns like we did below. You'll have three y-axis columns (male number, female number, male:female ratio) and one x-axis column (age). Select “Line plots” from the MAKE A PLOT menu and then click line plot in the bottom left."
+    - copy: "Label your columns like we did below. You'll have three y-axis columns (male number, female number, male:female ratio) and one x-axis column (age). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
       img: "![Labeling](http://i.imgur.com/YAzvCSP.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://i.imgur.com/ePWOHkx.png)"
