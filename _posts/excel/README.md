@@ -67,6 +67,8 @@ Rules to follow when adding new images:
 
 7. Make sure that the "Know how to program? See how to create this in Python or R." links are updated.
 
+8. Make sure that the "Tutorials like this" at the bottom all have thumbnail images and links.
+
 ## 4. Adding Excel links to the Python pages
 
 After you've added a new tutorial, add a file like this:
