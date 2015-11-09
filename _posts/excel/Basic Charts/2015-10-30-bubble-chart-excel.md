@@ -12,7 +12,7 @@ popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
 actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/14788/~jackp/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv.zip
 
 similar:
  - title: Make a Choropleth Map
