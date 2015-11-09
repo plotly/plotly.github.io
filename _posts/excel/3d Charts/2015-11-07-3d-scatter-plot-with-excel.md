@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a 3D Scatter Plot (Iris Plot) Online with Plotly and Excel
+title: Make a 3D Scatter Plot Online with Plotly and Excel
 subtitle: 3D Scatter Plots with Plotly
 permalink: /excel/3d-scatter-plot
 imageurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/3d-scatter-thumb.png
@@ -75,6 +75,6 @@ steps:
    sub-steps:
     - copy: "After Adding the styling, the plot will look something like this:"
       img: "![Finished Plot](http://images.plot.ly/excel/3d-scatter-plot-with-excel/thumb-3d-scatter-plot-with-excel.png)"
-    - copy: "Now you can share the generated plot with your peers/collaborators (basically, anyone you want to!). Click on share button on left menu bar:"
+    - copy: "Now you can share the generated plot with your peers/collaborators (basically, anyone you want to!). Click on the share button on the left menu bar:"
       img: "![Share Button](http://images.plot.ly/excel/3d-scatter-plot-with-excel/share-plot-button.png)"
 ---
