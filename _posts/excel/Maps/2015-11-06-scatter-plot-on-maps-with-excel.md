@@ -9,9 +9,8 @@ tags: excel
 meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 section: Maps
-actioncall: Make this Scatter Plot on a Map
-actioncall-url:
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv
+actioncall-url: https://plot.ly/15122/~jackp
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv.zip
 
 similar:
  - title: Make a Bubble Map
