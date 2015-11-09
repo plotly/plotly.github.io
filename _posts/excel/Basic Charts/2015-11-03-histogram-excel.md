@@ -14,15 +14,15 @@ actioncall-url: https://plot.ly/~cimar/214/_2013-nhl-player-height
 download-url: https://plot.ly/~cimar/214/_2013-nhl-player-height.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart/
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).
 
