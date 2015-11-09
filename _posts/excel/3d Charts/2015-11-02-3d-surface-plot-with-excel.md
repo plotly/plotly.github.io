@@ -14,15 +14,15 @@ actioncall: Make this 3D Surface Plot
 actioncall-url: https://plot.ly/380/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a 3d scatter chart online
+   url: /excel/3d-scatter-plot/
+   imgurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/3d-scatter-thumb.png
+ - title: Make a 3d line chart online
+   url: /excel/3d-line-plot
+   imgurl: http://images.plot.ly/excel/3d-line-plot-with-excel/3d-line-plot-with-excel-thumb.png
+ - title: Add a 3d chart to your dashboard
+   url: /excel/dashboard/
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).
 
