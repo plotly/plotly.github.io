@@ -15,7 +15,7 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_c
 
 similar:
  - title: Make a Choropleth Map
-   url: /excel/choropleth-map/
+   url: /excel/choropleth-maps/
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
