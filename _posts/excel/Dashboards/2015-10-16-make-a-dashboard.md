@@ -43,9 +43,6 @@ steps:
    sub-steps:
     - copy: "It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to 'add to dashboard.'"
       img: "![Add to dashboard](http://i.imgur.com/PTHsUP3.png)"
-    - copy: Another associate2
-      img: with its associated value2
-      imgAlt: hello
  - title: Create and Edit Your Dashboard 
    sub-steps:
     - copy: "Once you begin adding graphs to your dashboard, you'll be able to drag to organize them."
