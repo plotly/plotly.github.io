@@ -2,31 +2,11 @@
 
 ## 1. Setting the Meta Tag Descriptions
 
-- layout: Should always be "excel-tutorial-single_layout"
-- title: Make a [type of chart] Online with Plotly and Excel
-- subtitle [type of chart] with Plotly
-- permalink: /excel/[type-of-chart]. **NEW TUTORIALS SHOULD ALWAYS MATCH URLs EXACTLY OF PYTHON DOCS:** https://plot.ly/python/
-- imageurl: See section below on adding thumbnail images
-- state: active or inactive. Set to inactive for unfinished tutorials
-- tags: Should always be "excel"
-- carouselimageurl: **DON'T USE THIS. DON'T ADD NEW CAROUSEL IMAGES**
-- section: One of the following
-  - BasicCharts
-  - Maps
-  - 3D Charts
-  - Layouts
-  - Dashboards
-- meta_description: How to make a [chart type] online with Plotly and Excel data. [Add another more descriptive sentence here about the tutorial]
-- popularity: Should always be featured
-actioncall-url: **SHOULD ALWAYS LINK TO THE PLOTLY GRID IN THE WORKSPACE THAT IS AT THE START OF THE TUTORIAL** Example:
-  - https://plot.ly/15084/~jackp/
-download-url: **SHOULD ALWAYS DOWNLOAD THE EXACT CSV FILE USED FOR THE TUTORIAL**. IF YOU'RE DATA IS ON THE PLOTLY DATASETS GITHUB PAGE, MAKE A ZIP FILE OF THE DATA SO THAT IT AUTOMATICALLY DOWNLOADS. Examples:
-  - https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
-  - https://github.com/plotly/datasets/raw/master/2014_ebola.csv.zip
+See the Meta Tag Reference section at the bottom 
 
 ## 2. Adding Images
 
-#### Thumbnails
+### Thumbnails
 
 When adding a tutorial, its important to make a high-quality thumbnail image for the Excel tutorials home page. Here are some tips to follow:
 
@@ -35,17 +15,29 @@ When adding a tutorial, its important to make a high-quality thumbnail image for
 - The thumbnail image has to be the same chart type as the tutorial BUT NOT NECESSARILY THE SAME CHART. Use the Plotly feed, blog, and Google Image search of Plotly charts to find the best screenshot for your thumbnail.
 - Thumbnail images should be CLEAN and not have too much text in them. Look at the Python docs thumbnail images for inspiration.
 
-#### All Images
+### All Images
 
 Rules to follow when adding new images:
 
 - Never add a fuzzy or blurry images
 - images.plot.ly caches images. If you want update an image right away, you'll have to rename it or upload a new image with a different name.
 - Use images.plot.ly for adding new images. Log-in here: https://661924842005.signin.aws.amazon.com/console Username is Plotly_Editors.
+- When taking screenshots, close-ups are bad. Its better to take a wider-view so that the reader knows where the feature is then use a RED highlight to show the button or feature that the reader is supposed to find.
 - DON'T ADD CAROUSEL IMAGES FOR NEW POSTS.
 - Always use http and NOT https for images.plot.ly links:
   - GOOD: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
   - BAD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+
+### Plotly Chart Styling
+
+- If you're not sure how to style your chart, Seaborn is a good styleguide. Use the grey backgrounds with white gridlines and no tick marks. Match the colors:
+https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html
+
+- For 3d charts copy the layout and style of this chart:
+https://plot.ly/~empet/6994/triangular-wireframe-on-a-rectangular-surface/
+
+- For maps, copy the styling of the Python maps:
+https://plot.ly/python/#maps
 
 ## 3. Tutorial Writing Checklist and Troubleshooting
 
@@ -69,6 +61,7 @@ Rules to follow when adding new images:
 
 8. Make sure that the "Tutorials like this" at the bottom all have thumbnail images and links.
 
+
 ## 4. Adding Excel links to the Python pages
 
 After you've added a new tutorial, add a file like this:
@@ -83,4 +76,28 @@ This allows the EXCEL LINK to show up on the corresponding Python docs pages:
 
 https://plot.ly/python/choropleth-maps/
 
+## 5. Meta Tag Reference
 
+- layout: Should always be "excel-tutorial-single_layout"
+- title: Make a [type of chart] Online with Plotly and Excel
+- subtitle [type of chart] with Plotly
+- permalink: /excel/[type-of-chart]. **NEW TUTORIALS SHOULD ALWAYS MATCH URLs EXACTLY OF PYTHON DOCS:** https://plot.ly/python/
+- imageurl: See section below on adding thumbnail images
+- state: active or inactive. Set to inactive for unfinished tutorials
+- tags: Should always be "excel"
+- carouselimageurl: **DON'T USE THIS. DON'T ADD NEW CAROUSEL IMAGES**
+- section: One of the following
+  - BasicCharts
+  - Maps
+  - 3D Charts
+  - Layouts
+  - Dashboards
+- meta_description: How to make a [chart type] online with Plotly and Excel data. [Add another more descriptive sentence here about the tutorial]
+- popularity: Should always be featured
+actioncall-url: **SHOULD ALWAYS LINK TO THE PLOTLY GRID IN THE WORKSPACE THAT IS AT THE START OF THE TUTORIAL** Example:
+  - https://plot.ly/15084/~jackp/
+download-url: **SHOULD ALWAYS DOWNLOAD THE EXACT CSV FILE USED FOR THE TUTORIAL**. IF YOU'RE DATA IS ON THE PLOTLY DATASETS GITHUB PAGE, MAKE A ZIP FILE OF THE DATA SO THAT IT AUTOMATICALLY DOWNLOADS. Examples:
+  - https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
+  - https://github.com/plotly/datasets/raw/master/2014_ebola.csv.zip
+- redirect_from: Only use this if your are redirecting the URL from an old page. Ask before using this. Example:
+https://github.com/plotly/plotly.github.io/blob/master/_posts/excel/3d%20Charts/2015-11-02-3d-surface-plot-with-excel.md
