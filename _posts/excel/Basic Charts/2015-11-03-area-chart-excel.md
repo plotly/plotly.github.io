@@ -6,7 +6,7 @@ permalink: /excel/area-chart
 imageurl: http://images.plot.ly/excel/area-charts/thum-area-charts-in-excel-with-plotly.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make an area chart online with Excel.
 popularity: featured
 actioncall: Make this area chart
