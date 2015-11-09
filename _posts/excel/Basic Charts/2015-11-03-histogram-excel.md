@@ -9,8 +9,8 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a histrogram online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/~cimar/214/_2013-nhl-player-height
-download-url: https://plot.ly/~cimar/214/_2013-nhl-player-height.csv
+actioncall-url: https://plot.ly/15176/~jackp/
+download-url: https://github.com/plotly/datasets/raw/master/nhl_draft_2013_%40thejustinfisher.csv.zip
 
 similar:
  - title: Make a Choropleth Map
