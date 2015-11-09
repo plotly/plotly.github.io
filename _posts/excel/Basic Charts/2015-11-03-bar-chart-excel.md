@@ -9,7 +9,6 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a bar chart online with Excel.
 popularity: featured
-actioncall: Open Data in Plotly
 actioncall-url: https://plot.ly/15093/~jackp/
 download-url: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.csv
 
