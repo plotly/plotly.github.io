@@ -14,10 +14,10 @@ actioncall-url:
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv
 
 similar:
- - title: Make a Bubble Map Online
+ - title: Make a Bubble Map
    url: /excel/bubble-map/
    imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
- - title: Plot Data on a Map Online
+ - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
    imgurl: http://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png
  - title: Add Maps to a Dashboard
