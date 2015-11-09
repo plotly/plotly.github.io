@@ -27,6 +27,7 @@ Rules to follow when adding new images:
 - Always use http and NOT https for images.plot.ly links:
   - GOOD: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
   - BAD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+- ALWAYS DELETE UNUSED IMAGES FROM images.plot.ly
 
 ### Plotly Chart Styling
 
