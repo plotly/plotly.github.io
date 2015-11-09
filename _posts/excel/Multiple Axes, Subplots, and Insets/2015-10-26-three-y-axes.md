@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Three Y Axes Graph with Plotly and Excel
 subtitle: A Step by Step Guide to Making a Graph with Three Y Axes With Plotly and Excel
-permalink: /excel/3-y-axes
+permalink: /excel/three-y-axes
 imageurl: http://images.plot.ly/excel/3-y-axes-excel/thumbnail6-3-y-axes.png
 state: active
 tags: basic
@@ -26,7 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6499.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jackp/15139.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
