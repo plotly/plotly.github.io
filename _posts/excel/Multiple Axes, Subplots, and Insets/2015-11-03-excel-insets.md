@@ -16,10 +16,10 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv
 similar:
  - title: Make a Graph with Three Y Axes
    url: /excel/3-y-axes
-   imgurl: http://images.plot.ly/excel/3-y-axes-excel/thumbnail5-3-y-axes.png
+   imgurl: http://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
  - title: Make a Graph with Mulitple Y Axes
    url: /excel/multiple-axes/
-   imgurl: http://images.plot.ly/excel/multiple-axes-excel/thumbnail-multiple-axes.png
+   imgurl: http://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
  - title: Add Maps to a Dashboard
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
