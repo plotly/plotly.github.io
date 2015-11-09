@@ -15,15 +15,15 @@ actioncall-url: https://plot.ly/14788/~jackp/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
