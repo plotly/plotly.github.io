@@ -35,29 +35,29 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/scatter-plot-on-a-map/import-scatter-plot-on-a-map.png)"
+      img: "![Import data](http://images.plot.ly/excel/multiple-axes-excel/import.png)"
  - title: Creating Your Chart
    sub-steps:
     - copy: "Label your columns like we did below. You'll have three y-axis columns (male number, female number, male:female ratio) and one x-axis column (age). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
-      img: "![Labeling](http://i.imgur.com/YAzvCSP.png)"
+      img: "![Labeling](http://images.plot.ly/excel/multiple-axes-excel/labeling-multiple-y-axes.png)"
     - copy: "Your plot would initially look something like this."
-      img: "![Original](http://i.imgur.com/ePWOHkx.png)"
+      img: "![Original](http://images.plot.ly/excel/multiple-axes-excel/original-multiple-y-axes.png)"
     - copy: "Head to the TRACES popover and access Col1 and Col3 from the dropdown menu. For 'Type' you'll want these traces to be bar. For 'Mode' you'll want these traces to be stack. These two traces apply to the first y-axis (the one on the left)."
-      img: "![Editing](http://i.imgur.com/CdyZaIq.png)"
+      img: "![Editing](http://images.plot.ly/excel/multiple-axes-excel/editing-multiple-y-axes.png)"
     - copy: "Now, access your third trace (Col4) and prepare to add the second y-axis. Click 'New Axis/Subplot...'"
-      img: "![New Axis](http://i.imgur.com/NBGFIsl.png)"
+      img: "![New Axis](http://images.plot.ly/excel/multiple-axes-excel/new-axis-multiple-y-axes.png)"
     - copy: "You'll want to apply your new y-axis to the right side of the graph."
-      img: "![Right](http://i.imgur.com/Sp7Mavd.png)"
+      img: "![Right](http://images.plot.ly/excel/multiple-axes-excel/right-multiple-y-axes.png)"
     - copy: "Your graph should now look something like this:"
-      img: "![Progress](http://i.imgur.com/WURvnim.png)"
+      img: "![Progress](http://images.plot.ly/excel/multiple-axes-excel/progress-multiple-y-axes.png)"
  - title: Finalizing Your Graph
    sub-steps:
     - copy: "You might notice that the y-axis is busy with grid lines. Open the AXES popover in the toolbar to clean this up. Select the y-axis and turn grid lines 'off.'"
-      img: "![Grid lines](http://i.imgur.com/yv4OMzR.png)"
+      img: "![Grid lines](http://images.plot.ly/excel/multiple-axes-excel/grid-lines-multilple-y-axes.png)"
     - copy: "You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. Within the legend on the right side of the graph, you can label your 'line' trace 'Ratio male/female,' Col3 'female,' and Col1 'male.'"
     - copy: "We’ve titled our chart. And we’ve linked to our source data in the x-axis label area."
-      img: "![Final](http://i.imgur.com/118Yipj.png)"
+      img: "![Final](http://images.plot.ly/excel/multiple-axes-excel/final-multiple-y-axes.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version." 
-      img: "![Excel](http://i.imgur.com/szq4417.png)"
+      img: "![Excel](http://images.plot.ly/excel/multiple-axes-excel/excel-multiple-y-axes.png)"
 ---
