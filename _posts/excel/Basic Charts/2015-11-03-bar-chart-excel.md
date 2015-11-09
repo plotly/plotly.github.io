@@ -6,7 +6,7 @@ permalink: /excel/bar-chart
 imageurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a bar chart online with Excel.
 popularity: featured
 actioncall: Make this Bar Chart
