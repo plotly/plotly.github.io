@@ -64,6 +64,10 @@ https://plot.ly/python/#maps
 
 9. MAKE SURE THE FIRST SCREENSHOT ON EACH TUTORIAL IS A SCREENSHOT OF THE DATA IN EXCEL and the last screenshot is the chart exported as an image inside the Excel sheet.
 
+10. MAKE SURE YOU TEST ALL OF THE LINKS.
+
+11. Send to at least one person not at Plotly for them to read-through for spelling mistakes, etc.
+
 ## 4. Adding Excel links to the Python pages
 
 After you've added a new tutorial, add a file like this:
