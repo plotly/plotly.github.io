@@ -6,7 +6,7 @@ permalink: /excel/histogram
 imageurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a histrogram online with Excel.
 popularity: featured
 actioncall: Make this histogram
