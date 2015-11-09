@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Choropleth Map with Plotly and Excel
 subtitle: Choropleth Maps with Plotly
-permalink: /excel/choropleth-map
+permalink: /excel/choropleth-maps
 imageurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
 state: active
 tags: excel
@@ -15,7 +15,7 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_a
 
 similar:
  - title: Make a Bubble Map
-   url: /excel/bubble-map/
+   url: /excel/bubble-maps/
    imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
  - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
