@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Chart with an Inset Plot with Plotly and Excel
 subtitle: Chart with an Inset Plot with Plotly
 permalink: /excel/insets
-imageurl: 
+imageurl: http://images.plot.ly/excel/inset-plot-excel/thumbnail-inset-plot.png
 state: inactive
 tags: excel
 meta_description: A tutorial on how to make an inset chart online with Excel.
