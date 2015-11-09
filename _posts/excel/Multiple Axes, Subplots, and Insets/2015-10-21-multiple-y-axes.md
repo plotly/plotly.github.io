@@ -55,7 +55,7 @@ steps:
     - copy: "You might notice that the y-axis is busy with grid lines. Open the AXES popover in the toolbar to clean this up. Select the y-axis and turn grid lines 'off.'"
       img: "![Grid lines](http://i.imgur.com/yv4OMzR.png)"
     - copy: "You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. Within the legend on the right side of the graph, you can label your 'line' trace 'Ratio male/female,' Col3 'female,' and Col1 'male.'"
-     - copy: "We’ve titled our chart. And we’ve linked to our source data in the x-axis label area."
+    - copy: "We’ve titled our chart. And we’ve linked to our source data in the x-axis label area."
       img: "![Final](http://i.imgur.com/118Yipj.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version." 
