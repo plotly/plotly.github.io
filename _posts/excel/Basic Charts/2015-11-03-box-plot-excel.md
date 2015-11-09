@@ -14,9 +14,15 @@ actioncall-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken
 download-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
 
