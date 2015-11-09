@@ -15,10 +15,10 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_febr
 
 similar:
  - title: Make a Bubble Map
-   url: /excel/bubble-map/
+   url: /excel/bubble-maps/
    imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
  - title: Make a Choropleth Map
-   url: /excel/choropleth-map/
+   url: /excel/choropleth-maps/
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Add Maps to a Dashboard
    url: /excel/dashboard/
