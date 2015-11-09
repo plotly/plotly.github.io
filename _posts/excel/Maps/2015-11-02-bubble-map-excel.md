@@ -9,9 +9,8 @@ tags: excel
 section: Maps
 meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
-actioncall: Make this Bubble Map
-actioncall-url: https://plot.ly/~Dreamshot/6752/_2014-us-city-populations/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv
+actioncall-url: https://plot.ly/15108/~jackp
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv.zip
 
 similar:
  - title: Make a Choropleth Map
