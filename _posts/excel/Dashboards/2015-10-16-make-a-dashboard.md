@@ -3,27 +3,26 @@ layout: excel-tutorial-single_layout
 title: Make an Online Dashboard  with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
-imageurl: /static/images/dashboards/dashboard-thumbnail.jpg
+imageurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
-actioncall: Make a Dashboard
 actioncall-url: http://dashboards.ly/
 download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
@@ -43,9 +42,6 @@ steps:
    sub-steps:
     - copy: "It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to 'add to dashboard.'"
       img: "![Add to dashboard](http://i.imgur.com/PTHsUP3.png)"
-    - copy: Another associate2
-      img: with its associated value2
-      imgAlt: hello
  - title: Create and Edit Your Dashboard 
    sub-steps:
     - copy: "Once you begin adding graphs to your dashboard, you'll be able to drag to organize them."

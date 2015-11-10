@@ -3,27 +3,25 @@ layout: excel-tutorial-single_layout
 title: Make a Histogram Chart Online with Plotly and Excel
 subtitle: Histrograms with Plotly
 permalink: /excel/histogram
-imageurl: /static/images/histogram-with-excel/thum-histogram-with-excel.png
+imageurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a histrogram online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/214/_2013-nhl-player-height.png
-actioncall: Make this histogram
-actioncall-url: https://plot.ly/~cimar/214/_2013-nhl-player-height
-download-url: https://plot.ly/~cimar/214/_2013-nhl-player-height.csv
+actioncall-url: https://plot.ly/15176/~jackp/
+download-url: https://github.com/plotly/datasets/raw/master/nhl_draft_2013_%40thejustinfisher.csv.zip
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart/
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).
 
@@ -37,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/histogram/import-data-histogram.png)"
     - copy: "Select 'Histogram' from the MAKE A PLOT menu."
       img: "![How to make a histogram with excel](/static/images/histogram-with-excel/image18.png)"
     - copy: "Select only one column of data for a basic histogram (two with the 'group by' option)."

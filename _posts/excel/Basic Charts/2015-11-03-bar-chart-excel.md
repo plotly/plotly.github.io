@@ -3,27 +3,25 @@ layout: excel-tutorial-single_layout
 title: Make a Bar Chart Online with Plotly and Excel
 subtitle: Bar charts with Plotly
 permalink: /excel/bar-chart
-imageurl: /static/images/bar-chart-with-excel/thum-bar-chart-with-excel.png
+imageurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a bar chart online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.png
-actioncall: Make this Bar Chart
-actioncall-url: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo/
+actioncall-url: https://plot.ly/15093/~jackp/
 download-url: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/) or [R](https://plot.ly/r/bar-charts/).
@@ -37,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/bar-charts/import-data-bar-chart.png)"
  - title: Upload your Excel Data to Plotly&apos;s Grid &lpar;two traces&rpar;
    sub-steps:
     - copy: "The first option is to arrange these two data sets into two different columns."

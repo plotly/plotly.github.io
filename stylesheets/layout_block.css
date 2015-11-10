@@ -8,7 +8,7 @@ HEADER
 	line-height: 78px;
 	display: block;
 	min-width: 1080px;
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 0px solid #cccccc;
 }
 
 .hamburger{
@@ -116,7 +116,7 @@ TWO-COLUMN LAYOUT
 PAGE-WIDE SECTION LAYOUT
 ************************/
 .sectionseparator_a{
-	background-color: #EEEEEE;
+	background-color: #FFFFFF;
 }
 
 .sectionseparator_b{
@@ -147,12 +147,13 @@ TUTORIAL BLOCKS
 
 @media (min-width: 550px) {
 	.alltutcol {
-		width: 25%;
-		margin-right: 4.166666666667%;
-		margin-left: 4.166666666667%;
+		width: 18%;
+		margin-right: 1%;
+		margin-left: 1%;
 		margin-top: 20px;
 		margin-bottom: 20px;
 		background-color: #ffffff;
+		max-width: 160px;
 	}
 }
 
@@ -162,8 +163,8 @@ NAVIGATION BAR STYLING
 ***********************/
 .navigation-bar{
 	min-width: 100%;
-	background-color: #274478;
-	height: 40px;
+    	height: 60px;
+    	border-bottom: 1px solid #EEE;
 }
 
 /*****************************
@@ -198,8 +199,7 @@ RESPONSIVE TABLE
 }
 
 .feedback-section{
-    background: whitesmoke;
     padding: 40px;
     margin-bottom: 50px;
-    border-radius: 8px;
+    border-top: 1px solid #ccc;
 }

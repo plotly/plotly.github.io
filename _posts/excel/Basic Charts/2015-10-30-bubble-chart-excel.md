@@ -3,27 +3,26 @@ layout: excel-tutorial-single_layout
 title: Make a Bubble Chart Online with Plotly and Excel
 subtitle: Bubble charts with Plotly
 permalink: /excel/bubble-chart
-imageurl: /static/images/excel/bubble-chart/bubble-chart-thumb.jpg
+imageurl: http://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a bubble chart online with Excel.
 popularity: featured
 carouselimageurl: /images/bubble-carousel.jpg
-actioncall: Make this Bubble Chart
 actioncall-url: https://plot.ly/14788/~jackp/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/bubble_chart_tutorial.csv.zip
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
 
@@ -37,7 +36,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/bubble-charts/import-data-bubble-chart.png)"
  - title: Sizing and Log Axis
    sub-steps:
     - copy: "Your plot should look something like this."

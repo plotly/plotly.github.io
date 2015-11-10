@@ -9,7 +9,7 @@ title: Plotly Tutorials
     {% include seo.html %}
 
     <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
     <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
 
@@ -37,27 +37,25 @@ title: Plotly Tutorials
   <body onscroll="navClass()">
 
 <!-- Navigation -->
+{% include hero_sign_up.html %}
+{% include navigation_bar.html %}
 
-	<div class="sectionseparator_a">
-    <div id="scroll-nav" class="nav-scroll-relative">
-      <div class="scroll-button-wrapper">
-        <a class="nav-button" href="#plotlybasic">Plotly basics</a>      	
-        <a class="nav-button" href="#basic">Basic charts</a>
-        <a class="nav-button" href="#statistical">Statistical charts</a>
-        <a class="nav-button" href="#graph3d">3D charts</a>
-        <a class="nav-button" href="#textandlinks">Text, LaTex, &amp; Links</a>
-        <a class="nav-button" href="#classroom">Classroom</a>
-        <a class="nav-button" href="#dataliteracy">Data literacy</a>
-        <a class="nav-button" href="#videos">Videos</a>
-        <a class="nav-button" href="#excel">Plotly & Excel</a>
-      </div>
-    </div>
-    <div class="bigcontainer-w-nav-wrap">
+<div class="sectionseparator_a">
+    <div>
   		<div class="bigcontainer">
-  			<h1 class="centered" id="alltutorialsect">PLOTLY TUTORIALS</h1>
+  			<h1 class="centered" id="alltutorialsect">Plotly Tutorials</h1>
+	
+			<div class="row centered btnrow">
+				<a href="#plotlybasic" class="button no_underline">plot.ly basics</a>
+				<a href="#basic" class="button no_underline">Basic charts</a>
+				<a href="#graph3d" class="button no_underline">3d charts</a>
+				<a href="#textandlinks" class="button no_underline">Text & Latex</a>
+				<a href="#classroom" class="button no_underline">Classroom</a>
+				<a href="#excel" class="button no_underline">Plotly with Excel</a>
+			</div>
 
   				<div class="row">
-  						<a class="tutorialsect_title" href="#plotlybasic" name="plotlybasic" id="plotlybasic"><h2>Plotly Basics</h2></a>
+  						<a class="tutorialsect_title" href="#plotlybasic" name="plotlybasic" id="plotlybasic"><h2>Plotly Basics</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'plotlybasic' %}
@@ -72,7 +70,7 @@ title: Plotly Tutorials
   												<h5 class="centered"> {{page.title}} </h5>
   											</div>
   									</div></a></li>
-  									<div class="{% cycle 'group 1': '', '', 'three-column-clear' %}"></div>
+  									<div class="{% cycle 'group 1': '', '', '', '', 'three-column-clear' %}"></div>
   								{% endif %}
   							{% endfor %}
   						</ul>
@@ -83,13 +81,14 @@ title: Plotly Tutorials
   	
 
 	<div class="sectionseparator_b">
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic Charts</h2></a>
+  						<a class="tutorialsect_title" href="#basic" name="basic" id="basic"><h2>Basic Charts</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
-  								{% if page.state == 'active' and page.tags contains 'basic' %}
+  								{% if page.tags contains 'basic' or page.tags contains 'statistical' %}
+  								{% if page.state == 'active' %}
   									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
   									<div class="alltutcol">
   										{% if page.imageurl == "" or page.imageurl == nil %}
@@ -101,7 +100,8 @@ title: Plotly Tutorials
   												<h5 class="centered"> {{page.title}} </h5>
   											</div>
   									</div></a></li>
-  									<div class="{% cycle 'group 2': '', '', 'three-column-clear' %}"></div>
+  									<div class="{% cycle 'group 2': '', '', '', '', 'three-column-clear' %}"></div>
+  								{% endif %}
   								{% endif %}
   							{% endfor %}
   						</ul>
@@ -111,38 +111,10 @@ title: Plotly Tutorials
 	</div>
 	
 	<div class="sectionseparator_a">
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#statistical" name="statistical" id="statistical"><h2>Statistical charts</h2></a>
-  						<ul>
-  							{% for page in site.posts %}
-  								{% if page.state == 'active' and page.tags contains 'statistical' %}
-  									<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-  									<div class="alltutcol">
-  										{% if page.imageurl == "" or page.imageurl == nil %}
-  											<img src="/images/default.png" alt="Tutorial" />
-  										{% else %}
-  											<img src="{{page.imageurl}}" alt="Tutorial">
-  										{% endif %}
-  										<div class="titlecenter">
-  											<h5 class="centered"> {{page.title}} </h5>
-  										</div>
-  									</div></a></li>
-  									<div class="{% cycle 'group 3': '', '', 'three-column-clear' %}"></div>
-  								{% endif %}
-  							{% endfor %}
-  						</ul>
-  				</div>
-  		</div>
-    </div>
-	</div>
-	
-	<div class="sectionseparator_b">
-    <div class="bigcontainer-w-nav-wrap">
-  		<div class="bigcontainer">
-  				<div class="row">
-  						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D charts</h2></a>
+  						<a class="tutorialsect_title" href="#graph3d" name="graph3d" id="graph3d"><h2>3D charts</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'graph3d' %}
@@ -157,7 +129,7 @@ title: Plotly Tutorials
   												<h5 class="centered"> {{page.title}} </h5>
   											</div>
   									</div></a></li>
-  									<div class="{% cycle 'group 4': '', '', 'three-column-clear' %}"></div>
+  									<div class="{% cycle 'group 3': '', '', '', '', 'three-column-clear' %}"></div>
   								{% endif %}
   							{% endfor %}
   						</ul>
@@ -167,10 +139,10 @@ title: Plotly Tutorials
 	</div>
 	
 	<div class="sectionseparator_a">
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks" id="textandlinks"><h2>Adding Text &amp; Links</h2></a>
+  						<a class="tutorialsect_title" href="#textandlinks" name="textandlinks" id="textandlinks"><h2>Text, Dates, &amp; LaTeX</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
   								{% if page.state == 'active' and page.tags contains 'textandlinks' %}
@@ -185,7 +157,7 @@ title: Plotly Tutorials
   												<h5 class="centered"> {{page.title}} </h5>
   											</div>
   									</div></a></li>
-  									<div class="{% cycle 'group 5': '', '', 'three-column-clear' %}"></div>
+  									<div class="{% cycle 'group 4': '', '', '', '', 'three-column-clear' %}"></div>
   								{% endif %}
   							{% endfor %}
   						</ul>
@@ -194,42 +166,15 @@ title: Plotly Tutorials
     </div>
 	</div>
 	
-	<div class="sectionseparator_b">
-    <div class="bigcontainer-w-nav-wrap">
-  		<div class="bigcontainer">
-  				<div class="row">
-  						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom resources</h2></a>
-  						<ul>
-  							{% for page in site.posts %}
-  							{% if page.state == 'active' and page.tags contains 'classroom' %}
-  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-  								<div class="alltutcol">
-  									{% if page.imageurl == "" or page.imageurl == nil %}
-  										<img src="/images/default.png" alt="Tutorial" />
-  									{% else %}
-  										<img src="{{page.imageurl}}" alt="Tutorial">
-  									{% endif %}
-  										<div class="titlecenter">
-  											<h5 class="centered"> {{page.title}} </h5>
-  										</div>
-  								</div></a></li>
-  								<div class="{% cycle 'group 6': '', '', 'three-column-clear' %}"></div>
-  							{% endif %}
-  							{% endfor %}
-  						</ul>
-  				</div>
-  		</div>
-    </div>
-	</div>
-	
 	<div class="sectionseparator_a">
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" href="#dataliteracy" name="dataliteracy" id="dataliteracy"><h2>Data literacy</h2></a>
+  						<a class="tutorialsect_title" href="#classroom" name="classroom" id="classroom"><h2>Classroom resources</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
-  							{% if page.state == 'active' and page.tags contains 'dataliteracy' %}
+  							{% if page.tags contains 'classroom' or page.tags contains 'dataliteracy' or page.tags contains 'videos' %}
+  							{% if page.state == 'active' %}
   								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
   								<div class="alltutcol">
   									{% if page.imageurl == "" or page.imageurl == nil %}
@@ -241,35 +186,8 @@ title: Plotly Tutorials
   											<h5 class="centered"> {{page.title}} </h5>
   										</div>
   								</div></a></li>
-  								<div class="{% cycle 'group 7': '', '', 'three-column-clear' %}"></div>
+  								<div class="{% cycle 'group 5': '', '', '', '', 'three-column-clear' %}"></div>
   							{% endif %}
-  							{% endfor %}
-  						</ul>
-  				</div>
-  		</div>
-    </div>
-	</div>
-	
-	<div class="sectionseparator_b">
-    <div class="bigcontainer-w-nav-wrap">
-  		<div class="bigcontainer">
-  				<div class="row">
-  						<a class="tutorialsect_title" ref="videos" name="videos" id="videos"><h2>Videos</h2></a>
-  						<ul>
-  							{% for page in site.posts %}
-  							{% if page.state == 'active' and page.tags contains 'videos' %}
-  								<li class="no-margin-b"><a href="http://help.plot.ly{{page.permalink}}">
-  								<div class="alltutcol">
-  									{% if page.imageurl == "" or page.imageurl == nil %}
-  										<img src="/images/default.png" alt="Tutorial" />
-  									{% else %}
-  										<img src="{{page.imageurl}}" alt="Tutorial">
-  									{% endif %}
-  										<div class="titlecenter">
-  											<h5 class="centered"> {{page.title}} </h5>
-  										</div>
-  								</div></a></li>
-  								<div class="{% cycle 'group 8': '', '', 'three-column-clear' %}"></div>
   							{% endif %}
   							{% endfor %}
   						</ul>
@@ -279,10 +197,10 @@ title: Plotly Tutorials
 	</div>
 
 	<div class="sectionseparator_a">
-    <div class="bigcontainer-w-nav-wrap">
+    <div>
   		<div class="bigcontainer">
   				<div class="row">
-  						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2></a>
+  						<a class="tutorialsect_title" ref="excel" name="excel" id="excel"><h2>Excel</h2><hr></a>
   						<ul>
   							{% for page in site.posts %}
   							{% if page.state == 'active' and page.tags contains 'excel' and page.popularity contains 'featured' %}
@@ -300,7 +218,7 @@ title: Plotly Tutorials
   										<h5 class="centered"> {{page.title}} </h5>
   									</div>
   								</div></a></li>
-  								<div class="{% cycle 'group 9': '', '', 'three-column-clear' %}"></div>
+  								<div class="{% cycle 'group 6': '', '', '', '', 'three-column-clear' %}"></div>
   							{% endif %}
   							{% endfor %}
   						</ul>

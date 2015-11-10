@@ -9,15 +9,19 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a box plot online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.png
-actioncall: Make this box plot
-actioncall-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n/
-download-url: https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv
+actioncall-url: https://plot.ly/15100/~jackp/
+download-url: https://plot.ly/~cimar/203.csv
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
 
@@ -31,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/box-plots/import-data-box-plot.png)"
     - copy: "Select 'Box plots' from the MAKE A PLOT menu."
       img: "![Box Plot](/static/images/box-plot-with-excel/image18.png)"
     - copy: "Click the blue plot button in the sidebar to create the chart."

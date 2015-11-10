@@ -3,26 +3,26 @@ layout: excel-tutorial-single_layout
 title: Make a Area Chart Online with Plotly and Excel
 subtitle: Area Charts with Plotly
 permalink: /excel/area-chart
-imageurl: /static/images/area-charts-in-excel-with-plotly/thum-area-charts-in-excel-with-plotly.png
+redirect_from: /excel/area-charts/
+imageurl: http://images.plot.ly/excel/area-charts/thum-area-charts-in-excel-with-plotly.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make an area chart online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.png
-actioncall: Make this area chart
-actioncall-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010/
+actioncall-url: https://plot.ly/15084/~jackp/
 download-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
+
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart
+   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/filled-area-plots/) or [R](https://plot.ly/r/filled-area-plots/).
 
@@ -36,7 +36,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/area-charts/import-data-area-chart.png)"
  - title: Adding Fill Under Traces
    sub-steps:
     - copy: "To make an area plot from a line plot, edit the 'Fill To' attribute in the MODE tab of the TRACES popover."

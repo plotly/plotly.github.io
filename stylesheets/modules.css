@@ -230,10 +230,23 @@ NAVIGATION BAR STYLING
 ***********************/
 
 .navigation-bar p, .navigation-bar a {
-    color: white;
-    font-weight: 400;
+    font-weight: 800;
+    margin-top: 10px;
+    text-transform: uppercase;
     line-height: 40px;
     text-decoration: none;
+    display: inline;
+    font-size: 13px;
+}
+
+.navigation-bar a {
+    color: #447bdc;
+    margin: 0px 20px;
+}
+
+.navigation-bar p {
+    position: relative;
+    top: 10px;
 }
 
 @media (max-width: 400px) {
@@ -270,7 +283,7 @@ ALL TUTORIALS SECTION STYLING
 }
 
 .sectionseparator_b .titlecenter{
-	background-color: #EEEEEE;
+	background-color: rgb(244, 244, 248);
 }
 
 .sectionseparator_a li, .sectionseparator_b li, .sectionseparator_a a, .sectionseparator_b a{
@@ -289,7 +302,7 @@ ALL TUTORIALS SECTION STYLING
 .tutorialsect_title{
 	padding-top: 20px;
 	padding-bottom: 10px;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 }
 
@@ -304,7 +317,7 @@ ALL TUTORIALS SECTION STYLING
   padding-left: 8px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: rgb(244, 244, 248)
 }
 
 .titlecenter h5{
@@ -802,4 +815,25 @@ caret
   border-left: 4px solid transparent;
   content: '';
   margin-left: 5px;
+}
+
+.hero-button-cta {
+    font-size: 18px !important;
+    display: inline-block !important;
+    padding: 12px 24px !important;
+}
+
+.hero-text-cta{
+    color: black !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.hero-text-cta > a{
+    color: #447adb !important;
+    text-decoration: none !important;
+}
+
+#nav-not-active {
+    color: #69738a;
 }

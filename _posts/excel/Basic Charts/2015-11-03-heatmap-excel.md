@@ -6,24 +6,22 @@ permalink: /excel/heatmap
 imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
-section: Basic Charts
+section: BasicCharts
 meta_description: A tutorial on how to make a heatmap online with Excel.
 popularity: featured
-carouselimageurl: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.png
-actioncall: Make this Heatmap
-actioncall-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009/
-download-url: https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.csv
+actioncall-url: https://plot.ly/15074/~jackp/
+download-url: https://github.com/plotly/datasets/raw/master/okcupid-compatibility-by-religion.csv.zip
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Choropleth Map
+   url: /excel/choropleth-maps
+   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+ - title: Adding Charts to Dashboards
+   url: /excel/dashboards
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).
 
@@ -37,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import button](/static/images/heat-map-with-excel/image19.png)"
+      img: "![Import button](http://images.plot.ly/excel/heat-map/import-data-heat-map.png)"
     - copy: "Select 'Heatmaps' from the MAKE A PLOT menu."
       img: "![Dropdown](/static/images/heat-map-with-excel/image06.png)"
     - copy: "Select the 'Column names' button from the X-AXIS options in the sidebar and click 'Select all columns' button."
