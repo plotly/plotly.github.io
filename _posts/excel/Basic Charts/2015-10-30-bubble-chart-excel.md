@@ -36,7 +36,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://i.imgur.com/eQjmxGp.png)"
+      img: "![Import data](http://images.plot.ly/excel/bubble-charts/import-data-bubble-chart.png)"
  - title: Sizing and Log Axis
    sub-steps:
     - copy: "Your plot should look something like this."
