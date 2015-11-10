@@ -66,7 +66,7 @@ steps:
     - copy: "Now for a little styling. Head to the AXES popover and ensure that 'All Axes' is selected. Next, access the 'Lines' menu and turn the 'Axis line' and 'Mirror' on while the 'Grid lines' and 'Zero line' off."
       img: "![Styling](http://images.plot.ly/excel/subplots-excel/styling-subplot.png)"
     - copy: "Your plot should now look something like this. In order to get the graph at the top of the tutorial, you’ll need to style it a little more."
-      img: "![Final](htts://images.plot.ly/excel/subplots-excel/final-subplot.png)"
+      img: "![Final](http://images.plot.ly/excel/subplots-excel/final-subplot.png)"
     - copy: "We used a note to link to our source data. You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](http://images.plot.ly/excel/subplots-excel/export-subplot.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
