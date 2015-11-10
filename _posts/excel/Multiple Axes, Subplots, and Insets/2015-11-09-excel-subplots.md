@@ -49,7 +49,7 @@ steps:
       img: "![Reassign Axes1](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
     - Your plot would then look something like this."
       img: "![Plotting](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
-    - copy: "Take a moment to resize your plot to something less wide. A width of 800 and a height of 600 seems reasonable. Head to the layout menu to do this."
+    - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
     - copy: "Now, head to the TRACES popover again and access Col1 from the dropdown menu. For these data points, you'll want to remove the line from the marker. This will get you a plot closer to our version."
       img: "![Data Points](http://images.plot.ly/excel/inset-plot-excel/data-inset-plot.png)"
