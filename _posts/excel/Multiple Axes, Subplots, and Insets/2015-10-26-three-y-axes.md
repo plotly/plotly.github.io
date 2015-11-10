@@ -36,7 +36,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/3-y-axes-excel/import.png)"
+      img: "![Import data](http://images.plot.ly/excel/3-y-axes-excel/import-data-3-y-axes.png)"
  - title: Creating Your Chart
    sub-steps:
     - copy: "Label your columns like we did below. You'll have three y-axis columns (cost, output, defective) and one x-axis column (date). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the
