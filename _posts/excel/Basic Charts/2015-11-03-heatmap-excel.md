@@ -35,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import button](/static/images/heat-map-with-excel/image19.png)"
+      img: "![Import button](http://images.plot.ly/excel/heat-map/import-data-heat-map.png)"
     - copy: "Select 'Heatmaps' from the MAKE A PLOT menu."
       img: "![Dropdown](/static/images/heat-map-with-excel/image06.png)"
     - copy: "Select the 'Column names' button from the X-AXIS options in the sidebar and click 'Select all columns' button."
