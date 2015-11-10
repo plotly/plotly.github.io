@@ -1,18 +1,17 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Chart with a Subplot with Plotly and Excel
-subtitle: Chart with a Subplot with Plotly
-permalink: /excel/subplots
+title: Make a Chart with an Inset Plot with Plotly and Excel
+subtitle: Chart with an Inset Plot with Plotly
+permalink: /excel/insets
 imageurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
-state: inactive
+state: active
 tags: basic
-meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial 
-to make a subplot for free and online with Plotly.
+meta_description: A tutorial on how to make an inset chart online with Excel. Follow our step-by-step tutorial to make an inset chart for free and online with Plotly.
 popularity: featured
 section: Layouts
-actioncall: Make this Chart with a Subplot with Plotly
-actioncall-url: https://plot.ly/6850/~Dreamshot/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv
+actioncall: Make this Chart with an Inset Plot with Plotly
+actioncall-url: https://plot.ly/6805/~Dreamshot/
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv
 
 similar:
  - title: Make a Graph with Three Y Axes
