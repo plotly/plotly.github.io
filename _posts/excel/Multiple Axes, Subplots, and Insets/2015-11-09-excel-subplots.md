@@ -15,9 +15,9 @@ actioncall-url: https://plot.ly/6850/~Dreamshot/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv
 
 similar:
- - title: Make a Graph with Three Y Axes
-   url: /excel/3-y-axes
-   imgurl: http://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
+ - title: Make a Chart with an Inset Plot
+   url: excel/insets/
+   imgurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
  - title: Make a Graph with Mulitple Y Axes
    url: /excel/multiple-axes/
    imgurl: http://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
@@ -27,7 +27,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~jackp/15148.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6850.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
