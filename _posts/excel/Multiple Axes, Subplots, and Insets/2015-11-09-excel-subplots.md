@@ -59,21 +59,18 @@ steps:
       img: "![Span](http://images.plot.ly/excel/subplots-excel/span-subplot.png)"
  - title: Finalizing Your Graph
    sub-steps:
-    - copy: "Adding titles to the x and y axis of your original plot and inset plot are important, as is an overall title for your plot. After titling your plot, it should look something like this."
-      img: "![Titles](http://images.plot.ly/plotly-tutorials/excel/inset-plot-excel/title-inset-plot.png)"
-    - copy: "Head to the LEGEND popover. From there, you can hide your legend; it isn't really an important part of this graph."
-      img: "![Legend](http://images.plot.ly/excel/inset-plot-excel/legend-inset-plot.png)"
-    - copy: "You might notice that the grid lines on the inset plot clash with the grid lines of your original plot. Head to the AXES popover, then select X Axis 2 (Y Axis 2) from the drop down menu. Head to 'lines' and turn the grid lines off."
-      img: "![Grid Lines off X](http://images.plot.ly/excel/inset-plot-excel/grid-lines-x-inset-plot.png)"
-      img: "![Grid Lines off Y](http://images.plot.ly/excel/inset-plot-excel/grid-lines-y-inset-plot.png)"
-    - copy: "In order to get a distinguished inset 'boxed-in' look, you can turn the Axis line and Mirror on in the case of X Axis 2 (Y Axis 2) and also turn the Zero line off in both cases."
-      img: "![Axis Line/Mirror X](http://images.plot.ly/excel/inset-plot-excel/mirror-x-inset-plot.png)"
-      img: "![Axis Line/Mirror Y](http://images.plot.ly/excel/inset-plot-excel/mirror-y-inset-plot.png)"
- - title: Finalizing your Graph
-   sub-steps:
+    - copy: "Adding titles to your graph and to all of the x and y axes of your subplots is important. After titling your plot, it should look something like this."
+      img: "![Titles](http://images.plot.ly/excel/subplots-excel/titles-subplot.png)"
+    - copy: "Now, add some description to the different traces in your legend. Follow our lead."
+      img: "![Legend](http://images.plot.ly/excel/subplots-excel/legend-subplot.png)"
+    - copy: "Once you've added the text to your legend, you can head to the LEGEND popover and hide it. This will make your graph less cluttered. Your readers will see the trace descriptors on the hover!"
+      img: "![Legend2](http://images.plot.ly/excel/subplots-excel/legend2-subplot.png)"
+    - copy: "Now for a little styling. Head to the AXES popover and ensure that 'All Axes' is selected. Next, access the 'Lines' menu and turn the 'Axis line' and 'Mirror' on while the 'Grid lines' and 'Zero line' off."
+      img: "![Styling](http://images.plot.ly/excel/subplots-excel/styling-subplot.png)"
     - copy: "Your plot should now look something like this. In order to get the graph at the top of the tutorial, you’ll need to style it a little more."
-      img: "![Final](http://images.plot.ly/excel/inset-plot-excel/final-inset-plot.png)"
+      img: "![Final](htts://images.plot.ly/excel/subplots-excel/final-subplot.png)"
     - copy: "We used a note to link to our source data. You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+      img: "![Export](http://images.plot.ly/excel/subplots-excel/export-subplot.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel workbook](http://images.plot.ly/excel/inset-plot-excel/excel-inset-plot.png)"
+      img: "![Excel workbook](http://images.plot.ly/excel/subplots-excel/excel-subplot.png)"
 ---
