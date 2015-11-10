@@ -10,7 +10,7 @@ meta_description: A tutorial on how to make a subplot online with Excel. Follow 
 popularity: featured
 section: Layouts
 actioncall: Make this Chart with a Subplot with Plotly
-actioncall-url: https://plot.ly/6850/~Dreamshot/
+actioncall-url: https://plot.ly/6875/~Dreamshot/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv
 
 similar:
