@@ -51,11 +51,12 @@ steps:
       img: "![Plotting](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
-    - copy: "Now, head to the TRACES popover again and access Col1 from the dropdown menu. For these data points, you'll want to remove the line from the marker. This will get you a plot closer to our version."
-      img: "![Data Points](http://images.plot.ly/excel/inset-plot-excel/data-inset-plot.png)"
-    - copy: "Then, within the same popover and column, head to the error bar menu. Show both the x and y error bars. You'll immediately notice the change on your graph."
-      img: "![Error Bars](http://images.plot.ly/excel/inset-plot-excel/error-bars-inset-plot.png)"
-    - copy: "You can play with the 'Value' option within the error bar menu to get the bars to a length of your liking."
+    - copy: "Now, head to the TRACES popover again and access Col10 from the dropdown menu. Move this trace, along with the Col9 and Col11 traces to the 'X2' and 'Y2' axes. Then head to the 'New Axis/Subplot' popover and create a 'New subplot' for trace Col10, similar to what you previously for Col4."
+      img: "![Plotting2](http://images.plot.ly/excel/inset-plot-excel/data-inset-plot.png)"
+    - copy: "Then, move Col9 and Col11 to the same axes (X3 and Y3). Your plot would then look something like this."
+      img: "![Progress](http://images.plot.ly/excel/inset-plot-excel/error-bars-inset-plot.png)"
+    - copy: "You can play with the axes ranges within the AXES popover. You can also adjust the span of each subplot within the AXES opover and Layout menu. We found that a 'Span' of 0 to 0.33 worked best for the Y Axis, 0.34 to 0.67 for the Y Axis 2, and 0.68 to 1.00 for the Y Axis. Your plot would then look something like this."
+      img: "![Span](http://images.plot.ly/excel/inset-plot-excel/error-bars-inset-plot.png)"
  - title: Finalizing Your Graph
    sub-steps:
     - copy: "Adding titles to the x and y axis of your original plot and inset plot are important, as is an overall title for your plot. After titling your plot, it should look something like this."
