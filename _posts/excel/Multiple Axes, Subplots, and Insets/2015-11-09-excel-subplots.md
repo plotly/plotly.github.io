@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Chart with a Subplot with Plotly and Excel
 subtitle: Chart with an Subplot with Plotly
 permalink: /excel/subplots
-imageurl: 
+imageurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
 state: inactive
 tags: basic
 meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial 
