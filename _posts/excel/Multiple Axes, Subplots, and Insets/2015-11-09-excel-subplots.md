@@ -47,7 +47,7 @@ steps:
       img: "![Create First Subplot](http://images.plot.ly/excel/inset-plot-excel/create-inset-inset-plot.png)"
     - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases." 
       img: "![Reassign Axes1](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
-    - Your plot would then look something like this."
+    - copy: "Your plot would then look something like this."
       img: "![Plotting](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
