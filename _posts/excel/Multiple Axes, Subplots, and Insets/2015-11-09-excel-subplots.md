@@ -32,31 +32,31 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv)"
-      img: "![Excel view]()"
+      img: "![Excel view](http://images.plot.ly/excel/subplots-excel/excel-view-subplots.png)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/inset-plot-excel/import-data-inset-plot.png)"
+      img: "![Import data](http://images.plot.ly/excel/subplots-excel/import-data-subplots.png)"
  - title: Creating Your Chart
    sub-steps:
     - copy: "Label your columns like we did below. You'll have three different x-y datasets (Date, Atmospheric CO2 [Mauna Loa and South Pole], Date, Global Temperature Anomaly, and +2/-2 Standard Error, and Date, Heat Content and +2/-2 Standard Error). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
-      img: "![Grid](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
+      img: "![Grid](http://images.plot.ly/excel/subplots-excel/grid-subplot.png)"
     - copy: "Your plot would initially look something like this."
-      img: "![Original](http://images.plot.ly/excel/inset-plot-excel/original-inset-plot.png)"
+      img: "![Original](http://images.plot.ly/excel/subplots-excel/original-subplot.png)"
     - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subplot."
-      img: "![Create First Subplot](http://images.plot.ly/excel/inset-plot-excel/create-inset-inset-plot.png)"
+      img: "![Create First Subplot](http://images.plot.ly/excel/subplots-excel/create-subplot1-subplot.png)"
     - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases." 
-      img: "![Reassign Axes1](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
+      img: "![Reassign Axes1](http://images.plot.ly/excel/subplots-excel/reassign-axis-1-subplot.png)"
     - copy: "Your plot would then look something like this."
       img: "![Plotting](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
-      img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
+      img: "![Resize](http://images.plot.ly/excel/subplots-excel/resize-subplot.png)"
     - copy: "Now, head to the TRACES popover again and access Col10 from the dropdown menu. Move this trace, along with the Col9 and Col11 traces to the 'X2' and 'Y2' axes. Then head to the 'New Axis/Subplot' popover and create a 'New subplot' for trace Col10, similar to what you previously for Col4."
-      img: "![Plotting2](http://images.plot.ly/excel/inset-plot-excel/data-inset-plot.png)"
+      img: "![Plotting2](http://images.plot.ly/excel/subplots-excel/plotting2-subplot.png)"
     - copy: "Then, move Col9 and Col11 to the same axes (X3 and Y3). Your plot would then look something like this."
-      img: "![Progress](http://images.plot.ly/excel/inset-plot-excel/error-bars-inset-plot.png)"
+      img: "![Progress](http://images.plot.ly/excel/subplots-excel/progress-subplot.png)"
     - copy: "You can play with the axes ranges within the AXES popover. You can also adjust the span of each subplot within the AXES opover and Layout menu. We found that a 'Span' of 0 to 0.33 worked best for the Y Axis, 0.34 to 0.67 for the Y Axis 2, and 0.68 to 1.00 for the Y Axis. Your plot would then look something like this."
-      img: "![Span](http://images.plot.ly/excel/inset-plot-excel/error-bars-inset-plot.png)"
+      img: "![Span](http://images.plot.ly/excel/subplots-excel/span-subplot.png)"
  - title: Finalizing Your Graph
    sub-steps:
     - copy: "Adding titles to the x and y axis of your original plot and inset plot are important, as is an overall title for your plot. After titling your plot, it should look something like this."
