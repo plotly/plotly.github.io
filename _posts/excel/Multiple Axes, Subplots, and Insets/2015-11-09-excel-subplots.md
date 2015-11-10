@@ -40,13 +40,14 @@ steps:
  - title: Creating Your Chart
    sub-steps:
     - copy: "Label your columns like we did below. You'll have three different x-y datasets (Date, Atmospheric CO2 [Mauna Loa and South Pole], Date, Global Temperature Anomaly, and +2/-2 Standard Error, and Date, Heat Content and +2/-2 Standard Error). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
-      img: "![Grid1](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
-      img: "![Grid2](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
+      img: "![Grid](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/inset-plot-excel/original-inset-plot.png)"
-    - copy: "Head to the TRACES popover and access Col5 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Inset' under New Subplot."
-      img: "![Create Inset](http://images.plot.ly/excel/inset-plot-excel/create-inset-inset-plot.png)"
-    - copy: "Your plot would then look something like this."
+    - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subplot."
+      img: "![Create First Subplot](http://images.plot.ly/excel/inset-plot-excel/create-inset-inset-plot.png)"
+    - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases. 
+      img: "![Reassign Axes1](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
+    - Your plot would then look something like this."
       img: "![Plotting](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 800 and a height of 600 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
