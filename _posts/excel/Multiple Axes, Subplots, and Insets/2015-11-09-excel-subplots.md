@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Chart with a Subplot with Plotly and Excel
 subtitle: Chart with a Subplot with Plotly
 permalink: /excel/subplots
-imageurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
+imageurl: 
 state: inactive
 tags: basic
 meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial to make a subplot for free and online with Plotly.
@@ -26,7 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6850.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/2050.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
@@ -39,8 +39,9 @@ steps:
       img: "![Import data](http://images.plot.ly/excel/inset-plot-excel/import-data-inset-plot.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Label your columns like we did below. You'll have three different x-y datasets (margin of error, photon density/energy, electron energy/density). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
-      img: "![Grid](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
+    - copy: "Label your columns like we did below. You'll have three different x-y datasets (Date, Atmospheric CO2 [Mauna Loa and South Pole], Date, Global Temperature Anomaly, and +2/-2 Standard Error, and Date, Heat Content and +2/-2 Standard Error). Select 'Line plots' from the MAKE A PLOT menu and then click line plot in the bottom left."
+      img: "![Grid1](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
+      img: "![Grid2](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/inset-plot-excel/original-inset-plot.png)"
     - copy: "Head to the TRACES popover and access Col5 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Inset' under New Subplot."
