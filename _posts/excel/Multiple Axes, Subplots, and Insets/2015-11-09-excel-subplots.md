@@ -1,8 +1,8 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Chart with an Inset Plot with Plotly and Excel
-subtitle: Chart with an Inset Plot with Plotly
-permalink: /excel/insets
+title: Make a Chart with a Subplot with Plotly and Excel
+subtitle: Chart with a Subplot with Plotly
+permalink: /excel/subplots
 imageurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
 state: active
 tags: basic
