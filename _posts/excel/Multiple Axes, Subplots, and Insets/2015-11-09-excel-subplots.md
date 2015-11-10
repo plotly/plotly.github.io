@@ -31,8 +31,8 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/inset.csv)"
-      img: "![Excel view](http://images.plot.ly/excel/inset-plot-excel/excel-view-insets.png)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv)"
+      img: "![Excel view]()"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
