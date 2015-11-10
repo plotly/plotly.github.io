@@ -4,7 +4,7 @@ title: Make a Chart with a Subplot with Plotly and Excel
 subtitle: Chart with a Subplot with Plotly
 permalink: /excel/subplots
 imageurl: http://images.plot.ly/excel/subplots-excel/thumbnail1-subplot.png
-state: inactive
+state: active
 tags: basic
 meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial to make a subplot for free and online with Plotly.
 popularity: featured
