@@ -109,7 +109,13 @@ function getQueryParam(param) {
     mixpanel.register({
         "email_campaign_received": visit_origin
     });
+
+		mixpanel.track("Email Campaign visit", {
+				"url": window.location.pathname,
+				"email_campaign_received": visit_origin
+		});
 </script>
+
 
 <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
