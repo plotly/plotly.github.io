@@ -43,7 +43,7 @@ steps:
       img: "![Grid](http://images.plot.ly/excel/inset-plot-excel/grid-inset-plot.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/inset-plot-excel/original-inset-plot.png)"
-    - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subplot."
+    - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subsplot."
       img: "![Create First Subplot](http://images.plot.ly/excel/inset-plot-excel/create-inset-inset-plot.png)"
     - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases. 
       img: "![Reassign Axes1](http://images.plot.ly/excel/inset-plot-excel/plotting-inset-plot.png)"
