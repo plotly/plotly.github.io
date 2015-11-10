@@ -59,7 +59,7 @@ steps:
     - copy: "We are going to add some style elements to the chart. Styling options are present on the left side of the plot. To set the background color, (1) Click on the 'Axis' selector on the options menu on the left side of the plot, (2) Click on the 'Lines' tab from the pop-up, (3) Set 'Background' to 'On', and (4) Select background color from the color pallete."
       img: "![Background Color](http://images.plot.ly/excel/3d-line-plot-with-excel/set-background.png)"
 
-    - copy: "**Stylize Axes**: Go to 'Lines' tab from 'Axis' Selector. (1) Set Grid Lines to 'On' and select white color from pop-up, (2) Set Zero Lines to 'On' and select white color from pop-up"
+    - copy: "**Axes and Grid**: Go to 'Lines' tab from 'Axis' Selector. (1) Set Grid Lines to 'On' and select white color from pop-up, (2) Set Zero Lines to 'On' and select white color from pop-up"
       img: "![Set Axes and Grid Color](http://images.plot.ly/excel/3d-line-plot-with-excel/set-axis-color.png)"
 
  - title: Exporting the final chart
