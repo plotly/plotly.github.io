@@ -73,7 +73,7 @@ steps:
     - copy: "Find the note on the plot, and drag it to where you want it. Click the note to edit its text. Use markup to style and format it. <b>MEAN: 72.8''<br>MEDIAN:73''</b>"
       img: "![Graph markup](http://images.plot.ly/excel/histogram/note-histogram.png)"
     - copy: "Click the plot title and axis titles to edit their text. Use markup to link to your source."
-      img: "![Adding titles](/static/images/histogram-with-excel/image00.png)"
+      img: "![Adding titles](http://images.plot.ly/excel/histogram/source-histogram.png)"
     - copy: "<b>HEIGHT (INCHES)</b><br><a href=''http://theleafsnation.com/2014/5/25/justin-s-nhl-draftbook-2013-1963''>NHL Draftbook, Justin Fisher</a>"
     - copy: "Select the TRACES menu."
       img: "![Trace styling](/static/images/histogram-with-excel/image13.png)"
