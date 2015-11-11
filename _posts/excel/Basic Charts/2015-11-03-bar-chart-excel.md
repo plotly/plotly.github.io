@@ -9,7 +9,7 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a bar chart online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/15093/~jackp/
+actioncall-url: https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
 download-url: https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.csv
 
 similar:
