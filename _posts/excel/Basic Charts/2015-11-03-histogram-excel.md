@@ -31,7 +31,7 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/214/_2013-nhl-player-height.csv)"
-      img: "![Data view](/static/images/histogram-with-excel/image30.png)"
+      img: "![Data view](http://images.plot.ly/excel/histogram/excel-view-histogram.png)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
@@ -96,6 +96,6 @@ steps:
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](http://images.plot.ly/excel/histogram/final-histogram.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel](/static/images/histogram-with-excel/image32.png)"
+      img: "![Excel](http://images.plot.ly/excel/histogram/excel-histogram.png)"
 
 ---
