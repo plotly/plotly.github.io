@@ -11,7 +11,7 @@ popularity: featured
 section: Layouts
 actioncall: Make this Chart with a Subplot with Plotly
 actioncall-url: https://plot.ly/6875/~Dreamshot/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv.zip
 
 similar:
  - title: Make a Chart with an Inset Plot
