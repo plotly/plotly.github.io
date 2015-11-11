@@ -11,7 +11,7 @@ popularity: featured
 section: Layouts
 actioncall: Make this Chart with an Inset Plot with Plotly
 actioncall-url: https://plot.ly/6805/~Dreamshot/
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/inset.csv
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplot.csv.zip
 
 similar:
  - title: Make a Graph with Three Y Axes
