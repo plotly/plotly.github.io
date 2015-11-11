@@ -25,7 +25,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~cimar/214/_2013-nhl-player-height.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6903/_2013-nhl-player-height.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
