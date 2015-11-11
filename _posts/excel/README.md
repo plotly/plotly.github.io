@@ -29,6 +29,18 @@ Rules to follow when adding new images:
   - BAD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 - ALWAYS DELETE UNUSED IMAGES FROM images.plot.ly
 
+### Download CSV links and Open Data in Plotly links
+
+- Download CSV links should download CSV zip files from https://github.com/plotly/datasets. 
+- If you don't know how to add a zip to GitHub, just add the CSV and ask someone to make the zip for you.
+- "Open Data in Plotly" should open the exact grid that is shown in the tutorial WITH THE CORRECT CHART TYPE OPEN using the "plot_type" query parameter. Here are some good examples:
+- https://plot.ly/15176/~jackp/?plot_type=Histogram
+- https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
+
+Below is a screenshot of the `plot_type` names that set the correct chart type when opening the grid:
+
+![plot types](http://i.imgur.com/0V1ObaD.png)
+
 ### Plotly Chart Styling
 
 - If you're not sure how to style your chart, Seaborn is a good styleguide. Use the grey backgrounds with white gridlines and no tick marks. Match the colors:
