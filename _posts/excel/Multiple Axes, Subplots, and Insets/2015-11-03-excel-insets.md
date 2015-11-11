@@ -10,7 +10,7 @@ meta_description: A tutorial on how to make an inset chart online with Excel. Fo
 popularity: featured
 section: Layouts
 actioncall: Make this Chart with an Inset Plot with Plotly
-actioncall-url: https://plot.ly/6805/~Dreamshot/
+actioncall-url: https://plot.ly/6805/~Dreamshot/?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplot.csv.zip
 
 similar:
