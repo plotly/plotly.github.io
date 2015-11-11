@@ -9,7 +9,7 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a box plot online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
+actioncall-url: https://plot.ly/15100/~jackp/?plot_type=Box%20plot
 download-url: https://plot.ly/~cimar/203.csv
 
 similar:
