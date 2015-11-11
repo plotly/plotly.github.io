@@ -9,7 +9,7 @@ tags: excel
 meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 section: Maps
-actioncall-url: https://plot.ly/15115/~jackp/
+actioncall-url: https://plot.ly/15115/~jackp/?plot_type=Choropleth%20map
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv.zip
 
 similar:
