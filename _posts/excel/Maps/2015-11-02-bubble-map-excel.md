@@ -9,7 +9,7 @@ tags: excel
 section: Maps
 meta_description: A tutorial on how to make a bubble map online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/15108/~jackp
+actioncall-url: https://plot.ly/15108/~jackp/?plot_type=Bubble%20map
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv.zip
 
 similar:
