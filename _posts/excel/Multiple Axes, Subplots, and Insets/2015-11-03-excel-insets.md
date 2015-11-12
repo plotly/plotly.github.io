@@ -5,7 +5,7 @@ subtitle: Chart with an Inset Plot with Plotly
 permalink: /excel/insets
 imageurl: http://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
 state: active
-tags: basic
+tags: excel
 meta_description: A tutorial on how to make an inset chart online with Excel. Follow our step-by-step tutorial to make an inset chart for free and online with Plotly.
 popularity: featured
 section: Layouts
