@@ -8,7 +8,7 @@ state: active
 tags: excel
 meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Plotly.
 popularity: featured
-section: Basic
+section: BasicCharts
 actioncall: Make a Scatter Plot with Plotly
 actioncall-url: https://plot.ly/6944/~Dreamshot/?plot_type=Scatter%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv
