@@ -13,12 +13,32 @@ actioncall: Make a Scatter Plot with Plotly
 actioncall-url: https://plot.ly/6944/~Dreamshot/?plot_type=Scatter%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv
 
-#How To Label Points With Text in a Scatter Plot
+similar:
+ - title: Make a Graph with Three Y Axes
+   url: /excel/3-y-axes
+   imgurl: http://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
+ - title: Make a Graph with Mulitple Y Axes
+   url: /excel/multiple-axes/
+   imgurl: http://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
+ - title: Add Maps to a Dashboard
+   url: /excel/dashboard/
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
-<div>
-    <a href="https://plot.ly/~Dreamshot/3386" target="_blank" title="Company Losses" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3386.png" alt="Company Losses" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="Dreamshot:3386" src="https://plot.ly/embed.js" async></script>
-</div>
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/text-scatter-chart/) or [R](https://plot.ly/r/text-scatter-chart/).
+
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/3386.embed"></iframe>
+
+steps:
+ - title: Upload your Excel data to Plotly's grid
+   sub-steps:
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv)"
+      img: "![Excel view](http://images.plot.ly/excel/subplots-excel/excel-view-subplots.png)"
+ - title: Head to Plotly
+   sub-steps:
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+      img: "![Import data](http://images.plot.ly/excel/subplots-excel/import-data-subplots.png)"
+
+
 
 ### **Step 1:** Set up the grid
 
