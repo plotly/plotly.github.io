@@ -24,7 +24,7 @@ similar:
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/) or [R](https://plot.ly/r/subplots/).
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/2050.embed"></iframe>
 
