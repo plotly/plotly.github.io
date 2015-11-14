@@ -43,11 +43,19 @@ steps:
    sub-steps:
     - copy: "By hovering over each graph on your homepage, you can check each that you'd like to add to your new folder. Click the folder icon within upper tool bar to move the selected graphs to the newly-created folder."
       img: "![Add to Folder](http://i.imgur.com/PTHsUP3.png)"
- - title: Create and Edit Your Dashboard 
+    - copy: "Once you have selected the correct folder, go ahead and click 'MOVE' within the 'Move To' menu."
+      img: "![Move to Folder](http://i.imgur.com/PTHsUP3.png)"
+    - copy: "Your Plotly homepage should now look something like this."
+      img: "![Home](http://i.imgur.com/PTHsUP3.png)"
+ - title: Share Your Folder
    sub-steps:
-    - copy: "Once you begin adding graphs to your dashboard, you'll be able to drag to organize them."
-      img: "![Organize your graphs](http://i.imgur.com/az5lky1.png)"
- - title: Style your dashboard! 
+    - copy: "Now, hover over your new folder and click the 'Share' arrow."
+      img: "![Share Your Folder](http://i.imgur.com/az5lky1.png)"
+    - copy: "The 'Share Folder' popover will then appear. You can 'Invite People' by entering their Plotly username or email address. You can also add a message if you'd like."
+      img: "![Invite](http://i.imgur.com/az5lky1.png)"
+    - copy: "Click the 'SHARABLE LINK' tab to acquire a link to your folder. You can share this with other collaborators."
+      img: "![Link](http://i.imgur.com/az5lky1.png)"
+ - title: Your Plotly Homepage 
    sub-steps:
     - copy: "In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered."
       img: "![Styling](http://i.imgur.com/v7tXvXQ.png)"
@@ -57,12 +65,6 @@ steps:
       img: "![Navigation links](http://i.imgur.com/m2T5Kra.png)"
  - title: Publish your dashboard! 
    sub-steps:
-    - copy: "When you're done, scroll down and click 'publish dashboard.' You'll be given a URL to see your finished product."
-      img: "![Publish dashboard](http://i.imgur.com/jvtVyVT.png)"
- - title: Embed Your Dashboard
-   sub-steps:
-    - copy: "Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours."
-      img: "![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)"
-    - copy: "Our insurance 'Quarterly Outlook' can be found here at the secret link dashboards.ly provided: [click here](http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS). Got a cool dashboard of your own? Drop us a line!"
-      img: "![Dashboard](http://i.imgur.com/uhxCioO.png)"
+    - copy: "Our 'Error Bar Graphs' folder can be found here at the link provided: [click here](https://plot.ly/~Dinosaur/folder/Dinosaur:17)."
+      img: "![Final](http://i.imgur.com/uhxCioO.png)"
 ---
