@@ -32,39 +32,31 @@ steps:
  - title: Head to Plotly and Organize
    sub-steps:
     - copy: "Head to Plotly's homepage and click 'Organize' in the upper left."
-      img: "![Organize](http://i.imgur.com/az5lky1.png)"
+      img: "![Organize](http://images.plot.ly/excel/share-your-plot/organize-share-your-plot.png)"
  - title: Create a New Folder
    sub-steps:
     - copy: "Use the 'NEW' dropdown menu and select 'Folder.'"
-      img: "![Folder](http://i.imgur.com/CO5K1Nh.png)"
+      img: "![Folder](http://images.plot.ly/excel/share-your-plot/folder-share-your-plot.png)"
     - copy: "Name the new folder to your liking. We'll call ours 'Error Bar Graphs' since all of our graphs have error bars."
-      img: "![Folder Name](http://i.imgur.com/CO5K1Nh.png)"
+      img: "![Folder Name](http://images.plot.ly/excel/share-your-plot/folder-name-share-your-plot.png)"
  - title: Add Graphs to Your New Folder
    sub-steps:
     - copy: "By hovering over each graph on your homepage, you can check each that you'd like to add to your new folder. Click the folder icon within upper tool bar to move the selected graphs to the newly-created folder."
-      img: "![Add to Folder](http://i.imgur.com/PTHsUP3.png)"
+      img: "![Add to Folder](http://images.plot.ly/excel/share-your-plot/add-share-your-plot.png)"
     - copy: "Once you have selected the correct folder, go ahead and click 'MOVE' within the 'Move To' menu."
-      img: "![Move to Folder](http://i.imgur.com/PTHsUP3.png)"
+      img: "![Move to Folder](http://images.plot.ly/excel/share-your-plot/move-share-your-plot.png)"
     - copy: "Your Plotly homepage should now look something like this."
-      img: "![Home](http://i.imgur.com/PTHsUP3.png)"
+      img: "![Home](http://images.plot.ly/excel/share-your-plot/home-share-your-plot.png)"
  - title: Share Your Folder
    sub-steps:
     - copy: "Now, hover over your new folder and click the 'Share' arrow."
-      img: "![Share Your Folder](http://i.imgur.com/az5lky1.png)"
+      img: "![Share Your Folder](http://images.plot.ly/excel/share-your-plot/share-share-your-plot.png)"
     - copy: "The 'Share Folder' popover will then appear. You can 'Invite People' by entering their Plotly username or email address. You can also add a message if you'd like."
-      img: "![Invite](http://i.imgur.com/az5lky1.png)"
+      img: "![Invite](http://images.plot.ly/excel/share-your-plot/invite-share-your-plot.png)"
     - copy: "Click the 'SHARABLE LINK' tab to acquire a link to your folder. You can share this with other collaborators."
-      img: "![Link](http://i.imgur.com/az5lky1.png)"
+      img: "![Link](http://images.plot.ly/excel/share-your-plot/link-share-your-plot.png)"
  - title: Your Plotly Homepage 
    sub-steps:
-    - copy: "In this particular dashboard, we have six graphs; organizing them in rows of two looks the least cluttered."
-      img: "![Styling](http://i.imgur.com/v7tXvXQ.png)"
- - title: Add Links to Navigation Bar
-   sub-steps:
-    - copy: "As you are editing your dashboard, click settings in the upper right. This will give you the opportunity to adjust your navigation links at the upper left of the dashboard. Relevant links can add value to the dashaboard."
-      img: "![Navigation links](http://i.imgur.com/m2T5Kra.png)"
- - title: Publish your dashboard! 
-   sub-steps:
     - copy: "Our 'Error Bar Graphs' folder can be found here at the link provided: [click here](https://plot.ly/~Dinosaur/folder/Dinosaur:17)."
-      img: "![Final](http://i.imgur.com/uhxCioO.png)"
+      img: "![Final](http://images.plot.ly/excel/share-your-plot/final-share-your-plot.png)"
 ---
