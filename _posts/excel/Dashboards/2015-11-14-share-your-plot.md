@@ -14,9 +14,9 @@ actioncall-url: http://dashboards.ly/
 download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
- - title: Make a Choropleth Map
-   url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Add Maps to a Dashboard
+   url: /excel/dashboard/
+   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
    imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
