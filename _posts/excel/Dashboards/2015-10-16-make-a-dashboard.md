@@ -14,9 +14,9 @@ actioncall-url: http://dashboards.ly/
 download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
- - title: Add Maps to a Dashboard
-   url: /excel/dashboard/
-   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
+ - title: Make a Graph with Three Y Axes
+   url: /excel/3-y-axes
+   imgurl: http://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
    imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
