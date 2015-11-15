@@ -22,7 +22,6 @@ similar:
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
-
 steps: 
  - title: Head to Plotly and Organize
    sub-steps:
