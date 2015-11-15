@@ -10,7 +10,6 @@ meta_description: A tutorial on how to add plots to a folder and share with Plot
 popularity: featured
 section: Dashboards
 actioncall-url: https://plot.ly/~Dinosaur/folder/Dinosaur:17
-download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
  - title: Add Maps to a Dashboard
@@ -23,9 +22,7 @@ similar:
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
-otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
-
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+      img: "![Final](http://images.plot.ly/excel/share-your-plot/final-share-your-plot.png)"
 
 steps: 
  - title: Head to Plotly and Organize
