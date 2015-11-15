@@ -4,7 +4,7 @@ title: Add Plots to a Folder and Share with Plotly
 subtitle: Sharing Plots in Plotly
 permalink: /excel/online-reports
 imageurl: http://images.plot.ly/excel/share-your-plot/thumb-share-your-plot.png
-state: inactive
+state: active
 tags: excel
 meta_description: A tutorial on how to add plots to a folder and share with Plotly. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
