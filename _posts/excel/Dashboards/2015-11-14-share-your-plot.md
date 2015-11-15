@@ -23,7 +23,9 @@ similar:
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
+otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
+live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
 
 steps: 
  - title: Head to Plotly and Organize
