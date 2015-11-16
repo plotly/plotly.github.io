@@ -24,7 +24,7 @@ similar:
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/text-scatter-chart/) or [R](https://plot.ly/r/text-scatter-chart/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/3386.embed"></iframe>
 
