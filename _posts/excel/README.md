@@ -28,6 +28,9 @@ Rules to follow when adding new images:
   - GOOD: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
   - BAD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 - ALWAYS DELETE UNUSED IMAGES FROM images.plot.ly
+- use descriptive names for the image filenames and for the image alt tags. No "img24.png".
+- separate words with hyphens: "3d-surface-plot.png", not "3d surface plot.png" and not "3dsurfaceplot.png" and not "3d_surface_plot.png"
+- These are the official html guidelines from google (http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
 ### Download CSV links and Open Data in Plotly links
 
