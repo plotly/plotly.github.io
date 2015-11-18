@@ -4,7 +4,7 @@ title: Online Excel Reporting with Plotly
 subtitle: Online Excel Reporting with Plotly
 permalink: /excel/online-reports
 imageurl: http://images.plot.ly/excel/share-your-plot/thumbnail-share-your-plot.png
-state: inactive
+state: active
 tags: excel
 meta_description: Online Excel reports with Plotly. Plotly is the easiest and fastest way to make charts, reports, and dashboards online.
 popularity: featured
