@@ -14,13 +14,15 @@ Updated November 18, 2015
 
 For free users, Plotly throttles the number of requests made to its servers. This keeps server traffic and costs maneagable while still providing a useful experience. If you exceed the number of allowed requests, you will receive a message and have to wait 1 to 24 hours to make additional requests.
 
+The popular API libraries (Python, R, MATLAB , Arduino) use the <a href="https://plot.ly/rest/">V1</a> version of the Plotly API. The Plotly Web App uses the <a href="https://api.plot.ly/v2/">V2</a> version of the Plotly API. 
+
 ### Limits on Requests to Plotly Servers
 
 The API limits are as follows:
 
 <table>
   <thead>
-    <th>Use Case</th>
+    <th>API client</th>
     <th>Exceptions</th>
     <th>Per Day</th>
     <th>Per Hour</th>
