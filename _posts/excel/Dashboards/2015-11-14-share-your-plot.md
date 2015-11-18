@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Add Plots to a Folder and Share with Plotly
-subtitle: Sharing Plots in Plotly
+title: Online Excel Reporting with Plotly
+subtitle: Online Excel Reporting with Plotly
 permalink: /excel/online-reports
 imageurl: http://images.plot.ly/excel/share-your-plot/thumb-share-your-plot.png
 state: inactive
 tags: excel
-meta_description: A tutorial on how to add plots to a folder and share with Plotly. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Online Excel reports with Plotly. Plotly is the easiest and fastest way to make charts, reports, and dashboards online.
 popularity: featured
 section: Dashboards
 download-url: 
