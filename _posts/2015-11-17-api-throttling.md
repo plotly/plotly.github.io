@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
 title: Plotly API rate limits
-permalink: /api-rate limits
+permalink: /api-rate-limits
 state: active
 meta_description: Details on Plotly API rate limits and throttling.
 ---
