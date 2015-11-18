@@ -32,12 +32,15 @@ The API limits are as follows:
       <td>Python, Arduino, R, MATLAB</td>
       <td>50</td>
       <td>30</td>
+      <td>30</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="https://api.plot.ly/v2/">V2</a></td>
       <td>Plot.ly Web App</td>
       <td>50</td>
-      <td>30</td>    
+      <td>30</td>  
+      <td>GET requests are not limited</td>
     </tr>
   </tbody>
 </table>
