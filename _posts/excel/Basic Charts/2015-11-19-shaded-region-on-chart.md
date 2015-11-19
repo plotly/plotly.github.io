@@ -26,7 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/shapes/) or [R](https://plot.ly/r/shapes/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/3386.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7133.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
@@ -57,6 +57,8 @@ steps:
       img: "![Final](http://images.plot.ly/excel/label-points-excel/final-label-points.png)"
     - copy: "Head to the 'Traces' menu and then the 'Style' tab to set the trace color to your liking. You can title your graph and axes like we did. You can also blank out the legend, as it is not particularly necessary for this graph. Hide the legend within the 'Legend' menu."
       img: "![Styling](http://images.plot.ly/excel/label-points-excel/styling-label-points.png)"
+    - copy: "Here's our finished graph."
+      img: "![Finished](http://images.plot.ly/excel/label-points-excel/final-label-points.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](http://images.plot.ly/excel/label-points-excel/export-label-points.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
