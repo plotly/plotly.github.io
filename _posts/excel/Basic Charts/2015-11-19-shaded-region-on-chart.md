@@ -31,7 +31,7 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv)"
       img: "![Excel view](http://images.plot.ly/excel/label-points-excel/excel-view-label-points.png)"
  - title: Head to Plotly
    sub-steps:
