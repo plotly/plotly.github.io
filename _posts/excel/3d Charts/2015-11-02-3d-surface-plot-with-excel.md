@@ -13,7 +13,7 @@ popularity: featured
 carouselimageurl: http://images.plot.ly/excel/3d-surface-plot-with-excel/thumb-surface-plot-with-excel.png
 actioncall: Make this 3D Surface Plot
 actioncall-url: https://plot.ly/550/~tarzzz/?plot_type=3d%20surface%20plot
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv.zip
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv
 similar:
  - title: Make a 3d scatter chart
    url: /excel/3d-scatter-plot/
