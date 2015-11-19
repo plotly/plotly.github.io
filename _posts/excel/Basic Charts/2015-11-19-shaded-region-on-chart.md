@@ -10,8 +10,8 @@ meta_description: Create a shaded region on a chart. Easily make interactive gra
 popularity: featured
 section: BasicCharts
 actioncall: Created a Shaded Region with Plotly
-actioncall-url: https://plot.ly/6944/~Dreamshot/?plot_type=Scatter%20plot
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv
+actioncall-url: https://plot.ly/7127/~Dreamshot/?plot_type=Line%20plot
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv
 
 similar:
  - title: Make a Graph with Three Y Axes
