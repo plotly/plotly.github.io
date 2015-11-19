@@ -39,12 +39,14 @@ steps:
       img: "![Import data](http://images.plot.ly/excel/label-points-excel/import-data-label-points.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Once you've loaded the data in Plotly, select 'Scatter plot' from the MAKE A PLOT menu. Look for the 'text' option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of x-values, a column of y-values, and a column for the text labels. When you're finished, click on the blue 'Scatter plot' button in the sidebar."
+    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have Z scores and probability density as one x-y combination. You'll also have a second x-y combination; this is critical for shading purposes! Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
       img: "![Grid](http://images.plot.ly/excel/label-points-excel/grid-label-points.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/label-points-excel/original-label-points.png)"
-    - copy: "To add text labels, open the 'Traces' popover by selecting TRACES from the toolbar. You can add labels to an individual trace by selecting that trace from the dropdown menu, or select 'All traces (scatter)' to label all the points in your scatter plot. Here we position the labels on individual traces in order to avoid overlapping labels. We start with Col1. In the 'Mode' tab, look for 'Lines/Markers' and select the option of text over a point."
-      img: "![Text Labels](http://images.plot.ly/excel/label-points-excel/text-labels-label-points.png)"
+    - copy: "In order recreate a typical Standard Normal Probability Density Function graph, we'll smooth out the traces. Head to the 'Traces' menu and select 'All traces' within the drop down menu. Click the 'Style' menu and select the smooth 'Shape' as we highlight in the image below."
+      img: "![Smooth](http://images.plot.ly/excel/label-points-excel/text-labels-label-points.png)"
+    - copy: "Take a moment to resize your plot to something less wide. A width of 800 and a height of 600 seems reasonable. Head to the layout menu to do this."
+      img: "![Resize](http://images.plot.ly/excel/inset-plot-excel/resize-inset-plot.png)"
     - copy: "To position the labels, click on the 'Style' tab in the 'Traces' popover. In order to have the lables appear directly above the data points, click on the arrow that points up in the '...Position' option." 
       img: "![Position Labels](http://images.plot.ly/excel/label-points-excel/position-labels-label-points.png)"
     - copy: "Repeat this process for Col4 and Col7. For Col4, we position the text labels below the scatter points. For Col7, we position them above the scatter points."
