@@ -34,8 +34,7 @@ Rules to follow when adding new images:
 
 ### Download CSV links and Open Data in Plotly links
 
-- Download CSV links should download CSV zip files from https://github.com/plotly/datasets. 
-- If you don't know how to add a zip to GitHub, just add the CSV and ask someone to make the zip for you.
+- Download CSV links should download CSV files from https://github.com/plotly/datasets. 
 - "Open Data in Plotly" should open the exact grid that is shown in the tutorial WITH THE CORRECT CHART TYPE OPEN using the "plot_type" query parameter. Here are some good examples:
 - https://plot.ly/15176/~jackp/?plot_type=Histogram
 - https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
@@ -117,8 +116,7 @@ https://plot.ly/python/choropleth-maps/
 - popularity: Should always be featured
 actioncall-url: **SHOULD ALWAYS LINK TO THE PLOTLY GRID IN THE WORKSPACE THAT IS AT THE START OF THE TUTORIAL** Example:
   - https://plot.ly/15084/~jackp/
-download-url: **SHOULD ALWAYS DOWNLOAD THE EXACT CSV FILE USED FOR THE TUTORIAL**. IF YOU'RE DATA IS ON THE PLOTLY DATASETS GITHUB PAGE, MAKE A ZIP FILE OF THE DATA SO THAT IT AUTOMATICALLY DOWNLOADS. Examples:
-  - https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
-  - https://github.com/plotly/datasets/raw/master/2014_ebola.csv.zip
+download-url: **SHOULD ALWAYS DOWNLOAD THE EXACT CSV FILE USED FOR THE TUTORIAL**. Example:
+  - https://github.com/plotly/datasets/raw/master/2014_ebola.csv
 - redirect_from: Only use this if your are redirecting the URL from an old page. Ask before using this. Example:
 https://github.com/plotly/plotly.github.io/blob/master/_posts/excel/3d%20Charts/2015-11-02-3d-surface-plot-with-excel.md
