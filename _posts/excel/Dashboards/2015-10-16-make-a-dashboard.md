@@ -58,5 +58,4 @@ steps:
     - copy: "Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours."
       img: "![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)"
     - copy: "Our insurance 'Quarterly Outlook' can be found here at the secret link dashboards.ly provided: [click here](http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS). Want more information on Dashboards.ly? Find the Dashboards.ly help documentation [here](http://help.plot.ly/dashboards.ly/)."
-      img: "![Dashboard](http://i.imgur.com/uhxCioO.png)"
 ---
