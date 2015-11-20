@@ -26,7 +26,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
-live-graph: /images/dashboard-carousel.jpg
+live-graph: <img src="/images/dashboard-carousel.jpg">
 
 steps: 
  - title: Connect Dashboards.ly to your Plotly Account 
