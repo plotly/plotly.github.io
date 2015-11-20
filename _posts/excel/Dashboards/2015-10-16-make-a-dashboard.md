@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make an Online Dashboard  with Plotly and Excel
+title: Make Online Dashboards with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
 imageurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Make dashboards online for free with Excel data and Plotly charts.
 popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
@@ -24,19 +24,14 @@ similar:
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
-otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/dashboard/) or [R](https://plot.ly/r/dashboard/).
 
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+live-graph: http://i.imgur.com/PTHsUP3.png
 
 steps: 
- - title: Authenticate Your Account on Dashboards.ly
+ - title: Connect your Plotly account to Dashboards.ly
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/)."
-      img: 
-      video: <video width="100%" height="650" autoplay><source src="https://s3.amazonaws.com/plotly-downloads/dashboardsly-splash-3.mp4" type="video/mp4">(Plotly tried to show a video here, but your browser does not support the video tag.)</video>
- - title: Click "get started" and sign in. 
-   sub-steps:
-    - copy: "You'll have to retrieve your API key."
+    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your API key."
       img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
  - title: Authentication
    sub-steps:
@@ -60,7 +55,7 @@ steps:
       img: "![Publish dashboard](http://i.imgur.com/jvtVyVT.png)"
  - title: Embed Your Dashboard
    sub-steps:
-    - copy: "Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours."
+    - copy: "You can embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours."
       img: "![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)"
     - copy: "Our insurance 'Quarterly Outlook' can be found here at the secret link dashboards.ly provided: [click here](http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS). Got a cool dashboard of your own? Drop us a line!"
       img: "![Dashboard](http://i.imgur.com/uhxCioO.png)"
