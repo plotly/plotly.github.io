@@ -26,17 +26,12 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
 
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+live-graph: /images/dashboard-carousel.jpg
 
 steps: 
- - title: Authenticate Your Account on Dashboards.ly
+ - title: Connect Dashboards.ly to your Plotly Account 
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/)."
-      img: 
-      video: <video width="100%" height="650" autoplay><source src="https://s3.amazonaws.com/plotly-downloads/dashboardsly-splash-3.mp4" type="video/mp4">(Plotly tried to show a video here, but your browser does not support the video tag.)</video>
- - title: Click "get started" and sign in. 
-   sub-steps:
-    - copy: "You'll have to retrieve your API key."
+    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Plotly API key from https://plot.ly/settings/api/."
       img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
  - title: Authentication
    sub-steps:
