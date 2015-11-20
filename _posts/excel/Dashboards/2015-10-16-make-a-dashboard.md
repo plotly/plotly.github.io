@@ -11,7 +11,6 @@ popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
 actioncall-url: http://dashboards.ly/
-download-url: https://github.com/plotly/dashboards/raw/master/Plotly%20Sample%20Dashboard.zip
 
 similar:
  - title: Make a Graph with Three Y Axes
