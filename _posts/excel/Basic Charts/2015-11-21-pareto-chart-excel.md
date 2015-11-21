@@ -28,11 +28,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7164.embed"></iframe>
 
-steps:
- - title: About a Pareto Chart
-   sub-steps:
-    - copy: "A Pareto chart combines a bar and line chart. The Pareto principle states that, 'for many events, roughly 80% of the effects come from 20% of the causes.' In this example, we will see that 80% of complaints come from 20% of the complaint types."
-       img: "![Pareto principle](http://images.plot.ly/excel/pareto-chart-excel/pareto-principal-pareto-chart.jpg)"
+
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/pareto-chart.csv)"
@@ -43,7 +39,7 @@ steps:
       img: "![Import data](http://images.plot.ly/excel/pareto-chart-excel/import-pareto-chart.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have Z scores and probability density as one x-y combination. You'll also have a second x-y combination; this is critical for shading purposes! Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
+    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have complaint types as the x axis data and percentage as the y axis data. Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
       img: "![Grid](http://images.plot.ly/excel/pareto-chart-excel/grid-pareto-chart.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/pareto-chart-excel/original-pareto-chart.png)"
