@@ -1,15 +1,15 @@
 ---
 layout: excel-tutorial-single_layout
-title: Create a Shaded Region on a Chart with Plotly and Excel
-subtitle: A Step-by-Step Guide to Create a Shaded Region on a Chart
-permalink: /excel/shaded-region-on-chart
-imageurl: http://images.plot.ly/excel/shaded-region-excel/thumb-shaded-region.png
+title: Create a Pareto Chart with Plotly and Excel
+subtitle: A Step-by-Step Guide to Create a Pareto Chart
+permalink: /excel/pareto-chart
+imageurl: 
 state: inactive
 tags: excel
-meta_description: Create a shaded region on a chart. Easily make interactive graphs online and for free with Plotly.
+meta_description: Create a Pareto chart. Easily make interactive graphs online and for free with Plotly.
 popularity: featured
 section: BasicCharts
-actioncall: Created a Shaded Region with Plotly
+actioncall: Created a Pareto Chart with Plotly
 actioncall-url: https://plot.ly/7127/~Dreamshot/?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv
 
