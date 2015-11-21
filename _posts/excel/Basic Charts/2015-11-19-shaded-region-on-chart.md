@@ -4,7 +4,7 @@ title: Create a Shaded Region on a Chart with Plotly and Excel
 subtitle: A Step-by-Step Guide to Create a Shaded Region on a Chart
 permalink: /excel/shaded-region-on-chart
 imageurl: http://images.plot.ly/excel/shaded-region-excel/thumb-shaded-region.png
-state: inactive
+state: active
 tags: excel
 meta_description: Create a shaded region on a chart. Easily make interactive graphs online and for free with Plotly.
 popularity: featured
@@ -32,7 +32,7 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv)"
-      img: "![Excel view](http://images.plot.ly/excel/label-points-excel/excel-view-label-points.png)"
+      img: "![Excel view](http://images.plot.ly/excel/shaded-region-excel/excel-view-shaded-region.png)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
@@ -62,5 +62,5 @@ steps:
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](http://images.plot.ly/excel/shaded-region-excel/export-shaded-region.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Excel workbook](http://images.plot.ly/excel/label-points-excel/excel-label-points.png)"
+      img: "![Excel workbook](http://images.plot.ly/excel/shaded-region-excel/excel-workbook-shaded-region.png)"
 ---
