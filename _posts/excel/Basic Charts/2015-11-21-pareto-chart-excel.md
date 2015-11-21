@@ -29,10 +29,6 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7164.embed"></iframe>
 
 steps:
- - title: About a Pareto Chart
-   sub-steps:
-    - copy: "A Pareto chart combines a bar and line chart. The Pareto principle states that, 'for many events, roughly 80% of the effects come from 20% of the causes.' In this example, we will see that 80% of complaints come from 20% of the complaint types."
-       img: "![Pareto principle](http://images.plot.ly/excel/pareto-chart-excel/pareto-principal-pareto-chart.jpg)"
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/pareto-chart.csv)"
