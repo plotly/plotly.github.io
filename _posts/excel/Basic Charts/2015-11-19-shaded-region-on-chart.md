@@ -4,7 +4,7 @@ title: Create a Shaded Region on a Chart with Plotly and Excel
 subtitle: A Step-by-Step Guide to Create a Shaded Region on a Chart
 permalink: /excel/shaded-region-on-chart
 imageurl: http://images.plot.ly/excel/shaded-region-excel/thumb-shaded-region.png
-state: active
+state: inactive
 tags: excel
 meta_description: Create a shaded region on a chart. Easily make interactive graphs online and for free with Plotly.
 popularity: featured
@@ -49,7 +49,7 @@ steps:
       img: "![Resize](http://images.plot.ly/excel/shaded-region-excel/resize-shaded-region.png)"
     - copy: "With our particular data, a normal score range is -1 to 1, so we'll shade that region. Head to the 'Traces' menu and select 'Col4' from the drop down menu. Then, within the 'Fill To' area, select 'Y=0.' Your plot should then look similar to the one below."
       img: "![Shade](http://images.plot.ly/excel/shaded-region-excel/shade-shaded-region.png)"
-    - copy: "For clarification, we'll revist our grid. Since we wanted the region between -1.0 and 1.0 shaded, our second x-y combination contained values up to -1 and 1. If we wanted the region between -2 and 2 shaded, for instances, we would have included those values in our second x-y combination. We've highlighted the extra steps to illustrate this difference; it all depends on your indivdual shading needs!"
+    - copy: "For clarification, we'll revist our grid. Since we wanted the region between -1.0 and 1.0 shaded, our second x-y combination contained values up to -1 and 1. If we wanted the region between -1.5 and 1.5 shaded, for instances, we would have included those values in our second x-y combination. We've highlighted the extra steps to illustrate this difference; it all depends on your indivdual shading needs!"
       img: "![Grid2](http://images.plot.ly/excel/shaded-region-excel/grid2-shaded-region.png)"
  - title: Finalizing Your Graph
    sub-steps:
