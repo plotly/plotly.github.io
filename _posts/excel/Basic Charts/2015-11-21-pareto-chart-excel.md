@@ -10,8 +10,8 @@ meta_description: Create a Pareto chart. Easily make interactive graphs online a
 popularity: featured
 section: BasicCharts
 actioncall: Created a Pareto Chart with Plotly
-actioncall-url: https://plot.ly/7127/~Dreamshot/?plot_type=Line%20plot
-download-url: https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv
+actioncall-url: https://plot.ly/7162/~Dreamshot/?plot_type=Line%20plot
+download-url: https://raw.githubusercontent.com/plotly/datasets/master/pareto-chart.csv
 
 similar:
  - title: Make a Graph with Three Y Axes
@@ -26,23 +26,27 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/shapes/) or [R](https://plot.ly/r/shapes/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7133.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7164.embed"></iframe>
 
 steps:
+ - title: About a Pareto Chart
+   sub-steps:
+    - copy: "A Pareto chart combines a bar and line chart. The Pareto principle states that, 'for many events, roughly 80% of the effects come from 20% of the causes.' In this example, we will see that 80% of complaints come from 20% of the complaint types.
+       img: "![Pareto principle](http://images.plot.ly/excel/pareto-chart-excel/pareto-principal-pareto-chart.jpg)"
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
-    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv)"
+    - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/pareto-chart.csv)"
       img: "![Excel view](http://images.plot.ly/excel/shaded-region-excel/excel-view-shaded-region.png)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/shaded-region-excel/import-shaded-region.png)"
+      img: "![Import data](http://images.plot.ly/excel/pareto-chart-excel/import-pareto-chart.png)"
  - title: Creating Your Chart
    sub-steps:
     - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have Z scores and probability density as one x-y combination. You'll also have a second x-y combination; this is critical for shading purposes! Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
-      img: "![Grid](http://images.plot.ly/excel/shaded-region-excel/grid-shaded-region.png)"
+      img: "![Grid](http://images.plot.ly/excel/pareto-chart-excel/grid-pareto-chart.png)"
     - copy: "Your plot would initially look something like this."
-      img: "![Original](http://images.plot.ly/excel/shaded-region-excel/original-shaded-region.png)"
+      img: "![Original](http://images.plot.ly/excel/pareto-chart-excel/original-pareto-chart.png)"
     - copy: "In order recreate a typical Standard Normal Probability Density Function graph, we'll smooth out the traces. Head to the 'Traces' menu and select 'All traces' within the drop down menu. Click the 'Style' menu and select the smooth 'Shape' as we highlight in the image below."
       img: "![Smooth](http://images.plot.ly/excel/shaded-region-excel/smooth-shaded-region.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 800 and a height of 600 seems reasonable. Head to the layout menu to do this."
