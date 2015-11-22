@@ -18,7 +18,7 @@ similar:
    imgurl: http://images.plot.ly/excel/3d-scatter-plot-with-excel/3d-scatter-thumb.png
  - title: Make a 3d Surface Plot
    url: /excel/3d-surface
-   imgurl: http://images.plot.ly/excel/3d-surface-plot-with-excel/thumb-3d-surface-plot-with-excel.png
+   imgurl: http://images.plot.ly/excel/3d-surface-plot-with-excel/thumb-surface-plot-with-excel.png
  - title: Add a 3d chart to your dashboard
    url: /excel/dashboard/
    imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
