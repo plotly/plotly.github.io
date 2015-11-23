@@ -61,7 +61,7 @@ steps:
    sub-steps:
     - copy: "Your graph should now look something like this."
       img: "![Final](http://images.plot.ly/excel/pareto-chart-excel/final-pareto-chart.png)"
-    - copy: "Head to the 'Traces' menu and then the 'Style' tab to set the trace color to your liking. You can title your graph and axes like we did. You can add 'Tick Suffixes' to 'Y Axis 2' by heading to the 'Axes' menu, then the 'Labels' menu within.
+    - copy: "Head to the 'Traces' menu and then the 'Style' tab to set the trace color to your liking. You can title your graph and axes like we did. You can add 'Tick Suffixes' to 'Y Axis 2' by heading to the 'Axes' menu, then the 'Labels' menu within."
       img: "![Suffix](http://images.plot.ly/excel/pareto-chart-excel/suffix-pareto-chart.png)"
     - copy: "Here's our finished graph."
       img: "![Finished](http://images.plot.ly/excel/pareto-chart-excel/finished-pareto-chart.png)"
