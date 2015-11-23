@@ -43,12 +43,12 @@ steps:
       img: "![Import data](http://images.plot.ly/excel/pareto-chart-excel/import-pareto-chart.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have complaint type on the x axis data and percentage on the y axis data. Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
+    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have complaint type on the x axis data and complaint count and cumulative percentage on the y axis data. Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
       img: "![Grid](http://images.plot.ly/excel/pareto-chart-excel/grid-pareto-chart.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](http://images.plot.ly/excel/pareto-chart-excel/original-pareto-chart.png)"
-    - copy: "In order recreate a typical Standard Normal Probability Density Function graph, we'll smooth out the traces. Head to the 'Traces' menu and select 'All traces' within the drop down menu. Click the 'Style' menu and select the smooth 'Shape' as we highlight in the image below."
-      img: "![Smooth](http://images.plot.ly/excel/shaded-region-excel/smooth-shaded-region.png)"
+    - copy: "Remember, a Pareto chart combines a bar and line chart. The complaint count will be the 'bar' portion of the chart and the cumulative percentage will be the 'line' portion of the chart. Let's set the complaint count trace (Col2) to 'Bar.' Head to the 'Traces' menu and select 'Bar' as type."
+      img: "![Bar](http://images.plot.ly/excel/shaded-region-excel/smooth-shaded-region.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 800 and a height of 600 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](http://images.plot.ly/excel/shaded-region-excel/resize-shaded-region.png)"
     - copy: "With our particular data, a normal score range is -1 to 1, so we'll shade that region. Head to the 'Traces' menu and select 'Col4' from the drop down menu. Then, within the 'Fill To' area, select 'Y=0.' Your plot should then look similar to the one below."
