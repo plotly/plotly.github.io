@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Label Points With Text in a Scatter Plot with Plotly and Excel
-subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
+title: Text Scatter Charts in Excel
+subtitle: Text Scatter Charts in Excel
 permalink: /excel/text-scatter-chart 
 imageurl: http://images.plot.ly/excel/label-points-excel/thumb-label-points.png
 state: active
 tags: excel
-meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Plotly.
+meta_description: Create a text scatter charts in Excel with Plotly. Add text labels to points in a scatter plot.
 popularity: featured
 section: BasicCharts
 actioncall: Make a Scatter Plot with Plotly
