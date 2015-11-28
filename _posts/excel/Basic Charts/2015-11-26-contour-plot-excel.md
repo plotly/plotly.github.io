@@ -1,13 +1,13 @@
 ---
 layout: excel-tutorial-single_layout
 title: Make a Contour Plot Online with Plotly and Excel
-subtitle: Area Charts with Plotly
+subtitle: Contour Plots with Plotly
 permalink: /excel/contour-plots
 imageurl: http://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
 state: active
 tags: excel
 section: BasicCharts
-meta_description: A tutorial on how to make a countour plot online with Excel.
+meta_description: A tutorial on how to make a contour plot online with Excel.
 popularity: featured
 actioncall-url: https://plot.ly/673/~tarzzz
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv
