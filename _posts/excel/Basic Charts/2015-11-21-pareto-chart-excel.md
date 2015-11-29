@@ -4,7 +4,7 @@ title: Create a Pareto Chart with Plotly and Excel
 subtitle: A Step-by-Step Guide to Create a Pareto Chart
 permalink: /excel/pareto-chart
 imageurl: http://images.plot.ly/excel/pareto-chart-excel/thumb-pareto-chart.png
-state: inactive
+state: active
 tags: excel
 meta_description: Create a Pareto chart. Easily make interactive graphs online and for free with Plotly.
 popularity: featured
