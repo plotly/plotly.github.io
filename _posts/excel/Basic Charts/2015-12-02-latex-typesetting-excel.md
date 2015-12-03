@@ -25,7 +25,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/LaTeX/) or [R](https://plot.ly/r/LaTeX/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/752.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/813.embed"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
