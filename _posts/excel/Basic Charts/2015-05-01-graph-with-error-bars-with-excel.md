@@ -9,19 +9,19 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a graph with error bars with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
-actioncall-url: https://plot.ly/~tarzzz/804/
+actioncall-url: https://plot.ly/804/~tarzzz/
 download-url: https://www.dropbox.com/s/yv3k05g5yl0rc47/Data.xls?raw=1
 
 similar:
- - title: Make a Heatmap
-   url: /excel/heatmap
-   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
- - title: Make a Choropleth Map
-   url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Time Series (with Error Bars)
+   url: /excel/time-series
+   imgurl: http://images.plot.ly/excel/time-series-with-error-bars/thumb-time-series-in-excel.jpg
  - title: Make a Bar Chart
    url: /excel/bar-chart
    imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).
 

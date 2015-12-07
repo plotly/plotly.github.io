@@ -9,7 +9,7 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to add latex typesetting online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/~tarzzz/795
+actioncall-url: https://plot.ly/795/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/latex-typesetting-with-excel.csv
 
 similar:

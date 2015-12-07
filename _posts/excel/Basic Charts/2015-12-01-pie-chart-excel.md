@@ -9,7 +9,7 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a pie chart online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/~tarzzz/778
+actioncall-url: https://plot.ly/778/~tarzzz
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/pie-charts-with-excel.csv
 
 similar:

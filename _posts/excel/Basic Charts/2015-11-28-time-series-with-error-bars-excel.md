@@ -9,19 +9,19 @@ tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a time series chart online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/~tarzzz/731
+actioncall-url: https://plot.ly/731/~tarzzz/
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/time-series-with-error-bars-excel.csv
 
 similar:
- - title: Make a Heatmap
-   url: /excel/heatmap
-   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
- - title: Make a Choropleth Map
-   url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+ - title: Make a Graph with Error Bars
+   url: /excel/graph-with-error-bars
+   imgurl: http://images.plot.ly/excel/graph-with-error-bars/thum-graph-with-error-bars-with-excel.jpg
  - title: Make a Bar Chart
    url: /excel/bar-chart
    imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Histogram
+   url: /excel/histogram
+   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).
 
