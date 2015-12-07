@@ -3,13 +3,13 @@ layout: excel-tutorial-single_layout
 title: Make a Grouped Bar Chart Online with Plotly and Excel
 subtitle: Bar Charts with Plotly
 permalink: /excel/grouped-bar-chart
-imageurl: http://images.plot.ly/excel/grouped-bar-chart/thumb-grouped-bar-chart-in-excel.jpg
+imageurl: http://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-in-excel.jpg
 state: active
 tags: excel
 section: BasicCharts
 meta_description: A tutorial on how to make a bar chart online with Excel.
 popularity: featured
-actioncall-url: https://plot.ly/~tarzzz/749
+actioncall-url: https://plot.ly/749/~tarzzz
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/bar-charts-with-excel.csv
 
 similar:
@@ -57,7 +57,7 @@ steps:
  - title: Export & Share
    sub-steps:
     - copy: "The final chart should look like the one below."
-      img: "![Final Chart](http://images.plot.ly/excel/grouped-bar-chart/thumb-grouped-bar-chart-in-excel.jpg)"
+      img: "![Final Chart](http://images.plot.ly/excel/grouped-bar-chart/final-chart.jpg)"
     - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
       img: "![Export](http://images.plot.ly/excel/grouped-bar-chart/export-image.jpg)"
     - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
