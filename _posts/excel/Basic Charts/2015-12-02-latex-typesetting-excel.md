@@ -43,7 +43,7 @@ steps:
  - title: Adding LaTeX Axis Title
    sub-steps:
     - copy: "To add the Axis Title, click on the title box, and paste this LaTeX Code: `$\\sqrt{(n_\\text{c}(t|{T_\\text{early}}))}$` in the text box."
-      img: "![Add Axis Title](http://images.plot.ly/excel/latex-typesetting-excel/adding-x-axis-title.gif)"
+      img: "![Add Axis Title](http://images.plot.ly/excel/latex-typesetting-excel/adding-x-axis-title1.gif)"
  - title: Adding LaTeX Annotations
    sub-steps:
     - copy: "To Add the Annotations, Go to 'Notes' popover. Click on the '+' button to create a new annotation box in the chart. We can also modify the properties of the annotations box (like position, font etc.) from the 'Text' tab."
