@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: Multiple Y Axes Graph with Plotly and Excel
+title: How to Make a Graph with Multiple Axes with Excel
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes with Plotly
 permalink: /excel/graph-with-multiple-axes/
 imageurl: http://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
