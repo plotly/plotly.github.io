@@ -6,7 +6,7 @@ permalink: /excel/heatmap
 imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
-section: BasicCharts
+section: Scientific
 meta_description: A tutorial on how to make a heatmap online with Excel.
 popularity: featured
 actioncall-url: https://plot.ly/15074/~jackp/?plot_type=Make%20heatmap

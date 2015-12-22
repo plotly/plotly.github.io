@@ -6,7 +6,7 @@ permalink: /excel/contour-plots
 imageurl: http://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
 state: active
 tags: excel
-section: BasicCharts
+section: Scientific
 meta_description: A tutorial on how to make a contour plot online with Excel.
 popularity: featured
 actioncall-url: https://plot.ly/673/~tarzzz

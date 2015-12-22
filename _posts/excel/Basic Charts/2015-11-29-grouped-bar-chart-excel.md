@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Grouped Bar Chart Online with Plotly and Excel
 subtitle: Bar Charts with Plotly
 permalink: /excel/grouped-bar-chart
-imageurl: http://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-in-excel.jpg
+imageurl: http://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-1.jpg
 state: active
 tags: excel
 section: BasicCharts

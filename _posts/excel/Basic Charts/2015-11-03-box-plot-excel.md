@@ -6,7 +6,7 @@ permalink: /excel/box-plot
 imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
 tags: excel
-section: BasicCharts
+section: Statistical
 meta_description: A tutorial on how to make a box plot online with Excel.
 popularity: featured
 actioncall-url: https://plot.ly/15100/~jackp/?plot_type=Box%20plot
