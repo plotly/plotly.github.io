@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Dot Plot Online with Plotly and Excel
 subtitle: Area Charts with Plotly
 permalink: /excel/dot-plots
-imageurl: http://images.plot.ly/excel/dot-plots/thum-dot-plot-in-excel-1.jpg
+imageurl: http://images.plot.ly/excel/dot-plots/thum-dot-plot-in-excel-2.jpg
 state: active
 tags: excel
 section: BasicCharts

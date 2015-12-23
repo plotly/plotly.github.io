@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Time Series (with Error Bars) Online with Plotly and Excel
 subtitle: Time Series Charts with Plotly
 permalink: /excel/time-series
-imageurl: http://images.plot.ly/excel/time-series-with-error-bars/thumb-time-series-in-excel-1.jpg
+imageurl: http://images.plot.ly/excel/time-series-with-error-bars/thumb-time-series-in-excel-2.jpg
 state: active
 tags: excel
 section: Statistical
