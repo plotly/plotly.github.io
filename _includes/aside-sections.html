@@ -6,6 +6,10 @@
         {% if page.state == 'active' %}
             {% if page.section == "BasicCharts" %}
                 {% assign basic_chart = true %}
+          {% elsif page.section == "Statistical" %}
+              {% assign statistical = true %}
+          {% elsif page.section == "Scientific" %}
+              {% assign scientific = true %}
             {% elsif page.section == "Maps" %}
                 {% assign map_chart = true %}
             {% elsif page.section == "3D Charts" %}
@@ -27,6 +31,22 @@
           </li>
         {% endif %}
 
+        {% if statistical %}
+          <li class="buttonM">
+              <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#statistical">
+                  Statistical
+              <paper-ripple fit></paper-ripple></a>
+          </li>
+        {% endif %}
+
+        {% if scientific %}
+          <li class="buttonM">
+              <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#scientific">
+                  Scientific
+              <paper-ripple fit></paper-ripple></a>
+          </li>
+        {% endif %}
+        
         {% if map_chart %}
             <li class="buttonM">
                 <a data-scroll style="text-transform: uppercase; letter-spacing: 2px; " href="#maps">

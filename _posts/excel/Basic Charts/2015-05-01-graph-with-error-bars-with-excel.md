@@ -6,7 +6,7 @@ permalink: /excel/graph-with-error-bars
 imageurl: http://images.plot.ly/excel/graph-with-error-bars/thum-graph-with-error-bars-with-excel.jpg
 state: active
 tags: excel
-section: BasicCharts
+section: Statistical
 meta_description: A tutorial on how to make a graph with error bars with Excel. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 actioncall-url: https://plot.ly/804/~tarzzz/
