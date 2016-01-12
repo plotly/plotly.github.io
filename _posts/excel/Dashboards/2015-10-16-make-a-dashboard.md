@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make Online Dashboards with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
-imageurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
+imageurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
 meta_description: Make online dashboards for free with Excel data and Plotly charts.
@@ -15,10 +15,10 @@ actioncall-url: http://dashboards.ly/
 similar:
  - title: Make a Graph with Three Y Axes
    url: /excel/3-y-axes
-   imgurl: http://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
+   imgurl: https://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
-   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+   imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
  - title: Make a Heatmap
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png

@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Bubble Chart Online with Plotly and Excel
 subtitle: Bubble charts with Plotly
 permalink: /excel/bubble-chart
-imageurl: http://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
+imageurl: https://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 state: active
 tags: excel
 section: BasicCharts
@@ -19,7 +19,7 @@ similar:
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
-   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+   imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
  - title: Make a Heatmap
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
@@ -36,7 +36,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/bubble-charts/import-data-bubble-chart.png)"
+      img: "![Import data](https://images.plot.ly/excel/bubble-charts/import-data-bubble-chart.png)"
  - title: Sizing and Log Axis
    sub-steps:
     - copy: "Your plot should look something like this."

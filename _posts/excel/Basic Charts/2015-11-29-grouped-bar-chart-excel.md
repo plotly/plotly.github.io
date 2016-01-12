@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Grouped Bar Chart Online with Plotly and Excel
 subtitle: Bar Charts with Plotly
 permalink: /excel/grouped-bar-chart
-imageurl: http://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-2.jpg
+imageurl: https://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-2.jpg
 state: active
 tags: excel
 section: BasicCharts
@@ -21,7 +21,7 @@ similar:
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
-   imgurl: http://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+   imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/) or [R](https://plot.ly/r/bar-charts/).
 
@@ -31,35 +31,35 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/bar-charts-with-excel.csv)"
-      img: "![Excel view](http://images.plot.ly/excel/grouped-bar-chart/excel-data-grouped-bar-chart.jpg)"
+      img: "![Excel view](https://images.plot.ly/excel/grouped-bar-chart/excel-data-grouped-bar-chart.jpg)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/grouped-bar-chart/import-data-grouped-bar-chart.jpg)"
+      img: "![Import data](https://images.plot.ly/excel/grouped-bar-chart/import-data-grouped-bar-chart.jpg)"
  - title: Creating the Chart
    sub-steps:
     - copy: "After importing the data, select the 'bar charts' option from 'Choose Plot Type' dropdown. "
-      img: "![Select bar chart from menu](http://images.plot.ly/excel/grouped-bar-chart/choose-bar-chart-from-menu.jpg)"
+      img: "![Select bar chart from menu](https://images.plot.ly/excel/grouped-bar-chart/choose-bar-chart-from-menu.jpg)"
     - copy: "Select the x and y axis as shown in the figure below, and then click on the 'Bar Chart' button to create the plot"
-      img: "![Select data shape](http://images.plot.ly/excel/grouped-bar-chart/select-data-shape.jpg)"
+      img: "![Select data shape](https://images.plot.ly/excel/grouped-bar-chart/select-data-shape.jpg)"
     - copy: "This will create a raw chart as shown below. Now we are going to style it to make it more presentable."
-      img: "![Raw chart](http://images.plot.ly/excel/grouped-bar-chart/raw-chart.jpg)"
+      img: "![Raw chart](https://images.plot.ly/excel/grouped-bar-chart/raw-chart.jpg)"
  - title: Styling of the Chart
    sub-steps:
     - copy: "Firstly, we are going to edit the legend, to be more informational. It can be done by simply clicking on the legend, and editing the text"
-      img: "![Edit Legend](http://images.plot.ly/excel/grouped-bar-chart/edit-legend.jpg)"
+      img: "![Edit Legend](https://images.plot.ly/excel/grouped-bar-chart/edit-legend.jpg)"
     - copy: "Now we will provide a suitable title to our chart, and title the axes as well. For this click on the title bar, and edit the text"
-      img: "![Add Chart title and axes title](http://images.plot.ly/excel/grouped-bar-chart/add-title.jpg)"
+      img: "![Add Chart title and axes title](https://images.plot.ly/excel/grouped-bar-chart/add-title.jpg)"
     - copy: "We can also edit the bar colors. For this, go to 'Traces' popover, and select the trace you wish to edit. Then, in the 'style' tab, select the suitable marker color."
-      img: "![Edit Bar color](http://images.plot.ly/excel/grouped-bar-chart/edit-bar-color.jpg)"
+      img: "![Edit Bar color](https://images.plot.ly/excel/grouped-bar-chart/edit-bar-color.jpg)"
     - copy: "To Change the background color, click on 'Layout' popover, and select suitable 'Plot Color' from the general tab."
-      img: "![Edit Backgrond color](http://images.plot.ly/excel/grouped-bar-chart/change-background-color.jpg)"    
+      img: "![Edit Backgrond color](https://images.plot.ly/excel/grouped-bar-chart/change-background-color.jpg)"    
  - title: Export & Share
    sub-steps:
     - copy: "The final chart should look like the one below."
-      img: "![Final Chart](http://images.plot.ly/excel/grouped-bar-chart/final-chart.jpg)"
+      img: "![Final Chart](https://images.plot.ly/excel/grouped-bar-chart/final-chart.jpg)"
     - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-      img: "![Export](http://images.plot.ly/excel/grouped-bar-chart/export-image.jpg)"
+      img: "![Export](https://images.plot.ly/excel/grouped-bar-chart/export-image.jpg)"
     - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
-      img: "![Insert Plot in Excel](http://images.plot.ly/excel/grouped-bar-chart/insert-grouped-bar-chart-in-excel.jpg)"
+      img: "![Insert Plot in Excel](https://images.plot.ly/excel/grouped-bar-chart/insert-grouped-bar-chart-in-excel.jpg)"
 ---
