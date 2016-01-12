@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Contour Plot Online with Plotly and Excel
 subtitle: Contour Plots with Plotly
 permalink: /excel/contour-plots
-imageurl: http://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
+imageurl: https://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
 state: active
 tags: excel
 section: Scientific
@@ -21,7 +21,7 @@ similar:
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bubble Chart
    url: /excel/bubble-chart
-   imgurl: http://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
+   imgurl: https://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/contour-plots/) or [R](https://plot.ly/r/contour-plots/).
 
@@ -31,31 +31,31 @@ steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv)"
-      img: "![Excel view](http://images.plot.ly/excel/contour-plots/excel-data-contour-plot.jpg)"
+      img: "![Excel view](https://images.plot.ly/excel/contour-plots/excel-data-contour-plot.jpg)"
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/contour-plots/import-data-contour-plot.jpg)"
+      img: "![Import data](https://images.plot.ly/excel/contour-plots/import-data-contour-plot.jpg)"
  - title: Creating the Chart
    sub-steps:
     - copy: "After importing the data, select the 'heatmaps' option from 'Choose Plot Type' dropdown. "
-      img: "![Select heatmap from menu](http://images.plot.ly/excel/contour-plots/choose-from-menu.jpg)"
+      img: "![Select heatmap from menu](https://images.plot.ly/excel/contour-plots/choose-from-menu.jpg)"
     - copy: "Select 'Z Matrix' as the data shape, click on 'Select all columns', and then on the 'Make Heatmap' button to create the plot."
-      img: "![Select data shape](http://images.plot.ly/excel/contour-plots/select-data-shape.jpg)"
+      img: "![Select data shape](https://images.plot.ly/excel/contour-plots/select-data-shape.jpg)"
     - copy: "This will create a heatmap chart using the data. To convert the heatmap to a contour plot, we need to select 'Contour map' from the TRACE popover, as shown in the figure below."
-      img: "![ Change heatmap to contour plot](http://images.plot.ly/excel/contour-plots/select-contour-plot-from-popover.jpg)"
+      img: "![ Change heatmap to contour plot](https://images.plot.ly/excel/contour-plots/select-contour-plot-from-popover.jpg)"
  - title: Optional styling of the plot
    sub-steps:
     - copy: "We should have a contour plot created like the one below. Now we are going to style it to make it more presentable."
-      img: "![ Raw Plot](http://images.plot.ly/excel/contour-plots/raw-plot.jpg)"
+      img: "![ Raw Plot](https://images.plot.ly/excel/contour-plots/raw-plot.jpg)"
     - copy: "In the 'Traces' popover, under the 'style' tab, toggle 'auto-color' to off, and then select one of the styles from the list below."
-      img: "![Change Colorway](http://images.plot.ly/excel/contour-plots/select-colorways.jpg)"
+      img: "![Change Colorway](https://images.plot.ly/excel/contour-plots/select-colorways.jpg)"
     - copy: "This is how the final chart looks like!"
-      img: "![Final Plot](http://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg)"
+      img: "![Final Plot](https://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg)"
  - title: Export & Share
    sub-steps:
     - copy: "You can also export a static image of your plotly graph. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-      img: "![Export](http://images.plot.ly/excel/contour-plots/export-image.jpg)"
+      img: "![Export](https://images.plot.ly/excel/contour-plots/export-image.jpg)"
     - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it."
-      img: "![Plot in Excel](http://images.plot.ly/excel/contour-plots/excel-contour-plot.jpg)"
+      img: "![Plot in Excel](https://images.plot.ly/excel/contour-plots/excel-contour-plot.jpg)"
 ---

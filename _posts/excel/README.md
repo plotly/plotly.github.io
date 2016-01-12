@@ -25,7 +25,7 @@ Rules to follow when adding new images:
 - When taking screenshots, close-ups are bad. Its better to take a wider-view so that the reader knows where the feature is then use a RED highlight to show the button or feature that the reader is supposed to find.
 - DON'T ADD CAROUSEL IMAGES FOR NEW POSTS.
 - Always use http and NOT https for images.plot.ly links:
-  - GOOD: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+  - GOOD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
   - BAD: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 - ALWAYS DELETE UNUSED IMAGES FROM images.plot.ly
 - use descriptive names for the image filenames and for the image alt tags. No "img24.png".

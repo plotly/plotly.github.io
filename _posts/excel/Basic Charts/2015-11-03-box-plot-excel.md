@@ -18,10 +18,10 @@ similar:
    imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Histogram
    url: /excel/histogram
-   imgurl: http://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
+   imgurl: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
  - title: Adding Charts to Dashboards
    url: /excel/dashboards
-   imgurl: http://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
+   imgurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
 
@@ -35,7 +35,7 @@ steps:
  - title: Head to Plotly
    sub-steps:
     - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
-      img: "![Import data](http://images.plot.ly/excel/box-plots/import-data-box-plot.png)"
+      img: "![Import data](https://images.plot.ly/excel/box-plots/import-data-box-plot.png)"
     - copy: "Select 'Box plots' from the MAKE A PLOT menu."
       img: "![Box Plot](/static/images/box-plot-with-excel/image18.png)"
     - copy: "Click the blue plot button in the sidebar to create the chart."
