@@ -1,5 +1,5 @@
 <!-- SEO Tags - title, meta_description -->
-    <title>{% if page.title == "" or page.title == nil %}plotly{% else %}{{page.title}}{% endif %}</title>
+    <title>{% if page.title == "" or page.title == nil %}Plotly Online Chart and Graph Maker{% else %}{{page.title}}{% endif %}</title>
     <meta name="description" content="{% if page.meta_description %}{{page.meta_description}}{% else %}Plotly is the easiest way to graph and share your data.{% endif %}">
 
 <!-- Bing tags -->
@@ -8,7 +8,7 @@
     <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}plotly{% endif %}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="{% if page.imageurl %}{% unless page.imageurl contains 'http' %}http://help.plot.ly{% endunless %}{{page.imageurl}}{% else %}http://help.plot.ly/images/twitter-default.png{% endif %}">
-    <meta property="og:description" content="{% if page.meta_description %}{{page.meta_description}}{% else %}Plotly is the easiest way to graph and share your data.{% endif %}"/>
+    <meta property="og:description" content="{% if page.meta_description %}{{page.meta_description}}{% else %}Online chart and graph maker for Excel and CSV data. APIs for R and Python.{% endif %}"/>
     <meta property="og:url"
     <meta property="fb:admins" content="1123751525"/>
     <meta property="fb:admins" content="22418"/>

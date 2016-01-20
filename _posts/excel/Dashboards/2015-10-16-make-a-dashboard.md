@@ -1,51 +1,41 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Dashboard with Plotly and Excel
+title: Make Online Dashboards with Plotly and Excel
 subtitle: Dashboards with Plotly
 permalink: /excel/dashboard
-imageurl: /static/images/dashboards/dashboard-thumbnail.jpg
+imageurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a dashboard with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Make online dashboards for free with Excel data and Plotly charts.
 popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
-actioncall: Make a Dashboard
 actioncall-url: http://dashboards.ly/
-<!-- download-url: http://downloadlink.com -->
 
 similar:
- - title: Tutorial 1
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 2
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
- - title: Tutorial 3
-   url: http://link.com
-   imgurl: http://i.imgur.com/uhxCioO.png
+ - title: Make a Graph with Three Y Axes
+   url: /excel/3-y-axes
+   imgurl: https://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
+ - title: Make a Bar Chart
+   url: /excel/bar-chart
+   imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
+ - title: Make a Heatmap
+   url: /excel/heatmap
+   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
-otherlang: Know how to program? See how to create this in [Python](url) or [R](url).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/dashboard/) or [R](https://plot.ly/r/dashboard/).
 
-live-graph: <iframe width="100%" height="900" frameborder="0" seamless="seamless" scrolling="no" src="http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS"></iframe>
+live-graph: <img src="/images/dashboard-carousel.jpg">
 
 steps: 
- - title: Authenticate Your Account on Dashboards.ly
+ - title: Connect Dashboards.ly to your Plotly Account 
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/)."
-      img: 
-      video: <video width="100%" height="650" autoplay><source src="https://s3.amazonaws.com/plotly-downloads/dashboardsly-splash-3.mp4" type="video/mp4">(Plotly tried to show a video here, but your browser does not support the video tag.)</video>
- - title: Click "get started" and sign in. 
-   sub-steps:
-    - copy: "You'll have to retrieve your API key."
+    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Plotly API key from https://plot.ly/settings/api/."
       img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
  - title: Authentication
    sub-steps:
     - copy: "It will take a moment, but shortly your most recently edited graphs will appear. Hover over the graphs and click to 'add to dashboard.'"
       img: "![Add to dashboard](http://i.imgur.com/PTHsUP3.png)"
-    - copy: Another associate2
-      img: with its associated value2
-      imgAlt: hello
  - title: Create and Edit Your Dashboard 
    sub-steps:
     - copy: "Once you begin adding graphs to your dashboard, you'll be able to drag to organize them."
@@ -66,6 +56,5 @@ steps:
    sub-steps:
     - copy: "Embed your dashboard in an iframe on your own site! Edit the following code, replacing our dashboard with the appropriate link to yours."
       img: "![Embed dashboard](http://i.imgur.com/L1Ky4CJ.png)"
-    - copy: "Our insurance 'Quarterly Outlook' can be found here at the secret link dashboards.ly provided: [click here](http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS). Got a cool dashboard of your own? Drop us a line!"
-      img: "![Dashboard](http://i.imgur.com/uhxCioO.png)"
+    - copy: "Our insurance 'Quarterly Outlook' can be found here at the secret link dashboards.ly provided: [click here](http://dashboards.ly/ua-6xAxoi32b7oEoqgjav5CFS). Want more information on Dashboards.ly? Find the Dashboards.ly help documentation [here](http://help.plot.ly/dashboards.ly/)."
 ---
