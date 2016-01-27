@@ -13,7 +13,7 @@ popularity: frontpage
 
 The <b>Plotly JSON visualization schema</b> is a complete declarative format for creating, saving, and sharing interactive scientific charts.
 
-The complete JSON schema is maintained at [https://plot.ly/plot-schema.json](https://plot.ly/plot-schema.json).
+The complete JSON schema is maintained at [https://api.plot.ly/v2/plot-schema?sha1=%27%27](https://api.plot.ly/v2/plot-schema?sha1=%27%27).
 
 Domain specific libraries have been written for efficent use of the visualization schema in several lanuages:
 
