@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a 3D Line Graph
 subtitle: A Step by Step Guide to Making a 3D Line Graph
-permalink: /make-a-3d-line-chart
+permalink: /make-a-3d-line-chart/
 imageurl: /static/images/line-graph3d/line-graph3d.png
 state: active
 tags: graph3d
