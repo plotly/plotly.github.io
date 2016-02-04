@@ -43,31 +43,29 @@ This will bring up the **Share Plot** popover. As with option 2, click on the **
 
 If you need an iframe, copy and paste the snippet below.  You’ll have to replace the URL of our graph with your own.
 
-```html
-<iframe 
-  frameborder="0" seamless="seamless" scrolling="no" 
-  src="https://plot.ly/~Dreamshot/411.embed">
-</iframe>
-```
+    <iframe
+      frameborder="0" seamless="seamless" scrolling="no"
+      src="https://plot.ly/~Dreamshot/411.embed">
+    </iframe>
+
 
 If you are using a secret link with a private key, update the private link to include `.embed` before the `?share_key` term. Here is an example:
 
-```html
-<iframe 
-  frameborder="0" seamless="seamless" scrolling="no" 
-  src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
-</iframe>
-```
+    <iframe
+      frameborder="0" seamless="seamless" scrolling="no"
+      src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
+    </iframe>
+
 
 You can control the width and the height of the iframe by adding `width` and `height` keywords into the HTML:
 
-```html
-<iframe 
-  width=750 height=500
-  frameborder="0" seamless="seamless" scrolling="no" 
-  src="https://plot.ly/~Dreamshot/411.embed">
-</iframe>
-```
+
+    <iframe
+      width=750 height=500
+      frameborder="0" seamless="seamless" scrolling="no"
+      src="https://plot.ly/~Dreamshot/411.embed">
+    </iframe>
+
 
 The graph will autosize in the iframe container.
 
@@ -77,12 +75,12 @@ You can add these URL query parameters to further customize the iframe:
 
 | Option  | Description  | Example |
 |:-----|:---------|:---------------|
-| ```autosize=True``` | layout.autosize in chart is forced | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
-| ```link=false``` | Plotly "Edit chart" link is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
-| ```modebar=false``` | Plotly toolbar is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
-| ```logo=false``` | Tool bar shows, but Plotly logo does not | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
-| ```width=100%``` | Set chart width within iframe | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=False |
-| ```height=650``` | Set chart height | https://plot.ly/~Dreamshot/411.embed?autosize=True&height=650 |
+| ```autosize=True``` | layout.autosize in chart is forced | https://plot.ly/~Dreamshot/411.embed?autosize=True |
+| ```link=false``` | Plotly "Edit chart" link is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=false |
+| ```modebar=false``` | Plotly toolbar is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&modebar=false |
+| ```logo=false``` | Tool bar shows, but Plotly logo does not | https://plot.ly/~Dreamshot/411.embed?autosize=True&logo=false |
+| ```width=100%``` | Set chart width within iframe | https://plot.ly/~Dreamshot/411.embed?width=100% |
+| ```height=650``` | Set chart height | https://plot.ly/~Dreamshot/411.embed?height=650 |
 
 ### Step 2: Paste the HTML into your site’s code
 
