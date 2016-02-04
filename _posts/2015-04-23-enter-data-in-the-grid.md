@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: How to Enter Data in the Grid
 subtitle: A Step by Step Guide to Entering Data in the Grid
-permalink: /add-data-to-the-plotly-grid
+permalink: /add-data-to-the-plotly-grid/
 imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
 tags: plotlybasic
@@ -36,7 +36,7 @@ You can extract the data from any Plotly graph, and build your own graph out of 
 Go to any graph page. The one pictured to the right is [https://plot.ly/~slkent/51](https://plot.ly/~slkent/51). Click the **DATA** button, located in the lefthand sidebar, to view the data. To load the data in your workspace, click on **Fork and edit**. | ![Fork and edit](/static/images/enter-data-in-the-grid/view-data-fork-and-edit.png)
 Click the **VIEW DATA** button, located in the toolbar, to view the data. | ![View data](/static/images/enter-data-in-the-grid/get-data.png)
 &#8230;the column names should let you know what role they played in the original plot. | ![Column names](/static/images/enter-data-in-the-grid/column-names.png)
-Save and name your new data set and save it to the filewell, to have it on-hand for future plots and to share it. | ![Save data to filewell](/static/images/enter-data-in-the-grid/save-data.png) 
+Save and name your new data set and save it to the filewell, to have it on-hand for future plots and to share it. | ![Save data to filewell](/static/images/enter-data-in-the-grid/save-data.png)
 
 ###Step 2: Plot
 

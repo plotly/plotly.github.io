@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Chi-Square Test
 subtitle: A Step by Step Guide to the Chi-Square Test
-permalink: /chi-square-test
+permalink: /chi-square-test/
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: active
 tags: classroom
@@ -29,7 +29,7 @@ Here's how you can use Plotly to calculate the chi-squared statistic and p-value
 
 ###Step 1: Set up the grid
 
-We've already entered the [coin flip data into Plotly](https://plot.ly/3210/~mariahh/). Click the link to open the data in your workspace. | ![Coin flip data in Plotly grid.](/static/images/chi-square/coin-flip-data.png)  
+We've already entered the [coin flip data into Plotly](https://plot.ly/3210/~mariahh/). Click the link to open the data in your workspace. | ![Coin flip data in Plotly grid.](/static/images/chi-square/coin-flip-data.png)
 
 ###Step 2: Chi-squared test
 

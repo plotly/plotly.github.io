@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
-permalink: /make-an-area-graph
+permalink: /make-an-area-graph/
 imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-graph.png
 state: active
 tags: basic

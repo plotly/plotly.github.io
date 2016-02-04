@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Embed Plotly Graphs in A Blog or Website
 subtitle: How to Embed Plotly Graphs
-permalink: /embed-graphs-in-websites
+permalink: /embed-graphs-in-websites/
 imageurl: /static/images/embed-plotly-graphs/thum-embed-plotly-graphs.png
 state: active
 tags: plotlybasic
