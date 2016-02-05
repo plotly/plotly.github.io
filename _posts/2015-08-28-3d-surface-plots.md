@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
 title: Make a 3D Surface Plot Online
-permalink: /make-a-3D-surface-plot
+permalink: /make-a-3D-surface-plot/
 imageurl: http://i.imgur.com/N0W4TY8.png
 state: active
 tags: graph3d

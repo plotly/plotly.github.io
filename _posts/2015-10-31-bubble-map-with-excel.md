@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Bubble Map with Excel
 subtitle: Plotly with Excel
-permalink: /excel/bubble-map
+permalink: /excel/bubble-map/
 imageurl: static/images/bubble-map.png
 state: inactive
 tags: excel

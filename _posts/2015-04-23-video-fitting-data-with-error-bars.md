@@ -2,7 +2,7 @@
 layout: new_layout
 title: Video - Fitting Data With Error Bars
 subtitle: How to Fit Data with Error Bars
-permalink: /fitting-data-with-error-bars-video
+permalink: /fitting-data-with-error-bars-video/
 imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
 state: active
 tags: videos

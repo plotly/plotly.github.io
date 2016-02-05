@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: MATLAB to Excel
 subtitle: Exporting MATLAB charts to Excel
-permalink: /excel/matlab-to-excel
+permalink: /excel/matlab-to-excel/
 imageurl: /images/matlab-to-excel.jpg
 state: active
 tags: excel

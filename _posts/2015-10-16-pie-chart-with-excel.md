@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Pie Chart with Excel
 subtitle: Plotly with Excel
-permalink: /excel/pie-chart
+permalink: /excel/pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
 tags: excel
@@ -78,7 +78,7 @@ Your plot should now look something like this. In order to get the graph at the 
 
 This is what the “Text” tab of the TRACES popover should look like. We’ve changed the positioning and display of the legend info.
 
-![Text tab](http://i.imgur.com/IE7CytX.png)    
+![Text tab](http://i.imgur.com/IE7CytX.png)
 
 Now head to the LEGEND popover and select hide. This eliminates redundant information and crowding on your plot.
 

@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Getting to Know The Plotly Modebar
 subtitle: A Guide to the Options in the Plotly Modebar
-permalink: /getting-to-know-the-plotly-modebar
+permalink: /getting-to-know-the-plotly-modebar/
 imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
 tags: plotlybasic
@@ -14,13 +14,13 @@ actioncall: nil
 
 At the top of every two-dimensional Plotly plot you will find icons with the following functions. For 3d plots see below:
 
-###Download plot as a PNG 
+###Download plot as a PNG
 
 Clicking this will instantly start a download of the plot in PNG format.  | ![Download plot as a PNG](/static/images/getting-to-know-the-plotly-modebar/download-plot-as-a-png.png)
 
 ###Zoom and Pan buttons
 
-Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons. 
+Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons.
 
 Clicking this selects the **Zoom** mode. To zoom in on a region of a Plotly graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
 
@@ -57,7 +57,7 @@ Clicking Compare data on hover will show you the data for all points with the sa
 The mode bar for 3d charts gives you additional options for controlling rotations and also lets you toggle between the default view, and your last saved view. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 
 Orbital Rotation rotates the plot around its middle point in three-dimensional space. | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
-  
+
 Turntable Rotation rotates the plot around its middle point while constraining one axis slightly. | ![Turntable Rotation](/static/images/getting-to-know-the-plotly-modebar/turntable-rotation.png)
 
 Clicking Reset Camera to Default zooms back to the default position at 45 degrees from all axes. | ![Reset Camera to Default](/static/images/getting-to-know-the-plotly-modebar/reset-camera-default.png)

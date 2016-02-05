@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: How Sharing Works In Plotly
 subtitle: How sharing works for plotly grids, plots and folders
-permalink: /how-sharing-works-in-plotly
+permalink: /how-sharing-works-in-plotly/
 imageurl: /static/images/how-sharing-works-in-plotly/sharing-thumb.png
 state: active
 tags: plotlybasic
-meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
+meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---
 
@@ -26,7 +26,7 @@ This option is available from [your list of files](https://plot.ly/organize) und
 
 ###Secret links
 
-A secret link is a private link which can be viewed by anybody with the URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in. 
+A secret link is a private link which can be viewed by anybody with the URL. Private URLs are long, obfuscated URLs that are practically impossible to guess. Anybody who has a private URL can view the graph. They don't need a Plotly account and they don't need to log in.
 
 From the **Organize** app you can click on the **Share** button
 

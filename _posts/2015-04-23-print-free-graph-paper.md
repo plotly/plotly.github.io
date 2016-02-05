@@ -1,8 +1,8 @@
 ---
 layout: two_column_layout
 title: Print Free Graph Paper Online
-subtitle: 
-permalink: /print-free-graph-paper
+subtitle:
+permalink: /print-free-graph-paper/
 imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
 tags: classroom
