@@ -2,7 +2,7 @@
 layout: new_layout
 title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
-permalink: /json-chart-schema
+permalink: /json-chart-schema/
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 meta_description: The Plotly JSON chart schema is the complete, human-readable text format that describes all physical attributes of any scientific chart.
@@ -41,49 +41,49 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
     "data": [
         {
             "x": [
-                20, 
-                14, 
+                20,
+                14,
                 23
-            ], 
+            ],
             "y": [
-                "giraffes", 
-                "orangutans", 
+                "giraffes",
+                "orangutans",
                 "monkeys"
-            ], 
+            ],
             "marker": {
-                "color": "rgba(55, 128, 191, 0.6)", 
+                "color": "rgba(55, 128, 191, 0.6)",
                 "line": {
-                    "color": "rgba(55, 128, 191, 1.0)", 
+                    "color": "rgba(55, 128, 191, 1.0)",
                     "width": 1
                 }
-            }, 
-            "name": "SF Zoo", 
-            "orientation": "h", 
+            },
+            "name": "SF Zoo",
+            "orientation": "h",
             "type": "bar"
-        }, 
+        },
         {
             "x": [
-                12, 
-                18, 
+                12,
+                18,
                 29
-            ], 
+            ],
             "y": [
-                "giraffes", 
-                "orangutans", 
+                "giraffes",
+                "orangutans",
                 "monkeys"
-            ], 
+            ],
             "marker": {
-                "color": "rgba(255, 153, 51, 0.6)", 
+                "color": "rgba(255, 153, 51, 0.6)",
                 "line": {
-                    "color": "rgba(255, 153, 51, 1.0)", 
+                    "color": "rgba(255, 153, 51, 1.0)",
                     "width": 1
                 }
-            }, 
-            "name": "LA Zoo", 
-            "orientation": "h", 
+            },
+            "name": "LA Zoo",
+            "orientation": "h",
             "type": "bar"
         }
-    ], 
+    ],
     "layout": {
         "barmode": "stack"
     }

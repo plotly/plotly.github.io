@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Histogram
 subtitle: A Step by Step Guide to Making a Histogram
-permalink: /make-a-histogram
+permalink: /make-a-histogram/
 imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: statistical
@@ -39,7 +39,7 @@ Your plot should now look something like this. In order to get the graph at the 
 This is what the NOTES popover looks like. The “+” sign adds new notes. Hide the arrow. Set the “Move with” option to “Data”, as the note refers to a specific pair of points on the plot. | ![How to make a histogram online](/static/images/make-a-histogram/image24.png)
 Find the note on the plot, and drag it to where you want it. Click the note to edit its text. Use markup to style and format it. | ![How to make a histogram online](/static/images/make-a-histogram/image17.png)  &lt;b&gt;MEAN: 72.8&#8243;&lt;br&gt;MEDIAN:73&#8243;&lt;/b&gt;
 Click the plot title and axis titles to edit their text. Use markup to link to your source. |  ![How to make a histogram online](/static/images/make-a-histogram/image00.png) &lt;b&gt;HEIGHT (INCHES)&lt;/b&gt;&lt;br&gt;&lt;a href=&#8221;http://theleafsnation.com/2014/5/25/justin-s-nhl-draftbook-2013-1963&#8243;&gt;NHL Draftbook, Justin Fisher&lt;/a&gt;
-This is what the “Style” tab of the TRACES popover looks like for the “Height” trace. We’ve changed the bar color and made them narrower. | ![How to make a histogram online](/static/images/make-a-histogram/image13.png) ![How to make a histogram online](/static/images/make-a-histogram/image26.png) 
+This is what the “Style” tab of the TRACES popover looks like for the “Height” trace. We’ve changed the bar color and made them narrower. | ![How to make a histogram online](/static/images/make-a-histogram/image13.png) ![How to make a histogram online](/static/images/make-a-histogram/image26.png)
 This is what the “Style” tab of the TRACES popover looks like for the “Height &#8211; fit” trace. We’ve changed the line color and stroke. | ![How to make a histogram online](/static/images/make-a-histogram/image07.png)
 This is what the “General” and “Margins” tabs of the LAYOUT popover should look like. We’re giving our plot a grey background, and we’ve changed some of the font options. |  ![How to make a histogram online](/static/images/make-a-histogram/image23.png) ![How to make a histogram online](/static/images/make-a-histogram/image02.png)
 This is what the “Lines” tab of the AXES popover looks like. We’re hiding the body grid lines, and colored the zero line red. |  ![How to make a histogram online](/static/images/make-a-histogram/image19.png)

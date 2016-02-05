@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: LaTeX Basics with Plotly
 subtitle: A Step by Step Guide to LaTeX Basics with Plotly
-permalink: /LaTeX-basics
+permalink: /LaTeX-basics/
 imageurl: /static/images/LaTeX-basics/thum-LaTeX-basics.png
 state: active
 tags: textandlinks
@@ -19,7 +19,7 @@ actioncall: make a chart
 
 
 LaTeX is a typesetting system used by mathematicians, physicists, computer scientists, economists, and others. If you want to include mathematical symbols, superscripts, subscripts, or equations in your Plotly graph, LaTeX is a great choice. In this tutorial we’ll show you the basics of integrating these features with Plotly using our Web App.
- 
+
 ##Step 1: Don’t forget the dollar signs
 
 To tell Plotly that you want to use LaTeX, you’ll need to put a dollar sign on both sides of the text you enter. For example, to get that fancy looking $\LaTeX$ logo, you have to write \$ \LaTeX \$. We’ll show you many more examples below.

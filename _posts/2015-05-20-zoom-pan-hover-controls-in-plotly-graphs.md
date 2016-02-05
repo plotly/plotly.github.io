@@ -2,7 +2,7 @@
 layout: new_layout
 title: Zoom, Pan, and Hover Controls in Plotly Graphs
 subtitle: Zoom, Pan, and Hover Controls in Three Short Videos
-permalink: /zoom-pan-hover-controls
+permalink: /zoom-pan-hover-controls/
 imageurl: /static/images/zoom-pan-hover/zoom.png
 state: active
 tags: plotlybasic
@@ -19,7 +19,7 @@ actioncall: Make a graph
 
 Plotly offers free, online tools for analyzing data and making graphs. You can bring your graphing and data analysis to the next level with zoom, pan, and hover.
 
-In this guide, we'll show you how to 
+In this guide, we'll show you how to
 
 1. Drag to zoom in and double-click to return to the original graph.
 2. Drag the corners of a graph to zoom along one axis.

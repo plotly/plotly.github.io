@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Dates, Time Series and Timestamp Format in Plotly
 subtitle: Dates and Times in Plotly
-permalink: /date-format-and-time-series
+permalink: /date-format-and-time-series/
 imageurl: /static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
 state: active
 tags: textandlinks basic

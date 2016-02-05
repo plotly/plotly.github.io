@@ -2,15 +2,15 @@
 layout: two_column_layout
 title: How to sign up to Plotly
 subtitle: A guide to signing up to Plotly
-permalink: /how-to-sign-up-to-plotly
+permalink: /how-to-sign-up-to-plotly/
 imageurl: /static/images/how-to-sign-up-to-plotly/create-a-plotly-account.png
 state: active
 tags: plotlybasics
 meta_description: How to sign up to Plotly. Plotly is the easiest way to make and share graphs, online and for free.
 ---
- 
+
 #How to sign up for Plotly
- 
+
 ##Step 1: Go to plot.ly
 
  <table>
@@ -72,7 +72,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
   </tbody>
  </table>
 
- 
+
  <table>
   <tbody>
    <tr>
