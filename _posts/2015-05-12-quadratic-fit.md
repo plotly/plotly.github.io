@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
 title: Quadratic fits
-permalink: /quadratic-fits
+permalink: /quadratic-fits/
 imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
 tags: classroom
@@ -40,7 +40,7 @@ To close the **Fitting to trace** popover click the **X** in the upper-right cor
 It’s easy to add another fit to our graph to compare. In the picture on the right, I’ve added a linear fit, and we can see that it isn’t a good choice. | ![Quadratic fits](/static/images/quadratic-fits/add-another-fit.png)
 Want to remove a fit? Click **FIT DATA** in the toolbar. You will see each fit in the **Fitting to trace** popover. Just click on the trash can icon of the fit you want to remove. | ![Quadratic fits](/static/images/quadratic-fits/delete-fit.png)
 
-Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/). 
+Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/).
 
 You can find the graph used in this tutorial, and the underlying data at:
 

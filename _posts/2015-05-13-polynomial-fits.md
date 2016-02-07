@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
 title: Polynomial fits
-permalink: /polynomial-fits
+permalink: /polynomial-fits/
 imageurl: /static/images/polynomial-fits/fourth-order-polynomial-fit
 state: inactive
 tags: classroom basic
@@ -28,7 +28,7 @@ To fit the data with a polynomial curve we choose coefficients that minimize the
 
 ### **Step 1:** Make a plot
 
-We have lots of great tutorials to help you make scatter plots, line graphs, histograms, bar charts, and more. If you need help, head to our [tutorials page](/tutorials). 
+We have lots of great tutorials to help you make scatter plots, line graphs, histograms, bar charts, and more. If you need help, head to our [tutorials page](/tutorials).
 
 You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Button to upload data to Plotly](/static/images/polynomial-fits/button-to-upload-data-to-plotly.png)
 To use the data, look for the **Fork and edit** button, just above the data set, on the right side of your screen. Click it and a copy of the data will open in your workspace. | ![Copy data to your Plotly workspace](/static/images/polynomial-fits/copy-data-to-your-plotly-workspace.png)
@@ -43,7 +43,7 @@ Our **Advanced** tab gives you even more flexibility. You can incorporate error 
 Now click on the blue **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will display the line of best fit equation and $R^2$-value. | ![Run the fit and add results as annotation](/static/images/polynomial-fits/run-the-fit-and-add-results-as-annotation.png)
 To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Close the Fitting to trace popover and style with options in TRACES](/static/images/polynomial-fits/close-the-fitting-to-trace-popover-and-style-with-options-in-traces.png)
 
-Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/). 
+Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/).
 
 You can find the graph used in this tutorial, and the underlying data at:
 

@@ -1,7 +1,7 @@
 ---
 layout: two_column_layout
 title: Exponential fits
-permalink: /exponential-fits
+permalink: /exponential-fits/
 imageurl: /static/images/exponential-fits/fourth-order-polynomial-fit
 state: inactive
 tags: classroom basic
@@ -19,22 +19,22 @@ actioncall: Make a chart
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit exponential curves to your data and explain what that means. Make sure to check out our other [tutorials](/tutorials) to learn how to fit your data with [polynomials](/polynomial-fits), [gaussians](/guassian-fits), and [logarithms](/logarithmic-fits).
 
-An *exponential fit* is a method of modeling data with an exponential function. Exponential growth (or decay) occurs naturally in many settings--the growth of bacteria can be modeled with an exponential function, scientists study radioactive decay in order to determine how old dinosaur bones are, and money in a savings account grows exponentially. 
+An *exponential fit* is a method of modeling data with an exponential function. Exponential growth (or decay) occurs naturally in many settings--the growth of bacteria can be modeled with an exponential function, scientists study radioactive decay in order to determine how old dinosaur bones are, and money in a savings account grows exponentially.
 
 There are many theories about the destruction of Easter Island. Dr Terry Hunt at the University of Hawaii hypothesizes that rats may be part of the explanation. His work was featured in an *American Scientist* article ["Rethinking the Fall of Easter Island"](http://www.americanscientist.org/issues/pub/rethinking-the-fall-of-easter-island/).  Under ideal conditions, a rat population can double every 47 days. The graph on the right contains data about optimal rat population growth during the first 188 days (about six months). In this tutorial we’ll estimate the population size of a colony of rats living in optimal conditions after three years assuming a single pair of rats to start.
 
 It's important to remember that the exponential growth model for population has limits. Eventually a population, especially in a closed environment like Easter Island, will deplete resources which will hinder growth. For this example we're ignoring these issues. If you want to learn more, a [nice article](http://www.nature.com/scitable/knowledge/library/how-populations-grow-the-exponential-and-logistic-13240157) in *Nature Education* discusses both exponential and logistic equations for modeling population growth.
 
-Exponential data falls into two categories: growth and decay. Learn to recognize the shape of these two types of exponential functions and you’ll be analyzing your data in no time! 
+Exponential data falls into two categories: growth and decay. Learn to recognize the shape of these two types of exponential functions and you’ll be analyzing your data in no time!
 
 *Exponential growth* is characterized by slow initial growth that becomes rapidly faster as time progresses. | ![A picture of exponential growth](/static/images/exponential-fits/a-picture-of-exponential-growth.png)
 *Exponential decay* begins with a fast (and negative) rate of change, which decreases (in magnitude) with time. | ![A picture of exponential decay](/static/images/exponential-fits/a-picture-of-exponential-decay.png)
 
-In Plotly, our predefined exponential functions take the form $a+be^{cx}$. If you want to fit your curve with another base, you can use the **Define your own fit function** option. If you need help, our [tutorial on custom fit functions](/custom-fit-functions) will help. Plotly finds the best exponential fit by choosing coefficients $a$, $b$ and $c$ that minimize the mean squared error. The closer the $R^2$ value is to 1, the better the fit. 
+In Plotly, our predefined exponential functions take the form $a+be^{cx}$. If you want to fit your curve with another base, you can use the **Define your own fit function** option. If you need help, our [tutorial on custom fit functions](/custom-fit-functions) will help. Plotly finds the best exponential fit by choosing coefficients $a$, $b$ and $c$ that minimize the mean squared error. The closer the $R^2$ value is to 1, the better the fit.
 
 ###**Step 1:** Make a plot
 
-We have a collection of great tutorials to help you make line graphs, scatter plots, histograms, bar charts, and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials). 
+We have a collection of great tutorials to help you make line graphs, scatter plots, histograms, bar charts, and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials).
 
 You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to Enter Data in the Grid”](/add-data-to-the-plotly-grid) tutorial. | ![Button to upload data to Plotly](/static/images/exponential-fits/button-to-upload-data-to-plotly.png)
 In an optimal world (for rodents), a rat population can double in size every 47 days. Starting with two rats on day zero, we’ll have four rats on day 47, 8 rats on day 94, and so on.<br><br>You can enter this data in Plotly’s grid directly, or you can **Fork & edit** it from<br><br>https://plot.ly/~mariahh/63 | ![Picture of optimal rat population growth data](/static/images/exponential-fits/picture-of-optimal-rat-population-growth-data.png)
@@ -51,7 +51,7 @@ Because the units on our $x$-axis are  days, we’ll use the fact that there are
 By selecting **Add results as plot annotation**, your graph will include a best fit equation and $R^2$ value.<br><br>We can see that the rat population, left unchecked, could reach approximately 20 million in 3 years! The reality on Easter Island would have been a bit different--when important factors like food are considered, we would expect approximately 75 rats per acre at most. That means a little more than 3 million rats on Easter Island. Easily enough to be responsible for the deforestation. | ![Run the fit and add results as annotation](/static/images/exponential-fits/run-the-fit-and-add-results-as-annotation.png)
 To close the **Fitting to trace** popover, click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Close the Fitting to trace popover and style with options in TRACES](/static/images/exponential-fits/close-the-fitting-to-trace-popover-and-style-with-options-in-traces.png)
 
-Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/). 
+Love what you made? You can [share, print, download](how-to-share-and-print-plotly-graphs/), and [embed your plots](how-to-embed-plotly-graphs-in-websites/).
 
 You can find the graph used in this tutorial, and the underlying data at:
 

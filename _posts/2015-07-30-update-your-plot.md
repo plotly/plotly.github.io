@@ -2,11 +2,11 @@
 layout: two_column_layout
 title: Update a Plotly Graph with New Data
 subtitle: How to update your plotly graphs with new data
-permalink: /update-a-graphs-data
+permalink: /update-a-graphs-data/
 imageurl: /static/images/update-your-plot/graph-thumbnail.png
 state: active
 tags: plotlybasic
-meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data. 
+meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
 actioncall: Make a plot
 ---
 
@@ -20,7 +20,7 @@ Need help making your graph? Check out our other [tutorials](http://help.plot.ly
 
 ### Update a Plotly graph with new data
 
-Do you need to modify your dataset? You can update an existing graph as your data changes. 
+Do you need to modify your dataset? You can update an existing graph as your data changes.
 
 1) Create your initial dataset and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an Excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
 

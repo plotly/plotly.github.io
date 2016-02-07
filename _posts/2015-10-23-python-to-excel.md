@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Python to Excel
 subtitle: Exporting Python charts to Excel
-permalink: /excel/python-to-excel
+permalink: /excel/python-to-excel/
 imageurl: /images/python-to-excel.jpg
 state: active
 tags: excel

@@ -2,12 +2,12 @@
 layout: new_layout
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to Making a Heat Map
-permalink: /continuous-filled-error-bars
+permalink: /continuous-filled-error-bars/
 imageurl: http://i.imgur.com/IQd9Sv5.png
 state: active
 tags: statistical
 meta_description: Make graphs with filled area bars to denote confidence intervals. Plotly is the easiest way to graph your data online.
-popularity: 
+popularity:
 actioncall: Draw Filled Confidence Error Bars
 ---
 
@@ -36,7 +36,7 @@ Make the other border line transparent.
 Make the center trace a scatter plot.
 ![image](https://cloud.githubusercontent.com/assets/1280389/7815922/5aa089fc-0399-11e5-8928-e15bcf2a4797.png)
 
-Hide the lower lower border trace from the legend. 
+Hide the lower lower border trace from the legend.
 ![image](https://cloud.githubusercontent.com/assets/1280389/7816051/10c9579a-039a-11e5-9bdd-6d97b699ceeb.png)
 
 Update the legend

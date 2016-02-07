@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Label Points With Text in a Scatter Plot
 subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
-permalink: /label-points-with-text-in-a-scatter-plot
+permalink: /label-points-with-text-in-a-scatter-plot/
 imageurl: /static/images/label-points-with-text/scatter-labeled-points.png
 state: active
 tags: textandlinks
@@ -25,7 +25,7 @@ The graph above lets you compare relative losses with absolute losses for certai
 
 Once you've loaded the data in Plotly, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels. When you're finished, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
 
-### **Step 3:** Adding text labels to the points of a graph 
+### **Step 3:** Adding text labels to the points of a graph
 
 Your scatter plot should look something like this: | ![Scatter plot before adding text labels to data points](http://imgur.com/Djfz4y0.png)
 To add text labels, open the Traces popover by selecting **TRACES** from the toolbar. You can add labels to an individual trace by selecting that trace from the dropdown menu, or select **All traces (scatter)** to label all the points in your scatter plot. Here we position the labels on individual traces in order to avoid overlapping labels. We start with Col1. In the Mode tab, look for "Lines/Markers" and select the option of text over a point. | ![Labeling points in the TRACES popover.](http://i.imgur.com/RR6XEB0.png)

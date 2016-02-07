@@ -2,7 +2,7 @@
 layout: two_column_layout
 title: Make a Line of Best Fit
 subtitle: How to make a line of best fit
-permalink: /make-a-line-of-best-fit
+permalink: /make-a-line-of-best-fit/
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: classroom statistical
@@ -62,7 +62,7 @@ I&#8217;ve also clicked on the fit line annotation on my plot, and dragged it to
 ###Bonus: Fixing your coefficients
 
 If you&#8217;re trying to just fit your line to your data set, you&#8217;re done! But we actually know something about our free fall data that isn&#8217;t captured by the data set, and has therefore not been reflected in our trend line: an object that has been falling for 0 seconds has a velocity of 0, so our line should pass through the origin, and our **a** value should be 0.
-Now we&#8217;ve got the plot at the top of this tutorial! 
+Now we&#8217;ve got the plot at the top of this tutorial!
 
 ![Line of best fit](https://plot.ly/~cimar/36.png)
 
