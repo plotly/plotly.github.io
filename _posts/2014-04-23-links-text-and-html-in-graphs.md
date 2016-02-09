@@ -20,7 +20,7 @@ actioncall: Make a Graph
 Want to add a link to the data source on one of your graphs? Need superscripts or subscripts in your title? Plotly supports several HTML tags and codes for special characters, like Greek letters.  In this tutorial we’ll show you the basics of integrating these features with Plotly using our Web App. Looking for even more formatting options? LaTeX offers additional flexibility. Check out our tutorial [here](https://plot.ly/LaTeX-basics/).
 Plotly uses a subset of HTML tags to do things like newline (&lt;br&gt;), bold (&lt;b&gt;&lt;/b&gt;), italics (&lt;i&gt;&lt;/i&gt;), and hyperlinks (&lt;a href=’&#8230;’&gt;&lt;/a&gt;). Tags &lt;em&gt;, &lt;sup&gt;, and &lt;sub&gt; are also supported. Follow along below for some examples.
 
-## Step 1: Using HTML with Plotly
+### Step 1: Using HTML with Plotly
 
 For this tutorial, we’ll examine some of the styling from the graph: [https://plot.ly/609/~Dreamshot/](https://plot.ly/609/~Dreamshot/). If you want to edit the graph yourself, you can click the link above.
 
@@ -29,7 +29,6 @@ For this tutorial, we’ll examine some of the styling from the graph: [https://
 | The sources at the bottom of the graph contain hyperlinks so that the reader has a direct link to the source. This source link is added to the **x axis label** of the graph. The line that says “Source: " [Statista](http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/)” is written as: *Source: &lt;a href=&#8221;http://www.statista.com/chart/2684/apple-stock-price-after-product-announcements/&#8221;&gt;Statista&lt;/a&gt;* | ![Link and text in graphs](/static/images/links-text-and-html-in-graphs/image00.png) *x axis label with source links.* |
 
 | The source link above was added to the <strong>x axis label</strong> of the graph, but you can also place a source link anywhere on the graph by adding an <strong>annotation</strong>. A popular place to position source links using annotations is in the bottom-right of the graph. To add an annotation, click on *NOTES* in the toolbar, then click on the &#8220;+&#8221;. You can drag the note and arrow to place it as you like.|![Link and text in graphs](/static/images/links-text-and-html-in-graphs/annotation.png) |
-
 
 ### Step 2: The essentials
 
