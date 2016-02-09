@@ -3,3 +3,4 @@ gems:
   - jekyll-redirect-from
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
+markdown: kramdown
