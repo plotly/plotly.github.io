@@ -4,3 +4,5 @@ gems:
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
 markdown: kramdown
+kramdown:
+  input: GFM
