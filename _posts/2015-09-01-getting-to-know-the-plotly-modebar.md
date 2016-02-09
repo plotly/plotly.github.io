@@ -10,7 +10,7 @@ meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fa
 actioncall: nil
 ---
 
-#Getting to Know The Plotly Modebar
+# Getting to Know The Plotly Modebar
 
 At the top of every two-dimensional Plotly plot you will find icons with the following functions. For 3d plots see below:
 
