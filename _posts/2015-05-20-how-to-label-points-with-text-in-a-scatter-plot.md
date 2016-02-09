@@ -10,7 +10,7 @@ meta_description: Add text labels to points in a scatter plot. Easily make inter
 actioncall: Make a scatter plot
 ---
 
-#How To Label Points With Text in a Scatter Plot
+# How To Label Points With Text in a Scatter Plot
 
 <div>
     <a href="https://plot.ly/~Dreamshot/3386" target="_blank" title="Company Losses" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3386.png" alt="Company Losses" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>

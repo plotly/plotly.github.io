@@ -10,7 +10,7 @@ meta_description: How to add scientific equations and mathematical symbols to yo
 actioncall: make a chart
 ---
 
-#LaTeX Basics with Plotly
+# LaTeX Basics with Plotly
 
 <div>
     <a href="https://plot.ly/~MattSundquist/2135/" target="_blank" title="&lt;br&gt;Bessel Functions of the First Kind for v = 0,1,2,3,4" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/2135.png" alt="&lt;br&gt;Bessel Functions of the First Kind for v = 0,1,2,3,4" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -20,7 +20,7 @@ actioncall: make a chart
 
 LaTeX is a typesetting system used by mathematicians, physicists, computer scientists, economists, and others. If you want to include mathematical symbols, superscripts, subscripts, or equations in your Plotly graph, LaTeX is a great choice. In this tutorial we’ll show you the basics of integrating these features with Plotly using our Web App.
 
-##Step 1: Don’t forget the dollar signs
+## Step 1: Don’t forget the dollar signs
 
 To tell Plotly that you want to use LaTeX, you’ll need to put a dollar sign on both sides of the text you enter. For example, to get that fancy looking $\LaTeX$ logo, you have to write \$ \LaTeX \$. We’ll show you many more examples below.
 
@@ -76,7 +76,7 @@ To tell Plotly that you want to use LaTeX, you’ll need to put a dollar sign on
   </tbody>
  </table>
 
- ##Step 2: The essentials
+ ## Step 2: The essentials
 
 Here we’ll highlight some important LaTeX commands allowing you to use Greek letters, superscripts, subscripts, and fractions. If you’re looking for the code for a symbol that isn’t included below, we love [Detexify](http://detexify.kirelabs.org/classify.html), where you can draw the symbol you are looking for and a list of possibilities is generated.
 
@@ -213,7 +213,7 @@ Here we’ll highlight some important LaTeX commands allowing you to use Greek l
  </table>
  </div>
 
-##Step 3: Putting it all together
+## Step 3: Putting it all together
 
 Now we’re ready to fill in the $x$ axis label using some of the code featured above.
 
@@ -250,4 +250,3 @@ Now we’re ready to fill in the $x$ axis label using some of the code featured 
 </tr>
 </tbody>
 </table>
-

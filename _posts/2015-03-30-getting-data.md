@@ -122,6 +122,3 @@ The data will open in a Plotly grid, where you can analyze and graph the data. Y
 </tr>
 </tbody>
 </table>
-
-
-

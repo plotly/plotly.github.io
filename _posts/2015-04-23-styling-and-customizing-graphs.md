@@ -10,7 +10,7 @@ meta_description: Learn how to style and customize Plotly graphs in under a minu
 actioncall: Make a Graph
 ---
 
-#Styling and Customizing Graphs
+# Styling and Customizing Graphs
 
 To play with the graph shown in this video, see [Peak facebook break-up times](https://plot.ly/181/~Dreamshot/).
 

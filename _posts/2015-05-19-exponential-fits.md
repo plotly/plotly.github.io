@@ -9,7 +9,7 @@ meta_description: Learn how to easily fit data with exponential functions using 
 actioncall: Make a chart
 ---
 
-#Fitting data with an exponential function
+# Fitting data with an exponential function
 
 <div>
     <a href="https://plot.ly/~mariahh/63/" target="_blank" title="Rat population growth under optimal conditions" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/63.png" alt="Rat population growth under optimal conditions" style="max-width: 100%;width: 1019px;"  width="1019" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -32,7 +32,7 @@ Exponential data falls into two categories: growth and decay. Learn to recognize
 
 In Plotly, our predefined exponential functions take the form $a+be^{cx}$. If you want to fit your curve with another base, you can use the **Define your own fit function** option. If you need help, our [tutorial on custom fit functions](/custom-fit-functions) will help. Plotly finds the best exponential fit by choosing coefficients $a$, $b$ and $c$ that minimize the mean squared error. The closer the $R^2$ value is to 1, the better the fit.
 
-###**Step 1:** Make a plot
+### **Step 1:** Make a plot
 
 We have a collection of great tutorials to help you make line graphs, scatter plots, histograms, bar charts, and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials).
 
@@ -40,7 +40,7 @@ You can import files from Google Drive, Dropbox, or Excel for your graphs. You�
 In an optimal world (for rodents), a rat population can double in size every 47 days. Starting with two rats on day zero, we’ll have four rats on day 47, 8 rats on day 94, and so on.<br><br>You can enter this data in Plotly’s grid directly, or you can **Fork & edit** it from<br><br>https://plot.ly/~mariahh/63 | ![Picture of optimal rat population growth data](/static/images/exponential-fits/picture-of-optimal-rat-population-growth-data.png)
 To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Plotly will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** button in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot with Plotly](/static/images/exponential-fits/make-a-scatter-plot-with-plotly.png)
 
-###**Step 2:** Exponential regression
+### **Step 2:** Exponential regression
 
 Once you’ve made a scatter plot (here, using the rat population data for the first 6 months), you can decide on a best fit function. The scatter plot shows a rapidly increasing rate of change, so an exponential fit is a good choice.<br><br>To find the curve of best fit, click **FIT DATA** in the toolbar above your graph.<br><br>When you click **FIT DATA**, you’ll see the **Fitting to trace** popover open. Select **Add fit to this trace**. | ![Fitting data with Plotly](/static/images/exponential-fits/fitting-data-with-plotly.png)
 Select Exponential from the drop-down menu. | ![Menu to select an exponential fit](/static/images/exponential-fits/menu-to-select-an-exponential-fit.png)

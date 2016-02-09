@@ -11,7 +11,7 @@ popularity: frontpage
 actioncall: Make a Line of Best Fit
 ---
 
-#Make a Line of Best Fit
+# Make a Line of Best Fit
 
 One of the most basic but potent combos in data visualization is the **scatter plot and trend line**.
 
@@ -71,5 +71,3 @@ If you know one or more of your coefficients, you can fix them when generating y
 This gets us back to the dialogue we saw in **Step 3**. Time to use some of those extra options!Under the &#8220;Enter fit parameter guesses&#8221; section, overwrite the value in the box labeled **&#8216;a&#8217;** with your y-intercept (in our case 0), then <i>click</i> the label to fix it at that value. It&#8217;ll turn blue. <br><br> We&#8217;ll leave **b** as it is. Plotly overwrites unfixed coefficients when generating the new line. <br> Click the **Run this fit** button to generate the new fit (you may need to check and uncheck the annotation box to refresh the annotation). | ![Line of best fit](/static/images/line-of-best-fit/bonus_dialogue3.png)
 
 Our new line has the equation **y=9.802x**, which is 0.005 off of the true coefficient of gravity (9.807)! Not bad! To show the y-intercept on the graph, we&#8217;ll go into the **Advanced** tab of the fit panel.Check **Plot curve over a specified x-range** and set the minimum to &#8220;0&#8221;. I&#8217;m setting the maximum to the greatest time-value in our data set (2.28 s), but if you want to extrapolate your line farther, go ahead and enter a higher number. | ![Line of best fit](/static/images/line-of-best-fit/bonus_dialogue4.png)
-
-

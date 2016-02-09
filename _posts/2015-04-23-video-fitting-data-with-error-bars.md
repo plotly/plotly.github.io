@@ -10,7 +10,7 @@ meta_description: Learn to fit data with error bars in under two minutes. Plotly
 actioncall: Make a Chart with Error Bars
 ---
 
-#Fitting Data With Error Bars
+# Fitting Data With Error Bars
 
 To play with the graph shown in this video, see [Intensity (AU) vs Normalized wavelength (nm)](https://plot.ly/2505/~chris/).
 

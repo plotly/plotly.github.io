@@ -10,7 +10,7 @@ meta_description: A tutorial on how to update data in and add data to Plotly gra
 actioncall: Make a plot
 ---
 
-#Update your grids and plots
+# Update your grids and plots
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to update your grids and plots with new data. Have a plot [embedded in your webpage or blog](http://help.plot.ly/embed-graphs-in-websites)? When you update your graph using the steps below, the embedded graph will automatically update as well. No need to modify your page with a new URL.
 
