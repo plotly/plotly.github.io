@@ -47,6 +47,7 @@ Creating a new item in a public folder will create an item that is public as lon
 ### How does this work with the APIs?
 
  Similar functionality is also accessible from the various [API libraries](https://plot.ly/api). View each page for details:
+ 
   - [Python library](https://plot.ly/python/privacy)
   - [R library](https://plot.ly/r/privacy)
   - [MATLAB library](https://plot.ly/matlab/privacy)

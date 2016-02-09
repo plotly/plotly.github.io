@@ -17,17 +17,16 @@ actioncall: make a scatter plot
     <script data-plotly="Dreamshot:3251" src="https://plot.ly/embed.js" async></script>
 </div>
 
-###Step 1 : Set up the grid
+### Step 1 : Set up the grid
 
 [R](www.r-project.org/), a free programming environment for statistical computing and graphics, comes with several sample data sets to give you some data to work with right away. We've entered part of the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into a Plotly grid. Our data includes measurements on sepal length and sepal width of 150 different irises, catagorized into three different species.<br><br>Once you've loaded the data, click **Fork and edit** to move the data into your Plotly workspace. | ![Load iris data into your Plotly workspace.](http://i.imgur.com/FKZKylI.png)
 
-###Step 2: Graph the data
+### Step 2: Graph the data
 
 Select **Scatter Plots** from the **MAKE A PLOT** menu. Click **choose as x** and **choose as y** to specify the columns of $x$ and $y$ data. To color the data points by species, select **Group By** in the sidebar. Now you can select **choose as G** above the column of text, where the species information is contained. Click the blue **Scatter plot** button in the sidebar to create your graph. | ![Partitioning data points for a scatter plot](http://i.imgur.com/QBU8Y5D.png)
 
-###Step 3: Editing Your Graph
+### Step 3: Editing Your Graph
 
 Your graph should look something like this: | ![Default three trace scatter plot](http://i.imgur.com/cxEk2ST.png)
 You can add or modify axis labels and the plot title by clicking and typing. Notice how the legend specifies the species of iris and each species has a different color on the plot. | ![Axis titles and trace legends.](http://i.imgur.com/byvVi9M.png)
 Plotly graphs are interactive! You can hover over the scatter points for more information. [Styling options](/styling-and-customizing-graphs-video) are contained in the TRACES popover. Learn more about our [interactive features in three short videos](/zoom-pan-hover-controls). | ![The final graph is interactive.](http://i.imgur.com/hGuXkfN.png)
-

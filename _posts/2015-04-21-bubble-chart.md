@@ -11,7 +11,7 @@ popularity: frontpage
 actioncall: Make a Bubble Chart
 ---
 
-#Make a Bubble Chart
+# Make a Bubble Chart
 
 <div>
     <a href="https://plot.ly/~cimar/211/" target="_blank" title="Life Expectancy v. Per Capita GDP, 2007" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/211.png" alt="Life Expectancy v. Per Capita GDP, 2007" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -19,7 +19,7 @@ actioncall: Make a Bubble Chart
 </div>
 
 
-##Step 1: Set up the grid
+## Step 1: Set up the grid
 
 This is one way you could set up Plotly’s grid to make the graph above. Select the (T)ext column, (x) column, (y) column, and (S)ize as shown in the image for the different traces. The different colors represent different traces on the plot. Learn more about the grid [here](https://plot.ly/add-data-to-the-plotly-grid) and copy the data [here](https://plot.ly/~cimar/212). | ![Bubble chart grid](/static/images/bubble-chart/bubble-chart-grid.png)
 
@@ -29,13 +29,13 @@ For every set of x and y coordinates you select, select a column of values ("Cho
 &#8230;and a column of text notations ("Choose as T") for every marker, (text notations are not required to make a bubble chart.) | ![How to make a bubble chart online](/static/images/bubble-chart/choose-as-t.png)
 Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/add-data-to-the-plotly-grid](https://plot.ly/add-data-to-the-plotly-grid) ) |  ![Blue plot button](/static/images/bubble-chart/blue-plot-button.png)
 
-##Step 2: Sizing and Log Axis
+## Step 2: Sizing and Log Axis
 
 Your plot should look something like this.  Open the **TRACES** popover in the toolbar. |  ![Initial bubble chart](/static/images/bubble-chart/initial-bubble-chart.png) ![How to make a bubble chart online](/static/images/bubble-chart/traces-popover.png)
 This is what the **Style** tab of the **TRACES** popover should look like for “All Traces (Scatter)”.We’ve set the **Size** field to scale the bubbles’ diameter, not area. And we’ve evened out the pixel-to-value ratio (the higher the value in the box, the smaller the bubbles will be). We’ve also increased the weight of the white bubble outlines. |  ![Style tab adjusted](/static/images/bubble-chart/style-tab-adjusted.png)
 Now, open the **AXES** popover in the toolbar. This is what the **Range** tab for the X Axis looks like. From looking at this y vs x bubble chart, it seems there could be an exponential relationship between y and x (y as a function of x). If that's the case, then there is a linear relationship between y and log(x). Indeed, if you use a log scale for the X Axis, the bubbles appear more linear. |  ![Axes icon](/static/images/bubble-chart/axes-icon.png)  ![How to make a bubble chart online](/static/images/bubble-chart/log-option.png)
 
-##Step 3: Style and annotate!
+## Step 3: Style and annotate!
 
 For more on bubble charts, check out our [blog post](http://blog.plot.ly/post/71637573256/the-power-of-bubble-charts)
 

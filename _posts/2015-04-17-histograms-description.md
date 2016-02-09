@@ -11,7 +11,7 @@ popularity: frontpage
 actioncall: Make a Histogram
 ---
 
-#Intro to Histograms
+# Intro to Histograms
 
 ### What is a Histogram?
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -36,7 +36,7 @@ And that’s how to construct a histogram... by hand! Plotly can automatically c
 
 <img src="/static/images/histograms-description/04-histogram-description.gif" id="fig5" width="423.09" height="407.88" />
 
-###How to Read a Histogram
+### How to Read a Histogram
 
 The nature of a histogram makes it easy to find values for *ranges* of data, across many bins. Say you were interested in how many people scored between 1600 and 2400 on the SAT. Just add up the heights of the bars in that range.
 
@@ -55,12 +55,12 @@ Often when we create a histogram of a dataset, we want to compare it to a theore
 
 The animation above demonstrates what happens as our sample set of data grows: we are able to create more and more bins within the same range of values. As the sample size grows, we divide the histogram into thinner and thinner bins, and see the shape get closer and closer to a normal distribution.
 
-###Normalizing a Histogram
+### Normalizing a Histogram
 
 While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as **normalizing** (not to be confused with Normal distributions!), and can be done in a few different ways.
 
 
-####Probability distributions
+#### Probability distributions
 
 
 While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a *random* person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our **frequency distribution** into a **discrete probability distribution**. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
@@ -70,7 +70,7 @@ While it might sometimes be interesting to know that 47 people received a SAT sc
 
 It turns out converting from frequency to probability is very simple, we just divide each frequency by the total sample size (so a given bin with a frequency of 50 out of 200 total data points becomes a probability of 0.25, or 25% likely). Because we divide every bar by the same number, everything shrinks by the same proportion and the shape remains the same.
 
-####Probability density distributions
+#### Probability density distributions
 
 We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a **probability density distribution**. These histograms are used to model **probability density functions**, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of *any* value occurring is 1).
 
@@ -78,13 +78,13 @@ We could also take each probability and divide it by the width of a bin, &#916;x
 
 For a fixed data range, probability density functions are a good way to compare histograms of different sample sizes &mdash; as the sample size gets larger, the bins get thinner, so the heights stay comparable.
 
-####Frequency density distributions
+#### Frequency density distributions
 
 
 Finally, frequency distributions can also be divided by bin width to give **frequency density distributions**. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.
 
 
-###Normalization Quick Reference
+### Normalization Quick Reference
 
 For a quick summary of the normalization types, let's look at our sample histogram again, with n data points per bin. Total data points (N) = 15 and bin width (&#916;x) = 400.
 
@@ -160,7 +160,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
 Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
 
-#####Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
+##### Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 

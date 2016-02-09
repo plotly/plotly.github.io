@@ -109,6 +109,3 @@ F = 2407/22.02 = 109.3. This number is very large because the numerator was very
 
 ### Be careful...
 In order to use ANOVA, our data should follow certain assumptions or else our inference based on the ANOVA test is more likely to be incorrect. The most important assumption is that the observations are independent of one another. It should be the case that each sample is an independent random sample. In our example, this assumption would be satisfied if the sponsors were randomly sampled from a database of all potential sponsors. Thus, to understand whether this assumption is met you need to know how the data was collected. The second assumption of ANOVA is that the variance of the observations within each group is the same across the groups. The third assumption is that the data follow a normal distribution (a bell curve) within each group. Fortunately, the ANOVA test tends to perform well even if this last assumption is violated, especially in the case where the sample size per group is large.
-
-
-

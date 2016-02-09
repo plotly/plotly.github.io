@@ -11,7 +11,7 @@ popularity: frontpage
 actioncall: Make a Box Plot
 ---
 
-#Make a Box Plot
+# Make a Box Plot
 
 <div>
     <a href="https://plot.ly/~Nicole_G/22/" target="_blank" title="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~Nicole_G/22.png" alt="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="max-width: 100%;width: 854px;"  width="854" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -44,4 +44,3 @@ This is what the **Labels** tab of the **AXES** popover looks like for “X Axis
 We’re hiding the legend in the **LEGEND** popover. | ![Legend popover](/static/images/how-to-make-a-boxplot/legend-popover.png)
 We’ve titled our chart and used markup to format our text and source our data, which in this case is another plotly graph: [Points Scored by the Top 50 Scoring NBA Players in 2012]((https://plot.ly/online-graphing/tutorials/make-a-box-plot/)). | ![New title](/static/images/how-to-make-a-boxplot/new-title.png)
 Your finished chart should look something like this: | ![Finished chart](/static/images/how-to-make-a-boxplot/finished-chart.png)
-

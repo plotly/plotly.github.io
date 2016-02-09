@@ -10,7 +10,7 @@ meta_description: Beautiful and publication ready graphs are easy to make, share
 actioncall: Make a Graph
 ---
 
-#Printing and Sharing Graphs
+# Printing and Sharing Graphs
 
 <div>
     <a href="https://plot.ly/~abtran/14/" target="_blank" title="When San Francisco Meetup Groups were formed" style="display: block; text-align: center;"><img src="https://plot.ly/~abtran/14.png" alt="When San Francisco Meetup Groups were formed" style="max-width: 100%;width: 1137px;"  width="1137" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -19,7 +19,7 @@ actioncall: Make a Graph
 
 At Plotly, we love sharing. It’s easy to share or print a Plotly chart. Here’s how.
 
-###Sharing: Direct link, facebook, and more
+### Sharing: Direct link, facebook, and more
 
 Sharing options can be found in the lower right hand corner of a plot and in the Organize tab. You can use a direct link, a code to embed the graph in your website or blog (we have an <a href="https://plot.ly/embed/">tutorial on embedding</a> for that!), or share using Facebook, Twitter or Google+. | ![Sharing options](/static/images/printing-and-sharing-graphs/sharing-options.png)
 

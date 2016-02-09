@@ -10,7 +10,7 @@ meta_description: A tutorial on how to make line graphs and scatter plots with E
 actioncall: make a like and scatter plot
 ---
 
-#How to Make a Line Graph and a Scatter Plot in Excel
+# How to Make a Line Graph and a Scatter Plot in Excel
 
 <div>
     <a href="https://plot.ly/~cimar/195/" target="_blank" title="trace 0, trace 2, trace 1" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/195.png" alt="trace 0, trace 2, trace 1" style="max-width: 100%;width: 1522px;"  width="1522" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -19,7 +19,7 @@ actioncall: make a like and scatter plot
 
 Follow along below to make a mixed line and scatter plot in Plotly.
 
-###Step 1: Upload your Excel data to Plotly's grid
+### Step 1: Upload your Excel data to Plotly's grid
 
 <table>
 <tbody>
@@ -73,7 +73,7 @@ Click the blue plot button in the sidebar to create the chart.
 </tbody>
 </table>
 
-##Step 2: Setting the Traces
+## Step 2: Setting the Traces
 
 <table>
 <tbody>
@@ -113,7 +113,7 @@ Here’s how the “Mode” tab of the TRACES popover for “trace 2” should l
 </tbody>
 </table>
 
-##Step 3: Style it!
+## Step 3: Style it!
 
 <table>
 <tbody>
