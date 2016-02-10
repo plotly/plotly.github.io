@@ -1,76 +1,124 @@
 ---
-title: Plotly Help
+title: Plotly Help Center
 ---
 
 <!DOCTYPE html>
 <html>
-    <head>
-
-	<!-- Fonts -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
-        <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
-  	
-    	
-    	<!-- Stytlesheets -->
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/base.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/layout_block.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/modules.css">
-	  <link rel="stylesheet" type="text/css" href="/stylesheets/state.css">
-  
-	 <!-- Icon -->
-	 <link rel="shortcut icon" href="/images/plotly-ico.png" type="image/x-icon" />
-	 
-         <!-- META TAGS -->
-         {% include seo.html %}
-  	
-  	
-	</head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  {% include new_header.html %}
+    <!-- Stytlesheets -->
+    <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css"/>
 
-  <body>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/images/plotly-ico.png" type="image/x-icon"/>
 
-  <div class="bigcontainer help-splash" >
-    <div class="container tuthome-padding-b">
-	     <h1 class="centered">{{page.title}}</h1>
-	     <h2 class="centered">{{page.subtitle}}</h2>
-		</div>
-		<div class="row"> 
-			<a href="/tutorials" class="no_underline">
-				<div class="four columns categories" >  
-						<h3 class="centered">Web App</h3>
-						<img src="/images/plotly-hist-logo_150w.png" alt="web app" />
-						<p class="centered">Anyone making charts or dashboards online.</p>
-				</div>
-			</a>
+    <!-- META TAGS -->
+    {% include _new/_page-components/_seo.html %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-			<a href="https://plot.ly/api/" class="no_underline">
-				<div class="four columns categories" >  
-						<h3 class="centered">API clients</h3>
-						<img src="/images/python-logo.png" alt="Python" />
-						<img src="/images/r-logo.png" alt="R" />
-						<p class="centered">Engineers and data scientists using Python, R, MATLAB, or JavaScript.</p>
-				</div>
-			</a>
+</head>
 
-			<a href="/excel" class="no_underline">
-				<div class="four columns categories" >  
-						<h3 class="centered">Plotly & Excel</h3>
-						<img src="/images/Excel_logo.png" alt="Excel" />
-						<p class="centered">Upload Excel sheets to Plotly to build best-practice charts, reports, and dashboards.</p>
-				</div>
-			</a>
-		</div> <!-- row -->
-	</div> <!-- container -->
 
-	{% include new_footer.html %}  
-	
-	<!-- Image Hover Script -->
-  	<script src="/javascripts/imghover.js"></script>
+<body>
+{% include _new/_page-components/_header-main.html %}
 
-  </body>
+<main class="page --home">
+    <div class="--wrap-top">
+        <section class="hero">
+            <div class="hero-bg"><img src="//plot.ineffable.co//images/frontend/home-img.jpg" data-depth="0.50" alt=""
+                                      class="layer"></div>
+            <div class="--wrap-inner">
+                <div class="--welcome layer"><span class="meta">Welcome to the</span>
+                    <h1>Plotly Help Center</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla erat ac augue
+                        scelerisque bibendum. Ut hendrerit eu leo et fermentum.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="--documentation-categories">
+            <div class="--wrap category-buttons">
+                <ul>
+                    <li>
+                        <a href="/tutorials/">
+
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="//plot.ineffable.co/images/plotly-logo.png" alt="">
+                                </div>
+                                <div class="category-meta">
+                                    <h2>Web App</h2>
+                                    <p>Anyone making charts or dashboards online.</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <div class="category-wrap">
+                            <div class="category-img"><img src="//plot.ineffable.co/images/python-logo.png" alt="">
+                            </div>
+                            <div class="category-meta">
+                                <h2>API Clients</h2>
+                                <p>Engineers and data scientists using Python, R, Matlab or Javascript.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/excel/">
+
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="//plot.ineffable.co/images/excel-logo.png" alt="">
+                                </div>
+                                <div class="category-meta">
+                                    <h2>Plotly & Excel</h2>
+                                    <p>
+                                        Upload Excel sheets to plotly to build best-practice charts, reports and
+                                        dashboards.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="category-wrap">
+                            <div class="category-img"><img src="http://i.imgur.com/jCMx2iC.png" alt=""></div>
+                            <div class="category-meta">
+                                <h2>Dashboards</h2>
+                                <p>
+                                    Upload Excel sheets to plotly to build best-practice charts, reports and
+                                    dashboards.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</main>
+
+{% include _new/_page-components/_footer-main.html %}
+
+<!-- Image Hover Script -->
+<script src="/js/imghover.js"></script>
+<script src="http://matthew.wagerfield.com/parallax/assets/scripts/js/libraries.min.js"></script>
+<script src="http://matthew.wagerfield.com/parallax/deploy/jquery.parallax.js"></script>
+<script>
+    $(document).ready(function () {
+        // jQuery Selections
+        var scene = $('.hero-bg');
+
+// Pretty simple huh?
+        scene.parallax();
+    });
+</script>
+</body>
 
 </html>

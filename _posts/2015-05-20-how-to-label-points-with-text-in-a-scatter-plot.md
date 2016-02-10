@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Label Points With Text in a Scatter Plot
 subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
 permalink: /label-points-with-text-in-a-scatter-plot/

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a Histogram
 subtitle: A Step by Step Guide to Making a Histogram
 permalink: /make-a-histogram/

@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Video - Fitting Data with Custom Functions
 subtitle: Fitting Data with Custom Functions
 permalink: /fitting-data-to-custom-functions-video/

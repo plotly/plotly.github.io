@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Intro to Box Plots
 subtitle: What is a Box Plot?
 permalink: /what-is-a-box-plot/

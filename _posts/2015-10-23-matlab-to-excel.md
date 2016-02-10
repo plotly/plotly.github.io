@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: MATLAB to Excel
 subtitle: Exporting MATLAB charts to Excel
 permalink: /excel/matlab-to-excel/

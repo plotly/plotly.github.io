@@ -3,3 +3,15 @@ gems:
   - jekyll-redirect-from
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
+
+exclude:
+  - .sass-cache
+  - scss
+  - node_modules
+  - gulpfile.js
+#  - index.html
+#  - 404.html
+#  - google5185f1ab89e0d6bf.html
+#  - styles
+
+

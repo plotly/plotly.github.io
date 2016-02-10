@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Getting to Know The Plotly Modebar
 subtitle: A Guide to the Options in the Plotly Modebar
 permalink: /getting-to-know-the-plotly-modebar/

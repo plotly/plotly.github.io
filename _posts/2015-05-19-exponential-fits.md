@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Exponential fits
 permalink: /exponential-fits/
 imageurl: /static/images/exponential-fits/fourth-order-polynomial-fit

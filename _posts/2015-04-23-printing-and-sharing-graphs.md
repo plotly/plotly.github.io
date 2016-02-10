@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Printing and Sharing Graphs
 subtitle: How to Print and Share Graphs
 permalink: /how-to-share-and-print-plotly-graphs/

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a 3D Scatter Plot
 subtitle: A Step by Step Guide to Making a 3D Scatter Plot
 permalink: /make-a-3d-scatter-plot/

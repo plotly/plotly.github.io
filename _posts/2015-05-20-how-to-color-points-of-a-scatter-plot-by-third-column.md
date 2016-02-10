@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Color Points of a Scatter Plot by a Third Column
 subtitle: A Step by Step Guide to Color Points of a Scatter Plot by a Third Column
 permalink: /color-points-of-a-scatter-plot-by-third-column/

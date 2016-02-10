@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a Pie Chart with Excel
 subtitle: Plotly with Excel
 permalink: /excel/pie-chart/

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Multiple Y Axes Graph
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
 permalink: /make-a-graph-with-multiple-axes/

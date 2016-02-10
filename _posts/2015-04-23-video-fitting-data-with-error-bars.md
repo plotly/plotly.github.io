@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Video - Fitting Data With Error Bars
 subtitle: How to Fit Data with Error Bars
 permalink: /fitting-data-with-error-bars-video/

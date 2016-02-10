@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Intro to Histograms
 subtitle: What is a histogram?
 permalink: /histogram/

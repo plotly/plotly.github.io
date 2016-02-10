@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Update a Plotly Graph with New Data
 subtitle: How to update your plotly graphs with new data
 permalink: /update-a-graphs-data/

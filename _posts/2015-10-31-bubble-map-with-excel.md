@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a Bubble Map with Excel
 subtitle: Plotly with Excel
 permalink: /excel/bubble-map/

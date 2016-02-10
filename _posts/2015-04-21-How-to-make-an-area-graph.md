@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
 permalink: /make-an-area-graph/

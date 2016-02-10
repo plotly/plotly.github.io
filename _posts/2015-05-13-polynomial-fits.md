@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Polynomial fits
 permalink: /polynomial-fits/
 imageurl: /static/images/polynomial-fits/fourth-order-polynomial-fit
