@@ -34,6 +34,13 @@
     padding: $unit;
     min-width: 125px;
 
+    @include tablet {
+      flex: 1 1 33.3333%;
+    }
+    @include handheld {
+      flex: 1 1 50%;
+    }
+
   }
   ul {
     list-style-type: none;
