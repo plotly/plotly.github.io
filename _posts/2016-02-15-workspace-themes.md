@@ -12,14 +12,14 @@ actioncall: Share your grids, plots and folders
 
 # Applying Themes to your Charts
 
-Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you some tips to make your charts more presentable, with Plotly built-in themes. Also make sure to check out our [other tutorials](http://help.plot.ly/).
+Plotly offers free, online tools for analyzing data and making graphs.In this tutorial, we'll show you some tips to easily apply a consistent, customized style to your charts with Plotly's built-in themes. Also make sure to check out our [other tutorials](http://help.plot.ly/).
 
 
 We will start with creating a simple chart, and then applying different themes to the same.
 
 ### Creating the Chart:
 
-Import the data from the [sample data]() file: | ![Import Data](/static/images/themes/add-data.jpg)
+Import the data from the <a href="https://raw.githubusercontent.com/plotly/datasets/master/histogram_simple.csv" download>Sample Data</a> file: | ![Import Data](/static/images/themes/add-data.jpg)
 
 
 Plot data as a histogram. Select 'Histogram' from the 'ADD PLOT' menu, and click on the blue plot button to plot the graph. |  ![Shared plot](/static/images/themes/plot-data.jpg)
