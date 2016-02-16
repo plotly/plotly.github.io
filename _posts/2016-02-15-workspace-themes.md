@@ -15,7 +15,7 @@ actioncall: Share your grids, plots and folders
 Plotly offers free, online tools for analyzing data and making graphs.In this tutorial, we'll show you some tips to easily apply a consistent, customized style to your charts with Plotly's built-in themes. Also make sure to check out our [other tutorials](http://help.plot.ly/).
 
 
-We will start with creating a simple chart, and then applying different themes to the same.
+We will start with creating a simple chart, and then apply different themes to the same.
 
 ### Creating the Chart:
 
