@@ -20,12 +20,8 @@ title: Plotly Web App Tutorials
 
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
-    <!--<link rel="stylesheet" type="text/css" href="/stylesheets/base.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="/stylesheets/layout_block.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="/stylesheets/modules.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="/stylesheets/state.css">-->
-    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/web-excel/css/main.css">
 
 
     <!--[if IE]-->
@@ -36,7 +32,9 @@ title: Plotly Web App Tutorials
     </style>
     <!--[end if]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target=".watch" style="position:relative;">
@@ -55,7 +53,8 @@ title: Plotly Web App Tutorials
         <a href="#" class="toggle-sidebar">
             <div class="icon">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="#000000" d="M5,13L9,17L7.6,18.42L1.18,12L7.6,5.58L9,7L5,11H21V13H5M21,6V8H11V6H21M21,16V18H11V16H21Z" />
+                    <path fill="#000000"
+                          d="M5,13L9,17L7.6,18.42L1.18,12L7.6,5.58L9,7L5,11H21V13H5M21,6V8H11V6H21M21,16V18H11V16H21Z"/>
                 </svg>
             </div>
             <span class="show">Show Sidebar</span>
@@ -66,27 +65,33 @@ title: Plotly Web App Tutorials
             <li class="--breadcrumb-item">
                 <div class="icon">
                     <svg style="width:24px;height:24px" viewbox="0 0 24 24">
-                        <path fill="#000000" d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"></path>
+                        <path fill="#000000"
+                              d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"></path>
                     </svg>
-                </div><a href="/"><span>Help</span></a>
+                </div>
+                <a href="/"><span>Help</span></a>
             </li>
             <li class="--breadcrumb-item --current"><span>Potly Web App Tutorials</span></li>
         </ul>
-        <div class="--fork"><a href="#">
+        <div class="--fork">
+
+           <a href="#">
             <div class="icon">
                 <svg style="width:24px;height:24px" viewbox="0 0 24 24">
-                    <path fill="#000000" d="M2.6,10.59L8.38,4.8L10.07,6.5C9.83,7.35 10.22,8.28 11,8.73V14.27C10.4,14.61 10,15.26 10,16A2,2 0 0,0 12,18A2,2 0 0,0 14,16C14,15.26 13.6,14.61 13,14.27V9.41L15.07,11.5C15,11.65 15,11.82 15,12A2,2 0 0,0 17,14A2,2 0 0,0 19,12A2,2 0 0,0 17,10C16.82,10 16.65,10 16.5,10.07L13.93,7.5C14.19,6.57 13.71,5.55 12.78,5.16C12.35,5 11.9,4.96 11.5,5.07L9.8,3.38L10.59,2.6C11.37,1.81 12.63,1.81 13.41,2.6L21.4,10.59C22.19,11.37 22.19,12.63 21.4,13.41L13.41,21.4C12.63,22.19 11.37,22.19 10.59,21.4L2.6,13.41C1.81,12.63 1.81,11.37 2.6,10.59Z"></path>
+                    <path fill="#000000"
+                          d="M2.6,10.59L8.38,4.8L10.07,6.5C9.83,7.35 10.22,8.28 11,8.73V14.27C10.4,14.61 10,15.26 10,16A2,2 0 0,0 12,18A2,2 0 0,0 14,16C14,15.26 13.6,14.61 13,14.27V9.41L15.07,11.5C15,11.65 15,11.82 15,12A2,2 0 0,0 17,14A2,2 0 0,0 19,12A2,2 0 0,0 17,10C16.82,10 16.65,10 16.5,10.07L13.93,7.5C14.19,6.57 13.71,5.55 12.78,5.16C12.35,5 11.9,4.96 11.5,5.07L9.8,3.38L10.59,2.6C11.37,1.81 12.63,1.81 13.41,2.6L21.4,10.59C22.19,11.37 22.19,12.63 21.4,13.41L13.41,21.4C12.63,22.19 11.37,22.19 10.59,21.4L2.6,13.41C1.81,12.63 1.81,11.37 2.6,10.59Z"></path>
                 </svg>
-            </div><span>Fork on Github</span></a></div>
+            </div>
+            <span>Fork on Github</span></a></div>
     </div>
 </section>
 <main class="--page --index">
     <div class="--wrap">
         <!-- aside - Main Sidebar-->
         <aside class="--sidebar-container">
-            <div class="--sidebar-fixed" data-spy="affix" data-offset-top="80"  id="where">
+            <div class="--sidebar-fixed reference affix" data-spy="affix" data-offset-bottom="610" id="where">
                 <header class="--sidebar-header">{{page.title}}</header>
-                <nav class="--sidebar-body watch"   id="where">
+                <nav class="--sidebar-body watch" id="where">
                     <ul class="--sidebar-list">
                         <li class="--sidebar-item">
                             <a href="#plotlybasic" class="button no_underline">plot.ly basics</a>
@@ -113,8 +118,21 @@ title: Plotly Web App Tutorials
 
                         </li>
                     </ul>
+                    <button class="--btn">
+                        <div class="icon">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                            </svg>
+                        </div>
+                        <span><a href="/search/">Search Tutorials</a></span>
+                    </button>
                     <button class="--btn back">
-                        <div class="icon">Icon</div>
+                        <div class="icon">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                      d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z"/>
+                            </svg>
+                        </div>
                         <span><a href="/">Back to Plotly Help Center</a></span>
                     </button>
                 </nav>
@@ -126,11 +144,14 @@ title: Plotly Web App Tutorials
                 <div class="--welcome-body">
                     <!--div.--wrap-inner-->
                     <div class="--title">
-                        <div class="--category-img"><img src="http://help.plot.ly/images/plotly-hist-logo_150w.png"
-                                                         alt=""></div>
+                        <div class="--category-img">
+                            <img src="http://help.plot.ly/images/plotly-hist-logo_150w.png"
+                                 alt="">
+                        </div>
                         <div class="--body">
                             <h1>{{page.title}}</h1>
-                            <p>{{page.description}}
+                            <p>
+                                {{page.description}}
                             </p>
                         </div>
                     </div>
@@ -138,6 +159,14 @@ title: Plotly Web App Tutorials
             </header>
 
             <!-- Start Plotly Basics Section -->
+            <section class="--tutorial-section algolia__search-content js-algolia__search-content">
+                <header class="--section-header">Search</header>
+                <section class="--grid">
+                    <ul class="--grid-list posts algolia__results" >
+                    </ul>
+                </section>
+            </section>
+
             <section class="--tutorial-section">
                 <header class="--section-header"><a href="#plotlybasic" name="plotlybasic" id="plotlybasic">Plotly
                     Basics</a>
@@ -161,9 +190,13 @@ title: Plotly Web App Tutorials
                             <a href="{{page.permalink}}">
 
                                 {% endif %}
-
                                 <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+
                             </a>
 
                         </li>
@@ -189,20 +222,27 @@ title: Plotly Web App Tutorials
                         {% for page in site.posts %}
                         {% if page.tags contains 'basic' or page.tags contains 'statistical' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
-                        <li style="background-image: url(/images/default.png);" class="--grid-item">
+                        <li class="--grid-item">
                             <a href="{{page.permalink}}">
-
-                                {% else %}
-                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
-                            <a href="{{page.permalink}}">
-
-                                {% endif %}
-
-                                <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
                             </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
                         </li>
+
 
                         {% endif %}
                         {% endfor %}
@@ -225,20 +265,33 @@ title: Plotly Web App Tutorials
                         {% for page in site.posts %}
                         {% if page.state == 'active' and page.tags contains 'graph3d' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
-                        <li style="background-image: url(/images/default.png);" class="--grid-item">
+                        <li class="--grid-item">
                             <a href="{{page.permalink}}">
-
-                                {% else %}
-                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
-                            <a href="{{page.permalink}}">
-
-                                {% endif %}
 
                                 <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
                             </a>
 
+                            {% else %}
+                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
+                            <a href="{{page.permalink}}">
+
+
+                                <!--<a href="{{page.permalink}}">-->
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
+
                         </li>
+
 
                         {% endif %}
                         {% endfor %}
@@ -262,20 +315,33 @@ title: Plotly Web App Tutorials
                         {% for page in site.posts %}
                         {% if page.state == 'active' and page.tags contains 'textandlinks' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
-                        <li style="background-image: url(/images/default.png);" class="--grid-item">
+                        <li class="--grid-item">
                             <a href="{{page.permalink}}">
-
-                                {% else %}
-                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
-                            <a href="{{page.permalink}}">
-
-                                {% endif %}
 
                                 <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
                             </a>
 
+                            {% else %}
+                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
+                            <a href="{{page.permalink}}">
+
+
+                                <!--<a href="{{page.permalink}}">-->
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
+
                         </li>
+
 
                         {% endif %}
                         {% endfor %}
@@ -298,22 +364,30 @@ title: Plotly Web App Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
                         {% for page in site.posts %}
-                        {% if page.tags contains 'classroom' or page.tags contains 'dataliteracy' or page.tags contains 'videos' %}
+                        {% if page.tags contains 'classroom' or page.tags contains 'dataliteracy' or page.tags contains
+                        'videos' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
-                        <li style="background-image: url(/images/default.png);" class="--grid-item">
+                        <li class="--grid-item">
                             <a href="{{page.permalink}}">
-
-                                {% else %}
-                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
-                            <a href="{{page.permalink}}">
-
-                                {% endif %}
-
-                                <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
                             </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
                         </li>
+
 
                         {% endif %}
                         {% endfor %}
@@ -324,7 +398,7 @@ title: Plotly Web App Tutorials
 
             <!-- Start Plotly Basics Section -->
             <section class="--tutorial-section">
-                <header class="--section-header"><a href="#excel"  ref="excel" name="excel" id="excel">Excel</a>
+                <header class="--section-header"><a href="#excel" ref="excel" name="excel" id="excel">Excel</a>
                     <div class="icon copy" data-tooltip="Click to copy direct link.">
                         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                             <path fill="#000000"
@@ -335,20 +409,33 @@ title: Plotly Web App Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
                         {% for page in site.posts %}
-                        {% if page.state == 'active' and page.tags contains 'excel' and page.popularity contains 'featured' %}
+                        {% if page.state == 'active' and page.tags contains 'excel' and page.popularity contains
+                        'featured' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
-                        <li style="background-image: url(/images/default.png);" class="--grid-item">
+                        <li class="--grid-item">
                             <a href="{{page.permalink}}">
-
-                                {% else %}
-                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
-                            <a href="{{page.permalink}}">
-
-                                {% endif %}
 
                                 <!--<a href="{{page.permalink}}">-->
                                 <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
                             </a>
+
+                            {% else %}
+                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
+                            <a href="{{page.permalink}}">
+
+
+                                <!--<a href="{{page.permalink}}">-->
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
                         </li>
 
@@ -360,49 +447,14 @@ title: Plotly Web App Tutorials
             <!--End Plotly Basics Section-->
         </section>
     </div>
-    <section class="--help-box">
-        <div class="--wrap">
-            <header class="--title">Still need help?</header>
-            <div class="--body">
-                <h5>Contact Us</h5>
-                <ul class="--help-contact">
-                    <li><a href="http://community.plot.ly/">
-                        <div class="icon">
-                            <svg style="width:24px;height:24px" viewbox="0 0 24 24">
-                                <path fill="#000000"
-                                      d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"></path>
-                            </svg>
-                        </div>
-                        community.plot.ly</a></li>
-                    <li><a href="https://twitter.com/plotlygraphs">
-                        <div class="icon">
-                            <svg style="width:24px;height:24px" viewbox="0 0 24 24">
-                                <path fill="#000000"
-                                      d="M17.71,9.33C18.19,8.93 18.75,8.45 19,7.92C18.59,8.13 18.1,8.26 17.56,8.33C18.06,7.97 18.47,7.5 18.68,6.86C18.16,7.14 17.63,7.38 16.97,7.5C15.42,5.63 11.71,7.15 12.37,9.95C9.76,9.79 8.17,8.61 6.85,7.16C6.1,8.38 6.75,10.23 7.64,10.74C7.18,10.71 6.83,10.57 6.5,10.41C6.54,11.95 7.39,12.69 8.58,13.09C8.22,13.16 7.82,13.18 7.44,13.12C7.81,14.19 8.58,14.86 9.9,15C9,15.76 7.34,16.29 6,16.08C7.15,16.81 8.46,17.39 10.28,17.31C14.69,17.11 17.64,13.95 17.71,9.33M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2Z"></path>
-                            </svg>
-                        </div>
-                        @plotlygraphs</a></li>
-                    <li><a href="https://github.com/plotly">
-                        <div class="icon">
-                            <svg style="width:24px;height:24px" viewbox="0 0 24 24">
-                                <path fill="#000000"
-                                      d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"></path>
-                            </svg>
-                        </div>
-                        github.com/plotly</a></li>
-                </ul>
-                <div class="--cta">
-                    <p>For guaranteed 24 hour response turnarounds, upgrade to our Premium or Enterprise plans.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 </main>
+{% include help-box.html %}
 
 {% include _new/_page-components/_footer-main.html %}
 
 <script>
-    $("a[href^='#']").on('click', function(event) {
+    $("a[href^='#']").on('click', function (event) {
         var target;
         target = this.hash;
 
@@ -413,11 +465,46 @@ title: Plotly Web App Tutorials
 
         return $('html, body').animate({
             scrollTop: $(this.hash).offset().top - 148
-        }, 300, function() {
+        }, 300, function () {
             return window.history.pushState(null, null, target);
         });
     });
 </script>
+
+<script>
+    window.ALGOLIA_CONFIG = {
+        'applicationId': 'UFNFY0UTNN',
+        'indexName': 'help.plot.ly',
+        'apiKey': '58a3e4e581f186e87bd219d92431cc42',
+        'baseurl': '{{ site.baseurl }}'
+    }
+</script>
+<script id="algolia__template" type="text/template">
+    {% raw %}
+    <li class="--grid-item">
+        <a href="{{ full_url }}">
+
+            <div class="--item-meta">
+                <span>{{title}}</span>
+            </div>
+            <div class="--item-image">
+                <span>View Tutorial</span>
+                <img src="{{imageurl}}" alt="{{title}}">
+            </div>
+        </a>
+    </li>
+    {% endraw %}
+</script>
+<script id="algolia__template--no-results" type="text/template">
+    No results found.
+</script>
+
+<script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch/3.6.0/algoliasearch.min.js"></script>
+<script src="//cdn.jsdelivr.net/algoliasearch.helper/2.1.0/algoliasearch.helper.min.js"></script>
+<script src="//cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+<script src="//cdn.jsdelivr.net/momentjs/2.10.3/moment.min.js"></script>
+<script src="/js/algolia.js"></script>
 </body>
 
 </html>

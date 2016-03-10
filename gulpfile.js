@@ -58,7 +58,9 @@ gulp.task('watch', function() {
 });
 
 
-gulp.task('default', ['build', 'sass', 'watch']);
+gulp.task('bw', ['build', 'sass', 'watch']);
+
+gulp.task('default', ['sass', 'watch']);
 
 gulp.task('build', ['build']);
 

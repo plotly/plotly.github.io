@@ -14,9 +14,9 @@ body {
   position: relative;
   display: flex;
   align-items: stretch;
-  color: whitesmoke;
+  color: rgb(244, 244, 248);
   p a {
-    color: whitesmoke;
+    color: rgb(244, 244, 248);
   }
   .header--blue-bg {
     background-image: linear-gradient(0deg, rgba(100, 91, 158, 0.89) 0%, rgba(58, 124, 187, 0.89) 100%);
@@ -270,7 +270,7 @@ header {
               }
             }
             &:hover{
-              background: whitesmoke;
+              background: rgb(244, 244, 248);
             }
           }
         }

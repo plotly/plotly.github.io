@@ -92,7 +92,7 @@
     .\--documentation-categories {
       position: relative;
       z-index: 2;
-      background-color: whitesmoke;
+      background-color: rgb(244, 244, 248);
       padding: $unit*2;
       width: 100%;
       border-top: $border;
@@ -113,6 +113,11 @@
         display: flex;
         justify-content: space-between;
         li {
+          a{
+            &::before{
+              display: none !important;
+            }
+          }
           display: flex;
           background: white;
           align-items: baseline;
@@ -155,6 +160,15 @@
               max-width: 70%;
               max-height: 90px;
             }
+
+            svg{
+              transform:scale(1.5);
+              opacity:0.75;
+
+              path{
+                fill: $bblue;
+              }
+            }
           }
           &::before {
             content: '';
@@ -174,7 +188,11 @@
               background: white;
               border-color: $bblue;
               transform: scale(1);
+              svg{
+                opacity:1 !important;
+              }
             }
+
             h2 {
               color: $bblue;
             }
@@ -210,4 +228,13 @@
       }
     }
   }
+}
+
+::selection {
+  background: $blue; /* WebKit/Blink Browsers */
+  color:white;
+}
+::-moz-selection {
+  background: $blue; /* Gecko Browsers */
+  color:white;
 }

@@ -112,7 +112,7 @@ h6 {
     top: 100%;
     width: $unit*4;
     height: 3px;
-    background: darken(whitesmoke, 6%);
+    background: darken(rgb(244, 244, 248), 6%);
   }
 
 }
@@ -195,11 +195,13 @@ h6 {
 }
 
 .fiu {
-  animation: fadeInUp 0.5s forwards ease-in-out;
+  //animation: fadeInUp 0.5s forwards ease-in-out;
+  opacity:1 !important;
 }
 
 .fiud {
-  animation: fadeInUp 0.5s forwards ease-in-out;
+  //animation: fadeInUp 0.5s forwards ease-in-out;
+  opacity:1 !important;
 }
 
 main {
@@ -316,4 +318,112 @@ $bigaf: 1315px;
 
 body.no-scroll {
   overflow: hidden !important;
+}
+
+.search-field{
+  padding:$unit*2;
+  //padding-right:0;
+  width: 100%;
+  input{
+    padding:$unit*2;
+    width:100%;
+    border: $border;
+  }
+}
+.\--welcome{
+  margin-right:$unit*2;
+}
+
+.algolia__initial-content--hidden{
+  display: none;
+}
+.algolia__initial-content{
+  padding-right:$unit*2;
+}
+.js-algolia__search-content{
+  padding-right:$unit*2;
+  display: none;
+}
+.algolia__search-content--active{
+  display: block;
+}
+
+.default-search{
+  padding:$unit*2;
+  margin-left:$unit*2;
+  &.nothing{
+    margin-top:$unit*2;
+    margin-left:0;
+    width: 100%;
+  }
+  display: flex;
+  background: $lb;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height:300px;
+  //width:;
+  border: $border;
+  p{
+    max-width:300px;
+    opacity:0.5;
+  }
+  div.icon{
+    $size: 110px;
+    top:0;
+    left:0;
+    //transform:scale(5);
+    //margin:$unit*20 0;
+    //position: absolute;
+    height:100%;
+    //left:50%;
+    //top:50%;
+    //margin-top:$size*-0.5;
+    //margin-left:$size*-0.5;
+    opacity:0.05;
+    svg{
+      height:$size !important;
+      width:$size !important;
+    }
+  }
+}
+.ais-refinement-list--item{
+  display: flex;
+  width: 100%;
+  & > div{
+    width:100%;
+  }
+  .ais-refinement-list--label{
+    display: flex;
+    width:100%;
+    align-items: center;
+    //justify-content: space-between;
+    padding-right: $unit*2;
+  }
+  input{
+    margin-right:$unit;
+
+  }
+  //padding:$unit;
+  margin-bottom:$unit/2;
+  .ais-refinement-list--count{
+    background: darken($lb, 35%);
+    justify-self: flex-end;
+    float: right;
+    padding:$unit/2;
+    color:white;
+    border-radius: 3px;
+    margin-left:$unit;
+    font-size:0.85rem;
+    opacity:0.7;
+    &::before{
+      content: '';
+      display: flex;
+      height:1px;
+      width:100%;
+      position: relative;
+      flex: 1 !important;
+    }
+  }
 }

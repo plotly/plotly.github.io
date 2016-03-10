@@ -58,7 +58,7 @@ $gray-dark: #626262;
 //      position: relative;
 //
 //      &.\--active {
-//        //border: 1px solid darken(whitesmoke, 8%);
+//        //border: 1px solid darken(rgb(244, 244, 248), 8%);
 //        //background: #000;
 //        &::before {
 //          content: '';
@@ -124,7 +124,7 @@ $gray-dark: #626262;
 //    padding: $unit*4;
 //    border: $border;
 //
-//    background: whitesmoke;
+//    background: rgb(244, 244, 248);
 //  }
 //}
 
@@ -135,7 +135,7 @@ $gray-dark: #626262;
 //  }
 //  ul {
 //    display: flex;
-//    background: whitesmoke;
+//    background: rgb(244, 244, 248);
 //    width: 100%;
 //    border-top: $border;
 //    li {
@@ -215,8 +215,12 @@ $gray-dark: #626262;
 .page {
 
   &--single {
-
+      .\--welcome{
+        //display: none;
+      }
     .tutorial-content {
+      max-width:1120px;
+      padding:$unit*2;
       * {
         font-size: 1.1rem;
       }
@@ -224,22 +228,23 @@ $gray-dark: #626262;
         display: inline !important;
       }
       p {
-        //background: whitesmoke;
+        //background: rgb(244, 244, 248);
         //display: flex;
         //flex-wrap:wrap;
         padding: $unit*2;
         margin: 0;
         position: relative;
+        opacity:0.75;
         img{
           max-width:100%;
         }
         &.last {
           + h4 {
-            border-top: $border !important;
+            //border-top: $border !important;
 
           }
           + h3 {
-            border-top: $border !important;
+            //border-top: $border !important;
 
           }
         }
@@ -249,10 +254,15 @@ $gray-dark: #626262;
           height: 4px;
           width: $unit*4;
           left: $unit*2;
-          background: $slg;
+          //background: $slg;
           top: 100%;
         }
         //display: block;
+      }
+      pre{
+        padding:$unit*2;
+        background:rgb(244, 244, 248);
+        border: $border;
       }
       table {
         width: 100%;
@@ -260,14 +270,14 @@ $gray-dark: #626262;
           width: 100%;
           display: flex;
           th {
-            background: whitesmoke !important;
+            background: rgb(244, 244, 248) !important;
           }
         }
         td {
-          border-bottom: $border;
+          //border-bottom: $border;
         }
         td ~ td {
-          border-left: $border;
+          //border-left: $border;
         }
         td, th {
           flex: 1;
@@ -279,7 +289,7 @@ $gray-dark: #626262;
 
           }
           &:nth-of-type(even) {
-            background: lighten(whitesmoke, 2%);
+            background: lighten(rgb(244, 244, 248), 2%);
             //border-top: $border;
           }
           img {
@@ -300,7 +310,7 @@ $gray-dark: #626262;
         }
       }
       h1, h3, h4 {
-        //background: darken(whitesmoke, 85%);
+        //background: darken(rgb(244, 244, 248), 85%);
 
       }
       h1, h3, h4, h5 {
@@ -309,17 +319,37 @@ $gray-dark: #626262;
         }
         padding: $unit*2;
 
-        border-bottom: $border;
-        font-size: 2rem;
+        //border-bottom: $border;
+        font-size: 2.85rem;
         font-weight: 300;
         display: flex;
         margin: 0;
         flex-direction: column;
+        padding-bottom:$unit*3;
+        margin-bottom:$unit;
         strong {
-          font-weight: inherit;
+          //font-weight: inherit;
           font-size: 1rem;
+          letter-spacing:0.5px;
           display: inline-block;
           padding-right: $unit;
+          color: $grey;
+          padding-bottom:$unit;
+          //text-transform: uppercase;
+
+        }
+        position: relative;
+        //margin-bottom:$unit*2;
+
+        &::before{
+          content: '';
+          left:$unit*2;
+          top:100%;
+          width: calc(10% - 20px);
+          background: darken(rgb(244, 244, 248), 2%);
+          height:5px;
+          margin-top:-2.5px;
+          position: absolute;
         }
         div.icon {
           margin-top: 4px;
@@ -346,7 +376,7 @@ $gray-dark: #626262;
       h5{
         display: block;
         border-top:$border;
-        background: whitesmoke;
+        background: rgb(244, 244, 248);
         a{
           font-size:2rem;
           &::before{

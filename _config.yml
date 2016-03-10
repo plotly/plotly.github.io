@@ -1,6 +1,7 @@
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - algoliasearch-jekyll
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
 
@@ -15,3 +16,7 @@ exclude:
 #  - styles
 
 
+algolia:
+  application_id:      'UFNFY0UTNN'
+  index_name:          'help.plot.ly'
+  search_only_api_key: '58a3e4e581f186e87bd219d92431cc42'
