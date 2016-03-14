@@ -10,7 +10,7 @@ meta_description: How to insert links, text and html in plotly charts. Make grap
 actioncall: Make a Graph
 ---
 
-#Links, Text, and HTML in Graphs
+# Links, Text, and HTML in Graphs
 
 <div>
     <a href="https://plot.ly/~Dreamshot/609/" target="_blank" title="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/609.png" alt="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -20,7 +20,7 @@ actioncall: Make a Graph
 Want to add a link to the data source on one of your graphs? Need superscripts or subscripts in your title? Plotly supports several HTML tags and codes for special characters, like Greek letters.  In this tutorial we’ll show you the basics of integrating these features with Plotly using our Web App. Looking for even more formatting options? LaTeX offers additional flexibility. Check out our tutorial [here](https://plot.ly/LaTeX-basics/).
 Plotly uses a subset of HTML tags to do things like newline (&lt;br&gt;), bold (&lt;b&gt;&lt;/b&gt;), italics (&lt;i&gt;&lt;/i&gt;), and hyperlinks (&lt;a href=’&#8230;’&gt;&lt;/a&gt;). Tags &lt;em&gt;, &lt;sup&gt;, and &lt;sub&gt; are also supported. Follow along below for some examples.
 
-##Step 1: Using HTML with Plotly
+### Step 1: Using HTML with Plotly
 
 For this tutorial, we’ll examine some of the styling from the graph: [https://plot.ly/609/~Dreamshot/](https://plot.ly/609/~Dreamshot/). If you want to edit the graph yourself, you can click the link above.
 
@@ -30,8 +30,7 @@ For this tutorial, we’ll examine some of the styling from the graph: [https://
 
 | The source link above was added to the <strong>x axis label</strong> of the graph, but you can also place a source link anywhere on the graph by adding an <strong>annotation</strong>. A popular place to position source links using annotations is in the bottom-right of the graph. To add an annotation, click on *NOTES* in the toolbar, then click on the &#8220;+&#8221;. You can drag the note and arrow to place it as you like.|![Link and text in graphs](/static/images/links-text-and-html-in-graphs/annotation.png) |
 
-
-###Step 2: The essentials
+### Step 2: The essentials
 
 
 <img class="img-responsive-table" src="/static/images/links-text-and-html-in-graphs/table1.png">

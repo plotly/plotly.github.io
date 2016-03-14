@@ -10,7 +10,7 @@ meta_description: Learn how to use dates, time series, and timestamp formats wit
 actioncall: Make a Chart
 ---
 
-#Dates, Time Series and Timestamp Format in Plotly
+# Dates, Time Series and Timestamp Format in Plotly
 
 <div>
     <a href="https://plot.ly/~empet/55/" target="_blank" title="Top 5 Browsers from July 2013 to July 2014" style="display: block; text-align: center;"><img src="https://plot.ly/~empet/55.png" alt="Top 5 Browsers from July 2013 to July 2014" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -115,11 +115,11 @@ You can truncate the fractional seconds to any number of digits. All other trunc
 
 </div>
 
-###Importing files with dates and times
+### Importing files with dates and times
 
 Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Plotly will parse the data for you into our native format so you’re ready to customize your graph. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/import-data-file.png)
 
-###Custom formats for your graph
+### Custom formats for your graph
 
 When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)
 To customize, we select **AXES** in the toolbar. In the popover, select the axis you wish to modify. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/select-axis.png)

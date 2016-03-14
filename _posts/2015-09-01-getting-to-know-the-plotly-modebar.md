@@ -10,15 +10,15 @@ meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fa
 actioncall: nil
 ---
 
-#Getting to Know The Plotly Modebar
+# Getting to Know The Plotly Modebar
 
 At the top of every two-dimensional Plotly plot you will find icons with the following functions. For 3d plots see below:
 
-###Download plot as a PNG
+### Download plot as a PNG
 
 Clicking this will instantly start a download of the plot in PNG format.  | ![Download plot as a PNG](/static/images/getting-to-know-the-plotly-modebar/download-plot-as-a-png.png)
 
-###Zoom and Pan buttons
+### Zoom and Pan buttons
 
 Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons.
 
@@ -26,13 +26,13 @@ Clicking this selects the **Zoom** mode. To zoom in on a region of a Plotly grap
 
 To pan across regions of your graph, select the **Pan** mode. Click and hold your mouse to explore the data. Double-click anywhere to return to the original view. | ![Pan](/static/images/getting-to-know-the-plotly-modebar/pan.png)
 
-###Zoom In/Out
+### Zoom In/Out
 
 You can zoom in and out by clicking on the + and - buttons. Plotly keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.
 
 ![Zoom In](/static/images/getting-to-know-the-plotly-modebar/zoom-in.png)  | ![Zoom Out](/static/images/getting-to-know-the-plotly-modebar/zoom-out.png)
 
-###Autoscale and reset axes
+### Autoscale and reset axes
 
 When a graph is made using Plotly, we guess how the graph axes should be set. This is called “autoscale”. Sometimes our guess isn’t exactly what the graph creator wants. When a graph is made, the user can change the axes, and then save their graph. You can return to this saved form by clicking on Reset Axes.
 
@@ -40,7 +40,7 @@ Clicking this zooms to include your Axes Range, if this has been set. If it has 
 
 Clicking Autoscale zooms the plot back to a setting that is optimized to include all the viewable data regardless of the Axes Range setting. | ![Autoscale](/static/images/getting-to-know-the-plotly-modebar/autoscale.png)
 
-###Hover options
+### Hover options
 
 One of these two buttons is selected at all times.
 
@@ -52,7 +52,7 @@ Clicking Compare data on hover will show you the data for all points with the sa
 
 ![Compare Data on Hover Button](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover-button.png)|![Compare Data on Hover](/static/images/getting-to-know-the-plotly-modebar/compare-data-on-hover.png)
 
-###3d charts
+### 3d charts
 
 The mode bar for 3d charts gives you additional options for controlling rotations and also lets you toggle between the default view, and your last saved view. | ![3d Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 

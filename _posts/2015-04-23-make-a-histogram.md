@@ -11,7 +11,7 @@ popularity: frontpage
 actioncall: Make a Histogram
 ---
 
-#A Step by Step Guide to Making a Histogram
+# A Step by Step Guide to Making a Histogram
 
 <div>
     <a href="https://plot.ly/~cimar/214/" target="_blank" title="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/214.png" alt="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="max-width: 100%;width: 1360px;"  width="1360" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
@@ -28,12 +28,12 @@ Select only one column of data for a basic histogram (two with the ‘group by�
 &#8230;These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or “bin” of values appears in the column. To learn more see: [https://help.plot.ly/histogram/](/histogram/) | ![How to Make a Histogram Online](/static/images/make-a-histogram/image15.gif)
 Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/add-data-to-the-plotly-grid/](https://plot.ly/add-data-to-the-plotly-grid)) | ![How to make a histogram online](/static/images/make-a-histogram/image21.png)
 
-###Step 2: Drawing the curve
+### Step 2: Drawing the curve
 
 Your plot should look something like this.  Open the FIT DATA popover in the toolbar. |  ![How to make a histogram online](/static/images/make-a-histogram/image20.png) ![How to make a histogram online](/static/images/make-a-histogram/image27.png)
 Click through to add a fit to the “Height” trace. |  ![How to make a histogram online](/static/images/make-a-histogram/image26.png)
 
-###Step 3: Style and annotate
+### Step 3: Style and annotate
 
 Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style and annotate it.Open the NOTES popover. |  ![How to make a histogram online](/static/images/make-a-histogram/image03.png) ![How to make a histogram online](/static/images/make-a-histogram/image22.png)
 This is what the NOTES popover looks like. The “+” sign adds new notes. Hide the arrow. Set the “Move with” option to “Data”, as the note refers to a specific pair of points on the plot. | ![How to make a histogram online](/static/images/make-a-histogram/image24.png)

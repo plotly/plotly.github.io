@@ -1,7 +1,7 @@
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
-  - algoliasearch-jekyll
+#  - algoliasearch-jekyll
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
 
@@ -10,13 +10,9 @@ exclude:
   - scss
   - node_modules
   - gulpfile.js
-#  - index.html
-#  - 404.html
-#  - google5185f1ab89e0d6bf.html
-#  - styles
 
-
-algolia:
-  application_id:      'UFNFY0UTNN'
-  index_name:          'help.plot.ly'
-  search_only_api_key: '58a3e4e581f186e87bd219d92431cc42'
+#
+#algolia:
+#  application_id:      'UFNFY0UTNN'
+#  index_name:          'help.plot.ly'
+#  search_only_api_key: '58a3e4e581f186e87bd219d92431cc42'

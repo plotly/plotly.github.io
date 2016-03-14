@@ -50,7 +50,7 @@ Click the blue plot button in the sidebar to create the chart. (For more help wi
 
 ![Create chart](http://i.imgur.com/MDMUhho.png)
 
-###Step 4 - Sizing and Styling!
+### Step 4 - Sizing and Styling!
 
 Your plot should look something like this.
 
@@ -70,7 +70,7 @@ We’ve set the “Rotation” field to 48. And we’ve set the "Pull apart" fei
 
 We’ve also set the "Sector color palette" field to the divering PiYG.
 
-###Step 5 - Final Accents
+### Step 5 - Final Accents
 
 Your plot should now look something like this. In order to get the graph at the top of the chart, you’ll need to style it a little more.
 

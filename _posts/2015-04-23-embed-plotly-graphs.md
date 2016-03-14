@@ -10,7 +10,7 @@ meta_description: A tutorial on how to embed interactive Plotly graphs in websit
 actioncall: Make a Graph
 ---
 
-#Embed Plotly Graphs in A Blog or Website
+# Embed Plotly Graphs in A Blog or Website
 
 When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!
 
@@ -18,7 +18,7 @@ Plotly’s interactive charts add impact to your blog, webpage, online notebook,
 
 You can embed a Plotly graph with using HTML code or an iFrame. We show you how to paste the HTML code in your website or blog in Step 2 below. Finally, if you’re using wordpress.com, jump to the explanation below. WordPress doesn’t support our HTML code or iFrames, but we’ve come up with an easy solution for you.
 
-###Step 1: Get the HTML snippet
+### Step 1: Get the HTML snippet
 
 There are three places to locate the embed code in Plotly.  If you want to share someone else’s graph, option 1 is the easier choice.  If you’re in your own Workspace, then you’ll want to check out option 2. To share from a folder, for example Home, within the Organize app, select option 3.
 

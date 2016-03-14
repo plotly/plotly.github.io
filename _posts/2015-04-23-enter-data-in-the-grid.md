@@ -10,7 +10,7 @@ meta_description: A step-by-step tutorial on how to enter data in Plotly for eas
 actioncall: Make a Graph
 ---
 
-#How to Enter Data in the Grid
+# How to Enter Data in the Grid
 
 ### Step 1: Set up the Grid
 
@@ -38,7 +38,7 @@ Click the **VIEW DATA** button, located in the toolbar, to view the data. | ![Vi
 &#8230;the column names should let you know what role they played in the original plot. | ![Column names](/static/images/enter-data-in-the-grid/column-names.png)
 Save and name your new data set and save it to the filewell, to have it on-hand for future plots and to share it. | ![Save data to filewell](/static/images/enter-data-in-the-grid/save-data.png)
 
-###Step 2: Plot
+### Step 2: Plot
 
 Once your grid is set up, you’re ready to plot!
 
@@ -47,6 +47,3 @@ Click the **OPTIONS** you’d like to enable in the sidebar&#8230; | ![Enable op
 &#8230;then set your variables with the buttons that have appeared below the column headers&#8230; | ![Set variables](/static/images/enter-data-in-the-grid/set-variables.png)
 &#8230;different colors indicate different data sets. These will be plotted as different colors by default. | ![Different colors for different data sets](/static/images/enter-data-in-the-grid/different-colors.png)
 Click the **PLOT** button at the bottom of the sidebar to make your plot. You can either make a new plot (default) or add to an existing one. | ![Click plot button](/static/images/enter-data-in-the-grid/click-plot-button.png)
-
-
-

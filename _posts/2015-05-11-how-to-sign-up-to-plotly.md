@@ -9,9 +9,9 @@ tags: plotlybasics
 meta_description: How to sign up to Plotly. Plotly is the easiest way to make and share graphs, online and for free.
 ---
 
-#How to sign up for Plotly
+# How to sign up for Plotly
 
-##Step 1: Go to plot.ly
+## Step 1: Go to plot.ly
 
  <table>
   <tbody>
@@ -28,7 +28,7 @@ meta_description: How to sign up to Plotly. Plotly is the easiest way to make an
 
 You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify your address after you’ve signed up.
 
-##Step 2: Get started!
+## Step 2: Get started!
 
  <table>
   <tbody>

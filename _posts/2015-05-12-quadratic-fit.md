@@ -9,7 +9,7 @@ meta_description: A tutorial on quadratic regression. Make graphs online and for
 actioncall: make a chart
 ---
 
-#Fitting data with a quadratic function
+# Fitting data with a quadratic function
 
 <div>
     <a href="https://plot.ly/~mariahh/56/" target="_blank" title="Almost squares" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/56.png" alt="Almost squares" style="max-width: 100%;width: 1023px;"  width="1023" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
