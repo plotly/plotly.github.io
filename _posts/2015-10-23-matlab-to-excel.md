@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: MATLAB to Excel
+date: 2015-10-23 00:00:00 Z
+permalink: "/excel/matlab-to-excel/"
+tags:
+- excel
+layout: two_column_layout
 subtitle: Exporting MATLAB charts to Excel
-permalink: /excel/matlab-to-excel/
-imageurl: /images/matlab-to-excel.jpg
+imageurl: "/images/matlab-to-excel.jpg"
 state: active
-tags: excel
-meta_description: Export MATLAB charts and data to Excel. Easily share charts and data between MATLAB and Excel users.
+meta_description: Export MATLAB charts and data to Excel. Easily share charts and
+  data between MATLAB and Excel users.
 actioncall: Make a chart
 ---
 

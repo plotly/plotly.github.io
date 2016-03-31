@@ -1,12 +1,15 @@
 ---
-layout: new_layout
 title: Video - Linear Regression or Lines of Best Fit
+date: 2015-04-23 00:00:00 Z
+permalink: "/lines-of-best-fit-video/"
+tags:
+- videos
+layout: new_layout
 subtitle: How to create a line of best fit
-permalink: /lines-of-best-fit-video/
-imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
+imageurl: "/static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png"
 state: active
-tags: videos
-meta_description: Learn to calculate a line of best fit in less than two minutes. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Learn to calculate a line of best fit in less than two minutes.
+  Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart
 ---
 

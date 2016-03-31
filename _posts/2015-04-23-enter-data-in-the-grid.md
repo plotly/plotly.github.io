@@ -1,12 +1,16 @@
 ---
-layout: two_column_layout
 title: How to Enter Data in the Grid
+date: 2015-04-23 00:00:00 Z
+permalink: "/add-data-to-the-plotly-grid/"
+tags:
+- plotlybasic
+layout: two_column_layout
 subtitle: A Step by Step Guide to Entering Data in the Grid
-permalink: /add-data-to-the-plotly-grid/
-imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
+imageurl: "/static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png"
 state: active
-tags: plotlybasic
-meta_description: A step-by-step tutorial on how to enter data in Plotly for easy, online graphing. Upload data from your computer, import from Google Drive, or import from Dropbox.
+meta_description: A step-by-step tutorial on how to enter data in Plotly for easy,
+  online graphing. Upload data from your computer, import from Google Drive, or import
+  from Dropbox.
 actioncall: Make a Graph
 ---
 

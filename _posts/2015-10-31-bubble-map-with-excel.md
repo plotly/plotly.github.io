@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: Make a Bubble Map with Excel
+date: 2015-10-31 00:00:00 Z
+permalink: "/excel/bubble-map/"
+tags:
+- excel
+layout: two_column_layout
 subtitle: Plotly with Excel
-permalink: /excel/bubble-map/
 imageurl: static/images/bubble-map.png
 state: inactive
-tags: excel
-meta_description: A tutorial on how to make a bubble map with Excel. Plotly is the easiest and fastest way to  make and share graphs online.
+meta_description: A tutorial on how to make a bubble map with Excel. Plotly is the
+  easiest and fastest way to  make and share graphs online.
 actioncall: Make a Bubble Map
 ---
 

@@ -1,11 +1,16 @@
 ---
-layout: two_column_layout
 title: Polynomial fits
-permalink: /polynomial-fits/
-imageurl: /static/images/polynomial-fits/fourth-order-polynomial-fit
+date: 2015-05-13 00:00:00 Z
+permalink: "/polynomial-fits/"
+tags:
+- classroom
+- basic
+layout: two_column_layout
+imageurl: "/static/images/polynomial-fits/fourth-order-polynomial-fit"
 state: inactive
-tags: classroom basic
-meta_description: Learn how to easily fit data with polynomials using our free online regression calculator. Plotly is the best online tool for graphing and analyzing data.
+meta_description: Learn how to easily fit data with polynomials using our free online
+  regression calculator. Plotly is the best online tool for graphing and analyzing
+  data.
 actioncall: start fitting polynomials
 ---
 

@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: Make a Pie Chart with Excel
+date: 2015-10-16 00:00:00 Z
+permalink: "/excel/pie-chart/"
+tags:
+- excel
+layout: two_column_layout
 subtitle: Plotly with Excel
-permalink: /excel/pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
-tags: excel
-meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the
+  easiest and fastest way to make and share graphs online.
 actioncall: Make a Pie Chart
 ---
 

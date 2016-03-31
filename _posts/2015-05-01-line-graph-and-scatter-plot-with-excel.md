@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: How to Make a Line and Scatter Plot with Excel
+date: 2015-05-01 00:00:00 Z
+permalink: "/excel/line-graph-and-scatter-plot/"
+tags:
+- excel
+layout: two_column_layout
 subtitle: Plotly with Excel
-permalink: /excel/line-graph-and-scatter-plot/
-imageurl: /static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
+imageurl: "/static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png"
 state: active
-tags: excel
-meta_description: A tutorial on how to make line graphs and scatter plots with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make line graphs and scatter plots with Excel.
+  Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: make a like and scatter plot
 ---
 

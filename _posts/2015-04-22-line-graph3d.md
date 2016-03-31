@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: Make a 3D Line Graph
+date: 2015-04-22 00:00:00 Z
+permalink: "/make-a-3d-line-chart/"
+tags:
+- graph3d
+layout: two_column_layout
 subtitle: A Step by Step Guide to Making a 3D Line Graph
-permalink: /make-a-3d-line-chart/
-imageurl: /static/images/line-graph3d/line-graph3d.png
+imageurl: "/static/images/line-graph3d/line-graph3d.png"
 state: active
-tags: graph3d
-meta_description: A tutorial on how to make a 3d chart online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a 3d chart online. Plotly is the easiest
+  and fastest way to make and share graphs online.
 actioncall: Make a 3D Line Graph
 ---
 

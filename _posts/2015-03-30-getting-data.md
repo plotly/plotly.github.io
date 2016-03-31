@@ -1,11 +1,15 @@
 ---
-layout: two_column_layout
 title: Getting data
-permalink: /getting-data/
-imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
+date: 2015-03-30 00:00:00 Z
+permalink: "/getting-data/"
+tags:
+- classroom
+- plotlybasic
+layout: two_column_layout
+imageurl: "/static/images/getting-data/getting-data-ice-cream-production.png"
 state: active
-tags: classroom plotlybasic
-meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
+meta_description: A tutorial on reliable data sources including Data.gov. Plotly is
+  the easiest way to make beautiful graphs online and for free.
 ---
 
 # Getting data

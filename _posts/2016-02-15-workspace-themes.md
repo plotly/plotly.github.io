@@ -1,12 +1,15 @@
 ---
-layout: two_column_layout
 title: Workspace Themes
+date: 2016-02-15 00:00:00 Z
+permalink: "/themes/"
+tags:
+- plotlybasic
+layout: two_column_layout
 subtitle: How to add themes to your Plotly graphs
-permalink: /themes/
-imageurl: /static/images/themes/themes-thumbnail.jpg
+imageurl: "/static/images/themes/themes-thumbnail.jpg"
 state: active
-tags: plotlybasic
-meta_description: A tutorial on how to add themes to Plotly graphs. Plotly is the easiest way to graph and share your data.
+meta_description: A tutorial on how to add themes to Plotly graphs. Plotly is the
+  easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---
 

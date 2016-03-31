@@ -1,12 +1,16 @@
 ---
-layout: new_layout
 title: Intro to Histograms
+date: 2015-04-17 00:00:00 Z
+permalink: "/histogram/"
+tags:
+- dataliteracy
+layout: new_layout
 subtitle: What is a histogram?
-permalink: /histogram/
-imageurl: /static/images/histograms-description/thum-histogram-description.png
+imageurl: "/static/images/histograms-description/thum-histogram-description.png"
 state: active
-tags: dataliteracy
-meta_description: What is a histogram? When do you use a histogram? An interactive lesson on how to read a histogram, how a histogram is made, and how to analyze a histogram.
+meta_description: What is a histogram? When do you use a histogram? An interactive
+  lesson on how to read a histogram, how a histogram is made, and how to analyze a
+  histogram.
 popularity: frontpage
 actioncall: Make a Histogram
 ---

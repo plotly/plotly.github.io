@@ -1,12 +1,16 @@
 ---
-layout: two_column_layout
 title: Make a Bubble Chart
+date: 2015-04-21 00:00:00 Z
+permalink: "/make-a-bubble-chart/"
+tags:
+- basic
+layout: two_column_layout
 subtitle: A Step by Step Guide to Bubble Charts
-permalink: /make-a-bubble-chart/
-imageurl: /static/images/bubble-chart/thum-bubble-chart.png
+imageurl: "/static/images/bubble-chart/thum-bubble-chart.png"
 state: active
-tags: basic
-meta_description: A bubble chart is a variation of a scatter plot, where each point can have a different radius, representing an extra dimension of data. Learn to make a bubble chart online.
+meta_description: A bubble chart is a variation of a scatter plot, where each point
+  can have a different radius, representing an extra dimension of data. Learn to make
+  a bubble chart online.
 popularity: frontpage
 actioncall: Make a Bubble Chart
 ---

@@ -1,12 +1,16 @@
 ---
-layout: two_column_layout
 title: Make a Box Plot
+date: 2015-04-23 00:00:00 Z
+permalink: "/make-a-box-plot/"
+tags:
+- statistical
+layout: two_column_layout
 subtitle: A Step by Step Guide to Making a Box Plot
-permalink: /make-a-box-plot/
-imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
+imageurl: "/static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png"
 state: active
-tags: statistical
-meta_description: Box plots are used to better understand how values are spaced out in different sets of data. Follow this step-by-step tutorial to make a box plot for free and online with Plotly.
+meta_description: Box plots are used to better understand how values are spaced out
+  in different sets of data. Follow this step-by-step tutorial to make a box plot
+  for free and online with Plotly.
 popularity: frontpage
 actioncall: Make a Box Plot
 ---

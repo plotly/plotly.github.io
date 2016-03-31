@@ -1,12 +1,16 @@
 ---
-layout: new_layout
 title: Intro to Box Plots
+date: 2015-04-20 00:00:00 Z
+permalink: "/what-is-a-box-plot/"
+tags:
+- dataliteracy
+layout: new_layout
 subtitle: What is a Box Plot?
-permalink: /what-is-a-box-plot/
-imageurl: /static/images/box-plot/box-plot-thumbnail.png
+imageurl: "/static/images/box-plot/box-plot-thumbnail.png"
 state: active
-tags: dataliteracy
-meta_description: Box plots are used to better understand how values are spaced out in different sets of data. An interactive tutorial on how box plots are made, and the information they display.
+meta_description: Box plots are used to better understand how values are spaced out
+  in different sets of data. An interactive tutorial on how box plots are made, and
+  the information they display.
 popularity: frontpage
 actioncall: Make a Box Plot
 ---
