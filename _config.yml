@@ -1,6 +1,6 @@
 ---
-title: plotly
-url: http://plotly.siteleaf.net
+title: ph
+url: http://help-plotly.siteleaf.net
 timezone: UTC
 collections:
   posts:
@@ -9,16 +9,3 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
