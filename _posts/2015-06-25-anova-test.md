@@ -1,16 +1,12 @@
 ---
-title: ANOVA Test
-date: 2015-06-25 00:00:00 Z
-permalink: "/anova-test/"
-tags:
-- classroom
-- statistical
 layout: two_column_layout
+title: ANOVA Test
 subtitle: A Step by Step Guide to ANOVA
-imageurl: 
-state: 
-meta_description: The ANOVA test is a hypothesis test that provides a quantitative
-  method to compare means of three or more samples. Learn to use Plotly's ANOVA test.
+permalink: /anova-test/
+imageurl:
+state:
+tags: classroom statistical
+meta_description: The ANOVA test is a hypothesis test that provides a quantitative method to compare means of three or more samples. Learn to use Plotly's ANOVA test.
 actioncall: Make a Graph
 ---
 

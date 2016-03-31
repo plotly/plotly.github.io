@@ -1,15 +1,12 @@
 ---
-title: Getting to Know The Plotly Modebar
-date: 2015-09-01 00:00:00 Z
-permalink: "/getting-to-know-the-plotly-modebar/"
-tags:
-- plotlybasic
 layout: two_column_layout
+title: Getting to Know The Plotly Modebar
 subtitle: A Guide to the Options in the Plotly Modebar
-imageurl: "/static/images/getting-to-know-the-plotly-modebar/icons-thumb.png"
+permalink: /getting-to-know-the-plotly-modebar/
+imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
-meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest
-  way to make and share graphs online.
+tags: plotlybasic
+meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: nil
 ---
 

@@ -1,14 +1,11 @@
 ---
-title: Quadratic fits
-date: 2015-05-12 00:00:00 Z
-permalink: "/quadratic-fits/"
-tags:
-- classroom
 layout: two_column_layout
-imageurl: "/static/images/quadratic-fits/quadratic-regression-with-equation.png"
+title: Quadratic fits
+permalink: /quadratic-fits/
+imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
-meta_description: A tutorial on quadratic regression. Make graphs online and for free
-  with Plotly
+tags: classroom
+meta_description: A tutorial on quadratic regression. Make graphs online and for free with Plotly
 actioncall: make a chart
 ---
 

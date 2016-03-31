@@ -1,15 +1,12 @@
 ---
-title: Print Free Graph Paper Online
-date: 2015-04-23 00:00:00 Z
-permalink: "/print-free-graph-paper/"
-tags:
-- classroom
 layout: two_column_layout
-subtitle: 
-imageurl: "/static/images/print-free-graph-paper/thum-print-free-graph-paper.png"
+title: Print Free Graph Paper Online
+subtitle:
+permalink: /print-free-graph-paper/
+imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
-meta_description: Free PDF download of printable graph paper, available in different
-  formats and sizes.
+tags: classroom
+meta_description: Free PDF download of printable graph paper, available in different formats and sizes.
 ---
 
 # Print Free Graph Paper Online

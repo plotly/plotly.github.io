@@ -1,16 +1,12 @@
 ---
-title: LaTeX Basics with Plotly
-date: 2015-05-11 00:00:00 Z
-permalink: "/LaTeX-basics/"
-tags:
-- textandlinks
 layout: two_column_layout
+title: LaTeX Basics with Plotly
 subtitle: A Step by Step Guide to LaTeX Basics with Plotly
-imageurl: "/static/images/LaTeX-basics/thum-LaTeX-basics.png"
+permalink: /LaTeX-basics/
+imageurl: /static/images/LaTeX-basics/thum-LaTeX-basics.png
 state: active
-meta_description: How to add scientific equations and mathematical symbols to your
-  graph with LaTeX. Plotly is the easiest way to make and share graphs, online and
-  for free.
+tags: textandlinks
+meta_description: How to add scientific equations and mathematical symbols to your graph with LaTeX. Plotly is the easiest way to make and share graphs, online and for free.
 actioncall: make a chart
 ---
 

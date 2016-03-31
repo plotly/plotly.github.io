@@ -1,15 +1,12 @@
 ---
-title: Mean, Median, Variance and Standard Deviation
-date: 2015-04-23 00:00:00 Z
-permalink: "/basic-statistics-mean-median-standard-deviation/"
-tags:
-- classroom
 layout: two_column_layout
+title: Mean, Median, Variance and Standard Deviation
 subtitle: Basic Statistics
-imageurl: "/static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png"
+permalink: /basic-statistics-mean-median-standard-deviation/
+imageurl: /static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png
 state: active
-meta_description: Calculate and analyze basic statistics like the mean, median, variance
-  and standard deviation online and for free with Plotly.
+tags: classroom
+meta_description: Calculate and analyze basic statistics like the mean, median, variance and standard deviation online and for free with Plotly.
 actioncall: Make a graph
 ---
 
