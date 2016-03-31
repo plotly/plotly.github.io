@@ -1,16 +1,12 @@
 ---
-title: Dates, Time Series and Timestamp Format in Plotly
-date: 2015-04-24 00:00:00 Z
-permalink: "/date-format-and-time-series/"
-tags:
-- textandlinks
-- basic
 layout: two_column_layout
+title: Dates, Time Series and Timestamp Format in Plotly
 subtitle: Dates and Times in Plotly
-imageurl: "/static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png"
+permalink: /date-format-and-time-series/
+imageurl: /static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
 state: active
-meta_description: Learn how to use dates, time series, and timestamp formats with
-  Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
+tags: textandlinks basic
+meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart
 ---
 

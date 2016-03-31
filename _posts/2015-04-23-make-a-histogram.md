@@ -1,15 +1,12 @@
 ---
-title: Make a Histogram
-date: 2015-04-23 00:00:00 Z
-permalink: "/make-a-histogram/"
-tags:
-- statistical
 layout: two_column_layout
+title: Make a Histogram
 subtitle: A Step by Step Guide to Making a Histogram
-imageurl: "/static/images/make-a-histogram/thum-make-a-histogram.png"
+permalink: /make-a-histogram/
+imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
-meta_description: A tutorial on how to make a histogram online. Plotly is the easiest
-  and fastest way to make and share graphs online.
+tags: statistical
+meta_description: A tutorial on how to make a histogram online. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
 actioncall: Make a Histogram
 ---

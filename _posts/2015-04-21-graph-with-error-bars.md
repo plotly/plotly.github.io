@@ -1,15 +1,12 @@
 ---
-title: Make a Graph with Error Bars
-date: 2015-04-21 00:00:00 Z
-permalink: "/make-a-graph-with-error-bars/"
-tags:
-- statistical
 layout: two_column_layout
+title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
-imageurl: "/static/images/graph-with-error-bars/thum-graph-with-error-bars.png"
+permalink: /make-a-graph-with-error-bars/
+imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
-meta_description: A tutorial on how to make a graph with error bars online. Plotly
-  is the easiest and fastest way to make and share graphs online.
+tags: statistical
+meta_description: A tutorial on how to make a graph with error bars online. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
 actioncall: Make a Graph with Error Bars
 ---

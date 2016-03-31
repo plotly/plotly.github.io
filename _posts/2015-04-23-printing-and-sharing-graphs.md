@@ -1,16 +1,12 @@
 ---
-title: Printing and Sharing Graphs
-date: 2015-04-23 00:00:00 Z
-permalink: "/how-to-share-and-print-plotly-graphs/"
-tags:
-- plotlybasic
 layout: two_column_layout
+title: Printing and Sharing Graphs
 subtitle: How to Print and Share Graphs
-imageurl: "/static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png"
+permalink: /how-to-share-and-print-plotly-graphs/
+imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
-meta_description: Beautiful and publication ready graphs are easy to make, share,
-  and print with Plotly. A step-by-step tutorial of how to save, download, and share
-  Plotly graphs.
+tags: plotlybasic
+meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Plotly. A step-by-step tutorial of how to save, download, and share Plotly graphs.
 actioncall: Make a Graph
 ---
 

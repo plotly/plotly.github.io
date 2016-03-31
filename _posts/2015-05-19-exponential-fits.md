@@ -1,16 +1,11 @@
 ---
-title: Exponential fits
-date: 2015-05-19 00:00:00 Z
-permalink: "/exponential-fits/"
-tags:
-- classroom
-- basic
 layout: two_column_layout
-imageurl: "/static/images/exponential-fits/fourth-order-polynomial-fit"
+title: Exponential fits
+permalink: /exponential-fits/
+imageurl: /static/images/exponential-fits/fourth-order-polynomial-fit
 state: inactive
-meta_description: Learn how to easily fit data with exponential functions using our
-  free online regression calculator. Plotly is the best online tool for graphing and
-  analyzing data.
+tags: classroom basic
+meta_description: Learn how to easily fit data with exponential functions using our free online regression calculator. Plotly is the best online tool for graphing and analyzing data.
 actioncall: Make a chart
 ---
 

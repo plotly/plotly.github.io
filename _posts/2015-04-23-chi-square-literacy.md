@@ -1,13 +1,11 @@
 ---
-title: Intro to the chi-square test
-date: 2015-04-23 00:00:00 Z
-permalink: "/chi-square/"
-tags:
-- dataliteracy
 layout: new_layout
+title: Intro to the chi-square test
 subtitle: Understanding when to use a chi square test
-imageurl: "/static/images/chi-square/thum-chi-square.png"
+permalink: /chi-square/
+imageurl: /static/images/chi-square/thum-chi-square.png
 state: inactive
+tags: dataliteracy
 meta_description: What is a chi-square-test? Understanding when and where to use one.
 actioncall: Make a Graph
 ---

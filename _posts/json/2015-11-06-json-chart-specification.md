@@ -1,13 +1,11 @@
 ---
-title: Plotly JSON chart schema
-date: 2015-11-06 00:00:00 Z
-permalink: "/json-chart-schema/"
 layout: new_layout
+title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
-imageurl: "/static/images/box-plot/box-plot-thumbnail.png"
+permalink: /json-chart-schema/
+imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
-meta_description: The Plotly JSON chart schema is the complete, human-readable text
-  format that describes all physical attributes of any scientific chart.
+meta_description: The Plotly JSON chart schema is the complete, human-readable text format that describes all physical attributes of any scientific chart.
 popularity: frontpage
 ---
 

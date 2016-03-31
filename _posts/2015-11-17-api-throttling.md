@@ -1,8 +1,7 @@
 ---
-title: Plotly API rate limits
-date: 2015-11-17 00:00:00 Z
-permalink: "/api-rate-limits/"
 layout: two_column_layout
+title: Plotly API rate limits
+permalink: /api-rate-limits/
 state: active
 meta_description: Details on Plotly API rate limits and throttling.
 ---

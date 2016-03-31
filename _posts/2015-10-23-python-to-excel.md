@@ -1,15 +1,12 @@
 ---
-title: Python to Excel
-date: 2015-10-23 00:00:00 Z
-permalink: "/excel/python-to-excel/"
-tags:
-- excel
 layout: two_column_layout
+title: Python to Excel
 subtitle: Exporting Python charts to Excel
-imageurl: "/images/python-to-excel.jpg"
+permalink: /excel/python-to-excel/
+imageurl: /images/python-to-excel.jpg
 state: active
-meta_description: Export Python charts and data to Excel. Easily share charts and
-  data between Python and Excel users.
+tags: excel
+meta_description: Export Python charts and data to Excel. Easily share charts and data between Python and Excel users.
 actioncall: Make a chart
 ---
 

@@ -1,15 +1,12 @@
 ---
-title: Color Points of a Scatter Plot by a Third Column
-date: 2015-05-20 00:00:00 Z
-permalink: "/color-points-of-a-scatter-plot-by-third-column/"
-tags:
-- basic
 layout: two_column_layout
+title: Color Points of a Scatter Plot by a Third Column
 subtitle: A Step by Step Guide to Color Points of a Scatter Plot by a Third Column
-imageurl: "/static/images/color-points-of-a-scatter-plot-by-third-column/colored-scatter.png"
+permalink: /color-points-of-a-scatter-plot-by-third-column/
+imageurl: /static/images/color-points-of-a-scatter-plot-by-third-column/colored-scatter.png
 state: active
-meta_description: Color points of a scatter plot by groups defined in a column of
-  your data. Use Plotly to make interactive graphs for free, online.
+tags: basic
+meta_description: Color points of a scatter plot by groups defined in a column of your data. Use Plotly to make interactive graphs for free, online.
 actioncall: make a scatter plot
 ---
 

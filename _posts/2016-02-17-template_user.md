@@ -1,15 +1,12 @@
 ---
-title: Create a Chart from a Template
-date: 2016-02-17 00:00:00 Z
-permalink: "/template/"
-tags:
-- plotlybasic
 layout: two_column_layout
+title: Create a Chart from a Template
 subtitle: How to create multiple Plotly graphs with different data from a template.
-imageurl: "/static/images/template/template-thumbnail.jpg"
+permalink: /template/
+imageurl: /static/images/template/template-thumbnail.jpg
 state: active
-meta_description: A tutorial on how to create multiple Plotly graphs with different
-  data from a single template. Plotly is the easiest way to graph and share your data.
+tags: plotlybasic
+meta_description: A tutorial on how to create multiple Plotly graphs with different data from a single template. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---
 
