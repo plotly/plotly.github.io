@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Quadratic fits
 permalink: /quadratic-fits/
 imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Plotly API rate limits
 permalink: /api-rate-limits/
 state: active

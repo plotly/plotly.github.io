@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: How to Enter Data in the Grid
 subtitle: A Step by Step Guide to Entering Data in the Grid
 permalink: /add-data-to-the-plotly-grid/

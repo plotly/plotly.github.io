@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Links, Text, and HTML in Graphs
 subtitle: How to insert link, text and HTML in graphs
 permalink: /adding-HTML-and-links-to-charts/

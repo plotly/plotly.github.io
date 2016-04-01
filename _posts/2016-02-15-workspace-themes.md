@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Workspace Themes
 subtitle: How to add themes to your Plotly graphs
 permalink: /themes/

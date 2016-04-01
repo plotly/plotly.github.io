@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Dates, Time Series and Timestamp Format in Plotly
 subtitle: Dates and Times in Plotly
 permalink: /date-format-and-time-series/

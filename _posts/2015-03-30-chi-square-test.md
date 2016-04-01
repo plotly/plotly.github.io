@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Chi-Square Test
 subtitle: A Step by Step Guide to the Chi-Square Test
 permalink: /chi-square-test/

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a Line of Best Fit
 subtitle: How to make a line of best fit
 permalink: /make-a-line-of-best-fit/

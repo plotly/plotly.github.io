@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Print Free Graph Paper Online
 subtitle:
 permalink: /print-free-graph-paper/

@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Zoom, Pan, and Hover Controls in Plotly Graphs
 subtitle: Zoom, Pan, and Hover Controls in Three Short Videos
 permalink: /zoom-pan-hover-controls/

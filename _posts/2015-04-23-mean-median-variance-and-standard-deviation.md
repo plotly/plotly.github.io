@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Mean, Median, Variance and Standard Deviation
 subtitle: Basic Statistics
 permalink: /basic-statistics-mean-median-standard-deviation/

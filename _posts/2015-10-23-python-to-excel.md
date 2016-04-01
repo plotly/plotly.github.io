@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Python to Excel
 subtitle: Exporting Python charts to Excel
 permalink: /excel/python-to-excel/

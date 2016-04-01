@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
 permalink: /json-chart-schema/

@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: How to sign up to Plotly
 subtitle: A guide to signing up to Plotly
 permalink: /how-to-sign-up-to-plotly/

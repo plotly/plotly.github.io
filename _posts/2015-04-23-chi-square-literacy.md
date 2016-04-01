@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Intro to the chi-square test
 subtitle: Understanding when to use a chi square test
 permalink: /chi-square/

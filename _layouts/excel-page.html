@@ -1,357 +1,516 @@
 ---
-title: Plotly Excel
+title: Plotly Excel Tutorials
 ---
+
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
     <!-- META TAGS -->
     {% include seo.html %}
-
+    <!--hello-->
     <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css" />
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700"
+          rel="stylesheet" type="text/css"/>
 
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="{{site.stylesheet}}">
 
-    <!-- Important Owl stylesheet -->
-    <link rel="stylesheet" href="/stylesheets/owl.carousel.css">
-    <!-- Default Theme -->
-    <link rel="stylesheet" href="/stylesheets/owl.theme.css">
-    <script src="/javascripts/jquery.min.js"></script>
-    <script src="/javascripts/smooth-scroll.min.js"></script>
 
-    <!--[if IE]>
-      <style>
-        .excel-logo{
-          bottom: 80%;
+    <!--[if IE]-->
+    <style>
+        .excel-logo {
+            bottom: 80%;
         }
-      </style>
+    </style>
     <!--[end if]-->
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target=".watch" style="position:relative;">
+
+<!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
 
-    {% include new_header.html %}
+<!-- Navigation -->
+{% include _new/_page-components/_header-main.html %}
 
-    <body>
+<section class="--breadcrumb-container">
+    <div class="--wrap">
+        <a href="#" class="toggle-sidebar">
+            <div class="icon">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="#000000" d="M5,13L9,17L7.6,18.42L1.18,12L7.6,5.58L9,7L5,11H21V13H5M21,6V8H11V6H21M21,16V18H11V16H21Z" />
+                </svg>
+            </div>
+            <span class="show">Show Sidebar</span>
+            <span class="hide">Hide Sidebar</span>
 
-    <div class="help">
-          <div class="header">
-                <div class="container">
-                    <div class="icon">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 33.3" style="enable-background:new 0 0 38 33.3;" xml:space="preserve">
-                            <path class="st0" d="M28.4,17.9c-1.2,0-2.4,0-3.6,0c0-0.6,0-1.2,0-1.8c1.2,0,2.4,0,3.6,0C28.4,16.7,28.4,17.3,28.4,17.9z M28.4,19
-  c-1.2,0-2.4,0-3.6,0c0,0.6,0,1.2,0,1.8c1.2,0,2.4,0,3.6,0C28.4,20.2,28.4,19.6,28.4,19z M28.4,13.3c-1.2,0-2.4,0-3.6,0
-  c0,0.6,0,1.2,0,1.8c1.2,0,2.4,0,3.6,0C28.4,14.5,28.4,13.9,28.4,13.3z M28.4,10.5c-1.2,0-2.4,0-3.6,0c0,0.6,0,1.2,0,1.8
-  c1.2,0,2.4,0,3.6,0C28.4,11.7,28.4,11.1,28.4,10.5z M30.9,25.3c-0.1,0.5-0.7,0.5-1.2,0.6c-2.6,0-5.3,0-7.9,0c0,0.8,0,1.5,0,2.3h-1.6
-  c-3.9-0.7-7.8-1.4-11.7-2c0-6,0-11.9,0-17.9c3.9-0.7,7.8-1.4,11.8-2h1.5c0,0.7,0,1.4,0,2c2.6,0,5.1,0,7.7,0c0.4,0,0.9,0,1.3,0.2
-  C31,8.8,31,9.3,31,9.7c0,4.4,0,8.9,0,13.3C31,23.8,31.1,24.6,30.9,25.3z M17.9,21.3c-0.7-1.4-1.4-2.9-2.1-4.3
-  c0.7-1.4,1.4-2.8,2.1-4.2c-0.6,0-1.2,0.1-1.7,0.1c-0.4,1.1-0.9,2.1-1.3,3.2c-0.3-1-0.7-2-1.1-3c-0.6,0-1.1,0.1-1.7,0.1
-  c0.6,1.3,1.2,2.6,1.8,3.9c-0.7,1.3-1.3,2.6-2,3.9c0.6,0,1.1,0,1.7,0.1c0.4-1,0.9-2,1.2-3c0.3,1.1,0.8,2.1,1.3,3.2
-  C16.6,21.2,17.3,21.3,17.9,21.3z M30.2,9c-2.8,0-5.6,0-8.4,0c0,0.5,0,1,0,1.5c0.7,0,1.4,0,2,0c0,0.6,0,1.2,0,1.8c-0.7,0-1.4,0-2,0
-  c0,0.3,0,0.7,0,1c0.7,0,1.4,0,2,0c0,0.6,0,1.2,0,1.8c-0.7,0-1.4,0-2,0c0,0.3,0,0.7,0,1c0.7,0,1.4,0,2,0c0,0.6,0,1.2,0,1.8
-  c-0.7,0-1.4,0-2,0c0,0.3,0,0.7,0,1c0.7,0,1.4,0,2,0c0,0.6,0,1.2,0,1.8c-0.7,0-1.4,0-2,0c0,0.3,0,0.7,0,1c0.7,0,1.4,0,2,0
-  c0,0.6,0,1.2,0,1.8c-0.7,0-1.4,0-2,0c0,0.5,0,1,0,1.5c2.8,0,5.6,0,8.4,0C30.2,19.7,30.2,14.4,30.2,9z M28.4,21.8c-1.2,0-2.4,0-3.6,0
-  c0,0.6,0,1.2,0,1.8c1.2,0,2.4,0,3.6,0C28.4,23,28.4,22.4,28.4,21.8z" />
+        </a>
+        <ul class="--breadcrumb-list">
+            <li class="--breadcrumb-item">
+                <div class="icon">
+                    <svg style="width:24px;height:24px" viewbox="0 0 24 24">
+                        <path fill="#000000" d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"></path>
+                    </svg>
+                </div><a href="/"><span>Help</span></a>
+            </li>
+            <li class="--breadcrumb-item --current"><span>Excel Tutorials</span></li>
+        </ul>
+        <div class="--fork"><a href="#">
+            <div class="icon">
+                <svg style="width:24px;height:24px" viewbox="0 0 24 24">
+                    <path fill="#000000" d="M2.6,10.59L8.38,4.8L10.07,6.5C9.83,7.35 10.22,8.28 11,8.73V14.27C10.4,14.61 10,15.26 10,16A2,2 0 0,0 12,18A2,2 0 0,0 14,16C14,15.26 13.6,14.61 13,14.27V9.41L15.07,11.5C15,11.65 15,11.82 15,12A2,2 0 0,0 17,14A2,2 0 0,0 19,12A2,2 0 0,0 17,10C16.82,10 16.65,10 16.5,10.07L13.93,7.5C14.19,6.57 13.71,5.55 12.78,5.16C12.35,5 11.9,4.96 11.5,5.07L9.8,3.38L10.59,2.6C11.37,1.81 12.63,1.81 13.41,2.6L21.4,10.59C22.19,11.37 22.19,12.63 21.4,13.41L13.41,21.4C12.63,22.19 11.37,22.19 10.59,21.4L2.6,13.41C1.81,12.63 1.81,11.37 2.6,10.59Z"></path>
+                </svg>
+            </div><span>Fork on Github</span></a></div>
+    </div>
+</section>
+<main class="--page --index">
+    <div class="--wrap">
+        <!-- aside - Main Sidebar-->
+        <aside class="--sidebar-container">
+            <div class="--sidebar-fixed reference affix" data-spy="affix" data-offset-bottom="610" id="where">
+                <header class="--sidebar-header">{{page.title}}</header>
+                <nav class="--sidebar-body watch"   id="where">
+                    <ul class="--sidebar-list">
+                        <li class="--sidebar-item">
+                            <a href="#plotlybasic" class="button no_underline">plot.ly basics</a>
+
+                        </li>
+                        <li class="--sidebar-item">
+                            <a href="#basic" class="button no_underline">Basic charts</a>
+
+                        </li>
+                        <li class="--sidebar-item">
+                            <a href="#graph3d" class="button no_underline">3d charts</a>
+
+                        </li>
+                        <li class="--sidebar-item">
+                            <a href="#textandlinks" class="button no_underline">Text & Latex</a>
+
+                        </li>
+                        <li class="--sidebar-item">
+                            <a href="#classroom" class="button no_underline">Classroom</a>
+
+                        </li>
+                        <li class="--sidebar-item">
+                            <a href="#excel" class="button no_underline">Plotly with Excel</a>
+
+                        </li>
+                    </ul>
+                    <button class="--btn search">
+                        <div class="icon">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                            </svg>
+                        </div>
+                        <span><a href="/search/">Search Tutorials</a></span>
+                    </button>
+                    <button class="--btn back">
+                        <div class="icon">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                      d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z"/>
+                            </svg>
+                        </div>                        <span><a href="/">Back to Plotly Help Center</a></span>
+                    </button>
+                </nav>
+            </div>
+        </aside>
+        <!-- Main-->
+        <section class="--page-body --tutorial-index">
+            <header class="--welcome">
+                <div class="--welcome-body">
+                    <!--div.--wrap-inner-->
+                    <div class="--title">
+                        <div class="--category-img"><img src="//plot.ineffable.co/images/excel-logo.png"
+                                                         alt=""></div>
+                        <div class="--body">
+                            <h1>{{page.title}}</h1>
+                            <p>{{page.description}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            {% for page in site.posts %}
+            {% if page.state == 'active' %}
+            {% if page.section == "BasicCharts" %}
+            {% assign basic_chart = true %}
+            {% elsif page.section == "Maps" %}
+            {% assign map_chart = true %}
+            {% elsif page.section == "Statistical" %}
+            {% assign statistical = true %}
+            {% elsif page.section == "Scientific" %}
+            {% assign scientific = true %}
+            {% elsif page.section == "Layouts" %}
+            {% assign layout_chart = true %}
+            {% elsif page.section == "Dashboards" %}
+            {% assign dashboards = true %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+
+            {% if basic_chart %}
+            <!-- Start Plotly Basics Section -->
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#basic-charts" name="basic-charts" id="basic-charts">Basic Charts</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
                         </svg>
                     </div>
-                    <h3>Excel Tutorials</h3>
-                </div>
-            </div>
-        <div class="content">
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.section == 'BasicCharts' and page.state == 'active' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-            <!-- <div class="container"> -->
+                        </li>
 
-{% include aside-sections.html %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            {% endif %}
 
-<main class="grid-content">
-<div class="grid">
+            {% if statistical %}
 
-  {% for page in site.posts %}
-      {% if page.state == 'active' %}
-          {% if page.section == "BasicCharts" %}
-              {% assign basic_chart = true %}
-          {% elsif page.section == "Maps" %}
-              {% assign map_chart = true %}
-          {% elsif page.section == "Statistical" %}
-              {% assign statistical = true %}
-          {% elsif page.section == "Scientific" %}
-              {% assign scientific = true %}
-          {% elsif page.section == "Layouts" %}
-              {% assign layout_chart = true %}
-          {% elsif page.section == "Dashboards" %}
-              {% assign dashboards = true %}
-          {% endif %}
-      {% endif %}
-  {% endfor %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#statistical" name="statistical" id="statistical">Statistical</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.section == 'Statistical' and page.state == 'active' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-{% if basic_chart %}
-  <section id="basic-charts">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Basic Charts</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'BasicCharts' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-color: #fff;">
-              </div>
-                {% endif %}
+                        </li>
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            {% endif %}
 
-{% if statistical %}
-  <section id="statistical">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Statistical</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'Statistical' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-color: #fff;">
-              </div>
-                {% endif %}
+            {% if scientific %}
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#scientific" name="scientific" id="scientific">Scientific</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.state == 'active' and page.tags contains 'graph3d' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-{% if scientific %}
-  <section id="scientific">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Scientific</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'Scientific' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-color: #fff;">
-              </div>
-                {% endif %}
+                        </li>
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
 
-{% if map_chart %}
-  <section id="maps">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Maps</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'Maps' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center;background-color: #fff;">
-              </div>
-                {% endif %}
+            {% endif %}
+            {% if map_chart %}
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#maps" name="maps" id="maps">Maps</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.section == 'Maps' and page.state == 'active' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-{% if 3d_chart %}
-  <section id="3d-charts">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">3D Charts</h3>
-      {% for page in site.posts %}
-        {% if page.section == '3D Charts' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center;background-color: #fff;">
-              </div>
-                {% endif %}
+                        </li>
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            {% endif %}
 
-{% if layout_chart %}
-  <section id="multiple-axes-subplots-and-insets">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Multiple Axes</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'Layouts' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center; background-color: #fff;">
-              </div>
-                {% endif %}
+            {% if 3d_chart %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#3d-charts" name="3d-charts" id="3d-charts">3D Charts</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.tags contains 'classroom' or page.tags contains 'dataliteracy' or page.tags contains 'videos' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+                        </li>
 
-{% if dashboards %}
-  <section id="dashboards">
-    <h3 style="text-transform: uppercase; font-size: 1.25rem; letter-spacing: 2px;">Dashboards</h3>
-      {% for page in site.posts %}
-        {% if page.section == 'Dashboards' and page.state == 'active' %}
-          <div class="item">
-              <div class="meta">
-                  <a href="http://help.plot.ly{{page.permalink}}">View Tutorial</a>
-              </div>
-               {% if page.imageurl == "" or page.imageurl == nil %}
-               <div class="img" style="background: url(images/default.png) no-repeat center center; background-color: #fff;">
-              </div>
-                  <!-- <img src="/images/default.png" alt="Tutorial" /> -->
-                {% else %}
-              <div class="img" style="background: url({{page.imageurl}}) no-repeat center center;background-color: #fff;">
-              </div>
-                {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            {% endif %}
 
-              <div class="title">
-                  <a href="http://help.plot.ly{{page.permalink}}">{{page.title}} </a>
-              </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-  </section>
-{% endif %}
+            {% if layout_chart %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#multiple-axes-subplots-and-insets"  ref="multiple-axes-subplots-and-insets" name="multiple-axes-subplots-and-insets" id="multiple-axes-subplots-and-insets">Multiple Axes: Subplots and Insets</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.section == 'Layouts' and page.state == 'active' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
 
-</div>
-{% include help-box.html %}
+                        </li>
+
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            <!--End Plotly Basics Section-->
+            {% endif %}
+
+            {% if dashboards %}
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#dashboards"
+                                                    name="dashboards"
+                                                    id="dashboards">Dashboards</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in site.posts %}
+                        {% if page.section == 'Dashboards' and page.state == 'active' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                         <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% else %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
+
+                        </li>
+
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            {% endif %}
+
+        </section>
+    </div>
 
 </main>
-<div class="clear"></div>
-</div>
-<div class="clear"></div>
-</div>
-{% include new_footer.html %}
+{% include help-box.html %}
 
 
-    <!-- Load More Buttons -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="/javascripts/loadmore.js"></script>
-    <script src="/javascripts/explorelist.js"></script>
-    <script>
-    /**
-     * This part handles the highlighting functionality.
-     * We use the scroll functionality again, some array creation and
-     * manipulation, class adding and class removing, and conditional testing
-     */
-    var aChildren = $(".sidebar .wrap ul li").children(); // find the a children of the list items
-    var aArray = []; // create the empty aArray
-    for (var i = 0; i < aChildren.length; i++) {
-        var aChild = aChildren[i];
-        var ahref = $(aChild).attr('href');
-        aArray.push(ahref);
-    } // this for loop fills the aArray with attribute href values
-    var newArray = $.map(aArray, function(v) {
-        return v === "" ? null : v;
+{% include _new/_page-components/_footer-main.html %}
+
+<script>
+    var array = [];
+
+
+    $('header.--section-header a').each(function (i, e) {
+        array.push($(e).text());
     });
-    console.log(newArray);
-    $(window).scroll(function() {
-        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-        var windowHeight = $(window).height(); // get the height of the window
-        var docHeight = $(document).height();
-        for (var i = 0; i < newArray.length; i++) {
-            var theID = newArray[i];
-            var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-            var divHeight = $(theID).height(); // get the height of the div in question
-            if (windowPos >= (divPos - 180) && windowPos < ((divPos - 180) + divHeight)) {
-                $("a[href='" + theID + "']").closest('li').addClass("active");
-            } else {
-                $("a[href='" + theID + "']").closest('li').removeClass("active");
-            }
-        }
-        if (windowPos + windowHeight == docHeight) {
-            if (!$("aside li:last-child a").closest('li').hasClass("active")) {
-                var navActiveCurrent = $(".active").closest('a').attr("href");
-                $("a[href='" + navActiveCurrent + "']").closest('li').removeClass("active");
-                $("aside li:last-child a").closest('li').addClass("active");
-            }
-        }
-    });
-    $(function() {
-        var $item = $('.item');
-        $item.hover(function() {
-            $(this).find('.img').addClass("hover");
-        }, function() {
-            $(this).find('.img').removeClass("hover");
+
+    $('*').not('p').prev('p').addClass('last');
+
+
+    $(".--sidebar-list").html(array.map(function(value) {
+        var hash = value.replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').toLowerCase();
+        return('<li class="--sidebar-item"><a href="#' + hash + '">' + value + '</a></li>');
+    }).join(""));
+    $("a[href^='#']").on('click', function(event) {
+        var target;
+        target = this.hash;
+
+        event.preventDefault();
+
+        var navOffset;
+        navOffset = 148;
+
+        return $('html, body').animate({
+            scrollTop: $(this.hash).offset().top - 148
+        }, 300, function() {
+            return window.history.pushState(null, null, target);
         });
     });
-    </script>
-        <script src="/javascripts/owl.carousel.min.js"></script>
-    {% include scripts-index.html %}
-   </body>
-
-<script type="text/javascript">
-   mixpanel.track("Excel Page visited", {
-       "Origin": visit_origin
-   });
 </script>
-
+</body>
 
 </html>

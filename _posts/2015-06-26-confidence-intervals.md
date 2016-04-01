@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to Making a Heat Map
 permalink: /continuous-filled-error-bars/

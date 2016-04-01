@@ -1,5 +1,5 @@
 ---
-layout: new_layout
+layout: single
 title: Video - Linear Regression or Lines of Best Fit
 subtitle: How to create a line of best fit
 permalink: /lines-of-best-fit-video/

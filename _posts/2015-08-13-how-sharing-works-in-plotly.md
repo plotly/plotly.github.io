@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: How Sharing Works In Plotly
 subtitle: How sharing works for plotly grids, plots and folders
 permalink: /how-sharing-works-in-plotly/

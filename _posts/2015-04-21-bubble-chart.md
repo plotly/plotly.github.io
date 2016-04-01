@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Make a Bubble Chart
 subtitle: A Step by Step Guide to Bubble Charts
 permalink: /make-a-bubble-chart/

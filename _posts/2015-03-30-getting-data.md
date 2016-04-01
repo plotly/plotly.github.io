@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Getting data
 permalink: /getting-data/
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png

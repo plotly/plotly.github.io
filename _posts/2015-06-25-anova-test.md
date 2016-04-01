@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: ANOVA Test
 subtitle: A Step by Step Guide to ANOVA
 permalink: /anova-test/
@@ -88,6 +88,7 @@ $$\text{Variance between the groups} =\frac{10 \times (100.20-117.77)^2 + 10 \ti
 For the denominator of the test statistic we take the squared difference between each individual donation value and the group-level average and divide this by \sum\limits_{g=1}^G(n_g-1):
 
 #### Calculating the denominator of the F-statistic for each individual:
+
 | Sponsor       |Campaign 1     |Campaign 2     |Campaign 3    |
 |:--------:| :-----------: |:-------------:| :-----:|
 |1|$(102-100.2)^2$|$(124-123.5)^2$|$(124-123.5)^2$|

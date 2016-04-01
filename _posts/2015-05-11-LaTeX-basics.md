@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: LaTeX Basics with Plotly
 subtitle: A Step by Step Guide to LaTeX Basics with Plotly
 permalink: /LaTeX-basics/

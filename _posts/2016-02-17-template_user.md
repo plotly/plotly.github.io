@@ -1,5 +1,5 @@
 ---
-layout: two_column_layout
+layout: single
 title: Create a Chart from a Template
 subtitle: How to create multiple Plotly graphs with different data from a template.
 permalink: /template/
