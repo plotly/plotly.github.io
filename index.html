@@ -1,79 +1,159 @@
+---
+title: Plotly Help Center
+---
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
-    <title>Plotly Online Graphing Help</title>
-  </head>
+    <!-- Stytlesheets -->
+    <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="{{site.stylesheet}}">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css"/>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Plotly Help</h1>
-        <h2>Online graphing tutorials</h2>
-        <a href="https://github.com/plotly" class="button"><small>Follow me on</small> GitHub</a>
-      </div>
-    </header>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="/images/plotly-ico.png" type="image/x-icon"/>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
+    <!-- META TAGS -->
+    {% include _new/_page-components/_seo.html %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta name="theme-color" content="#447bdc">
 
-<!-- basic charts -->
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-Basic charts</h3>
-<ul>
-  <li><a href="#">How to create a bar chart</a></li>
-  <li><a href="#">How to create a scatter chart</a></li>
-</ul>
+</head>
 
-<!-- 3d charts -->
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-3d charts</h3>
-<ul>
-  <li><a href="#">How to create a 3d surface plot</a></li>
-  <li><a href="#">How to create a 3d line plot</a></li>
-</ul>
+<body>
+{% include _new/_page-components/_header-main.html %}
 
-<!-- stats tutorials -->
+<main class="page --home">
+    <div class="--wrap-top">
+        <section class="hero">
+            <div class="hero-bg"><img src="//plot.ineffable.co//images/frontend/home-img.jpg" data-depth="0.50" alt=""
+                                      class="layer"></div>
+            <div class="--wrap-inner">
+                <div class="--welcome layer"><span class="meta">Welcome to the</span>
+                    <h1>Plotly Help Center</h1>
+                    <p>
+                        Resources for using the Plotly Web App.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="--documentation-categories">
+            <div class="--wrap category-buttons">
+                <ul>
+                    <li>
+                        <a href="/tutorials/">
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>
-Statistics in Plotly</h3>
-<ul>
-  <li><a href="#">Line of best fit</a></li>
-  <li><a href="#">Chi square test</a></li>
-</ul>
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="//plot.ineffable.co/images/plotly-logo.png" alt="">
+                                </div>
+                                <div class="category-meta">
+                                    <h2>Web Apps</h2>
+                                    <p>Anyone making charts or dashboards online.</p>
+                                </div>
+                            </div>
+                        </a>
 
-      </div>
+                    </li>
+                    <li>
+                        <a href="https://plot.ly/api/">
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="//plot.ineffable.co/images/python-logo.png" alt="">
+                                </div>
+                                <div class="category-meta">
+                                    <h2>API Clients</h2>
+                                    <p>Engineers and data scientists using Python, R, Matlab or Javascript.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/excel/">
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="//plot.ineffable.co/images/excel-logo.png" alt="">
+                                </div>
+                                <div class="category-meta">
+                                    <h2>Plotly & Excel</h2>
+                                    <p>
+                                        Upload Excel sheets to plotly to build best-practice charts, reports and
+                                        dashboards.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="//plot.ly/dashboards/">
+                            <div class="category-wrap">
+                                <div class="category-img"><img src="http://i.imgur.com/jCMx2iC.png" alt=""></div>
+                                <div class="category-meta">
+                                    <h2>Dashboards</h2>
+                                    <p>
+                                        Create static or live-updating dashboards from your Plotly charts
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="category-wrap">
+                                <div class="category-img"><img
+                                        src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt=""></div>
+                                <div class="category-meta">
+                                    <h2>Database Connectors</h2>
+                                    <p>
+                                        Coming soon!
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://community.plot.ly/">
+                            <div class="category-wrap">
+                                <div class="category-img">
+                                    <!--<img src="http://i.imgur.com/jCMx2iC.png" alt="">-->
+                                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                        <path fill="#000000"
+                                              d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"/>
+                                    </svg>
+                                </div>
+                                <div class="category-meta">
+                                    <h2>Community</h2>
+                                    <p>
+                                        Ask questions, get help, and discuss data viz ideas
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
+</main>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-39373211-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+{% include _new/_page-components/_footer-main.html %}
 
-  </body>
+<script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/libraries.min.js"></script>
+<script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/jquery.parallax.js"></script>
+<script>
+    $(document).ready(function () {
+        // jQuery Selections
+        var scene = $('.hero-bg');
+
+// Pretty simple huh?
+        scene.parallax();
+    });
+</script>
+</body>
+
 </html>

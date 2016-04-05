@@ -1,0 +1,7 @@
+_site*
+_site/*
+_site
+
+node_modules
+gulp
+.idea
