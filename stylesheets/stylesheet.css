@@ -494,7 +494,7 @@ header h2 {
 }
 
 #main-content img {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 aside#sidebar {
@@ -589,7 +589,7 @@ hr {
 
 table {
   width: 100%;
-  border: none;
+  border: 1px solid #ebebeb;
 }
 
 th {
@@ -597,14 +597,9 @@ th {
 }
 
 td {
-  font-weight: normal;
-  text-align: left;
-  padding: 20px 0px;
-}
-
-td img{
-  max-width: 440px;
-  height: auto;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid #ebebeb;
 }
 
 form {

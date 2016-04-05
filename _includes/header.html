@@ -1,44 +1,28 @@
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <title>{{ metatags.title|striptags }}</title>
-    <meta name="description" content="{{ metatags.description|striptags }}">
-
-    <!-- Bing tags -->
-    <meta name="msvalidate.01" content="D319859A832F9F1D15A7646E2A42150A"/>
-    <!-- /Bing tags -->
-
-    <!-- Facebook tags -->
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{{ metatags.title|striptags }}"/>
-    <meta property="og:image" content="{{ metatags.image }}">
-    <meta property="og:description" content="{{ metatags.description|striptags }}"/>
-    <meta property="og:url" content="{{ metatags.url }}"/>
-    <meta property="fb:admins" content="1123751525"/>
-    <meta property="fb:admins" content="22418"/>
-    <!--/ Facebook tags -->
-
-    <!-- twitter tags -->
-    <meta name="twitter:card" content="photo"/>
-    <meta name="twitter:title" content="{{ metatags.title|striptags }}"/>
-    <meta name="twitter:image" content="{{ metatags.image }}"/>
-    <meta name="twitter:description" content="{{ metatags.description|striptags }}"/>
-    <meta name="twitter:url" content="{{ metatags.url }}"/>
-    <meta name="twitter:site" content="@plotlygraphs"/>
-    <!--/ twitter tags -->
-
-
-    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>{{page.title}}</title>
-</head>
+    <title>{{title}}</title>
+  </head>
 
+  <body>
+    <header>
+      <div class="inner">
+        <h1>{{title}}</h1>
+        <h2>{{subtitle}}</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">

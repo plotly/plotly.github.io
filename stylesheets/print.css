@@ -50,7 +50,7 @@ body {
 
 a {
   font-weight: bold;
-  color: #447adb;
+  color: #d5000d;
 }
 
 header {
@@ -203,10 +203,16 @@ dl dd {
 }
 
 footer {
-  display: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #aaa;
 }
 
-
+footer a {
+  color: #666;
+}
 
 /* MISC */
 .clearfix:after {
@@ -220,72 +226,3 @@ footer {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
-
-.headerbar, .steps, .breadcrumb, .buttonM, .make .buttonM, .program,
-.button-wrap, .download .buttonM, .hamburger, .headerbar-rightside, .help-box,
-.tutorials-like-this, .embedded-graph, .live-plot, .navigation-bar{
-  display: none;
-}
-
-.img, .wrap p{
-  display: inline-block;
-  width: 45%;
-  margin: 0px;
-}
-
-article{
-  border: none;
-}
-
-.img img{
-  margin: auto;
-}
-
-.img p{
-  width: 100%;
-}
-
-.wrap h2, .wrap h3{
-  display: inline-block;
-}
-
-.wrap h2{
-  width: 20%;
-}
-
-.content main article .img, .content main article p{
-  border: 0px;
-  margin: 0px;
-  vertical-align: top;
-}
-
-.content main article img{
-  box-shadow: none;
-  max-height: 150px;
-}
-
-.content main article{
-  margin: 0px;
-  padding: 0px;
-}
-
-.content main article p{
-  padding: 10px;
-}
-
-@media (max-width: 799px) {
-  .content main article h3{
-    width: 75%;
-    font-size: 21px;
-    line-height: 22px;
-    letter-spacing: -0.05rem;
-    color: #447adb;
-    border-width: 0px;
-    text-align: left;
-  }
-
-  .content h1 {
-    margin: 0px;
-    padding: 20px;
-  }
-}
