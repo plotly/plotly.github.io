@@ -99,7 +99,7 @@ header {
     transition: 0.2s ease-in-out all;
     position: fixed;
     top: 0;
-    z-index: 9999;
+    z-index: 999999;
     border-bottom: $border;
     width: 100%;
     display: flex;
@@ -121,15 +121,10 @@ header {
         display: flex !important;
       }
     }
-
-
   }
 }
     * {
       text-decoration: none !important;
-      //display: none;
-      //font-size: 14px !important;
-
     }
     &.\--white {
       color: white !important;
@@ -142,17 +137,14 @@ header {
 
       }
     }
-
     &.\--default {
       color: $grey !important;
       a:not(.button) {
         &:link, &:visited, &:active {
           color: currentColor !important;
         }
-
       }
       background-color: #fff;
-
     }
     .\--wrap {
       display: flex;

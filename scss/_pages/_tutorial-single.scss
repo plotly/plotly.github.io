@@ -342,14 +342,14 @@ $gray-dark: #626262;
         //margin-bottom:$unit*2;
 
         &::before{
-          content: '';
-          left:$unit*2;
-          top:100%;
-          width: calc(10% - 20px);
-          background: darken(rgb(244, 244, 248), 2%);
-          height:5px;
-          margin-top:-2.5px;
-          position: absolute;
+          //content: '';
+          //left:$unit*2;
+          //top:100%;
+          //width: calc(10% - 20px);
+          //background: darken(rgb(244, 244, 248), 2%);
+          //height:5px;
+          //margin-top:-2.5px;
+          //position: absolute;
         }
         div.icon {
           margin-top: 4px;
