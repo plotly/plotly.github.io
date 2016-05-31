@@ -42,28 +42,26 @@ Embed the **div** in your website or HTML application. | ![Final embedding code]
 
 If you need an iframe, copy and paste the snippet below. You’ll have to replace the URL of our graph with your own.
 
-    <iframe
-      frameborder="0" seamless="seamless" scrolling="no"
-      src="https://plot.ly/~Dreamshot/411.embed">
-    </iframe>
+>  &lt;iframe
+>  frameborder="0" seamless="seamless" scrolling="no"
+>  src="https://plot.ly/~Dreamshot/411.embed">
+>  </iframe>
 
 
 If you are using a secret link with a private key, update the private link to include `.embed` before the `?share_key` term. Here is an example:
 
-    <iframe
-      frameborder="0" seamless="seamless" scrolling="no"
-      src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
-    </iframe>
-
+>&lt;iframe
+>frameborder="0" seamless="seamless" scrolling="no"
+>src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
+></iframe>
 
 You can control the width and the height of the iframe by adding `width` and `height` keywords into the HTML:
 
-
-    <iframe
-      width=750 height=500
-      frameborder="0" seamless="seamless" scrolling="no"
-      src="https://plot.ly/~Dreamshot/411.embed">
-    </iframe>
+>&lt;iframe
+>      width=750 height=500
+>      frameborder="0" seamless="seamless" scrolling="no"
+>      src="https://plot.ly/~Dreamshot/411.embed">
+>    </iframe>
 
 
 The graph will autosize in the iframe container.
