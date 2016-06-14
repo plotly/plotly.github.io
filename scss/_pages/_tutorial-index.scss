@@ -50,7 +50,7 @@
         min-width: 100px;
         min-height: 100px;
         @include handheld {
-          //display: none;
+          display: none;
         }
         img {
           //max-width:60%;
