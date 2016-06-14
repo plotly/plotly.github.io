@@ -4,6 +4,33 @@
 // Smooth Scroll
 
 
+// Mobile Menu toggle
+
+//$('.mobile-menu-btn').on('click', function (e) {
+//    $('header.header-main').toggleClass("mobile-menu");
+//    $('body').toggleClass("no-scroll");
+//});
+
+
+// Copy link to section on page
+
+$('.js--copy-id').on('click', function (e) {
+    var link = $(this).prev('.js--step-anchor');
+    copyAnchor(link);
+    console.log('element: ' + link)
+
+    $(this).attr('data-tooltip', 'Copied!');
+
+});
+
+$(".copy").hover(
+    function () {
+        //$(this).attr('data-tooltip', 'Copied!');
+    },
+    function () {
+        $(this).attr('data-tooltip', 'Click to copy direct link.');
+    }
+);
 
 function copyAnchor(element) {
     var $temp = $("<input>");
@@ -104,34 +131,18 @@ $(document).ready(function () {
     smoothScrollToAnchor( $('a[href*="#"]:not([href="#"])') );
 
 
-    // Mobile Menu toggle
 
-    $('.mobile-menu-btn').on('click', function (e) {
-        $('header.header-main').toggleClass("mobile-menu");
-        $('body').toggleClass("no-scroll");
-    });
-
-
-// Copy link to section on page
-
-
-    $('.js--copy-id').on('click', function (e) {
-        var link = $(this).prev('.js--step-anchor');
-        copyAnchor(link);
-        console.log('element: ' + link)
-
-        $(this).attr('data-tooltip', 'Copied!');
+    $('.toggle-sidebar').on('click', function (e) {
+        $('.--sidebar-container').toggleClass("show");
+        $('.toggle-sidebar').toggleClass("on");
 
     });
 
-    $(".copy").hover(
-        function () {
-            //$(this).attr('data-tooltip', 'Copied!');
-        },
-        function () {
-            $(this).attr('data-tooltip', 'Click to copy direct link.');
-        }
-    );
+    $('.--sidebar-container').not('.toggle-sidebar').on('click', function (e) {
+        $('.--sidebar-container').removeClass("show");
+        $('.toggle-sidebar').removeClass("on");
+        //console.log('clicked');
+    });
 
 
 

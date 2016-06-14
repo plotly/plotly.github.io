@@ -2,6 +2,12 @@
   flex: 1;
 }
 
+
+.\--page.page--single.\--index{
+  overflow-y: hidden;
+  max-width:100%;
+  overflow-x: hidden;
+}
 .\--index {
   margin-top: calc(80px + 48px);
   min-height:calc(100vh - 660px);

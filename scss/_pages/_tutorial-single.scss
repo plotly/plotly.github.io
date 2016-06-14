@@ -466,6 +466,17 @@ border:$border;
         margin:0 $unit*2;
         margin-bottom:$unit*4;
 
+        p{
+          padding:$unit;
+        }
+        @include handheld {
+          padding:0;
+          border:0;
+          p{
+            padding:$unit;
+          }
+        }
+
         img{
           margin:0 auto;
           display: block;
