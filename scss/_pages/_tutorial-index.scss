@@ -11,19 +11,13 @@
 .\--index {
   margin-top: calc(80px + 48px);
   min-height:calc(100vh - 660px);
-
 }
 
 .\--tutorial-index {
-  //border-right: $border;
-  //padding:$unit*2 !important;
   padding-bottom:$unit*2;
-  //max-width:1120px;
   .\--welcome {
-    //border-bottom: $border;
     padding: $unit*4;
     position: relative;
-    //margin-bottom:$unit*2;
 
     &::before{
       content: '';
@@ -35,7 +29,6 @@
       margin-top:-1px;
       position: absolute;
     }
-    //background: lighten(rgb(244, 244, 248), 2%);
     .\--title {
       display: flex;
       align-items: center;

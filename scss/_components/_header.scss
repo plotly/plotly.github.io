@@ -88,7 +88,12 @@ body {
   }
 
 }
-
+.mobile-menu-btn{
+  display: none !important;
+  @include tablet{
+    display: block !important;
+  }
+}
 header {
   .\-identity {
     color: $blue;
@@ -107,6 +112,11 @@ header {
     padding: $unit*2;
     height: 80px;
     &.mobile-menu {
+      &-btn{
+        @include handheld-up{
+          display: none !important;
+        }
+      }
       .\--wrap .\--nav-mobile {
         display: flex;
         position: fixed;
