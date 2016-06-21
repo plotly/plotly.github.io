@@ -13,7 +13,7 @@ var autoprefixer        = require('gulp-autoprefixer');
 // misc
 var plumber             = require('gulp-plumber');
 var browserSync         = require('browser-sync');
-
+var hashsum = require("gulp-hashsum");
 
 // Command line for jekyll
 
@@ -31,16 +31,30 @@ var browserSync         = require('browser-sync');
 
 // Sassy
 
-    gulp.task('sass', function() {
-        gulp.src('scss/**/*.scss')
-            .pipe(sass().on('error', sass.logError))
-            .pipe(autoprefixer({
-                browsers: ['last 15 versions'],
-                cascade: false
-            }))
-            .pipe(gulp.dest('_site/styles'))
-            .pipe(browserSync.stream())
-    });
+gulp.task('sass', function() {
+    gulp.src('scss/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer({
+            browsers: ['last 15 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('_site/styles'))
+        .pipe(browserSync.stream())
+});
+
+// Version Sass
+
+gulp.task('sassVersion', function () {
+    gulp.src('scss/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer({
+            browsers: ['last 15 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('./styles'))
+        .pipe(hashsum({filename: './_data/cache_bust_css.yml', hash: 'md5'}))
+        .pipe(browserSync.stream())
+});
 
 
 // Watch
@@ -63,4 +77,6 @@ gulp.task('bw', ['build', 'sass', 'watch']);
 gulp.task('default', ['sass', 'watch']);
 
 gulp.task('build', ['build']);
+
+gulp.task('buildsass', ['sassVersion']);
 
