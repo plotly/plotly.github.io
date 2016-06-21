@@ -88,7 +88,12 @@ body {
   }
 
 }
-
+.mobile-menu-btn{
+  display: none !important;
+  @include tablet{
+    display: block !important;
+  }
+}
 header {
   .\-identity {
     color: $blue;
@@ -106,23 +111,51 @@ header {
     justify-content: center;
     padding: $unit*2;
     height: 80px;
-&.mobile-menu{
-  .\--wrap .\--nav-mobile{
-    display: flex;
-    opacity:0;
-    @extend .fiud;
-    li:not(.tablet){
-      @include tablet {
-        display: none !important;
-
-
+    &.mobile-menu {
+      &-btn{
+        @include handheld-up{
+          display: none !important;
+        }
       }
-      @include handheld {
-        display: flex !important;
+      .\--wrap .\--nav-mobile {
+        display: flex;
+        position: fixed;
+
+        ul{
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          margin-top:$unit*8;
+        }
+
+        li {
+          padding:0 !important;
+          margin:0 !important;
+          .icon{
+            display: none !important;
+          }
+        a{
+          text-align:left  !important;
+          justify-content: flex-start;
+          padding:$unit*2 $unit*4 !important;
+          font-size:18px !important;
+        }
+        
+        }
+       
+        
+        
+        li:not(.tablet) {
+          @include tablet {
+            display: none !important;
+
+          }
+          @include handheld {
+            display: flex !important;
+          }
+        }
       }
     }
-  }
-}
     * {
       text-decoration: none !important;
     }

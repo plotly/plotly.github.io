@@ -10,6 +10,8 @@ meta_description: A tutorial on reliable data sources including Data.gov. Plotly
 
 # Getting data
 
+header.single-tutorial--header
+
 <div>
     <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="MattSundquist:5821" src="https://plot.ly/embed.js" async></script>
@@ -19,7 +21,6 @@ meta_description: A tutorial on reliable data sources including Data.gov. Plotly
 <br />
 <br />
 
-<p>At Plotly, we like graphs. We bet you do too. But it’s hard to get data for graphs or from graphs. <a href="https://catalog.data.gov/dataset/sweetener-market-data-historical-deliveries-by-use-ice-cream">Data.gov</a>, <a href="http://arohatgi.info/WebPlotDigitizer/">WebPlotDigitizer</a>, <a href="https://www.quandl.com/data/BAVERAGE/USD-USD-BITCOIN-Weighted-Price">Quandl</a>, <a href="https://magic.import.io/?site=http:%2F%2Fwww.ikea.com%2Fus%2Fen%2Fsearch%2F%3Fquery%3Dchair">import.io</a>, and <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Vernier</a> let you export data directly to Plotly's Web App. If you want to partner with us, write to <a href="mailto:feedback@plot.ly">feedback@plot.ly</a>. We also provide <a href="https://plot.ly/export/">technical documentation</a> on setting up an integration.</p>
 
 Keeping track of your data source is important. That's why Plotly automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/data-source-url.png">
 

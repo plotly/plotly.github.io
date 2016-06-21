@@ -28,6 +28,7 @@ similar:
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/380.embed"></iframe>
+live-graph-image:
 
 steps: 
  - title: Upload your Excel data to Plotly's grid
@@ -50,9 +51,7 @@ steps:
 
 
  - title: Finalizing the chart
-
    sub-steps:
-
     - copy: "Your plot should look something like this:"
       img: "![Raw Plot](https://images.plot.ly/excel/3d-surface-plot-with-excel/raw-plot.png)"
 

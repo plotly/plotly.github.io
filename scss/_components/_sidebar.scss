@@ -814,12 +814,17 @@ aside {
     transition: all 0.2s ease-in-out;
     @include handheld {
       background: white !important;
-      margin-left: -220px;
-      position: static;
+      //margin-left: -220px;
+
+      transform: translate3d(-220px,0,0);
+      position: fixed;
+      top:0;
       z-index: 999;
       min-height: 100vh;
       &.show {
-        margin-left: 0;
+       transform:translate3d(0px,0,0);
+        position: fixed;
+
       }
     }
     width: 220px;
@@ -850,6 +855,7 @@ aside {
       overflow-y: auto;
       &.affix {
         top: calc(80px + 48px) !important;
+
         z-index: 1;
         position: fixed !important;
       }

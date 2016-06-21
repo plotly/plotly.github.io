@@ -440,3 +440,102 @@ border:$border;
      max-width:100%;
    }
  }
+
+
+.\--page-body.\--tutorial-index{
+  @include handheld {
+    overflow-x: hidden;
+  }
+}
+.tutorial {
+  &--step {
+    p,
+    p *{
+      font-size:16px !important;
+      line-height:28px !important;
+    }
+    &-header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .step{
+      &--image{
+        background: lighten($lb, 3%);
+        border:$border;
+        margin:0 $unit*2;
+        margin-bottom:$unit*4;
+
+        p{
+          padding:$unit;
+        }
+        @include handheld {
+          padding:0;
+          border:0;
+          p{
+            padding:$unit;
+          }
+        }
+
+        img{
+          margin:0 auto;
+          display: block;
+          border:$border;
+        }
+      }
+
+      &--content{
+        font-size:16px !important;
+      }
+      &--title{
+        display: flex; 
+        align-items: center;
+        padding:$unit*2 0;
+        &-text{
+          padding-right:$unit !important;
+          margin-top:$unit*1 !important;
+          padding-bottom:0 !important;
+          padding-top:0 !important;
+        }
+        div.icon{
+          svg{
+            opacity:0.3;
+          }
+        }
+      }
+    }
+    .step--number {
+      font-size: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      position: relative;
+      @include handheld {
+        align-items: center;
+        justify-content: center;
+      }
+
+      &::before{
+        width: 100%;
+        height:1px;
+        content: '';
+        border-top:$border;
+        position: absolute;
+        top:$unit*2;
+        left:0;
+        z-index:1;
+      }
+      .box {
+        position: relative;
+        z-index:2;
+        padding:$unit $unit*2;
+        background: $blue;
+        color:white;
+      }
+    }
+  }
+}
+
+.live-plot{
+  margin-bottom:$unit*2;
+
+}

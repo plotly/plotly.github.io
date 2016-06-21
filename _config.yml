@@ -5,8 +5,8 @@ gems:
 
 staticurl: https://plot.ly/gh-pages/documentation/static/
 
-stylesheet: https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/web-excel/css/main.css
-#stylesheet: http://help.plot.ly.dev/styles/main.css
+#stylesheet: https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/web-excel/css/main.css
+stylesheet: /styles/main.css
 
 exclude:
   - .sass-cache
