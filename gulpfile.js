@@ -4,7 +4,6 @@
 
 var gulp                = require('gulp');
 var shell               = require('gulp-shell');
-var browserSync         = require('browser-sync').create();
 
 // styles
 var sass                = require('gulp-sass');
@@ -15,9 +14,12 @@ var plumber             = require('gulp-plumber');
 var browserSync         = require('browser-sync');
 var hashsum = require("gulp-hashsum");
 
+var runSequence = require('run-sequence');
+
+
 // Command line for jekyll
 
-    gulp.task('build', shell.task(['jekyll build --watch']));
+    gulp.task('build', shell.task(['jekyll build']));
     //gulp.task('build', shell.task(['bundle exec jekyll build --watch']));
 
 
@@ -44,7 +46,7 @@ gulp.task('sass', function() {
 
 // Version Sass
 
-gulp.task('sassVersion', function () {
+gulp.task('sass_cache', function () {
     gulp.src('scss/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
@@ -76,7 +78,4 @@ gulp.task('bw', ['build', 'sass', 'watch']);
 
 gulp.task('default', ['sass', 'watch']);
 
-gulp.task('build', ['build']);
-
-gulp.task('buildsass', ['sassVersion']);
-
+gulp.task('deploy', runSequence('build', 'sass_cache'));
