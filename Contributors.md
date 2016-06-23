@@ -10,7 +10,7 @@ These are the variables at the top of each post
 - state: `inactive` | `active`
   `active` - it will appear in the table of contents
   `inactive` - it won't appear in the table of contents, but it will appear at the url
-- tags: `basic` | `statistical` | `graph3d` | `textandlinks` | `classroom` | `videos` | `excel`
+- tags: `basic` | `statistical` | `graph3d` | `textandlinks` | `classroom` | `videos` | `excel` | `plotly2`
   Determines which section to place the tutorial in: http://help.plot.ly/tutorials/. This variable is used in [the templates](https://github.com/plotly/plotly.github.io/blob/master/_layouts/tutorials.html#L58)
 
 ## Images
