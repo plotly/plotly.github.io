@@ -6,7 +6,7 @@ permalink: /add-data-to-the-plotly-grid/
 imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
 tags: basic
-section: Plotly Basics
+section: plotlybasic
 meta_description: A tutorial on how to enter data in Plotly 2.0.
 popularity: featured
 carouselimageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
@@ -29,8 +29,7 @@ steps:
     - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
       img: "![Import data main shot](static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
       img: "![Import data second shot](static/images/enter-data-in-the-grid/Import_Data_Second_Shot.png)"
-
-You have the option to drag and drop your file, or select “click to upload”."
+    - copy: "You have the option to drag and drop your file, or select “click to upload”."
       img: "![Upload files](static/images/enter-data-in-the-grid/Upload_Files.png)"
 
 
@@ -44,6 +43,4 @@ You have the option to drag and drop your file, or select “click to upload”.
    sub-steps:
     - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
       img: "![Import with examples](static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
-
-
 ---
