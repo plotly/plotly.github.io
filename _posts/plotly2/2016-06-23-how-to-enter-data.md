@@ -18,13 +18,13 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 live-graph-image:
 
 steps: 
- - title: Option 1: Entering Your Data to the Grid
+ - title: Entering Your Data to the Grid
    sub-steps:
     - copy: "The first step to making any Plotly graph is setting up the data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
     - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content." 
       img: "![Enter data in grid](static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 
- - title: Option 2: Importing Your Data
+ - title: Importing Your Data
    sub-steps:
     - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
       img: "![Import data main shot](static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
@@ -33,13 +33,13 @@ steps:
       img: "![Upload files](static/images/enter-data-in-the-grid/Upload_Files.png)"
 
 
- - title: Option 3: Entering Data by URL
+ - title: Entering Data by URL
    sub-steps:
     - copy: "You can also upload data by entering the URL of an online data set."
       img: "![Enter data by URL](static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
 
 
- - title: Option 4: Import Using our Samples
+ - title: Import Using our Samples
    sub-steps:
     - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
       img: "![Import with examples](static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
