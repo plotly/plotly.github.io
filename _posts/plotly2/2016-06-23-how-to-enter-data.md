@@ -22,7 +22,7 @@ steps:
    sub-steps:
     - copy: "The first step to making any Plotly graph is setting up the data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
     - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content." 
-      img: "![Enter data in grid](static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
+      img: "![Enter data in grid](../static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 
  - title: Option 2 - Importing Your Data
    sub-steps:
