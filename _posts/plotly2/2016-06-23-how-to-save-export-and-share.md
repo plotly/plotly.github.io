@@ -12,7 +12,7 @@ popularity: featured
 carouselimageurl: 
 actioncall: How to Save, Export, and Share in Plotly 2.0
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#static-image-export) or [R](https://plot.ly/r/#static-image-export).
 
 steps: 
  - title: Save your Plot
