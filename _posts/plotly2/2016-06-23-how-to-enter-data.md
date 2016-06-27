@@ -27,20 +27,20 @@ steps:
  - title: Option 2 - Importing Your Data
    sub-steps:
     - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
-      img: "![Import data main shot](static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
-      img: "![Import data second shot](static/images/enter-data-in-the-grid/Import_Data_Second_Shot.png)"
+      img: "![Import data main shot](../static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
+      img: "![Import data second shot](../static/images/enter-data-in-the-grid/Import_Data_Second_Shot.png)"
     - copy: "You have the option to drag and drop your file, or select “click to upload”."
-      img: "![Upload files](static/images/enter-data-in-the-grid/Upload_Files.png)"
+      img: "![Upload files](../static/images/enter-data-in-the-grid/Upload_Files.png)"
 
 
  - title: Option 3 - Entering Data by URL
    sub-steps:
     - copy: "You can also upload data by entering the URL of an online data set."
-      img: "![Enter data by URL](static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
+      img: "![Enter data by URL](../static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
 
 
  - title: Option 4 - Import Using our Samples
    sub-steps:
     - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
-      img: "![Import with examples](static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
+      img: "![Import with examples](../static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
 ---
