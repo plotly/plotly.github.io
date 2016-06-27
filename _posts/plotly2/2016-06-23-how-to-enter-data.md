@@ -12,10 +12,8 @@ popularity: featured
 carouselimageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 actioncall: How to Enter Data in Plotly 2.0
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/) or [R](https://plot.ly/r/getting-started/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/380.embed"></iframe>
-live-graph-image:
 
 steps: 
  - title: Option 1 - Entering Your Data to the Grid
