@@ -28,7 +28,7 @@ steps:
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/create-pie-chart/import-data-main.png)"
-    - copy: "After selecting your 'Pie chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
+    - copy: "After selecting 'Pie chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/create-pie-chart/try-an-example-after.png)"
 
  - title: Create a Chart
