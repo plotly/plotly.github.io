@@ -34,8 +34,8 @@ steps:
  - title: Create a Chart
    sub-steps:
     - copy: "After adding your own data, click on GRAPH on the left-hand side to add your 'Labels' and 'Values' to your pie chart. After selecting ‘Pie chart', you're then presented the labels and values as shown in the figure below to create the plot."
-      img: "![Label main](../plotly.github.io/static/images/create-pie-chart/label-main.png)"
-      img: "![Labels and values](../plotly.github.io/static/images/create-pie-chart/labels-and-values.png)"
+      img: "![Label main](../static/images/create-pie-chart/label-main.png)"
+      img: "![Labels and values](../static/images/create-pie-chart/labels-and-values.png)"
     - copy: "This will create a raw pie chart, as seen below. It may not look perfect right away, but playing around with the style will get it there."
       img: "![Raw chart](../static/images/create-pie-chart/raw-chart-open-slices.png)"
  
