@@ -54,7 +54,7 @@ steps:
     - copy: "If you wish to create a donut chart, you can play around with the % in the HOLE field."
       img: "![Hole](../static/images/create-pie-chart/hole.png)"
 
-  - title: Save and Share
+ - title: Save and Share
    sub-steps:
     - copy: "Click SAVE on the left-hand side, and give your file a name."
       img: "![Save main](../static/images/create-pie-chart/save-main.png)"
