@@ -12,9 +12,9 @@ popularity: featured
 actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 
 steps:
- - title: Download the Plotly Desktop Connector app
+ - title: Download the Plotly Desktop Connector App
    sub-steps:
-    - copy: "[Download](https://github.com/plotly/electron-sql-connector/releases) the app"
+    - copy: "Simply [Download](https://github.com/plotly/electron-sql-connector/releases) the app to get started!"
       img: "![Download App](/static/images/connectors/download-app.png)"
  - title: Launch and Connect
    sub-steps:
@@ -24,9 +24,9 @@ steps:
       img: "![Enter Credentials](/static/images/connectors/enter-credentials.png)"
  - title: Preview Your Data
    sub-steps:
-    - copy: "Preview the data in you database by selecting it from the dropdown menu."
+    - copy: "Select your database from the dropdown menu to preview the data."
       img: "![Select Databse](/static/images/connectors/select-database.png)"
-    - copy: "The top five rows of each table will be displayed -- scroll down to take a look at all of your tables."
+    - copy: "A preview (top five rows) of each table will be displayed -- scroll down to to see all of your tables in your database."
       img: "![Preview Data](/static/images/connectors/preview-data.png)"
  - title: Query Your Data From Plotly 2.0
    sub-steps:
