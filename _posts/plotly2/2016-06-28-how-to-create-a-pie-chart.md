@@ -20,7 +20,7 @@ live-graph-image:
 steps: 
  - title: Format Your Data
    sub-steps:
-    - copy: "Choose your CHART TYPE in the GRAPH section on the left-hand side and select ‘Pie chart’."
+    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Pie chart'."
       img: "![Choose chart main](../static/images/create-pie-chart/choose-chart-main.png)"
       img: "![Chart type pie](../static/images/create-pie-chart/chart-type-pie.png)"
 
@@ -28,14 +28,12 @@ steps:
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/create-pie-chart/import-data-main.png)"
-    - copy: "If you'd like to see a chart sample before adding your own data, hit the 'try an example' button under 'Chart Type'."
-      img: "![Example button](../static/images/create-pie-chart/try-an-example-button.png)"
-    - copy: "This will give you an example of what your chart will look like after you add you data and play with the style."
+    - copy: "After selecting your 'Pie chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll see what labels were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/create-pie-chart/try-an-example-after.png)"
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your LABELS and VALUES to your pie chart. Select the x and y axis as shown in the figure below, and then click on the ‘Pie Chart' button to create the plot."
+    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your 'Labels' and 'Values' to your pie chart. Slick on the ‘Pie chart' dropdown, then select the x and y axis as shown in the figure below to create the plot."
       img: "![Label main](../plotly.github.io/static/images/create-pie-chart/label-main.png)"
       img: "![Labels and values](../plotly.github.io/static/images/create-pie-chart/labels-and-values.png)"
     - copy: "This will create a raw pie chart, as seen below. It may not look perfect right away, but playing around with the style will get it there."
@@ -58,7 +56,7 @@ steps:
    sub-steps:
     - copy: "Click SAVE on the left-hand side, and give your file a name."
       img: "![Save main](../static/images/create-pie-chart/save-main.png)"
-    - copy: "Select your PLOT and DATA as Public or Private."
+    - copy: "Select your PLOT and DATA as 'Public' or 'Private'."
       img: "![Save pop-up](../static/images/create-pie-chart/save-pop-up.png)"
     - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
 ---
