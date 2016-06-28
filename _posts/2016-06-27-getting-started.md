@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Getting Started With Database Connectors
-subtitle: Let's connect your database directly to Plotly 2.0, the best data-visualiztion tool!
+subtitle: Graph data from your SQL database with Plotly 2.0 and the Plotly Database Connector. 
 permalink: /connectors/setup-database-connector/
 imageurl:  /static/images/connectors/connectors-thumbnail.png
 state: active
