@@ -9,6 +9,7 @@ tags: connectorbasics
 section: Basics
 meta_description: A tutorial on how install and quickly get going with the Plotly Desktop Connector. Connect to local or remote database and feed it to Plotly 2.0 using SQL queries.
 popularity: featured
+actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 
 steps:
  - title: Download the Plotly Desktop Connector app
