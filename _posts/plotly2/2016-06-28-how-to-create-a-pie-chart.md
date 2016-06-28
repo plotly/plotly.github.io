@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: How to Make a Pie Chart in Plotly 2.0
 subtitle: Create a circular statistical chart that is divided into slices.
-permalink: /excel/pie-chart/
+permalink: /pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
 tags: basic
