@@ -36,7 +36,7 @@ steps:
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/raw-stacked-chart.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data on the x-axis. We do this by clicking on the 'Trace' button at the top rigth-hand side of that pane."
+    - copy: "For charts that have many values such as this one, we need to add more data on the x-axis. We do this by clicking on the 'Trace' button at the top right-hand side of that pane."
       img: "![Trace open](../static/images/bar-graph/trace-opened.png)"
     - copy: " You can add as many traces as you need, until your plot is complete!"
       img: "![Finished traces](../static/images/bar-graph/finished-traces.png)"
