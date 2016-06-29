@@ -3,13 +3,13 @@ layout: excel-tutorial-single_layout
 title: How to Make a Pie Chart in Plotly 2.0
 subtitle: Create a circular statistical chart that is divided into slices.
 permalink: /pie-chart/
-imageurl: static/images/bar-graph/stacked-imageurl.png
+imageurl: ../static/images/bar-graph/stacked-imageurl.png
 state: active
 tags: basic
 section: Basic Charts
 meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
 popularity: featured
-carouselimageurl: http://i.imgur.com/2OgdHqp.png
+carouselimageurl: ../static/images/bar-graph/stacked-imageurl.png
 actioncall: How to Save, Export, and Share in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/pie-charts/) or [R](https://plot.ly/r/pie-charts/).
