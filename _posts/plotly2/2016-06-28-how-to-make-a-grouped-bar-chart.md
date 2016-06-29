@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: How to Make a Grouped Bar Chart in Plotly 2.0
 subtitle: Create one 
 permalink: /excel/pie-chart/
-imageurl: https://images.plot.ly/excel/grouped-bar-chart/thum-grouped-bar-chart-2.jpg
+imageurl: ../static/images/bar-graph/thum-grouped-bar-chart-2.jpg
 state: active
 tags: basic
 section: Basic Charts
