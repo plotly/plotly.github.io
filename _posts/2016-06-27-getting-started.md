@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Getting Started With Database Connectors
 subtitle: Graph data from your SQL database with Plotly 2.0 and the Plotly Database Connector. 
 permalink: /database-connectors/setup-database-connector/
-imageurl:  /static/images/database-connectors/database-connectors-thumbnail.png
+imageurl:  /static/images/database-connectors/connectors-thumbnail.png
 state: active
 tags: connectorbasics
 section: Basics
