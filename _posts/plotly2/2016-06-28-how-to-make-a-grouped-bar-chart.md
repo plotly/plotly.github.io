@@ -50,7 +50,7 @@ steps:
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
       img: "![Type directly title](../static/images/bar-graph/group-type-directly.png) 
-    - copy: "The same can be done for the axis labels, and legend."
+    - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly legend](../static/images/bar-graph/group-legend-label.png)"
     - copy: "Another option is to visit the 'Traces' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/bar-graph/group-type-in-layout-panel.png)"
