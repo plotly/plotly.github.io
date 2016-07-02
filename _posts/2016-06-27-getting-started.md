@@ -18,10 +18,11 @@ steps:
       img: "![Download App](/static/images/database-connectors/download-app.png)"
  - title: Launch and Connect
    sub-steps:
-    - copy: "Once the download is completed, launch the application! You can now select the database dialect (MySQL, Postgres, etc) from the options as outlined in this image."
-      img: "![Select Dialect](/static/images/database-connectors/select-dialect.png)"
-    - copy: "Continue to enter your username, password, server and local port number. Finally, click on the connect button!"
-      img: "![Enter Credentials](/static/images/database-connectors/enter-credentials.png)"
+    - copy: "Once the download is completed, launch the application! You can now select the database dialect (MySQL, Postgres, MariaDB, SQLlite and MS SQL are currently supported) from the options as outlined in this image. Click on the following links for specific instructions for any of these database dialects: [MySQL](/database-connectors/MySQL),  [Postgres](/database-connectors/Postgres),  [MariaDB](/database-connectors/MariaDB),  [SQLlite](/database-connectors/sqllite),  [MS SQL](/database-connectors/mssql). "
+    - copy: "Is your database not supported yet? Please let us know which one(s) you use the most in our quick [survey](https://plotly.typeform.com/to/KUiCSl)."
+      img: "![Select Dialect](/static/images/database-connectors/getting-started/select-dialect.png)"
+    - copy: "Enter your username, password, server and local port number. Finally, click on the connect button!"
+      img: "![Enter Credentials](/static/images/database-connectors/getting-started/enter-credentials.png)"
  - title: Preview Your Data
    sub-steps:
     - copy: "Select your database from the dropdown menu to preview the data."
