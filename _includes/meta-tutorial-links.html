@@ -3,12 +3,8 @@
 	{% for this in page.otherlang %} {{ this | markdownify }} {% endfor %}
 </div>
 <div class="button-wrap">
-	{% if !page.connectors-tutorial-single_layout %}
-	<a href="{{page.actioncall-url}}" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
-		Open Data in Plotly
-		<paper-ripple fit></paper-ripple>
-	</a>
-	{% else %}
+	{% if page.layout.includes('connectors') %}
+
 	<a href="{{page.actioncall-url}}" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
 		Download the App
 		<paper-ripple fit></paper-ripple>
@@ -17,6 +13,14 @@
 		Vote For the Next Database!
 		<paper-ripple fit></paper-ripple>
 	</a>
+
+	{% else %}
+
+	<a href="{{page.actioncall-url}}" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
+		Open Data in Plotly
+		<paper-ripple fit></paper-ripple>
+	</a>
+
 	{% endif %}
 
 	{% if page.download-url %}
