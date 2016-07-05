@@ -18,11 +18,6 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Format Your Data
-   sub-steps:
-    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Scatter plot'."
-      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
-
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
@@ -32,7 +27,9 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your Y- axis and X-axis to your line plot. After selecting ‘Scatter plot', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
+    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Scatter plot'."
+      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
+    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your line plot. After selecting ‘Scatter plot', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-adding-values.png)"
     - copy: "This will create a raw scatter plot, as seen below."
       img: "![Raw chart](../static/images/line-graph-and-scatter-plot-with-excel/scatter-raw-plot.png)"
