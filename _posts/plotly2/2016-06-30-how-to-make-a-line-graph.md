@@ -18,21 +18,18 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Format Your Data
-   sub-steps:
-    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Line plot'."
-      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/choose-chart-main.png)"
-
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/line-graph-and-scatter-plot-with-excel/line-import-data.png)"
     - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/try-an-example.png)"
-
- - title: Create a Chart
+ 
+ - title: Create Your Chart
    sub-steps:
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your Y- axis and X-axis to your line plot. After selecting ‘Line plot', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
+    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Line plot'."
+      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/choose-chart-main.png)"
+    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your line plot. After selecting ‘Line plot', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/line-axes-panel.png)"
     - copy: "This will create a raw line plot, as seen below."
       img: "![Raw chart](../static/images/line-graph-and-scatter-plot-with-excel/raw chart.png)"
