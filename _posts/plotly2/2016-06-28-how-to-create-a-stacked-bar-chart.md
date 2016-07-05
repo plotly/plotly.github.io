@@ -18,11 +18,6 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Format Your Data
-   sub-steps:
-    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Bar chart'."
-      img: "![Choose chart main](../static/images/bar-graph/choose-chart-main.png)"
-
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
@@ -32,7 +27,9 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your Y- axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
+    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Bar chart'."
+      img: "![Choose chart main](../static/images/bar-graph/choose-chart-main.png)"
+    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/raw-stacked-chart.png)"
