@@ -46,7 +46,7 @@ steps:
     - copy: "To change the colours of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a colour pop-up will appear. As you scroll down that pane, each bar will have its own FILL colour that you can change. Note that certain colours and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
-      img: "![Type directly title](../static/images/bar-graph/group-type-directly.png) 
+      img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)" 
     - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly legend](../static/images/bar-graph/group-legend-label.png)"
     - copy: "Another option is to visit the 'Traces' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
