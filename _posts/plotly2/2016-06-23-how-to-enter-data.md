@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Enter Data in Plotly 2.0
-subtitle: A step-by-Step guide to entering data.
+title: How to Add Data in Plotly 2.0
+subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
 imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
@@ -16,13 +16,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 
 
 steps: 
- - title: Option 1 - Entering Your Data to the Grid
+ - title: Option 1 - Enter Your Data to the Grid
    sub-steps:
     - copy: "The first step to making any Plotly graph is setting up the data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
     - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content." 
       img: "![Enter data in grid](../static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 
- - title: Option 2 - Importing Your Data
+ - title: Option 2 - Import Your Data File
    sub-steps:
     - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
       img: "![Import data main shot](../static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
@@ -31,7 +31,7 @@ steps:
       img: "![Upload files](../static/images/enter-data-in-the-grid/Upload_Files.png)"
 
 
- - title: Option 3 - Entering Data by URL
+ - title: Option 3 - Import Data from a URL
    sub-steps:
     - copy: "You can also upload data by entering the URL of an online data set."
       img: "![Enter data by URL](../static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
