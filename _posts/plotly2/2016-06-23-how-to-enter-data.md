@@ -26,7 +26,7 @@ steps:
    sub-steps:
     - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
       img: "![Import data main shot](../static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
-      img: "![Import data second shot](../static/images/enter-data-in-the-grid/Import_Data_Second_Shot.png)"
+      img: "![Import data second shot](../static/images/enter-data-in-the-grid/import-data-tab.png)"
     - copy: "You have the option to drag and drop your file, or select “click to upload”."
       img: "![Upload files](../static/images/enter-data-in-the-grid/Upload_Files.png)"
 
