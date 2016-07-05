@@ -18,11 +18,6 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Format Your Data
-   sub-steps:
-    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Box plot'. This is a PRO feature, meaning that you can create this chart but you won't be able to save it unless you [upgrade](https://plot.ly/products/cloud/)."
-      img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
-
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
@@ -32,7 +27,9 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your values to your boxed plot. After selecting ‘Box plot', you're then presented the 'Values' and 'X-Data' (as shown in the figure below) to create the plot."
+    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Box plot'. This is a PRO feature, meaning that you can create this chart but you won't be able to save it unless you [upgrade](https://plot.ly/products/cloud/)."
+      img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
+    - copy: "Click on GRAPH on the left-hand side to add your values to your boxed plot. After selecting ‘Box plot', you're then presented the 'Values' and 'X-Data' (as shown in the figure below) to create the plot."
       img: "![Values](../static/images/box-plot/Values.png)"
     - copy: "This will create a raw plot, as seen below. Don't worry, it still needs more work to get it the way you want!"
       img: "![Raw plot](../static/images/box-plot/raw-plot.png)"
