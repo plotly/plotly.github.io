@@ -17,6 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~ellecj/17.embed"></iframe>
 live-graph-image:
 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "In a pie chart, the arc length of each slice is proportional to the quantity it represents. While it is named for its resemblance to a pie which has been sliced, there are variations on the way it can be presented."
