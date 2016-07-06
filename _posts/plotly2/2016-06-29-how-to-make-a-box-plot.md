@@ -18,12 +18,16 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Add Your Data to Plotly
+ - title: Try and Example
    sub-steps:
-    - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/box-plot/import-data.png)"
+    - copy: "Box plots may also have lines extending vertically from the boxes, or whiskers, indicating variability outside the upper and lower quartiles. This type of plot is also known as a box-and-whisker plot or box-and-whisker diagram."
     - copy: "After selecting 'Box plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/box-plot/try-an-example.png)"
+
+ - title: Add Your Data to Plotly
+   sub-steps:
+    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+      img: "![Import data main](../static/images/box-plot/import-data.png)"
 
  - title: Create a Chart
    sub-steps:
@@ -33,7 +37,7 @@ steps:
       img: "![Values](../static/images/box-plot/Values.png)"
     - copy: "This will create a raw plot, as seen below. Don't worry, it still needs more work to get it the way you want!"
       img: "![Raw plot](../static/images/box-plot/raw-plot.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data in 'Values'. We do this by clicking on the 'Trace' button at the top rigth-hand side of that pane."
+    - copy: "For charts that have many values such as this one, we need to add more data in 'Values'. We do this by clicking on the '+Trace' button at the top rigth-hand side of that pane."
       img: "![Trace open](../static/images/box-plot/traces.png)"
     - copy: " You can add as many traces as you need, until your plot is complete!"
       img: "![Finished traces](../static/images/box-plot/finish-traces.png)"
