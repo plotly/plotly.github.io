@@ -18,7 +18,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Try and Example
+ - title: Try an Example
    sub-steps:
     - copy: "Box plots may also have lines extending vertically from the boxes, or whiskers, indicating variability outside the upper and lower quartiles. This type of plot is also known as a box-and-whisker plot or box-and-whisker diagram."
     - copy: "After selecting 'Box plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values were selected for this specific chart, as well as the end result."
