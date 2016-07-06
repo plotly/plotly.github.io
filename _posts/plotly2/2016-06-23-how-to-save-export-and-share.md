@@ -15,7 +15,7 @@ actioncall: How to Save, Export, and Share in Plotly 2.0
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#static-image-export) or [R](https://plot.ly/r/#static-image-export).
 
 steps: 
- - title: Save your Plot
+ - title: Save Your Plot
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
       img: "![Save tab main screen](../static/images/how-to-save-export-and-share/Save_Tab_Main_Screen.png)"
@@ -31,7 +31,7 @@ steps:
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/Export_Tab.png)"
     - copy: "Click on DOWNLOAD to save it onto your computer."
 
- - title: Share your Plot
+ - title: Share Your Plot
    sub-steps:
     - copy: "You can share your plot in different ways."
       img: "![Share plot main](../static/images/how-to-save-export-and-share/Share_Main_Screen.png)"
