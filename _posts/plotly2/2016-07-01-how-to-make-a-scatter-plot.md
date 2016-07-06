@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
 title: How to Make a Scatter Plot in Plotly 2.0
-subtitle: A type of plot using Cartesian coordinates that displays values for typically two variables for a set of data.
+subtitle: A type of plot that shows how much one variable is affected by another. 
 permalink: /scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
@@ -18,12 +18,16 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
- - title: Add Your Data to Plotly
+ - title: Try an Example
    sub-steps:
-    - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-import-data.png)"
+    - copy: "A scatter plot uses Cartesian coordinates that displays values for typically two variables for a set of data."
     - copy: "After selecting 'Scatter plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.png)"
+
+ - title: Add Your Data to Plotly
+   sub-steps:
+    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+      img: "![Import data main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-import-data.png)"
 
  - title: Create a Chart
    sub-steps:
