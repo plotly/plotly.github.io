@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: How to Add Data in Plotly 2.0
 subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
-imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
+imageurl: ../static/images/enter-data-in-the-grid/enter-date-thumb.png
 state: active
 tags: basic
 section: plotlybasic
