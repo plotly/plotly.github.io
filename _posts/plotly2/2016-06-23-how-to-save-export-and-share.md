@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: How to Save, Export, and Share in Plotly 2.0
 subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
-imageurl: https://images.plot.ly/excel/area-charts/thum-area-charts-in-excel-with-plotly.png
+imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: basic
 section: Plotly Basics
