@@ -19,12 +19,12 @@ steps:
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
       img: "![Save tab main screen](../static/images/how-to-save-export-and-share/Save_Tab_Main_Screen.png)"
-    - copy: "You have the option of saving your PLOT and DATA as PUBLIC or PRIVATE." 
+    - copy: "You have the option of saving your PLOT and DATA as PUBLIC or PRIVATE. For more information on how sharing works, including the difference between private, public and secret sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/)."
       img: "![Save pop-up](../static/images/how-to-save-export-and-share/Save_Pop_Up.png)"
 
  - title: Export Your Data
    sub-steps:
-    - copy: "Once you’ve saved your plot and data, you can export it."
+    - copy: "Once you’ve saved your plot, you can export it."
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/Export_Main_Screen.png)"
     - copy: "Save it as a PNG, or if you wish to save it as a PDF, SVG or ESP, click [here](https://plot.ly/products/cloud/) to upgrade your account."
     - copy: "Choose the size as displayed, or the custom size of your chart."
@@ -45,6 +45,5 @@ steps:
       img: "![Embed pop-up](../static/images/how-to-save-export-and-share/Embed_Pop_Up.png)"
     - copy: "Last but not least, you can also share your plot on social media! Simply click on the Facebook, Twitter, and Google Plus icons."
       img: "![Social media icons](../static/images/how-to-save-export-and-share/Social_Media_Icons.png)"
-    - copy: "For more information on how sharing works, including the difference between private, public and secret sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/)."
 
 ---
