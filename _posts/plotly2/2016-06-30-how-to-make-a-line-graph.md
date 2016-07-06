@@ -18,9 +18,15 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps: 
+ - title: Try an Example
+   sub-steps:
+    - copy: "A line graph is a quick and simple way to organize data, especially when comparing fewer than 25 numbers."
+    - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/try-an-example.png)"
+
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s Workspace and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/line-graph-and-scatter-plot-with-excel/line-import-data.png)"
     - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/try-an-example.png)"
