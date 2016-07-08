@@ -5,7 +5,7 @@ subtitle: A Step by Step Guide to ANOVA
 permalink: /anova-test/
 imageurl:
 state:
-tags: classroom statistical
+tags: analysis
 meta_description: The ANOVA test is a hypothesis test that provides a quantitative method to compare means of three or more samples. Learn to use Plotly's ANOVA test.
 actioncall: Make a Graph
 ---

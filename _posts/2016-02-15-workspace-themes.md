@@ -5,7 +5,7 @@ subtitle: How to add themes to your Plotly graphs
 permalink: /themes/
 imageurl: /static/images/themes/themes-thumbnail.jpg
 state: active
-tags: plotlybasic
+tags: plotly1
 meta_description: A tutorial on how to add themes to Plotly graphs. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---
