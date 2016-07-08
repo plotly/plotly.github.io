@@ -5,7 +5,7 @@ subtitle: How to create multiple Plotly graphs with different data from a templa
 permalink: /template/
 imageurl: /static/images/template/template-thumbnail.jpg
 state: active
-tags: plotlybasic
+tags: plotly1
 meta_description: A tutorial on how to create multiple Plotly graphs with different data from a single template. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---

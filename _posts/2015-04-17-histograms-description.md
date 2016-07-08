@@ -5,7 +5,7 @@ subtitle: What is a histogram?
 permalink: /histogram/
 imageurl: /static/images/histograms-description/thum-histogram-description.png
 state: active
-tags: dataliteracy
+tags: analysis
 meta_description: What is a histogram? When do you use a histogram? An interactive lesson on how to read a histogram, how a histogram is made, and how to analyze a histogram.
 popularity: frontpage
 actioncall: Make a Histogram

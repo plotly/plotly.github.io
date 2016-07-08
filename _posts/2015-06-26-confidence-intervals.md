@@ -2,10 +2,10 @@
 layout: single
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to make continuous filled error bars.
-permalink: /continuous-filled-error-bars/
+permalink: /continuous-filled-error-bars-plotly1/
 imageurl: http://i.imgur.com/IQd9Sv5.png
 state: active
-tags: statistical
+tags: plotly1
 meta_description: Make graphs with filled area bars to denote confidence intervals. Plotly is the easiest way to graph your data online.
 popularity:
 actioncall: Draw Filled Confidence Error Bars

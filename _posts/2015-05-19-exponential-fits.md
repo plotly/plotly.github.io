@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Exponential fits
+title: Exponential Fits
 permalink: /exponential-fits/
 imageurl: https://s3-us-west-1.amazonaws.com/plotly-tutorials/plotly-documentation/thumbnail/exponential_fit.jpg
 state: inactive
-tags: classroom basic
+tags: analysis
 meta_description: Learn how to easily fit data with exponential functions using our free online regression calculator. Plotly is the best online tool for graphing and analyzing data.
 actioncall: Make a chart
 ---

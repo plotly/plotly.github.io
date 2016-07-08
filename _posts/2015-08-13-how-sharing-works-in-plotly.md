@@ -5,7 +5,7 @@ subtitle: How sharing works for plotly grids, plots and folders
 permalink: /how-sharing-works-in-plotly/
 imageurl: /static/images/how-sharing-works-in-plotly/sharing-thumb.png
 state: active
-tags: plotlybasic
+tags: fundamentals
 meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---
@@ -47,7 +47,7 @@ Creating a new item in a public folder will create an item that is public as lon
 ### How does this work with the APIs?
 
  Similar functionality is also accessible from the various [API libraries](https://plot.ly/api). View each page for details:
- 
+
   - [Python library](https://plot.ly/python/privacy)
   - [R library](https://plot.ly/r/privacy)
   - [MATLAB library](https://plot.ly/matlab/privacy)

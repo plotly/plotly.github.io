@@ -2,10 +2,10 @@
 layout: single
 title: Make a Line or Scatter Graph
 subtitle: A Step by Step Guide to Line and Scatter Graphs
-permalink: /make-a-line-graph-or-scatter-plot/
+permalink: /make-a-line-graph-or-scatter-plot-plotly1/
 imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
-tags: basic
+tags: plotly1
 meta_description: A tutorial on how to make a line graph and a scatter plot online. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Line or Scatter Graph
 ---

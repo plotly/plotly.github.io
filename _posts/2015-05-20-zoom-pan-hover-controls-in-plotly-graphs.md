@@ -5,7 +5,7 @@ subtitle: Zoom, Pan, and Hover Controls in Three Short Videos
 permalink: /zoom-pan-hover-controls/
 imageurl: /static/images/zoom-pan-hover/zoom.png
 state: active
-tags: plotlybasic
+tags: fundamentals
 meta_description: Zoom, pan, and hover controls. Plotly let's you create interactive charts online, and for free, using our web app, MATLAB, Python, or R.
 actioncall: Make a graph
 ---
