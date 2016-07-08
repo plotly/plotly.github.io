@@ -6,7 +6,7 @@ permalink: /make-a-heatmap/
 imageurl: ../static/images/heat-map/heat-thumb.png
 state: active
 tags: scientific
-section: Scientific Charts
+section: scientific
 meta_description: A tutorial on how to make a heatmap in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
