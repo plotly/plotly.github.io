@@ -5,8 +5,8 @@ subtitle: A graph that is useful for displaying data or information that changes
 permalink: /line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
-tags: Basic
-section: Basic Charts
+tags: basic
+section: basic
 meta_description: A tutorial on how to make a line graph in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
