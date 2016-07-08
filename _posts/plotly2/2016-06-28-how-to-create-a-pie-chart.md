@@ -6,7 +6,7 @@ permalink: /pie-chart/
 imageurl: ../static/images/bar-graph/stacked-imageurl.png
 state: active
 tags: basic
-section: Basic Charts
+section: basic
 meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
 popularity: featured
 carouselimageurl: ../static/images/bar-graph/stacked-imageurl.png
