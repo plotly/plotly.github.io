@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Make a Box Plot in Plotly 2.0
+title: Box Plots in Plotly 2.0
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
 imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
