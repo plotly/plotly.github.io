@@ -5,7 +5,7 @@ subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
 imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
-tags: basic
+tags: fundamentals
 section: fundamentals
 meta_description: A tutorial on how to save, export, and share in Plotly 2.0.
 popularity: featured
