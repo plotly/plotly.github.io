@@ -5,7 +5,7 @@ subtitle: A Step by Step Guide to Bubble Charts
 permalink: /make-a-bubble-chart-plotly1/
 imageurl: /static/images/bubble-chart/thum-bubble-chart.png
 state: active
-tags: plotly1
+tags: plotlyone
 meta_description: A bubble chart is a variation of a scatter plot, where each point can have a different radius, representing an extra dimension of data. Learn to make a bubble chart online.
 popularity: frontpage
 actioncall: Make a Bubble Chart
