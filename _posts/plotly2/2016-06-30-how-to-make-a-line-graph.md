@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Make a Line Graph in Plotly 2.0
+title: Line Graphs in Plotly 2.0
 subtitle: A graph that is useful for displaying data or information that changes continuously over time.
 permalink: /line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
