@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Make a Scatter Plot in Plotly 2.0
+title: Scatter Plots in Plotly 2.0
 subtitle: A type of plot that shows how much one variable is affected by another. 
 permalink: /scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
