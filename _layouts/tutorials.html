@@ -226,7 +226,7 @@ title: Plotly Web App Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
                         {% for page in site.posts %}
-                        {% if page.tags contains 'basic' or page.tags contains 'statistical' %}
+                        {% if page.state == 'active' and page.tags contains 'basic' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
                             <a href="{{page.permalink}}">
@@ -367,7 +367,7 @@ title: Plotly Web App Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
                         {% for page in site.posts %}
-                        {% if page.state == 'active' and page.tags contains 'scientific' %}
+                        {% if page.state == 'active' and page.tags contains 'maps' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
                             <a href="{{page.permalink}}">
