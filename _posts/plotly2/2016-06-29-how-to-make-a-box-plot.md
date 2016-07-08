@@ -5,8 +5,8 @@ subtitle: A convenient way of graphically depicting groups of numerical data thr
 permalink: /make-a-box-plot/
 imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
-tags: Statistical
-section: Statistical Charts
+tags: statistical
+section: statistical
 meta_description: A tutorial on how to make a box plot in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
