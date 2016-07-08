@@ -5,8 +5,8 @@ subtitle: A type of plot that shows how much one variable is affected by another
 permalink: /scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
-tags: Basic
-section: Basic Charts
+tags: basic
+section: basic
 meta_description: A tutorial on how to make a scatter plot in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
