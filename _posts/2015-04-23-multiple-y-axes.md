@@ -2,7 +2,7 @@
 layout: single
 title: Multiple Y Axes Graph
 subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes
-permalink: /make-a-graph-with-multiple-axes-plotly1/
+permalink: /make-a-graph-with-multiple-axes/
 imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: active
 tags: plotly1
