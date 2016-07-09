@@ -2,7 +2,7 @@
 layout: single
 title: Make a Line or Scatter Graph
 subtitle: A Step by Step Guide to Line and Scatter Graphs
-permalink: /make-a-line-graph-or-scatter-plot-plotly1/
+permalink: /make-a-line-graph-or-scatter-plot/
 imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
 tags: plotly1
