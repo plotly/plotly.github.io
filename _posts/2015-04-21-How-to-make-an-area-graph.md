@@ -2,7 +2,7 @@
 layout: single
 title: Make an Area Graph
 subtitle: A Step by Step Guide to Making an Area Graph
-permalink: /make-an-area-graph-plotly1/
+permalink: /make-an-area-graph/
 imageurl: /static/images/How-to-make-an-area-graph/thum-How-to-make-an-area-graph.png
 state: active
 tags: plotly1
