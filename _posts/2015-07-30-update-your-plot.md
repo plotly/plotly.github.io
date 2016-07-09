@@ -2,7 +2,7 @@
 layout: single
 title: Update a Plotly Graph with New Data
 subtitle: How to update your plotly graphs with new data
-permalink: /update-a-graphs-data-plotly1/
+permalink: /update-a-graphs-data/
 imageurl: /static/images/update-your-plot/graph-thumbnail.png
 state: active
 tags: plotly1
