@@ -33,7 +33,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Contour'."
       img: "![Choose chart main](../static/images/create-contour-plot.md/contour-choose-chart.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your contour. After selecting ‘Contour', you should then fill out the Z, Y, and X dropdown to create the plot. For our plot, we'll add all columns of our data set in the 'Z' matrix."
+    - copy: "Click on GRAPH on the left-hand side to add your axes to your contour. After selecting 'Contour', you should then fill out the Z, X, and Y dropdown to create the plot. For our plot, we'll add all columns of our data set in the 'Z' matrix."
       img: "![Adding axes](../static/images/create-contour-plot.md/contour-values.png)"
     - copy: "This will create a raw contour plot, as seen below."
       img: "![Raw contour](../static/images/create-contour-plot.md/raw-contour-plot.png)"
