@@ -1,6 +1,6 @@
 ---
 layout: excel-tutorial-single_layout
-title: Heat Maps in Plotly 2.0
+title: Heatmaps in Plotly 2.0
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors.
 permalink: /make-a-heatmap/
 imageurl: ../static/images/heat-map/heat-thumb.png
