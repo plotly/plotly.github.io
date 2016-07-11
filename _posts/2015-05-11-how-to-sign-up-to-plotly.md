@@ -6,6 +6,8 @@ permalink: /how-to-sign-up-to-plotly/
 imageurl: /static/images/how-to-sign-up-to-plotly/create-a-plotly-account.png
 state: active
 tags: fundamentals
+section: fundamentals
+order: 1
 meta_description: How to sign up to Plotly. Plotly is the easiest way to make and share graphs, online and for free.
 ---
 

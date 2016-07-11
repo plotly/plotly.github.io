@@ -7,6 +7,7 @@ imageurl: ../static/images/bar-graph/thum-grouped-bar-chart-2.jpg
 state: active
 tags: basic
 section: basic
+order: 4
 meta_description: A tutorial on how to make a grouped bar chart in Plotly 2.0.
 popularity: featured
 carouselimageurl: 

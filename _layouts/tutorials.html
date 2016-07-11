@@ -5,6 +5,7 @@ title: Plotly Web App Tutorials
 <!DOCTYPE html>
 <html>
 <head>
+    {% assign sorted = site.posts | sort: "order" %}
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -185,7 +186,8 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'fundamentals' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -225,7 +227,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'basic' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -268,7 +270,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'statistical' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -317,7 +319,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'scientific' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -366,7 +368,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'maps' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -415,7 +417,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'graph3d' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -464,7 +466,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'layout' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -514,7 +516,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'textandlinks' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -563,7 +565,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.tags contains 'analysis' or page.tags contains 'dataliteracy' or page.tags contains
                         'videos' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
@@ -607,7 +609,7 @@ title: Plotly Web App Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {% for page in sorted %}
                         {% if page.state == 'active' and page.tags contains 'plotly1' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">

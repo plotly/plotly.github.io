@@ -7,6 +7,7 @@ imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.
 state: active
 tags: basic
 section: basic
+order: 1
 meta_description: A tutorial on how to make a scatter plot in Plotly 2.0.
 popularity: featured
 carouselimageurl: 

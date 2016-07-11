@@ -5,6 +5,8 @@ permalink: /getting-data/
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
 tags: fundamentals analysis
+section: fundamentals
+order: 3
 meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
 ---
 

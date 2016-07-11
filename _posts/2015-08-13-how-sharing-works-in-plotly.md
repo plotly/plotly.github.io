@@ -6,6 +6,8 @@ permalink: /how-sharing-works-in-plotly/
 imageurl: /static/images/how-sharing-works-in-plotly/sharing-thumb.png
 state: active
 tags: fundamentals
+section: fundamentals
+order: 5
 meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
 actioncall: Share your grids, plots and folders
 ---

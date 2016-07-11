@@ -6,6 +6,8 @@ permalink: /date-format-and-time-series/
 imageurl: /static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
 state: active
 tags: fundamentals
+section: fundamentals
+order: 9
 meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart
 ---

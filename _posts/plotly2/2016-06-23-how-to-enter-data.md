@@ -7,6 +7,7 @@ imageurl: ../static/images/enter-data-in-the-grid/enter-date-thumb.png
 state: active
 tags: fundamentals
 section: fundamentals
+order: 2
 meta_description: A tutorial on how to enter data in Plotly 2.0.
 popularity: featured
 carouselimageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png

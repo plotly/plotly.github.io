@@ -7,6 +7,7 @@ imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: fundamentals
 section: fundamentals
+order: 4
 meta_description: A tutorial on how to save, export, and share in Plotly 2.0.
 popularity: featured
 carouselimageurl: 

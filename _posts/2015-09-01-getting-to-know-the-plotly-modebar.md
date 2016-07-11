@@ -6,6 +6,8 @@ permalink: /getting-to-know-the-plotly-modebar/
 imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
 tags: fundamentals
+section: fundamentals
+order: 8
 meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
 actioncall: nil
 ---
