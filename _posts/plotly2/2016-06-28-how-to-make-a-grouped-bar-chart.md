@@ -33,7 +33,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart Type' and select 'Bar chart'."
       img: "![Choose chart main](../static/images/bar-graph/group-chart-type-main.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your Y-axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then fill out the x and y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your Y-axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then fill out the y and x dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/group-adding-axes.png)"
