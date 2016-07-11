@@ -31,15 +31,15 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then "Create". Choose your 'Chart Type' and select 'Bar chart'."
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart Type' and select 'Bar chart'."
       img: "![Choose chart main](../static/images/bar-graph/group-chart-type-main.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then fill out the x and y dropdown, as shown in the figure below, to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your Y-axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then fill out the x and y dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/group-adding-axes.png)"
     - copy: "For charts that have many values such as this one, we need to add more data on the x-axis. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
       img: "![Trace open](../static/images/bar-graph/group-trace-open.png)"
-    - copy: " You can add as many traces as you need, until your plot is complete!"
+    - copy: "You can add as many traces as you need, until your plot is complete!"
       img: "![Finished traces](../static/images/bar-graph/group-finish-traces.png)"
 
  - title: Style a Chart
@@ -63,5 +63,4 @@ steps:
     - copy: "After you've given your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page.”
       img: "![Save pop-up](../static/images/bar-graph/group-save-pop-up.png)"
 ---
-
 
