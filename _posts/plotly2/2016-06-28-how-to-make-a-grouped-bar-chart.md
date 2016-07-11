@@ -60,7 +60,7 @@ steps:
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/bar-graph/group-save-main.png)"
-    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page.”
+    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/bar-graph/group-save-pop-up.png)"
 ---
 
