@@ -1,9 +1,9 @@
 ---
 layout: excel-tutorial-single_layout
 title: Scatter Plots in Plotly 2.0
-subtitle: A type of plot that shows how much one variable is affected by another. 
+subtitle: A type of plot that shows the relationship between two variables.
 permalink: /scatter-plot/
-imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
+imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
 state: active
 tags: basic
 section: basic
@@ -20,8 +20,8 @@ live-graph-image:
 steps: 
  - title: Try an Example
    sub-steps:
-    - copy: "A scatter plot uses Cartesian coordinates that displays values for typically two variables for a set of data."
-    - copy: "After selecting 'Scatter plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels were selected for this specific chart, as well as the end result."
+    - copy: "Scatter plots show how much one variable is affected by another."
+    - copy: "After selecting 'Scatter plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.png)"
 
  - title: Add Your Data to Plotly
@@ -31,33 +31,32 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Scatter plot'."
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Scatter plot' under 'Chart type'."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your line plot. After selecting ‘Scatter plot', you're then presented the y-axis and x-axis as shown in the figure below to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your X-axis and Y-axis to your line plot. After selecting ‘Scatter plot', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-adding-values.png)"
     - copy: "This will create a raw scatter plot, as seen below."
       img: "![Raw chart](../static/images/line-graph-and-scatter-plot-with-excel/scatter-raw-plot.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
-    - copy: "To change the colours, click on ‘Traces’ under the same STYLE tab. Note that certain colours and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
+    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-colour-panel.png)"
-    - copy: "For plots that have a larger data set with more values, you may want to display each group in different colours. This option is not currently available, but is coming soon!"
+    - copy: "For plots that have a larger data set with more values, you may want to display each group in different colors. This option is not currently available, but is coming soon!"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/scatter-type-title-directly.png)"
     - copy: "The same can be done for the axis labels, and legend."
       img: "![Type directly axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-type-axis-directly.png)"
-    - copy: "Another option is to visit the 'Traces' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
+    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/line-graph-and-scatter-plot-with-excel/scatter-type-title-panel.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your plot is now done! Click SAVE on the left-hand side, and give your file a name."
+    - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-main.png)"
-    - copy: "Select your PLOT and DATA as 'Public' or 'Private'."
+    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-pop-up.png)"
-    - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
 ---
 
 
