@@ -31,21 +31,19 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "Choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Pie chart'."
-      img: "![Choose chart main](../static/images/create-pie-chart/choose-chart-main.png)"
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Pie chart' under 'Chart type'."
       img: "![Chart type pie](../static/images/create-pie-chart/chart-type-pie.png)"
-    - copy: "After adding your own data, click on GRAPH on the left-hand side to add your 'Labels' and 'Values' to your pie chart. After selecting ‘Pie chart', you're then presented the labels and values as shown in the figure below to create the plot."
-      img: "![Label main](../static/images/create-pie-chart/label-main.png)"
+    - copy: "Click on GRAPH on the left-hand side to add the 'Labels' and 'Values' to your pie chart. After selecting ‘Pie chart', you should then fill the labels and values dropdown to create the plot."
       img: "![Labels and values](../static/images/create-pie-chart/labels-and-values.png)"
     - copy: "This will create a raw pie chart, as seen below. It may not look perfect right away, but playing around with the style will get it there."
       img: "![Raw chart](../static/images/create-pie-chart/raw-chart-open-slices.png)"
  
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
+    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "This particular chart has many values, so we've changed the text position from 'Outside Slices' to 'Hidden', creating a neater looking pie chart."
       img: "![Neater pie chart](../static/images/create-pie-chart/neater-chart-hidden-slices.png)"
-    - copy: "To change the colours, click on ‘Traces’ under the same STYLE tab. Note that certain colours and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/create-pie-chart/colour-main.png)"
     - copy: "You can also take your pie chart to the next level by pulling apart your pie slices, or by creating a donut chart."
     - copy: "You'll be able to do both by visiting 'Traces' in the STYLE section. For pulling your pie slices apart, play with the percentage in the PULL APART % field under 'Modify'."
@@ -55,9 +53,8 @@ steps:
 
  - title: Save and Share
    sub-steps:
-    - copy: "Click SAVE on the left-hand side, and give your file a name."
+    - copy: "Click SAVE on the left-hand side."
       img: "![Save main](../static/images/create-pie-chart/save-main.png)"
-    - copy: "Select your PLOT and DATA as 'Public' or 'Private'."
+    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/create-pie-chart/save-pop-up.png)"
-    - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
 ---
