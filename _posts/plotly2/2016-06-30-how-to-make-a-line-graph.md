@@ -33,7 +33,7 @@ steps:
  
  - title: Create Your Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart Type' and 'Line plot'."
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Line plot' under 'Chart type'."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/choose-chart-main.png)"
     - copy: "Click on GRAPH on the left-hand side to add your X-axis and Y-axis to your line plot. After selecting ‘Line plot', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/line-axes-panel.png)"
