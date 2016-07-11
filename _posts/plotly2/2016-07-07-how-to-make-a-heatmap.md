@@ -47,10 +47,8 @@ steps:
       img: "![Smoothing before](../static/images/heat-map/heat-smoothing-before.png)"
     - copy: "This is when the 'Smoothing' option is selected."
       img: "![Smoothing after](../static/images/heat-map/heat-smoothing-after.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
+    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels and legend." 
       img: "![Type directly title](../static/images/heat-map/heat-type-title.png)" 
-    - copy: "The same can be done for the axis labels and legend."
-      img: "![Type directly axis](../static/images/heat-map/heat-type-axis.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below. Note that certain typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Type in layout panel](../static/images/heat-map/heat-type-title-panel.png)"
 
