@@ -20,7 +20,7 @@ live-graph-image:
 steps: 
  - title: Try an Example
    sub-steps:
-    - copy: "Histograms are an estimate of the probability distribution of a continuous quantitative variable. If you'd like to know more about histograms, visit [this](http://help.plot.ly/histogram/) page for great information."
+    - copy: "Histograms are an estimate of the probability distribution of a continuous quantitative variable. If you'd like to know more about this type of plot, visit [this](http://help.plot.ly/histogram/) page for great information."
     - copy: "After selecting 'Histogram' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/make-a-histogram/try-an-example.png)"
  
