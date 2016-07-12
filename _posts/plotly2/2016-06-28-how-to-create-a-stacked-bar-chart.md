@@ -6,11 +6,9 @@ permalink: /stacked-bar-chart/
 imageurl: https://images.plot.ly/excel/stacked-bar-chart/thum-stacked-bar-chart-2.jpg
 state: active
 tags: basic
-section: basic
 order: 5
 meta_description: A tutorial on how to make a stacked bar chart in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
 actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#stacked-bar-chart) or [R](https://plot.ly/r/bar-charts/#stacked-bar-chart).
