@@ -47,7 +47,7 @@ steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To make this bar chart a grouped bar chart, visit the 'Traces' section under STYLE and select the 'Grouped' option under 'Bars'. It may have already been set as 'Grouped' by default."
       img: "![Grouped bar](../static/images/bar-graph/grouped-bars.png)"
-    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
       img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)" 
