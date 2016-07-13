@@ -35,7 +35,7 @@ steps:
       img: "![Choose chart main](../static/images/choropleth-map-with-excel/choropleth-chart-type.png)"
     - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘Choropleth', you should then fill out the locations and values dropdown to create the plot. Since our map has USA data, we'll select USA under the 'Location Format' and 'Map Region' fields. These sections are selected depending on your data."
       img: "![Values dropdown](../static/images/choropleth-map-with-excel/choropleth-values.png)"
-    - copy: "This will create a choropleth map as seen below."
+    - copy: "This will create a raw choropleth map as seen below."
       img: "![Raw plot](../static/images/choropleth-map-with-excel/choropleth-raw-plot.png)"
 
  - title: Style a Chart
