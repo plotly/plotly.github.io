@@ -45,7 +45,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the colors of your boxes, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each box will have its own FILL color that you can change. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors of your boxes, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each box will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour fill](../static/images/box-plot/fill-colour.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels, and legend."
       img: "![Type directly](../static/images/box-plot/type-directly.png)"
