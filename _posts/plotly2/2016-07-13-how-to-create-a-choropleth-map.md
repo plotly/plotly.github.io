@@ -31,7 +31,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Choropleth' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade"
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Choropleth' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade."
       img: "![Choose chart main](../static/images/choropleth-map-with-excel/choropleth-chart-type.png)"
     - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘Choropleth', you should then fill out the locations and values dropdown to create the plot. Since our map has USA data, we'll select USA under the 'Location Format' and 'Map Region' fields. These sections are selected depending on your data."
       img: "![Values dropdown](../static/images/choropleth-map-with-excel/choropleth-values.png)"
