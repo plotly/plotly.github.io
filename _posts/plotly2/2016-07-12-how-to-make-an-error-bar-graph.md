@@ -43,7 +43,7 @@ steps:
     - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/graph-with-error-bars/error-bar-colour.png)"
-    - copy: "This is also the section that allows you to change the diameter of the points and also the symbol."
+    - copy: "Additionally, this section allows you to change the diameter of the points and also the symbol."
       img: "![Error bar points](../static/images/graph-with-error-bars/error-bars-points.gif)"  
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/graph-with-error-bars/error-bar-title.png)"
