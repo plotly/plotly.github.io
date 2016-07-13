@@ -6,7 +6,7 @@ permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/contour-thumb.png
 state: active
 tags: scientific
-section: scientific
+order: 4
 meta_description: A tutorial on how to make a contour plot in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
