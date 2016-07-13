@@ -46,7 +46,7 @@ steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To make this bar chart a stacked bar chart, visit the 'Traces' section under STYLE and select the 'Stacked' option under 'Bars'. Your chart will now be updated."
       img: "![Stacked chart](../static/images/bar-graph/stacked-chart.png)"
-    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Stacked colour fill](../static/images/bar-graph/stacked-colour-fill.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
       img: "![Type directly title](../static/images/bar-graph/type-directly-on-title.png)"
