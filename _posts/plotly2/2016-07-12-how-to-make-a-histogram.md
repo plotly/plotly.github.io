@@ -31,7 +31,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Histogram' under 'Chart type'. Note that this chart is available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade"
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Histogram' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade"
       img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
     - copy: "Click on GRAPH on the left-hand side to add your values to your histogram. After selecting ‘Histogram', you should then fill out the values dropdown to create the plot. Note that drawing and fitting the curve for this type of plot is not currently available, but is coming soon!"
       img: "![Values dropdown](../static/images/make-a-histogram/axis-pane.png)"
@@ -41,7 +41,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/make-a-histogram/histogram-colours.png)"
     - copy: "It's also possible to change the bin size (the width of each bin) and the padding between each bar; it's under the same 'Traces' section. We want padding between each bar, so we've spaced them by 15%."
       img: "![Bin and bar spacing](../static/images/make-a-histogram/histogram-bin-bar.png)"
