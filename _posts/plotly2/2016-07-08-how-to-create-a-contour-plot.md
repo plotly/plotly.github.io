@@ -49,7 +49,7 @@ steps:
       img: "![Type directly title](../static/images/create-contour-plot.md/contour-type-title.png)" 
     - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly axis](../static/images/create-contour-plot.md/contour-axis-title.png)"
-    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below. Note that certain typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below. Note that certain typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Type in layout panel](../static/images/create-contour-plot.md/contour-title-panel.png)"
 
  - title: Save and Share
