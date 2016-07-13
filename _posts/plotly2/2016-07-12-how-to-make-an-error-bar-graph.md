@@ -41,7 +41,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/graph-with-error-bars/error-bar-colour.png)"
     - copy: "Additionally, this section allows you to change the diameter of the points and also the symbol."
       img: "![Error bar points](../static/images/graph-with-error-bars/error-bars-points.gif)"  
