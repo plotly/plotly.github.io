@@ -23,7 +23,7 @@ similar:
    url: /excel/dashboard/
    imgurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/choropleth-maps/) or [R](https://plot.ly/r/choropleth-maps/).
 
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Nicole_G/3191.embed"></iframe>
 
