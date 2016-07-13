@@ -43,7 +43,7 @@ steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "This particular chart has many values, so we've changed the text position from 'Outside Slices' to 'Hidden', creating a neater looking pie chart."
       img: "![Neater pie chart](../static/images/create-pie-chart/neater-chart-hidden-slices.png)"
-    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/create-pie-chart/colour-main.png)"
     - copy: "You can also take your pie chart to the next level by pulling apart your pie slices, or by creating a donut chart."
     - copy: "You'll be able to do both by visiting 'Traces' in the STYLE section. For pulling your pie slices apart, play with the percentage in the PULL APART % field under 'Modify'."
