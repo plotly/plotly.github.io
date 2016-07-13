@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Scatter Plots in Plotly 2.0
 subtitle: A type of plot that shows the relationship between two variables.
-permalink: /scatter-plot/
+permalink: /how-to-make-a-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
 state: active
 tags: basic
