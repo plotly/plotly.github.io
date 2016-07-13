@@ -6,7 +6,7 @@ permalink: /make-a-histogram/
 imageurl: ../static/images/make-a-histogram/histogram-thumb.png
 state: active
 tags: statistical
-section: statistical
+order: 1
 meta_description: A tutorial on how to make a histogram in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
@@ -40,12 +40,12 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
+    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/make-a-histogram/histogram-colours.png)"
-    - copy: "It's also possible to change the bin size (the width of each bin on the number line)and the padding between each bar; it's under the same 'Traces' section. We want padding between each bar, so we've spaced them by 15%."
+    - copy: "It's also possible to change the bin size (the width of each bin) and the padding between each bar; it's under the same 'Traces' section. We want padding between each bar, so we've spaced them by 15%."
       img: "![Bin and bar spacing](../static/images/make-a-histogram/histogram-bin-bar.png)"
-    - copy: "The 'Axes' section under STYLE is where you visit if you want to change your axes title(s), the range, or show or hide the grid behind your plot."
+    - copy: "The 'Axes' section under STYLE is where you visit if you want to change your axes title(s), range(s), or grid lines behind your plot.."
       img: "![Axes panel](../static/images/make-a-histogram/histogram-axes.gif)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/make-a-histogram/histogram-title-type.png)"
