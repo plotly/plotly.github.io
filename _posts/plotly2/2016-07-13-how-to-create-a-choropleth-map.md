@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Choropleth Maps in Plotly 2.0
 subtitle: A map that uses differences in shading, coloring, or the placing of symbols within predefined areas to indicate the average values of a property or quantity in those areas.
-permalink: /how-to-make-a-choropleth-map/
+permalink: /make-a-choropleth-map/
 imageurl: ../static/images/choropleth-map-with-excel/choropleth-thumb.png
 state: active
 tags: maps
