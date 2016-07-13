@@ -2,7 +2,7 @@
 layout: single
 title: Make a Pie Chart with Excel
 subtitle: Plotly with Excel
-permalink: /excel/pie-chart/
+permalink: /plotly1/excel/pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
 tags: excel
