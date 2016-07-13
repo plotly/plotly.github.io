@@ -31,7 +31,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Box plot' under 'Chart type'. Note that this chart is available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade"
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Box plot' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade."
       img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
     - copy: "Click on GRAPH on the left-hand side to add your values to your boxed plot. After selecting ‘Box plot', you should then fill out the 'Values' and 'X-Data' dropdown to create the plot."
       img: "![Values](../static/images/box-plot/Values.png)"
