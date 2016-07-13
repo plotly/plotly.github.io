@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Line Graphs in Plotly 2.0
 subtitle: Creating a graph that compares two variables.
-permalink: /line-graph/
+permalink: /make-a-line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/line-thumb.png
 state: active
 tags: basic
