@@ -6,6 +6,7 @@ permalink: /make-a-graph-with-error-bars/
 imageurl: ../static/images/graph-with-error-bars/error-bar-thumb.png
 state: active
 tags: scientific
+order: 2
 meta_description: A tutorial on how to make a graph with error bars in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
