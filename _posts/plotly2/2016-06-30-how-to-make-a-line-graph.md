@@ -43,7 +43,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/line-colour-panel.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/line-type-title-directly.png)"
