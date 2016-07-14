@@ -1,8 +1,8 @@
 ---
 layout: excel-tutorial-single_layout
 title: 3D Scatter Plots in Plotly 2.0
-subtitle: Creat a plot that represents the relationship between three variables.
-permalink: /3D-scatter-plots/
+subtitle: Create a plot that represents the relationship between three variables.
+permalink: /make-a-3d-scatter-plot/
 imageurl: ../static/images/scatter-plot-3D/3D-scatter-thumb.png
 state: active
 tags: 3D charts
@@ -33,7 +33,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Scatter' under 'Chart type'."
       img: "![Choose chart main](../static/images/scatter-plot-3D/3D-scatter-chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘3D Scatter', you should then fill out the X, Y, and Z dropdowns to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your values to your graph. After selecting ‘3D Scatter', you should then fill out the X, Y, and Z dropdowns to create the plot."
       img: "![Values dropdown](../static/images/scatter-plot-3D/3D-scatter-XYZ-values.png)"
     - copy: "This will create a raw 3D scatter plot as seen below."
       img: "![Raw plot](../static/images/scatter-plot-3D/3D-scatter-raw.png)"
