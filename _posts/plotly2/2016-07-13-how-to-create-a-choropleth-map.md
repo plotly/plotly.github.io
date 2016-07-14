@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
 title: Choropleth Maps in Plotly 2.0
-subtitle: A map that uses differences in shading, coloring, or the placing of symbols within predefined areas to indicate the average values of a property or quantity in those areas.
+subtitle: A map that uses differences in coloring within predefined areas to indicate the average values of a variable within those areas.
 permalink: /make-a-choropleth-map/
 imageurl: ../static/images/choropleth-map-with-excel/choropleth-thumb.png
 state: active
@@ -33,7 +33,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Choropleth' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade."
       img: "![Choose chart main](../static/images/choropleth-map-with-excel/choropleth-chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘Choropleth', you should then fill out the locations and values dropdown to create the plot. Since our map has USA data, we'll select USA under the 'Location Format' and 'Map Region' fields. These sections are selected depending on your data."
+    - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘Choropleth', you should then fill out the locations and values dropdown to create the plot. The 'Location Format' field includes country names, country ISO-3 codes, and US state names. Since our map has USA data, we'll select USA under the 'Location Format' and 'Map Region' fields. These sections are selected depending on your data."
       img: "![Values dropdown](../static/images/choropleth-map-with-excel/choropleth-values.png)"
     - copy: "This will create a raw choropleth map as seen below."
       img: "![Raw plot](../static/images/choropleth-map-with-excel/choropleth-raw-plot.png)"
