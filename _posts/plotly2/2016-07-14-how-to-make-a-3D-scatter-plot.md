@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: 3D Scatter Plots in Plotly 2.0
 subtitle: Creat a plot that represents the relationship between three variables.
-permalink: /make-a-3D-scatter-plot/
+permalink: /3D-scatter-plots/
 imageurl: ../static/images/scatter-plot-3D/3D-scatter-thumb.png
 state: active
 tags: 3D charts
@@ -20,7 +20,7 @@ live-graph-image:
 steps: 
  - title: Try an Example
    sub-steps:
-    - copy: "A 3D scatterplot graphs the data values of three continuous variables against each other on the x-, y-, and z-axes."
+    - copy: "A 3D scatterplot graphs the data values of three variables against each other on the x, y, and z axes."
     - copy: "After selecting '3D Scatter' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific plot, as well as the end result."
       img: "![Example Scatter](../static/images/scatter-plot-3D/3D-scatter-example.png)"
  
@@ -33,7 +33,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Scatter' under 'Chart type'."
       img: "![Choose chart main](../static/images/scatter-plot-3D/3D-scatter-chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘3D Scatter', you should then fill out the X, Y, and Z values dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your values to your map. After selecting ‘3D Scatter', you should then fill out the X, Y, and Z dropdowns to create the plot."
       img: "![Values dropdown](../static/images/scatter-plot-3D/3D-scatter-XYZ-values.png)"
     - copy: "This will create a raw 3D scatter plot as seen below."
       img: "![Raw plot](../static/images/scatter-plot-3D/3D-scatter-raw.png)"
@@ -43,11 +43,11 @@ steps:
     - copy: "You can choose your color, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
     - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Additionally, this section allows you to change the diameter of the points and also the symbol. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/scatter-plot-3D/3D-scatter-colour-panel.png)"
-    - copy: "To add a title to your map, you can type it directly on the title by double-clicking it."
+    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. The same can be done for the legend."
       img: "![Type directly title](../static/images/scatter-plot-3D/3D-scatter-type-title.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/scatter-plot-3D/3D-Scatter-title-panel.png)"
-    - copy: "The same can be done for the axis labels, and legend. Their 'Text' boxes are found in their own categories under STYLE."
+    - copy: "For adding axes labels, the 'Text' box is found in the 'Axes' section under STYLE. Note that you have to click on each X, Y, and Z text box to add its own label."
       img: "![Type directly axis](../static/images/scatter-plot-3D/3D-scatter-axes-title.png)"
 
  - title: Save and Share
