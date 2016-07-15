@@ -5,7 +5,7 @@ subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
 imageurl: ../static/images/enter-data-in-the-grid/enter-date-thumb.png
 state: active
-section: fundamentals
+tag: fundamentals
 order: 2
 meta_description: A tutorial on how to enter data in Plotly 2.0.
 popularity: featured
