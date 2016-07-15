@@ -53,7 +53,7 @@ steps:
       img: "![Colour and line](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-lines.gif)"  
     - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. "
       img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-title.png)"
-    - copy: "The same can be done for the axis labels and legend. We've added a break in the legend labels using HTML syntax, so that they appear in two separate lines. To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
+    - copy: "The same can be done for the axis labels and legend. We've added a break in the legend labels using HTML syntax so that they appear in two separate lines. To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
       img: "![Type directly axis](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-legend-labels.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-title-panel.png)"
