@@ -46,14 +46,14 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "We're almost done! Now it's time to choose the colour, text position or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
+    - copy: "We're almost done! Now it's time to choose the color, text position or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
     - copy: "To change the color of the lines and points, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-panel.png)"
     - copy: "We've made the values of Toothpaste A gray, and the values of the Toothpaste B turquoise. We've also added a very thin line through each scatter plot."
       img: "![Colour and line](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-lines.gif)"  
-    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it."
+    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. "
       img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-title.png)"
-    - copy: "The same can be done for the axis labels and legend."
+    - copy: "The same can be done for the axis labels and legend. We've added a break in the legend labels using HTML syntax, so that they appear in two separate lines. To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
       img: "![Type directly axis](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-legend-labels.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-title-panel.png)"
