@@ -6,7 +6,7 @@ permalink: /make-a-line-graph-or-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
 tags: basic
-order: 5
+order: 2.5
 meta_description: A tutorial on how to make a line or scatter graph in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
@@ -37,7 +37,7 @@ steps:
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/line-axes-panel.png)"
     - copy: "This will create a raw line graph as seen below."
       img: "![Raw chart](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-raw.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data on the x-axis. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
+    - copy: "For charts that have many values such as this one, we need to add more data to the plot. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
       img: "![Trace open](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-trace.png)"
     - copy: "You can add as many traces as you need, until your plot is complete! For this particular graph, we want to compare two different toothpastes for the prevention of caries development. Each toothpaste has a mean decayed, missing, and filled surfaces (DMFS) index, and a standard deviation DMFS index. We'll need four traces, and this is what the plot looks like after we've finished tracing."
       img: "![Finished traces](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-traces-finished.png)"
