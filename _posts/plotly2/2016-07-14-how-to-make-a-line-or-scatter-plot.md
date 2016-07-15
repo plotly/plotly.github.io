@@ -41,7 +41,7 @@ steps:
       img: "![Trace open](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-trace.png)"
     - copy: "You can add as many traces as you need, until your plot is complete! For this particular graph, we want to compare two different toothpastes for the prevention of caries development. Each toothpaste has a mean decayed, missing, and filled surfaces (DMFS) index, and a standard deviation DMFS index. We'll need four traces, and this is what the plot looks like after we've finished tracing."
       img: "![Finished traces](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-traces-finished.png)"
-    - copy: "To mix it up a bit, we'll have the mean DMFS as a line graph, and the standard deviation DMFS as a scatter plot. We do this by going to the same panel with the x and y values, hit the "Collapse All" button on the right-hand side of that panel, then open the trace we want to work on. In this case, it's the standard deviation value for toothpaste A and B. Click on 'Chart Type' and select 'Scatter Plot'."
+    - copy: "To mix it up a bit, we'll have the mean DMFS as a line graph, and the standard deviation DMFS as a scatter plot. We do this by going to the same panel with the x and y values, hit the 'Collapse All' button on the right-hand side of that panel, then open the trace we want to work on. In this case, it's the standard deviation value for toothpaste A and B. Click on 'Chart Type' and select 'Scatter Plot'."
       img: "![Finished plot](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-scatter-sd.gif)"
 
  - title: Style a Chart
