@@ -32,8 +32,6 @@ To enter dates directly in the grid, you’ll need to use the format:
 **yyyy-mm-dd HH:MM:SS.ssssss**
 Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. Your entry must include the four-digit year.
 
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/correct-date-formats.png">
-
 <div class="responsive-table">
 <table>
 <thead>
@@ -72,8 +70,6 @@ Note that the hour must be a number between 00 and 23, with hours 12 through 23 
 </div>
 
 You can truncate the fractional seconds to any number of digits. All other truncations require you to keep entire fields. Here are a few common mistakes to avoid.
-
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/incorrect-date-formats.png">
 
 <div class="responsive-table">
 
@@ -130,8 +126,6 @@ To change the number of values displayed on the time axis, use the **Ticks** tab
 If you don’t specify any **Custom date format**, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis. | ![Date format and time series](/static/images/dates-time-series-and-timestamp/zoom-level.gif)
 
 Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting).
-
-<img class="img-responsive-table" src="/static/images/dates-time-series-and-timestamp/common-date-formats.png">
 
 <div class="responsive-table">
 
