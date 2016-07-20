@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
 title: Scatter Ternary Plots in Plotly 2.0
-subtitle: A type of plot that depicts the composition of elements with respect to 3 variables on a triangular grid.
+subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-scatter-plot/
 imageurl: ../static/images/How-to-make-a-scatter-ternary-plot/thum-scatter-ternary.png
 state: active
 tags: scientific
-meta_description: A tutorial on how to make a filled ternary plot in Plotly 2.0.
+meta_description: A tutorial on how to make a scatter ternary plot in Plotly 2.0.
 popularity: featured
 order: 4
 carouselimageurl:
@@ -38,7 +38,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "To style your ternary plot, click on STYLE on the left-hand side menu of the workspace and play around with the styling of your plot."
-    - copy: "For example, to change the symbol depicting your traces or any other styling related to the data that you plotted, go to ‘Traces’ under the STYLE tab, and change the symbol associated to the points that you graphed. The 'Display' needs to be set to 'Points' in order to do so. Also, please note that certain colours and typefaces are available only on PRO. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "For example, to change the symbol depicting your traces or any other styling related to the data that you plotted, go to ‘Traces’ under the STYLE tab, and change the symbol associated to the points that you graphed. The 'Display' needs to be set to 'Points' in order to do so. Also, please note that certain colours and typefaces are available only with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Styling traces](../static/images/How-to-make-a-scatter-ternary-plot/styling.png)"
     - copy: "To change the Title, Axes and Trace names, you can do so directly on the graph by double-clicking on the corresponding area. Further styling is also possible under the 'Layout' and 'Axes' sections of the STYLE menu. Note that to style trace names, the 'Legend' needs to be set to visible, if it is not the case, go to the 'Legend' section under the STYLE menu and select the option 'Show'."
       img: "![Type directly title](../static/images/How-to-make-a-scatter-ternary-plot/titles.png)"
