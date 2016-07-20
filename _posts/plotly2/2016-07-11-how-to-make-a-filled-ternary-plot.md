@@ -8,6 +8,7 @@ state: active
 tags: scientific
 meta_description: A tutorial on how to make a filled ternary plot in Plotly 2.0.
 popularity: featured
+order: 5
 carouselimageurl:
 actioncall: How to Make a Filled Ternary Plot in Plotly 2.0
 
@@ -29,7 +30,7 @@ steps:
       img: "![Choose chart main](../static/images/How-to-make-a-filled-ternary-plot/select-ternary.png)"
     - copy: "Now you can map your data columns to the axes that they will represent on the ternary graph. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
       img: "![Plot Data](../static/images/How-to-make-a-filled-ternary-plot/data-plotting.png)"
-    - copy: "To add another trace (layer), create 3 more columns and populate them with your data for the next trace. You can also reuse the same columns, if relevant, on multiple traces. Once your data for the second trace is added, you will have to map your columns to axes for the second trace, just like we did for the first trace. To do so, click on the '+Trace' button in the upper right corner of the GRAPH panel. Assign the columns you've created for the second trace to their respective A, B, C axes. You should now see two traces on your scatter ternary plot."
+    - copy: "To add another trace (layer), create 3 more columns and populate them with your data for the next trace. You can also reuse the same columns, if relevant, on multiple traces. Once your data for the second trace is added, you will have to map your columns to axes for the second trace, just like we did for the first trace. To do so, click on the '+Trace' button in the upper right corner of the GRAPH panel. Assign the columns you've created for the second trace to their respective A, B, C axes. You should now see two traces on your filled ternary plot."
     - copy: "Tip: if you have multiple traces to add, the 'Collapse All' button may be useful to easily get back to the specific trace that you want to work on."
       img: "![Add Trace](../static/images/How-to-make-a-filled-ternary-plot/second-trace.png)"
 

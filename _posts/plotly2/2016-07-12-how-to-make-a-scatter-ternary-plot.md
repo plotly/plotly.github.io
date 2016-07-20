@@ -8,6 +8,7 @@ state: active
 tags: scientific
 meta_description: A tutorial on how to make a filled ternary plot in Plotly 2.0.
 popularity: featured
+order: 4
 carouselimageurl:
 actioncall: How to Make a Scatter Ternary Plot in Plotly 2.0
 
