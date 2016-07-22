@@ -9,7 +9,7 @@ tags: layout
 order: 1
 meta_description: A tutorial on how to style your plots in Plotly 2.0.
 popularity: featured
-carouselimageurl: ../static/images/styling-and-customizing-graphs/style-thumb.png
+carouselimageurl: 
 actioncall: How to Style Your Plots in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#layout-options) or [R](https://plot.ly/r/#layout-options).
