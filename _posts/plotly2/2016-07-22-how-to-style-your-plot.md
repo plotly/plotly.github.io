@@ -14,7 +14,6 @@ actioncall: How to Style Your Plots in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#layout-options) or [R](https://plot.ly/r/#layout-options).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/57.embed"></iframe>
 live-graph-image:
 
 steps: 
