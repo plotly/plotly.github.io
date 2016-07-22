@@ -4,7 +4,7 @@ title: Make a 3D Surface Plot Online
 permalink: /make-a-3D-surface-plot/
 imageurl: http://i.imgur.com/N0W4TY8.png
 state: active
-tags: graph3d
+tags: plotly1
 meta_description: Create a 3D surface plot online with Plotly. Plotly is the easiest way to graph your data online.
 actioncall: Make a Surface Plot
 ---
