@@ -5,7 +5,7 @@ subtitle: Create a plot that represents the relationship between three variables
 permalink: /make-a-3d-scatter-plot/
 imageurl: ../static/images/scatter-plot-3D/3D-scatter-thumb.png
 state: active
-tags: 3d charts
+tags: graph3d
 order: 1
 meta_description: A tutorial on how to make a 3D scatter plot in Plotly 2.0.
 popularity: featured
