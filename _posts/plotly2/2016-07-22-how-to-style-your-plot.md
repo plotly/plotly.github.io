@@ -41,7 +41,7 @@ steps:
     - copy: "If you're working with a bar chart or histogram, this is where you can change the size and spacing between each bar, as well as the bin size (the width of each bin on the number line) of your histogram. The two images below are examples of this."
       img: "![Traces bars](../static/images/styling-and-customizing-graphs/traces-bars.png)"
       img: "![Traces histogram](../static/images/styling-and-customizing-graphs/traces-histogram.png)"
-    - copy: "For plots that contain a colorscale (i.e. contour plots, heatmaps, choropleth maps, and 3D charts), this is where you'll find it. The heatmap has a 'Smoothing' option, which will create a continuous heatmap instead of color blocks."
+    - copy: "For plots that contain a colorscale (i.e. scatter plots, contour plots, heatmaps, choropleth maps, and 3D charts), this is where you'll find it. The heatmap has a 'Smoothing' option, which will create a continuous heatmap instead of color blocks."
       img: "![Traces smoothing](../static/images/styling-and-customizing-graphs/style-smoothing.gif)"
     - copy: "Plotly is all about interative charts, so you can hover over the plot to see the values of that plot. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', 'Z' or ‘Name' under 'Values Shown on Hover'."
       img: "![Hover values](../static/images/styling-and-customizing-graphs/values-on-hover.png)" 
