@@ -1,5 +1,5 @@
 ---
-layout: tutorial-single_layout.html
+layout: tutorial-single_layout
 title: Style Your Plots in Plotly 2.0
 subtitle: How to style your plots.
 permalink: /style-your-plots/
