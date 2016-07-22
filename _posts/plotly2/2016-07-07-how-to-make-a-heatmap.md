@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Heatmaps in Plotly 2.0
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors.
 permalink: /make-a-heatmap/
@@ -9,7 +9,7 @@ tags: scientific
 order: 2
 meta_description: A tutorial on how to make a heatmap in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Heatmap in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/11.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Heatmaps are one of the best visualization tools for dense point data."
@@ -47,8 +47,8 @@ steps:
       img: "![Smoothing before](../static/images/heat-map/heat-smoothing-before.png)"
     - copy: "This is when the 'Smoothing' option is selected."
       img: "![Smoothing after](../static/images/heat-map/heat-smoothing-after.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels and legend." 
-      img: "![Type directly title](../static/images/heat-map/heat-type-title.png)" 
+    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels and legend."
+      img: "![Type directly title](../static/images/heat-map/heat-type-title.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below. Note that certain typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Type in layout panel](../static/images/heat-map/heat-type-title-panel.png)"
 

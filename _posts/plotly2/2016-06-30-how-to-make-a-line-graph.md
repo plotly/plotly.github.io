@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Line Graphs in Plotly 2.0
 subtitle: Creating a graph that compares two variables.
 permalink: /make-a-line-graph/
@@ -9,7 +9,7 @@ tags: basic
 order: 2
 meta_description: A tutorial on how to make a line graph in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Line Graph in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/2.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "A line graph is a quick and simple way to connect each data point together."
@@ -28,7 +28,7 @@ steps:
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/line-graph-and-scatter-plot-with-excel/line-import-data.png)"
- 
+
  - title: Create Your Chart
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Line plot' under 'Chart type'."

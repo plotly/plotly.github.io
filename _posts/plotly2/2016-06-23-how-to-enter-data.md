@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: How to Add Data in Plotly 2.0
 subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
@@ -15,11 +15,11 @@ actioncall: How to Enter Data in Plotly 2.0
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/) or [R](https://plot.ly/r/getting-started/).
 
 
-steps: 
+steps:
  - title: Option 1 - Enter Your Data in the Grid
    sub-steps:
     - copy: "The first step to making any Plotly graph is adding data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
-    - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content." 
+    - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content."
       img: "![Enter data in grid](../static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 
  - title: Option 2 - Import Your Data File

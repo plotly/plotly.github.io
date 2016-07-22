@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Scatter Ternary Plots in Plotly 2.0
 subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-scatter-plot/

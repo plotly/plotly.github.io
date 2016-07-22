@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Pie Charts in Plotly 2.0
 subtitle: Create a circular statistical chart that is divided into slices.
 permalink: /make-a-pie-chart/
@@ -37,7 +37,7 @@ steps:
       img: "![Labels and values](../static/images/create-pie-chart/labels-and-values.png)"
     - copy: "This will create a raw pie chart, as seen below. It may not look perfect right away, but playing around with the style will get it there."
       img: "![Raw chart](../static/images/create-pie-chart/raw-chart-open-slices.png)"
- 
+
  - title: Style a Chart
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."

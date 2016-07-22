@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Histograms in Plotly 2.0
 subtitle: Create a graphical representation of the distribution of numerical data.
 permalink: /make-a-histogram/
@@ -9,7 +9,7 @@ tags: statistical
 order: 1
 meta_description: A tutorial on how to make a histogram in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Histogram in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).
@@ -17,13 +17,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/19.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Histograms are an estimate of the probability distribution of a continuous quantitative variable. If you'd like to know more about this type of plot, visit [this](http://help.plot.ly/histogram/) page for great information."
     - copy: "After selecting 'Histogram' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/make-a-histogram/try-an-example.png)"
- 
+
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."

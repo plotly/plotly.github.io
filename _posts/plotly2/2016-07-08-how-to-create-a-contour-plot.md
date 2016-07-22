@@ -1,7 +1,7 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Contour Plots in Plotly 2.0
-subtitle: Create a plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid. 
+subtitle: Create a plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid.
 permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/contour-thumb.png
 state: active
@@ -9,7 +9,7 @@ tags: scientific
 order: 3
 meta_description: A tutorial on how to make a contour plot in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Contour Plot in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/contour-plots/) or [R](https://plot.ly/r/contour-plots/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/13.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Contour plots portray data for three variables in two dimensions and contains a number of contour lines."
@@ -45,8 +45,8 @@ steps:
       img: "![Colourscale](../static/images/create-contour-plot.md/contour-colourscale-panel.png)"
     - copy: "You can also change the thickness and color of your contour lines in the THICKNESS bar. We've also played around with the number of contours of our plot."
       img: "![Contour lines](../static/images/create-contour-plot.md/contour-lines.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
-      img: "![Type directly title](../static/images/create-contour-plot.md/contour-type-title.png)" 
+    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
+      img: "![Type directly title](../static/images/create-contour-plot.md/contour-type-title.png)"
     - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly axis](../static/images/create-contour-plot.md/contour-axis-title.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below. Note that certain typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"

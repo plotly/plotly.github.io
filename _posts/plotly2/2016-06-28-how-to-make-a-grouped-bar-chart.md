@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Grouped Bar Charts in Plotly 2.0
 subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
 permalink: /grouped-bar-chart/
@@ -9,7 +9,7 @@ tags: basic
 order: 3
 meta_description: A tutorial on how to make a grouped bar chart in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Grouped Bar Chart in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#grouped-bar-chart) or [R](https://plot.ly/r/bar-charts/#grouped-bar-chart).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~ellecj/21.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "A bar chart presents grouped data with rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally."
@@ -49,8 +49,8 @@ steps:
       img: "![Grouped bar](../static/images/bar-graph/grouped-bars.png)"
     - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
-      img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)" 
+    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
+      img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)"
     - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly legend](../static/images/bar-graph/group-legend-label.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."

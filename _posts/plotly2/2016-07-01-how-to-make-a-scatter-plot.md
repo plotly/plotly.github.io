@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Scatter Plots in Plotly 2.0
 subtitle: A type of plot that shows the relationship between two variables.
 permalink: /how-to-make-a-scatter-plot/
@@ -9,7 +9,7 @@ tags: basic
 order: 1
 meta_description: A tutorial on how to make a scatter plot in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Scatter Plot in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/4.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Scatter plots show how much one variable is affected by another."

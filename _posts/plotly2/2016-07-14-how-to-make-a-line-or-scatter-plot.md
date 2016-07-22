@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Line or Scatter Graphs in Plotly 2.0
 subtitle: Create a graph with multiple traces.
 permalink: /make-a-line-graph-or-scatter-plot/
@@ -9,7 +9,7 @@ tags: basic
 order: 2.5
 meta_description: A tutorial on how to make a line or scatter graph in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Line or Scatter Graph in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/38.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "If you want to make a graph with multiple traces and need a little help, this tutorial is for you!"
@@ -50,7 +50,7 @@ steps:
     - copy: "To change the color of the lines and points, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-panel.png)"
     - copy: "We've made the values of Toothpaste A gray, and the values of the Toothpaste B turquoise. We've also added a very thin line through each scatter plot."
-      img: "![Colour and line](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-lines.gif)"  
+      img: "![Colour and line](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-lines.gif)"
     - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. "
       img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-title.png)"
     - copy: "The same can be done for the axis labels and legend. We've added a break in the legend labels using HTML syntax so that they appear in two separate lines. To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
