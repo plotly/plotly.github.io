@@ -1,7 +1,7 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Error bars in Plotly 2.0
-subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement. 
+subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement.
 permalink: /make-a-graph-with-error-bars/
 imageurl: ../static/images/graph-with-error-bars/error-bar-thumb.png
 state: active
@@ -9,7 +9,7 @@ tags: scientific
 order: 1
 meta_description: A tutorial on how to make a graph with error bars in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Graph with Error Bars in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).
@@ -17,13 +17,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/27.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Error bars give a general idea of how precise a measurement is, or how far from the reported value the true (error free) value might be."
     - copy: "After selecting 'Error Bars' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific chart, as well as the end result. This is an example of error bars in a scatter chart."
       img: "![Example Scatter](../static/images/graph-with-error-bars/error-bar-example-scatter.png)"
- 
+
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
@@ -44,7 +44,7 @@ steps:
     - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/graph-with-error-bars/error-bar-colour.png)"
     - copy: "Additionally, this section allows you to change the diameter of the points and also the symbol."
-      img: "![Error bar points](../static/images/graph-with-error-bars/error-bars-points.gif)"  
+      img: "![Error bar points](../static/images/graph-with-error-bars/error-bars-points.gif)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/graph-with-error-bars/error-bar-title.png)"
     - copy: "The same can be done for the axis labels, and legend."

@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Choropleth Maps in Plotly 2.0
 subtitle: A map that uses differences in coloring within predefined areas to indicate the average values of a variable within those areas.
 permalink: /make-a-choropleth-map/
@@ -9,7 +9,7 @@ tags: maps
 order: 1
 meta_description: A tutorial on how to make a choropleth map in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Choropleth Map in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/choropleth-maps/) or [R](https://plot.ly/r/choropleth-maps/).
@@ -17,13 +17,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/31.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "A choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region."
     - copy: "After selecting 'Choropleth' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what locations, values, and style attributes were selected for this specific map, as well as the end result."
       img: "![Example Scatter](../static/images/choropleth-map-with-excel/choropleth-example.png)"
- 
+
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."

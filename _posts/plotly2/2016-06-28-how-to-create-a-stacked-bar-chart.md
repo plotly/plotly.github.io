@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Stacked Bar Charts in Plotly 2.0
 subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
 permalink: /stacked-bar-chart/
@@ -26,7 +26,7 @@ steps:
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/bar-graph/import-data-main.png)"    
+      img: "![Import data main](../static/images/bar-graph/import-data-main.png)"
 
  - title: Create a Chart
    sub-steps:
@@ -48,7 +48,7 @@ steps:
       img: "![Stacked chart](../static/images/bar-graph/stacked-chart.png)"
     - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Stacked colour fill](../static/images/bar-graph/stacked-colour-fill.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it." 
+    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
       img: "![Type directly title](../static/images/bar-graph/type-directly-on-title.png)"
     - copy: "The same can be done for the axis labels, and legend."
       img: "![Type directly legend](../static/images/bar-graph/legend-titles.png)"

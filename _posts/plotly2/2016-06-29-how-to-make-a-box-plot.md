@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: Box Plots in Plotly 2.0
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
@@ -9,7 +9,7 @@ tags: statistical
 order: 2
 meta_description: A tutorial on how to make a box plot in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a Box Plot in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
@@ -17,7 +17,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/0.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "Box plots may have lines extending vertically from the boxes, or whiskers, indicating variability outside the upper and lower quartiles. This type of plot is also known as a box-and-whisker plot or box-and-whisker diagram."

@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: 3D Scatter Plots in Plotly 2.0
 subtitle: Create a plot that represents the relationship between three variables.
 permalink: /make-a-3d-scatter-plot/
@@ -9,7 +9,7 @@ tags: 3D charts
 order: 1
 meta_description: A tutorial on how to make a 3D scatter plot in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Make a 3D Scatter Plot in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-scatter-plots/) or [R](https://plot.ly/r/3d-scatter-plots/).
@@ -17,13 +17,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/33.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Try an Example
    sub-steps:
     - copy: "A 3D scatterplot graphs the data values of three variables against each other on the x, y, and z axes."
     - copy: "After selecting '3D Scatter' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific plot, as well as the end result."
       img: "![Example Scatter](../static/images/scatter-plot-3D/3D-scatter-example.png)"
- 
+
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."

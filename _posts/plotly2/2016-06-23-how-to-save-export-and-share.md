@@ -1,5 +1,5 @@
 ---
-layout: excel-tutorial-single_layout
+layout: tutorial-single_layout
 title: How to Save, Export, and Share in Plotly 2.0
 subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
@@ -9,12 +9,12 @@ tags: fundamentals
 order: 4
 meta_description: A tutorial on how to save, export, and share in Plotly 2.0.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to Save, Export, and Share in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#static-image-export) or [R](https://plot.ly/r/#static-image-export).
 
-steps: 
+steps:
  - title: Save Your Plot
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
