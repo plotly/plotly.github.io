@@ -34,7 +34,7 @@ steps:
 
  - title: Traces
    sub-steps: 
-    - copy: "The 'Traces' tab is a section to edit style attributes of the charts' values or data. For basic plots such as line and scatter, this is where you change the color and thickness of your lines. You can also play with the color, diameter and symbol of your points."
+    - copy: "The 'Traces' tab is a section to edit style attributes of the chart's values or data. For basic plots such as line and scatter, this is where you change the color and thickness of your lines. You can also play with the color, diameter and symbol of your points."
       img: "![Traces line and scatter](../static/images/styling-and-customizing-graphs/style-traces-line.gif)"
     - copy: "Your lines don't have to plain straight ones! Click on the TYPE dropdown to see the different dashes to spruce up your plot. The same can be done in a contour plot."
       img: "![Traces dashes](../static/images/styling-and-customizing-graphs/style-traces-dashes.gif)"  
@@ -69,7 +69,7 @@ steps:
       img: "![Axes labels](../static/images/styling-and-customizing-graphs/style-axes-title.png)" 
     - copy: "To change the range of your axes, you'll need to visit the 'Range' sub-tab. Ths includes reversing the axis by flipping the min/max values. You can also leave the range selection as auto, or click on 'Custom' and add the unix timestamps in the 'X-MIN' and 'X-MAX' fields under 'Selection'. The range and axis specifications are done in unix timestamps."
       img: "![Axes range](../static/images/dates-time-series-and-timestamp/time-range.png)"
-    - copy: "If you're dealing with time series data and need a little help in editing date axes, visit [this](http://help.plot.ly/make-a-time-series-graph/) page.
+    - copy: "If you're dealing with time series data and need a little help in editing date axes, visit [this](http://help.plot.ly/make-a-time-series-graph/) page."
     - copy: "Another option is to select 'Custom' in the same section, and enter the number of markers you want to show on your plot. If your plot sets the dates as biannual, but you want to show every consecutive year, this is the other place to set that up."
       img: "![Axes panel](../static/images/dates-time-series-and-timestamp/time-tick-marker.png)"
     - copy: "Let's go back a few sub-tabs, to 'Lines'. This is where you can add grid lines and zero lines to your plot. You have the option of selecting 'All' for both your x and y axes, or select them individually. If you click on 'Show' under the first 'Line', you can position these lines at the top or bottom, or left or right of your plot. The 'Grid Lines' option displays a grid behind your graph. The zero line shows where '0' is on your plot, which could be helpful if you have both positive and negative values. You can choose the thickness and color for all these lines."
