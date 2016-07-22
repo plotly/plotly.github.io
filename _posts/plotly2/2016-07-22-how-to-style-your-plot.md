@@ -12,13 +12,15 @@ popularity: featured
 carouselimageurl: ../static/images/styling-and-customizing-graphs/style-thumb.png
 actioncall: How to Style Your Plots in Plotly 2.0
 
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#layout-options) or [R](https://plot.ly/r/#layout-options).
+
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/57.embed"></iframe>
 live-graph-image:
 
 steps: 
  - title: Getting Started
    sub-steps:
-    - copy: "You've added your data, you've chosen your chart type, but how do you style your plot?"
+    - copy: "You've [added your data](http://help.plot.ly/add-data-to-the-plotly-grid/), you've [chosen your chart type](http://help.plot.ly/tutorials/#basic), but how do you style your plot?"
     - copy: "For this styling tutorial, we'll be looking at different chart types and using various examples. If you've chosen a chart type but don't have specific data to work with, click the 'try an example' button to get a sample chart."
       img: "![Getting started](../static/images/styling-and-customizing-graphs/getting-started.gif)"
 
@@ -32,21 +34,21 @@ steps:
 
  - title: Traces
    sub-steps: 
-    - copy: "The 'Traces' section displays the attributes of the values and/or labels of your chart. For basic plots such as line and scatter, this is where you change the color and thickness of your lines. You can also play with the color, diameter and symbol of your points."
+    - copy: "The 'Traces' tab is a section to edit style attributes of the charts' values or data. For basic plots such as line and scatter, this is where you change the color and thickness of your lines. You can also play with the color, diameter and symbol of your points."
       img: "![Traces line and scatter](../static/images/styling-and-customizing-graphs/style-traces-line.gif)"
     - copy: "Your lines don't have to plain straight ones! Click on the TYPE dropdown to see the different dashes to spruce up your plot. The same can be done in a contour plot."
       img: "![Traces dashes](../static/images/styling-and-customizing-graphs/style-traces-dashes.gif)"  
     - copy: "If you're working with a bar chart or histogram, this is where you can change the size and spacing between each bar, as well as the bin size (the width of each bin on the number line) of your histogram. The two images below are examples of this."
       img: "![Traces bars](../static/images/styling-and-customizing-graphs/traces-bars.png)"
       img: "![Traces histogram](../static/images/styling-and-customizing-graphs/traces-histogram.png)"
-    - copy: "For maps, contour plots and choropleths, this is where you'll find the colorscale. The heatmap has a 'Smoothing' option, which will create a continuous heatmap instead of color blocks."
+    - copy: "For plots that contain a colorscale (i.e. contour plots, heatmaps, choropleth maps, and 3D charts), this is where you'll find it. The heatmap has a 'Smoothing' option, which will create a continuous heatmap instead of color blocks."
       img: "![Traces smoothing](../static/images/styling-and-customizing-graphs/style-smoothing.gif)"
     - copy: "Plotly is all about interative charts, so you can hover over the plot to see the values of that plot. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', 'Z' or ‘Name' under 'Values Shown on Hover'."
       img: "![Hover values](../static/images/styling-and-customizing-graphs/values-on-hover.png)" 
 
  - title: Layout
    sub-steps:    
-    - copy: "The 'Layout' area is where you choose your colors, text position, or typeface. Certain colors and typeface are only available with a PRO subscription, so click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "The 'Layout' area is where you choose your colors, text position, or typeface. Certain colors and typeface are only available with a PRO subscription; click [here](https://plot.ly/products/cloud/) to upgrade!"
     - copy: "The 'Canvas' tab is the background of your plot. You can change the width and height of your plot, as well as the background color."
       img: "![Canvas](../static/images/styling-and-customizing-graphs/style-canvas-.png)" 
     - copy: "When you click on the background color field, this is what appears."   
@@ -65,10 +67,9 @@ steps:
    sub-steps:     
     - copy: "The 'Axes' section has sub-tabs that relate to the values and labels of your plot. The 'Titles' sub-tab is where you can label your axes by clicking on 'All', 'X', or 'Y', and just like the plot title, you're also able to change the font, font color and font size of the axes labels."
       img: "![Axes labels](../static/images/styling-and-customizing-graphs/style-axes-title.png)" 
-    - copy: "To change the range of your axes, you'll need to visit the 'Range' sub-tab. You can leave it as auto, or click on 'Custom' and add the unix timestamps in the 'X-MIN' and 'X-MAX' fields under 'Selection. The range and axis specifications are done in unix timestamps."
+    - copy: "To change the range of your axes, you'll need to visit the 'Range' sub-tab. Ths includes reversing the axis by flipping the min/max values. You can also leave the range selection as auto, or click on 'Custom' and add the unix timestamps in the 'X-MIN' and 'X-MAX' fields under 'Selection'. The range and axis specifications are done in unix timestamps."
       img: "![Axes range](../static/images/dates-time-series-and-timestamp/time-range.png)"
-    - copy: "What does this mean? Say your plot shows a tick every two years, but you need the x-axis to show a tick mark every year. You have to set that step size and step offset variable, and to set those values, we need to use the unix timestamp. When you work with axis specifications, you have to convert the date to unix time in milliseconds for the step size, using [this](http://www.timestampconvert.com/) tool to convert our dates. Go to the 'Tick Markers' sub-tab, then select 'Linear' under 'Number of Markers', then add the unix timestamp to the step size and step offset fields."
-      img: "![Time step size](../static/images/dates-time-series-and-timestamp/time-step-size.png)" 
+    - copy: "If you're dealing with time series data and need a little help in editing date axes, visit [this](http://help.plot.ly/make-a-time-series-graph/) page.
     - copy: "Another option is to select 'Custom' in the same section, and enter the number of markers you want to show on your plot. If your plot sets the dates as biannual, but you want to show every consecutive year, this is the other place to set that up."
       img: "![Axes panel](../static/images/dates-time-series-and-timestamp/time-tick-marker.png)"
     - copy: "Let's go back a few sub-tabs, to 'Lines'. This is where you can add grid lines and zero lines to your plot. You have the option of selecting 'All' for both your x and y axes, or select them individually. If you click on 'Show' under the first 'Line', you can position these lines at the top or bottom, or left or right of your plot. The 'Grid Lines' option displays a grid behind your graph. The zero line shows where '0' is on your plot, which could be helpful if you have both positive and negative values. You can choose the thickness and color for all these lines."
@@ -86,6 +87,8 @@ steps:
 
  - title: Tips and Tricks
    sub-steps: 
+    - copy: "If your plot has multiple traces, some panels can get a little messy. The 'Collapse All' button found at the top left-hand side of these panels organize this part of your workspace. You can then open each trace or sub-tab to view them individually, or hit 'Expand All'."
+      img: "![Collapse All](../static/images/styling-and-customizing-graphs/style-collapse-all.gif)" 
     - copy: "Did you know that you can also use HTML syntax to your title and labels? To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
 ---
 
