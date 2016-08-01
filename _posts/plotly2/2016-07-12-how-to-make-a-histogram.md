@@ -14,7 +14,7 @@ actioncall: How to Make a Histogram in Plotly 2.0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/19.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/88.embed"></iframe>
 live-graph-image:
 
 steps:
