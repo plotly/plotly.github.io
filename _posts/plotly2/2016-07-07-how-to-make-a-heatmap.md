@@ -11,6 +11,7 @@ meta_description: A tutorial on how to make a heatmap in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Heatmap in Plotly 2.0
+actioncall-url: https://plot.ly/14788/~jackp/?plot_type=Bubble%20chart
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).
 
