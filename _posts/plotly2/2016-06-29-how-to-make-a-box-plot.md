@@ -11,6 +11,7 @@ meta_description: A tutorial on how to make a box plot in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Box Plot in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:0
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
 
