@@ -11,6 +11,7 @@ popularity: featured
 order: 5
 carouselimageurl:
 actioncall: How to Make a Filled Ternary Plot in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:21
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-contour/),  [Javascript](https://plot.ly/javascript/ternary-contour/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
 
