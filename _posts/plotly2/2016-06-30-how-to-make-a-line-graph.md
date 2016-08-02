@@ -11,6 +11,7 @@ meta_description: A tutorial on how to make a line graph in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Line Graph in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:2
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
 
