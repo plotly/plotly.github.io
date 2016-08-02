@@ -11,6 +11,7 @@ popularity: featured
 order: 4
 carouselimageurl:
 actioncall: How to Make a Scatter Ternary Plot in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:29
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-plots/),  [Javascript](https://plot.ly/javascript/ternary-plots/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
 
