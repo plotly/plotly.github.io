@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
 actioncall: How to create a pie chart in Plotly 2.0
-actioncall-url: https://plot.ly/alpha/workspace/?fid=ellecj:17
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:97
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/pie-charts/) or [R](https://plot.ly/r/pie-charts/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~ellecj/17.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/97.embed"></iframe>
 live-graph-image:
 
 steps:
