@@ -11,6 +11,7 @@ meta_description: A tutorial on how to make a graph with error bars in Plotly 2.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Graph with Error Bars in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:27
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).
 
