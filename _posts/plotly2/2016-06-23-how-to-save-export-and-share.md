@@ -22,7 +22,7 @@ steps:
     - copy: "You have the option of saving your PLOT and DATA as PUBLIC or PRIVATE. For more information on how sharing works, including the difference between private, public and secret sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/)."
       img: "![Save pop-up](../static/images/how-to-save-export-and-share/Save_Pop_Up.png)"
 
- - title: Export Your Data
+ - title: Export Your Data as a Static Image
    sub-steps:
     - copy: "Once you’ve saved your plot, you can export it."
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/Export_Main_Screen.png)"
@@ -30,6 +30,20 @@ steps:
     - copy: "Choose the size as displayed, or the custom size of your chart."
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/Export_Tab.png)"
     - copy: "Click on DOWNLOAD to save it onto your computer."
+
+- title: Export Your Plot as an HTML File
+   sub-steps:
+    - copy: "Click on EXPORT, and then the HTML tab of the panel that appears. You have the option of selecting 'DOWNLOAD AS ZIP ARCHIVE' or 'DOWNLOAD AS HTML FILE'."
+      img: "![Export html](../static/images/how-to-save-export-and-share/export-html.png)"
+
+- title: Export Your Data
+   sub-steps:
+    - copy: "To export your data in a CSV file, visit your Organized page. You can locate it by typing the following on your address bar: 'http://plot.ly/~YOURUSERNAME'. Hover over your plot and click 'View Plot'."
+      img: "![View plot](../static/images/how-to-save-export-and-share/export-viewplot.png)"
+    - copy: "Click on the blue 'Export' button just above your plot, and scroll down the tab and click on 'CSV'."
+      img: "![Export csv](../static/images/how-to-save-export-and-share/export-csv.png)"
+    - copy: "Your CSV file will open in another tab."
+      img: "![CSV file](../static/images/how-to-save-export-and-share/csv-file.png)"
 
  - title: Share Your Plot
    sub-steps:
