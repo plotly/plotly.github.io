@@ -1,0 +1,40 @@
+main.page {
+  &--no-sidebar {
+    padding: 0 10%;
+    padding-top: 140px;
+    padding-bottom:$unit*4;
+    max-width: $max-width;
+    margin:0 auto;
+    h1{
+      font-weight:300;
+      font-size:3rem;
+      color: $blue;
+    }
+    h2{
+      font-size:2rem;
+      font-weight:400;
+      color: rgba(black, 0.75);
+      border-left:10px solid rgba(black, 0.08);
+      padding-left:$unit;
+    }
+    section.page--content{
+
+      color: rgba(black, 0.85);
+
+      @include desktop{
+        max-width:75%;
+      }
+      font-size:16px;
+      font-weight:400;
+      line-height:1.7;
+      p{
+        font-size:16px;
+      }
+
+      ul{
+        list-style: disc;
+        margin-left:$unit*2;
+      }
+    }
+  }
+}
