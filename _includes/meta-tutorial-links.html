@@ -1,8 +1,12 @@
 <!-- meta-tutorial-links // alt language option + download and make buttons -->
-<div class="program">
-	{% for this in page.otherlang %} {{ this | markdownify }} {% endfor %}
-</div>
+
 <div class="button-wrap">
+
+	<a href="{{page.actioncall-url}}" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
+		Open This Data in Plotly
+		<paper-ripple fit></paper-ripple>
+	</a>
+
 	{% if page.layout.includes('connectors') %}
 
 	<a href="https://github.com/plotly/electron-sql-connector/releases" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
@@ -13,14 +17,6 @@
 		Vote For the Next Database!
 		<paper-ripple fit></paper-ripple>
 	</a>
-
-	{% else %}
-
-	<a href="{{page.actioncall-url}}" class="make buttonM" style="color:white; background: #2391fe;" target="_blank">
-		Open Data in Plotly
-		<paper-ripple fit></paper-ripple>
-	</a>
-
 	{% endif %}
 
 	{% if page.download-url %}
@@ -29,4 +25,8 @@
 		<paper-ripple fit></paper-ripple>
 	</a>
 	{% endif %}
+</div>
+
+<div class="program">
+	{% for this in page.otherlang %} {{ this | markdownify }} {% endfor %}
 </div>
