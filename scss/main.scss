@@ -1,8 +1,5 @@
-////abstract
 @import "_abstract/_abstract";
 
-//
-////components
 @import "_components/_base";
 @import "_components/_header";
 @import "_components/_foot";
@@ -12,12 +9,11 @@
 
 @import "_components/element.hamburger";
 
-//
-////pages
 @import "_pages/_home";
 @import "_pages/_tutorial-index";
 @import "_pages/_tutorial-single";
 @import "_pages/pages.tutorial.single";
+@import "_pages/page.support";
 
 
 @import url(http://help.plot.ly/stylesheets/plotly_icons.css);
