@@ -3491,8 +3491,10 @@ ul.\--ref {
           font-size: 1.25rem;
           font-weight: 300; }
           .\--tutorial-index .\--tutorial-section ul li .\--item-image span::before {
-            -webkit-transition: 0.2s transform ease-in-out  0.15s;
+            -webkit-transition: 0.2s -webkit-transform ease-in-out  0.15s;
+            transition: 0.2s -webkit-transform ease-in-out  0.15s;
             transition: 0.2s transform ease-in-out  0.15s;
+            transition: 0.2s transform ease-in-out  0.15s, 0.2s -webkit-transform ease-in-out  0.15s;
             -webkit-transform-origin: left;
             -ms-transform-origin: left;
             transform-origin: left;
@@ -3842,8 +3844,10 @@ body {
           -webkit-transform: scaleX(0);
           -ms-transform: scaleX(0);
           transform: scaleX(0);
-          -webkit-transition: 0.2s transform ease-in-out 0.15s;
-          transition: 0.2s transform ease-in-out 0.15s; }
+          -webkit-transition: 0.2s -webkit-transform ease-in-out 0.15s;
+          transition: 0.2s -webkit-transform ease-in-out 0.15s;
+          transition: 0.2s transform ease-in-out 0.15s;
+          transition: 0.2s transform ease-in-out 0.15s, 0.2s -webkit-transform ease-in-out 0.15s; }
       .\--tutorial-section:not(.no-image) .\--grid-item .\--item-image img {
         -webkit-transition: 0.2s ease-in-out all;
         transition: 0.2s ease-in-out all;
@@ -4160,3 +4164,33 @@ img {
 
 .live-plot {
   margin-bottom: 20px; }
+
+main.page--no-sidebar {
+  padding: 0 10%;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  max-width: 1400px;
+  margin: 0 auto; }
+  main.page--no-sidebar h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    color: #447bdc; }
+  main.page--no-sidebar h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.75);
+    border-left: 10px solid rgba(0, 0, 0, 0.08);
+    padding-left: 10px; }
+  main.page--no-sidebar section.page--content {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7; }
+    @media (min-width: 1024px) {
+      main.page--no-sidebar section.page--content {
+        max-width: 75%; } }
+    main.page--no-sidebar section.page--content p {
+      font-size: 16px; }
+    main.page--no-sidebar section.page--content ul {
+      list-style: disc;
+      margin-left: 20px; }
