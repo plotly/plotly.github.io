@@ -1,6 +1,6 @@
 ---
 permalink: /security-advisories/2016-08-04-sample-advisory/
-title: Plotly Security Advisory: Sample
+title: Plotly Security Advisory - Sample
 layout: single_new
 support: true
 ---
