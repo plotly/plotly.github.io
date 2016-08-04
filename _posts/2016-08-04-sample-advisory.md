@@ -30,6 +30,6 @@ On-Premise customers.
 
 ## General notes regarding security reporting
 
-Please send all security reports concerning Plotly security products to security@plot.ly.
+Please send all security reports concerning Plotly security products to [security@plot.ly](mailto:security@plot.ly).
 
 [Return to the main Plotly Security Advisories page](http://help.plot.ly/security-advisories/)
