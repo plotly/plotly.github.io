@@ -11,10 +11,4 @@ If you have believe that you have found a security vulnerability, please report 
 
 If you need further control over your data and your users for your company, consider [Plotly On-Premise](https://plot.ly/product/enterprise/) for installing Plotly behind your firewall.
 
-### plotly.js security policy
-
-The [plotly.js](https://github.com/plotly/plotly.js/), the open source graphing library that powers Plotly Cloud and Plotly On-Premise,
-
-#### 2015-08-03 - Security Issue Found (example advisory)
-
-<!-- Fill out details here -->
+#### 2015-08-01 - [Sample Advisory](http://help.plot.ly/security-advisories/2016-08-04-sample-advisory/)
