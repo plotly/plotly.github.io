@@ -5,10 +5,8 @@ layout: single_new
 support: true
 ---
 
-# Plotly Security Advisory: Sample
-
-This is an example security advisory, to test our site layout and provide a template for when we need to release a real
-advisory.
+**This is an example security advisory, to test our site layout and provide a template for when we need to release a real
+advisory.**
 
 ## CVE-2016-0000
 
