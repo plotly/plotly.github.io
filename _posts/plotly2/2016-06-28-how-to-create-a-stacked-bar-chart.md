@@ -23,6 +23,8 @@ steps:
     - copy: "Use a stacked bar chart when you have multiple groupings and are interested in the proportions between values in each grouping, as well as each grouping's total."
     - copy: "After selecting 'Bar chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/bar-graph/try-an-example-after.png)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
    sub-steps:
