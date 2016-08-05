@@ -84,11 +84,17 @@ steps:
     - copy: "The 'Shapes' section is where you can add shapes to your plot. Click the blue '+ Shape' button on the top right-hand side. You have a few options to choose from, including vertical and horizontal lines and bands, custom lines and rectangles, and circles. Below, we show you how to add a circle to your graph."
       img: "![Shapes](../static/images/styling-and-customizing-graphs/style-shapes.gif)"   
 
+ - title: Images
+   sub-steps: 
+    - copy: "Do you have an image or logo in mind and want to add it to your plot? The 'Images' section is where to go."
+      img: "![Images](../static/images/how-to-add-a-logo/images-tab.png)"
+    - copy: "Once that panel opens, click on the blue '+ Image' button at the top right-hand side to upload or drag and drop your image."
+      img: "![Add image](../static/images/how-to-add-a-logo/add-image.png)"
+    - copy: "You can play with the positioning and anchoring of your image so it appears exactly where you want it to be. For more information on how to do this, check out [this]() tutorial!"
+
  - title: Tips and Tricks
    sub-steps: 
     - copy: "If your plot has multiple traces, some panels can get a little messy. The 'Collapse All' button found at the top left-hand side of these panels organize this part of your workspace. You can then open each trace or sub-tab to view them individually, or hit 'Expand All'."
       img: "![Collapse All](../static/images/styling-and-customizing-graphs/style-collapse-all.gif)" 
     - copy: "Did you know that you can also use HTML syntax to your title and labels? To learn more about HTML and how to add tags and codes to your text, visit [this](http://help.plot.ly/adding-HTML-and-links-to-charts/) page!"
 ---
-
-
