@@ -10,7 +10,7 @@ order: 2
 meta_description: A tutorial on how to add a logo to your plots in Plotly 2.0.
 popularity: featured
 carouselimageurl: 
-actioncall: How to Style Your Plots in Plotly 2.0
+actioncall: How to Add a Logo in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:119
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/logos/) or [R](https://plot.ly/r/logos/).
