@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Make a Plot from Excel in Plotly 2.0
 subtitle: How to make a plot from Excel in Plotly 2.0
 permalink: /make-a-plot-from-excel/
-imageurl: ../static/images/enter-data-in-the-grid/upload-data.png
+imageurl: ../static/images/enter-data-in-the-grid/excel-thumb.png
 state: active
 tags: fundamentals
 order: 2.5
