@@ -90,7 +90,7 @@ steps:
       img: "![Images](../static/images/how-to-add-a-logo/images-tab.png)"
     - copy: "Once that panel opens, click on the blue '+ Image' button at the top right-hand side to upload or drag and drop your image."
       img: "![Add image](../static/images/how-to-add-a-logo/add-image.png)"
-    - copy: "You can play with the positioning and anchoring of your image so it appears exactly where you want it to be. For more information on how to do this, check out [this]() tutorial!"
+    - copy: "You can play with the positioning and anchoring of your image so it appears exactly where you want it to be. For more information on how to do this, check out [this](http://help.plot.ly/logos/) tutorial!"
 
  - title: Tips and Tricks
    sub-steps: 
