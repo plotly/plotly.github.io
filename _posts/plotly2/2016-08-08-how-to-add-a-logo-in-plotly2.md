@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Adding a Logo in Plotly 2.0
+title: Add a Logo in Plotly 2.0
 subtitle: How to add a logo to your plots.
 permalink: /logos/
 imageurl: ../static/images/how-to-add-a-logo/image-thumbnail.png
