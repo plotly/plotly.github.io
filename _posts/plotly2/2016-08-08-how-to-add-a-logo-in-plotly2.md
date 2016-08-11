@@ -28,7 +28,7 @@ steps:
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
 steps: 
- - title: Adding an Image
+ - title: Add an Image
    sub-steps:      
     - copy: "Click on STYLE and then the 'Images' tab at the bottom."
       img: "![Images tab](../static/images/how-to-add-a-logo/images-tab.png)"
