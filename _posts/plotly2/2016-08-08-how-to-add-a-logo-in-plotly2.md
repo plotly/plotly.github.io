@@ -34,8 +34,14 @@ steps:
       img: "![Images tab](../static/images/how-to-add-a-logo/images-tab.png)"
     - copy: "Once that panel opens, click on the blue '+ Image' button at the top right-hand side. This is where you upload or drag and drop your image."
       img: "![Add image](../static/images/how-to-add-a-logo/add-image.png)"
+
+ - title: Resize an Image
+   sub-steps:  
     - copy: "Your image will appear on the plot. You can resize the image by keeping the dimensions as is and selecting 'Contain', or choosing to 'Stretch' it. There's also the possibility of changing the width and height of the image."
       img: "![Logo ratio](../static/images/how-to-add-a-logo/logo-ratio.gif)"
+
+ - title: Position an Image
+   sub-steps: 
     - copy: "You can move your image below or above the grid by selecting your preference next to RELATIVE POSITION. 'Below the grid' means the image will hide behind it, depending where you vertically anchor the image. You can also change the opacity of the image, and for this plot we have it at 100%. Depending on your background colour, if you place the image behind the grid, you won't see it until changing the background opacity."
       img: "![Relative position](../static/images/how-to-add-a-logo/image-relative-position.gif)"
     - copy: "Your image can be positioned horizontally relative to the canvas or axis, the canvas being the section of your plot within the margins. It can then be anchored to the right, center, or left of your canvas or axis."
