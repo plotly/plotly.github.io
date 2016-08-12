@@ -29,6 +29,7 @@ This 4-step tutorial will show you how to make the graph below from a simple dat
 
 Upload a spreadsheet to the &#8216;Grid&#8217; either by copy-pasting the cells you want from your spreadsheet, or by uploading that sheet using the &#8216;Add Data&#8217; button. Plotly supports: CSV, Excel, Google Drive and Dropbox. For comparison, or if you would like to skip this step, you can access my data already loaded to the grid, [here](https://plot.ly/~cimar/32).
 
+
 In this data from a simulated free-fall experiment, we controlled distance and measured time, but we're actually interested in acceleration &#8212; the change in velocity over time. So we&#8217;re plotting time as &#8216;x&#8217; and velocity as &#8216;y&#8217;. The slope of this trend line will give us the gravitational constant.
 
 For a scatter plot we need an independent and dependent variable &#8212; i.e. a column of **x-coordinates** and a column of associated **y-coordinates**.To select a column as your independent variable, click **&#8220;choose as x&#8221;** beneath the column header. To select your dependent variable, click **&#8220;choose as y&#8221;** beneath the column header.The buttons marking your selected variables should both now be blue. If you accidentally selected multiple columns for either of these, they may be orange or green. This is OK! Keep clicking the &#8216;choose&#8217; buttons until the ones you do not want to plot are again white, and the ones you do are blue (see right) | ![Line of best fir online](/static/images/line-of-best-fit/step_1_data.png)
