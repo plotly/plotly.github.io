@@ -59,7 +59,7 @@ steps:
 
  - title: Notes
    sub-steps:     
-    - copy: "If you want to add annotations to your plot, the 'Notes' section is the place. Click the blue '+ Annotation' button at the top right-hand side to add general notes, subtitles, the source of your data, and to automatically mark your data points."
+    - copy: "If you want to add annotations to your plot, the 'Notes' section is the place. Click the blue '+ Annotation' button at the top right-hand side to add general notes, subtitles, the source of your data, and to automatically mark your data points. For more information on how to add annotations to your plots, click [here](http://help.plot.ly/how-to-add-annotations/)!"
       img: "![Notes](../static/images/styling-and-customizing-graphs/notes-section.gif)" 
 
  - title: Axes
