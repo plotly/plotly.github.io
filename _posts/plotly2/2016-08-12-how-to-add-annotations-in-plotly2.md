@@ -33,7 +33,7 @@ steps:
 
  - title: The Annotation Section
    sub-steps:
-    - copy: "Go to STYLE on the left-hand side of your workspace, then 'Notes'. Click on the blue '+ Annotation' button at the top of the panel and scroll down the dropdown menu. You're given a few choices."
+    - copy: "Go to STYLE on the left-hand side of your workspace, then 'Notes'. Click on the blue '+ Annotation' button at the top of the panel and scroll down the dropdown menu. You're given a few choices, which are all described below."
       img: "![Annotation button](../static/images/styling-and-customizing-graphs/annotation-menu.png)"
 
  - title: Add a General Annotation
@@ -45,7 +45,7 @@ steps:
    sub-steps:
     - copy: "The 'Automatically Positioned Labels' feature is really cool. Once you've selected that option, place your cursor on any data point on your plot and then click. The data point can then be moved around on your plot. You can also add an arrow to your data point annotation, and positioning your text horizontally and vertically relative to the data point."
       img: "![Auto positioned labels](../static/images/styling-and-customizing-graphs/autoposition labels.gif)"
-    - copy: "This is also the type of label to select if you wish to put the value of each bar on top of that bar. You just need to type the special token of your value in the text box. In the image below, you'll see the steps we took to show the value of each bar."
+    - copy: "This is a good type of label to select if you wish to put the value of each bar on top of that bar. You just need to type the special token of your value in the text box. In the image below, you'll see the steps we took to show the value of each bar."
       img: "![Bar height](../static/images/styling-and-customizing-graphs/bar-height.gif)"
 
  - title: Add a Subtitle
