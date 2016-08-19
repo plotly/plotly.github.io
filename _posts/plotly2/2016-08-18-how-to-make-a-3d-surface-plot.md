@@ -36,21 +36,20 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Surface' under 'Chart type'."
       img: "![Choose chart main](../static/images/3d-surface-plot-with-excel/chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your graph. After selecting ‘3D Surface', you should then fill out the Z, X, and Y dropdowns to create the plot."
+    - copy: "After selecting ‘3D Surface', you should then fill out the Z, X, and Y dropdowns to create the plot."
       img: "![Values dropdown](../static/images/3d-surface-plot-with-excel/trace-dropdown.png)"
     - copy: "This will create a raw 3D surface plot as seen below."
       img: "![Raw plot](../static/images/3d-surface-plot-with-excel/raw-plot.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your color, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
-    - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Additionally, this section allows you to change the diameter of the points and also the symbol. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "You can choose your colorscale, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/3d-surface-plot-with-excel/colour-panel.png)"
-    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. The same can be done for the legend."
+    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. The same can be done for the colorbar."
       img: "![Type directly title](../static/images/3d-surface-plot-with-excel/title-type.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/3d-surface-plot-with-excel/title-panel.png)"
-    - copy: "For adding axes labels, the 'Text' box is found in the 'Axes' section under STYLE. Note that you have to click on each X, Y, and Z text box to add its own label. We'll leave the labels blank on our plot."
+    - copy: "For adding axes labels, the 'Text' box is found in the 'Axes' section under STYLE. Note that you have to click on each X, Y, and Z text box to add its own label. We'll leave the labels as default on our plot."
       img: "![Type directly axis](../static/images/3d-surface-plot-with-excel/axes-title.png)"
     - copy: "Our plot is now done! We've styled it a bit, and to learn how to make your plots extra fancy, check out [this](http://help.plot.ly/style-your-plots/) styling tutorial."
       img: "![Type directly axis](../static/images/3d-surface-plot-with-excel/final-plot.png)"
