@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a grouped bar chart in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Grouped Bar Chart in Plotly 2.0
-actioncall-url: https://plot.ly/alpha/workspace/?fid=ellecj:21
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:149
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#grouped-bar-chart) or [R](https://plot.ly/r/bar-charts/#grouped-bar-chart).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~ellecj/21.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/149.embed"></iframe>
 live-graph-image:
 
 steps:
