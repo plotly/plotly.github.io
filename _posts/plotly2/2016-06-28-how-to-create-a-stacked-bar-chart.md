@@ -10,11 +10,11 @@ order: 4
 meta_description: A tutorial on how to make a stacked bar chart in Plotly 2.0.
 popularity: featured
 actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
-actioncall-url: https://plot.ly/alpha/workspace/?fid=ellecj:19
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:151
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#stacked-bar-chart) or [R](https://plot.ly/r/bar-charts/#stacked-bar-chart).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~ellecj/19.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/151.embed"></iframe>
 live-graph-image:
 
 steps:
