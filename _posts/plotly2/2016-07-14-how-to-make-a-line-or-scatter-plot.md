@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Line or Scatter Graphs in Plotly 2.0
 subtitle: Create a graph with multiple traces.
 permalink: /make-a-line-graph-or-scatter-plot/
-imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
+imageurl: ../line-graph-and-scatter-plot-with-excel/scatter-line-thumb.png
 state: active
 tags: basic
 order: 2.5
