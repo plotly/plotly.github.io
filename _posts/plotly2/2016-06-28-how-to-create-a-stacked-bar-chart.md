@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Stacked Bar Charts in Plotly 2.0
 subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
 permalink: /stacked-bar-chart/
-imageurl: https://images.plot.ly/excel/stacked-bar-chart/thum-stacked-bar-chart-2.jpg
+imageurl: ../static/images/bar-graph/stacked-thumb.png
 state: active
 tags: basic
 order: 4
