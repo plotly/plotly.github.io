@@ -37,6 +37,6 @@ steps:
  - title: Embed in Spectacle Editor!
    sub-steps:
    - copy: "Download Spectacle Editor from [https://formidable.com/open-source/spectacle-editor/](https://formidable.com/open-source/spectacle-editor/)"
-   - copy: "Click the "Plotly icon and copy & paste your table URL into the Embed URL text box."
+   - copy: "Inside Spectacle Editor, click the Plotly icon and copy & paste your table URL into the Embed URL text box."
    - img: "![table-in-spectacle](http://images.plot.ly/plotly-documentation/thumbnail/Table+in+SpecEd.png)"
 ---
