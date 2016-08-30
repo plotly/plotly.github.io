@@ -26,10 +26,10 @@ steps:
     - copy: "Click Save to save your Plotly grid and get its URL."
       img: "![Share grid](http://images.plot.ly/plotly-documentation/thumbnail/share-grid.png)"
     - copy: "Add “.embed” to the grid URL and open it in a new browser tab. Your URL should look something like this: [https://plot.ly/~jackp/16663.embed](https://plot.ly/~jackp/16663.embed)."
-      live-graph: <iframe src="https://plot.ly/~jackp/16663.embed" width=500></iframe>
+    - <iframe src="https://plot.ly/~jackp/16663.embed" width=500></iframe>
 
  - title: Style your Table
    sub-steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below."
-    - copy: <iframe src="https://plot.ly/~jackp/16664.embed" width=600></iframe>
+    - <iframe src="https://plot.ly/~jackp/16664.embed" width=600></iframe>
 ---
