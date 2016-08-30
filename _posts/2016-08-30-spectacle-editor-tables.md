@@ -32,11 +32,11 @@ steps:
    sub-steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below (notice that # has to be replaced with %23 for URL encoding)."
     - img: "![query-strings](http://images.plot.ly/plotly-documentation/thumbnail/table-query-strings.png)"
-    - copy: "The URL for this table is: [https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6](https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6)
+    - copy: "The URL for this table is: [https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6](https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6)"
 
  - title: Embed in Spectacle Editor!
    substeps:
    - copy: "Download Spectacle Editor from [https://formidable.com/open-source/spectacle-editor/](https://formidable.com/open-source/spectacle-editor/)"
    - copy: "Click the "Plotly icon and copy & paste your table URL into the Embed URL text box."
-   - img: "![table-in-spectacle](http://images.plot.ly/plotly-documentation/thumbnail/Table+in+SpecEd.png)
+   - img: "![table-in-spectacle](http://images.plot.ly/plotly-documentation/thumbnail/Table+in+SpecEd.png)"
 ---
