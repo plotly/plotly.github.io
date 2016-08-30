@@ -33,4 +33,3 @@ steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below."
       <iframe src="https://plot.ly/~jackp/16664.embed" width=600></iframe>
 
----
