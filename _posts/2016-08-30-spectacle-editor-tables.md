@@ -9,8 +9,10 @@ tags: fundamentals
 order: 10
 meta_description: A tutorial on adding tables to Spectacle Editor.
 popularity: featured
+carouselimageurl:
 actioncall: Add Tables to Spectacle Editor
----
+
+otherlang:
 
 steps:
  - title: Create a Table in Plotly
@@ -22,7 +24,7 @@ steps:
  - title: Save the Grid to get its URL
    sub-steps:
     - copy: "Click Save to save your Plotly grid and get its URL."
-      img: "![Share grd](http://images.plot.ly/plotly-documentation/thumbnail/share-grid.png)"
+      img: "![Share grid](http://images.plot.ly/plotly-documentation/thumbnail/share-grid.png)"
     - copy: "Add “.embed” to the grid URL and open it in a new browser tab. Your URL should look something like this: [https://plot.ly/~jackp/16663.embed](https://plot.ly/~jackp/16663.embed)."
       <iframe src="https://plot.ly/~jackp/16663.embed" width=500></iframe>
 
