@@ -10,6 +10,7 @@ order: 10
 meta_description: A tutorial on adding tables to Spectacle Editor.
 popularity: featured
 actioncall: Add Tables to Spectacle Editor
+---
 
 steps:
  - title: Create a Table in Plotly
@@ -29,4 +30,3 @@ steps:
    sub-steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below."
       <iframe src="https://plot.ly/~jackp/16664.embed" width=600></iframe>
----
