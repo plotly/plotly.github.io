@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Adding Tables to Spectacle Editor
 subtitle: Add a Table to your Spectacle Editor Presentation
 permalink: /add-a-table-to-spectacle-editor/
-imageurl: http://images.plot.ly/plotly-documentation/thumbnail/spectacle-table.png
+imageurl: 
 state: active
 tags: fundamentals
 order: 10
@@ -32,3 +32,4 @@ steps:
    sub-steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below."
       live-graph: <iframe src="https://plot.ly/~jackp/16664.embed" width=600></iframe>
+---
