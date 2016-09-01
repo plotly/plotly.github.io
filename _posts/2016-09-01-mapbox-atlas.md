@@ -2,7 +2,7 @@
 layout: single
 title: Plotly and Mapbox
 subtitle: Configure Plotly to work with Mapbox Atlas
-permalink: /mapbox-atlas/
+permalink: /mapbox-atlas
 tags: plotly2
 meta_description: Configure Plotly to work with Mapbox Atlas
 live-graph: <iframe src="https://plot.ly/~chris/17632.embed?autosize=true width="100%" height=600></iframe>
