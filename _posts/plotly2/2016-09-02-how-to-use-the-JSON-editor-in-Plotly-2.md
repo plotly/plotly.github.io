@@ -37,7 +37,7 @@ steps:
 
  - title: The Data Section
    sub-steps:
-    - copy: "Although this sub-tab is labeled 'data', it's important to note that you aren't able to edit your data here, but you can by following [these steps](http://help.plot.ly/add-data-to-the-plotly-grid/). This is actually referring to the attributes that belong to your traces, the same ones that are in the 'Traces' section under STYLE."
+    - copy: "Although this sub-tab is labeled 'data', it's important to note that you aren't able to edit your data here, but you can by following [this step](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data). This is actually referring to the attributes that belong to your traces, the same ones that are in the 'Traces' section under STYLE."
     - copy: "There are three parts to this 'data' sub-tab because when this plot was created, three traces were added to it. All the elements will be the same in each of these 'traces', but depending on what you want each of these 'traces' to look like, they'll be filled differently."
     - copy: "This is where you can change the labels of your traces, and depending on your chart type, you can change the thickness of your lines, the symbols and diameter of your points, and the colors of these attributes."
     - copy: "Let's say we want to change the point symbol from an open diamond to a cross. This is where that reference page comes in handy! We can use any of [these symbols](https://plot.ly/javascript/reference/#scatter3d-marker-symbol) in a 3D scatter, and it looks like 'cross' is on that list! We'll go right ahead and change it, as well as the size."
