@@ -40,6 +40,12 @@ steps:
     - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
       img: "![Import with examples](../static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
 
+ - title: Update Your Data
+   sub-steps: 
+    - copy: "Did you know that when you edit your data, your plot automatically updates?"
+    - copy: "You can see in the image below that we want to add two more rows of data, and we do so by typing directly in the grid. It's that simple!"
+      img: "![Update data](../static/images/enter-data-in-the-grid/update-data.gif)"
+
  - title: Working with Multiple Grids
    sub-steps:
     - copy: "If you're working with multiple grids, there's a specific way to select your values. Let's say you have two grids open, each with their own dataset. Click on GRAPH, then 'Create'. When you select the X and Y values from their dropdown, select them under their specific grid (the grid label is grayed out). In the image below, you'll see that we've added values from Grid 2."
