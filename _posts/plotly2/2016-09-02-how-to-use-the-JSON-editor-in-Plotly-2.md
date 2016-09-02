@@ -13,7 +13,7 @@ carouselimageurl:
 actioncall: How to use the JSON Viewer/Editor in Plotly 2.0
 actioncall-url: 
 
-otherlang: Know how to program? See how to create this in [JavaScript](https://plot.ly/javascript/reference/).
+otherlang: Know how to program? Learn more about chart attributes for [Python](https://plot.ly/python/reference/) or [R](https://plot.ly/r/reference/).
 
 
 steps: 
@@ -32,21 +32,20 @@ steps:
       img: "![JSON tab](../static/images/misc-tutorial-images/JSON tab main.png)"
     - copy: "Once you've opened this tab, a panel will open to reveal the JSON code. If you're new to coding, it may look a little overwhelming, but it's not as scary as it seems."
       img: "![JSON panel](../static/images/misc-tutorial-images/JSON-panel-open.png)"   
-    - copy: "As you're going through the attributes in this panel, it's a good idea to have [this reference](https://plot.ly/javascript/reference/) opened to help you out in case you need an explanation about each attribute."
+    - copy: "As you're going through the attributes in this panel, it's a good idea to have [this reference](https://plot.ly/javascript/reference/) opened to help you out in case you need an explanation about a certain attribute."
     - copy: "As you scroll down this panel, you'll see that the 'object' consists of two sections: 'data' and 'layout'."
 
  - title: The Data Section
    sub-steps:
-    - copy: "Although this sub-tab is labeled 'data', it's important to note that you aren't able to edit your data here. This is actually referring to the attributes that belong to your traces, the same ones that are in the 'Traces' section under STYLE."
+    - copy: "Although this sub-tab is labeled 'data', it's important to note that you aren't able to edit your data here, but you can by following [these steps](http://help.plot.ly/add-data-to-the-plotly-grid/). This is actually referring to the attributes that belong to your traces, the same ones that are in the 'Traces' section under STYLE."
     - copy: "There are three parts to this 'data' sub-tab because when this plot was created, three traces were added to it. All the elements will be the same in each of these 'traces', but depending on what you want each of these 'traces' to look like, they'll be filled differently."
     - copy: "This is where you can change the labels of your traces, and depending on your chart type, you can change the thickness of your lines, the symbols and diameter of your points, and the colors of these attributes."
-    - copy: "Let's say we want to change the point symbol from an open diamond to a cross. This is where that reference comes in handy! We can use any of [these symbols](https://plot.ly/javascript/reference/#scatter3d-marker-symbol) in a 3D scatter, and it looks like 'cross' is on that list! We'll go right ahead and change it, as well as the size."
+    - copy: "Let's say we want to change the point symbol from an open diamond to a cross. This is where that reference page comes in handy! We can use any of [these symbols](https://plot.ly/javascript/reference/#scatter3d-marker-symbol) in a 3D scatter, and it looks like 'cross' is on that list! We'll go right ahead and change it, as well as the size."
       img: "![Traces image](../static/images/misc-tutorial-images/symbol-JSON.gif)"
     - copy: "How do you change them? Hover your mouse over the fields next to the attributes to type into a field, or select/unselect an item. See the image below for a quick example."
       img: "![Hover over trace](../static/images/misc-tutorial-images/hover-first-trace.gif)"
     - copy: "Why would you select or unselect an item? If you want something to appear on your plot, select the box corresponding to that specific attribute and check it to make it 'true'. You can also hide something by clicking it (so it's no longer checked off) and it appears as 'false'."
       img: "![True or false](../static/images/misc-tutorial-images/show-legend-JSON.gif)"
-
 
  - title: The Layout Section
    sub-steps:
@@ -55,7 +54,7 @@ steps:
       img: "![Annotations](../static/images/misc-tutorial-images/Annotations-JSON.png)"
     - copy: Let's say you want to edit the width, height, or anchoring of the legend; scroll until you find 'legend', then click on the arrow next to it to see the attributes belonging to the legend. Click on the fields that you wish to change. You can follow the same steps for the 'margin'. By doing this, you can edit the positioning and padding of the margins."
       img: "![Legend and margins](../static/images/misc-tutorial-images/legendandmargins.png)"
-    - copy: "To edit the axis properties, scroll to the bottom of this category. This is where you can change the axes labels, but also the characteristics belonging to the ticks (labels, markers, formats, angles, and fonts to name a few), as well as the grid lines and zero lines. It's a good idea to look at both the x-axis and y-axis parts of this section, to make sure you don't miss anything. Let's say want to remove the grid lines from your plot; you have to unselect the 'grid line' in both axes so they both appear as 'false'. Otherwise, you'll be left with either horizontal or vertical lines behind your plot."
+    - copy: "To edit the axis properties, scroll to the bottom of this category. This is where you can change the axes labels, but also the characteristics belonging to the ticks (labels, markers, formats, angles, and fonts to name a few), as well as the grid lines and zero lines. It's a good idea to look at both the x-axis and y-axis parts of this section, to make sure you don't miss anything. Let's say you want to remove the grid lines from your plot; you have to unselect the 'grid line' in both axes so they both appear as 'false'. Otherwise, you'll be left with either horizontal or vertical lines behind your plot."
       img: "![Axes attributes](../static/images/misc-tutorial-images/axes-JSON.png)"
     - copy: "Although you can't add new attributes to your plot using the JSON editor, in some cases you still have a little more control by setting things specifically to your liking, rather than just using the tabs in the workspace. Happy plotting!" 
 ---
