@@ -56,5 +56,5 @@ steps:
       img: "![Legend and margins](../static/images/misc-tutorial-images/legendandmargins.png)"
     - copy: "To edit the axis properties, scroll to the bottom of this category. This is where you can change the axes labels, but also the characteristics belonging to the ticks (labels, markers, formats, angles, and fonts to name a few), as well as the grid lines and zero lines. It's a good idea to look at both the x-axis and y-axis parts of this section, to make sure you don't miss anything. Let's say you want to remove the grid lines from your plot; you have to unselect the 'grid line' in both axes so they both appear as 'false'. Otherwise, you'll be left with either horizontal or vertical lines behind your plot."
       img: "![Axes attributes](../static/images/misc-tutorial-images/axes-JSON.png)"
-    - copy: "Although you can't add *new attributes* to your plot using the JSON editor, in some cases you still have a little more control by setting things specifically to your liking, rather than just using the tabs in the workspace. Happy plotting!" 
+    - copy: "Although you can't add __new attributes__ to your plot using the JSON editor, in some cases you still have a little more control by setting things specifically to your liking, rather than just using the tabs in the workspace. Happy plotting!" 
 ---
