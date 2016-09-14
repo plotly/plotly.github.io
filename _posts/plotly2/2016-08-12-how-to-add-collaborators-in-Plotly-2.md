@@ -66,8 +66,10 @@ steps:
       img: "![Hover thumbnail](../static/images/misc-tutorial-images/hover-thumbnail.png)"
     - copy: "You'll be taken to the [workspace](https://plot.ly/alpha/workspace/) and as you can see, it looks exactly like it did when it was saved and shared. Now it's your turn to work on it!"
       img: "![Hover thumbnail](../static/images/misc-tutorial-images/collab on workspace.png)"
-    - copy: "Looks like you've [added another trace](http://help.plot.ly/make-a-line-graph-or-scatter-plot/#step-3-create-a-chart) and [styled](http://help.plot.ly/style-your-plots/) the graph. It looks pretty cool, so now you're now ready to save! There's no need to rename the file."
-      img: "![New plot](../static/images/misc-tutorial-images/save new plot.png)"
+    - copy: "Looks like you've [added another trace](http://help.plot.ly/make-a-line-graph-or-scatter-plot/#step-3-create-a-chart) and [styled](http://help.plot.ly/style-your-plots/) the graph. It looks pretty cool!"
+      img: "![New plot](../static/images/misc-tutorial-images/new plot.png)"
+    - copy: "Now you're now ready to save. There's no need to rename the file."
+      img: "![Save eew plot](../static/images/misc-tutorial-images/save new plot.png)"
     - copy: "The creator of the plot will go back to their [list of files](https://plot.ly/organize/home) and see that the plot was updated."
       img: "![New plot](../static/images/misc-tutorial-images/after collab.png)"   
       
