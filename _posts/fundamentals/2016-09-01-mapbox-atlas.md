@@ -13,4 +13,4 @@ Plotly can create interactive satellite maps with Mapbox.
 
 By default, these maps are downloaded from the public Mapbox API. If you are using [Plotly On-Premise](https://plot.ly/product/enterprise/) you will need to license an account from Mapbox Studio or license a private Mapbox Atlas server.
 
-Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team at <support@plot.ly>. You will need to configure your Mapbox Atlas server and your Plotly On-Premise with custom settings.
+Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Plotly On-Premise with custom settings.
