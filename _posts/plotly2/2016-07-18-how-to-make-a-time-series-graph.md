@@ -6,7 +6,7 @@ permalink: /make-a-time-series-graph/
 imageurl: ../static/images/dates-time-series-and-timestamp/time-series-thimb.png
 state: active
 tags: basic
-order: 6
+order: 8
 meta_description: A tutorial on how to make a time series graph in Plotly 2.0.
 popularity: featured
 carouselimageurl:
