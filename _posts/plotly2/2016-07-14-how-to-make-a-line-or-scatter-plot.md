@@ -6,7 +6,7 @@ permalink: /make-a-line-graph-or-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-line-thumb.png
 state: active
 tags: basic
-order: 2.5
+order: 3
 meta_description: A tutorial on how to make a line or scatter graph in Plotly 2.0.
 popularity: featured
 carouselimageurl:
