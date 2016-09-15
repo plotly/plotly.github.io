@@ -6,7 +6,7 @@ permalink: /make-a-pie-chart/
 imageurl: ../static/images/create-pie-chart/pie-thumb.png
 state: active
 tags: basic
-order: 5
+order: 7
 meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
