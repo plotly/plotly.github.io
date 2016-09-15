@@ -6,7 +6,7 @@ permalink: /grouped-bar-chart/
 imageurl: ../static/images/bar-graph/grouped-bar-thumb.png
 state: active
 tags: basic
-order: 3
+order: 4
 meta_description: A tutorial on how to make a grouped bar chart in Plotly 2.0.
 popularity: featured
 carouselimageurl:
