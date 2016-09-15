@@ -6,7 +6,7 @@ permalink: /stacked-bar-chart/
 imageurl: ../static/images/bar-graph/stacked-thumb.png
 state: active
 tags: basic
-order: 4
+order: 5
 meta_description: A tutorial on how to make a stacked bar chart in Plotly 2.0.
 popularity: featured
 actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
