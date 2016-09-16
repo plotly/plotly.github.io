@@ -1,21 +1,21 @@
 ---
 layout: tutorial-single_layout
 title: Range Slider and Selector in Plotly 2.0
-subtitle: Range slider and selector in Plotly 2.0
-permalink: /make-a-line-of-best-fit/
-imageurl: ../static/images/line-of-best-fit/best-fit-thumb.png
+subtitle: A great tool to add to your already interactive plot.
+permalink: /range-slider/
+imageurl: ../static/images/styling-and-customizing-graphs/rangeselectorthumb.png
 state: active
 tags: layout
-order: 1
+order: 4
 meta_description: A tutorial on the range slider and selector in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: Range slider and selector in Plotly 2.0
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:125
+actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:184 
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/range-slider/) or [R](https://plot.ly/r/range-slider/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/125.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/184.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -35,10 +35,14 @@ steps:
 
  - title: Add Your Range Slider
    sub-steps:
-    - copy: "Before you add your slider, you should set your markers the way you'd like them to appear on your axis. Go to 'Axes' under STYLE, then the 'Tick Markers' sub-tab. Select 'Custom' under 'Number of Markers' and enter the number of markers you want to show on your plot. Our data is from 1937-1960, and in the image below you can see that we have a marker for every two years."
+    - copy: "Before you add your slider, you should set your markers the way you'd like them to appear on your axis. Go to 'Axes' under STYLE, then the 'Tick Markers' sub-tab. Select 'Custom' under 'Number of Markers' and enter the number of markers you want to show on your plot. Our data is from 2000-2012, and in the image below you can see that we have a marker for every two years."
       img: "![Tick markers](../static/images/styling-and-customizing-graphs/tick-marker.png)"
     - copy: "Here's where the fun starts. In the same 'Axes' section, go to the 'Range Slider' sub-tab and click on 'Show'."
-      img: "![Range slider](../static/images/styling-and-customizing-graphs/range-slider.png)"
-    - copy: "The height of the slider can be adjusted to your liking, and you can choose "
-      img: "![Range slider attributes](../)"
+      img: "![Range slider tab](../static/images/styling-and-customizing-graphs/range-slider.png)"
+    - copy: "The range slider will appear under your plot."
+      img: "![Range slider](../static/images/styling-and-customizing-graphs/rangesliderunderchart.png)"    
+    - copy: "The height of the slider can be adjusted to your liking, and you can choose the slider background color, border color and width."
+      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/playwithrangeslider.gif)"
+    - copy: "Your range slider is now ready!"
+      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/donewithrangeslider.gif)"    
 ---
