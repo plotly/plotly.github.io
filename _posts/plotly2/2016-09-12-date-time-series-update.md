@@ -10,15 +10,13 @@ order: 9
 meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl: 
-actioncall: How to add collaborators to charts in Plotly 2.0
-actioncall-url: 
+actioncall: How to use dates, time series, and timestamp formats in Plotly 2.0
+actioncall-url: https://plot.ly/alpha/workspace/?fid=empet:55
 
 otherlang: Know how to program? Learn more about time series for [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).
 
-<div>
-    <a href="https://plot.ly/~empet/55/" target="_blank" title="Top 5 Browsers from July 2013 to July 2014" style="display: block; text-align: center;"><img src="https://plot.ly/~empet/55.png" alt="Top 5 Browsers from July 2013 to July 2014" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="empet:55" src="https://plot.ly/embed.js" async></script>
-</div>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~empet/55.embed"></iframe>
+live-graph-image:
 
 steps: 
  - title: Dates, Time Series and Timestamp Format in Plotly
@@ -62,152 +60,7 @@ steps:
     - copy: "If you don’t specify any Custom date format, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/zoom-level.gif)"
     - copy: "Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting)."
-      img: "![Date format and time series](../)"
-
-<div class="responsive-table">
-
-<table>
-<thead>
-<th>Format</th>
-<th>Meaning</th>
-<th>Example</th>
-</thead>
-<tbody>
-<tr>
-<td>%a</td>
-<td>Abbreviated weekday name</td>
-<td>Mon</td>
-</tr>
-<tr>
-<td>%A</td>
-<td>Full weekday name</td>
-<td>Monday</td>
-</tr>
-<tr>
-<td>%b</td>
-<td>Abbreviated month name</td>
-<td>Dec</td>
-</tr>
-<tr>
-<td>%B</td>
-<td>Full month name</td>
-<td>December</td>
-</tr>
-<tr>
-<td>%c</td>
-<td>Date and time</td>
-<td>07/22/2012 11:24:45</td>
-</tr>
-<tr>
-<td>%d</td>
-<td>Zero-padded day of the month</td>
-<td>[01,31]</td>
-</tr>
-<tr>
-<td>%e</td>
-<td>Space-padded day of the month</td>
-<td>[ 1,31]</td>
-</tr>
-<tr>
-<td>%H</td>
-<td>Hour in 24-hour clock</td>
-<td>15</td>
-</tr>
-<tr>
-<td>%I</td>
-<td>Hour in 12-hour clock</td>
-<td>3</td>
-</tr>
-<tr>
-<td>%j</td>
-<td>Day of the year</td>
-<td>366</td>
-</tr>
-<tr>
-<td>%m</td>
-<td>Month as number</td>
-<td>12</td>
-</tr>
-<tr>
-<td>%M</td>
-<td>Minute as a number</td>
-<td>59</td>
-</tr>
-<tr>
-</tr>
-<tr>
-<td>%S</td>
-<td>Second as number</td>
-<td>59</td>
-</tr>
-<tr>
-<td>%L</td>
-<td>Millisecond as a number</td>
-<td>999</td>
-</tr>
-<tr>
-<td>%p</td>
-<td>Shows AM or PM</td>
-<td>PM</td>
-</tr>
-<tr>
-<td>%U</td>
-<td>Sunday-based week of the year as a number</td>
-<td>53</td>
-</tr>
-<tr>
-<td>%w</td>
-<td>Sunday-based weekday as a number</td>
-<td>6</td>
-</tr>
-<tr>
-<td>%W</td>
-<td>Monday-based week of the year as a number</td>
-<td>53</td>
-</tr>
-<tr>
-<td>%x</td>
-<td>Date as '%m/%d/%Y'</td>
-<td>07/22/2012</td>
-</tr>
-<tr>
-<td>%X</td>
-<td>Time as '%H:%M:%S'</td>
-<td>11:24:45</td>
-</tr>
-<tr>
-<td>%y</td>
-<td>Year without century</td>
-<td>94</td>
-</tr>
-<tr>
-<td>%Y</td>
-<td>Year with century</td>
-<td>1994</td>
-</tr>
-<tr>
-<td>%y</td>
-<td>Year without century</td>
-<td>94</td>
-</tr>
-<tr>
-<td>%Y</td>
-<td>Year with century</td>
-<td>1994</td>
-</tr>
-<tr>
-<td>%Z</td>
-<td>Time one offset</td>
-<td>-0700, -07:00, 07, or Z</td>
-</tr>
-<tr>
-<td>%%</td>
-<td>A literal percent sign</td>
-<td>%</td>
-<td>%{n}f</td>
-<td>Shows n digits for fractional seconds</td>
-<td>0000</td>
-</tr>
-</tbody>
-</table>
-</div>
+      img: "![Date format and time series 1](../static/images/dates-time-series-and-timestamp/table 1.png)"
+      img: "![Date format and time series 2](../static/images/dates-time-series-and-timestamp/table 2.png)"
+      img: "![Date format and time series 3](../static/images/dates-time-series-and-timestamp/table 3.png)"
+---
