@@ -267,6 +267,8 @@ Some common date and time formats are included in the table below. Can’t find 
 <td>%%</td>
 <td>A literal percent sign</td>
 <td>%</td>
+</tr>
+<tr>
 <td>%{n}f</td>
 <td>Shows n digits for fractional seconds</td>
 <td>0000</td>
