@@ -157,19 +157,19 @@ Some common date and time formats are included in the table below. Can’t find 
 <td>December</td>
 </tr>
 <tr>
-<td>%m</td>
-<td>Month as number</td>
-<td>12</td>
+<td>%c</td>
+<td>Date and time</td>
+<td>07/22/2012 11:24:45</td>
 </tr>
 <tr>
-<td>%y</td>
-<td>Year without century</td>
-<td>94</td>
+<td>%d</td>
+<td>Zero-padded day of the month</td>
+<td>[01,31]</td>
 </tr>
 <tr>
-<td>%Y</td>
-<td>Year with century</td>
-<td>1994</td>
+<td>%e</td>
+<td>Space-padded day of the month</td>
+<td>[ 1,31]</td>
 </tr>
 <tr>
 <td>%H</td>
@@ -182,16 +182,91 @@ Some common date and time formats are included in the table below. Can’t find 
 <td>3</td>
 </tr>
 <tr>
+<td>%j</td>
+<td>Day of the year</td>
+<td>366</td>
+</tr>
+<tr>
+<td>%m</td>
+<td>Month as number</td>
+<td>12</td>
+</tr>
+<tr>
+<td>%M</td>
+<td>Minute as a number</td>
+<td>59</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>%S</td>
+<td>Second as number</td>
+<td>59</td>
+</tr>
+<tr>
+<td>%L</td>
+<td>Millisecond as a number</td>
+<td>999</td>
+</tr>
+<tr>
 <td>%p</td>
 <td>Shows AM or PM</td>
 <td>PM</td>
 </tr>
 <tr>
+<td>%U</td>
+<td>Sunday-based week of the year as a number</td>
+<td>53</td>
+</tr>
+<tr>
+<td>%w</td>
+<td>Sunday-based weekday as a number</td>
+<td>6</td>
+</tr>
+<tr>
+<td>%W</td>
+<td>Monday-based week of the year as a number</td>
+<td>53</td>
+</tr>
+<tr>
 <td>%x</td>
-<td>Date as “%m/%d/%Y”</td>
+<td>Date as '%m/%d/%Y'</td>
 <td>07/22/2012</td>
 </tr>
 <tr>
+<td>%X</td>
+<td>Time as '%H:%M:%S'</td>
+<td>11:24:45</td>
+</tr>
+<tr>
+<td>%y</td>
+<td>Year without century</td>
+<td>94</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td>Year with century</td>
+<td>1994</td>
+</tr>
+<tr>
+<td>%y</td>
+<td>Year without century</td>
+<td>94</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td>Year with century</td>
+<td>1994</td>
+</tr>
+<tr>
+<td>%Z</td>
+<td>Time one offset</td>
+<td>-0700, -07:00, 07, or Z</td>
+</tr>
+<tr>
+<td>%%</td>
+<td>A literal percent sign</td>
+<td>%</td>
 <td>%{n}f</td>
 <td>Shows n digits for fractional seconds</td>
 <td>0000</td>
