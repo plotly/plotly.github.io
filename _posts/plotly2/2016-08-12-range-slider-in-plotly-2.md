@@ -43,7 +43,7 @@ steps:
     - copy: "The height of the slider can be adjusted to your liking, and you can choose the slider background color, border color and width."
       img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/rangesliderattributes.png)"
   
- - title: Add Your Timescale Button
+ - title: Add Your Timescale Buttons
    sub-steps:
     - copy: "Next is adding your timescale button(s). If you're plotting a time series chart, it's important to set your times and dates in the proper format, otherwise this feature won't appear in your workspace. Refer to [this](http://help.plot.ly/date-format-and-time-series/) helpful page for more information."
     - copy: "After formatting your time and/or dates, click on the 'Timescale Buttons' subtab (it's just underneath the 'Range Slider' subtab) in the same 'Axes' section. Then click the blue '+Button' button."
