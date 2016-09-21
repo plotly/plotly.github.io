@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: Pie Charts in Plotly 2.0
-subtitle: Create a circular statistical chart that is divided into slices.
+title: How to Make a Pie Chart in Plotly 2.0
+subtitle: Learn to create a pie chart using the Plotly 2.0 data visualization tool
 permalink: /make-a-pie-chart/
 imageurl: ../static/images/create-pie-chart/pie-thumb.png
 state: active
 tags: basic
 order: 5
-meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
+meta_description: A tutorial on how to make a pie chart using Plotly 2.0. online data visualization software
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
 actioncall: How to create a pie chart in Plotly 2.0
