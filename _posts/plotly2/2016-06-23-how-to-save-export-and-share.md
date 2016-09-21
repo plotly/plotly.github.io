@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
 title: How to Save, Export, and Share in Plotly 2.0
-subtitle: How to save your work and share it.
+subtitle: Learn to save and share your data visualizations
 permalink: /save-share-and-export-in-plotly/
 imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: fundamentals
 order: 4
-meta_description: A tutorial on how to save, export, and share in Plotly 2.0.
+meta_description: A tutorial on how to save, export and share graphs in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to Save, Export, and Share in Plotly 2.0
@@ -19,7 +19,8 @@ steps:
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
       img: "![Save tab main screen](../static/images/how-to-save-export-and-share/Save_Tab_Main_Screen.png)"
-    - copy: "You have the option of saving your PLOT and DATA as PUBLIC or PRIVATE. For more information on how sharing works, including the difference between private, public and secret sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/)."
+    - copy: "You have the option of saving your PLOT and DATA as PUBLIC or PRIVATE. 
+    - For more information on how sharing works, including the difference between private, public and secret sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/)."
       img: "![Save pop-up](../static/images/how-to-save-export-and-share/Save_Pop_Up.png)"
 
  - title: Export Your Plot as a Static Image
