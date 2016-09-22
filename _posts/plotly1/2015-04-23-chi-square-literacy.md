@@ -6,6 +6,7 @@ permalink: /chi-square/
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: inactive
 tags: analysis
+order: 4
 meta_description: What is a chi-square-test? Understanding when and where to use one.
 actioncall: Make a Graph
 ---
