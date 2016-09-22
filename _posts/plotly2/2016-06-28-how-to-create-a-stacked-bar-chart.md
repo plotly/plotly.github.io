@@ -7,7 +7,7 @@ imageurl: https://images.plot.ly/excel/stacked-bar-chart/thum-stacked-bar-chart-
 state: active
 tags: basic
 order: 4
-meta_description: A tutorial on how to make a stacked bar chart using the Plotly 2.0. online data visualization tool
+meta_description: A tutorial on how to make a stacked bar chart using the Plotly 2.0 online data visualization tool
 popularity: featured
 actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=ellecj:19
