@@ -38,7 +38,7 @@ steps:
       img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
     - copy: "Click on GRAPH on the left-hand side to add your values to your boxed plot. After selecting ‘Box plot', you should then fill out the 'Values' and 'X-Data' dropdown to create the plot."
       img: "![Values](../static/images/box-plot/Values.png)"
-    - copy: "This will create a raw plot, as seen below. Don't worry, this box plot isn't done yet. Follow the steps below to give it the desired styling."
+    - copy: "This will create a raw plot, as seen below. Don't worry, this box plot isn't done yet. Follow the steps below to add the desired styling."
       img: "![Raw plot](../static/images/box-plot/raw-plot.png)"
     - copy: "For charts such as this one, which have many values, you need to add more data in 'Values'. We do this by clicking on the '+Trace' button on the top rigth-hand side of that pane."
       img: "![Trace open](../static/images/box-plot/traces.png)"
