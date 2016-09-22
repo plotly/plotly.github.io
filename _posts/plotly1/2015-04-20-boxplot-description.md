@@ -6,6 +6,7 @@ permalink: /what-is-a-box-plot/
 imageurl: /static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: analysis
+order: 3
 meta_description: Box plots are used to better understand how values are spaced out in different sets of data. An interactive tutorial on how box plots are made, and the information they display.
 popularity: frontpage
 actioncall: Make a Box Plot
