@@ -6,6 +6,7 @@ permalink: /anova-test/
 imageurl:
 state:
 tags: analysis
+order: 6
 meta_description: The ANOVA test is a hypothesis test that provides a quantitative method to compare means of three or more samples. Learn to use Plotly's ANOVA test.
 actioncall: Make a Graph
 ---
