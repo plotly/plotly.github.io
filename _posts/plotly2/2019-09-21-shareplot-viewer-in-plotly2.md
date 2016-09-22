@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Shareplot viewer in Plotly 2.0
+title: Shareplot viewer
 subtitle: Get to know the shareplot viewer.
 permalink: /shareplot-viewer/
 imageurl: ../static/images/how-sharing-works-in-plotly/shareplot thumb.png
 state: active
 tags: fundamentals
 order: 14
-meta_description: A tutorial on the shareplot viewer in Plotly 2.0.
+meta_description: A tutorial on the shareplot viewer.
 popularity: featured
 carouselimageurl:
-actioncall: Shareplot viewer in Plotly 2.0
+actioncall: Shareplot viewer
 actioncall-url: 
 
 steps:
@@ -18,7 +18,7 @@ steps:
    sub-steps:
     - copy: "When you [save](http://help.plot.ly/save-share-and-export-in-plotly/#step-1-save-your-plot) and [embed](http://help.plot.ly/save-share-and-export-in-plotly/#step-5-share-your-plot) your plot, the shareable link directs you to your shareplot viewer."
       img: "![Shareable link](../static/images/how-sharing-works-in-plotly/shareable link.png)"
-    - copy: "The shareplot viewer is where you'll view not only the plot, but its data, code, and sources."
+    - copy: "The shareplot viewer is where you can view the plot as well as the data, code, and sources."
       img: "![Shareplot main](../static/images/how-sharing-works-in-plotly/Main Shareplot Page.png)"
     - copy: "Clicking the 'Data' tab will show the plot's data. The entire dataset may not be displayed if it's too large, but rest assured that the entire grid has been saved. The ellipses appear when this is the case."
       img: "![Shareplot data](../static/images/how-sharing-works-in-plotly/shareplot data.png)"
@@ -36,12 +36,6 @@ steps:
       img: "![Thumbnail hover](../static/images/how-sharing-works-in-plotly/thumb hover.png)"
     - copy: "It'll direct you to the shareplot viewer, and you'll see the associated data, code, and sources of that plot. If you select to view a grid (instead of a plot), you'll only be able to see its data and sources."
 
- - title: From Your Feed
-   sub-steps:
-    - copy: "The [Plotly feed](https://plot.ly/) is featured on Plotly's homepage. This is where user's plot are displayed for the public to see. These plots have saved as 'Public'."
-    - copy: "Hover over the plot you'd like to check out and click on 'View'. It'll direct you to the shareplot viewer."
-      img: "![Plotly feed](../static/images/how-sharing-works-in-plotly/plotly feed.gif)"
-
  - title: From Your Workspace 
    sub-steps:
     - copy: "Another way to get to your shareplot is through Plotly’s online [workspace](https://plot.ly/alpha/workspace/)."
@@ -51,4 +45,12 @@ steps:
     - copy: "From either of these pages, you can follow the same steps as above. Just hover over the thumbnail of your choice and click on 'View'."
     - copy: "The animated image below shows how we navigate form the workspace to the 'My Profile' page, and then to the shareplot viewer."
       img: "![Shareplot my profile](../static/images/how-sharing-works-in-plotly/shareplot my profile.gif)"
+
+ - title: From Your Feed
+   sub-steps:
+    - copy: "The [Plotly feed](https://plot.ly/) is featured on Plotly's homepage. You can click on 'My Files' to access your 'Organize' page, or click on your username to select from the same dropdown menu as seen in the workspace."
+      img: "![Plotly Homepage](../static/images/how-sharing-works-in-plotly/plotlyfeed.png)"
+    - copy: "This is also where users' plot are displayed for the public to see. These plots have saved as 'Public'."
+    - copy: "Hover over the plot you'd like to check out and click on 'View'. It'll direct you to the shareplot viewer."
+      img: "![Plotly feed](../static/images/how-sharing-works-in-plotly/plotly feed.gif)"
 ---
