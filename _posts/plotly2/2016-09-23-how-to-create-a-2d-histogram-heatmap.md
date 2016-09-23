@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: 2D Histogram Heatmaps in Plotly 2.0
+title: How to Make a 2D Histogram Heatmap in Plotly 2.0
 subtitle: Create a plot that visualizes a bivariate distribution.
 permalink: /make-a-2d-histogram-heatmap/
 imageurl: ../static/images/make-a-histogram/2d hist thumb.png
@@ -21,10 +21,10 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "This 2 dimensional histogram is a great option if you want to bin across two variables."
+    - copy: "This 2 dimensional histogram is a great option if you want to compare distributions across two variables."
     - copy: "After selecting '2D Histogram Heatmap' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific plot, as well as the end result."
       img: "![Example after](../static/images/make-a-histogram/2d hist example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in the workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
@@ -36,7 +36,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select '2D Histogram Heatmap'."
       img: "![Choose chart main](../static/images/make-a-histogram/chart type 2d hist.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your plot. After selecting '2D Histogram Heatmap', you should then fill out the X and Y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your data to your plot. After selecting '2D Histogram Heatmap', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding axes](../static/images/make-a-histogram/choose values 2d hist.png)"
     - copy: "This will create a raw 2D histogram heatmap, as seen below."
       img: "![Raw plot](../static/images/make-a-histogram/raw 2d hist.png)"
@@ -59,6 +59,6 @@ steps:
    sub-steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/make-a-histogram/save main 2d hist.png)"
-    - copy: "Give your PLOT and DATA a file name and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/make-a-histogram/save popup 2d hist.png)"     
 ---
