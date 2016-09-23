@@ -22,7 +22,7 @@ steps:
  - title: Try an Example
    sub-steps:
     - copy: "With this type of chart, the area between the x-axis and lines are commonly emphasized with colors, shading, and/or textures."
-    - copy: "After selecting 'Area Chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific contour plot, as well as the end result."
+    - copy: "After selecting 'Area Chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific area chart, as well as the end result."
       img: "![Example after](../)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
@@ -36,7 +36,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Area Chart'."
       img: "![Choose chart main](../)"
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your contour. After selecting 'Area', you should then fill out the X and Y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your axes to your area chart. After selecting 'Area chart', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding axes](../static/images/area-charts-in-excel-with-plotly/values area chart.png)"
     - copy: "This will create a raw area chart, as seen below."
       img: "![Raw plot](../static/images/area-charts-in-excel-with-plotly/raw area chart.png)"
