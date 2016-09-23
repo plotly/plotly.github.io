@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: 2D Histogram Heatmaps in Plotly 2.0
 subtitle: Create a plot that visualizes a bivariate distribution.
 permalink: /make-a-2d-histogram-heatmap/
-imageurl: ../static/images/area-charts-in-excel-with-plotly/area chart thumb.png
+imageurl: ../static/images/make-a-histogram/2d hist thumb.png
 state: active
 tags: statistical
 order: 1.5
