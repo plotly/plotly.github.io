@@ -36,7 +36,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Area Chart'."
       img: "![Choose chart main](../)"
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your area chart. After selecting 'Area chart', you should then fill out the X and Y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your axes to your plot. After selecting 'Area chart', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding axes](../static/images/area-charts-in-excel-with-plotly/values area chart.png)"
     - copy: "This will create a raw area chart, as seen below."
       img: "![Raw plot](../static/images/area-charts-in-excel-with-plotly/raw area chart.png)"
