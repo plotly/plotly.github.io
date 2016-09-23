@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
-title: Range Slider and Timescale Buttons in Plotly 2.0
-subtitle: Add these great tools to your already interactive plot.
+title: How to Add a Range Slider and Timescale Buttons in Plotly 2.0
+subtitle: Learn to add a range slider and timescale buttons to a time-series chart using the Plotly 2.0 data visualization tool.
 permalink: /range-slider/
 imageurl: ../static/images/styling-and-customizing-graphs/rangesliderandtimescalethumb.png
 state: active
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Getting Started
    sub-steps:
-    - copy: "An excellent tool, especially for a [time series plot](http://help.plot.ly/make-a-time-series-graph/), the range slider and timescale buttons feature is a way to display a specific range within your chart. This interactive slider allows you to experience your graphs on a whole other level."
+    - copy: "An excellent tool, especially for a [time series plot](http://help.plot.ly/make-a-time-series-graph/), the range slider and timescale buttons feature, only applicable to time series plots, is a way to display a specific range within your chart. This interactive slider allows you to experience your graphs on a whole other level."
 
  - title: Add Your Data
    sub-steps:
@@ -29,7 +29,7 @@ steps:
 
  - title: Create Your Plot
    sub-steps:
-    - copy: "After your data's been added, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After your data's been added, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdowns (this section is different depending on the chart type)."
     - copy: "If you're creating a plot with dates and/or times, it's very important to format your data correctly, so make sure to check out [this](http://help.plot.ly/date-format-and-time-series/) page first."
     - copy: "Like the way we've styled this plot? For more styling tips, see [this](http://help.plot.ly/style-your-plots/) tutorial!"
 
@@ -48,11 +48,11 @@ steps:
     - copy: "Next is adding your timescale button(s). If you're plotting a time series chart, it's important to set your times and dates in the proper format, otherwise this feature won't appear in your workspace. Refer to [this](http://help.plot.ly/date-format-and-time-series/) helpful page for more information."
     - copy: "After formatting your time and/or dates, click on the 'Timescale Buttons' subtab (it's just underneath the 'Range Slider' subtab) in the same 'Axes' section. Then click the blue '+Button' button."
       img: "![Timescale](../static/images/styling-and-customizing-graphs/timescale2.png)"
-    - copy: "You'll notice these two buttons will appear on your plot. The 'reset' button is there by default, and it's to reset your setting after you've clicked on a specific timescale button."
+    - copy: "Two buttons will appear on your plot. The 'reset' button is added by default to reset your slider range after you've clicked on a specific timescale button."
       img: "![Reset button](../static/images/styling-and-customizing-graphs/reset button3.png)"
     - copy: "The button next to it is the one you'll set up. We'll start with adding a timescale set for one year. Double-click on the field next to LABEL to add your own."
       img: "![First button](../static/images/styling-and-customizing-graphs/1 year2.png)"
-    - copy: "Click on the STEP field and select from the dropdown menu."
+    - copy: "Click on the STEP dropdown menu to change the timescale interval."
       img: "![Step](../static/images/styling-and-customizing-graphs/step2.png)"
     - copy: "For our 5-year timescale, we've chose the 'Year' as the STEP, and the number 5 as the COUNT. The STEPMODE has been selected to 'Backward'."
       img: "![5 years](../static/images/styling-and-customizing-graphs/5 years2.png)"
