@@ -6,7 +6,7 @@ permalink: /make-a-box-plot/
 imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: statistical
-order: 2
+order: 2.5
 meta_description: A tutorial on how to make a box plot in Plotly 2.0.
 popularity: featured
 carouselimageurl:
