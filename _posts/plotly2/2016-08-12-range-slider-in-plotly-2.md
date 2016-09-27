@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Add a Range Slider and Timescale Buttons in Plotly 2.0
 subtitle: Learn to add a range slider and timescale buttons to a time-series chart using the Plotly 2.0 data visualization tool.
 permalink: /range-slider/
-imageurl: ../static/images/styling-and-customizing-graphs/rangesliderandtimescalethumb.png
+imageurl: ../static/images/styling-and-customizing-graphs/timescalethumb.png
 state: active
 tags: layout
 order: 4
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Getting Started
    sub-steps:
-    - copy: "An excellent tool, especially for a [time series plot](http://help.plot.ly/make-a-time-series-graph/), the range slider and timescale buttons feature, only applicable to time series plots, is a way to display a specific range within your chart. This interactive slider allows you to experience your graphs on a whole other level."
+    - copy: "The interactive slider allows you to experience your graphs on a whole other level. A great way to display a specific range within your chart, especially for a [time series plot](http://help.plot.ly/make-a-time-series-graph/), the range slider and timescale buttons are two different features, with the buttons only applicable to time series plots."
 
  - title: Add Your Data
    sub-steps:
@@ -45,7 +45,7 @@ steps:
   
  - title: Add Your Timescale Buttons
    sub-steps:
-    - copy: "Next is adding your timescale button(s). If you're plotting a time series chart, it's important to set your times and dates in the proper format, otherwise this feature won't appear in your workspace. Refer to [this](http://help.plot.ly/date-format-and-time-series/) helpful page for more information."
+    - copy: "Next you can add timescale button(s). The timescale button feature is only available when the plot's x-axis is a properly formatted date axis. Refer to [this](http://help.plot.ly/date-format-and-time-series/) helpful page for more information on formatting dates in Plotly."
     - copy: "After formatting your time and/or dates, click on the 'Timescale Buttons' subtab (it's just underneath the 'Range Slider' subtab) in the same 'Axes' section. Then click the blue '+Button' button."
       img: "![Timescale](../static/images/styling-and-customizing-graphs/timescale2.png)"
     - copy: "Two buttons will appear on your plot. The 'reset' button is added by default to reset your slider range after you've clicked on a specific timescale button."
@@ -58,9 +58,9 @@ steps:
       img: "![5 years](../static/images/styling-and-customizing-graphs/5 years2.png)"
     - copy: "Add more buttons by clicking the blue '+Button' button."  
       img: "![Adding more buttons](../static/images/styling-and-customizing-graphs/addingbuttons2.png)"
-    - copy: "The 'YTD' represents the year-to-date, which is the most recent date in your plot, and going back one year (from the month of January)."
+    - copy: "The 'YTD' represents the year-to-date, which is the most recent date in your plot, and going back one year (from the month of January). This is where you'd select 'To Date' in your 'Stepmode'."
     - copy: "What's left now is to play with the style of the timescale buttons, including the background color, border width and its color, and text. You can also adjust the position of the buttons by clicking on the arrows next to the horizontal and vertical position fields."  
       img: "![Timescale attributes](../static/images/styling-and-customizing-graphs/Timescale Attributes2.png)"
     - copy: "Your chart is now ready!"
-      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/rangesliderandtimescalegif.gif)"  
+      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/timescalegif.gif)"  
 ---
