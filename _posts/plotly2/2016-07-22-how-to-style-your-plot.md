@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Style Your Plots in Plotly 2.0
 subtitle: How to style your plots.
 permalink: /style-your-plots/
-imageurl: ../static/images/styling-and-customizing-graphs/style-thumb.png
+imageurl: ../static/images/styling-and-customizing-graphs/new style thumbnail.png
 state: active
 tags: layout
 order: 1
