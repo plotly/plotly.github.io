@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: How to Add a Range Slider and Timescale Buttons in Plotly 2.0
+title: How to Add a Range Slider in Plotly 2.0
 subtitle: Learn to add a range slider and timescale buttons to a time-series chart using the Plotly 2.0 data visualization tool.
 permalink: /range-slider/
 imageurl: ../static/images/styling-and-customizing-graphs/timescalethumb.png
