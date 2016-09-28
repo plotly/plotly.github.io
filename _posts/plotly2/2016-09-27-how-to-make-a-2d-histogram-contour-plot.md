@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "This 2 dimensional histogram compares distributions across two variables in a contour plot fashion."
+    - copy: "This 2 dimensional histogram compares distributions across two variables in a contour plot fashion and the distribution is depicted by a colorscale."
     - copy: "After selecting '2D Histogram Contour Plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific plot, as well as the end result."
       img: "![Example after](../static/images/create-contour-plot.md/example contour.png)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in the workspace."
