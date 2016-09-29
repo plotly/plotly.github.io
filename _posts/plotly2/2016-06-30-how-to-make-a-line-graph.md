@@ -21,8 +21,8 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "A line graph is a quick and easy way to compare two variables."
-    - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the style. You will also be able to see which labels and style attributes were selected for this specific chart."
+    - copy: "A line graph is a quick and simple way to connect each data point together."
+    - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the styles. In addition to seeing the end result, you will see which labels and style attributes were selected for this specific chart."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/try-an-example.png)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It will open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
@@ -60,5 +60,3 @@ steps:
     - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/line-save-pop-up.png)"
 ---
-
-
