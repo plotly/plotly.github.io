@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: How to Add a Subplot in Plotly 2.0
-subtitle: Create multiple plots in one figure.
+title: How to Make Subplots in Plotly 2.0
+subtitle: Create subplots using the Plotly 2.0 data visualization tool
 permalink: /subplots/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/subplotthumbnail.png
 state: active
 tags: subplot
-order: 5
-meta_description: A tutorial on how to add a subplot in Plotly 2.0.
+order: 1
+meta_description: Learn how to create subplots online using Plotly 2.0 graphing software.
 popularity: featured
 carouselimageurl:
 actioncall: Subplots in Plotly 2.0
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "The Subplot feature allows you to display multiple plots in a single figure. They can be stacked on top of another, or side by side."
+    - copy: "The Subplot feature allows you to display multiple plots in a single figure. They can be placed vertically, horizontally, or in a grid."
 
  - title: Add Your Data to Plotly
    sub-steps:
@@ -30,7 +30,7 @@ steps:
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After your data's been added, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/subplot xy values.png)"
 
  - title: Select a Subplot
