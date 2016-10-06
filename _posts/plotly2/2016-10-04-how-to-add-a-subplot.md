@@ -44,7 +44,7 @@ steps:
     - copy: "Before we move on, it's important to mention the 'Undo' button. If you select an arrangement and you change your mind, 'Undo' will cancel the last arrangement selection *only*."          
       img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/undobutton.png)"  
     - copy: "Back to adding another trace! We'll repeat the same step as above by hitting the '+Trace' button, adding our traces, then clicking 'Subplot and Multiple Axes'. For our third trace, we'll select the 'Stacked' arrangement."
-      img: "![Third trace](../static/images/graph-with-multiple-axes-with-excel/third trace.png)"
+      img: "![Third trace](../static/images/graph-with-multiple-axes-with-excel/thirdtrace.png)"
     - copy: "For our last trace, we'll select the 'Stacked Y-Axis' arrangement. We can select the position by using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
       img: "![Forth trace](../static/images/graph-with-multiple-axes-with-excel/forthtrace.gif)"
     - copy: "Now each of the four traces has its own plot."          
