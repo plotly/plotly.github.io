@@ -1,19 +1,19 @@
 ---
 layout: tutorial-single_layout
-title: How to make an inset subplot in Plotly 2.0
-subtitle: Create an inset subplot using the Plotly 2.0 data visualization tool
+title: How to Add an Inset in Plotly 2.0
+subtitle: Add an inset using the Plotly 2.0 data visualization tool
 permalink: /inset-subplots/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/inset thumb.png
 state: active
 tags: subplot
 order: 2
-meta_description: Learn how to create an inset subplot online using Plotly 2.0 graphing software.
+meta_description: Learn how to add an inset online using Plotly 2.0 graphing software.
 popularity: featured
 carouselimageurl:
 actioncall: Inset Subplot in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:210
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/) or [R](https://plot.ly/r/subplots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/210.embed"></iframe>
 live-graph-image:
@@ -21,16 +21,16 @@ live-graph-image:
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "This feature allows you to add an inset subplot to a main plot. This is great if you're in the field of physics, or if you're in business and need to graph financial data."
+    - copy: "This feature allows you to add an inset plot to a main plot. This is great if you'd like to display related data, or highlight a portion of the main plot."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make it easier as you're making selections for a specific trace."
+    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selections for a specific trace easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/inset import.png)"
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your '[Chart type](http://help.plot.ly/tutorials/#basic)', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/inset values.png)"
 
  - title: Select a Subplot
@@ -51,12 +51,12 @@ steps:
    sub-steps:      
     - copy: "We've styled this plot quite a bit, which includes [adding lines](http://help.plot.ly/style-your-plots/#step-6-axes) around both plots, customizing our [tick labels and markers](http://help.plot.ly/style-your-plots/#step-6-axes), and playing with [colors and typefaces](http://help.plot.ly/style-your-plots/#step-3-traces)."
       img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/inset final plot.png)"
-    - copy: "If you like the way we've styled our plot, see [this](http://help.plot.ly/style-your-plots/) great tutorial for great tips."
+    - copy: "If you like the way we've styled our plot, see [this](http://help.plot.ly/style-your-plots/) tutorial for more styling tips."
 
  - title: Save and Share
    sub-steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/graph-with-multiple-axes-with-excel/inset save main.png)"
-    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+    - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/inset save popup.png)"     
 ---
