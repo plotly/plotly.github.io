@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: Choropleth Maps in Plotly 2.0
-subtitle: A map that uses differences in coloring within predefined areas to indicate the average values of a variable within those areas.
+title: Learn How to Make a Choropleth Map using the Plotly 2.0 Data Visualization Tool
+subtitle: Create a choropleth map, which uses differences in coloring to indicate the average values of a variable within predefined areas
 permalink: /make-a-choropleth-map/
 imageurl: ../static/images/choropleth-map-with-excel/choropleth-thumb.png
 state: active
 tags: maps
 order: 1
-meta_description: A tutorial on how to make a choropleth map in Plotly 2.0.
+meta_description: Learn how to plot a choropleth map online using Plotly 2.0 data visualization software.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Choropleth Map in Plotly 2.0
@@ -21,15 +21,15 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "A choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region."
-    - copy: "After selecting 'Choropleth' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what locations, values, and style attributes were selected for this specific map, as well as the end result."
+    - copy: "A choropleth map provides an easy way to visualize how a measurement varies across a geographic area. It can also show the level of variability within a region."
+    - copy: "After selecting 'Choropleth' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the styles. In addition to seeing the end result, you will see which labels and style attributes were selected for this specific chart."
       img: "![Example Scatter](../static/images/choropleth-map-with-excel/choropleth-example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It will open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s new online data visualization [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/choropleth-map-with-excel/choropleth-import.png)"
 
  - title: Create a Chart
@@ -43,10 +43,10 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colorscale, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your map."
-    - copy: "To change the color gradients of your map, click on ‘Traces’ under the same STYLE tab, and choose the colorscale you want."
+    - copy: "You can choose your colorscale, text position, or typeface. Click on STYLE on the left-hand side to adjust the style of your map."
+    - copy: "To change the color gradients of your map, click on ‘Traces’ under the same STYLE tab, and choose your desired colorscale."
       img: "![Colour main](../static/images/choropleth-map-with-excel/choropleth-colorscale.png)"
-    - copy: "To add a title to your map, you can type it directly on the title by double-clicking it."
+    - copy: "To add a title to your map, double click on the title and type directly into the field."
       img: "![Type directly title](../static/images/choropleth-map-with-excel/choropleth-title.png)"
     - copy: "The same can be done for the axis labels, and legend."
       img: "![Type directly axis](../static/images/choropleth-map-with-excel/choropleth-legend-title.png)"
