@@ -30,7 +30,7 @@ steps:
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your '[Chart type](http://help.plot.ly/tutorials/#basic)', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic)))."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/subplot xy values.png)"
 
  - title: Select a Subplot
