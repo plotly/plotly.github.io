@@ -25,12 +25,12 @@ steps:
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make it easier as you're making selections for a specific trace."
+    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selecting specific traces easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/subplot import.png)"
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your '[Chart type](http://help.plot.ly/tutorials/)', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/subplot xy values.png)"
 
  - title: Select a Subplot
@@ -45,7 +45,7 @@ steps:
       img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/undobutton.png)"  
     - copy: "Back to adding another trace! We'll repeat the same step as above by hitting the '+Trace' button, adding our traces, then clicking 'Subplot and Multiple Axes'. For our third trace, we'll select the 'Stacked' arrangement."
       img: "![Third trace](../static/images/graph-with-multiple-axes-with-excel/third trace.png)"
-    - copy: "For our last trace, we'll select the 'Stacked Y-Axis' arrangement but before clicking 'CONFIRM, hit 'Current Subplot' for a dropdown menu. As you go through the choices, you'll see the last subplot trace overlap whichever one you select (this is why we mentioned what a good idea it is to label your axes) and once we've found the right one, we CONFIRM. "
+    - copy: "For our last trace, we'll select the 'Stacked Y-Axis' arrangement. We can select the position by using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
       img: "![Forth trace](../static/images/graph-with-multiple-axes-with-excel/forthtrace.gif)"
     - copy: "Now each of the four traces has its own plot."          
       img: "![Subplot](../static/images/graph-with-multiple-axes-with-excel/alltracessubplot.png)"  
