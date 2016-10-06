@@ -30,7 +30,7 @@ steps:
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your '[Chart type](http://help.plot.ly/tutorials/)', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
+    - copy: "After adding your data go to GRAPH on the left-hand side, then 'Create'. Choose your '[Chart type](http://help.plot.ly/tutorials/#basic)', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/subplot xy values.png)"
 
  - title: Select a Subplot
@@ -60,6 +60,6 @@ steps:
    sub-steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/graph-with-multiple-axes-with-excel/savemainsubplot.png)"
-    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+    - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/savepopup.png)"     
 ---
