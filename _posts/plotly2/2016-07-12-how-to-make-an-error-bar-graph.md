@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: Error bars in Plotly 2.0
-subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement.
+title: How to Make Error Bars Online using Plotly 2.0
+subtitle: Learn how to create error bars using the Plotly 2.0 online data visualization tool
 permalink: /make-a-graph-with-error-bars/
 imageurl: ../static/images/graph-with-error-bars/error-bar-thumb.png
 state: active
 tags: scientific
 order: 1
-meta_description: A tutorial on how to make a graph with error bars in Plotly 2.0.
+meta_description: Learn how to make a graph with error bars using Plotly 2.0 data visualization software.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Graph with Error Bars in Plotly 2.0
@@ -22,14 +22,14 @@ steps:
  - title: Try an Example
    sub-steps:
     - copy: "Error bars give a general idea of how precise a measurement is, or how far from the reported value the true (error free) value might be."
-    - copy: "After selecting 'Error Bars' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific chart, as well as the end result. This is an example of error bars in a scatter chart."
+    - copy: "After selecting 'Error Bars' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the styles. In addition to seeing the end result, you will see which labels and style attributes were selected for this specific chart. This is an example of error bars in a scatter chart."
       img: "![Example Scatter](../static/images/graph-with-error-bars/error-bar-example-scatter.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It will open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s new online data visualization [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/graph-with-error-bars/error-bar-import.png)"
 
  - title: Create a Chart
@@ -43,12 +43,12 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colours, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
+    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to adjust the style of your chart."
     - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/graph-with-error-bars/error-bar-colour.png)"
     - copy: "Additionally, this section allows you to change the diameter of the points and also the symbol."
       img: "![Error bar points](../static/images/graph-with-error-bars/error-bars-points.gif)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
+    - copy: "To add a title to your plot, double click on the title and type directly into the field."
       img: "![Type directly title](../static/images/graph-with-error-bars/error-bar-title.png)"
     - copy: "The same can be done for the axis labels, and legend."
       img: "![Type directly axis](../static/images/graph-with-error-bars/error-bar-axis-title.png)"
