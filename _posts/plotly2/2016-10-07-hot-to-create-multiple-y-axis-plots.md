@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make Multiple Y-Axis Plots in Plotly 2.0
-subtitle: Create multiple y-axis plots using the Plotly 2.0 data visualization tool
-permalink: /multiple-y-axis/
+title: How to Make Multiple Y-Axes Plots in Plotly 2.0
+subtitle: Create a plot with multiple y-axes using the Plotly 2.0 data visualization tool
+permalink: /multiple-y-axes/
 imageurl: ../static/images/multiple-y-axes/multiple y thumb.png
 state: active
 tags: subplot
 order: 3
-meta_description: Learn how to create multiple y-axis plots online using Plotly 2.0 graphing software.
+meta_description: Learn how to create plots with multiple y-axes online using Plotly 2.0 graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Multiple y-axis plots in Plotly 2.0
+actioncall: Multiple y-axes plots in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:219
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/multiple-axes/#multiple-yaxes) or [R](https://plot.ly/r/multiple-axes/#multiple-y-axes).
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "Need to plot a graph with a secondary y-axis? This feature is for you. The second y-axis will be placed on the right-hand side of your graph, and it's really simple to create."
+    - copy: "An additional y-axis can be placed on the right-hand side of your graph, and it's really simple to create. This feature is useful if you'd like to compare datasets with vastly different ranges or types of data."
 
  - title: Add Your Data to Plotly
    sub-steps:
@@ -30,12 +30,12 @@ steps:
 
  - title: Create a Plot
    sub-steps:
-    - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic))). We'll use the [grouped bar](http://help.plot.ly/grouped-bar-chart/) chart type for this tutorial."
+    - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic)). We'll use the [grouped bar](http://help.plot.ly/grouped-bar-chart/) chart type for this tutorial."
       img: "![Subplot Trace](../static/images/multiple-y-axes/values.png)"
 
  - title: Select a Subplot
    sub-steps: 
-   - copy: "We need two traces before we introduce the multiple y-axis feature, so we'll click the blue '+Trace' button on the right-hand side of the panel to add the second trace."
+   - copy: "We need two traces before we introduce the multiple y-axes feature, so we'll click the blue '+Trace' button on the right-hand side of the panel to add the second trace."
      img: "![Second trace](../static/images/multiple-y-axes/second trace.png)"
    - copy: "We'll do the same for our third trace, but after we choose the [line graph](http://help.plot.ly/make-a-line-graph/) chart type for this trace and select our x and y values, we'll click on 'Subplot and Multiple Axes'."
      img: "![Third trace](../static/images/multiple-y-axes/subplot button.png)"
