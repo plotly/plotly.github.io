@@ -35,7 +35,7 @@ steps:
 
  - title: Select a Subplot
    sub-steps:
-    - copy: "We need two traces in our main plot, so we'll repeat the above steps by clicking the blue '+Trace' button on the right-hands side of the panel to add the second trace."
+    - copy: "We need two traces in our main plot, so we'll repeat the above steps by clicking the blue '+Trace' button on the right-hand side of the panel to add the second trace."
       img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/inset second trace.png)"
     - copy: "We'll do the same for our third trace, but after we select our x and y values, we'll click on 'Subplot and Multiple Axes'."
       img: "![Third trace](../static/images/graph-with-multiple-axes-with-excel/inset third trace.png)"
