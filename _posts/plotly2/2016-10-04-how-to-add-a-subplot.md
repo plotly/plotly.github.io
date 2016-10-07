@@ -35,7 +35,7 @@ steps:
 
  - title: Select a Subplot
    sub-steps: 
-    - copy: "Once you've added your first trace, click the blue '+Trace' button on the right-hands side of the panel to add another. Once that new trace tab opens, click on 'Subplot and Multiple Axes'."
+    - copy: "Once you've added your first trace, click the blue '+Trace' button on the right-hand side of the panel to add another. Once that new trace tab opens, click on 'Subplot and Multiple Axes'."
       img: "![Subplot button](../static/images/graph-with-multiple-axes-with-excel/two buttons.png)"
     - copy: "This will open a section where you can select an arrangement for your subplot. As mentioned earlier, you can set them up as stacked or side-by-side."
       img: "![Subplot arrangement](../static/images/graph-with-multiple-axes-with-excel/arrangements.png)"
