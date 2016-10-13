@@ -59,6 +59,6 @@ steps:
  
  - title: Tips and Tricks
    sub-steps:
-    - copy: "As you're creating a plot with multiple axes, you may notice that the grid doesn't quite align. You can change this by [editing the range](http://help.plot.ly/style-your-plots/#step-6-axes)."
+    - copy: "As you're creating a plot with multiple axes, you may notice that the grid doesn't quite align. If you want the axes mapped to one another so the grid overlaps, you can [edit the range](http://help.plot.ly/style-your-plots/#step-6-axes) of both x-axes."
     - copy: "If you *do* want to keep the x-axes labels (we removed ours, if you recall), you may have to adjust the [margins and padding](http://help.plot.ly/style-your-plots/#step-4-layout) so the top x-axis label doesn't hide behind the main plot's title or subtitle."
 ---
