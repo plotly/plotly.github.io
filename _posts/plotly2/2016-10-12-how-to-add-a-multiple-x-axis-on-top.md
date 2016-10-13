@@ -39,7 +39,7 @@ steps:
      img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/stacked second trace.png)"
    - copy: "This will open a section where you can select an arrangement for your subplot."
      img: "![Subplot arrangement](../static/images/graph-with-multiple-axes-with-excel/arrangements.png)"
-   - copy: "We'll select the 'Top X-Axis' arrangement for this trace, which will add a second x-axis on the top of the plot, but the traces will still be displayed in the same space with the same y-axis. We'll also label our axes right away. This will make it easier as we select the position using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
+   - copy: "We'll select the 'Top X-Axis' arrangement for this trace. This will add a second x-axis on the top of the plot, but the traces will still be displayed in the same space with the same y-axis. We'll also label our axes right away. This will make it easier as we select the position using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
      img: "![Current subplot](../static/images/graph-with-multiple-axes-with-excel/stacked current subplot.png)"
    - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."          
      img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)" 
@@ -59,6 +59,6 @@ steps:
  
  - title: Tips and Tricks
    sub-steps:
-    - copy: "As you're creating a plot with multiple axes, you may notice that the grid doesn't quite align. For some users this won't matter, but some like the axes mapped to one another so the grid overlaps. You can do this by [editing the range](http://help.plot.ly/style-your-plots/#step-6-axes)."
+    - copy: "As you're creating a plot with multiple axes, you may notice that the grid doesn't quite align. You can change this by [editing the range](http://help.plot.ly/style-your-plots/#step-6-axes)."
     - copy: "If you *do* want to keep the x-axes labels (we removed ours, if you recall), you may have to adjust the [margins and padding](http://help.plot.ly/style-your-plots/#step-4-layout) so the top x-axis label doesn't hide behind the main plot's title or subtitle."
 ---
