@@ -61,8 +61,8 @@ steps:
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/zoom-level.gif)"
     - copy: "Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting)."
       img: "![Date format and time series 1](../static/images/dates-time-series-and-timestamp/table 1.png)"
-    - copy: "Test"
+
       img: "![Date format and time series 2](../static/images/dates-time-series-and-timestamp/table 2.png)"
-    - copy: "Test"
+
       img: "![Date format and time series 3](../static/images/dates-time-series-and-timestamp/table 3.png)"
 ---
