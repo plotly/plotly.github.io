@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Make Multiple X-Axes Plots in Plotly 2.0
 subtitle: Create a plot with multiple x-axes using the Plotly 2.0 data visualization tool
 permalink: /multiple-x-axes/
-imageurl: ../static/images/graph-with-multiple-axes-with-excel/stacked x thumb.png
+imageurl: ../static/images/graph-with-multiple-axes-with-excel/stackedxthumbnail.png
 state: active
 tags: subplot
 order: 4
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Introduction
    sub-steps:
-    - copy:  "This second horizontal axis will be set on top on your graph, making it a cool feature to use when you have mixed types of data."
+    - copy:  "This second horizontal axis will be set on top on your graph, making it a cool feature to use when you have mixed types of data or varying ranges."
 
  - title: Add Your Data to Plotly
    sub-steps:
@@ -39,7 +39,7 @@ steps:
      img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/stacked second trace.png)"
    - copy: "This will open a section where you can select an arrangement for your subplot."
      img: "![Subplot arrangement](../static/images/graph-with-multiple-axes-with-excel/arrangements.png)"
-   - copy: "We'll select the 'Top X-Axis' arrangement for this trace, and label our axes right away. This will make it easier as we select the position using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
+   - copy: "We'll select the 'Top X-Axis' arrangement for this trace, which will add a second x-axis on the top of the plot, but the traces will still be displayed in the same space with the same y-axis. We'll also label our axes right away. This will make it easier as we select the position using the 'Current Subplot' dropdown menu. The plot you select from this dropdown will act as the base for the subplot we're adding. Finally, select CONFIRM."
      img: "![Current subplot](../static/images/graph-with-multiple-axes-with-excel/stacked current subplot.png)"
    - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."          
      img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)" 
@@ -47,13 +47,18 @@ steps:
  - title: Style a Plot
    sub-steps:      
     - copy: "We've styled this plot by playing with the [colors](http://help.plot.ly/style-your-plots/#step-3-traces), adding [grid lines](http://help.plot.ly/style-your-plots/#step-6-axes) and adjusting the [margins](http://help.plot.ly/style-your-plots/#step-4-layout) of our plot. We also removed the x-axes labels since we don't need them anymore. For more styling tips, consult [this](http://help.plot.ly/style-your-plots/) page."
-      img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/StackedXFinalPlot.png)"
+      img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/final stacked x.png)"
     - copy: "If you like the way we've styled our plot, see [this](http://help.plot.ly/style-your-plots/) great tutorial."
 
  - title: Save and Share
    sub-steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/graph-with-multiple-axes-with-excel/stackedXSaveMain.png)"
+      img: "![Save main](../static/images/graph-with-multiple-axes-with-excel/save main stacked x.png)"
     - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/stacked x save popup.png)"     
+ 
+ - title: Tips and Tricks
+   sub-steps:
+    - copy: "As you're creating a plot with multiple axes, you may notice that the grid doesn't quite align. For some users this won't matter, but some like the axes mapped to one another so the grid overlaps. You can do this by [editing the range](http://help.plot.ly/style-your-plots/#step-6-axes)."
+    - copy: "If you *do* want to keep the x-axes labels (we removed ours, if you recall), you may have to adjust the [margins and padding](http://help.plot.ly/style-your-plots/#step-4-layout) so the top x-axis label doesn't hide behind the main plot's title or subtitle."
 ---
