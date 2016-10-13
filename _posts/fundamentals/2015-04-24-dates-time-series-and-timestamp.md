@@ -26,7 +26,6 @@ steps:
     - copy: "Plotly’s date format is 'yyyy-mm-dd HH:MM:SS.ssssss'. You can enter this format directly, or depending on your data entry method, use our parsers to convert for you."
     - copy: "For our API users, we have guides for time series in [MATLAB](https://plot.ly/matlab/time-series/), [Python](https://plot.ly/python/time-series/), and [R](https://plot.ly/r/time-series/). If you’re using Python, we accept 'datetime.date' and 'datetime.datetime' formats. For plotly.js, we support JavaScript Date objects. Using MATLAB, you can specify the date format directly so our parser knows what to do. In R, we support R’s classes Date, POSIXlt and POSIXct in our ggplot2 to Plotly conversion."
 
-steps: 
  - title: Entering dates and times in Plotly’s grid
    sub-steps:
     - copy: "To enter dates directly in the grid, you’ll need to use the format: yyyy-mm-dd HH:MM:SS.ssssss. Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. Your entry must include the four-digit year."
@@ -34,19 +33,16 @@ steps:
     - copy: "You can truncate the fractional seconds to any number of digits. All other truncations require you to keep entire fields. Here are a few common mistakes to avoid."
       img: "![fractional seconds](../static/images/dates-time-series-and-timestamp/fractional seconds.png)"
 
-steps: 
  - title: Importing files with dates and times
    sub-steps:
     - copy: "Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Plotly will parse the data for you into our native format so you’re ready to customize your graph."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/import-data-file.png)"
 
-steps: 
  - title: Custom formats for your graph
    sub-steps:
     - copy: "When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)"
 
-steps: 
  - title: Custom formats for your graph
    sub-steps:
     - copy: "To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify."
