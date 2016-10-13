@@ -15,7 +15,7 @@ actioncall-url: https://plot.ly/alpha/workspace/?fid=empet:55
 
 otherlang: Know how to program? Learn more about time series for [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~empet/55.embed"></iframe>
+live-graph: <iframe width="800" height="700" frameborder="0" scrolling="no" src="https://plot.ly/~empet/55.embed"></iframe>
 live-graph-image:
 
 steps: 
