@@ -13,7 +13,7 @@ carouselimageurl:
 actioncall: Subplots with a shared y-axis in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:223
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/r/subplots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/#subplots-with-shared-xaxes) and [R](https://plot.ly/r/subplots/).
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/223.embed"></iframe>
 live-graph-image:
