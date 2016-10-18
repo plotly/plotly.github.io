@@ -13,7 +13,7 @@ carouselimageurl:
 actioncall: Subplots with a shared y-axis in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:223
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/#subplots-with-shared-xaxes).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/r/subplots/).
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/223.embed"></iframe>
 live-graph-image:
@@ -39,7 +39,7 @@ steps:
      img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/shared y second trace.png)"
    - copy: "This will open a section where you can select an arrangement for your subplot."
      img: "![Subplot arrangement](../static/images/graph-with-multiple-axes-with-excel/arrangements.png)"
-   - copy: "We'll select the 'Side by Side X-Axis' arrangement for this trace and select CONFIRM."
+   - copy: "We'll select the 'Side by Side X-Axis' arrangement for this trace and select CONFIRM. This will add a subplot to the right of your original plot with a unique x-axis. The y-axis will remain shared. Notice when you zoom in on one subplot, the zoom will be applied vertically to the other subplot as well."
    - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."          
      img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)" 
    - copy: "We'll label the x-axis for that last plot by double-clicking the area and typing it directly."
