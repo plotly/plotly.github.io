@@ -25,7 +25,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/choropleth-maps/) or [R](https://plot.ly/r/choropleth-maps/).
 
-live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Nicole_G/3191.embed"></iframe>
+live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~chelsea_lyn/13287/"></iframe>
 
 steps:
  - title: Upload your Excel data to Plotly's grid
