@@ -19,7 +19,7 @@ steps:
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
       img: "![Save tab main screen](../static/images/graph-with-multiple-axes-with-excel/shared y save main.png)"
-    - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+    - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/how-sharing-works-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/shared y save popup.png)"
 
  - title: Export Your Plot as a Static Image
