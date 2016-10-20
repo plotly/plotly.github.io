@@ -1,91 +1,60 @@
 ---
-layout: single
-title: Embed Plotly Graphs in A Blog or Website
-subtitle: How to Embed Plotly Graphs
-permalink: /embed-graphs-in-websites/
-imageurl: /static/images/embed-plotly-graphs/thum-embed-plotly-graphs.png
+layout: tutorial-single_layout
+title: How to Save, Export, and Share in Plotly 2.0
+subtitle: How to save your work and share it.
+permalink: /save-share-and-export-in-plotly/
+imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: fundamentals
-section: fundamentals
-order: 6
-meta_description: A tutorial on how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and Wordpress. Plotly is the easiest way to graph and share your data.
-actioncall: Make a Graph
+order: 4
+meta_description: A tutorial on how to save, export, and share in Plotly 2.0.
+popularity: featured
+carouselimageurl:
+actioncall: How to Save, Export, and Share in Plotly 2.0
+
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#static-image-export) or [R](https://plot.ly/r/#static-image-export).
+
+steps:
+ - title: Save Your Plot
+   sub-steps:
+    - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
+      img: "![Save tab main screen](../static/images/graph-with-multiple-axes-with-excel/shared y save main.png)"
+    - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+      img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/shared y save popup.png)"
+
+ - title: Export Your Plot as a Static Image
+   sub-steps:
+    - copy: "Once you’ve saved your plot, you can export it as an image or an HTML file."
+      img: "![Export tab main screen](../static/images/how-to-save-export-and-share/new export main.png)"
+    - copy: "Save it as a PNG, or if you wish to save it as a PDF, SVG or ESP, click [here](https://plot.ly/products/cloud/) to upgrade your account. If you want to download the .jpeg version, visit your [Viewplot](http://help.plot.ly/viewplot/) and click on the blue 'Export' at the top right-hand side of your plot and select it in the popup menu."
+    - copy: "Choose the size as displayed, or the custom size of your chart."
+      img: "![Export tab main screen](../static/images/how-to-save-export-and-share/new export image.png)"
+    - copy: "Click on DOWNLOAD to save it onto your computer."
+ 
+ - title: Export Your Plot as an HTML file
+   sub-steps:
+    - copy: "When you hit the HTML tab in this same panel under 'Export', you have the option of selecting DOWNLOAD AS ZIP ARCHIVE or DOWNLOAD AS HTML FILE."
+      img: "![Export html](../static/images/how-to-save-export-and-share/new html tab.png)"
+
+ - title: Export Your Data
+   sub-steps:
+    - copy: "To export your data in a CSV or Excel file, visit your [Organize page](https://plot.ly/organize/home). You can also locate it by typing the following on your address bar: 'http://plot.ly/~YOURUSERNAME'. This is your Profile page. Hover over your plot and click VIEW."
+      img: "![View plot](../static/images/how-to-save-export-and-share/new view plot.png)"
+    - copy: "Click on the blue 'Export' button just above your plot, then select '.csv' or '.xlsx' from the popup menu."
+      img: "![Export data](../static/images/how-to-save-export-and-share/export data popup.png)"
+    - copy: "Your files will download to your device."
+
+ - title: Share Your Plot
+   sub-steps:
+    - copy: "You can share your plot in different ways."
+      img: "![Share plot main](../static/images/how-to-save-export-and-share/new share main.png)"
+    - copy: "When you click on the SHAREABLE LINK tab, you can copy the URL and send it to others so they'll be able to view your plot."
+      img: "![Shareable link](../static/images/how-to-save-export-and-share/Shareable_Link.png)"
+    - copy: "If you want to add collaborators, simply invite them by adding their information with optional message in the fields, then click ADD. For more information on collaborating, visit [this](http://help.plot.ly/collaborate-in-plotly/) page."
+      img: "![Share collaborators](../static/images/misc-tutorial-images/adding collaborators.png)"
+    - copy: "The EMBED tab will give you a link so you can add it to a website. You have the option of embedding your plot as an HTML snippet or iframe. For more information on how to embed your plot in a blog or website, click [here](http://help.plot.ly/embed-graphs-in-websites/)."
+      img: "![Embed pop-up](../static/images/how-to-save-export-and-share/new embed.gif)"
+    - copy: "Last but not least, you can also share your plot on social media! Simply click on the Facebook, Twitter, and Google Plus icons."
+      img: "![Social media icons](../static/images/how-to-save-export-and-share/new social media.png)"
+    - copy: "Love the graphs that are featured on this page? Check out our [tutorials](http://help.plot.ly/tutorials/#basic) to learn how to create really cool plots!"
 ---
-
-# Embed Plotly Graphs in A Blog or Website
-
-When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!
-
-Plotly’s interactive charts add impact to your blog, webpage, online notebook, IPython notebook, and lesson plans: we’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen). | ![Tax rate graph](/static/images/embed-plotly-graphs/tax-rates.png)
-
-You can embed a Plotly graph with using HTML code or an iFrame. We show you how to paste the HTML code in your website or blog in Step 2 below. Finally, if you’re using wordpress.com, jump to the explanation below. WordPress doesn’t support our HTML code or iFrames, but we’ve come up with an easy solution for you.
-
-### Step 1: Get the HTML snippet
-
-There are three places to locate the embed code in Plotly.  If you want to share someone else’s graph, option 1 is the easier choice.  If you’re in your own Workspace, then you’ll want to check out option 2. To share from a folder, for example Home, within the Organize app, select option 3.
-
-
-**Option 1:**
-
-This option is for sharing someone else's graph, as seen on the right. | ![Song lengths graph](/static/images/embed-plotly-graphs/song-length.png)
-Notice the sharing options located in the bottom right corner.  You want to click on the button &lt;/&gt; . | ![Sharing options](/static/images/embed-plotly-graphs/sharing-options.png)
-
-**Option 2:**
-
-To share from your own workspace, click the **Share** option in the top right of your browser window. | ![Workspace share option](/static/images/embed-plotly-graphs/workspace-share-option.png)
-In the **Share Plot** popover that opens, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that the graph is set to “public” in order to generate the HTML code. | ![Sharing options](/static/images/embed-plotly-graphs/share-plot.png)
-
-**Option 3:**
-
-To share your own graph from the Organize app click on the **Share** button above the **Open Plot** button. | ![Share from the Organize app](/static/images/embed-plotly-graphs/share-from-organize-app.png)
-This will bring up the **Share Plot** popover. As with option 2, click on the **Embed** &lt;/&gt; button. You’ll need to make sure that either the graph is set to “public” OR the **Enable private share link** option under **Sharable Link** is checked in order to generate the HTML code. | ![Sharable link](/static/images/embed-plotly-graphs/sharable-link.png)
-Embed the **div** in your website or HTML application. | ![Final embedding code](/static/images/embed-plotly-graphs/embed-code.png)
-
-
-If you need an iframe, copy and paste the snippet below. You’ll have to replace the URL of our graph with your own.
-
->  &lt;iframe
->  frameborder="0" seamless="seamless" scrolling="no"
->  src="https://plot.ly/~Dreamshot/411.embed">
->  </iframe>
-
-
-If you are using a secret link with a private key, update the private link to include `.embed` before the `?share_key` term. Here is an example:
-
->&lt;iframe
->frameborder="0" seamless="seamless" scrolling="no"
->src="https://plot.ly/~chris/15989.embed?share_key=V6QnmguC5YHwziynBv8NJR">
-></iframe>
-
-You can control the width and the height of the iframe by adding `width` and `height` keywords into the HTML:
-
->&lt;iframe
->      width=750 height=500
->      frameborder="0" seamless="seamless" scrolling="no"
->      src="https://plot.ly/~Dreamshot/411.embed">
->    </iframe>
-
-
-The graph will autosize in the iframe container.
-
-### [Customizing the iframe](#options)
-
-You can add these URL query parameters to further customize the iframe:
-
-| Option  | Description  | Example |
-|:-----|:---------|:---------------|
-| ```autosize=True``` | layout.autosize in chart is forced | https://plot.ly/~Dreamshot/411.embed?autosize=True |
-| ```link=false``` | Plotly "Edit chart" link is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&link=false |
-| ```modebar=false``` | Plotly toolbar is hidden | https://plot.ly/~Dreamshot/411.embed?autosize=True&modebar=false |
-| ```logo=false``` | Tool bar shows, but Plotly logo does not | https://plot.ly/~Dreamshot/411.embed?autosize=True&logo=false |
-| ```width=100%``` | Set chart width within iframe | https://plot.ly/~Dreamshot/411.embed?width=100% |
-| ```height=650``` | Set chart height | https://plot.ly/~Dreamshot/411.embed?height=650 |
-
-### Step 2: Paste the HTML into your site’s code
-
-Paste the HTML code into your site’s source code, and resize as needed.  At Plotly, we use (tumblr)[http://www.tumblr.com] for our blog . Our post on [lines of best fit](/create-a-line-of-best-fit-online/) has several graphs embedded.  Here’s the snippet we used for the first chart in that post.  You might need to resize &#8212; we’ve found trial and error is best.
-![How to embed plotly graphs in websites](/static/images/embed-plotly-graphs/plotly-blog-post.png)
-
-### Wordpress
-
-We developed a [wordpress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress&#8217;s admin. Check it out: [https://wordpress.org/plugins/wp-plotly/](https://wordpress.org/plugins/wp-plotly)
