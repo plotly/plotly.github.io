@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
 permalink: /json-chart-schema/
@@ -9,7 +8,7 @@ meta_description: The Plotly JSON chart schema is the complete, human-readable t
 popularity: frontpage
 ---
 
-## The Plotly JSON schema<br>for interactive scientific charts
+### The Plotly JSON schema for interactive, scientific charts
 
 The <b>Plotly JSON visualization schema</b> is a complete declarative format for creating, saving, and sharing interactive scientific charts.
 
@@ -30,13 +29,13 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
 - JSON specification: [https://plot.ly/~empet/6640.json](https://plot.ly/~empet/6640.json)
 - JavaScript specification: [https://plot.ly/~empet/6640.js](https://plot.ly/~empet/6640.js)
 
-##### Generated chart
+### Generated chart
 
 ![Simple stacked bar chart](https://plot.ly/~PlotBot/880.png)
 
-##### JSON specification
+### JSON specification
 
-<pre style="padding:20px; background:whitesmoke; font-size:12px;">
+```
 {
     "data": [
         {
@@ -88,7 +87,7 @@ We have more community-created examples on [Plotly's feed](https://plot.ly/feed/
         "barmode": "stack"
     }
 }
-</pre>
+```
 
 Using this JSON schema, it is easy to handle translation between different chart and data formats:
 
@@ -100,7 +99,7 @@ Using this JSON schema, it is easy to handle translation between different chart
 - CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
 - Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
 
-### Real-time JSON editor
+### JSON editor
 
 Try editing the JSON specification in this editor.
 
