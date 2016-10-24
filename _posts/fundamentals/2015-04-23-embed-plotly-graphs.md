@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title:  How to Embed Graphs in A Blog or Website in Plotly 2.0
-subtitle: Embed graphs using the Plotly 2.0 data visualization tool
+title:  How to Embed Graphs in A Blog or Website
+subtitle: Embed graphs created with Plotly
 permalink: /embed-graphs-in-websites/
 imageurl: ../static/images/embed-plotly-graphs/embed thumb.png
 state: active
 tags: fundamentals
 order: 6
-meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Plotly 2.0 graphing software.
+meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Plotly.
 popularity: featured
 actioncall: Embed a Graph
 
@@ -74,7 +74,7 @@ steps:
     - copy: "This is how it appears after it's been posted."
       img: "![Live embedded image](../static/images/embed-plotly-graphs/live blog.png)"
 
- - title: Embed to WordPress
+ - title: Embed on WordPress
    sub-steps:
     - copy: "WordPress doesn’t support our HTML code or iframes, but we’ve come up with an easy solution for you. We developed a [WordPress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress's admin." 
     - copy: "Don't forget to check out our WordPress blog called [Modern Data](http://moderndata.plot.ly/)!"
