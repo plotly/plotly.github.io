@@ -1,4 +1,5 @@
 ---
+layout: single
 title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
 permalink: /json-chart-schema/
@@ -12,14 +13,14 @@ popularity: frontpage
 
 The <b>Plotly JSON visualization schema</b> is a complete declarative format for creating, saving, and sharing interactive scientific charts.
 
-The complete JSON schema is maintained at [https://api.plot.ly/v2/plot-schema?sha1=%27%27](https://api.plot.ly/v2/plot-schema?sha1=%27%27).
+> The complete JSON schema is maintained at [https://api.plot.ly/v2/plot-schema?sha1=%27%27](https://api.plot.ly/v2/plot-schema?sha1=%27%27).
 
 Domain specific libraries have been written for efficent use of the visualization schema in several lanuages:
 
-- Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
-- R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
-- MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
-- JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
+1. Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
+2. R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
+3. MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
+4. JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
 ### A Simple Bar Chart Example
 
