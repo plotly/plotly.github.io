@@ -3909,9 +3909,11 @@ body {
   max-width: 1120px;
   padding: 20px; }
   .page--single .tutorial-content * {
-    font-size: 1.1rem; }
+    font-size: 1.3rem; }
   .page--single .tutorial-content strong {
     display: inline !important; }
+  .page--single .tutorial-content ul {
+    list-style-type: circle !important; }
   .page--single .tutorial-content p {
     padding: 20px;
     margin: 0;
