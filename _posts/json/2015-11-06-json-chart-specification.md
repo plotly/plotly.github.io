@@ -31,7 +31,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 
 ###### Chart Image
 
-!["Basic bar chart"](https://plot.ly/~kevintest/1081/.png)
+!["Basic bar chart"](https://plot.ly/~kevintest/1081/.png =400x)
 
 ###### JSON Descripton of Chart
 
