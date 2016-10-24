@@ -35,7 +35,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 
 ###### JSON Descripton of Chart
 
-<pre style="font-size: 11px; line-height: 12px; padding: 20px;">
+<pre>
 {
     "data": [
         {
