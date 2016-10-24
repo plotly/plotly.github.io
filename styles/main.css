@@ -428,6 +428,11 @@ code::-webkit-scrollbar-thumb {
   -ms-flex-align: center;
   align-items: center; }
 
+.tutorial-content li a{
+    font-weight: 400 !important;
+    color: #447bdc !important;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
