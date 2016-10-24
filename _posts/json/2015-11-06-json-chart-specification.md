@@ -25,17 +25,17 @@ Translations of the JSON schema for practical use in several languages are also 
 - [MATLAB](https://plot.ly/matlab/reference/)
 - [JavaScript](https://plot.ly/javascript/reference/)
 
-# A Simple Example
+# A simple example
 
 Below is a Plotly bar chart with the JSON specification that describes it.
 
-###### Chart Image
+###### Chart image
 
-<img src="https://plot.ly/~kevintest/1081/.png" width=400>
+!["Basic bar chart"](https://plot.ly/~kevintest/1081/.png)
 
-###### JSON specification
+###### JSON descripton of chart
 
-<pre style="font-size:11px;">
+```
 {
     "data": [
         {
@@ -53,16 +53,17 @@ Below is a Plotly bar chart with the JSON specification that describes it.
         }
     ]
 }
-</pre>
+```
 
-# More Examples
+# More examples
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Chart                                          | JSON description                     |
+| ---------------------------------------------- |:------------------------------------:|
+| [Area Chart](https://plot.ly/~Dreamshot/8248/) | https://plot.ly/~Dreamshot/8248.json |
+| [Pie Chart](https://plot.ly/~Dreamshot/8254/)  | https://plot.ly/~Dreamshot/8254.json |
+| [Line Chart](https://plot.ly/~Dreamshot/8259/) | https://plot.ly/~Dreamshot/8259.json |
 
+# Cross-language translation
 
 Using this JSON specification, it is easy to handle translation between different chart and data formats:
 
