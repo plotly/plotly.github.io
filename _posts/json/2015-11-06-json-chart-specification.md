@@ -25,17 +25,17 @@ Translations of the JSON schema for practical use in several languages are also 
 - [MATLAB](https://plot.ly/matlab/reference/)
 - [JavaScript](https://plot.ly/javascript/reference/)
 
-# A simple example
+# Simple Example
 
 Below is a Plotly bar chart with the JSON specification that describes it.
 
-###### Chart image
+###### Chart Image
 
 !["Basic bar chart"](https://plot.ly/~kevintest/1081/.png)
 
-###### JSON descripton of chart
+###### JSON Descripton of Chart
 
-```
+<pre style="font-size: 11px; line-height: 12px; padding: 20px;">
 {
     "data": [
         {
@@ -53,17 +53,17 @@ Below is a Plotly bar chart with the JSON specification that describes it.
         }
     ]
 }
-```
+</pre>
 
-# More examples
+# More Examples
 
-| Chart                                          | JSON description                     |
-| ---------------------------------------------- |:------------------------------------:|
-| [Area Chart](https://plot.ly/~Dreamshot/8248/) | https://plot.ly/~Dreamshot/8248.json |
-| [Pie Chart](https://plot.ly/~Dreamshot/8254/)  | https://plot.ly/~Dreamshot/8254.json |
-| [Line Chart](https://plot.ly/~Dreamshot/8259/) | https://plot.ly/~Dreamshot/8259.json |
+| Chart                                          | JSON description                             |
+| ---------------------------------------------- |:--------------------------------------------:|
+| [Area Chart](https://plot.ly/~Dreamshot/8248/) | [JSON](https://plot.ly/~Dreamshot/8248.json) |
+| [Pie Chart](https://plot.ly/~Dreamshot/8254/)  | [JSON](https://plot.ly/~Dreamshot/8248.json) |
+| [Line Chart](https://plot.ly/~Dreamshot/8259/) | [JSON](https://plot.ly/~Dreamshot/8248.json) |
 
-# Cross-language translation
+# Cross-Language Translation
 
 Using this JSON specification, it is easy to handle translation between different chart and data formats:
 
@@ -75,7 +75,7 @@ Using this JSON specification, it is easy to handle translation between differen
 - CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
 - Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
 
-# JSON editor
+# JSON Editor
 
 Try updating the chart by editing the JSON specification in this editor.
 
