@@ -3913,7 +3913,7 @@ body {
   .page--single .tutorial-content strong {
     display: inline !important; }
   .page--single .tutorial-content ul {
-    list-style-type: circle !important; }
+    list-style-type: disc !important; padding: 20px 40px; line-height: 3rem; }
   .page--single .tutorial-content p {
     padding: 20px;
     margin: 0;
