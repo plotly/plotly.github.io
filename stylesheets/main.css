@@ -3791,3 +3791,13 @@ aside h4 {
 .st0 {
   fill: #FFFFFF;
 }
+
+/* JP Oct 24 */
+
+.tutorial-content ul{
+	list-style-type: circle;
+}
+
+.page--single .tutorial-content * {
+    font-size: 1.3rem !important;
+}
