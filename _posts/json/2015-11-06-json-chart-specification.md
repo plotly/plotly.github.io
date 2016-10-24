@@ -16,6 +16,7 @@ The <b>Plotly JSON visualization schema</b> is a complete declarative format for
 The complete JSON schema is maintained as part of Plotly's [V2 REST API](https://api.plot.ly/v2/):
 
 ► (Formatted version)[https://api.plot.ly/v2/plot-schema?sha1=%27%27]
+
 ► (Raw JSON)[https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27]
 
 Domain specific libraries have been written for efficent use of the visualization schema in several lanuages:
