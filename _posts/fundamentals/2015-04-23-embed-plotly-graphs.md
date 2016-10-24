@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title:  How to Embed Graphs in A Blog or Website
+title:  How to Embed Graphs in a Blog or Website
 subtitle: Embed graphs created with Plotly
 permalink: /embed-graphs-in-websites/
 imageurl: ../static/images/embed-plotly-graphs/embed thumb.png
@@ -14,16 +14,16 @@ actioncall: Embed a Graph
 steps:
  - title: Embed Plotly Graphs in a Blog or Website
    sub-steps:
-    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
-    - copy: "Plotly’s interactive charts add impact to your blog, webpage, online notebook, IPython notebook, and lesson plans. We’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
+    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Plotly graph, you're using the online workspace, or the API. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
+    - copy: "To give you an example of where you can embed your graphs, we’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
       img: "![Lego](../static/images/embed-plotly-graphs/plotly on wired.png)"
     - copy: "You can embed a Plotly graph using HTML code or an iframe. These codes are located in Plotly's workspace, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the end of this page."
          
  - title: From Your Workspace
    sub-steps:
-    - copy: "To share from your own workspace, go to SHARE on the left-hand side."
+    - copy: "To share a plot from your own workspace, go to SHARE on the left-hand side."
       img: "![Workspace share option](../static/images/how-to-save-export-and-share/new share main.png)"
-    - copy: "The Share popup will display a link that you can add to a website and you have the option of embedding your plot as an HTML snippet or iframe. Make sure that the graph is set to 'Public' in order to generate the code."
+    - copy: "The Share popup will display a link that you can add to a website and you have the option of embedding your plot as an HTML snippet or iframe. Make sure that the graph is set to 'Public' in order to generate the code. It can be set to secret as well; you just need to share the link."
       img: "![Sharing options](../static/images/how-to-save-export-and-share/new embed.gif)"
 
  - title: From Your Organize
@@ -47,7 +47,7 @@ steps:
    sub-steps:      
     - copy: "We've talked a lot about embedding Plotly graphs, but did you know that you can also embed your grid? Just like your plots, grids can be embedded in iframes."
     - copy: "You can find the embed code by going to your [Organize](https://plot.ly/organize/) or Profile page and hovering over the saved grid. Grids are saved as 'Private' by default, so it's important that you save your data as 'Public' or 'Private Link'."
-    - copy: "Copy the iframe just as you would for the plot and paste it to your website or blog. This an example of what your grid looks like when it's been embedded."
+    - copy: "Copy the iframe just as you would for the plot and paste it to your website or blog. This is an example of what your grid looks like when it's been embedded."
       img: "![Embed grid](../static/images/embed-plotly-graphs/embed grid.png)"
                  
  - title: Embed the div 
