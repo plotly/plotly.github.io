@@ -41,7 +41,7 @@ Changing a folder's sharing status affects the contents in the following ways:
 
  - Changing a folder from private to public changes the status of all files and folders to public.
 
- - Changing a folder from public to private changes the status of the contents to private. Users on the [free plan](https://plot.ly/plans) are permitted to keep one plot private. All Plotly users do, however, enjoy unlimited private folders and grids.
+ - Changing a folder from public to private changes the status of the contents to private. Users on the [free plan](https://plot.ly/plans) are permitted to keep one plot private. All Plotly users do, however, enjoy unlimited private grids.
 
  - Moving a private item to a public folder will make that item public for the time it's in that folder, and the **Sharing** icon will be greyed-out. Moving a public item to a private folder will NOT make that item private.
 
