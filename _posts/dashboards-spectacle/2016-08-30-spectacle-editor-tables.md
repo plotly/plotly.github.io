@@ -5,7 +5,7 @@ subtitle: Add a Table to your Spectacle Editor Presentation
 permalink: /add-a-table-to-spectacle-editor/
 imageurl: http://images.plot.ly/plotly-documentation/thumbnail/spectacle-table.png
 state: active
-tags: fundamentals
+tags: dashboard
 order: 10
 meta_description: A tutorial on adding tables to Spectacle Editor.
 popularity: featured
