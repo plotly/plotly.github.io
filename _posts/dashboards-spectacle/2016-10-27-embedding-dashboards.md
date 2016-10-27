@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: COMING SOON - Embed Dashboards in a Website
+title: COMING SOON Embed Plotly Dashboards in a Website
 subtitle: How to Embed Plotly Dashboards -- COMING SOON
 permalink: /embed-dashboards/
 imageurl: '../static/images/embed-plotly-graphs/embed thumb.png'
