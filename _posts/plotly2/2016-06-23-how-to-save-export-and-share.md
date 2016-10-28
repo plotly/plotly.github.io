@@ -25,7 +25,7 @@ steps:
  - title: Export Your Plot as a Static Image
    sub-steps:
     - copy: "Once you’ve saved your plot, you can export it as an image or an HTML file."
-      img: "![Export tab main screen](../static/images/how-to-save-export-and-share/new export main.png)"
+      img: "![Export tab main screen](../static/images/how-to-save-export-and-share/Save_Tab_Main_Screen.png)"
     - copy: "Save it as a PNG, or if you wish to save it as a PDF, SVG or ESP, click [here](https://plot.ly/products/cloud/) to upgrade your account. If you want to download the .jpeg version, visit your [Viewplot](http://help.plot.ly/viewplot/) and click on the blue 'Export' at the top right-hand side of your plot and select it in the popup menu."
     - copy: "Choose the size as displayed, or the custom size of your chart."
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/new export image.png)"
