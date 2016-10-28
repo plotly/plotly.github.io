@@ -14,8 +14,8 @@ actioncall: Embed a Graph
 steps:
  - title: Embed Plotly Graphs in A Blog or Website
    sub-steps:
-    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
-    - copy: "Plotly’s interactive charts add impact to your blog, webpage, online notebook, IPython notebook, and lesson plans. We’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
+    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Plotly graph. The embedding process is the same whether you're creating graphs from the online workspace or using one of Plotly's APIs. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
+    - copy: "We’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
       img: "![Lego](../static/images/embed-plotly-graphs/plotly on wired.png)"
     - copy: "You can embed a Plotly graph using HTML code or an iframe. These codes are located in Plotly's workspace, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the [end](http://help.plot.ly/embed-graphs-in-websites/#step-10-embed-on-wordpress) of this page."
          
@@ -23,7 +23,7 @@ steps:
    sub-steps:
     - copy: "To share from your own workspace, go to SHARE on the left-hand side."
       img: "![Workspace share option](../static/images/how-to-save-export-and-share/new share main.png)"
-    - copy: "The Share popup will display a link that you can add to a website and you have the option of embedding your plot as an HTML snippet or iframe. Make sure that the graph is set to 'Public' in order to generate the code."
+    - copy: "The Share popup will display a link that you can add to a website and you have the option of embedding your plot as an HTML snippet or iframe. You can embed a public plot and everyone will be able to view it. Embedding a private plot means you and your collaborators will be able to see it. If you embed with a secret link, those that have that link will be able to see the plot. When you embed a private plot but don't add any collaborators, only you will be able to view it."
       img: "![Sharing options](../static/images/how-to-save-export-and-share/new embed.gif)"
 
  - title: From Your Organize
