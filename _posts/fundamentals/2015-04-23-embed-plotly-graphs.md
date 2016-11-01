@@ -69,7 +69,7 @@ steps:
 
  - title: Add the Code to Your Website
    sub-steps:
-    - copy: "Copy the HTML snippet or iframe and paste it into your site's source code. For our example, we'll add a graph to our [Plotly blog](http://blog.plot.ly/) hosted by (tumblr)[http://www.tumblr.com]. We're going to add the HTML snippet just the way it is, but sometimes you'll find that the image needs to be resized. We’ve found trial and error is best."
+    - copy: "Copy the HTML snippet or iframe and paste it into your site's source code. For our example, we'll add a graph to our [Plotly blog](http://blog.plot.ly/) hosted by [tumblr](http://www.tumblr.com). We're going to add the HTML snippet just the way it is, but sometimes you'll find that the image needs to be resized. We’ve found trial and error is best."
       img: "![How to embed plotly graphs in websites](../static/images/embed-plotly-graphs/embed graph to tumblr.png)"
     - copy: "This is how it appears after it's been posted."
       img: "![Live embedded image](../static/images/embed-plotly-graphs/live blog.png)"
