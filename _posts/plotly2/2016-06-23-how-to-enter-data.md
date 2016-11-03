@@ -46,7 +46,7 @@ steps:
       img: "![Grid dropdown](../static/images/enter-data-in-the-grid/grid-2.png)"
     - copy: "Another important thing to remember if you want to save your plot with all your grids is that you must include data from each grid into a trace. If you miss this step, your saved plot will open with certain grids missing."
     - copy: "Click the blue '+ Trace' button at the top right-hand side of that panel; this will add another trace to your plot. Select the X and Y values using the data from another grid. Since we've already selected Grid 2 values, we'll now add them from Grid 3. Repeat these steps until you've added values from all your grids."
-      img: "![](../static/images/enter-data-in-the-grid/grid-3.png)"
+      img: "![Enter data in the grid](../static/images/enter-data-in-the-grid/grid-3.png)"
     - copy: "Don't forget to [save](http://help.plot.ly/save-share-and-export-in-plotly/) your plot and name your file!"
     - copy: "We're currently busy adding new features to our Plotly 2 workspace. At the moment, the option of deleting grids or changing the title of the columns isn't available. Both these features will be available in the near future, so check back soon!"
 ---
