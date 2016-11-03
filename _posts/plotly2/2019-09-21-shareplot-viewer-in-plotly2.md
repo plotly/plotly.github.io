@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
 title: View Plot
-subtitle: Get to know the viewplot page.
+subtitle: Get to know the viewplot page
 permalink: /viewplot/
 imageurl: ../static/images/how-sharing-works-in-plotly/shareplot thumb.png
 state: active
 tags: fundamentals
 order: 14
-meta_description: A tutorial on the view plot page
+meta_description: A tutorial on the view plot page.
 popularity: featured
 carouselimageurl:
 actioncall: View plot page
