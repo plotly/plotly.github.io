@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title:  Plotly Dashboards Privacy
+title:  Plotly Dashboard Privacy
 subtitle: Dashboard privacy using the Plotly data visualization tool
 permalink: /dashboard-privacy/
 imageurl: ../static/images/dashboards/dashboard privacy thumb.png
 state: active
 tags: dashboard
 order: 1.5
-meta_description: Learn about dashboard privacy using the Plotly dashboard tool.
+meta_description: Learn how to set privacy settings to share dashboards using the Plotly dashboard tool.
 popularity: featured
 actioncall: Dashboard privacy
 
@@ -17,7 +17,7 @@ steps:
  - title: Introduction
    sub-steps:
     - copy: "You may have noticed that although you shared your dashboard as 'Public' or by using a secret link, some of the plots were not appearing to viewers."
-    - copy: "When you save and share your dashboard, not only is there a privacy setting for the dashboard, there's a privacy setting for individual plots too. You have to change the setting of these plots so viewers can see your entire dashboard."
+    - copy: "When you save and share your dashboard, not only is there a privacy setting for the dashboard, there's a privacy setting for individual plots too. You have to set the privacy of these plots so viewers can see your entire dashboard."
     - copy: "In this tutorial, we have dashboards with different privacy settings, and plots added to them with *their* own privacy settings. You'll see what they look like when they're shared."
 
  - title: Public Plot
@@ -39,7 +39,7 @@ steps:
    sub-steps:      
     - copy: "We'll [save](http://help.plot.ly/create-a-dashboard/#step-8-save-and-share-a-dashboard) our dashboard as 'Private Link', then click on 'Share' to find the shareable link."
       img: "![Save as private link](../static/images/dashboards/save as private link.png)"
-    - copy: "Below is what the dashboard looks like to the viewer that was given this secret link."
+    - copy: "Below is what the dashboard looks like to the viewer that was given this secret link. Remember, private links allow people with the link to view the dashboard, but it will not appear on your profile, nor is it searchable."
       img: "![Private link shared](../static/images/dashboards/private link shared.gif)"
     - copy: "The plot that was saved as 'Private' isn't displayed. In this case, we have to reset this graph's privacy setting, either as 'Public' or 'Private Link'. It's very important to note that the dashboard will not automatically update when it's changed to 'Private Link'. After you save it as 'Private Link', go back to your dashboard. Click on the plot, hit 'Edit', then select 'URL' to *enter the shareable link*. This is the only way to update your dashboard's plot from 'Private' to 'Private Link' and be viewable."   
       img: "![Add private URL](../static/images/dashboards/add private url.png)"    
