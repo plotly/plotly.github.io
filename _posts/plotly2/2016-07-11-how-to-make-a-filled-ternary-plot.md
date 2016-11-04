@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Filled Ternary Plots in Plotly 2.0
-subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
+subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid
 permalink: /ternary-filled-plot/
 imageurl: ../static/images/How-to-make-a-filled-ternary-plot/thum-filled-ternary.png
 state: active
@@ -40,14 +40,13 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "To style your ternary plot, click on STYLE on the left-hand side menu of the workspace and play around with the styling of your plot."
-    - copy: "To change the styling related to the data on your plot, for example, add filling to the area we've delimited in our plot, go to ‘Traces’ under the STYLE tab, and change the Fill. A note with regards to filling, the styling option 'To next' will only work if there are multiple traces and one completely encloses the other, unless this is the case, this option should not be used and 'To Self' should be used instead. Also with regards to colors, certain colors and typefaces are available only with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the styling related to the data on your plot, for example, add filling to the area we've delimited in our plot, go to ‘Traces’ under the STYLE tab, and change the 'Fill'. A note with regards to filling, the styling option 'To Next' will only work if there are multiple traces and one completely encloses the other, unless this is the case, this option should not be used and 'To Self' should be used instead. Also with regards to colors, certain colors and typefaces are available only with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Add Style](../static/images/How-to-make-a-filled-ternary-plot/filled-shape.png)"
-    - copy: "To change the Title, Axes and Trace names, you can do so directly on the graph by double-clicking on the corresponding area. Further styling is also possible under the 'Layout' and 'Axes' sections of the STYLE menu. Note that to style trace names, the 'Legend' needs to be set to visible, if it is not the case, go to the 'Legend' section under the STYLE menu and select the option 'Show'."
+    - copy: "To change the 'Title', 'Axes' and 'Trace' names, you can do so directly on the graph by double-clicking on the corresponding area. Further styling is also possible under the 'Layout' and 'Axes' sections of the STYLE menu. Note that to style trace names, the 'Legend' needs to be set to visible, if it is not the case, go to the 'Legend' section under the STYLE menu and select the option 'Show'."
       img: "![Type directly title](../static/images/How-to-make-a-filled-ternary-plot/titles.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "When your plot is done, click SAVE on the left-hand side menu, give your plot and grid a name, and identify them as 'Public' or 'Private'."
+    - copy: "When your plot is done, click SAVE on the left-hand side menu. Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save main](../static/images/How-to-make-a-filled-ternary-plot/saving.png)"
-    - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
 ---
