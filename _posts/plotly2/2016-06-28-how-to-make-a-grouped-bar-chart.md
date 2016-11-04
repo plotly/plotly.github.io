@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: Grouped Bar Charts in Plotly 2.0
-subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
+title: How to Make a Grouped Bar Chart in Plotly 2.0
+subtitle: Learn to create a grouped bar chart, a column chart useful for comparing data points in one or more data series
 permalink: /grouped-bar-chart/
 imageurl: ../static/images/bar-graph/thum-grouped-bar-chart-2.jpg
 state: active
 tags: basic
 order: 3
-meta_description: A tutorial on how to make a grouped bar chart in Plotly 2.0.
+meta_description: A tutorial on how to make a grouped bar chart using the Plotly 2.0. data visualization tool.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Grouped Bar Chart in Plotly 2.0
@@ -21,10 +21,10 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "A bar chart presents grouped data with rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally."
-    - copy: "After selecting 'Bar chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+    - copy: "A bar chart presents data grouped in rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally."
+    - copy: "After selecting 'Bar chart' under 'Chart Type', you can see a sample bar chart before adding your own data. By clicking the 'try an example' button, you will see what a sample chart looks like with data and styling. In addition to seeing the end result, you will be able to see which labels and style attributes were selected for this specific chart."
       img: "![Example after](../static/images/bar-graph/try-an-example-after.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. This data will open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
@@ -40,19 +40,19 @@ steps:
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/group-adding-axes.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data on the X-axis. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
+    - copy: "For charts that have many values (such as this one), you will need to add more data on the X-axis. Do this by clicking on the '+Trace' button at the top right-hand side of that pane."
       img: "![Trace open](../static/images/bar-graph/group-trace-open.png)"
     - copy: "You can add as many traces as you need, until your plot is complete!"
       img: "![Finished traces](../static/images/bar-graph/group-finish-traces.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
+    - copy: "To style your grouped bar chart, choose your colors, text position or typeface. Click on STYLE on the left-hand side to adjust the style of your chart."
     - copy: "To make this bar chart a grouped bar chart, visit the 'Traces' section under STYLE and select the 'Grouped' option under 'Bars'. It may have already been set as 'Grouped' by default."
       img: "![Grouped bar](../static/images/bar-graph/grouped-bars.png)"
-    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL. A color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typefaces are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
+    - copy: "Add a title to your plot by double-clicking on the title and typing directly into this field."
       img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)"
     - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly legend](../static/images/bar-graph/group-legend-label.png)"
