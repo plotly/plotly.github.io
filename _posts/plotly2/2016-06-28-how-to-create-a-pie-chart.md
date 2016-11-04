@@ -7,7 +7,7 @@ imageurl: ../static/images/create-pie-chart/pie-thumb.png
 state: active
 tags: basic
 order: 5
-meta_description: A tutorial on how to make a pie chart using Plotly 2.0 online data visualization software
+meta_description: A tutorial on how to make a pie chart using Plotly 2.0 online data visualization software.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
 actioncall: How to create a pie chart in Plotly 2.0
