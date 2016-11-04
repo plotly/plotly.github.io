@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: How to Make a Scatter Ternary Plot using Plotly 2.0 Data Visualization Software
+title: How to Make a Scatter Ternary Plot using Plotly 2.0 Data Visualization Tool
 subtitle: Learn to create a scatter ternary plot to depict the ratio of 3 variables on a triangular grid
 permalink: /ternary-scatter-plot/
 imageurl: ../static/images/How-to-make-a-scatter-ternary-plot/thum-scatter-ternary.png
