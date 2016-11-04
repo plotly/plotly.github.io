@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
-title: How to Make a Line Graph in Plotly 2.0
-subtitle: How to create a line graph online using the Plotly 2.0 data visualization tool
+title: Line Graphs in Plotly 2.0
+subtitle: Creating a graph that compares two variables
 permalink: /make-a-line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/line-thumb.png
 state: active
