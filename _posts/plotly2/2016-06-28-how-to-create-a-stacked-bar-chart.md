@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title: Stacked Bar Charts in Plotly 2.0
-subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
+title: How to Make a Stacked Bar Chart using the Plotly 2.0 data visualization tool
+subtitle: Create a stacked bar chart, a column chart useful for comparing data points in one or more data series
 permalink: /stacked-bar-chart/
 imageurl: https://images.plot.ly/excel/stacked-bar-chart/thum-stacked-bar-chart-2.jpg
 state: active
 tags: basic
 order: 4
-meta_description: A tutorial on how to make a stacked bar chart in Plotly 2.0.
+meta_description: A tutorial on how to make a stacked bar chart using the Plotly 2.0 online data visualization tool.
 popularity: featured
 actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=ellecj:19
@@ -23,7 +23,7 @@ steps:
     - copy: "Use a stacked bar chart when you have multiple groupings and are interested in the proportions between values in each grouping, as well as each grouping's total."
     - copy: "After selecting 'Bar chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/bar-graph/try-an-example-after.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. This will open the data in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Plotly
@@ -35,7 +35,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Bar chart' under 'Chart type'."
       img: "![Choose chart main](../static/images/bar-graph/choose-chart-main.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then select the Y and X dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your Y-axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then select the Y and X dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/raw-stacked-chart.png)"
@@ -46,14 +46,14 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To make this bar chart a stacked bar chart, visit the 'Traces' section under STYLE and select the 'Stacked' option under 'Bars'. Your chart will now be updated."
+    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to adjust the style of your chart."
+    - copy: "To make this bar chart a stacked bar chart, visit the 'Traces' section under STYLE and select the 'Stacked' option under 'Bars'. This will update your chart."
       img: "![Stacked chart](../static/images/bar-graph/stacked-chart.png)"
-    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color. Use the palette to choose different colors. Note that certain colors and typefaces are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Stacked colour fill](../static/images/bar-graph/stacked-colour-fill.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
+    - copy: "To add a title to your plot, double click on the title and type directly in the field."
       img: "![Type directly title](../static/images/bar-graph/type-directly-on-title.png)"
-    - copy: "The same can be done for the axis labels, and legend."
+    - copy: "The same can be done for the axis labels and legend."
       img: "![Type directly legend](../static/images/bar-graph/legend-titles.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/bar-graph/type-in-layout-panel.png)"
