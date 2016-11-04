@@ -7,7 +7,7 @@ imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: statistical
 order: 2
-meta_description: A tutorial on how to make a box plot using the Plotly 2.0. data visualization tool
+meta_description: A tutorial on how to make a box plot using the Plotly 2.0 data visualization tool.
 popularity: featured
 carouselimageurl:
 actioncall: How to Make a Box Plot in Plotly 2.0
