@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: How to Make a Contour Plot Online with Plotly 2.0
-subtitle: Create a Coutour Plot using Plotly 2.0 Online Graphing Software
+subtitle: Create a Coutour Plot using the Plotly 2.0 Data Visualization Tool
 permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/contour-thumb.png
 state: active
