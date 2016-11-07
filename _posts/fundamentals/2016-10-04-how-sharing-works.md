@@ -1,5 +1,5 @@
 ---
-layout: stutorial-single_layout
+layout: tutorial-single_layout
 title: How Sharing Works In Plotly
 subtitle: Sharing plots, grids, dashboards, and folders using the Plotly data visualization tool
 permalink: /how-sharing-works-in-plotly/
@@ -7,7 +7,7 @@ imageurl: ../static/images/how-sharing-works-in-plotly/sharing thumb.png
 state: active
 tags: fundamentals
 order: 5
-meta_description: Learn how sharing works using the Plotly dashboard tool.
+meta_description: Learn how sharing works using the Plotly online charting tool.
 popularity: featured
 actioncall: Share your plots, grids, dashboards, and folders
 
@@ -16,26 +16,26 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Privacy Options
    sub-steps:
-    - copy: "At Plotly, we're all about sharing and collaborating, but we understand that some users may worry about privacy."
-    - copy: "There are three privacy settings for your Plotly files: public, private and private link. The plots and grids have their own privacy settings, as well as the [dashboards](http://help.plot.ly/create-a-dashboard/). To learn more about dashboard privacy, visit [this](http://help.plot.ly/dashboard-privacy/#step-5-share-the-dashboard) page."
+    - copy: "At Plotly, we're all about sharing and collaborating, but we understand that privacy is an important concern."
+    - copy: "There are three privacy settings for your Plotly files: public, private and private link. The plots and grids have their own privacy settings, as well as the [dashboards](http://help.plot.ly/create-a-dashboard/). Visit [this](http://help.plot.ly/dashboard-privacy/#step-5-share-the-dashboard) page to learn more about dashboard privacy and how it interacts with plot privacy."
 
  - title: Public
    sub-steps:  
-    - copy: "Anyone can view a public plot, grid, or dashboard. It will appear in your profile, can appear in search engines, and be featured in the [Plotly feed](https://plot.ly/). You don't need to be logged in to Plotly to view it."
-    - copy: "Charts, grids, and dashboards featured in all our [tutorials](http://help.plot.ly/tutorials/) are public. That way, *everyone* can view them."
+    - copy: "Anyone can view a public plot, grid, or dashboard. The public file will appear in your profile. It can also appear in the [Plotly feed](https://plot.ly/) and search engines. You don't need to be logged in to Plotly to view it."
+    - copy: "All charts, grids, and dashboards featured in our [tutorials](http://help.plot.ly/tutorials/) are public. That way, *everyone* can view them."
     - copy: "When you [save](http://help.plot.ly/save-share-and-export-in-plotly/#step-1-save-your-plot) a plot, grid, or dashboard, select 'Public'."
       img: "![Public file](../static/images/make-a-histogram/save popup 2d hist.png)"
 
  - title: Private
    sub-steps:
-    - copy: "When you save your plot as 'Private', only you can view it, as long as you're logged into your account. It won't appear in the Plotly feed, your profile, or search engines. You can share a private file if you [add collaborators](http://help.plot.ly/collaborate-in-plotly/), but they'll need to be logged in to view and edit it. Please note that community users can save only one private file. [Upgrade to PRO](https://plot.ly/products/cloud/) and save unlimited private files."
+    - copy: "When you save your plot as 'Private', only you can view it, as long as you're logged into your account. It won't appear in the Plotly feed, your profile, or search engines. You can [add collaborators](http://help.plot.ly/collaborate-in-plotly/) to a private file. Collaborators will be able to view and edit the file when they are logged in. Please note that community users can save only one private file. [Upgrade to PRO](https://plot.ly/products/cloud/) and save unlimited private files."
       img: "![Private file](../static/images/how-sharing-works-in-plotly/privatelink.png)"  
     - copy: "Someone viewing your private plot will see this on their screen."
       img: "![Private file viewed](../static/images/how-sharing-works-in-plotly/private 404.png)"  
 
  - title: Private Link
    sub-steps:
-    - copy: "Anyone with the secret link can view it. Just like a private plot, it won't appear in the Plotly feed, your profile, or search engines. However, if it's embedded inside a webpage or an IPython notebook, anybody viewing that page will see it; you don't need to be logged in. Please note that secret plots count towards a user's private file limit."
+    - copy: "Anyone with the secret link can view it. Just like a private plot, it won't appear in the Plotly feed, your profile, or search engines. However, if it's embedded inside a webpage or an IPython notebook, anybody viewing that page will see it; you don't need to be logged in. Please note that secret plots count towards a user's private [file limit](https://plot.ly/products/cloud/)."
       img: "![Private link](../static/images/how-sharing-works-in-plotly/privatelink.png)"  
     - copy: "Visit your [Organize](https://plot.ly/organize) page and click on the arrow icon to locate the shareable link. You can tell a file is private or has a private link by the closed lock icon at the top corner."
       img: "![Private lock icon](../static/images/how-sharing-works-in-plotly/share link private lock.png)"
