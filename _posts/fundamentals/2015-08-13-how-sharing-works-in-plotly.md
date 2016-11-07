@@ -3,7 +3,7 @@ layout: single
 title: How Sharing Works In Plotly
 subtitle: How sharing works for plotly grids, plots and folders
 permalink: /how-sharing-works-in-plotly/
-imageurl: /static/images/how-sharing-works-in-plotly/sharing-thumb.png
+imageurl: ../static/images/how-sharing-works-in-plotly/sharing thumb.png
 state: active
 tags: fundamentals
 section: fundamentals
