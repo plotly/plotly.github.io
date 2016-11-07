@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Grouped Bar Charts in Plotly 2.0
 subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
 permalink: /grouped-bar-chart/
-imageurl: ../static/images/bar-graph/grouped-bar-thumb.png
+imageurl: ../static/images/bar-graph/new grouped thumb.png
 state: active
 tags: basic
 order: 4
@@ -53,17 +53,17 @@ steps:
     - copy: "To change the colors of your bars, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each bar will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/bar-graph/group-colour-fill.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
-      img: "![Type directly title](../static/images/bar-graph/group-type-directly.png)"
+      img: "![Type directly title](../static/images/bar-graph/new group title .png)"
     - copy: "The same can be done for the axis labels and legend."
-      img: "![Type directly legend](../static/images/bar-graph/group-legend-label.png)"
+      img: "![Type directly legend](../static/images/bar-graph/new grouped legend.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/bar-graph/group-type-in-layout-panel.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/bar-graph/group-save-main.png)"
+      img: "![Save main](../static/images/bar-graph/new grouped save main.png)"
     - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/bar-graph/group-save-pop-up.png)"
+      img: "![Save pop-up](../static/images/bar-graph/new save popup.png)"
 ---
 
