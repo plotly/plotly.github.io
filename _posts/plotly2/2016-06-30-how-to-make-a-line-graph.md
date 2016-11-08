@@ -1,9 +1,9 @@
 ---
 layout: tutorial-single_layout
 title: Line Graphs in Plotly 2.0
-subtitle: Creating a graph that compares two variables.
+subtitle: Creating a graph that compares two variables
 permalink: /make-a-line-graph/
-imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/line-thumb.png
+imageurl: ../line-graph-and-scatter-plot-with-excel/new line thumb.png
 state: active
 tags: basic
 order: 2
@@ -45,20 +45,20 @@ steps:
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/line-colour-panel.png)"
+      img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/new line colour panel.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it."
-      img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/line-type-title-directly.png)"
+      img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/new line title.png)"
     - copy: "The same can be done for the axis labels, and legend."
-      img: "![Type directly axis](../static/images/line-graph-and-scatter-plot-with-excel/line-type-directly-axis.png)"
+      img: "![Type directly axis](../static/images/line-graph-and-scatter-plot-with-excel/new line axes label.png)"
     - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
       img: "![Type in layout panel](../static/images/line-graph-and-scatter-plot-with-excel/line-type-in-title-panel.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/line-save-main.png)"
-    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/line-save-pop-up.png)"
+      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/new line save.png)"
+    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+      img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/new save popup.png)"
 ---
 
 
