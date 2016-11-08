@@ -34,7 +34,7 @@ steps:
     - copy: "Another window will be displayed, and you'll have the option of adding it by entering the URL of the plot, or uploading it from your list of files."
       img: "![Add plot window](../static/images/dashboards/add plot window.png)"
     - copy: "If you choose 'URL', it's the Shareable Link that's provided when you [share](http://help.plot.ly/save-share-and-export-in-plotly/#step-5-share-your-plot) your plot."
-      img: "![Add URL](..static/images/dashboards/add url.png/)"
+      img: "![Add URL](../static/images/dashboards/add url.png/)"
     - copy: "Clicking on 'Your Files' will open a popup that will display your saved plots. These are plots that are in your [Organize](https://plot.ly/organize/)."
       img: "![Your files](../static/images/dashboards/Your Files.png)"      
     - copy: "After adding your first plot, you can continue to add more plots or start styling the dashboard."
@@ -86,7 +86,7 @@ steps:
    sub-steps:      
     - copy: "Your dashboard is now ready! Click SAVE on the right-hand side."
       img: "![Save main](../static/images/dashboards/save.png)"
-    - copy: "A small modal window will appear. Give your dashboard a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
+    - copy: "A small modal window will appear. Give your dashboard a filename and select the privacy setting. Click [here]http://help.plot.ly/dashboard-privacy/) to learn more about dashboard privacy. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save main](../static/images/dashboards/save dashboard.png)"
     - copy: "When you want to locate your dashboard, just visit your [Organize](https://plot.ly/organize/) or Profile page, and it's there with your other saved plots and grids!"        
     - copy: "It's not possible to embed dashboards at the moment, but that feature is coming soon."
