@@ -40,21 +40,25 @@ steps:
     - copy: "After adding your first plot, you can continue to add more plots or start styling the dashboard."
       img: "![Plot added](../static/images/dashboards/first plot.png)"
 
- - title: Add a Second Plot
+ - title: Add Additional Plots
    sub-steps:
     - copy: "To add a second plot, we'll click on the 'Plot' button as the bottom left side of the page."
       img: "![Add second plot](../static/images/dashboards/second plot.png)"
     - copy: "It'll open another 'Add a Plot' window below your first chart, so you may have to scroll down to view it. Note that we've zoomed out for the purpose of this tutorial."
       img: "![Add plot](../static/images/dashboards/second plot added.png)"
-    - copy: "The second plot is displayed below the first plot. It's easy to rearrange your dashboard by dragging and dropping the plots. We'll re-position the second plot by dragging it over so it's next to the first."
-      img: "![Drag second plot](../static/images/dashboards/drag plot.gif)"
-    - copy: "It's absolutely possible to add a third plot, so we'll go ahead and do that."
-      img: "![Third plot](../static/images/dashboards/add third plot.png)"
-    - copy: "Once you've finished adding all the plots you need for your dashboard, feel free to re-position them again."
-      img: "![Reposition plots](../static/images/dashboards/repositioning all.gif)"  
+    - copy: "The second plot appears below the first. We'll also go ahead and add a third and forth plot."
+      img:"![Additional plots](../static/images/dashboards/additional plots.png)"
     - copy: "If you need to replace the plot for another, you can hit the 'Edit' button and you'll be shown the same 'Add a Plot' modal window as when we first started. You can also remove a plot you've decided you no longer need."
       img: "![Edit dashboard](../static/images/dashboards/edit remove.png)"
-              
+
+ - title: Size and Arrange the Plots
+   sub-steps:
+    - copy: "The plots in your dashboard can be resized and re-arranged, and now it's easier than ever to do this."
+    - copy: "In the image below, we move our second plot by dragging it over so it's next to the first."
+      img: "![Drag second plot](../static/images/dashboards/drag plot.gif)"
+    - copy: "You can also resize your plots by hovering over the edges and clicking on the arrow as you hold and drag."
+      img: "![Reposition plots](../static/images/dashboards/repositioning all.gif)"  
+
  - title: Style Your Dashboard
    sub-steps:
     - copy: "We'll start styling our dashboard by adding titles. You can add a title above each of the plots. This is easily done by typing directly on the 'Enter a title...' space on top."
