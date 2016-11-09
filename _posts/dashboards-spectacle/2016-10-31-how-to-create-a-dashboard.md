@@ -47,7 +47,7 @@ steps:
     - copy: "It'll open another 'Add a Plot' window below your first chart, so you may have to scroll down to view it. Note that we've zoomed out for the purpose of this tutorial."
       img: "![Add plot](../static/images/dashboards/second plot added.png)"
     - copy: "The second plot appears below the first. We'll also go ahead and add a third and forth plot."
-      img:"![Additional plots](../static/images/dashboards/additional plots.png)"
+      img: "![Additional plots](../static/images/dashboards/additional plots.png)"
     - copy: "If you need to replace the plot for another, you can hit the 'Edit' button and you'll be shown the same 'Add a Plot' modal window as when we first started. You can also remove a plot you've decided you no longer need."
       img: "![Edit dashboard](../static/images/dashboards/edit remove.png)"
 
