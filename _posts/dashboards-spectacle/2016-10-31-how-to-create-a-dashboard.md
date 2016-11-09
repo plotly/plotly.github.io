@@ -34,7 +34,7 @@ steps:
     - copy: "Another window will be displayed, and you'll have the option of adding it by entering the URL of the plot, or uploading it from your list of files."
       img: "![Add plot window](../static/images/dashboards/add plot window.png)"
     - copy: "If you choose 'URL', it's the Shareable Link that's provided when you [share](http://help.plot.ly/save-share-and-export-in-plotly/#step-5-share-your-plot) your plot."
-      img: "![Add URL](../static/images/dashboards/add url.png/)"
+      img: "![Add URL](../static/images/dashboards/add url.png)"
     - copy: "Clicking on 'Your Files' will open a popup that will display your saved plots. These are plots that are in your [Organize](https://plot.ly/organize/)."
       img: "![Your files](../static/images/dashboards/Your Files.png)"      
     - copy: "After adding your first plot, you can continue to add more plots or start styling the dashboard."
