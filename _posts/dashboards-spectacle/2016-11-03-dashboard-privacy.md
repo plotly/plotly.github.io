@@ -6,7 +6,7 @@ permalink: /dashboard-privacy/
 imageurl: ../static/images/dashboards/dashboard privacy thumb.png
 state: active
 tags: dashboard
-order: 1.5
+order: 2.5
 meta_description: Learn how to set privacy settings to share dashboards using the Plotly dashboard tool.
 popularity: featured
 actioncall: Dashboard privacy
