@@ -16,13 +16,14 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "Plotly dashboards are now more interactive and stylish than ever."
+    - copy: "Plotly dashboards are now more interactive and customizable than ever."
     - copy: "Not only can you add a [plot](http://help.plot.ly/create-a-dashboard/#step-3-add-a-plot), and [text] (http://help.plot.ly/create-a-dashboard/#step-7-add-text) to your dashboard, you can add a webpage too."
+    - copy: "For this tutorial we've taken screenshots from our dashboard, which can be found [here](https://plot.ly/~plotly2_demo/237/untitled-dashboard/)."
 
  - title: Webpage Examples
    sub-steps:  
-    - copy: "Privacy and security is important at Plotly, and our security measures may only allow certain webpages to work on the dashboards."
-    - copy: "In order to add a webpage to your dashboard, it's important to keep in mind that the page you wish to add to your dashboard may not work. Not all websites allow embedding, and some webpages may be blocked for security reasons. That being said, you can still add cool pages to the dashboard, you just need to try and see if they'll work. We'll show you a few example below."
+    - copy: "Privacy and security are important at Plotly, and our security measures may only allow certain webpages to work on the dashboards."
+    - copy: "Please note that not all websites allow embedding, and some webpages may be blocked for security reasons. That being said, you can still add cool pages to the dashboard, you just need to try and see if they'll work. We'll show you a few example below."
     - copy: "Some of the pages that can be added to your dashboard include videos, maps, feeds, and content from your personal or business website."
     - copy: "For this tutorial, we'll add a map and a video. Let's begin!"
     
