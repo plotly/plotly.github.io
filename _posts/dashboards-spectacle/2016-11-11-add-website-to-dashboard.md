@@ -17,7 +17,7 @@ steps:
  - title: Introduction
    sub-steps:
     - copy: "Plotly dashboards are now more interactive and customizable than ever."
-    - copy: "Not only can you add a [plot](http://help.plot.ly/create-a-dashboard/#step-3-add-a-plot), and [text] (http://help.plot.ly/create-a-dashboard/#step-7-add-text) to your dashboard, you can add a webpage too."
+    - copy: "Not only can you add a [plot](http://help.plot.ly/create-a-dashboard/#step-3-add-a-plot), and [text](http://help.plot.ly/create-a-dashboard/#step-7-add-text) to your dashboard, you can add a webpage too."
     - copy: "For this tutorial, we've taken screenshots from our dashboard which can be found [here](https://plot.ly/~plotly2_demo/237/untitled-dashboard/)."
 
  - title: Webpage Examples
