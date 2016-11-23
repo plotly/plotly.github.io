@@ -29,12 +29,12 @@ steps:
  - title: Using LaTeX
    sub-steps:
     - copy: "We’ll start by labeling our y-axis with the Bessel Function equation." 
-    - copy: "Move your mouse to where the y-axis label should go, and the 'Click to enter y axis' title will appear. Type or copy-and-paste '$J_\nu(X)$' and press the enter key. You've just labeled your y-axis using LaTeX."
+    - copy: "Move your mouse to where the y-axis label should go, and the 'Click to enter y axis' title will appear. Type or copy-and-paste '*J*<sub>*ν*</sub>(*X*)' and press the enter key. You've just labeled your y-axis using LaTeX."
       img: "![Y axis title](../static/images/LaTeX-basics/clickyaxis.gif)"
-    - copy: "The dollar sign tells Plotly to use LaTeX, and the underscore symbol (_) tells LaTeX to make the '\nu' part of the code appear as a subscript."
-    - copy: "Now we’re ready to label the x-axis using some of the code featured in the table at the [end](link here) of the page."
+    - copy: "The dollar sign tells Plotly to use LaTeX, and the underscore symbol (_) tells LaTeX to make the '*ν*' part of the code appear as a subscript."
+    - copy: "Now we’re ready to label the x-axis using some of the code featured in the table at the [end](http://help.plot.ly/LaTeX-basics/#step-4-latex-commands) of the page."
     - copy: "Hover over the empty x-axis field, and click to enter your label." 
-    - copy: "The text we need is '$x^2 \frac{d^2 y}{dx^2} + x \frac{dy}{dx} + (x^2 - \nu^2)y = 0$' (feel free to copy and paste). Press the enter key to see the x-axis label with LaTeX."                        
+    - copy: "The text we need is '$x^2 \\frac{d^2 y}{dx^2} + x \\frac{dy}{dx} + (x^2 - \\nu^2)y = 0$' (feel free to copy and paste). Press the enter key to see the x-axis label with LaTeX."                        
       img: "![X axis title](../static/images/LaTeX-basics/clickxaxis.gif)" 
     - copy: "If you click on the legend labels, you'll see that each one has LaTeX integrated."
       img: "![Legend labels with Latex](../static/images/LaTeX-basics/legend latex.png)"
