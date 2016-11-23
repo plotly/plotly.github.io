@@ -28,14 +28,14 @@ steps:
     
  - title: Using LaTeX
    sub-steps:
-    - copy: "We’ll start by labeling our y-axis, and using the Bessel Function equation as the label." 
+    - copy: "We’ll start by labeling our y-axis with the Bessel Function equation." 
     - copy: "Move your mouse to where the y-axis label should go, and the 'Click to enter y axis' title will appear."
     - copy: "Type or copy-and-paste '$J_\nu(X)$' and press the enter key. You've just labeled your y-axis using LaTeX."
       img: "![Y axis title](../static/images/LaTeX-basics/clickyaxis.gif)"
     - copy: "The dollar sign tells Plotly to use LaTeX, and the underscore symbol (_) tells LaTeX to make the '\nu' part of the code appear as a subscript."
     - copy: "Now we’re ready to label the x-axis using some of the code featured in the table at the [end](link here) of the page."
     - copy: "Hover over the empty x-axis field, and click to enter your label." 
-    - copy: "The code we need is '$x^2 \frac{d^2 y}{dx^2} + x \frac{dy}{dx} + (x^2 - \nu^2)y = 0$' (feel free to copy and paste). Press the enter key to see the x-axis label with LaTeX."                        
+    - copy: "The text we need is '$x^2 \frac{d^2 y}{dx^2} + x \frac{dy}{dx} + (x^2 - \nu^2)y = 0$' (feel free to copy and paste). Press the enter key to see the x-axis label with LaTeX."                        
       img: "![X axis title](../static/images/LaTeX-basics/clickxaxis.gif)" 
     - copy: "If you click on the legend labels, you'll see that each one has LaTeX integrated."
       img: "![Legend labels with Latex](../static/images/LaTeX-basics/legend latex.png)"
@@ -46,8 +46,10 @@ steps:
     - copy: "Type your command(s) in the LaTex editor to label your axes."
       img: "![Latex text editor](../static/images/LaTeX-basics/latex editor axes.png)"
     - copy: "The same can be done for your chart title. Go to the 'Layout' section under STYLE, click on 'Title and Fonts' and enter your command(s) in the LaTeX editor, as shown below."
-      img: "![Latex text editor](../static/images/LaTeX-basics/latex editor.gif)"   
-            
+      img: "![Latex text editor](../static/images/LaTeX-basics/latex editor.gif)" 
+    - copy: "You can also use LaTeX for your notes. To locate the LaTex editor for your annotations, go to STYLE, then 'Notes'. Click on the blue '+ Annotation' button at the top of the panel and choose any from the dropdown menu. To learn more about annotations, visit [this](http://help.plot.ly/how-to-add-annotations/) page."
+      img: "![Latex annotations](../static/images/LaTeX-basics/annotations latex.png)" 
+    
  - title: LaTeX Commands
    sub-steps:
     - copy: "LaTeX commands allow you to use Greek letters, superscripts, subscripts, and fractions."
