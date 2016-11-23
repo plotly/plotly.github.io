@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make a Heat Map in Plotly 2.0
-subtitle: Create a heat map using the Plotly 2.0 data visualization tool
+title: How to Make a Heatmap in Plotly 2.0
+subtitle: Create a heatmap using the Plotly 2.0 data visualization tool
 permalink: /make-a-heatmap/
 imageurl: ../static/images/heat-map/heat-thumb.png
 state: active
 tags: scientific
 order: 2
-meta_description: Learn how to make a heat map online using Plotly 2.0.
+meta_description: Learn how to make a heatmap online using Plotly 2.0.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Heat Map in Plotly 2.0
+actioncall: How to Make a Heatmap in Plotly 2.0
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:11
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).
@@ -21,8 +21,8 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "A heat map is a graphical representation of data, where the individual values contained in a matrix are represented as colors. Heat maps are one of the best visualization tools for dense point data."
-    - copy: "After selecting 'Heat map' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the styles. In addition to seeing the end result, you will see which labels and style attributes were selected for this specific chart."
+    - copy: "A heatmap is a graphical representation of data, where the individual values contained in a matrix are represented as colors. Heat maps are one of the best visualization tools for dense point data."
+    - copy: "After selecting 'Heatmap' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after you add data and adjust the styles. In addition to seeing the end result, you will see which labels and style attributes were selected for this specific chart."
       img: "![Example after](../static/images/heat-map/heat-try-example.png)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It will open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
@@ -34,9 +34,9 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Heat map' under 'Chart type’."
+    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Heatmap' under 'Chart type’."
       img: "![Choose chart main](../static/images/heat-map/heat-choose-chart.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your heat map. After selecting ‘Heat map', you should then fill out the Z, X and Y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your axes to your heatmap. After selecting ‘Heatmap', you should then fill out the Z, X and Y dropdown to create the plot."
       img: "![Adding axes](../static/images/heat-map/heat-add-axes.png)"
     - copy: "This will create a raw heat map, as seen below."
       img: "![Raw heatmap](../static/images/heat-map/raw-heatmap.png)"
@@ -46,7 +46,7 @@ steps:
     - copy: "You can choose your colorscale, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the color gradients of your heat map, select ‘Traces’ under the same STYLE tab, and choose the colorscale you want."
       img: "![Colourscale](../static/images/heat-map/heat-colourscale.png)"
-    - copy: "After you've chosen your colorscale, you have the option to smooth your heat map to create a continuous heat map. So far, we've shown an example with the 'Smoothing' option off."
+    - copy: "After you've chosen your colorscale, you have the option to smooth your heatmap to create a continuous heatmap. So far, we've shown an example with the 'Smoothing' option off."
       img: "![Smoothing before](../static/images/heat-map/heat-smoothing-before.png)"
     - copy: "Here is where you select the 'Smoothing' option."
       img: "![Smoothing after](../static/images/heat-map/heat-smoothing-after.png)"
@@ -57,7 +57,7 @@ steps:
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your heat map is now done! Click SAVE on the left-hand side."
+    - copy: "Your heatmap is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/heat-map/heat-save.png)"
     - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/heat-map/heat-save-popup.png)"
