@@ -66,7 +66,7 @@ steps:
    sub-steps:     
     - copy: "The 'Axes' section has sub-tabs that relate to the values and labels of your plot. The 'Titles' sub-tab is where you can label your axes by clicking on 'All', 'X', or 'Y', and just like the plot title, you're also able to change the font, font color and font size of the axes labels."
       img: "![Axes labels](../static/images/styling-and-customizing-graphs/style-axes-title.png)" 
-    - copy: "To change the range of your axes, you'll need to visit the 'Range' sub-tab. Ths includes reversing the axis by flipping the min/max values. You can also leave the range selection as auto, or click on 'Custom' and add the unix timestamps in the 'X-MIN' and 'X-MAX' fields under 'Selection'. The range and axis specifications are done in unix timestamps."
+    - copy: "To change the range of your axes, you'll need to visit the 'Range' sub-tab. This includes reversing the axis by flipping the min/max values. You can also leave the range selection as auto, or click on 'Custom' and add the unix timestamps in the 'X-MIN' and 'X-MAX' fields under 'Selection'. The range and axis specifications are done in unix timestamps."
       img: "![Axes range](../static/images/dates-time-series-and-timestamp/time-range.png)"
     - copy: "If you're dealing with time series data and need a little help in editing date axes, visit [this](http://help.plot.ly/make-a-time-series-graph/) page."
     - copy: "Another option is to select 'Custom' in the same section, and enter the number of markers you want to show on your plot. If your plot sets the dates as biannual, but you want to show every consecutive year, this is the other place to set that up."
