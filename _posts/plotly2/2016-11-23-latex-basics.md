@@ -29,7 +29,7 @@ steps:
  - title: Using LaTeX
    sub-steps:
     - copy: "We’ll start by labeling our y-axis with the Bessel Function equation." 
-    - copy: "Move your mouse to where the y-axis label should go, and the 'Click to enter y axis' title will appear. Type or copy-and-paste '*J*<sub>*ν*</sub>(*X*)' and press the enter key. You've just labeled your y-axis using LaTeX."
+    - copy: "Move your mouse to where the y-axis label should go, and the 'Click to enter y axis' title will appear. Type or copy-and-paste: '$J\_\\nu(X)$ and press the enter key. You've just labeled your y-axis using LaTeX."
       img: "![Y axis title](../static/images/LaTeX-basics/clickyaxis.gif)"
     - copy: "The dollar sign tells Plotly to use LaTeX, and the underscore symbol (_) tells LaTeX to make the '*ν*' part of the code appear as a subscript."
     - copy: "Now we’re ready to label the x-axis using some of the code featured in the table at the [end](http://help.plot.ly/LaTeX-basics/#step-4-latex-commands) of the page."
