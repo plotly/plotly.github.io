@@ -14,7 +14,7 @@ credentials on that site.
 
 2. An attacker could trick an unsuspecting user into viewing a specially crafted dashboard on [Plotly Cloud](https://plot.ly) or a [Plotly On-Premise](https://plot.ly/product/enterprise/) server. The vulnerability would have allowed the attacker to perform any action using the victim’s credentials on that site.
 
-Thanks to WIP - get permission
+Thanks to Nassim Bouali and Mahmoud G. for reporting these issues.
 
 ## Affected products and versions
 
@@ -23,9 +23,8 @@ Thanks to WIP - get permission
 
 ## Resolution
 
-* The issue has been fixed in Plotly On-Premise version 2.0.1, which is available as a free upgrade to all current Plotly
-On-Premise customers.
 * Both issues were fixed in Plotly Cloud on 2016-11-04.
+* The second issue issue has been fixed in Plotly On-Premise version 2.0.1, which is available as a free upgrade to all current Plotly On-Premise customers. (The first issue has never affected Plotly On-Premise.)
 
 ## General notes regarding security reporting
 
