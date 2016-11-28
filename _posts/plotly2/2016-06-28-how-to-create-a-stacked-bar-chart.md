@@ -35,11 +35,11 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Bar chart' under 'Chart type'."
       img: "![Choose chart main](../static/images/bar-graph/choose-chart-main.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your Y- axis and X-axis to your stacked bar chart. After selecting ‘Bar chart', you should then select the Y and X dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your y-axis and x-axis to your stacked bar chart. After selecting ‘Bar chart', you should then select the Y and X dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/bar-graph/adding-x-and-y-axis.png)"
     - copy: "This will create a raw stacked chart, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/raw-stacked-chart.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data on the X-axis. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
+    - copy: "For charts that have many values such as this one, we need to add more data on the x-axis. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
       img: "![Trace open](../static/images/bar-graph/trace-opened.png)"
     - copy: "You can add as many traces as you need, until your plot is complete!"
       img: "![Finished traces](../static/images/bar-graph/finished-traces.png)"
