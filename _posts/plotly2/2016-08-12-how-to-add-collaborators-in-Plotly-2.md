@@ -27,7 +27,7 @@ steps:
  - title: Add Collaborators to a Plot
    sub-steps:
     - copy: "After you've [plotted](http://help.plot.ly/tutorials/#basic), [styled](http://help.plot.ly/style-your-plots/) and [saved](http://help.plot.ly/save-share-and-export-in-plotly/) your graph, you can start adding collaborators."
-    - copy: "Click on SHARE on the left-hand side of your [workspace](https://plot.ly/alpha/workspace/)."
+    - copy: "Click on SHARE on the left-hand side of your [workspace](https://plot.ly/create)."
       img: "![Collab Share](../static/images/misc-tutorial-images/Screen Shot 2016-09-12 at 8.40.38 PM.png)"
     - copy: "When the 'Share' pop-up appears, click on the 'Collaborators' tab at the top. Enter their Plotly username or email address in the first field, and you can add a message if you wish. The 'Notify via email' option is set as default."
       img: "![Invite people](../static/images/misc-tutorial-images/adding collaborators.png)"
@@ -36,7 +36,7 @@ steps:
     - copy: "You can also add more than one collaborator."
       img: "![More collaborators](../static/images/misc-tutorial-images/more collaborators.png)"
     - copy: "The other way to add collaborators is by going directly to your [list of files](https://plot.ly/organize/home) and bookmarking the page. This is where your saved plots and data are kept, so this is a good place to visit if you wish to collaborate on an older plot."
-    - copy: "You can also find this page by going back to your [workspace](https://plot.ly/alpha/workspace/) and going to the SHARE tab, then clicking on 'Collaborators'. It's the blue 'list of files' hyperlink."
+    - copy: "You can also find this page by going back to your [workspace](https://plot.ly/create) and going to the SHARE tab, then clicking on 'Collaborators'. It's the blue 'list of files' hyperlink."
       img: "![List of files](../static/images/misc-tutorial-images/listoffiles.png)"
     - copy: "To see how to add collaborators from this page, keep reading!"  
 
@@ -64,12 +64,12 @@ steps:
       img: "![Shared Files](../static/images/misc-tutorial-images/sharewithme.png)"
     - copy: "The plot and/or grid will be listed as thumbnails, and you'll have to hover over one and click on EDIT IN 2.0."
       img: "![Hover thumbnail](../static/images/misc-tutorial-images/hover-thumbnail.png)"
-    - copy: "You'll be taken to the [workspace](https://plot.ly/alpha/workspace/) and as you can see, it looks exactly like it did when it was saved and shared. Now it's your turn to work on it!"
+    - copy: "You'll be taken to the [workspace](https://plot.ly/create) and as you can see, it looks exactly like it did when it was saved and shared. Now it's your turn to work on it!"
       img: "![Hover thumbnail](../static/images/misc-tutorial-images/collab on workspace.png)"
     - copy: "Looks like you've [added another trace](http://help.plot.ly/make-a-line-graph-or-scatter-plot/#step-3-create-a-chart) and [styled](http://help.plot.ly/style-your-plots/) the graph. It looks pretty cool!"
       img: "![New plot](../static/images/misc-tutorial-images/new plot.png)"
     - copy: "Now you're now ready to save. There's no need to rename the file."
-      img: "![Save eew plot](../static/images/misc-tutorial-images/save new plot.png)"
+      img: "![Save new plot](../static/images/misc-tutorial-images/save new plot.png)"
     - copy: "The creator of the plot will go back to their [list of files](https://plot.ly/organize/home) and see that the plot was updated."
       img: "![New plot](../static/images/misc-tutorial-images/after collab.png)"   
       
