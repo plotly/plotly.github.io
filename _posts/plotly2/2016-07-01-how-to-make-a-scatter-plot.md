@@ -36,7 +36,7 @@ steps:
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Scatter plot' under 'Chart type'."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your X-axis and Y-axis to your line plot. After selecting ‘Scatter plot', you should then fill out the X and Y dropdown to create the plot."
+    - copy: "Click on GRAPH on the left-hand side to add your x-axis and y-axis to your line plot. After selecting ‘Scatter plot', you should then fill out the X and Y dropdown to create the plot."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-adding-values.png)"
     - copy: "This will create a raw scatter plot, as seen below."
       img: "![Raw chart](../static/images/line-graph-and-scatter-plot-with-excel/scatter-raw-plot.png)"
