@@ -25,7 +25,7 @@ steps:
 
  - title: The STYLE section
    sub-steps: 
-    - copy: "Once you've opened your [workspace](https://plot.ly/alpha/workspace/) and have your data in the grid, you'll have to do a few things to make your plot look just the way you want it."
+    - copy: "Once you've opened your [workspace](https://plot.ly/create) and have your data in the grid, you'll have to do a few things to make your plot look just the way you want it."
     - copy: "The STYLE section on the right-hand side of your workspace is where you'll spend most of your time styling your plot."
       img: "![Style main](../static/images/styling-and-customizing-graphs/style-main-pic.png)"
     - copy: "Click on STYLE to open that panel. Each chart type is unique with its own attributes, so each section under the STYLE tab will have different selections depending on the chart you choose."
