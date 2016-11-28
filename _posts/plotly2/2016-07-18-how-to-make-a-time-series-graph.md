@@ -29,7 +29,7 @@ steps:
  
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/dates-time-series-and-timestamp/time-import.png)"
     - copy: "When your data consists of dates, it's important to format them in a specific way, otherwise Plotly won't recognize them as such. To enter dates directly in the grid, you’ll need to use these formats: yyyy-mm, yyyy-mm-dd;  yyyy-mm-dd HH or yyyy-mm-dd HH:MM:SS (if your data consists of time). Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. You'll notice in the first column that we've set our dates as date-month (typing January 2000 as 2000-01, for example). For more detailed information on how to enter dates and times in the grid, and how to change the format displayed on your graph, visit [this](http://help.plot.ly/date-format-and-time-series/) page."
 
