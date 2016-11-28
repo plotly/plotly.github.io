@@ -38,7 +38,7 @@ steps:
 
  - title: From Your Workspace 
    sub-steps:
-    - copy: "Another way to get to your View Plot page is through Plotly’s online [workspace](https://plot.ly/alpha/workspace/)."
+    - copy: "Another way to get to your View Plot page is through Plotly’s online [workspace](https://plot.ly/create)."
     - copy: "Click on your username on the top right-hand side and choose either 'My Files' or 'Profile' from the pop-up list."
       img: "![Workspace dropdown](../static/images/how-sharing-works-in-plotly/workspace dropdown.png)"
     - copy: "Both 'My Files' and 'Profile' pages are very similar, in the sense that you can see all the plots and grids that you've saved, but only *you* can view your 'Organize' page."
