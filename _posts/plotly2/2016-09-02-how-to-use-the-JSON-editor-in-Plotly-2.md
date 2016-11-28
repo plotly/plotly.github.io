@@ -25,7 +25,7 @@ steps:
 
  - title: The JSON Panel
    sub-steps:
-    - copy: "The first step is to head to Plotly's new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
+    - copy: "The first step is to head to Plotly's new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
     - copy: "For this tutorial,  we're using Plotly's box plot example, as well as a few of [our own projects](https://plot.ly/~plotly2_demo/folder/home). To find the box plot example, select 'Box plot' under 'Chart Type', and click the 'try an example' button. As you can see, the data's already been added, and the plot has been styled. This is a great way to get yourself acquainted with not only the JSON editor, but the entire workspace as well."
       img: "![Example after](../static/images/box-plot/try-an-example.png)"
     - copy: "You can [plot](http://help.plot.ly/tutorials/#basic) and [style](http://help.plot.ly/style-your-plots/) your graph as you wish, by using the STYLE tab on the left-hands side, or by using the JSON tab."
