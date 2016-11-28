@@ -25,7 +25,7 @@ steps:
 
  - title: Add Your Data
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/alpha/workspace/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). "
+    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). "
 
  - title: Create Your Plot
    sub-steps:
