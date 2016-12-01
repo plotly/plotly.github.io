@@ -17,33 +17,33 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Introduction
    sub-steps:
-    - copy: Most graphs consist of a horizontal axis (x-axis) and a vertical axis (y-axis) to display their data. This tutorial will show you different ways you can play with your axes properties. All the attributes in this tutorial are found in the online [workspace](https://plot.ly/create/) in the 'Axes' section, under STYLE."
+    - copy: Most graphs consist of a horizontal axis (x-axis) and a vertical axis (y-axis) to display their data. This tutorial will show you different ways you can define axes properties. All the attributes in this tutorial are found in the online [workspace](https://plot.ly/create/) in the 'Axes' section, under STYLE."
       img: "![Axes section](../static/images/misc-tutorial-images/axes section.png)"
 
  - title: Change Axis Range
    sub-steps:
-    - copy: "The 'Range' sub-tab is where to go when you need to change the range of your axes."
-    - copy: "The axes start at 0 by default, but if you want you to change the range of your axes, click 'Custom Range' under 'Selection'."
+    - copy: "You can set the range of your axes in the 'Range' sub-tab."
+    - copy: "The axes are autoscaled, but if you want you to change the range of your axes, click 'Custom Range' under 'Selection'."
       img: "![Custom range](../static/images/misc-tutorial-images/custom range.png)"
     - copy: "For our example, our y-axis values are over 15 so we'd like our y-axis to start at 10 (our minimum value). We'll click on 'Y' and then enter the minimum value in the 'Min' field. This can be done if we have a maximum value, by entering it in the 'Max' field."
       img: "![Changing range](../static/images/misc-tutorial-images/y value range.gif)"
 
  - title: Reverse Axis
    sub-steps:      
-    - copy: "Reversing the axis is so easy; just flip the 'Min' and 'Max' values. The animated image below shows that when we switch the 'Min' and 'Max' values, the axis is flipped."
+    - copy: "Reversing the axis is so easy; just flip the 'Min' and 'Max' values. The animated image below shows that when we switch the 'Min' and 'Max' values, the axis is reversed."
       img: "![Reverse](../static/images/misc-tutorial-images/reverse axis.gif)"
 
  - title: Log Axis
    sub-steps:
-    - copy: "You can also set up the axis type as linear or log. In the 'Range' sub-tab, select the x-axis or y-axis, then click 'Linear' or 'Log' under 'Axis Type'."
+    - copy: "You can also set the axis type as linear or log. In the 'Range' sub-tab, select the desired axis, then click 'Linear' or 'Log' under 'Axis Type'."
       img: "![Linear log](../static/images/misc-tutorial-images/loglinear.gif)"
 
  - title: Tick Labels
    sub-steps:
-    - copy: "Customizing the tick labels along the axes can help highlight particular aspects of your data."
+    - copy: "Customizing the style and number of tick labels along the axes can help highlight particular aspects of your data."
     - copy: "The tick labels reflect column values that were selected in your trace(s)."
       img: "![Tick labels](../static/images/misc-tutorial-images/x axis tick labels.png)"
-    - copy: "You have the option of showing these labels or hiding them. Go to 'Axes', then 'Tick Labels' and depending on the axis you want to change, select X or Y, or 'ALL'. The default is 'SHOW' but click 'Hide' if you don't wish to display them."
+    - copy: "You have the option of showing these labels or hiding them. Go to 'Axes', then 'Tick Labels' and depending on the axis you want to change, select X, Y, or 'ALL'. The default is 'SHOW' but click 'Hide' if you don't wish to display them."
       img: "![Hide or show tick labels](../static/images/misc-tutorial-images/tick labels.gif)"                        
 
  - title: Tick Text
@@ -61,10 +61,11 @@ steps:
     
  - title: Customize Number of Tick Markers
    sub-steps:
-    - copy: "To set the number of ticks, go to 'Axes', then 'Tick Markers'. You have the option of setting them up as 'Linear' or Custom' in the same section."
+    - copy: "To set the number of ticks, go to 'Axes', and select the number from either 'Tick Labels' or 'Tick Markers'. The markers are hidden under 'Tick Markers' by default, so click 'Inside or 'Outside' to view the options. You can set them as 'Linear' or 'Custom' in the same section."
     - copy: "The plot below had the dates on the x-axis set as biannual. We'd like to show every consecutive year, so we select 'Custom' and enter the desired number of markers in the field."
       img: "![Custom tick markers](../static/images/misc-tutorial-images/custom tick markers.png)"
-    - copy: "Choosing 'Linear' under 'Number of Markers' is where you add the unix timestamp to the step size and step offset fields. When you work with axis specifications, you have to convert the date to unix time in milliseconds for the step size. For more information, visit [this](http://help.plot.ly/make-a-time-series-graph/) page."
+    - copy: "When you work with date or time series plots, you have to convert the date for the step size
+  and set offset. Let's say you set ticks on the 15th of every third month, set the 'Step Size' to '2000-01-15' and 'Step Offset' to 'M3'. To set ticks every 4 years, set it to 'M48'. Our plot display our data every year, so it's been set to 'M12'. For more information, visit [this](http://help.plot.ly/make-a-time-series-graph/) page."
       img: "![Linear tick markers](../static/images/misc-tutorial-images/linear tick markers.png)"
       
  - title: Axis Width
