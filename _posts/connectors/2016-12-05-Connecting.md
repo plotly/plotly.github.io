@@ -11,7 +11,7 @@ The [Plotly Chart Editor](https://plot.ly/create) makes a connection to the [Plo
 
 ## Troubleshooting HTTP Connection Errors
 
-By default and on Windows machines, the Plotly Databse Connector will run over HTTP. Some browsers will block connections made from Plotly (a site running on HTTPS) to the Database Connector (running on HTTP). 
+By default and on Windows machines, the Plotly Databse Connector will run over HTTP. Some browsers will block connections made from Plotly (a site running on HTTPS) to the Database Connector (running on HTTP). [Learn more about the difference between HTTP and HTTPS](https://www.instantssl.com/ssl-certificate-products/https.html).
 
 On Mac and Linux, you can configure the connector to use a self-signed HTTPS certificate. See below for more details.
 
