@@ -9,9 +9,11 @@ title: Connecting to the Plotly Connector - Tips and Troubleshooting
 
 The [Plotly Chart Editor](https://plot.ly/create) makes a connection to the [Plotly Database Connector](https://plot.ly/database-connectors) directly from the web browser. (The Plotly Database Connector is actually a _server_ that runs on your _localhost_. It doesn't accept connections from anywhere but your web browser).
 
-## Troubleshooting Connection Errors
+## Troubleshooting HTTP Connection Errors
 
 By default and on Windows machines, the Plotly Databse Connector will run over HTTP. Some browsers will block connections made from Plotly (a site running on HTTPS) to the Database Connector (running on HTTP). 
+
+On Mac and Linux, you can configure the connector to use a self-signed HTTPS certificate. See below for more details.
 
 To enable HTTP connections, you may need to give your browser permission to connect. Here's how:
 
@@ -36,8 +38,18 @@ Follow the prompt and click "Disable protection for now". The browser will refre
 
 **Safari**
 
+Unfortunately, Safari blocks all cross-origin requests so it is not possible to connect to the connector from Safari without enable HTTPS.
 
 
+## Self-Signed HTTPS Certificates
 
+To get around these browser warnings, you can run your Connector over HTTPS by using a self-signed HTTPS certificate.
 
+The Plotly Connector app will walk you through generating a certificate.
+
+Once you have generated your certificate, you need to install the certificate on your computer. Here is a video that walks you through installing a certificate on Mac OSX:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/diWxlh7kucc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+Note that self-signed certificates are not available for Windows machines yet.
 
