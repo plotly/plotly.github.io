@@ -32,10 +32,14 @@ steps:
 
  - title: Option 3 - Import Data from a URL
    sub-steps:
-    - copy: "You can also upload data by entering the URL of an online data set."
+    - copy: "You can also upload data by entering the URL of an online data set. Please note we only support cdv and excel files at this time."
       img: "![Enter data by URL](../static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
+      
+ - title: Option 4 - Import Data from a URL Using Plotly's External Endpoint
+   sub-steps:
+    - copy: "You can also upload data from a URL using Plotly's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL will open your data in Plotly's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from (Plotly's dataset repo)[https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv]  https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv into Plotly's online workspace."
 
- - title: Option 4 - Import Using our Samples
+ - title: Option 5 - Import Using our Samples
    sub-steps:
     - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
       img: "![Import with examples](../static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
