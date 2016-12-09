@@ -1,5 +1,5 @@
 ---
-permalink: /database-connectors/connecting
+permalink: /database-connectors/on-premise
 title: Running the Plotly Database Connector on Plotly On Premise
 ---
 
