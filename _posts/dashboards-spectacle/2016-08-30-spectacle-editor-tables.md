@@ -29,7 +29,7 @@ steps:
       img: "![plotly workspace](http://moderndata.plot.ly/wp-content/uploads/2016/12/workspace.png)"   
     - copy: "Click Save to save your Plotly grid and get its URL."
       img: "![Share grid](http://moderndata.plot.ly/wp-content/uploads/2016/12/save-table.png)"
-    - copy: "Go back to [https://plot.ly/organize/](your files) and find your newly saved Grid. Select the share icon to get its URL:"
+    - copy: "Go back to [your files](https://plot.ly/organize/) and find your newly saved Grid. Select the share icon to get its URL:"
       img: "![Get grid link step 1](http://moderndata.plot.ly/wp-content/uploads/2016/12/grid-share-link-1.png)"
     - copy: "Copy & paste the URL of your grid:"
       img: "![Get grid link step 2](http://moderndata.plot.ly/wp-content/uploads/2016/12/grid-share-link-2.png)"      
