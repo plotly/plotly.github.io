@@ -45,6 +45,7 @@ steps:
     - copy: "[https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6](https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6)"
     - copy: "Here is another example styled table:"
     - copy: "[https://plot.ly/~datasets/2798.embed?show_row_numbers=false&text_transform=uppercase&header_font_weight=300&header_background=%23ab63fa](https://plot.ly/~datasets/2798.embed?show_row_numbers=false&text_transform=uppercase&header_font_weight=300&header_background=%23ab63fa)"
+    - img: "![nice-plotly-table](http://moderndata.plot.ly/wp-content/uploads/2016/12/fun-table.png)"
 
  - title: Embed in Spectacle Editor!
    sub-steps:
