@@ -19,15 +19,22 @@ steps:
    sub-steps:
     - copy: "Go to Plotly to create a new grid: [https://plot.ly/create](https://plot.ly/create). You can also upload an Excel or CSV file."
     - copy: "If you want try some pre-loaded example tables, check out:"
-    - copy: "[https://plot.ly/~datasets](https://plot.ly/~datasets)."
-    - copy: "Enter your data in the spreadsheet. You can change the column titles by selecting Rename"
+    - copy: "[https://plot.ly/~datasets](https://plot.ly/~datasets)"
+    - copy: "Enter your data in the spreadsheet. You can change the column titles by selecting 'Rename Header:'"
       img: "![Enter data in grid](http://moderndata.plot.ly/wp-content/uploads/2016/12/rename-header.png)"
 
  - title: Save the Grid to get its URL
    sub-steps:
+    - copy: "Make a simple chart using your table, even if you don't intend to use the chart. You need to create a simple chart in order to save the data. Your workspace should look something like this after creating a simple chart with your data:"
+      img: "![plotly workspace](http://moderndata.plot.ly/wp-content/uploads/2016/12/workspace.png)"   
     - copy: "Click Save to save your Plotly grid and get its URL."
-      img: "![Share grid](http://images.plot.ly/plotly-documentation/thumbnail/share-grid.png)"
-    - copy: "Add “.embed” to the grid URL and open it in a new browser tab. Your URL should look something like this: [https://plot.ly/~jackp/16663.embed](https://plot.ly/~jackp/16663.embed)."
+      img: "![Share grid](http://moderndata.plot.ly/wp-content/uploads/2016/12/save-table.png)"
+    - copy: "Go back to [https://plot.ly/organize/](your files) and find your newly saved Grid. Select the share icon to get its URL:"
+      img: "![Get grid link step 1](http://moderndata.plot.ly/wp-content/uploads/2016/12/grid-share-link-1.png)"
+    - copy: "Copy & paste the URL of your grid:"
+      img: "![Get grid link step 2](http://moderndata.plot.ly/wp-content/uploads/2016/12/grid-share-link-2.png)"      
+    - copy: "Add “.embed” to the grid URL and open it in a new browser tab. Your URL should look something like this:"
+    - copy: "[https://plot.ly/~jackp/16663.embed](https://plot.ly/~jackp/16663.embed)."
     - img: "![Basic table](http://images.plot.ly/plotly-documentation/thumbnail/basic-table.png)"
 
  - title: Style your Table
