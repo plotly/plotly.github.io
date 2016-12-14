@@ -17,9 +17,11 @@ otherlang:
 steps:
  - title: Create a Table in Plotly
    sub-steps:
-    - copy: "Go to Plotly 1.0 to create a new grid: [https://plot.ly/plot](https://plot.ly/plot). You can also upload an Excel or CSV file."
+    - copy: "Go to Plotly to create a new grid: [https://plot.ly/create](https://plot.ly/create). You can also upload an Excel or CSV file."
+    - copy: "If you want try some pre-loaded example tables, check out:"
+    - copy: "[https://plot.ly/~datasets](https://plot.ly/~datasets)."
     - copy: "Enter your data in the spreadsheet. You can change the column titles by selecting Rename"
-      img: "![Enter data in grid](http://images.plot.ly/plotly-documentation/thumbnail/table-values.png)"
+      img: "![Enter data in grid](http://moderndata.plot.ly/wp-content/uploads/2016/12/rename-header.png)"
 
  - title: Save the Grid to get its URL
    sub-steps:
@@ -32,11 +34,15 @@ steps:
    sub-steps:
     - copy: "You can style your table using the [query strings](https://en.wikipedia.org/wiki/Query_string) below (notice that # has to be replaced with %23 for URL encoding)."
     - img: "![query-strings](http://images.plot.ly/plotly-documentation/thumbnail/table-query-strings.png)"
-    - copy: "The URL for this table is: [https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6](https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6)"
+    - copy: "The URL for this table is:" 
+    - copy: "[https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6](https://plot.ly/~jackp/16664.embed?odd_background=%23ccc&show_row_numbers=false&border_color=white&header_background=%23004151&align=center&background=%23e6e6e6)"
+    - copy: "Here is another example styled table:"
+    - copy: "[https://plot.ly/~datasets/2798.embed?show_row_numbers=false&text_transform=uppercase&header_font_weight=300&header_background=%23ab63fa](https://plot.ly/~datasets/2798.embed?show_row_numbers=false&text_transform=uppercase&header_font_weight=300&header_background=%23ab63fa)"
 
  - title: Embed in Spectacle Editor!
    sub-steps:
-   - copy: "Download Spectacle Editor from [https://formidable.com/open-source/spectacle-editor/](https://formidable.com/open-source/spectacle-editor/)"
+   - copy: "Download Spectacle Editor from:"
+   - copy: "[https://plot.ly/powerpoint-online](https://plot.ly/powerpoint-online)"
    - copy: "Inside Spectacle Editor, click the Plotly icon and copy & paste your table URL into the Embed URL text box."
    - img: "![table-in-spectacle](http://images.plot.ly/plotly-documentation/thumbnail/Table+in+SpecEd.png)"
 ---
