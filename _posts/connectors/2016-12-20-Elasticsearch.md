@@ -14,7 +14,7 @@ actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 steps:
  - title: Download the Plotly Database Connector App
    sub-steps:
-    - copy: "Simply [Download](https://github.com/plotly/electron-sql-connector/releases) the app to get started!"
+    - copy: "Simply [Download](https://plot.ly/database-connectors/) the app to get started!"
       img: "![Download App](/static/images/database-connectors/all/download-app.png)"
  - title: Launch and Connect
    sub-steps:
@@ -50,6 +50,8 @@ steps:
       img: "![](/static/images/database-connectors/one-time-query/elasticsearch-search.png)"
     - copy: "To aggregate your results click on the aggregation-type dorpdown menu. Here we chose *Significant terms* to find most occuring words within the *Response* column and count them. The choice of *counting* them was made by selecting the option *Count* in the *Compute* dropdown menu."
       img: "![](/static/images/database-connectors/one-time-query/elasticsearch-query.png)"
+    - copy: "Once your query is finalized, click *Run Query*. If you wish to set your query on a schedule to keep your grid's data updated to the latest entries of your database, visit our [schedule a query tutorial](http://help.plot.ly/database-connectors/schedule-query)."
+      img: "![](/static/images/database-connectors/one-time-query/run.png)"
  - title: Making a plot!
    sub-steps:
     - copy: "Let's visualize the most occuring terms in company's response messages in a pie chart. Click on *Graph* on the left side of the window and choose *Pie Chart* as *Chart Type*. Select *Company Response* as the labels and *value Count* as the *values* for the chart."
