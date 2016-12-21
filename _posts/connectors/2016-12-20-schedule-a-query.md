@@ -5,7 +5,7 @@ subtitle: Set your data to be updated using peristent queries with Plotly 2.0 an
 permalink: /database-connectors/schedule-query/
 imageurl:  http://blog.sqlauthority.com/wp-content/uploads/2007/05/bigclock-800x800.png
 state: active
-tags: connectorbasics
+tags: advanced
 section: Basics
 meta_description: Follow these steps to keep your graphs updated with your database
 popularity: featured

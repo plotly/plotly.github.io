@@ -1,13 +1,13 @@
 ---
 layout: connectors-tutorial-single_layout
-title: Connecting to a Apache Drill Database
-subtitle: Graph data from your Apache Drill database with Plotly 2.0 and the Plotly Database Connector.
+title: Connect Your Charts and Dashboards to Parquet files with Apache Drill
+subtitle: Graph data from your Parquet files using Apache Drill database with Plotly 2.0 and the Plotly Database Connector.
 permalink: /database-connectors/apache-drill/
 imageurl:  http://www.bigdatacloud.com/wp-content/uploads/2016/04/apache-drill-logo-400.png
 state: active
-tags: connectorbasics
+tags: other
 section: Basics
-meta_description: Follow these steps to connect to your Apache Drill database
+meta_description: Follow these steps to connect to your Parquet files using Apache Drill
 popularity: featured
 actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 

@@ -5,7 +5,7 @@ subtitle: Set up your Plotly Database Connector to use HTTPS protocol when trans
 permalink: /database-connectors/https/
 imageurl:  https://www.gorilla-cannabis-seeds.co.uk/__asset/securelogo
 state: active
-tags: connectorbasics
+tags: advanced
 section: Basics
 meta_description: Follow these steps to Set up your Plotly Database Connector to use HTTPS protocol
 popularity: featured
