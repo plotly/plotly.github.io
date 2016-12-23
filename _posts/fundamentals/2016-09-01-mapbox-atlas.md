@@ -27,7 +27,7 @@ learn more about how to configure vector tilesets.
 
 ###### Step 2. Test Vector Tiles Endpoint
 
-Once you have setup your Mapbox Atlas server to serve vector tiles, test the following “Mabpox Atlas Vector Tile URL” in your browser: <https://<your-mapbox-atlas-domain>:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json (replacing <your-mapbox-atlas-domain> with your mapbox atlas domain e.g. ec2-52-45-198-16.us-west-2.compute.amazonaws.com:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json).
+Once you have setup your Mapbox Atlas server to serve vector tiles, test the following “Mabpox Atlas Vector Tile URL” in your browser: <https://your-plotly-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json (replacing `your-plotly-domain` with your mapbox atlas domain e.g. ec2-52-45-198-16.us-west-2.compute.amazonaws.com:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json).
 
 Note: depending on the instructions that your Mapbox representative has given you, the `light-v6` and the `cilo6dghg0008a2kqgq9dnsug.json` components of the Mapbox Atlas vector tile may differ.
 
@@ -38,7 +38,7 @@ A JSON file should load:
 
 Navigate to your On-Premise settings at <your-plotly-domain>:8800/settings and scroll down to the Mapbox section.
 
-Enter "ATLAS" as the Mapbox Default Access Token and the URL <https://<your-mapbox-atlas-domain>:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json as the Mapbox Atlas Default Style URL.
+Enter "ATLAS" as the Mapbox Default Access Token and the URL <https://your-plotly-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json as the Mapbox Atlas Default Style URL.
 
 ![Mapbox Atlas Settings](/static/images/mapbox-atlas/mapbox-settings.png)
 
