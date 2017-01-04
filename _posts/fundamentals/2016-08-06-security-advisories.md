@@ -11,6 +11,6 @@ If you believe that you have found a security vulnerability, please report the i
 
 If you need further control over your data and your users for your company, consider [Plotly On-Premise](https://plot.ly/product/enterprise/) for installing Plotly behind your firewall.
 
-#### 2015-08-08 - [XSS in plotly.js](http://help.plot.ly/security-advisories/2016-08-08-plotlyjs-xss-advisory/)
+#### 2016-08-08 - [XSS in plotly.js](http://help.plot.ly/security-advisories/2016-08-08-plotlyjs-xss-advisory/)
 
-#### 2015-11-24 - [XSS in Plotly web interface](http://help.plot.ly/security-advisories/2016-11-24-plotly-xss-advisory/)
+#### 2016-11-24 - [XSS in Plotly web interface](http://help.plot.ly/security-advisories/2016-11-24-plotly-xss-advisory/)
