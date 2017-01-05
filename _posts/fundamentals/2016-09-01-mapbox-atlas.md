@@ -22,8 +22,7 @@ Mapbox Atlas server is licensed and installed separately from Plotly On-Premise.
 ###### Step 1. Configure Mapbox Atlas to serve vector tilesets for MapboxGL
 Configuring Mapbox Atlas to serve vector tilesets is a Beta feature by Mapbox and does not come configured out of the box in Mapbox Atlas.
 
-Please reach out to our support team or Mapbox's support team to configure
-learn more about how to configure vector tilesets.
+Please reach out to our support or sales team or Mapbox's support team to learn more about how to configure vector tilesets.
 
 ###### Step 2. Test Vector Tiles Endpoint
 
