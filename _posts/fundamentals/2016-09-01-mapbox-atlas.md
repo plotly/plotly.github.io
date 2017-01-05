@@ -37,7 +37,7 @@ A JSON file should load:
 
 ###### Step 3. Configure the Mapbox Atlas Settings of Plotly On-Premise
 
-Navigate to your On-Premise settings at <your-plotly-domain>:8800/settings and scroll down to the Mapbox section.
+Navigate to your On-Premise settings at your-plotly-domain:8800/settings and scroll down to the Mapbox section.
 
 Enter "ATLAS" as the Mapbox Default Access Token and the URL `https://your-atlas-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json` as the Mapbox Atlas Default Style URL.
 
@@ -47,7 +47,7 @@ Save your settings and restart your server.
 
 ###### Step 4. Create a Chart with Mapbox Atlas
 
-Visit the plotly chart creator at https://<your-plotly-domain>/create.
+Visit the plotly chart creator at https://your-plotly-domain.com/create.
 
 Select a "Satellite" map.
 
