@@ -9,7 +9,9 @@ meta_description: Configure Plotly to work with Mapbox Atlas
 
 Plotly can create interactive satellite maps with Mapbox.
 
-[![Interactive Plotly Map made with Mapbox](https://plot.ly/~chris/17632.png)](https://plot.ly/~chris/17632)
+<iframe src="https://plot.ly/~jackluo/400.embed" width="100%" height="500px" style="border: none"></iframe>
+
+These map visualizations are interactive! Scroll or double-click to zoom, click-and-drag to pan, hover over points to see their values.
 
 By default, these maps are downloaded from the public Mapbox API. If you are using [Plotly On-Premise](https://plot.ly/product/enterprise/) you will need to license an account from Mapbox Studio or license a private Mapbox Atlas server.
 
@@ -26,7 +28,7 @@ Please reach out to our support or sales team or Mapbox's support team to learn 
 
 ###### Step 2. Test Vector Tiles Endpoint
 
-Once you have setup your Mapbox Atlas server to serve vector tiles, test the following “Mabpox Atlas Vector Tile URL” in your browser: <https://your-plotly-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json (replacing `your-plotly-domain` with your mapbox atlas domain e.g. ec2-52-45-198-16.us-west-2.compute.amazonaws.com:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json).
+Once you have setup your Mapbox Atlas server to serve vector tiles, test the following “Mabpox Atlas Vector Tile URL” in your browser: `https://your-atlas-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json` (replacing `your-atlas-domain` with your mapbox atlas domain e.g. ec2-52-45-198-16.us-west-2.compute.amazonaws.com:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json).
 
 Note: depending on the instructions that your Mapbox representative has given you, the `light-v6` and the `cilo6dghg0008a2kqgq9dnsug.json` components of the Mapbox Atlas vector tile may differ.
 
@@ -37,7 +39,7 @@ A JSON file should load:
 
 Navigate to your On-Premise settings at <your-plotly-domain>:8800/settings and scroll down to the Mapbox section.
 
-Enter "ATLAS" as the Mapbox Default Access Token and the URL <https://your-plotly-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json as the Mapbox Atlas Default Style URL.
+Enter "ATLAS" as the Mapbox Default Access Token and the URL `https://your-atlas-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json` as the Mapbox Atlas Default Style URL.
 
 ![Mapbox Atlas Settings](/static/images/mapbox-atlas/mapbox-settings.png)
 
