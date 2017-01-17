@@ -1,6 +1,10 @@
 ---
 permalink: /database-connectors/connecting
 title: Connecting to the Plotly Connector - Tips and Troubleshooting
+tags: advanced
+layout: connectors-tutorial-single_layout
+popularity: featured
+actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 ---
 
 # Connecting to the Plotly Database Connector
@@ -8,6 +12,10 @@ title: Connecting to the Plotly Connector - Tips and Troubleshooting
 ## Architecture
 
 The [Plotly Chart Editor](https://plot.ly/create) makes a connection to the [Plotly Database Connector](https://plot.ly/database-connectors) directly from the web browser. (The Plotly Database Connector is actually a _server_ that runs on your _localhost_. It doesn't accept connections from anywhere but your web browser).
+
+## Running on HTTPS
+
+[View our tutorial on generating HTTPS certificates for Mac and Linux systems](http://help.plot.ly/database-connectors/https/).
 
 ## Troubleshooting HTTP Connection Errors
 
