@@ -96,11 +96,10 @@ title: Plotly Web App Tutorials
                         <li class="--sidebar-item">
                             <a href="#sql" class="button no_underline">SQL Databases</a>
                         </li>
-                        <li class="--sidebar-item">
-                            <a href="#aws" class="button no_underline">AWS Services</a>
+                            <a href="#nosql" class="button no_underline">noSQL Databases</a>
                         </li>
                         <li class="--sidebar-item">
-                            <a href="#other" class="button no_underline">Other Files and Databases</a>
+                            <a href="#other" class="button no_underline">File Systems and More</a>
                         </li>
                         <li class="--sidebar-item">
                             <a href="#advanced" class="button no_underline">Improve Your Workflow</a>
@@ -207,7 +206,7 @@ title: Plotly Web App Tutorials
             <!--End SQL Section-->
 
             <section class="--tutorial-section">
-                <header class="--section-header"><a href="#aws" name="aws" id="aws">AWS Databases</a>
+                <header class="--section-header"><a href="#nosql" name="nosql" id="nosql">noSQL Databases</a>
                     <div class="icon copy" data-tooltip="Click to copy direct link.">
                         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                             <path fill="#000000"
@@ -218,7 +217,7 @@ title: Plotly Web App Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
                         {% for page in site.posts %}
-                        {% if page.state == 'active' and page.tags contains 'aws' %}
+                        {% if page.state == 'active' and page.tags contains 'nosql' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
                             <a href="{{page.permalink}}">
@@ -247,7 +246,7 @@ title: Plotly Web App Tutorials
             <!--End AWS Section-->
 
             <section class="--tutorial-section">
-                <header class="--section-header"><a href="#other" name="other" id="other">Other Databases and Files</a>
+                <header class="--section-header"><a href="#other" name="other" id="other">File Systems and More</a>
                     <div class="icon copy" data-tooltip="Click to copy direct link.">
                         <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                             <path fill="#000000"

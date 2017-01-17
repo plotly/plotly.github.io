@@ -3,9 +3,9 @@ layout: connectors-tutorial-single_layout
 title: Connect Your Charts and Dashboards to an Elasticsearch Database
 subtitle: Graph data from your Elasticsearch database with Plotly 2.0 and the Plotly Database Connector.
 permalink: /database-connectors/elasticsearch/
-imageurl:  http://cdn.rancher.com/wp-content/uploads/2015/09/14203235/elastic-logo-square.jpg
+imageurl:  /static/images/database-connectors/logos/elasticsearch.png
 state: active
-tags: other
+tags: nosql
 section: Basics
 meta_description: Follow these steps to connect to your Elasticsearch database
 popularity: featured
