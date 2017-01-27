@@ -16,3 +16,5 @@ If you need further control over your data and your users for your company, cons
 #### 2016-11-24 - [XSS in Plotly web interface](http://help.plot.ly/security-advisories/2016-11-24-plotly-xss-advisory/)
 
 #### 2017-01-27 - [XSS in plotly.js](http://help.plot.ly/security-advisories/2017-01-27-plotlyjs-xss-advisory/)
+
+#### 2017-01-27 - [XSS in Plotly Dashboard Creator](http://help.plot.ly/security-advisories/2017-01-27-plotly-dashboard-creator-xss-advisory)
