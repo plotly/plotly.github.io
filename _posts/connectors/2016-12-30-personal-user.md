@@ -40,7 +40,7 @@ steps:
    sub-steps:
     - copy: "The application will open and you can now setup connections to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors) that includes [MySQL](/database-connectors/mysql), [MS SQL](/plotly-databases/mssql), [PostgreSQL](/plotly-databases/postgres), [MariaDB](/plotly-databases/mariadb), [Redshift](/database-connectors/redshift), [Apache Drill and Parquet files](/database-connectors/apache-drill), [S3](/database-connectors/s3), [Elasticsearch](/database-connectors/elasticsearch) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
       img: "![](/static/images/database-connectors/all/get-going.png)"
- - title: Additionnal information
+ - title: Additional information
    sub-steps:
     - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](/database-connectors/schedule-query)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
     - copy: "If you would like to run the Plotly Database Connector on a separate server, then you can run it headlessly from the command line ([more information](https://github.com/plotly/plotly-database-connector#run-as-headless-server))."
