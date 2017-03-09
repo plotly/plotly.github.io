@@ -19,12 +19,8 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps:
- <!-- Try an Example currently doesn't exist for  -->
  - title: Try an Example
    sub-steps:
-<!--     - copy: "A OHLC Chart is a great way to evaluate patterns and behavior in data over time."
-    - copy: "After selecting 'OHLC Chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/make-a-ohlc/try-an-example.png)" -->
     - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
  
@@ -62,7 +58,6 @@ steps:
     
     - copy: “The second feature is Timescale Buttons – buttons that can be clicked and update the plot to specific date range. Similar to ‘Range Selector’, ‘Timescale Buttons’ can be found in the ‘Axes’ option under the STYLE tab.  In the ‘Timescale Buttons’ panel click the blue ‘+ Button’ to add a timescale button. Here, you have the option to toggle visibility, make adjustments to height, border width, and background or border color. More importantly, in the top box inside the panel you can set the label, customise the step (i.e. month etc.), count (how many months, years, etc.), and the stepmode (backward etc.). For this tutorial, we have selected one month backward from the most recent date. Also note, that a reset button is added by default.”
       img: "![Timescale Buttons](../static/images/make-a-candlestick/timescale-buttons.png)"
-
 
  - title: Save and Share
    sub-steps:

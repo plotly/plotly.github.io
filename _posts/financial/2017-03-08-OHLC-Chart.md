@@ -19,12 +19,8 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 live-graph-image:
 
 steps:
- <!-- Try an Example currently doesn't exist for  -->
  - title: Try an Example
    sub-steps:
-<!--     - copy: "A OHLC Chart is a great way to evaluate patterns and behavior in data over time."
-    - copy: "After selecting 'OHLC Chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/make-a-ohlc/try-an-example.png)" -->
     - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
  
