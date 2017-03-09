@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Candlestick Charts in Plotly 2.0
 subtitle: Create a Candlestick Chart of financial data.
 permalink: /make-a-candlestick/
-imageurl: ../static/images/make-a-candlestick/candlestick-thimb.png
+imageurl: ../static/images/make-a-candlestick/candlestick-thimb.PNG
 state: active
 tags: financial
 order: 3
