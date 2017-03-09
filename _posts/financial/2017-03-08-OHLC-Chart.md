@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: OHLC Charts in Plotly 2.0
 subtitle: Create a OHLC Chart of financial data.
 permalink: /make-a-ohlc/
-imageurl: ../static/images/make-a-ohlc/ohlc-thimb.png
+imageurl: ../static/images/make-a-ohlc/ohlc-thimb.PNG
 state: active
 tags: financial
 order: 2
