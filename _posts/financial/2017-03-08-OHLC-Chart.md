@@ -36,8 +36,6 @@ steps:
       img: "![Choose chart main](../static/images/make-a-ohlc/choose-chart-main.png)"
     - copy: "On the left-hand side, in the trace panel, you can assign each variable. You should then fill out the X, Open, High, Low, and Close dropdown to create the plot."
       img: "![Adding data](../static/images/make-a-ohlc/trace-panel.png)"
-    - copy: "This will create a OHLC Chart, as seen below."
-      img: "![Raw chart](../static/images/make-a-ohlc/raw-chart.png)"
 
  - title: Style a Chart
    sub-steps:
