@@ -1,4 +1,4 @@
----
+﻿---
 layout: tutorial-single_layout
 title: Time Series Graphs in Plotly 2.0
 subtitle: Create a graph that illustrates data points at consecutive time intervals.
@@ -6,7 +6,7 @@ permalink: /make-a-time-series-graph/
 imageurl: ../static/images/dates-time-series-and-timestamp/time-series-thimb.png
 state: active
 tags: financial
-order: 8
+order: 1
 meta_description: A tutorial on how to make a time series graph in Plotly 2.0.
 popularity: featured
 carouselimageurl:
