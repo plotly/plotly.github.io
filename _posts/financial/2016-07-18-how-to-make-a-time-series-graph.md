@@ -27,13 +27,13 @@ steps:
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
  
- - title: Add Your Data to Plotly
+ - title: Add Data
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/dates-time-series-and-timestamp/time-import.png)"
     - copy: "When your data consists of dates, it's important to format them in a specific way, otherwise Plotly won't recognize them as such. To enter dates directly in the grid, you’ll need to use these formats: yyyy-mm, yyyy-mm-dd;  yyyy-mm-dd HH or yyyy-mm-dd HH:MM:SS (if your data consists of time). Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. You'll notice in the first column that we've set our dates as date-month (typing January 2000 as 2000-01, for example). For more detailed information on how to enter dates and times in the grid, and how to change the format displayed on your graph, visit [this](http://help.plot.ly/date-format-and-time-series/) page."
 
- - title: Create Your Chart
+ - title: Create Chart
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Line plot' under 'Chart type'."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/choose-chart-main.png)"
@@ -42,7 +42,7 @@ steps:
     - copy: "This will create a raw time series plot, as seen below."
       img: "![Raw chart](../static/images/dates-time-series-and-timestamp/time-raw-chart.png)"
 
- - title: Style a Chart
+ - title: Style
    sub-steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the color of your lines, the line thickness and line type, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"

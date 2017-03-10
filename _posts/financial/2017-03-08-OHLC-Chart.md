@@ -24,20 +24,20 @@ steps:
     - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
  
- - title: Add Your Data to Plotly
+ - title: Add Data
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
     - copy: "For this tutorial, we have decided to upload the data via a URL. More specifically, the Apple stock activity dataset from GitHub."
       img: "![Import Data](../static/images/make-a-ohlc/import-data-url.png)"
 
- - title: Create Your Chart
+ - title: Create Chart
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'OHLC Chart' in the 'Financial' column."
       img: "![Choose chart main](../static/images/make-a-ohlc/choose-chart-main.png)"
     - copy: "On the left-hand side, in the trace panel, you can assign each variable. You should then fill out the X, Open, High, Low, and Close dropdown to create the plot."
       img: "![Adding data](../static/images/make-a-ohlc/trace-panel.png)"
 
- - title: Style a Chart
+ - title: Style
    sub-steps:
     - copy: "Plotly 2.0 allows you to style the traces, layout, annotations, axes, legend, and more. To start customizing, click on STYLE on the left-hand side."
     - copy: "To change the line color, fill color, or line thickness for either increasing or decreasing values, click on ‘Traces’ under the STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!" 

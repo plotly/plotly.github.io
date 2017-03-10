@@ -30,14 +30,14 @@ steps:
     - copy: "For this tutorial, we have decided to upload the data via a URL. More specifically, the Apple stock activity dataset from GitHub."
       img: "![Import Data](../static/images/make-a-candlestick/import-data-url.png)"
 
- - title: Create Your Chart
+ - title: Create Chart
    sub-steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'Candlestick Chart' in the 'Financial' column."
       img: "![Choose chart main](../static/images/make-a-candlestick/choose-chart-main.JPG)"
     - copy: "On the left-hand side, in the trace panel, you can assign each variable. You should then fill out the X, Open, High, Low, and Close dropdown to create the plot."
       img: "![Adding data](../static/images/make-a-candlestick/trace-panel.PNG)"
 
- - title: Style a Chart
+ - title: Style Chart
    sub-steps:
     - copy: "Plotly 2.0 allows you to style the traces, layout, annotations, axes, legend, and more. To start customizing, click on STYLE on the left-hand side."
     - copy: "To change the line color, fill color, or line thickness for either increasing or decreasing values, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!" 
