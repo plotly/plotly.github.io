@@ -428,11 +428,6 @@ code::-webkit-scrollbar-thumb {
   -ms-flex-align: center;
   align-items: center; }
 
-.tutorial-content li a{
-    font-weight: 400 !important;
-    color: #447bdc !important;
-}
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -3316,11 +3311,7 @@ ul.\--ref {
             display: none; } }
         .\--tutorial-index .\--welcome .\--title .\--category-img img {
           width: 60px;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          margin-left: -28px;
-          margin-top: -35px; }
+          position: absolute; }
       .\--tutorial-index .\--welcome .\--title h1 {
         font-weight: 100;
         font-size: 3rem;
@@ -3914,11 +3905,9 @@ body {
   max-width: 1120px;
   padding: 20px; }
   .page--single .tutorial-content * {
-    font-size: 1.3rem; }
+    font-size: 1.1rem; }
   .page--single .tutorial-content strong {
     display: inline !important; }
-  .page--single .tutorial-content ul {
-    list-style-type: disc !important; padding: 20px 40px; line-height: 3rem; }
   .page--single .tutorial-content p {
     padding: 20px;
     margin: 0;
