@@ -29,7 +29,7 @@ steps:
  - title: Private
    sub-steps:
     - copy: "When you save your plot as 'Private', only you can view it, as long as you're logged into your account. It won't appear in the Plotly feed, your profile, or search engines. You can [add collaborators](http://help.plot.ly/collaborate-in-plotly/) to a private file. Collaborators will be able to view and edit the file when they are logged in. Please note that community users can save only one private file. [Upgrade to PRO](https://plot.ly/products/cloud/) and save unlimited private files."
-      img: "![Private file](../static/images/how-sharing-works-in-plotly/privatelink.png)"  
+      img: "![Private file](../static/images/how-sharing-works-in-plotly/private.png)"  
     - copy: "Someone viewing your private plot will see this on their screen."
       img: "![Private file viewed](../static/images/how-sharing-works-in-plotly/private 404.png)"  
 
