@@ -30,7 +30,7 @@ steps:
       img: "![](/static/images/database-connectors/on-prem/connector-link.png)"
  - title: Setup connections to your databases
    sub-steps:
-    - copy: "You can now setup connections to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors) that includes [MySQL](/database-connectors/mysql), [MS SQL](https://help.plot.ly/database-connectors/mssql/), [PostgreSQL](/plotly-databases/postgres), [MariaDB](/plotly-databases/mariadb), [Redshift](/database-connectors/redshift), [Apache Drill and Parquet files](/database-connectors/apache-drill), [S3](/database-connectors/s3), [Elasticsearch](/database-connectors/elasticsearch) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
+    - copy: "You can now setup connections to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors/) that includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
       img: "![](/static/images/database-connectors/on-prem/get-going.png)"
  - title: Additionnal information
    sub-steps:
