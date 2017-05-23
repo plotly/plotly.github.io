@@ -18,6 +18,7 @@ steps:
    sub-steps:
     - copy: "At Plotly, we're all about sharing and collaborating, but we understand that privacy is an important concern."
     - copy: "There are three privacy settings for your Plotly files: public, private and private link. The plots and grids have their own privacy settings, as well as the [dashboards](http://help.plot.ly/create-a-dashboard/). Visit [this](http://help.plot.ly/dashboard-privacy/#step-5-share-the-dashboard) page to learn more about dashboard privacy and how it interacts with plot privacy."
+    - copy: Users with a [Personal or Professional subscription](https://plot.ly/products/cloud/) can save unlimited private and private link files. Users with a Community subsciption are limited to saving Public files."
 
  - title: Public
    sub-steps:  
@@ -51,7 +52,7 @@ steps:
       img: "![Select folder](../static/images/how-sharing-works-in-plotly/move to folder.png)"
     - copy: "Changing a folder's privacy setting affects the contents in the following ways."
     - copy: "Changing a folder from 'Private' to 'Public' changes the setting of all files and folders to public."            
-    - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private. Users with a [Community plan](https://plot.ly/products/cloud/) can keep one plot private. All Plotly users, however, can have unlimited private grids."
+    - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private. 
     - copy: "Moving a private file to a public folder will make that file public for the time it's there. If you move a public file to a private folder, viewers will still be able to see your file."
 
  - title: Sharing with APIs
