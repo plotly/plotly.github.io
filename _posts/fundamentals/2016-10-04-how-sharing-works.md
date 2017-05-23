@@ -52,7 +52,7 @@ steps:
       img: "![Select folder](../static/images/how-sharing-works-in-plotly/move to folder.png)"
     - copy: "Changing a folder's privacy setting affects the contents in the following ways."
     - copy: "Changing a folder from 'Private' to 'Public' changes the setting of all files and folders to public."            
-    - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private. 
+    - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private." 
     - copy: "Moving a private file to a public folder will make that file public for the time it's there. If you move a public file to a private folder, viewers will still be able to see your file."
 
  - title: Sharing with APIs
