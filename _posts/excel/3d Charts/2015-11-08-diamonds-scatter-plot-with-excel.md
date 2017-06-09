@@ -1,8 +1,8 @@
 ---
-layout: excel-tutorial-single_layout 
+layout: excel-tutorial-single_layout
 title: 3D Scatter Plot Example (Diamond Quality Chart)
 subtitle: 3D Scatter Plots with Plotly
-permalink: /excel/diamond-scatter-plot
+permalink: /excel/diamond-scatter-plot/
 imageurl: https://images.plot.ly/excel/diamond-quality-scatter-plot-with-excel/thumb-diamond-quality-scatter-plot-with-excel.png
 state: active
 tags: excel

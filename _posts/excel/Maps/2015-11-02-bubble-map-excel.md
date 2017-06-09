@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Bubble Map Online with Plotly and Excel
 subtitle: Bubble maps with Plotly
-permalink: /excel/bubble-maps
+permalink: /excel/bubble-maps/
 imageurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
 state: active
 tags: excel

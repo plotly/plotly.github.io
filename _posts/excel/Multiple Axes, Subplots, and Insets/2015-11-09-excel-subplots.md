@@ -2,10 +2,10 @@
 layout: excel-tutorial-single_layout
 title: Make a Chart with a Subplot with Plotly and Excel
 subtitle: Chart with a Subplot with Plotly
-permalink: /excel/subplots
+permalink: /excel/subplots/
 imageurl: https://images.plot.ly/excel/subplots-excel/thumbnail1-subplot.png
 state: active
-tags: excel 
+tags: excel
 meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial to make a subplot for free and online with Plotly.
 popularity: featured
 section: Layouts
@@ -45,7 +45,7 @@ steps:
       img: "![Original](https://images.plot.ly/excel/subplots-excel/original-subplot.png)"
     - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subplot."
       img: "![Create First Subplot](https://images.plot.ly/excel/subplots-excel/create-subplot1-subplot.png)"
-    - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases." 
+    - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases."
       img: "![Reassign Axes1](https://images.plot.ly/excel/subplots-excel/reassign-axis-1-subplot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](https://images.plot.ly/excel/subplots-excel/resize-subplot.png)"

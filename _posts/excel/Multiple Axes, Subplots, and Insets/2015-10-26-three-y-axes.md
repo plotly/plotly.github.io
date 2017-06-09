@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Three Y Axes Graph with Plotly and Excel
 subtitle: A Step by Step Guide to Making a Graph with Three Y Axes With Plotly and Excel
-permalink: /excel/three-y-axes
+permalink: /excel/three-y-axes/
 imageurl: https://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
 state: active
 tags: excel

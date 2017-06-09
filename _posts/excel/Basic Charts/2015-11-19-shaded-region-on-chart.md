@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Create a Shaded Region on a Chart with Plotly and Excel
 subtitle: A Step-by-Step Guide to Create a Shaded Region on a Chart
-permalink: /excel/shaded-region-on-chart
+permalink: /excel/shaded-region-on-chart/
 imageurl: https://images.plot.ly/excel/shaded-region-excel/thumb-shaded-region.png
 state: active
 tags: excel

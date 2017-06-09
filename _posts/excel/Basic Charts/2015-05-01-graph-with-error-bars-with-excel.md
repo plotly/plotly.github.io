@@ -1,8 +1,8 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Make a Graph with Error Bars with Plotly and Excel 
+title: How to Make a Graph with Error Bars with Plotly and Excel
 subtitle: Error Bars with Plotly
-permalink: /excel/graph-with-error-bars
+permalink: /excel/graph-with-error-bars/
 imageurl: https://images.plot.ly/excel/graph-with-error-bars/thum-graph-with-error-bars-with-excel.jpg
 state: active
 tags: excel

@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Histogram Chart Online with Plotly and Excel
 subtitle: Histrograms with Plotly
-permalink: /excel/histogram
+permalink: /excel/histogram/
 imageurl: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 state: active
 tags: excel

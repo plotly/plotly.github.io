@@ -2,14 +2,14 @@
 layout: excel-tutorial-single_layout
 title: Online Excel Reporting with Plotly
 subtitle: Online Excel Reporting with Plotly
-permalink: /excel/online-reports
+permalink: /excel/online-reports/
 imageurl: https://images.plot.ly/excel/share-your-plot/thumbnail-share-your-plot.png
 state: active
 tags: excel
 meta_description: Online Excel reports with Plotly. Plotly is the easiest and fastest way to make charts, reports, and dashboards online.
 popularity: featured
 section: Dashboards
-download-url: 
+download-url:
 actioncall-url: https://plot.ly/~Dinosaur/folder/Dinosaur:17
 
 similar:
@@ -23,7 +23,7 @@ similar:
    url: /excel/heatmap
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
-steps: 
+steps:
  - title: Head to Plotly and Organize
    sub-steps:
     - copy: "Head to Plotly's homepage and click 'Organize' in the upper left."
@@ -50,7 +50,7 @@ steps:
       img: "![Invite](https://images.plot.ly/excel/share-your-plot/invite-share-your-plot.png)"
     - copy: "Click the 'SHARABLE LINK' tab to acquire a link to your folder. You can share this with other collaborators."
       img: "![Link](https://images.plot.ly/excel/share-your-plot/link-share-your-plot.png)"
- - title: Your Plotly Homepage 
+ - title: Your Plotly Homepage
    sub-steps:
     - copy: "Our 'Error Bar Graphs' folder can be found here at the link provided: [click here](https://plot.ly/~Dinosaur/folder/Dinosaur:17)."
       img: "![Final](https://images.plot.ly/excel/share-your-plot/final-share-your-plot.png)"

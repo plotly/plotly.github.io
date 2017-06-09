@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Bar Chart Online with Plotly and Excel
 subtitle: Bar charts with Plotly
-permalink: /excel/bar-chart
+permalink: /excel/bar-chart/
 imageurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 state: active
 tags: excel

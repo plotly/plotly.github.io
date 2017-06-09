@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Text Scatter Charts in Excel
 subtitle: Text Scatter Charts in Excel
-permalink: /excel/text-scatter-chart 
+permalink: /excel/text-scatter-chart/ 
 imageurl: https://images.plot.ly/excel/label-points-excel/thumb-label-points.png
 state: active
 tags: excel
@@ -45,7 +45,7 @@ steps:
       img: "![Original](https://images.plot.ly/excel/label-points-excel/original-label-points.png)"
     - copy: "To add text labels, open the 'Traces' popover by selecting TRACES from the toolbar. You can add labels to an individual trace by selecting that trace from the dropdown menu, or select 'All traces (scatter)' to label all the points in your scatter plot. Here we position the labels on individual traces in order to avoid overlapping labels. We start with Col1. In the 'Mode' tab, look for 'Lines/Markers' and select the option of text over a point."
       img: "![Text Labels](https://images.plot.ly/excel/label-points-excel/text-labels-label-points.png)"
-    - copy: "To position the labels, click on the 'Style' tab in the 'Traces' popover. In order to have the lables appear directly above the data points, click on the arrow that points up in the '...Position' option." 
+    - copy: "To position the labels, click on the 'Style' tab in the 'Traces' popover. In order to have the lables appear directly above the data points, click on the arrow that points up in the '...Position' option."
       img: "![Position Labels](https://images.plot.ly/excel/label-points-excel/position-labels-label-points.png)"
     - copy: "Repeat this process for Col4 and Col7. For Col4, we position the text labels below the scatter points. For Col7, we position them above the scatter points."
       img: "![Position Labels2](https://images.plot.ly/excel/label-points-excel/position-labels2-label-points.png)"

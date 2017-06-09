@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Choropleth Map with Plotly and Excel
 subtitle: Choropleth Maps with Plotly
-permalink: /excel/choropleth-maps
+permalink: /excel/choropleth-maps/
 imageurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
 state: active
 tags: excel
