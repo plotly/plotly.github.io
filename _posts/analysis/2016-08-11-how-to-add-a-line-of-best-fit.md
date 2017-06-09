@@ -3,7 +3,6 @@ layout: tutorial-single_layout
 title: Make a Line of Best Fit in Plotly 2.0
 subtitle: How to make a line of best fit in Plotly 2.0
 permalink: /make-a-line-of-best-fit/
-redirect_from: "https://plot.ly/how-to-create-a-line-of-best-fits/"
 imageurl: ../static/images/line-of-best-fit/best-fit-thumb.png
 state: active
 tags: analysis
