@@ -2,9 +2,6 @@
 layout: single
 title: Print Free Graph Paper Online
 permalink: /print-free-graph-paper/
-redirect_from:
-    - https://plot.ly/print-free-graph-paper-online/
-sitemap: false
 imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
 tags: analysis
