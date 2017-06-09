@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Contour Plot Online with Plotly and Excel
 subtitle: Contour Plots with Plotly
-permalink: /excel/contour-plots
+permalink: /excel/contour-plots/
 imageurl: https://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
 state: active
 tags: excel

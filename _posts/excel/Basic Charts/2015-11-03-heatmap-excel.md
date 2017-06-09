@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Heatmap Online with Plotly and Excel
 subtitle: Heatmaps with Plotly
-permalink: /excel/heatmap
+permalink: /excel/heatmap/
 imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel

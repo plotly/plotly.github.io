@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: LaTeX Typesetting Online with Plotly and Excel
 subtitle: LaTeX Typesetting with Plotly
-permalink: /excel/LaTeX
+permalink: /excel/LaTeX/
 imageurl: https://images.plot.ly/excel/latex-typesetting-excel/thum-latex-typesetting-in-excel.jpg
 state: active
 tags: excel
@@ -50,5 +50,5 @@ steps:
       img: "![Adding Annotations](https://images.plot.ly/excel/latex-typesetting-excel/adding-annotations.jpg)"
     - copy: "Copy this code: `$\\beta_{1c} = 25 \\pm 11 \\text{ km s}^{-1}$` to the annotation text box, and hit enter to render the LaTeX text in the annotations, as shown in figure below."
       img: "![Adding Annotations](https://images.plot.ly/excel/latex-typesetting-excel/adding-annotations.gif)"
-   
+
 ---

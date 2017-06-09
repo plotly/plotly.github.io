@@ -2,7 +2,7 @@
 layout: tutorial.single
 title: Make a Pie Chart Online with Plotly and Excel
 subtitle: Pie Charts with Plotly
-permalink: /excel/pie-charts
+permalink: /excel/pie-charts/
 imageurl: https://images.plot.ly/excel/pie-chart/thumb-pie-chart-in-excel.jpg
 state: active
 tags: excel

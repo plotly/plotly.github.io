@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Box Plot Online with Plotly and Excel
 subtitle: Box Plots with Plotly
-permalink: /excel/box-plot
+permalink: /excel/box-plot/
 imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
 tags: excel

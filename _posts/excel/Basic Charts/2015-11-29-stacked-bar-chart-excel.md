@@ -2,7 +2,7 @@
 layout: excel-tutorial-single_layout
 title: Make a Stacked Bar Chart Online with Plotly and Excel
 subtitle: Bar Charts with Plotly
-permalink: /excel/stacked-bar-chart
+permalink: /excel/stacked-bar-chart/
 imageurl: https://images.plot.ly/excel/stacked-bar-chart/thum-stacked-bar-chart-2.jpg
 state: active
 tags: excel
