@@ -102,6 +102,6 @@ steps:
     - copy: "We mentioned selecting the privacy setting for your dashboard, but don't forget to check the privacy settings for the individual plots in your dashboard as well. You may need to change the setting of each plot in order for others to view your entire dashboard."
 
  - title: Python API
-    sub-steps:
-      - copy: "If you're familiar with python, you can utilise the python API to [create dashboards programmatically](https://plot.ly/python/create-online-dashboard/). If you're looking more to create reactive web applications in pure python, try [Dash](https://plot.ly/dash)"
+   sub-steps:
+    - copy: "If you're familiar with python, you can utilise the python API to [create dashboards programmatically](https://plot.ly/python/create-online-dashboard/). If you're looking more to create reactive web applications in pure python, try [Dash](https://plot.ly/dash)"
 ---
