@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  How to Create Plotly Dashboards
 subtitle: Create dashboards using the Plotly data visualization tool
 permalink: /create-a-dashboard/
-redirect_from: /dashboards.ly/
+redirect_from: 'https://help.plot.ly/dashboards.ly/'
 imageurl: ../static/images/dashboards/thumbnail.png
 state: active
 tags: dashboard
