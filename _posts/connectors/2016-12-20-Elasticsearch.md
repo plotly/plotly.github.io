@@ -14,10 +14,10 @@ actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 steps:
  - title: Download and Install the Plotly Database Connector App
    sub-steps:
-    - copy: "If you haven't downloaded and installed the application yet, please follow the instructins for either [personal setup](/database-connectors/personal-login) or [company on-premise](/database-connectors/on-prem-login)."
+    - copy: "If you haven't downloaded and installed the application yet, please follow the instructions for either [personal setup](/database-connectors/personal-login) or [company on-premise](/database-connectors/on-prem-login)."
  - title: Launch and Connect
    sub-steps:
-    - copy: "Having launched the app, select *Postgres* by clicking on its icon."
+    - copy: "Having launched the app, select *Elasticsearch* by clicking on its icon."
       img: "![](/static/images/database-connectors/select-dialect/elasticsearch.png)"
     - copy: "Enter your username, password, database server name (*host*) and its port number."
     - copy: "Finally, click on the *connect* button!"
@@ -53,7 +53,7 @@ steps:
       img: "![](/static/images/database-connectors/one-time-query/run.png)"
  - title: Making a plot!
    sub-steps:
-    - copy: "Let's visualize the most occuring terms in company's response messages in a pie chart. Click on *Graph* on the left side of the window and choose *Pie Chart* as *Chart Type*. Select *Company Response* as the labels and *value Count* as the *values* for the chart."
+    - copy: "Let's visualize the most occurring terms in company's response messages in a pie chart. Click on *Graph* on the left side of the window and choose *Pie Chart* as *Chart Type*. Select *Company Response* as the labels and *value Count* as the *values* for the chart."
       img: "![](/static/images/database-connectors/make-graph/elasticsearch-graph-1.png)"
     - copy: "Let's make sure to go back to the graph and make a title to clarify our message."
       img: "![](/static/images/database-connectors/make-graph/elasticsearch-graph-2.png)"

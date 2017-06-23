@@ -22,7 +22,7 @@ steps:
       img: "![](/static/images/database-connectors/all/download.png)"
  - title: Install the App (Windows)
    sub-steps:
-    - copy: "Visit your Downloads folder. If you are using a Windows machine (Mac instuctions will follow), double click on the application executable."
+    - copy: "Visit your Downloads folder. If you are using a Windows machine (Mac instructions will follow), double click on the application executable."
       img: "![](/static/images/database-connectors/all/downloading-windows.png)"
     - copy: "Double click on the application. Your application will start to install itself. Note that some security settings may require you to install the application as an Administrator (right click and choose the administrator option to do so). The installation process may take up to several minutes."
       img: "![](/static/images/database-connectors/all/installing-windows.png)"
@@ -30,7 +30,7 @@ steps:
       img: "![](/static/images/database-connectors/all/desktop-windows.png)"
  - title: Install the App (Mac)
    sub-steps:
-    - copy: "Visit your Downloads folder. If you are using a Mac machine (Windows instuctions are in the previous section), double click on the application installer DMG file."
+    - copy: "Visit your Downloads folder. If you are using a Mac machine (Windows instructions are in the previous section), double click on the application installer DMG file."
       img: "![](/static/images/database-connectors/all/downloading-mac.png)"
     - copy: "Drag the Plotly Database Connector icon into the Applications folder when prompted."
       img: "![](/static/images/database-connectors/all/installing-mac.png)"

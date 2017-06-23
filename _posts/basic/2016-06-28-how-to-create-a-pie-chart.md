@@ -48,7 +48,7 @@ steps:
       img: "![Colour main](../static/images/create-pie-chart/new colours.png)"
     - copy: "You can also take your pie chart to the next level by pulling apart your pie slices, or by creating a donut chart."
     - copy: "You'll be able to do both by visiting 'Traces' in the STYLE section. For pulling your pie slices apart, play with the percentage in the PULL APART % field under 'Modify'."
-      img: "![Pull apart](../sstatic/images/create-pie-chart/new pull apart.png)"
+      img: "![Pull apart](../static/images/create-pie-chart/new pull apart.png)"
     - copy: "If you wish to create a donut chart, you can play around with the % in the HOLE field."
       img: "![Hole](../static/images/create-pie-chart/pull apart.png)"
     - copy: "To add a title to your chart, you can type it directly on the title by double-clicking it. "

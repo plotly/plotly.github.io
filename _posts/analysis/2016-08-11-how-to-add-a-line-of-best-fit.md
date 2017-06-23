@@ -37,7 +37,7 @@ steps:
     - copy: "When you've finished plotting your data, visit the ANALYSIS section on the left-hand side of your workspace. Click on the blue '+ Analysis' button, then click on the dropdown menu and select 'Fit'."
       img: "![Analysis section](../static/images/line-of-best-fit/analysis-section.png)"
     - copy: "Select your 'Target Trace' (remember, these are the traces you've set up earlier). You'll then have to select the function you want under 'Function Family'. The dropdown menu has a few to choose from including linear, quadratic, polynomial, and exponential to name a few."
-      img: "![ICommon fit function](../static/images/line-of-best-fit/common-fit-function.png)"
+      img: "![Common fit function](../static/images/line-of-best-fit/common-fit-function.png)"
     - copy: "Alternatively, you have the option of adding your own fit function by selecting 'Custom fit function' and entering it in the field. You can also enter your parameters in the 'Constant Estimates' fields."
       img: "![Custom fit function](../static/images/line-of-best-fit/custom-fit-function.png)"
     - copy: "Your advanced options include fitting to a specific range and/or displaying your fit over a specific range."
