@@ -15,7 +15,7 @@ The [Plotly Chart Editor](https://plot.ly/create) makes a connection to the [Plo
 
 ## Troubleshooting HTTP Connection Errors
 
-By default and on Windows machines, the Plotly Databse Connector will run over HTTP. Some browsers will block connections made from Plotly (a site running on HTTPS) to the Database Connector (running on HTTP). [Learn more about the difference between HTTP and HTTPS](https://www.instantssl.com/ssl-certificate-products/https.html).
+By default and on Windows machines, the Plotly Database Connector will run over HTTP. Some browsers will block connections made from Plotly (a site running on HTTPS) to the Database Connector (running on HTTP). [Learn more about the difference between HTTP and HTTPS](https://www.instantssl.com/ssl-certificate-products/https.html).
 
 On Mac and Linux, you can configure the connector to use a self-signed HTTPS certificate. See below for more details.
 
@@ -26,7 +26,7 @@ To enable HTTP connections, you may need to give your browser permission to conn
 Google Chrome will display a _Shield_ in the address bar.
 ![Shield icon in Google Chrome](/static/images/database-connectors/connecting/chrome-shield-icon.png)
 
-Click on the _Shield_ and click "Load unsafe scripts". The page will refresh and you should be able to connect successfully. 
+Click on the _Shield_ and click "Load unsafe scripts". The page will refresh and you should be able to connect successfully.
 ![Load unsafe scripts prompt in Google Chrome](/static/images/database-connectors/connecting/chrome-shield-prompt.png)
 
 

@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Use HTTPS when sending data to Plotly 2.0
-subtitle: Set up your Plotly Database Connector to use HTTPS protocol when transfering data to Plotly 2.0.
+subtitle: Set up your Plotly Database Connector to use HTTPS protocol when transferring data to Plotly 2.0.
 permalink: /database-connectors/https/
 imageurl:  https://www.gorilla-cannabis-seeds.co.uk/__asset/securelogo
 state: active
@@ -31,7 +31,7 @@ steps:
       img: "![](/static/images/database-connectors/https/second-done.png)"
  - title: Add certificate to your keychain
    sub-steps:
-    - copy: "Having generated the self-signed keys we need to ask our browsers to accept them. This requires us to add the self-signed sertificate to our keychain. Click on the third item to get started."
+    - copy: "Having generated the self-signed keys we need to ask our browsers to accept them. This requires us to add the self-signed certificate to our keychain. Click on the third item to get started."
       img: "![](/static/images/database-connectors/https/third.png)"
     - copy: "Click on *View instructions* to see the steps required."
       img: "![](/static/images/database-connectors/https/click-instructions.png)"
@@ -59,7 +59,7 @@ steps:
       img: "![](/static/images/database-connectors/https/third-11.png)"
  - title: Restart your Database Connector
    sub-steps:
-    - copy: "Close the application and open it again. If you go back to the HTTPS section you shall see that the steps have dissapeared and the domain of your connector shall be displayed."
+    - copy: "Close the application and open it again. If you go back to the HTTPS section you shall see that the steps have disappeared and the domain of your connector shall be displayed."
       img: "![](/static/images/database-connectors/https/done.png)"
 
 
