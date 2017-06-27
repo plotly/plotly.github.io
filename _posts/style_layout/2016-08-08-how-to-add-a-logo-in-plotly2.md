@@ -49,5 +49,5 @@ steps:
     - copy: "Next is the vertical anchor. Just like the horizontal positioning, you choose whether you want the image to be positioned relative to the canvas or axis, and anchored at the bottom, middle, or top."
       img: "![Vertical anchor](../static/images/how-to-add-a-logo/vertical-position-2.gif)"
     - copy: "Here's the end result with the logo added to our plot, just the way we want it to appear!"
-      img: "![Final plot with logo](../static/images/how-to-add-a-logo/plot-with-logo.png)"
+      img: "![Final plot with logo](../static/images/how-to-add-a-logo/plot-with-logo-2.png)"
 ---
