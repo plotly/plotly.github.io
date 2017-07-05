@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: 3D Line Charts in Plotly 2.0
 subtitle: How to create a 3D Line Chart.
 permalink: /make-a-3d-line-plot/
-redirect-from: /make-a-3d-line-chart/
+redirect_from: /make-a-3d-line-chart/
 imageurl: ../static/images/make-a-3d-line-chart/3d-line-chart.png
 state: active
 tags: graph3d
@@ -37,9 +37,9 @@ steps:
     - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Line' in the '3d' column."
       img: "![Chart Type](../static/images/make-a-3d-line-chart/chart-type.png)"
     - copy: "Now in the trace panel, you can enter the X, Y, and Z values via the dropdowns to create the plot."
-      img: "![Add XYZ values](../static/images/make-a-3d-mesh-plot/xyz-values.png)"
+      img: "![Add XYZ values](../static/images/make-a-3d-line-chart/xyz-values.png)"
     - copy: "Optionally, if you have an additional column such as color you can add it in the same trace panel, again via the dropdown."
-      img: "![Add color](../static/images/make-a-3d-mesh-plot/add-color.png)"
+      img: "![Add color](../static/images/make-a-3d-line-chart/add-color.png)"
 
  - title: Style a Chart
    sub-steps:
