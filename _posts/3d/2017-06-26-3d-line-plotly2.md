@@ -25,11 +25,13 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
         img: "![Try an Example](../static/images/create-animations/try-an-example.png)"
       - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
         img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
+
    - title: Add Your Data to Plotly
      sub-steps:
       - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       - copy: "In this tutorial, we will use a bsic dataset that is available via [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv). Simply copy the URL and then navigate back to the Plotly workspace. Now, click 'IMPORT', select the 'By URL' tab, and paste in the the URL."
         img: "![Add Data](../static/images/make-a-3d-line-chart/add-data.png)"
+
    - title: Create Your Chart
      sub-steps:
       - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Line' in the '3d' column."
@@ -38,6 +40,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
         img: "![Add XYZ values](../static/images/make-a-3d-mesh-plot/xyz-values.png)"
       - copy: "Optionally, if you have an additional column such as color you can add it in the same trace panel, again via the dropdown."
         img: "![Add color](../static/images/make-a-3d-mesh-plot/add-color.png)"
+
    - title: Style a Chart
      sub-steps:
       - copy: "After creating your chart and you can see the data, go to STYLE on the left-hand-side. Here, you have multiple options for styling your plot. In this tutorial, we will just select two basic stylings. Namely, add a chart title and axis titles."
@@ -48,6 +51,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
        img: "![Click and add title](../static/images/make-a-3d-line-chart/click-add-title.png)"
      - copy: "Staying in the STYLE tab, navigate to 'Axes'. On the right-hand side, select 'title', here you can edit each axis label in the same fashion as previously."
        img: "![Add axis titles](../static/images/make-a-3d-line-chart/add-axis-titles.png)"
+
    - title: Save and Share
      sub-steps:
       - copy: "Your chart is now done! Click SAVE on the left-hand side."
