@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: Error bars in Plotly 2.0
 subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement.
 permalink: /make-a-graph-with-error-bars/
+redirect_from: /plotly1/make-a-graph-with-error-bars/
 imageurl: ../static/images/graph-with-error-bars/error-bar-thumb.png
 state: active
 tags: scientific
@@ -62,5 +63,3 @@ steps:
     - copy: "Give your file a name, then select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-error-bars/error-bar-save-popop.png)"
 ---
-
-

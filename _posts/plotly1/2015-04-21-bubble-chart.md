@@ -3,6 +3,7 @@ layout: single
 title: Make a Bubble Chart
 subtitle: A Step by Step Guide to Bubble Charts
 permalink: /make-a-bubble-chart/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/bubble-chart/thum-bubble-chart.png
 state: active
 tags: plotly1

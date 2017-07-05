@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: 3D Surface Plots in Plotly 2.0
 subtitle: Create a three-dimensional surface plot that connects a set of data points.
 permalink: /make-a-3d-surface-plot/
+redirect_from: /make-a-3D-surface-plot/
 imageurl: ../static/images/3d-surface-plot-with-excel/3d-thumb.png
 state: active
 tags: graph3d

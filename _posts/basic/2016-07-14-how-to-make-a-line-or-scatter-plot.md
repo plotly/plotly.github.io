@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: Line or Scatter Graphs in Plotly 2.0
 subtitle: Create a graph with multiple traces.
 permalink: /make-a-line-graph-or-scatter-plot/
+redirect_from: /plotly1/make-a-line-graph-or-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-line-thumb.png
 state: active
 tags: basic
@@ -68,5 +69,3 @@ steps:
     - copy: "Give your file a name, then select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-save-popup.png)"
 ---
-
-

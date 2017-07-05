@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: How to Save, Export, and Share in Plotly 2.0
 subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
+redirect_from: /how-to-share-and-print-plotly-graphs/
 imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: fundamentals
@@ -30,7 +31,7 @@ steps:
     - copy: "Choose the size as displayed, or the custom size of your chart."
       img: "![Export tab main screen](../static/images/how-to-save-export-and-share/new export image.png)"
     - copy: "Click on DOWNLOAD to save it onto your computer."
- 
+
  - title: Export Your Plot as an HTML file
    sub-steps:
     - copy: "When you hit the HTML tab in this same panel under 'Export', you have the option of selecting DOWNLOAD AS ZIP ARCHIVE or DOWNLOAD AS HTML FILE."

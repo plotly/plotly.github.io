@@ -3,6 +3,7 @@ layout: single
 title: Continuous, Filled Error Bars
 subtitle: A Step by Step Guide to make continuous filled error bars.
 permalink: /continuous-filled-error-bars/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: http://i.imgur.com/IQd9Sv5.png
 state: active
 tags: plotly1

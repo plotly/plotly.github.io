@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: 3D Scatter Plots in Plotly 2.0
 subtitle: Create a plot that represents the relationship between three variables.
 permalink: /make-a-3d-scatter-plot/
+redirect_from: /plotly1/make-a-3d-scatter-plot/
 imageurl: ../static/images/scatter-plot-3D/new scatter thumb.png
 state: active
 tags: graph3d
@@ -60,5 +61,3 @@ steps:
     - copy: "Give your file a name, then select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/scatter-plot-3D/3D-scatter-plot-save-popup.png)"
 ---
-
-

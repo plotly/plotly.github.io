@@ -3,6 +3,7 @@ layout: single
 title: Create a Chart from a Template
 subtitle: How to create multiple Plotly graphs with different data from a template.
 permalink: /template/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/template/template-thumbnail.jpg
 state: active
 tags: plotly1

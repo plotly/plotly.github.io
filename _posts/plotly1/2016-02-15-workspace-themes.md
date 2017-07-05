@@ -3,6 +3,7 @@ layout: single
 title: Workspace Themes
 subtitle: How to add themes to your Plotly graphs
 permalink: /themes/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/themes/themes-thumbnail.jpg
 state: active
 tags: plotly1

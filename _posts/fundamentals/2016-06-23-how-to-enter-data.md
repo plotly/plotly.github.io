@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: How to Add Data in Plotly 2.0
 subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
+redirect_from: /plotly1/add-data-to-the-plotly1-grid/
 imageurl: ../static/images/enter-data-in-the-grid/enter-date-thumb.png
 state: active
 tags: fundamentals
@@ -34,7 +35,7 @@ steps:
    sub-steps:
     - copy: "You can also upload data by entering the URL of an online data set. Please note we only support cdv and excel files at this time."
       img: "![Enter data by URL](../static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
-      
+
  - title: Option 4 - Import Data from a URL Using Plotly's External Endpoint
    sub-steps:
     - copy: "You can also upload data from a URL using Plotly's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Plotly's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Plotly's online workspace:  [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
@@ -45,7 +46,7 @@ steps:
       img: "![Import with examples](../static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
 
  - title: Update Your Data
-   sub-steps: 
+   sub-steps:
     - copy: "Did you know that when you edit your data, your plot automatically updates?"
     - copy: "You can see in the image below that we want to add two more rows of data, and we do so by typing directly in the grid. It's that simple!"
       img: "![Update data](../static/images/enter-data-in-the-grid/update-data.gif)"

@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: Box Plots in Plotly 2.0
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
+redirect_from: /plotly1/make-a-box-plot/
 imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: statistical

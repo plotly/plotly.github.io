@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: How to Make Multiple Y-Axes Plots in Plotly 2.0
 subtitle: Create a plot with multiple y-axes using the Plotly 2.0 data visualization tool
 permalink: /multiple-y-axes/
+redirect_from: /make-a-graph-with-multiple-axes/
 imageurl: ../static/images/multiple-y-axes/multiple y thumb.png
 state: active
 tags: subplot
@@ -34,7 +35,7 @@ steps:
       img: "![Subplot Trace](../static/images/multiple-y-axes/values.png)"
 
  - title: Select a Subplot
-   sub-steps: 
+   sub-steps:
    - copy: "We need two traces before we introduce the multiple y-axes feature, so we'll click the blue '+Trace' button on the right-hand side of the panel to add the second trace."
      img: "![Second trace](../static/images/multiple-y-axes/second trace.png)"
    - copy: "We'll do the same for our third trace, but after we choose the [line graph](http://help.plot.ly/make-a-line-graph/) chart type for this trace and select our x and y values, we'll click on 'Subplot and Multiple Axes'."
@@ -43,11 +44,11 @@ steps:
      img: "![Subplot arrangement](../static/images/graph-with-multiple-axes-with-excel/arrangements.png)"
    - copy: "We'll select the 'Right Y-Axis' arrangement for this trace, and click CONFIRM."
      img: "![Inset](../static/images/multiple-y-axes/select arrangement.png)"
-   - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."          
-     img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)" 
+   - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."
+     img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)"
 
  - title: Style a Plot
-   sub-steps:      
+   sub-steps:
     - copy: "We've styled this plot by selecting our [colors](http://help.plot.ly/style-your-plots/#step-3-traces), dressing up our [legend](http://help.plot.ly/style-your-plots/#step-7-legend), adding [tick markers](http://help.plot.ly/style-your-plots/#step-6-axes), and playing with the [grid lines](http://help.plot.ly/style-your-plots/#step-6-axes). For more styling tips, consult [this](http://help.plot.ly/style-your-plots/) page."
       img: "![Final plot](../static/images/multiple-y-axes/final plot.png)"
     - copy: "If you like the way we've styled our plot, see [this](http://help.plot.ly/style-your-plots/) great tutorial."
@@ -57,5 +58,5 @@ steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/multiple-y-axes/save main.png)"
     - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/multiple-y-axes/save popup.png)"     
+      img: "![Save pop-up](../static/images/multiple-y-axes/save popup.png)"
 ---

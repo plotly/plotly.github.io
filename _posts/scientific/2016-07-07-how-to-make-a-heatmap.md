@@ -3,6 +3,7 @@ layout: tutorial-single_layout
 title: Heatmaps in Plotly 2.0
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors
 permalink: /make-a-heatmap/
+redirect_from: /plotly1/make-a-heatmap/
 imageurl: ../static/images/heat-map/new thumb.png
 state: active
 tags: scientific
@@ -62,5 +63,3 @@ steps:
     - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save pop-up](../static/images/heat-map/new save popup.png)"
 ---
-
-
