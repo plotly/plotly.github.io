@@ -38,8 +38,8 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
         img: "![Add XYZ values](../static/images/make-a-3d-mesh-plot/xyz-values.png)"
       - copy: "Optionally, if you have an additional column such as color you can add it in the same trace panel, again via the dropdown."
         img: "![Add color](../static/images/make-a-3d-mesh-plot/add-color.png)"
-    - title: Style a Chart
-    sub-steps:
+   - title: Style a Chart
+     sub-steps:
       - copy: "After creating your chart and you can see the data, go to STYLE on the left-hand-side. Here, you have multiple options for styling your plot. In this tutorial, we will just select two basic stylings. Namely, add a chart title and axis titles."
        img: "![Style options](../static/images/make-a-3d-line-chart/styling-options.png)"
      - copy: "Following the instructions above, select the STYLE tab and then 'Layout'. In the panel to the right select 'Titles and Fonts'. Now enter '3D Line Chart' in the available text box. Optionally, you can make this bold, italic, and change fonts. In addition, you can use latex or edit the text in HTML."

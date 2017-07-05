@@ -39,10 +39,10 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
         img: "![Add IJK values](../static/images/make-a-3d-mesh-plot/ijk-values.png)"
       - copy: "Now, that your 3d mesh has it's structure you can add the facecolor. Again, this can be done via the 'facecolor' dropwdown in the same trace panel."
         img: "![Add facecolor](../static/images/make-a-3d-mesh-plot/add-facecolor.png)"
-    - title: Style a Chart
-    sub-steps:
+   - title: Style a Chart
+     sub-steps:
       - copy: "Now that we have created our chart, you can optionally choose to style it. In this example, we will adjust the aspect ratio. Here, select the 'STYLE' tab on the left-hand side, then 'Layout'. Next select 'Scene', then in the 'Aspect Ratio' dropwdown select 'auto'."
-       img: "![Change aspect ratio](../static/images/make-a-3d-mesh-plot/change-aspect-ratio.png)"
+        img: "![Change aspect ratio](../static/images/make-a-3d-mesh-plot/change-aspect-ratio.png)"
    - title: Save and Share
      sub-steps:
       - copy: "Your chart is now done! Click SAVE on the left-hand side."
