@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Histograms in Plotly 2.0
 subtitle: Create a graphical representation of the distribution of numerical data.
 permalink: /make-a-histogram/
-redirect_from: /plotly1/make-a-histogram
+redirect_from: plotly1/make-a-histogram/
 imageurl: ../static/images/make-a-histogram/histogram-thumb.png
 state: active
 tags: statistical
