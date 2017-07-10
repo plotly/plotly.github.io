@@ -3,6 +3,7 @@ layout: single
 title: Make a Line of Best Fit
 subtitle: How to make a line of best fit
 permalink: /plotly1/make-a-line-of-best-fit/
+redirect_to: https://help.plot.ly/make-a-line-of-best-fit/
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: plotly1

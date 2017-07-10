@@ -3,6 +3,7 @@ layout: single
 title: How to Enter Data in the Grid
 subtitle: A Step by Step Guide to Entering Data in the Grid
 permalink: /plotly1/add-data-to-the-plotly1-grid/
+redirect_to: https://help.plot.ly/add-data-to-the-plotly-grid/
 imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
 tags: plotly1

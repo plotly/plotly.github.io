@@ -2,6 +2,7 @@
 layout: single
 title: Make a 3D Surface Plot Online
 permalink: /make-a-3D-surface-plot/
+redirect_to: https://help.plot.ly/make-a-3d-surface-plot/
 imageurl: http://i.imgur.com/N0W4TY8.png
 state: active
 tags: plotly1

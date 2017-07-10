@@ -3,6 +3,7 @@ layout: single
 title: Make a Histogram
 subtitle: A Step by Step Guide to Making a Histogram
 permalink: /plotly1/make-a-histogram/
+redirect_to: https://help.plot.ly/make-a-histogram/
 imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: plotly1

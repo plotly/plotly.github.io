@@ -3,6 +3,7 @@ layout: single
 title: Make a Box Plot in Plotly 1.0
 subtitle: A Step by Step Guide to Making a Box Plot
 permalink: /plotly1/make-a-box-plot/
+redirect_to: https://help.plot.ly/make-a-box-plot/
 imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: plotly1
