@@ -3,6 +3,7 @@ layout: single
 title: Make a Graph with Error Bars
 subtitle: A Step by Step Guide to Graphs with Error Bars
 permalink: /plotly1/make-a-graph-with-error-bars/
+redirect_to: https://help.plot.ly/make-a-graph-with-error-bars/
 imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: plotly1
