@@ -3,6 +3,7 @@ layout: single
 title: Chi-Square Test
 subtitle: A Step by Step Guide to the Chi-Square Test
 permalink: /chi-square-test/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/chi-square/thum-chi-square.png
 state: active
 tags: analysis

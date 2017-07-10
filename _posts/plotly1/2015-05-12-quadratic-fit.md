@@ -2,6 +2,7 @@
 layout: single
 title: Quadratic fits
 permalink: /quadratic-fits/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
 tags: analysis

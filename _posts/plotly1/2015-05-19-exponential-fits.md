@@ -2,6 +2,7 @@
 layout: single
 title: Exponential Fits
 permalink: /exponential-fits/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: https://s3-us-west-1.amazonaws.com/plotly-tutorials/plotly-documentation/thumbnail/exponential_fit.jpg
 state: inactive
 tags: analysis

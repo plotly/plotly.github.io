@@ -2,6 +2,7 @@
 layout: single
 title: Polynomial fits
 permalink: /polynomial-fits/
+redirect_to: https://help.plot.ly/tutorials/
 imageurl: https://s3-us-west-1.amazonaws.com/plotly-tutorials/plotly-documentation/thumbnail/polynomial_fit.jpg
 state: inactive
 tags: analysis
