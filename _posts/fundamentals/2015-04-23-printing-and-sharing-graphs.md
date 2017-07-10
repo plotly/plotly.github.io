@@ -3,6 +3,7 @@ layout: single
 title: Printing and Sharing Graphs
 subtitle: How to Print and Share Graphs
 permalink: /how-to-share-and-print-plotly-graphs/
+redirect_to: https://help.plot.ly/save-share-and-export-in-plotly/
 imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
 tags: plotly1
