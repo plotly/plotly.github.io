@@ -12,7 +12,7 @@ popularity: featured
 actioncall: Create dashboards
 
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/dashboard/) or [R](https://plot.ly/r/dashboard/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/dashboard/) or [R](https://plot.ly/r/dashboard/). Want something more reactive check out [Dash](https://plot.ly/dash).
 
 steps:
  - title: Introduction
