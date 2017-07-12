@@ -5,7 +5,7 @@ layout: single_new
 support: true
 ---
 
-## CVE pending
+## CVE-2017-1000006
 
 ## Summary of issue
 
