@@ -10,7 +10,7 @@ section: Basics
 meta_description: Follow these steps to Set up your Plotly Database Connector to use HTTPS protocol
 popularity: featured
 actioncall-url: https://github.com/plotly/electron-sql-connector/releases
-redirect_to: https://help.plot.ly/database-connectors/personal-login/#step-6-automatic-ssl
+#redirect_to: https://help.plot.ly/database-connectors/personal-login/#step-6-automatic-ssl
 
 steps:
  - title: Create your keys
