@@ -1,4 +1,4 @@
-﻿---
+---
 layout: tutorial-single_layout
 title: Time Series Graphs in Plotly 2.0
 subtitle: Create a graph that illustrates data points at consecutive time intervals.
