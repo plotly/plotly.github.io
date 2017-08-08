@@ -39,7 +39,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
      <p >
       Visit
       <a class="link--impt" href="https://plot.ly/create">
-       plot.ly/plot
+       plot.ly/create
       </a>
       to start making your own plots
      </p>
