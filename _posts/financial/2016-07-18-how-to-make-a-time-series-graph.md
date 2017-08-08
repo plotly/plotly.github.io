@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a time series graph in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: How to make a time series graph in Plotly 2.0
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:45
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:377
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/45.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/377.embed"></iframe>
 live-graph-image:
 
 steps:
