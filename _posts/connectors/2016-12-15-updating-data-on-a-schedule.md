@@ -15,4 +15,4 @@ The Plotly Database Connector can run queries on a schedule. The Plotly Database
 
 The Plotly Connector will need your Plotly credentials in order to authenticate on your behalf to schedule these queries.
 
-Get started by following our [step-by-step tutorial on scheduling queries](http://help.plot.ly/database-connectors/schedule-query).
+Get started by following our [step-by-step tutorial on scheduling queries](https://help.plot.ly/database-connectors/schedule-query).
