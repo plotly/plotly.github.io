@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Setup the Database Connector on a Personal Computer
-subtitle: Setup database connections using Plotly's Database Connector
+subtitle: Setup a database connection using Plotly's Database Connector
 permalink: /database-connectors/personal-login/
 imageurl:  /static/images/database-connectors/logos/personal-login.png
 state: active
@@ -48,9 +48,9 @@ steps:
     - copy: "In this example below, the domain [https://plotly--ab29698f-1b35-420c-881d-6.plotly-connector.com](https://plotly--ab29698f-1b35-420c-881d-6.plotly-connector.com) has a unique certificate associated to it. And remember, this domain just re-routes to localhost:9495 on the global DNS network. It's still just loading content from your localhost server - data is not traveling over the network!"
       img: "![Domain address](/static/images/database-connectors/all/automatic-ssl.png)"
     - copy: "These certificates are saved locally on your machine in the ~/.plotly/connector folder. They expire every 90 days and the application should automatically generate a new one for you"
- - title: Setup connections to your databases
+ - title: Setup a connection to your databases
    sub-steps:
-    - copy: "The application will open and you can now setup connections to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors) that includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
+    - copy: "The application will open and you can now setup a connection to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors) that includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
       img: "![Getting connected](/static/images/database-connectors/all/get-going-v2.png)"
  - title: Additional information
    sub-steps:
