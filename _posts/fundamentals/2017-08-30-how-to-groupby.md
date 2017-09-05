@@ -27,7 +27,7 @@ steps:
       img: "![Add Data](../static/images/groupby/add-data.png)"
  - title: Create Your Chart
    sub-steps:
-    - copy: "Now that we have the data added to the grid, we can select our chart type. Select GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'Scatter' in the 'BASIC' column.
+    - copy: "Now that we have the data added to the grid, we can select our chart type. Select GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'Scatter' in the 'BASIC' column."
       img: "![Chart Type](../static/images/groupby/chart-type.png)"
     - copy: "Use the X and Y dropdowns to define X and Y variables for the chart. For this example, select the ‘gdpPerCap’ to display GDP per capita data on the x axis and select ‘lifeExp’ to display life expectancy data on the Y axis. Next, you can size points relative to data and display additional information on hover. Here, select ‘population’ to size points based on the population of each country. In addition, select ‘country’ in the ‘Hover Text’ dropdown to display the name of the country for each point on hover."
       img: "![Add Trace Values](../static/images/groupby/add-trace-values.png)"
@@ -37,7 +37,7 @@ steps:
       img: "![Select Filter](../static/images/groupby/select-filter.png)"
     - copy: "First, select gdpPercap from the ‘Traces To Filter’ dropdown. Next, make sure that the ‘Operator’ dropdown is set to Matching values and the ‘Include’ option is also selected (these are the default selections), use the dropdown under Include to select ‘2007’."
       img: "![Filter Controls](../static/images/groupby/filter-controls.png)"
-    - copy: "Now that we have filtered the data, you may notice that you have multiple traces - as we do in this dataset - that you wish to define. Here, we can utilize the group function. To do so, select 'group' under the 'Graph' tab" and then click the '+ group' button situated at the top.
+    - copy: "Now that we have filtered the data, you may notice that you have multiple traces - as we do in this dataset - that you wish to define. Here, we can utilize the group function. To do so, select 'group' under the 'Graph' tab" and then click the '+ group' button situated at the top."
       img: "![Add Group](../static/images/groupby/add-group.png)"
     - copy: "First, we need to select the variable we wish to groupby. In this tutorial, we will select continents by using the dropwdown in the grouping panel."
       img: "![Group By](../static/images/groupby/groupby.png)"
