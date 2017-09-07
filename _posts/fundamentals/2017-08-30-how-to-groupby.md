@@ -11,7 +11,7 @@ meta_description: A tutorial on how to use the group function in Plotly 2.0.
 popularity: featured
 carouselimageurl:
 actioncall: A tutorial on how to use the group function in Plotly 2.0.
-actioncall-url: hhttps://plot.ly/create/?fid=plotly2_demo%3A378
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A378
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/379.embed"></iframe>
 
