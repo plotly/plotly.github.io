@@ -24,13 +24,11 @@ steps:
       img: "![Try an Example](../static/images/create-animations/try-an-example.png)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
- 
  - title: Add Your Data to Plotly
    sub-steps:
     - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
     - copy: "For this tutorial, we'll use the gapminder dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv). Simply, copy the URL from Github. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from Github."
       img: "![Add Data](../static/images/create-animations/add-data.png)"
- 
  - title: Create Your Chart
    sub-steps:
     - copy: "Now that we have the data added to the grid, we can select our chart type. Select GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'Animation' in the 'FINANCE' column."
@@ -43,7 +41,6 @@ steps:
       img: "![Group By](../static/images/create-animations/groupby.png)"
     - copy: "Second, we need to determine which traces we wish to apply the grouping across. Here, our Y value, gdpPercap, is selected by default. Notice that the groups are automatically colored according to Plotly's default color array - we will discuss how to alter these in the next section."
       img: "![Across Traces](../static/images/create-animations/across-traces.png)"
- 
  - title: Style Your Chart
    sub-steps:
     - copy: "Concerning style, immediately we can see that we need to set better sizing for our markers. Here, navigate to 'Traces' under the 'Style' tab and set 'Maximum Marker Size' to 10."
@@ -60,7 +57,6 @@ steps:
       img: "![Style All Markers](../static/images/create-animations/style-all-markers.png)"
     - copy: "Lastly, add a title. Simply, click and edit directly on the plot at the title location. Alternatively, navigate to 'Layout' under the STYLE tab, select the 'Title and Fonts' panel and enter the title in the available textbox."
       img: "![Add Title](../static/images/create-animations/add-title.png)"
- 
  - title: Save and Share
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."
