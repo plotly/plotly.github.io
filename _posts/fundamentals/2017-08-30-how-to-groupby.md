@@ -39,7 +39,7 @@ steps:
       img: "![Select Filter](../static/images/groupby/select-filter.png)"
     - copy: "First, select gdpPercap from the ‘Traces To Filter’ dropdown. Next, make sure that the ‘Operator’ dropdown is set to Matching values and the ‘Include’ option is also selected (these are the default selections), use the dropdown under Include to select ‘2007’."
       img: "![Filter Controls](../static/images/groupby/filter-controls.png)"
-    - copy: "Now that we have filtered the data, you may notice that you have multiple traces - as we do in this dataset - that you wish to define. Here, we can utilize the group function. To do so, select 'group' under the 'Graph' tab" and then click the '+ group' button situated at the top."
+    - copy: "Now that we have filtered the data, you may notice that you have multiple traces - as we do in this dataset - that you wish to define. Here, we can utilize the group function. To do so, select 'group' under the 'Graph' tab and then click the '+ group' button situated at the top."
       img: "![Add Group](../static/images/groupby/add-group.png)"
     - copy: "First, we need to select the variable we wish to groupby. In this tutorial, we will select continents by using the dropwdown in the grouping panel."
       img: "![Group By](../static/images/groupby/groupby.png)"
