@@ -42,9 +42,6 @@ steps:
    sub-steps:
     - copy: "When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)"
-
- - title: Custom formats for your graph
-   sub-steps:
     - copy: "To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/select-axis.png)"
     - copy: "Select the Labels tab to reveal options for a Custom date format and Hover format. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in Custom date format, '%b %Y' tells Plotly to display an abbreviated month and the year with century.One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
