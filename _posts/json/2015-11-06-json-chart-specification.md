@@ -15,17 +15,21 @@ The Plotly JSON visualization schema is a complete declarative format for creati
 
 The complete JSON schema is maintained as part of Plotly's [V2 REST API](https://api.plot.ly/v2/):
 
-- [Formatted version](https://api.plot.ly/v2/plot-schema?sha1=%27%27)
-- [Raw JSON](https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27)
+1. [Formatted version](https://api.plot.ly/v2/plot-schema?sha1=%27%27)
+2. [Raw JSON](https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27)
 
 Translations of the JSON schema for practical use in several languages are also available:
 
-- [Python](https://plot.ly/python/reference/)
-- [R](https://plot.ly/r/reference/)
-- [MATLAB](https://plot.ly/matlab/reference/)
-- [JavaScript](https://plot.ly/javascript/reference/)
+3. [Python](https://plot.ly/python/reference/)
+4. [R](https://plot.ly/r/reference/)
+5. [MATLAB](https://plot.ly/matlab/reference/)
+6. [JavaScript](https://plot.ly/javascript/reference/)
 
-# Simple Example
+# Demo
+
+Try updating the chart by editing the JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
+
+# A Simple Example
 
 Below is a Plotly bar chart with the JSON specification that describes it.
 
@@ -35,7 +39,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 
 ###### JSON Descripton of Chart
 
-<pre>
+```
 {
     "data": [
         {
@@ -53,7 +57,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
         }
     ]
 }
-</pre>
+```
 
 # More Examples
 
@@ -63,21 +67,26 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 | [Pie Chart](https://plot.ly/~Dreamshot/8254/)  | [JSON](https://plot.ly/~Dreamshot/8248.json) |
 | [Line Chart](https://plot.ly/~Dreamshot/8259/) | [JSON](https://plot.ly/~Dreamshot/8248.json) |
 
+# Online JSON Editor
+
+
+
 # Cross-Language Translation
 
 Using this JSON specification, it is easy to handle translation between different chart and data formats:
 
-- Interactive chart: [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)
-- JSON specifcation: [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)
-- Chart image: [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)
-- Python code: [https://plot.ly/~PlotBot/880.py](https://plot.ly/~PlotBot/880.py)
-- JavaScript code: [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)
-- CSV download: [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)
-- Excel download: [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)
+| Chart Translations  | Link to Translation                                                     | 
+| --------------------|:-----------------------------------------------------------------------:|
+| Interactive chart   | [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)            |
+| JSON specifcation   | [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)  |
+| Chart image         | [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)    |
+| Python code         | [https://plot.ly/~PlotBot/880.py](https://plot.ly/~PlotBot/880.py)      |
+| JavaScript code     | [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)      |
+| CSV download        | [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)    | 
+| Excel download      | [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)  | 
 
-# JSON Editor
+# Online JSON Editor
 
-Try updating the chart by editing the JSON specification in this editor.
+Try updating the chart by editing the JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
 
-<p data-height="580" data-theme-id="15263" data-slug-hash="XmxaXY" data-default-tab="result" data-user="plotly" class='codepen'>See the Pen <a href='http://codepen.io/plotly/pen/XmxaXY/'>Json Editor</a> by Plotly (<a href='http://codepen.io/plotly'>@plotly</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<iframe src="http://plotly-json-editor.getforge.io/" width="100%" border=0 seamless=seamless></iframe>
