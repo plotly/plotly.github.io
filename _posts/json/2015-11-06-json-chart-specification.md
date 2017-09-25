@@ -25,11 +25,13 @@ Translations of the JSON schema for practical use in several languages are also 
 5. MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
 6. JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
+***
 
 # Demo: Online JSON Editor
 
 Try updating the chart by editing its JSON specification in this [online JSON editor](https://plotly-json-editor.getforge.io/).
 
+***
 
 # A Simple Example
 
@@ -61,6 +63,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 }
 </pre>
 
+***
 
 # More Examples
 
@@ -70,7 +73,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 | [Pie Chart](https://plot.ly/~Dreamshot/8254/)  | [JSON](https://plot.ly/~Dreamshot/8248.json) |
 | [Line Chart](https://plot.ly/~Dreamshot/8259/) | [JSON](https://plot.ly/~Dreamshot/8248.json) |
 
-
+***
 
 # Cross-Language Translation
 
@@ -85,6 +88,8 @@ Using this JSON specification, it is easy to handle translation between differen
 | JavaScript code     | [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)      |
 | CSV download        | [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)    | 
 | Excel download      | [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)  | 
+
+***
 
 # Online JSON Editor
 
