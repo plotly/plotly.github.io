@@ -39,7 +39,7 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 
 ###### Chart Image
 
-!["Basic bar chart"](https://plot.ly/~kevintest/1081/.png?height=300)
+![Basic bar chart](https://plot.ly/~kevintest/1081/.png?height=300)
 
 ###### JSON Descripton of Chart
 
