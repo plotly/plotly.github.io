@@ -28,7 +28,7 @@ Translations of the JSON schema for practical use in several languages are also 
 
 # Demo: Online JSON Editor
 
-Try updating the chart by editing its JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
+Try updating the chart by editing its JSON specification in this [online JSON editor](https://plotly-json-editor.getforge.io/).
 
 
 # A Simple Example
@@ -90,4 +90,4 @@ Using this JSON specification, it is easy to handle translation between differen
 
 Try updating the chart by editing the JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
 
-<iframe src="http://plotly-json-editor.getforge.io/" width="100%" height="800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://plotly-json-editor.getforge.io/" width="100%" height="800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
