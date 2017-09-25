@@ -15,20 +15,20 @@ The Plotly JSON visualization schema is a complete declarative format for creati
 
 The complete JSON schema is maintained as part of Plotly's [V2 REST API](https://api.plot.ly/v2/):
 
-1. [Formatted version](https://api.plot.ly/v2/plot-schema?sha1=%27%27)
-2. [Raw JSON](https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27)
+1. Fully formatted JSON chart schema for every chart type: [https://api.plot.ly/v2/plot-schema?sha1=%27%27](https://api.plot.ly/v2/plot-schema?sha1=%27%27)
+2. Raw JSON (plain text) chart schema for every chart type: [https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27](https://api.plot.ly/v2/plot-schema?format=json&sha1=%27%27)
 
 Translations of the JSON schema for practical use in several languages are also available:
 
-3. [Python](https://plot.ly/python/reference/)
-4. [R](https://plot.ly/r/reference/)
-5. [MATLAB](https://plot.ly/matlab/reference/)
-6. [JavaScript](https://plot.ly/javascript/reference/)
+3. Python: [https://plot.ly/python/reference/](https://plot.ly/python/reference/)
+4. R: [https://plot.ly/r/reference/](https://plot.ly/r/reference/)
+5. MATLAB: [https://plot.ly/matlab/reference/](https://plot.ly/matlab/reference/)
+6. JavaScript: [https://plot.ly/javascript/reference/](https://plot.ly/javascript/reference/)
 
 
 # Demo: Online JSON Editor
 
-Try updating the chart by editing the JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
+Try updating the chart by editing its JSON specification in this [online JSON editor](http://plotly-json-editor.getforge.io/).
 
 
 # A Simple Example
