@@ -21,7 +21,6 @@ steps:
  - title: Introduction
    sub-steps:
     - copy: "In this tutorial we will look at how to control the layout of subplots."
-      img: "![Try an Example](../static/images/subplot-layouts/try-an-example.png)"
  
  - title: Add Your Data to Plotly
    sub-steps:
