@@ -5,7 +5,7 @@ subtitle: Subplot Layouts in Plotly 2.0
 permalink: /subplot-layouts/
 imageurl: ../static/images/subplot-layouts/subplot-layouts.png
 state: active
-tags: subplots
+tags: subplot
 order: 1.5
 meta_description: A tutorial on how to create subplot layouts in Plotly 2.0.
 popularity: featured
