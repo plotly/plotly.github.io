@@ -15,7 +15,7 @@ actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A386
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#subplots) or [R](https://plot.ly/r/#subplots).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/386.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/387.embed"></iframe>
 
 steps:
  - title: Introduction
