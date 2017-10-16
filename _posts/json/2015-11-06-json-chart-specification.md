@@ -82,7 +82,7 @@ Using this JSON specification, it is easy to handle translation between differen
 | Chart Translations  | Link to Translation                                                     | 
 | --------------------|:-----------------------------------------------------------------------:|
 | Interactive chart   | [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)            |
-| JSON specifcation   | [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)  |
+| JSON specification  | [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)  |
 | Chart image         | [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)    |
 | Python code         | [https://plot.ly/~PlotBot/880.py](https://plot.ly/~PlotBot/880.py)      |
 | JavaScript code     | [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)      |
