@@ -1,6 +1,6 @@
 ---
 layout: connectors-tutorial-single_layout
-title: Apache Spark
+title: Connect Your Charts and Dashboards to a Apache Spark Database
 subtitle: Graph data from your Apache Spark database with Plotly 2.0 and Falcon.
 permalink: /database-connectors/apache-spark/
 imageurl:  /static/images/falcon/logos/apache-spark.png
