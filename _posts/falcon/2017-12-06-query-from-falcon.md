@@ -5,7 +5,7 @@ subtitle: Preview schemas, write queries and perform inline data visualization w
 permalink: /database-connectors/query-from-falcon/
 imageurl:  /static/images/falcon/logos/query-from-falcon.png
 state: active
-tags: sql
+tags: advanced
 section: Basics
 meta_description: Follow these steps to preview schemas, write queries and perform inline data visualization with Falcon
 popularity: featured

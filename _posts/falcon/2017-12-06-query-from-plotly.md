@@ -5,7 +5,7 @@ subtitle: Query inside the Chart Studio to unlock all Plotly chart types and sty
 permalink: /database-connectors/query-from-plotly/
 imageurl:  /static/images/falcon/logos/query-from-plotly.png
 state: active
-tags: sql
+tags: advanced
 section: Basics
 meta_description: Follow these steps to query inside the Chart Studio to unlock all Plotly chart types and styling options
 popularity: featured
