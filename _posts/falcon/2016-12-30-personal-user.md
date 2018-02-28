@@ -13,7 +13,7 @@ actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 steps:
  - title: What is Falcon?
    sub-steps:
-    - copy: "Falcon is a free, [open-source](https://github.com/plotly/plotly-database-connector) SQL editor with inline data visualization. With Falcon you can connect to your database in the Connection tab, run SQL queries in the Query tab, then export your results as a CSV or open them in the [Chart Studio](https://plot.ly/create) to unlock the full power of Plotly graphs. Optionally, you can use Falcon as a middleman between plot.ly and your database - so that when your database updates, your charts and dashboards update as well. Currently, Falcon supports connections to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, and SQLite."
+    - copy: "Falcon is a free, [open-source](https://github.com/plotly/plotly-database-connector/) SQL editor with inline data visualization. With Falcon you can connect to your database in the Connection tab, run SQL queries in the Query tab, then export your results as a CSV or open them in the [Chart Studio](https://plot.ly/create) to unlock the full power of Plotly graphs. Optionally, you can use Falcon as a middleman between plot.ly and your database - so that when your database updates, your charts and dashboards update as well. Currently, Falcon supports connections to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, and SQLite."
  - title: Download the App
    sub-steps:
     - copy: "If you haven't yet, download Falcon SQL Client from the [Falcon product page](https://plot.ly/free-sql-client-download/) to get started! Upon clicking on the download button for either Mac or Windows distribution, a file should be added to your Downloads folder."
@@ -54,7 +54,7 @@ steps:
       img: "![Sample Credentials](/static/images/falcon/personal/sample-credentials.png)"
  - title: Setup Scheduled Queries
    sub-steps:
-    - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
+    - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query/)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
  - title: Setup Falcon on a Server
    sub-steps:
     - copy: "If you would like to run Falcon on a separate server, then you can run it headlessly from the command line ([more information](https://github.com/plotly/plotly-database-connector#run-as-headless-server))."

@@ -30,6 +30,6 @@ steps:
       img: "![Run Query](/static/images/falcon/query-from-plotly/run-query.png)"
  - title: Scheduled Queries
    sub-steps:
-    - copy: "After you have created and saved your chart, you can then schedule queries to take place every x by selecting the Scedule Query checkbox, your selected time and saving the chart again. For more detailed information on scheduled queries see the [Schedule a Query tutorial](https://help.plot.ly/database-connectors/schedule-query)."
+    - copy: "After you have created and saved your chart, you can then schedule queries to take place every x by selecting the Scedule Query checkbox, your selected time and saving the chart again. For more detailed information on scheduled queries see the [Schedule a Query tutorial](https://help.plot.ly/database-connectors/schedule-query/)."
 
 ---
