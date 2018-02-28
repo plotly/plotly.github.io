@@ -26,7 +26,7 @@ steps:
       img: "![SQL Editor](/static/images/falcon/query-from-falcon/query-from-falcon.png)"
  - title: Inline Data Visualization
    sub-steps:
-    - copy: "Once you've run your query, immediately below you can perform inline data visualization with the minimal drag-and-drop interface. Simply pick your chart type and drag the variables to the appropriate axis. If you're looking to create something a little more advanced, consider using [Query from Plotly](/database-connectors/query-from-plotly/)."
+    - copy: "Once you've run your query, immediately below you can perform inline data visualization with the minimal drag-and-drop interface. Simply pick your chart type and drag the variables to the appropriate axis. If you're looking to create something a little more advanced, consider using [Query from Plotly](https://help.plot.ly/database-connectors/query-from-plotly/)."
       img: "![Inline Data Viz](/static/images/falcon/query-from-falcon/inline-data-viz.png)"
  - title: Table
    sub-steps:

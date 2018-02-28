@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Setup Falcon using your Plotly On-Premise service
-subtitle: Setup database connections using Falcon with Plotly On-Premise 
+subtitle: Setup database connections using Falcon with Plotly On-Premise
 permalink: /database-connectors/on-prem-login/
 imageurl:  /static/images/falcon/logos/on-premise.png
 state: active
@@ -34,7 +34,7 @@ steps:
  - title: Additionnal Information
    sub-steps:
     - copy: "Falcon stores the credentials to your databases. When Falcon runs on your On-Premise account, these credentials only need to be saved to the connector by one user. All users of Plotly On-Premise will have access to the databases and datastores that get configured."
-    - copy: "Falcon can also run queries on a schedule ([see tutorial](/database-connectors/schedule-query)). Falcon will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
+    - copy: "Falcon can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query)). Falcon will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
     - copy: "Plotly On-Premise will need network access to your databases or datastores. If you would like to run Falcon on a separate server than Plotly or if you would like only a few users to have access to your databases, then you can run Falcon as a desktop app ([see tutorial](/database-connectors/personal-login)) or as a headless server app ([more information](https://github.com/plotly/plotly-database-connector#run-as-headless-server))."
 
 ---

@@ -48,13 +48,13 @@ steps:
     - copy: "These certificates are saved locally on your machine in the ~/.plotly/connector folder. They expire every 90 days and the application should automatically generate a new one for you"
  - title: Setup a Connection to Your Databases
    sub-steps:
-    - copy: "Now you should see the Falcon interface (like below). Here, you can setup a connection to your databases. As you can see there are numerous databases available. For more specific guidance, visit the tutorial for your database or see [our full list](/falcon), which includes [MySQL](/falcon/mysql/), [MS SQL](/falcon/mssql/), [PostgreSQL](/falcon/postgres/), [MariaDB](/falcon/mariadb/), [Redshift](/falcon/redshift/), [Apache Drill and Parquet files](/falcon/apache-drill/), [S3](/falcon/s3/), [Elasticsearch](/falcon/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
+    - copy: "Now you should see the Falcon interface (like below). Here, you can setup a connection to your databases. As you can see there are numerous databases available. For more specific guidance, visit the tutorial for your database or see [our full list](/database-connectors), which includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
       img: "![Getting Connected](/static/images/falcon/personal/connections.png)"
     - copy: "If you don't have a database, or you want to test Falcon, you can make use of Plotly's read only sample datasets. Simply, toogle the Show / Hide Sample Credentials, which will reveal the required information for the appropriate databases, then copy, paste, and connect."
       img: "![Sample Credentials](/static/images/falcon/personal/sample-credentials.png)"
  - title: Setup Scheduled Queries
    sub-steps:
-    - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](/database-connectors/schedule-query)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
+    - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
  - title: Setup Falcon on a Server
    sub-steps:
     - copy: "If you would like to run Falcon on a separate server, then you can run it headlessly from the command line ([more information](https://github.com/plotly/plotly-database-connector#run-as-headless-server))."
