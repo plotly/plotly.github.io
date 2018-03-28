@@ -24,8 +24,11 @@ steps:
  - title: Basic Streaming Concepts
    sub-steps:
     - copy: "Streaming is an additional API layer on top of the REST API. Therefore you follow the steps for making a REST API plot request to instantiate a base plot with your desired layout, style and mapping of streaming tokens to data arrays. This is accomplished by following the documentation for the REST API with the addition of adding tokens into the data object."
+      img: "![StreamA](../static/images/streaming/stream-code1.png)"
     - copy: "Once this has successfully been posted you are ready to begin streaming to the streaming endpoint, http://stream.plot.ly. To match your data stream to the correct data object in the initialized plot attach a token to the HTTP headers sent to the streaming endpoint."
+      img: "![StreamB](../static/images/streaming/stream-code2.png)"
     - copy: "Once the stream has been connected over http, write to the request stream with newline separated JSON."
+      img: "![StreamC](../static/images/streaming/stream-code3.png)"
     - copy: "The newline is extremely important. Without this delimiter the Streaming Endpoint will not delineate your data, and will terminate the stream. You can send multiple streams to the same plot by nesting stream tokens within the corresponding data trace object. Similarly you can use the same token for multiple traces in a plot (they will show the same stream, so this is useful only in when using subplots)."
 
  - title: Connecting
