@@ -37,5 +37,5 @@ steps:
     - copy: "A client establishes additional streams using the same stream token. When this occurs, the oldest connection will be terminated. This means you have to be careful not to run two reconnecting clients in parallel with the same credentials, or else they will take turns disconnecting each other."
     - copy: "A client stops writing data for a time period longer than a minute. If a minute passes without receiving any data from the client the stream connection will be closed. (A connection can be maintained by writing a heartbeat within the 60 second window, a heartbeat is simply a newline)."
     - copy: "A streaming server is restarted. This is usually related to a code deploy and is not very frequent."  
-    
+
 ---
