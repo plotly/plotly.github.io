@@ -19,7 +19,7 @@ steps:
     - copy: "Plotly dashboards are a stunning way to display and share your graphs. Your charts are fully interactive with publication-quality graphics, and there's nothing to download or install — it's 100% web-based."
     - copy: "Our dashboards are used by companies such as Netflix, Tesla, and Google for their customization options and features. If you too want to present your plots in a cool way, keep reading."
     - copy: "For this tutorial we've taken screenshots from our dashboard, which can be found [here](https://plot.ly/~plotly2_demo/237/untitled-dashboard/)."
-    - copy: "For this tutorial, to visualize World Hapiness from 2015 to 2017, we'll create three individual charts: (1) a average happiness choropleth map, (2) GDP per capita scatter plot and (3) a table to visualise the data. In the section below, we'll look at how to make each of the charts."
+    - copy: "For this tutorial, to visualize World Happiness from 2015 to 2017, we'll create three individual charts: (1) a average happiness choropleth map, (2) GDP per capita scatter plot and (3) a table to visualise the data. In the section below, we'll look at how to make each of the charts."
 
  - title: Add Data
    sub-steps:
@@ -51,8 +51,8 @@ steps:
     - copy: "Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private."
       img: "![Save](../static/images/crossfilter/choropleth/save.png)"
 
-  - title: Average GDP Scatter Plot
-    sub-steps:
+ - title: Average GDP Scatter Plot
+   sub-steps:
     - copy: "Using the same grid as the previous plot, open the data in the Chart Studio."
     - copy: "Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Scatter** from the *Business* column."
       img: "![Chart Type](../static/images/crossfilter/scatter/chart-type.png)"
@@ -77,8 +77,8 @@ steps:
     - copy: "Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private."
       img: "![Save](../static/images/crossfilter/scatter/save.png)"
 
-  - title: World Happiness Table
-    sub-steps:
+ - title: World Happiness Table
+   sub-steps:
     - copy: "Using the same grid as the previous plot, open the data in the Chart Studio."
     - copy: "Now that we have the data added to the grid, we can select our chart type. To do so, select *Graph* on the left-hand side, then *Create*. Click *Chart Type*, and **Table** from the *Statistics* column."
       img: "![Chart Type](../static/images/crossfilter/table/chart-type.png)"
@@ -95,12 +95,12 @@ steps:
     - copy: "Congrats, your chart is complete! Click **Save** on the left-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all) or **Private Link** (visible only to those who you share the link with) and hit **Save**. Since these plots are destined for a dashboard, they can't be set to private."
       img: "![Save](../static/images/crossfilter/table/save.png)"
 
-  - title: Create a Dashboard
-    sub-steps:
+ - title: Create a Dashboard
+   sub-steps:
     - copy: "With the charts completed and saved in your [home folder](https://plot.ly/organize/home), we can now create a dashboard by simply adding these charts, adjusting the layout, and styling the dashboard before sharing and interacting. To get started with creating a dashboard, hover over the *+Create* button and select **Dashboard** from the menu. Alternatively, open this [link](https://plot.ly/dashboard/create)."
 
-  - title: Add Charts to Dashboard
-    sub-steps:
+ - title: Add Charts to Dashboard
+   sub-steps:
     - copy: "First, to add the Maximum Cases per Month Map, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Average Happiness by Country** map we made earlier."
       img: "![Add Choropleth](../static/images/crossfilter/dashboard/add-plot.png)"
     - copy: "Next, add the **Average GDP per Capita by Country** scatter plot following the same process. As we are making a fairly simple and straight forward dashboard, we can just leave this plot immediate below the previous map."
@@ -110,8 +110,8 @@ steps:
     - copy: "Now that we have added all the plots to the dashboard, for each plot where it says, 'Enter a title...'' insert plot titles: **Average Happiness by Country**, **Average GDP per Capita by Country** and **World Happiness Data Table** in the same order as we added the plots. Your result ought to look like below."
       img: "![Add Plot Titles](../static/images/crossfilter/dashboard/add-titles.png)"
 
-  - title: Style the Dashboard
-    sub-steps:
+ - title: Style the Dashboard
+   sub-steps:
     - copy: "Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu."
       img: "![Settings](../static/images/crossfilter/dashboard/settings.png)"
     - copy: "After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **World Happiness 2015-2017** to the *Title* text box. Next, let's add the Sustainable Development Solutions Network logo. We can do this by simply adding the URL for the logo PNG: **http://unsdsn.org/wp- content/themes/sdsn/assets/  img/sdsn_logo_fc.png**. Also, we can add an link to the data source by typing the text **Data Source: World Happiness Report** and then in the *URL* box, enter **http://worldhappiness.report/**."
