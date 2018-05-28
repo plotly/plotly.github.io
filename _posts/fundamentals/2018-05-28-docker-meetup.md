@@ -7,7 +7,7 @@ permalink: /docker-meetup/
 
 ## Presentations
 
-* [Dokku, a Docker-Powered Paas](https://docs.google.com/presentation/d/1ptziYBMk84RLt7DBhlhKndH3OHmFiIpbLF6F4K8hw18/)
+* [Dokku, a Docker-Powered PaaS](https://docs.google.com/presentation/d/1ptziYBMk84RLt7DBhlhKndH3OHmFiIpbLF6F4K8hw18/)
 by Jody McIntyre
 * [TODO](https://google.ca)
 by Chuck Bronson
