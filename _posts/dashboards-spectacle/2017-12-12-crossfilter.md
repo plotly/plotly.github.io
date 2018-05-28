@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  How to Create Plotly Dashboards with Crossfilter
 subtitle: Create dashboards with crossfilter functionality using the Plotly data visualization tool
 permalink: /dashboard-crossfilter/
-imageurl: ../static../static/images/crossfilter/crossfilter.gif
+imageurl: ../static/images/crossfilter/crossfilter.gif
 state: active
 tags: dashboard
 order: 6
