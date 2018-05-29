@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
-title: Use HTTPS when sending data to Plotly 2.0
-subtitle: Set up your Plotly Database Connector to use HTTPS protocol when transferring data to Plotly 2.0.
+title: Use HTTPS when sending data to Chart Studio
+subtitle: Set up your Plotly Database Connector to use HTTPS protocol when transferring data to Chart Studio.
 permalink: /database-connectors/https/
 imageurl:  https://www.gorilla-cannabis-seeds.co.uk/__asset/securelogo
 state: active

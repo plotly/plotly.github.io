@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Add an Inset in Plotly 2.0
-subtitle: Add an inset using the Plotly 2.0 data visualization tool
+title: How to Add an Inset in Chart Studio
+subtitle: Add an inset using the Chart Studio data visualization tool
 permalink: /inset-subplots/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/inset thumb.png
 state: active
 tags: subplot
 order: 2
-meta_description: Learn how to add an inset online using Plotly 2.0 graphing software.
+meta_description: Learn how to add an inset online using Chart Studio graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Inset Subplot in Plotly 2.0
+actioncall: Inset Subplot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:210
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/insets/) or [R](https://plot.ly/r/insets/).

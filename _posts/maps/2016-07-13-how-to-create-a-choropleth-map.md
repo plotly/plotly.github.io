@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Choropleth Maps in Plotly 2.0
+title: Choropleth Maps in Chart Studio
 subtitle: A map that uses differences in coloring within predefined areas to indicate the average values of a variable within those areas.
 permalink: /make-a-choropleth-map/
 imageurl: ../static/images/choropleth-map-with-excel/choropleth-thumb.png
 state: active
 tags: maps
 order: 1
-meta_description: A tutorial on how to make a choropleth map in Plotly 2.0.
+meta_description: A tutorial on how to make a choropleth map in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Choropleth Map in Plotly 2.0
+actioncall: How to Make a Choropleth Map in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:31
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/choropleth-maps/) or [R](https://plot.ly/r/choropleth-maps/).

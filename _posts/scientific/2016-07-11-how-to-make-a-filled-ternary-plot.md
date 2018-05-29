@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Filled Ternary Plots in Plotly 2.0
+title: Filled Ternary Plots in Chart Studio
 subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-filled-plot/
 imageurl: ../static/images/How-to-make-a-filled-ternary-plot/thum-filled-ternary.png
 state: active
 tags: scientific
-meta_description: A tutorial on how to make a filled ternary plot in Plotly 2.0.
+meta_description: A tutorial on how to make a filled ternary plot in Chart Studio.
 popularity: featured
 order: 5
 carouselimageurl:
-actioncall: How to Make a Filled Ternary Plot in Plotly 2.0
+actioncall: How to Make a Filled Ternary Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:21
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-contour/),  [Javascript](https://plot.ly/javascript/ternary-contour/) and [Matlab](https://plot.ly/matlab/ternary-plots/).

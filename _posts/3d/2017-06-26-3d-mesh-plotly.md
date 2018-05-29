@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: 3D Mesh Plots in Plotly 2.0
+title: 3D Mesh Plots in Chart Studio
 subtitle: How to create a 3D mesh plot.
 permalink: /make-a-3d-mesh-plot/
 imageurl: ../static/images/make-a-3d-mesh-plot/3d-mesh-plot.png
 state: active
 tags: graph3d
 order: 3
-meta_description: A tutorial on how to create a 3D mesh plot in Plotly 2.0.
+meta_description: A tutorial on how to create a 3D mesh plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: 3D Mesh Plots in Plotly 2.0
+actioncall: 3D Mesh Plots in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:328
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-mesh-plots/) or [R](https://plot.ly/r/3d-mesh-plots/).

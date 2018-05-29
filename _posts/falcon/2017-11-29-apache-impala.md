@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Connect Your Charts and Dashboards to a Apache Impala Database
-subtitle: Graph data from your Apache Impala database with Plotly 2.0 and Falcon.
+subtitle: Graph data from your Apache Impala database with Chart Studio and Falcon.
 permalink: /database-connectors/apache-impala/
 imageurl:  /static/images/falcon/logos/apache-impala.png
 state: active

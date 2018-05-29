@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make Subplots in Plotly 2.0
-subtitle: Create subplots using the Plotly 2.0 data visualization tool
+title: How to Make Subplots in Chart Studio
+subtitle: Create subplots using the Chart Studio data visualization tool
 permalink: /subplots/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/subplotthumbnail.png
 state: active
 tags: subplot
 order: 1
-meta_description: Learn how to create subplots online using Plotly 2.0 graphing software.
+meta_description: Learn how to create subplots online using Chart Studio graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Subplots in Plotly 2.0
+actioncall: Subplots in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:208
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/) or [R](https://plot.ly/r/subplots/).

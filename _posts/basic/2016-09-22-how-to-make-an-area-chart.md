@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make an Area Chart in Plotly 2.0
+title: How to Make an Area Chart in Chart Studio
 subtitle: Create a type of line chart that displays different colors in the areas below the lines.
 permalink: /make-an-area-graph/
 imageurl: ../static/images/area-charts-in-excel-with-plotly/area chart thumb.png
 state: active
 tags: basic
 order: 9
-meta_description: A tutorial on how to make an area chart using Plotly 2.0 online data visualization software
+meta_description: A tutorial on how to make an area chart using Chart Studio online data visualization software
 popularity: featured
 carouselimageurl:
-actioncall: How to Make an Area Chart in Plotly 2.0
+actioncall: How to Make an Area Chart in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:194
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/filled-area-plots/) or [R](https://plot.ly/r/filled-area-plots/).

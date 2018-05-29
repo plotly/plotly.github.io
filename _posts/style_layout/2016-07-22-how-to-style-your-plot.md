@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Style Your Plots in Plotly 2.0
+title: Style Your Plots in Chart Studio
 subtitle: How to style your plots.
 permalink: /style-your-plots/
 imageurl: ../static/images/styling-and-customizing-graphs/style-your-plots.png
 state: active
 tags: layout
 order: 1
-meta_description: A tutorial on how to style your plots in Plotly 2.0.
+meta_description: A tutorial on how to style your plots in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Style Your Plots in Plotly 2.0
+actioncall: How to Style Your Plots in Chart Studio
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#layout-options) or [R](https://plot.ly/r/#layout-options).
 

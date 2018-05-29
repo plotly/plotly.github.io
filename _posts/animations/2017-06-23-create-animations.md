@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Animations in Plotly 2.0
-subtitle: Create Animations in Plotly 2.0
+title: Animations in Chart Studio
+subtitle: Create Animations in Chart Studio
 permalink: /create-animations/
 imageurl: ../static/images/create-animations/animations.png
 state: active
 tags: animations
 order: 1
-meta_description: A tutorial on how to create animations in Plotly 2.0.
+meta_description: A tutorial on how to create animations in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: A tutorial on how to create animations in Plotly 2.0.
+actioncall: A tutorial on how to create animations in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A380
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#animations) or [R](https://plot.ly/r/#animations).

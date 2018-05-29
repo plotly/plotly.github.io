@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Group in Plotly 2.0
-subtitle: Use the Group Function in Plotly 2.0
+title: Group in Chart Studio
+subtitle: Use the Group Function in Chart Studio
 permalink: /group-by/
 imageurl: ../static/images/groupby/thumbnail.png
 state: active
 tags: fundamentals
 order: 10.5
-meta_description: A tutorial on how to use the group function in Plotly 2.0.
+meta_description: A tutorial on how to use the group function in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: A tutorial on how to use the group function in Plotly 2.0.
+actioncall: A tutorial on how to use the group function in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A378
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/379.embed"></iframe>

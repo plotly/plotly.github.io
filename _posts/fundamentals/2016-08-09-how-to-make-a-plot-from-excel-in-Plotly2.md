@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Make a Plot from Excel in Plotly 2.0
-subtitle: How to make a plot from Excel in Plotly 2.0
+title: Make a Plot from Excel in Chart Studio
+subtitle: How to make a plot from Excel in Chart Studio
 permalink: /make-a-plot-from-excel/
 imageurl: ../static/images/enter-data-in-the-grid/excel-thumb.png
 state: active
 tags: fundamentals
 order: 2.5
-meta_description: A tutorial on how to make a plot from Excel in Plotly 2.0.
+meta_description: A tutorial on how to make a plot from Excel in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Plot from Excel in Plotly 2.0
+actioncall: How to Make a Plot from Excel in Chart Studio
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/).
 

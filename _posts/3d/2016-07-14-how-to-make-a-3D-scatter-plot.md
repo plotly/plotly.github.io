@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: 3D Scatter Plots in Plotly 2.0
+title: 3D Scatter Plots in Chart Studio
 subtitle: Create a plot that represents the relationship between three variables.
 permalink: /make-a-3d-scatter-plot/
 redirect_from: /plotly1/make-a-3d-scatter-plot/
@@ -8,10 +8,10 @@ imageurl: ../static/images/scatter-plot-3D/new scatter thumb.png
 state: active
 tags: graph3d
 order: 1
-meta_description: A tutorial on how to make a 3D scatter plot in Plotly 2.0.
+meta_description: A tutorial on how to make a 3D scatter plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a 3D Scatter Plot in Plotly 2.0
+actioncall: How to Make a 3D Scatter Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:33
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-scatter-plots/) or [R](https://plot.ly/r/3d-scatter-plots/).

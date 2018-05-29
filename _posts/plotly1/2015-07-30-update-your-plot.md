@@ -13,7 +13,7 @@ actioncall: Make a plot
 
 # Update your grids and plots
 
-If you want see update your graph in Plotly 2.0, visit [this page](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) to see how easy it is!
+If you want see update your graph in Chart Studio, visit [this page](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) to see how easy it is!
 
 Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to update your grids and plots with new data. Have a plot [embedded in your webpage or blog](http://help.plot.ly/embed-graphs-in-websites)? When you update your graph using the steps below, the embedded graph will automatically update as well. No need to modify your page with a new URL.
 

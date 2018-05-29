@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Subplot Layouts in Plotly 2.0
-subtitle: Subplot Layouts in Plotly 2.0
+title: Subplot Layouts in Chart Studio
+subtitle: Subplot Layouts in Chart Studio
 permalink: /subplot-layouts/
 imageurl: ../static/images/subplot-layouts/subplot-layouts.png
 state: active
 tags: subplot
 order: 1.5
-meta_description: A tutorial on how to create subplot layouts in Plotly 2.0.
+meta_description: A tutorial on how to create subplot layouts in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: A tutorial on how to create subplot layouts in Plotly 2.0.
+actioncall: A tutorial on how to create subplot layouts in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A386
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#subplots) or [R](https://plot.ly/r/#subplots).

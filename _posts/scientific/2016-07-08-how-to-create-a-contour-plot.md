@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Contour Plots in Plotly 2.0
+title: Contour Plots in Chart Studio
 subtitle: Create a plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid.
 permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/contour-thumb.png
 state: active
 tags: scientific
 order: 3
-meta_description: A tutorial on how to make a contour plot in Plotly 2.0.
+meta_description: A tutorial on how to make a contour plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Contour Plot in Plotly 2.0
+actioncall: How to Make a Contour Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:13
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/contour-plots/) or [R](https://plot.ly/r/contour-plots/).

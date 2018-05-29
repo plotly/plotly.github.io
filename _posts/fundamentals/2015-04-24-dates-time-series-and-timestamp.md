@@ -10,7 +10,7 @@ order: 9
 meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl: 
-actioncall: How to use dates, time series, and timestamp formats in Plotly 2.0
+actioncall: How to use dates, time series, and timestamp formats in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=empet:55
 
 otherlang: Know how to program? Learn more about time series for [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).

@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Collaborate in Plotly 2.0
-subtitle: How to collaborate on plots and grids in Plotly 2.0
+title: Collaborate in Chart Studio
+subtitle: How to collaborate on plots and grids in Chart Studio
 permalink: /collaborate-in-plotly/
 imageurl: ../static/images/misc-tutorial-images/collaborator thumb.png
 state: active
 tags: fundamentals
 order: 13
-meta_description: A tutorial on how to collaborate on plots and grids in Plotly 2.0
+meta_description: A tutorial on how to collaborate on plots and grids in Chart Studio
 popularity: featured
 carouselimageurl: 
-actioncall: How to collaborate on plots and grids in Plotly 2.0
+actioncall: How to collaborate on plots and grids in Chart Studio
 actioncall-url: 
 
 otherlang: Know how to program? Learn about [collaborating with our APIs](https://plot.ly/ipython-notebooks/collaboration/), including Python, R, and Matlab.
@@ -42,7 +42,7 @@ steps:
 
  - title: Add Collaborators to a Grid
    sub-steps:   
-    - copy: "In Plotly 2.0, collaborators can edit your data and plot. This means they can [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid and also change the [style](http://help.plot.ly/style-your-plots/) of your chart."
+    - copy: "In Chart Studio, collaborators can edit your data and plot. This means they can [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid and also change the [style](http://help.plot.ly/style-your-plots/) of your chart."
     - copy: "In order for them to edit any element of the plot, you must add the collaborator on both the plot and the associated data grid. Even if they're only styling the chart and not editing the data, they must be added as collaborators to your grid. If you add them to your plot only, the plot gets copied for the collaborator and is saved as a copied plot." 
     - copy: "To add collaborators to your grid, go to your [list of files](https://plot.ly/organize/home). Hover over your grid thumbnail, then click on the 'Share' icon."
       img: "![Organize page](../static/images/misc-tutorial-images/organize page.png)"

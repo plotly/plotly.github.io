@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: How to Add Data in Plotly 2.0
+title: How to Add Data in Chart Studio
 subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
 redirect_from: /plotly1/add-data-to-the-plotly1-grid/
@@ -8,10 +8,10 @@ imageurl: ../static/images/enter-data-in-the-grid/enter-date-thumb.png
 state: active
 tags: fundamentals
 order: 2
-meta_description: A tutorial on how to enter data in Plotly 2.0.
+meta_description: A tutorial on how to enter data in Chart Studio.
 popularity: featured
 carouselimageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
-actioncall: How to Enter Data in Plotly 2.0
+actioncall: How to Enter Data in Chart Studio
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/) or [R](https://plot.ly/r/getting-started/).
 

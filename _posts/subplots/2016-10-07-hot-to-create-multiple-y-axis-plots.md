@@ -1,17 +1,17 @@
 ---
 layout: tutorial-single_layout
-title: How to Make Multiple Y-Axes Plots in Plotly 2.0
-subtitle: Create a plot with multiple y-axes using the Plotly 2.0 data visualization tool
+title: How to Make Multiple Y-Axes Plots in Chart Studio
+subtitle: Create a plot with multiple y-axes using the Chart Studio data visualization tool
 permalink: /multiple-y-axes/
 redirect_from: /make-a-graph-with-multiple-axes/
 imageurl: ../static/images/multiple-y-axes/multiple y thumb.png
 state: active
 tags: subplot
 order: 3
-meta_description: Learn how to create plots with multiple y-axes online using Plotly 2.0 graphing software.
+meta_description: Learn how to create plots with multiple y-axes online using Chart Studio graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Multiple y-axes plots in Plotly 2.0
+actioncall: Multiple y-axes plots in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:219
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/multiple-axes/#multiple-yaxes) or [R](https://plot.ly/r/multiple-axes/#multiple-y-axes).

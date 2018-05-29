@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Add Annotations in Plotly 2.0
+title: Add Annotations in Chart Studio
 subtitle: How to add annotations to your plot.
 permalink: /how-to-add-annotations/
 imageurl: ../static/images/styling-and-customizing-graphs/notes-thumbnail.png
 state: active
 tags: layout
 order: 3
-meta_description: A tutorial on how to add annotations to your plot in Plotly 2.0.
+meta_description: A tutorial on how to add annotations to your plot in Chart Studio.
 popularity: featured
 carouselimageurl: 
-actioncall: How to add Annotations to Your Plot in Plotly 2.0
+actioncall: How to add Annotations to Your Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:128
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/text-and-annotations/ ) or [R](https://plot.ly/r/text-and-annotations/).

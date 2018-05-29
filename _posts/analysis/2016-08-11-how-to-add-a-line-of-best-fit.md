@@ -1,17 +1,17 @@
 ---
 layout: tutorial-single_layout
-title: Make a Line of Best Fit in Plotly 2.0
-subtitle: How to make a line of best fit in Plotly 2.0
+title: Make a Line of Best Fit in Chart Studio
+subtitle: How to make a line of best fit in Chart Studio
 permalink: /make-a-line-of-best-fit/
 redirect_from: /plotly1/make-a-line-of-best-fit/
 imageurl: ../static/images/line-of-best-fit/best-fit-thumb.png
 state: active
 tags: analysis
 order: 1
-meta_description: A tutorial on how to make a line of best fit in Plotly 2.0.
+meta_description: A tutorial on how to make a line of best fit in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Line of Best Fit in Plotly 2.0
+actioncall: How to Make a Line of Best Fit in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:125
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#fitting-tools).

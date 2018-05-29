@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Pie Charts in Plotly 2.0
+title: Pie Charts in Chart Studio
 subtitle: Create a circular statistical chart that is divided into slices.
 permalink: /make-a-pie-chart/
 imageurl: ../static/images/create-pie-chart/new thumb.png
 state: active
 tags: basic
 order: 7
-meta_description: A tutorial on how to make a pie chart in Plotly 2.0.
+meta_description: A tutorial on how to make a pie chart in Chart Studio.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
-actioncall: How to create a pie chart in Plotly 2.0
+actioncall: How to create a pie chart in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:274
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/pie-charts/) or [R](https://plot.ly/r/pie-charts/).

@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Histograms in Plotly 2.0
+title: Histograms in Chart Studio
 subtitle: Create a graphical representation of the distribution of numerical data.
 permalink: /make-a-histogram/
 redirect_from: plotly1/make-a-histogram/
@@ -8,10 +8,10 @@ imageurl: ../static/images/make-a-histogram/histogram-thumb.png
 state: active
 tags: statistical
 order: 1
-meta_description: A tutorial on how to make a histogram in Plotly 2.0.
+meta_description: A tutorial on how to make a histogram in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Histogram in Plotly 2.0
+actioncall: How to Make a Histogram in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:88
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/histograms/) or [R](https://plot.ly/r/histograms/).

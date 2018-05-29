@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Add a Logo in Plotly 2.0
+title: Add a Logo in Chart Studio
 subtitle: How to add a logo to your plots.
 permalink: /logos/
 imageurl: ../static/images/how-to-add-a-logo/logo-thumbnail.png
 state: active
 tags: layout
 order: 2
-meta_description: A tutorial on how to add a logo to your plots in Plotly 2.0.
+meta_description: A tutorial on how to add a logo to your plots in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Add a Logo in Plotly 2.0
+actioncall: How to Add a Logo in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:324
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/logos/) or [R](https://plot.ly/r/logos/).

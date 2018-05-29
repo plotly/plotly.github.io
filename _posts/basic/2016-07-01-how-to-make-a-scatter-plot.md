@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Scatter Plots in Plotly 2.0
+title: Scatter Plots in Chart Studio
 subtitle: A type of plot that shows the relationship between two variables.
 permalink: /how-to-make-a-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
 state: active
 tags: basic
 order: 1
-meta_description: A tutorial on how to make a scatter plot in Plotly 2.0.
+meta_description: A tutorial on how to make a scatter plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Scatter Plot in Plotly 2.0
+actioncall: How to Make a Scatter Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:4
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).

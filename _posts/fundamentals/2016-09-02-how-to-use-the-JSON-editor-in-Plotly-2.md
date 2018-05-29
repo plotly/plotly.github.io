@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: JSON Viewer/Editor in Plotly 2.0
-subtitle: How to use the JSON Viewer/Editor in Plotly 2.0
+title: JSON Viewer/Editor in Chart Studio
+subtitle: How to use the JSON Viewer/Editor in Chart Studio
 permalink: /view-and-edit-JSON/
 imageurl: ../static/images/misc-tutorial-images/JSON-thumb.png
 state: active
 tags: fundamentals
 order: 12
-meta_description: A tutorial on how to use the JSON viewer/editor in Plotly 2.0.
+meta_description: A tutorial on how to use the JSON viewer/editor in Chart Studio.
 popularity: featured
 carouselimageurl: 
-actioncall: How to use the JSON Viewer/Editor in Plotly 2.0
+actioncall: How to use the JSON Viewer/Editor in Chart Studio
 actioncall-url: 
 
 otherlang: Know how to program? Learn more about chart attributes for [Python](https://plot.ly/python/reference/) or [R](https://plot.ly/r/reference/).

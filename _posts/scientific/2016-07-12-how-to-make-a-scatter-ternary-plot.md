@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Scatter Ternary Plots in Plotly 2.0
+title: Scatter Ternary Plots in Chart Studio
 subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-scatter-plot/
 imageurl: ../static/images/How-to-make-a-scatter-ternary-plot/thum-scatter-ternary.png
 state: active
 tags: scientific
-meta_description: A tutorial on how to make a scatter ternary plot in Plotly 2.0.
+meta_description: A tutorial on how to make a scatter ternary plot in Chart Studio.
 popularity: featured
 order: 4
 carouselimageurl:
-actioncall: How to Make a Scatter Ternary Plot in Plotly 2.0
+actioncall: How to Make a Scatter Ternary Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:29
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-plots/),  [Javascript](https://plot.ly/javascript/ternary-plots/) and [Matlab](https://plot.ly/matlab/ternary-plots/).

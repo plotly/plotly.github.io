@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Applying Filters in Plotly 2.0
-subtitle: Filter Data in Plotly 2.0
+title: Applying Filters in Chart Studio
+subtitle: Filter Data in Chart Studio
 permalink: /filter-data/
 imageurl: ../static/images/filters/filter-thimb.PNG
 state: active
 tags: fundamentals
 order: 10
-meta_description: A tutorial on how to apply filters to data in Plotly 2.0
+meta_description: A tutorial on how to apply filters to data in Chart Studio
 popularity: featured
 carouselimageurl:
-actioncall: How to apply filters to data in Plotly 2.0
+actioncall: How to apply filters to data in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:312
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/312/"></iframe>
@@ -18,7 +18,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "Understanding how to apply filters to data in Plotly 2.0 can be divided in three categories: (1) categorical data, (2) continuous data, and (3) dates. As a consequences, we will look at these individually and in the order previously specified. It is also important to note, that in Plotly 2.0 you can apply single or multiple filters to each plot."
+    - copy: "Understanding how to apply filters to data in Chart Studio can be divided in three categories: (1) categorical data, (2) continuous data, and (3) dates. As a consequences, we will look at these individually and in the order previously specified. It is also important to note, that in Chart Studio you can apply single or multiple filters to each plot."
     - copy: "Keeping that in mind, we will explore the meteorite dataset and by applying filters we will attempt to answer the question: 'Where has the largest concentraction of ordinary meteorites greater than 10,000 grams fallen in the 21st century?'"
 
  - title: Try an Example

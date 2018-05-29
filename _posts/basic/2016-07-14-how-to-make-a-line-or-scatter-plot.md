@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Line or Scatter Graphs in Plotly 2.0
+title: Line or Scatter Graphs in Chart Studio
 subtitle: Create a graph with multiple traces.
 permalink: /make-a-line-graph-or-scatter-plot/
 redirect_from: /plotly1/make-a-line-graph-or-scatter-plot/
@@ -8,10 +8,10 @@ imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-line-t
 state: active
 tags: basic
 order: 3
-meta_description: A tutorial on how to make a line or scatter graph in Plotly 2.0.
+meta_description: A tutorial on how to make a line or scatter graph in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a line or scatter graph in Plotly 2.0
+actioncall: How to make a line or scatter graph in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:86
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).

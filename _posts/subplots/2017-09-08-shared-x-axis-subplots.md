@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Shared X-Axis Subplots in Plotly 2.0
-subtitle: Shared X-Axis Subplots in Plotly 2.0
+title: Shared X-Axis Subplots in Chart Studio
+subtitle: Shared X-Axis Subplots in Chart Studio
 permalink: /shared-x-axis-subplots/
 imageurl: ../static/images/shared-x-axis-subplots/shared-x-axis-subplots.png
 state: active
 tags: subplots
 order: 5
-meta_description: A tutorial on how to create subplots with a shared x-axis in Plotly 2.0.
+meta_description: A tutorial on how to create subplots with a shared x-axis in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: A tutorial on how to create subplots with a shared x-axis in Plotly 2.0.
+actioncall: A tutorial on how to create subplots with a shared x-axis in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A388
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#subplots) or [R](https://plot.ly/r/#subplots).

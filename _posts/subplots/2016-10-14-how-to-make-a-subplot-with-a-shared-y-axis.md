@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make Subplots with a Shared Y-Axis in Plotly 2.0
-subtitle: Create a subplot with a shared y-axis using the Plotly 2.0 data visualization tool
+title: How to Make Subplots with a Shared Y-Axis in Chart Studio
+subtitle: Create a subplot with a shared y-axis using the Chart Studio data visualization tool
 permalink: /shared-y-axis-subplots/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/shared y thumbnail.png
 state: active
 tags: subplot
 order: 3.5
-meta_description: Learn how to create subplots with a shared y-axes online using Plotly 2.0 graphing software.
+meta_description: Learn how to create subplots with a shared y-axes online using Chart Studio graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Subplots with a shared y-axis in Plotly 2.0
+actioncall: Subplots with a shared y-axis in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:223
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/#subplots-with-shared-xaxes) and [R](https://plot.ly/r/subplots/).

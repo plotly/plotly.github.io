@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: 3D Line Charts in Plotly 2.0
+title: 3D Line Charts in Chart Studio
 subtitle: How to create a 3D Line Chart.
 permalink: /make-a-3d-line-plot/
 redirect_from: /make-a-3d-line-chart/
@@ -8,10 +8,10 @@ imageurl: ../static/images/make-a-3d-line-chart/3d-line-chart.png
 state: active
 tags: graph3d
 order: 1.5
-meta_description: A tutorial on how to create a 3D line chart in Plotly 2.0.
+meta_description: A tutorial on how to create a 3D line chart in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: 3D Line Charts in Plotly 2.0
+actioncall: 3D Line Charts in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:330
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-line-plots/) or [R](https://plot.ly/r/3d-line-plots/).

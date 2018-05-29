@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Heatmaps in Plotly 2.0
+title: Heatmaps in Chart Studio
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors
 permalink: /make-a-heatmap/
 redirect_from: /plotly1/make-a-heatmap/
@@ -8,10 +8,10 @@ imageurl: ../static/images/heat-map/new thumb.png
 state: active
 tags: scientific
 order: 2
-meta_description: Create a heatmap using the the Plotly 2.0 data visualization tool
+meta_description: Create a heatmap using the the Chart Studio data visualization tool
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Heatmap in Plotly 2.0
+actioncall: How to Make a Heatmap in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:11
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/heatmaps/) or [R](https://plot.ly/r/heatmaps/).

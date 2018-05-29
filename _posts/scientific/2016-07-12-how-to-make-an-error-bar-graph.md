@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Error bars in Plotly 2.0
+title: Error bars in Chart Studio
 subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement.
 permalink: /make-a-graph-with-error-bars/
 redirect_from: /plotly1/make-a-graph-with-error-bars/
@@ -8,10 +8,10 @@ imageurl: ../static/images/graph-with-error-bars/error-bar-thumb.png
 state: active
 tags: scientific
 order: 1
-meta_description: A tutorial on how to make a graph with error bars in Plotly 2.0.
+meta_description: A tutorial on how to make a graph with error bars in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Graph with Error Bars in Plotly 2.0
+actioncall: How to Make a Graph with Error Bars in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:27
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).

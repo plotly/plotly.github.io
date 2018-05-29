@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Box Plots in Plotly 2.0
+title: Box Plots in Chart Studio
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
 redirect_from: /plotly1/make-a-box-plot/
@@ -8,9 +8,9 @@ imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: statistical
 order: 2.5
-meta_description: A tutorial on how to make a box plot in Plotly 2.0.
+meta_description: A tutorial on how to make a box plot in Chart Studio.
 popularity: featured
-actioncall: How to Make a Box Plot in Plotly 2.0
+actioncall: How to Make a Box Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:108
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).

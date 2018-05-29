@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Candlestick Charts in Plotly 2.0
+title: Candlestick Charts in Chart Studio
 subtitle: Create a Candlestick Chart of financial data.
 permalink: /make-a-candlestick/
 imageurl: ../static/images/make-a-candlestick/candlestick-thimb.PNG
 state: active
 tags: financial
 order: 3
-meta_description: A tutorial on how to make a candlestick chart in Plotly 2.0.
+meta_description: A tutorial on how to make a candlestick chart in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a candlestick chart in Plotly 2.0
+actioncall: How to make a candlestick chart in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:309
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/candlestick-charts/) or [R](https://plot.ly/r/candlestick-charts/).
@@ -39,14 +39,14 @@ steps:
 
  - title: Style Chart
    sub-steps:
-    - copy: "Plotly 2.0 allows you to style the traces, layout, annotations, axes, legend, and more. To start customizing, click on STYLE on the left-hand side."
+    - copy: "Chart Studio allows you to style the traces, layout, annotations, axes, legend, and more. To start customizing, click on STYLE on the left-hand side."
     - copy: "To change the line color, fill color, or line thickness for either increasing or decreasing values, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!" 
       img: "![Trace Colors](../static/images/make-a-candlestick/trace-colors.PNG)"
 
     - copy: "To add or change the title, simply click the title on the plot and an editable text box will appear. Alternatively, you can select ‘Layout’ under the STYLE tab and then select ‘Title and Fonts’. Here, you ought to see a text box where you can add, or edit, the title. Additionally, you can customise the text by changing the typeface, size, color, or write in HTML or even LaTeX."
       img: "![Titles](../static/images/make-a-candlestick/titles.png)"
     
-    - copy: "In Plotly 2,0 you can customise the legend’s text, position, orientation, color, and visibility. For this tutorial we will edit the text, change the orientation, and legend position. Again, under the STYLE tab select ‘Legend’, which will then open the legend panel. Here, we will change the orientation and position in 3 stages. (1) Under the title orientation click the ‘Horizontal’ button; (2) Below the title 'Positioning' enter the 'X Position 'as 0.5 and the 'Y Position' as 1; (3) Click the setting icon located next the title 'Positioning' and select ‘Center’ to set the x position coordinate as the center of the legend text. Lastly, to edit the text, simply click the legend text in the plot and an editable text box will appear (similar to editing the plot title) ."
+    - copy: "In Chart Studio you can customise the legend’s text, position, orientation, color, and visibility. For this tutorial we will edit the text, change the orientation, and legend position. Again, under the STYLE tab select ‘Legend’, which will then open the legend panel. Here, we will change the orientation and position in 3 stages. (1) Under the title orientation click the ‘Horizontal’ button; (2) Below the title 'Positioning' enter the 'X Position 'as 0.5 and the 'Y Position' as 1; (3) Click the setting icon located next the title 'Positioning' and select ‘Center’ to set the x position coordinate as the center of the legend text. Lastly, to edit the text, simply click the legend text in the plot and an editable text box will appear (similar to editing the plot title) ."
       img: "![Legend](../static/images/make-a-candlestick/legend.png)"
     
     - copy: "The next few features are somewhat unique to financial charts. You have the option of using either, both, or neither."

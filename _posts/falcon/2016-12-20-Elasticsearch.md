@@ -1,7 +1,7 @@
 ---
 layout: connectors-tutorial-single_layout
 title: Connect Your Charts and Dashboards to an Elasticsearch Database
-subtitle: Graph data from your Elasticsearch database with Plotly 2.0 and Falcon.
+subtitle: Graph data from your Elasticsearch database with Chart Studio and Falcon.
 permalink: /database-connectors/elasticsearch/
 imageurl:  /static/images/falcon/logos/elasticsearch.png
 state: active

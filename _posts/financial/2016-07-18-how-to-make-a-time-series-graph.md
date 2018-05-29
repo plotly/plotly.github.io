@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Time Series Graphs in Plotly 2.0
+title: Time Series Graphs in Chart Studio
 subtitle: Create a graph that illustrates data points at consecutive time intervals.
 permalink: /make-a-time-series-graph/
 imageurl: ../static/images/dates-time-series-and-timestamp/time-series-thimb.png
 state: active
 tags: financial
 order: 1.5
-meta_description: A tutorial on how to make a time series graph in Plotly 2.0.
+meta_description: A tutorial on how to make a time series graph in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a time series graph in Plotly 2.0
+actioncall: How to make a time series graph in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:377
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/time-series/) or [R](https://plot.ly/r/time-series/).

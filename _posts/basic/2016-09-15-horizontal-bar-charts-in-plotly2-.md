@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Horizontal Bar Charts in Plotly 2.0
+title: Horizontal Bar Charts in Chart Studio
 subtitle: Create one of the most common chart types, in a horizontal fashion.
 permalink: /horizontal-bar-chart/
 imageurl: ../static/images/bar-graph/horizontalthumbnail.png
 state: active
 tags: basic
 order: 6
-meta_description: A tutorial on how to make a horizontal bar chart in Plotly 2.0.
+meta_description: A tutorial on how to make a horizontal bar chart in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Horizontal Bar Chart in Plotly 2.0
+actioncall: How to Make a Horizontal Bar Chart in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:182
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/horizontal-bar-charts/).

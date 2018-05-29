@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: 3D Surface Plots in Plotly 2.0
+title: 3D Surface Plots in Chart Studio
 subtitle: Create a three-dimensional surface plot that connects a set of data points.
 permalink: /make-a-3d-surface-plot/
 redirect_from: /make-a-3D-surface-plot/
@@ -8,10 +8,10 @@ imageurl: ../static/images/3d-surface-plot-with-excel/3d-thumb.png
 state: active
 tags: graph3d
 order: 2
-meta_description: A tutorial on how to make a 3D surface plot in Plotly 2.0.
+meta_description: A tutorial on how to make a 3D surface plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a 3D Surface Plot in Plotly 2.0
+actioncall: How to Make a 3D Surface Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:140
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-surface-plots/) or [R](https://plot.ly/r/3d-surface-plots/).

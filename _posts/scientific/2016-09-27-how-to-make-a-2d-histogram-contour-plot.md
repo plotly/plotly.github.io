@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make a 2D Histogram Contour Plot in Plotly 2.0
+title: How to Make a 2D Histogram Contour Plot in Chart Studio
 subtitle: Create a plot that visualizes a bivariate distribution with contour lines.
 permalink: /make-a-2d-histogram-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/2d contour thumb.png
 state: active
 tags: statistical
 order: 2
-meta_description: A tutorial on how to make a 2D Histogram Contour Plot in Plotly 2.0.
+meta_description: A tutorial on how to make a 2D Histogram Contour Plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a 2D Histogram Contour Plot in Plotly 2.0
+actioncall: How to Make a 2D Histogram Contour Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:202
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/density-plots/#2d-histogram-contour-plot-with-histogram-subplots).

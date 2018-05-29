@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: How to Make Multiple X-Axes Plots in Plotly 2.0
-subtitle: Create a plot with multiple x-axes using the Plotly 2.0 data visualization tool
+title: How to Make Multiple X-Axes Plots in Chart Studio
+subtitle: Create a plot with multiple x-axes using the Chart Studio data visualization tool
 permalink: /multiple-x-axes/
 imageurl: ../static/images/graph-with-multiple-axes-with-excel/stackedxthumbnail.png
 state: active
 tags: subplot
 order: 4
-meta_description: Learn how to create plots with multiple x-axes online using Plotly 2.0 graphing software.
+meta_description: Learn how to create plots with multiple x-axes online using Chart Studio graphing software.
 popularity: featured
 carouselimageurl:
-actioncall: Multiple x-axes plots in Plotly 2.0
+actioncall: Multiple x-axes plots in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:221
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/subplots/#subplots-with-shared-xaxes).

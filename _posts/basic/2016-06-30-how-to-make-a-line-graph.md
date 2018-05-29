@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Line Graphs in Plotly 2.0
+title: Line Graphs in Chart Studio
 subtitle: Creating a graph that compares two variables
 permalink: /make-a-line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/new line thumb.png
 state: active
 tags: basic
 order: 2
-meta_description: A tutorial on how to make a line graph in Plotly 2.0.
+meta_description: A tutorial on how to make a line graph in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Line Graph in Plotly 2.0
+actioncall: How to Make a Line Graph in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:2
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).

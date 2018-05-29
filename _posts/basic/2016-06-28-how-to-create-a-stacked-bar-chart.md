@@ -1,15 +1,15 @@
 ---
 layout: tutorial-single_layout
-title: Stacked Bar Charts in Plotly 2.0
+title: Stacked Bar Charts in Chart Studio
 subtitle: Create one of the most common chart types, a column chart useful for comparing data points in one or more data series.
 permalink: /stacked-bar-chart/
 imageurl: ../static/images/bar-graph/new stacked thumb.png
 state: active
 tags: basic
 order: 5
-meta_description: A tutorial on how to make a stacked bar chart in Plotly 2.0.
+meta_description: A tutorial on how to make a stacked bar chart in Chart Studio.
 popularity: featured
-actioncall: How to Make a Stacked Bar Chart in Plotly 2.0
+actioncall: How to Make a Stacked Bar Chart in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:153
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#stacked-bar-chart) or [R](https://plot.ly/r/bar-charts/#stacked-bar-chart).
