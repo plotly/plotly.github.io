@@ -94,7 +94,7 @@ steps:
     - copy: "A small modal window will appear. Give your dashboard a filename and select the privacy setting. Click [here](http://help.plot.ly/dashboard-privacy/) to learn more about dashboard privacy. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
       img: "![Save main](../static/images/dashboards/save dashboard.png)"
     - copy: "When you want to locate your dashboard, just visit your [Organize](https://plot.ly/organize/) or Profile page, and it's there with your other saved plots and grids!"
-    - copy: "It's not possible to embed dashboards at the moment, but that feature is coming soon."
+    - copy: "See [https://help.plot.ly/embed-dashboards/](https://help.plot.ly/embed-dashboards/): to learn how to embed your dashboards in webpages as iframes."
 
  - title: Tips and Tricks
    sub-steps:
