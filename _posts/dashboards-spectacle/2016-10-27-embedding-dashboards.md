@@ -22,8 +22,8 @@ steps:
 
  - title: Embed Dashboard
    sub-steps:
-    - copy: "Dashboards can be embedded as iframes in a website. After completing and saving your dashboard, copy the url to add as the src of your iframe. You must replace the trailing /edit with /embed at the end of the URL so the format is as follows: https://plot.ly/dashboard/YOUR-USERNAME:FILE-ID/embed. For example: [https://plot.ly/dashboard/chelsea_lyn:17322/embed](https://plot.ly/dashboard/chelsea_lyn:17322/embed)"
-    - img: "![Dashboard URL](../static/images/dashboards/url.png)"
-    - copy: "Create an iframe and set the src to your embed url as shown below:"
-    - img: "![Create an iframe](../static/images/dashboards/iframe.png)"
+    - copy: "Dashboards can be embedded as iframes in a website. After completing and saving your dashboard, navigate to your home folder and click on the share icon situated on the dashboard thumbnail (just like you would do when sharing a chart). In the pop-up modal box, click 'Embed', then copy the iframe code snippet."
+    - img: "![Dashboard iframe](../static/images/dashboards/url.png)"
+    - copy: "All you need to do now is simply add the iframe and voilà!"
+    - img: "![Add iframe](../static/images/dashboards/iframe.png)"
 ---
