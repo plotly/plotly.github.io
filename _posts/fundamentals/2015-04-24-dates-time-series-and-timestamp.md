@@ -9,7 +9,7 @@ tags: fundamentals
 order: 9
 meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to use dates, time series, and timestamp formats in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=empet:55
 
@@ -18,7 +18,7 @@ otherlang: Know how to program? Learn more about time series for [Python](https:
 live-graph: <iframe width="800" height="700" frameborder="0" scrolling="no" src="https://plot.ly/~empet/55.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Dates, Time Series and Timestamp Format in Plotly
    sub-steps:
     - copy: "Making a graph with dates and times?"
@@ -40,11 +40,11 @@ steps:
 
  - title: Custom formats for your graph
    sub-steps:
-    - copy: "When you make a graph in Plotly with dates and times, the default labeling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
+    - copy: "When you make a graph in Plotly with dates and times, the default labelling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)"
     - copy: "To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/select-axis.png)"
-    - copy: "Select the Labels tab to reveal options for a Custom date format and Hover format. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in Custom date format, '%b %Y' tells Plotly to display an abbreviated month and the year with century.One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
+    - copy: "Select the Labels tab to reveal options for a Custom date format and Hover format. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in Custom date format, '%b %Y' tells Plotly to display an abbreviated month and the year with century. One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/axes-labels.png)"
     - copy: "The Hover format, '%B %Y', tells Plotly to show the full month name and year with century when using the hover feature to explore the data."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/hover-format.png)"
@@ -52,10 +52,6 @@ steps:
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/axes-ticks.png)"
     - copy: "If you don’t specify any Custom date format, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/zoom-level.gif)"
-    - copy: "Some common date and time formats are included in the table below. Can’t find what you’re looking for? Try [here](https://github.com/mbostock/d3/wiki/Time-Formatting)."
-      img: "![Date format and time series 1](../static/images/dates-time-series-and-timestamp/table 1.png)"
-    - copy: ""
-      img: "![Date format and time series 2](../static/images/dates-time-series-and-timestamp/table 2.png)"
-    - copy: ""
-      img: "![Date format and time series 3](../static/images/dates-time-series-and-timestamp/table 3.png)"
+    - copy: "Some common date and time formats are included in the table below."
+      live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bdun9/3297.embed"></iframe>
 ---
