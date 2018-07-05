@@ -53,5 +53,7 @@ steps:
     - copy: "If you don’t specify any Custom date format, Plotly will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/zoom-level.gif)"
     - copy: "Some common date and time formats are included in the table below."
-      live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bdun9/3297.embed"></iframe>
+
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~bdun9/3297.embed"></iframe>
+live-graph-image:
 ---
