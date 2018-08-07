@@ -7,18 +7,18 @@ imageurl:  /static/images/falcon/logos/query-from-falcon.png
 state: active
 tags: advanced
 section: Basics
-meta_description: View and search through your list of scheduled queries created by Falcon.
+meta_description: View, Edit and search through your list of scheduled queries created by Falcon.
 popularity: featured
 actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 
 steps:
  - title: View Scheduled Queries from Falcon
    sub-steps:
-    - copy: "Open Falcon and navigate to the *SCHEDULE*. Here, you will see a list of all the queries you have scheduled using Falcon."
+    - copy: "Starting with Falcon version 3.0, there is a *SCHEDULE* tab which you can view and edit scheduled queries. After logging into your plot.ly account, go to the *SCHEDULE* tab to see a list of all the queries you have scheduled using Falcon."
       img: "![View Scheduled Queries on Falcon](/static/images/falcon/scheduled-queries-tab/01-falcon-schedule-tab.png)"
  - title: Search Through Queries
    sub-steps:
-    - copy: "Click on the refresh button in the upper right corner if you have updated any queries since opening Falcon. Now you can search through your queries by name, schedule time or query using the search bar. The list below will be updated in real-time as you type."
+    - copy: "Click on the refresh button in the upper right corner if you have updated any queries since opening Falcon. Now you can search through your queries by name or query using the search bar. The list below will be updated in real-time as you type."
       img: "![Search Queries](/static/images/falcon/scheduled-queries-tab/02-falcon-search-queries.png)"
  - title: Query Details
    sub-steps:
