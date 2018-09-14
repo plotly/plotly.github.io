@@ -47,7 +47,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
      </p>
     </td>
     <td>
-       <img alt="How to sign up to plotly 00" src="/static/images/how-to-sign-up-to-plotly/image00.png" title=""/>
+       <img alt="How to sign up to plotly 00" src="/static/images/how-to-sign-up-to-plotly/select-trace-type.PNG" title=""/>
     </td>
    </tr>
   </tbody>
@@ -68,7 +68,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
      </p>
     </td>
     <td>
-       <img alt="How to sign up to plotly 05" src="/static/images/how-to-sign-up-to-plotly/image05.png" title=""/>
+       <img alt="How to sign up to plotly 05" src="/static/images/how-to-sign-up-to-plotly/help-center.PNG" title=""/>
     </td>
    </tr>
   </tbody>
@@ -87,7 +87,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
     </td>
     <td>
      <p >
-       <img alt="How to sign up to plotly 04" src="/static/images/how-to-sign-up-to-plotly/image04.png" title=""/>
+       <img alt="How to sign up to plotly 04" src="/static/images/how-to-sign-up-to-plotly/plotly-feed.PNG" title=""/>
      </p>
     </td>
    </tr>
