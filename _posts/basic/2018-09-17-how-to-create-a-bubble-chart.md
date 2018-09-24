@@ -24,7 +24,7 @@ steps:
     - copy: "Bubble charts are nothing but scatter plots useful for comparing the relationship between the data objects in three dimensions: X-axis, Y-axis and Z-axis (representing the size of the bubbles). While in addition to the nature of bubble charts to show the relationships in three dimensions, plotly's React Chart Editor easily allows to group the data points based on a new dimension which is color of the bubbles."
     - copy: "Head to the Plotly's new [online React Chart Editor](https://plot.ly/create/). You have the option of typing directly in the grid, uploading your local file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Example after](../static/images/create-bubble-chart/add-data.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your Chart Editor."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Create Chart
