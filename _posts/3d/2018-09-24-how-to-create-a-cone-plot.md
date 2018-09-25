@@ -28,10 +28,10 @@ steps:
 
  - title: Create Chart
    sub-steps:
-    - copy: "After adding data, go to 'Traces' section under 'Structure' menu on the left-hand side. Choose the 'Type' of trace. For creating bubble charts, choose 'Scatter' under 'Simple' trace type (Ideally, The trace will be set to 'Scatter' by default)."
-      img: "![Chart type bubble](../static/images/create-cone-plot/chart-type-scatter.png)"
-    - copy: After selecting the trace type, you should then fill the 'X' and 'Y' values from the dropdown to create the plot. This will create a raw scatter trace, as seen below."
-      img: "![X and Y values](../static/images/create-cone-plot/select-x-y.png)"
+    - copy: "After adding data, go to 'Traces' section under 'Structure' menu on the left-hand side. Choose the 'Type' of trace. For creating cone plots, choose 'Cone' under '3D' trace type."
+      img: "![Chart type cone](../static/images/create-cone-plot/chart-type-cone.png)"
+    - copy: After selecting the trace type, you should then fill 'X', 'Y', 'Z', 'U', 'V' and 'W' values from the dropdown to create the plot. This will create a raw trace for the vortex data, as seen below."
+      img: "![Axes data](../static/images/create-cone-plot/select-axes-data.gif)"
 
  - title: Apply Transforms
    sub-steps:
