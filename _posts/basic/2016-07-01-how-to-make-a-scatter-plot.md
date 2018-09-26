@@ -33,15 +33,15 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to 'Structure' on the left-hand side, then 'Traces'. Choose 'Scatter' under 'Simple' chart type."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Scatter' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a raw scatter trace, as seen below."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-import-data.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on the 'Style' menu on the left-hand side to play around with the style of your plot."
-    - copy: "To change the colors, go to the 'Traces' section under the 'Style' menu."
+    - copy: "'Style' allows to modify colors and size of the markers for the traces, add text annotations, shapes, embed images and many more. To play around with the style of your chart click on 'Style' menu on the left-hand side."
+    - copy: "To change the marker properties of the traces, go to the 'Traces' section under the 'Style' menu."
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-colour-panel.gif)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/line-graph-and-scatter-plot-with-excel/scatter-title.png)"
