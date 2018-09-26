@@ -36,7 +36,7 @@ steps:
     - copy: "After adding data, go to 'Structure' on the left-hand side, then 'Traces'. Choose 'Scatter' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a raw scatter trace, as seen below."
-      img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-adding-values.JPG)"
+      img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/scatter-import-data.png)"
 
  - title: Style a Chart
    sub-steps:
