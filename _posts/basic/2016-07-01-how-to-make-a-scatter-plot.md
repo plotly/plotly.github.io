@@ -40,18 +40,17 @@ steps:
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on 'Style' on the left-hand side to play around with the style of your plot."
-    - copy: "To change the colors, click on 'Traces' under 'Style'."
+    - copy: "You can choose your colors, text position, or typeface. Click on the 'Style' menu on the left-hand side to play around with the style of your plot."
+    - copy: "To change the colors, go to the 'Traces' section under the 'Style' menu."
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-colour-panel.gif)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels, and legend."
-      img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/scatter-type-title-directly.gif)"
-    - copy: "Another option is to visit the 'General' section under 'Style', click on 'Ttle' and enter your title in the box, as shown below."
-      img: "![Type in layout panel](../static/images/line-graph-and-scatter-plot-with-excel/scatter-type-title-panel.JPG)"
+    - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
+      img: "![Plot Title](../static/images/line-graph-and-scatter-plot-with-excel/scatter-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Type directly title](../static/images/line-graph-and-scatter-plot-with-excel/scatter-title-direct.gif)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your plot is now done! Click 'Save' on the left-hand side."
-      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-main.JPG)"
-    - copy: "After giving your file a name, select the mode of sharing privacy for your Plot and Grid between 'Public', 'Private Link' or 'Private'. For more information on how sharing works, including the difference between the three modes, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-pop-up.JPG)"
+    - copy: "To save the plot click 'Save' button on the left-hand side. A Save pop-up will appear, as seen below, where you can specify the filename for your plot and data."
+      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-main.png)"
+    - copy: "Select the privacy setting for the plot and data as 'Public' or 'Private' or 'Private link'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page.."
 ---
