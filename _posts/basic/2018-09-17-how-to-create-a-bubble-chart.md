@@ -10,7 +10,7 @@ order: 7
 meta_description: A tutorial on how to make a bubble chart in Chart Studio.
 popularity: featured
 carouselimageurl: ../static/images/create-bubble-chart/bubble.jpg
-actioncall: How to create a bubble chart in Chart Studio
+actioncall: How to create a bubble chart in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:397
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
