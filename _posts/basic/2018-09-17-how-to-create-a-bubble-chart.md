@@ -50,8 +50,8 @@ steps:
 
  - title: Save and Share
    sub-steps:
-    - copy: "Now, the bubble chart has been created. To save the plot click 'Save' button on the left-hand side. A Save pop-up will appear, as seen below, where you can specify the filename for your plot and data."
+    - copy: "Now, the bubble chart has been created. To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
       img: "![Save main](../static/images/create-bubble-chart/save-bubble-chart.png)"
-    - copy: "Select the privacy setting for the plot and data as 'Public' or 'Private' or 'Private link'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page.."
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 
 ---
