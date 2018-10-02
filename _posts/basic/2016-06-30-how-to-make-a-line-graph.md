@@ -55,5 +55,3 @@ steps:
       img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
-
-
