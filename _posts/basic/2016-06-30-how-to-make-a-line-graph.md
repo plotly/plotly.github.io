@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Line Plots in Chart Studio
-subtitle: A type of plot that shows the relationship between two variables with a line that connects a series of successive data points.
+title: Line Graphs in Chart Studio
+subtitle: A type of graph that shows the relationship between two variables with a line that connects a series of successive data points.
 permalink: /make-a-line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/new line thumb.png
 state: active
 tags: basic
 order: 2
-meta_description: A tutorial on how to make a line plot in Chart Studio.
+meta_description: A tutorial on how to make a line graph in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to create a line plot in Plotly's Chart Studio
+actioncall: How to create a line graph in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:2
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
