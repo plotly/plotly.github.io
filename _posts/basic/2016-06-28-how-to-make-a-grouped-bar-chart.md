@@ -32,7 +32,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Scatter' under 'Simple' chart type."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Bar' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/bar-graph/bar-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a bar trace, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/groupedbar-x-and-y.png)"
