@@ -1,20 +1,21 @@
 ---
 layout: tutorial-single_layout
-title: Stacked Bar Charts in Chart Studio
-subtitle: A type of chart that uses bars to show comparisons between different groups of data, but with ability to break down and compare parts of each group. Each bar in the chart represents a group, and segments in the bar represent different parts of that group.
-permalink: /stacked-bar-chart/
-imageurl: ../static/images/bar-graph/new stacked thumb.png
+title: Horizontal Bar Charts in Chart Studio
+subtitle: A type of bar chart that illustrates data with rectangular bars in a horizontal fashion.
+permalink: /horizontal-bar-chart/
+imageurl: ../static/images/bar-graph/horizontalthumbnail.png
 state: active
 tags: basic
-order: 5
-meta_description: A tutorial on how to make a stacked bar chart in Chart Studio.
+order: 6
+meta_description: A tutorial on how to make a horizontal bar chart in Chart Studio.
 popularity: featured
-actioncall: How to make a stacked bar chart in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:402
+carouselimageurl:
+actioncall: How to make a horizontal bar chart in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:404
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#stacked-bar-chart) or [R](https://plot.ly/r/bar-charts/#stacked-bar-chart).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/horizontal-bar-charts/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/402.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/404.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -31,36 +32,33 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Scatter' under 'Simple' chart type."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Bar' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/bar-graph/bar-choose-chart.png)"
-    - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a bar trace, as seen below."
-      img: "![Adding x and y axis](../static/images/bar-graph/stackedbar-x-and-y.png)"
-    - copy: "Then, choose the desired orientation for the bar trace, 'Vertical' is chosen by default. Here is how the above chart looks like when 'Horizontal' is chosen as orientation."
-      img: "![Orientation Horizontal](../static/images/bar-graph/stackedbar-horizontal-orientaion.png)"
+    - copy: "Next, select 'X' and 'Y' values from the dropdown menus."
+      img: "![Adding x and y axis](../static/images/bar-graph/horizontalbar-x-and-y.png)"
+    - copy: "Then, choose 'Horizontal' as the orentation. This will update the bar trace to horizontal orientation, as seen below."
+      img: "![Orientation Horizontal](../static/images/bar-graph/horizontalbar-horizontal-orientaion.png)"
     - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
-      img: "![Trace open](../static/images/bar-graph/stackedbar-add-trace.gif)"
-    - copy: "Add as many traces as needed, until the plot is complete! Now, we have a raw bar chart, as seen below."
-      img: "![Finished traces](../static/images/bar-graph/stackedbar-traces-finished.png)"
-
+      img: "![Add Trace](../static/images/bar-graph/horizontalbar-add-trace.gif)"
+    - copy: "Add as many traces as needed, until the plot is complete!"
+        
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "To change the properties of the bar traces such as trace name, bar color, size and spacing, go to the 'Traces' section under the 'Style' menu."
       img: "![Bar Properties](../static/images/bar-graph/groupedbar-bar-properties.png)"
     - copy: "Note that updating the trace name will update the legends as well."
-      img: "![Trace Name](../static/images/bar-graph/stackedbar-trace-name.png)"
-    - copy: "To make this bar chart a stacked bar chart, go to the property 'Barmode' under 'BarSize and Spacing' and select 'Stack' as the bar mode from the dropdown list."
-      img: "![Stacked chart](../static/images/bar-graph/stackedbar-choose-mode.png)"
+      img: "![Trace Name](../static/images/bar-graph/horizontalbar-trace-name.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
-      img: "![Plot Title](../static/images/bar-graph/stackedbar-title.png)"
-    - copy: "To set the axes title, go to the 'Axes' section under the 'Style' menu, choose the desired axis tab on the top and type in the  respective axis title within the textbox provided."
-      img: "![Plot Title](../static/images/bar-graph/stackedbar-axis-title.png)"
-    - copy: "Another approach is to click and then enter the titles directly on the plot interface. The same can be done for the legends."
-      img: "![Type directly title](../static/images/bar-graph/stackedbar-title-direct.png)"
+      img: "![Plot Title](../static/images/bar-graph/horizontalbar-title.png)"
+    - copy: "To set the axes title, go to the 'Axes' section under the 'Style' menu, choose the desired axis tab on the top and type in the respective axis title within the textbox provided."
+      img: "![Axes Title](../static/images/bar-graph/stackedbar-axis-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Type directly title](../static/images/bar-graph/horizontalbar-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/bar-graph/stackedbar-save.png)"
+      img: "![Save main](../static/images/bar-graph/horizontalbar-save.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
