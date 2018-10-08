@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Grouped Bar Charts in Chart Studio
-subtitle: A bar chart presents grouped data with rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally.
+subtitle: A bar chart presents grouped data with rectangular bars. Bar lengths are proportional to the values that they represent, and can be plotted vertically or horizontally.
 permalink: /grouped-bar-chart/
 imageurl: ../static/images/bar-graph/new grouped thumb.png
 state: active
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type and 3) See a basic example."
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
@@ -36,17 +36,17 @@ steps:
       img: "![Choose chart main](../static/images/bar-graph/bar-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a bar trace, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/groupedbar-x-and-y.png)"
-    - copy: "Then, choose the desired orientation for the bar trace, 'Vertical' is chosen by default. Here is how the above chart looks like when 'Horizontal' is chosen as orientation."
+    - copy: "Then, choose the desired orientation for the bar trace. 'Vertical' is chosen by default. Here is how the above chart looks like when 'Horizontal' is chosen as orientation."
       img: "![Orientation Horizontal](../static/images/bar-graph/groupedbar-horizontal-orientaion.png)"
-    - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
+    - copy: "To add more traces to the plot, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
       img: "![Add Trace](../static/images/bar-graph/groupedbar-add-trace.gif)"
-    - copy: "Add as many traces as needed, until the plot is complete!"
+    - copy: "Add as many traces as needed until the plot is complete!"
       img: "![Finished traces](../static/images/bar-graph/groupedbar-traces-finished.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "To change the properties of the bar traces such as trace name, bar color, size and spacing, go to the 'Traces' section under the 'Style' menu."
+    - copy: "The 'Style' menu displays many options for modifying characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "To change the properties of the bar traces, such as trace name, bar color, or size and spacing, go to the 'Traces' section under the 'Style' menu."
       img: "![Bar Properties](../static/images/bar-graph/groupedbar-bar-properties.png)"
     - copy: "Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/bar-graph/groupedbar-trace-name.png)"
@@ -57,7 +57,7 @@ steps:
 
  - title: Save and Share
    sub-steps:
-    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+    - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
       img: "![Save main](../static/images/bar-graph/groupedbar-save.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
