@@ -52,7 +52,7 @@ steps:
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/bar-graph/horizontalbar-title.png)"
     - copy: "To set the axes title, go to the 'Axes' section under the 'Style' menu, choose the desired axis tab on the top, and type in the respective axis title within the textbox provided."
-      img: "![Axes Title](../static/images/bar-graph/stackedbar-axis-title.png)"
+      img: "![Axes Title](../static/images/bar-graph/horizontalbar-axis-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
       img: "![Type directly title](../static/images/bar-graph/horizontalbar-title-direct.png)"
 
