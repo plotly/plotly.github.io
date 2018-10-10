@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Pie Charts in Chart Studio
-subtitle: Create a circular statistical chart that is divided into slices.
+subtitle: A type of statistical chart that uses "pie slices" to show relative sizes of data.
 permalink: /make-a-pie-chart/
 imageurl: ../static/images/create-pie-chart/new thumb.png
 state: active
@@ -10,8 +10,8 @@ order: 7
 meta_description: A tutorial on how to make a pie chart in Chart Studio.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
-actioncall: How to create a pie chart in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:274
+actioncall: How to make a pie chart in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:274
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/pie-charts/) or [R](https://plot.ly/r/pie-charts/).
 
@@ -21,47 +21,35 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "In a pie chart, the arc length of each slice is proportional to the quantity it represents. While it is named for its resemblance to a pie which has been sliced, there are variations on the way it can be presented."
-    - copy: "After selecting 'Pie chart' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels, values, and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/create-pie-chart/try-an-example-after.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
-      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create/pie-chart/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/create-pie-chart/new import.png)"
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Pie chart' under 'Chart type'."
-      img: "![Chart type pie](../static/images/create-pie-chart/chart-type-pie.png)"
-    - copy: "Click on GRAPH on the left-hand side to add the 'Labels' and 'Values' to your pie chart. After selecting ‘Pie chart', you should then fill the labels and values dropdown to create the plot."
-      img: "![Labels and values](../static/images/create-pie-chart/new labels.png)"
-    - copy: "This will create a raw pie chart, as seen below. It may not look perfect right away, but playing around with the style will get it there."
-      img: "![Raw chart](../static/images/create-pie-chart/new raw cart.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Pie' under 'Simple' chart type."
+      img: "![Choose chart main](../static/images/create-pie-chart/pie-choose-chart.png)"
+    - copy: "Next, select the 'Values' and 'Labels' to your pie chart from the dropdpwn menus. This will create a raw pie chart, as seen below."
+      img: "![Labels and values](../static/images/create-pie-chart/select-labels-values.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the colors, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Colour main](../static/images/create-pie-chart/new colours.png)"
-    - copy: "You can also take your pie chart to the next level by pulling apart your pie slices, or by creating a donut chart."
-    - copy: "You'll be able to do both by visiting 'Traces' in the STYLE section. For pulling your pie slices apart, play with the percentage in the PULL APART % field under 'Modify'."
-      img: "![Pull apart](../static/images/create-pie-chart/new pull apart.png)"
-    - copy: "If you wish to create a donut chart, you can play around with the % in the HOLE field."
-      img: "![Hole](../static/images/create-pie-chart/pull apart.png)"
-    - copy: "To add a title to your chart, you can type it directly on the title by double-clicking it. "
-      img: "![Type directly title](../static/images/create-pie-chart/new title.png)"   
-    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Title and Fonts' and enter your title in the box, as shown below."
-      img: "![Type in layout panel](../static/images/create-pie-chart/new title panel.png)"
-    - copy: "We've also added our source by going to 'Notes' and clicking on the blue '+Annotation' button, then selecting 'Source to data'. For more information on annotations, visit [this](http://help.plot.ly/how-to-add-annotations/) page."
-      img: "![Annotation](../static/images/create-pie-chart/annotations.png)"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "To change the properties of the pie trace, namely, change trace name, change color of the pie segments, add hole in the middle or pull effect to the pie segments/slices, go to the 'Traces' section under the 'Style' menu."
+      img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.png)"
+    - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
+      img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"  
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Type directly title](../static/images/create-pie-chart/pie-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/create-pie-chart/new save main.png)"
-    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page.."
-      img: "![Save pop-up](../static/images/create-pie-chart/new save popup.png)"
+    - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/create-pie-chart/pie-save.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
