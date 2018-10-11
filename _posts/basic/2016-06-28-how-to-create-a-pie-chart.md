@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a pie chart in Chart Studio.
 popularity: featured
 carouselimageurl: ../static/images/create-pie-chart/pie-thumb.png
 actioncall: How to make a pie chart in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:274
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:407
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/pie-charts/) or [R](https://plot.ly/r/pie-charts/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/274.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/407.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -41,10 +41,10 @@ steps:
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "To change the properties of the pie trace, namely, change trace name, change color of the pie segments, add hole in the middle or pull effect to the pie segments/slices, go to the 'Traces' section under the 'Style' menu."
-      img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.png)"
+      img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.gif)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"  
-    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/create-pie-chart/pie-title-direct.png)"
 
  - title: Save and Share
