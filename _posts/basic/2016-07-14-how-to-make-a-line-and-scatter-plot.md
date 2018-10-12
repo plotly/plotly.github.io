@@ -53,9 +53,9 @@ steps:
     - copy: "To change the properties of the traces, go to the 'Traces' section under the 'Style' menu."
     - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-trace-name.gif)"
-    - copy: "To add a line that connects the markers in a scatter trace, click the checkbox corresponding to 'Lines' under the 'Display' option."
+    - copy: "To display a line that connects the markers in a scatter trace, click the checkbox corresponding to 'Lines' under the 'Display' option."
       img: "![Display Lines](../static/images/line-graph-and-scatter-plot-with-excel/add-lines-to-scatter.png)"
-    - copy: "Similarly, to add markers that represent the data points in a line trace, click the checkbox corresponding to 'Points' under the 'Display' option."
+    - copy: "Similarly, to display markers along the line, click the checkbox corresponding to 'Points' under the 'Display' option."
       img: "![Display Points](../static/images/line-graph-and-scatter-plot-with-excel/add-points-to-line.png)"
     - copy: "To change the color of the traces, click on the color palette as seen below. "
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/linescatter-colour-panel.png)"
@@ -67,6 +67,6 @@ steps:
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-save-main.png)"
+      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/linescattter-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---

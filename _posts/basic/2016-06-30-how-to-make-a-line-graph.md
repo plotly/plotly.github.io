@@ -33,7 +33,7 @@ steps:
  - title: Create a Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Line' under 'Simple' chart type."
-      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/line-choose-chart-main.png)"
+      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/line-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a line trace, as seen below."
       img: "![Adding x and y axis](../static/images/line-graph-and-scatter-plot-with-excel/line-import-data.png)"
 
@@ -42,7 +42,7 @@ steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "To change the properties of the line trace, go to the 'Traces' section under the 'Style' menu."
       img: "![Colour main](../static/images/line-graph-and-scatter-plot-with-excel/line-colour-panel.gif)"
-    - copy: "To add markers that represents data points of the line trace, click the checkbox corresponding to 'Points' under the 'Display' option."
+    - copy: "To display markers along the line, click the checkbox corresponding to 'Points' under the 'Display' option."
       img: "![Markers in Line](../static/images/line-graph-and-scatter-plot-with-excel/points-line.gif)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/line-graph-and-scatter-plot-with-excel/line-title.png)"
