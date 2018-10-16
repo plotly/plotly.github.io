@@ -4190,3 +4190,22 @@ main.page--no-sidebar {
     main.page--no-sidebar section.page--content ul {
       list-style: disc;
       margin-left: 20px; }
+
+
+.mailchimp-footer-text{
+  margin-block-start: 0em;
+  font-size: 80%;
+  color: #626262;
+}
+
+.mc-input{
+  margin-bottom: 10px;
+  border: none;
+  border-color: #fff;
+}
+
+.mc-embedded-subscribe{
+  color: #fff;
+  background-color: #119dff;
+  box-shadow: 0px 2px 8px rgba(#506784, 0.4);
+}
