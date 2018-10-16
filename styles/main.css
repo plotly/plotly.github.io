@@ -872,7 +872,15 @@ header.header-main {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .\--footer-main ul.\--footer-body {
+      -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; } }
+
   .\--footer-main .\--footer-column {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 20%;
@@ -4190,3 +4198,23 @@ main.page--no-sidebar {
     main.page--no-sidebar section.page--content ul {
       list-style: disc;
       margin-left: 20px; }
+
+
+.mailchimp-footer-text{
+  margin-block-start: 0em;
+  font-size: 80%;
+  color: #626262;
+}
+
+.mc-input{
+  margin-bottom: 10px;
+  border: 1px solid #626262;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.mc-embedded-subscribe{
+  color: #fff;
+  background-color: #119dff;
+  box-shadow: 0px 2px 8px rgba(#506784, 0.4);
+}
