@@ -1,17 +1,17 @@
 ---
 layout: tutorial-single_layout
 title: Contour Plots in Chart Studio
-subtitle: Create a plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid.
+subtitle: A plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid.
 permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot.md/contour-thumb.png
 state: active
-tags: scientific
-order: 3
+tags: basic
+order: 11
 meta_description: A tutorial on how to make a contour plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a Contour Plot in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:13
+actioncall: How to make a contour plot in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:13
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/contour-plots/) or [R](https://plot.ly/r/contour-plots/).
 
@@ -21,21 +21,20 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Contour plots portray data for three variables in two dimensions and contains a number of contour lines."
-    - copy: "After selecting 'Contour' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific contour plot, as well as the end result."
-      img: "![Example after](../static/images/create-contour-plot.md/contour-try-example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
-      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
+    - copy: "If you want to make a chart with multiple line and scatter traces, this tutorial is for you!"
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/create-contour-plot.md/contour-import-data.png)"
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Contour'."
-      img: "![Choose chart main](../static/images/create-contour-plot.md/contour-choose-chart.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Contour' under 'Simple' chart type."
+      img: "![Choose chart](../static/images/create-contour-plot.md/contour-choose-chart.png)"
     - copy: "Click on GRAPH on the left-hand side to add your axes to your contour. After selecting 'Contour', you should then fill out the Z, X, and Y dropdown to create the plot. For our plot, we'll add all columns of our data set in the 'Z' matrix."
       img: "![Adding axes](../static/images/create-contour-plot.md/contour-values.png)"
     - copy: "This will create a raw contour plot, as seen below."

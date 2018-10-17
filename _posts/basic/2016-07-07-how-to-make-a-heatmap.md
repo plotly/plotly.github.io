@@ -33,7 +33,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Line' under 'Simple' chart type."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Heatmap' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/heat-map/heatmap-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y', and fill out the 'Z' values from their respective dropdown menus. This will create a heatmap, as seen below."
       img: "![Adding axes](../static/images/heat-map/heatmap-select-x-y-z.gif)"
