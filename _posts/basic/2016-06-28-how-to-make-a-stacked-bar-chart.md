@@ -10,11 +10,11 @@ order: 5
 meta_description: A tutorial on how to make a stacked bar chart in Chart Studio.
 popularity: featured
 actioncall: How to make a stacked bar chart in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:402
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:413
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bar-charts/#stacked-bar-chart) or [R](https://plot.ly/r/bar-charts/#stacked-bar-chart).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/402.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/413.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -35,8 +35,7 @@ steps:
       img: "![Choose chart main](../static/images/bar-graph/bar-choose-chart.png)"
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a bar trace, as seen below."
       img: "![Adding x and y axis](../static/images/bar-graph/stackedbar-x-and-y.png)"
-    - copy: "Then, choose the desired orientation for the bar trace. 'Vertical' is chosen by default. Here is how the above chart looks like when 'Horizontal' is chosen."
-      img: "![Orientation Horizontal](../static/images/bar-graph/stackedbar-horizontal-orientaion.png)"
+    - copy: "Then, choose the desired orientation for the bar trace. 'Vertical' is chosen for this example."
     - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
       img: "![Trace open](../static/images/bar-graph/stackedbar-add-trace.gif)"
     - copy: "Add as many traces as needed, until the plot is complete! Now, we have a raw bar chart, as seen below."
