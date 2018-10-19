@@ -34,13 +34,13 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Pie' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/create-pie-chart/pie-choose-chart.png)"
-    - copy: "Next, select the 'Values' and 'Labels' to your pie chart from the dropdpwn menus. This will create a raw pie chart, as seen below."
+    - copy: "Next, select the 'Values' and 'Labels' for your pie chart from the dropdpwn menus. This will create a raw pie chart, as seen below."
       img: "![Labels and values](../static/images/create-pie-chart/select-labels-values.png)"
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "To change the properties of the pie trace, namely, change trace name, change color of the pie segments, add hole in the middle or pull effect to the pie segments/slices, go to the 'Traces' section under the 'Style' menu."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the name and colors of the pie trace, add a hole in the middle, or add a pull effect to the pie slices."
       img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.gif)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"  
