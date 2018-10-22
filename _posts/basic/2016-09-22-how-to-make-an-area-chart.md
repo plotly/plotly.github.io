@@ -43,14 +43,14 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "To change the properties of the traces such as the color of the filled-area, to display markers or to change the line attributes, go to the 'Traces' section under the 'Style' menu."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as area color fill, markers, or line attributes."
       img: "![Area properties](../static/images/area-chart/area-properties.png)"   
     - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/area-chart/area-trace-name.png)"
-    - copy: "To display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option."
-    - copy: "To change the color of each individual component of the traces, click on the respective color palettes as seen below. "
+    - copy: "To display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option.
+    Use the color palletes to change the color of each individual component of the traces, as seen below."
       img: "![Colour main](../static/images/area-chart/area-colour-panel.gif)"
-    - copy: "To change the layout properties, namely, background and margin color, set plot title and change the font styles, go to the 'General' section under the 'Style' menu."
+    - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
       img: "![Area properties](../static/images/area-chart/area-layout-properties.png)"  
     - copy: "To set the plot title, type in the textbox provided under the attribute 'Title'."
       img: "![Plot Title](../static/images/area-chart/area-title.png)"

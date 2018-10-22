@@ -40,9 +40,10 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as area color fill, markers, or line attributes."
+    - copy: "To change the properties of the pie trace, namely, change trace name, change color of the pie segments, add hole in the middle or pull effect to the pie segments/slices, go to the 'Traces' section under the 'Style' menu."
       img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.gif)"
     - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
+    - copy: "To set the plot title, type in the textbox provided under the attribute 'Title'."
       img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"  
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/create-pie-chart/pie-title-direct.png)"
