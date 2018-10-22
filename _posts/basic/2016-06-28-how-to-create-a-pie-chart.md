@@ -34,7 +34,7 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Pie' under 'Simple' chart type."
       img: "![Choose chart main](../static/images/create-pie-chart/pie-choose-chart.png)"
-    - copy: "Next, select the 'Values' and 'Labels' to your pie chart from the dropdpwn menus. This will create a raw pie chart, as seen below."
+    - copy: "Next, select the 'Values' and 'Labels' for your pie chart from the dropdpwn menus. This will create a raw pie chart, as seen below."
       img: "![Labels and values](../static/images/create-pie-chart/select-labels-values.png)"
 
  - title: Style a Chart
