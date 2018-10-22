@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Area Charts in Chart Studio
-subtitle: A type of line chart that displays graphically quantitative data through different colors in the areas below the lines.
+subtitle: A line chart that displays quantitative data using colored areas between the axis and line(s)
 permalink: /make-an-area-graph/
 imageurl: ../static/images/area-chart/area chart thumb.png
 state: active
