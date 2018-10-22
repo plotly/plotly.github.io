@@ -34,7 +34,7 @@ steps:
  - title: Create a Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '2D Contour Histogram' under 'Distributions' chart type."
-      img: "![Choose chart](../static/images/create-contour-plot/contour-choose-chart.png)"
+      img: "![Choose chart](../static/images/create-2d-hstogram-contour-plot/contour2D-choose-chart.png)"
     - copy: "Next, fill out the necessary 'X', 'Y' and 'Z' values from their respective dropdown menus. This will create a 2D contour, as seen below."
       img: "![Adding axes](../static/images/create-2d-hstogram-contour-plot/contour2D-values.png)"
 
