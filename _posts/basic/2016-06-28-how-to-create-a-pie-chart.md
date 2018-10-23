@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Pie Charts in Chart Studio
+title: Pie Charts
 subtitle: A circular statistical chart that uses "pie slices" to show proportional representations of data.
 permalink: /make-a-pie-chart/
 imageurl: ../static/images/create-pie-chart/new thumb.png

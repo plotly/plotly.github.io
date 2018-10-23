@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Area Charts in Chart Studio
+title: Area Charts
 subtitle: A line chart that displays quantitative data using colored areas between the axis and line(s)
 permalink: /make-an-area-graph/
 imageurl: ../static/images/area-chart/area chart thumb.png
