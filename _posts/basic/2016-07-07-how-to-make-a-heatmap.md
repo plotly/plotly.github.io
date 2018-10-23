@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Heatmaps in Chart Studio
+title: Heatmaps
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors
 permalink: /make-a-heatmap/
 redirect_from: /plotly1/make-a-heatmap/

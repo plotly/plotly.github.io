@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Contour Plots in Chart Studio
+title: Contour Plots
 subtitle: A plot that represents a 3-dimensional surface by plotting on a 2-dimensional grid.
 permalink: /make-a-contour-plot/
 imageurl: ../static/images/create-contour-plot/contour-thumb.png

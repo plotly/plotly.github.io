@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a 2D Histogram Contour Plot in Chart
 popularity: featured
 carouselimageurl:
 actioncall: How to make a 2D contour histogram plot in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:202
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:415
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/density-plots/#2d-histogram-contour-plot-with-histogram-subplots).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/202.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/415.embed"></iframe>
 live-graph-image:
 
 steps:
