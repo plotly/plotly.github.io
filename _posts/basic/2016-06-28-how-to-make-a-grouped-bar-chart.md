@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Grouped Bar Charts in Chart Studio
+title: Grouped Bar Charts
 subtitle: A bar chart presents grouped data with rectangular bars. Bar lengths are proportional to the values that they represent, and can be plotted vertically or horizontally.
 permalink: /grouped-bar-chart/
 imageurl: ../static/images/bar-graph/new grouped thumb.png

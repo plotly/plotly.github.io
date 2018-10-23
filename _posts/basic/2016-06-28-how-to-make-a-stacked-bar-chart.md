@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Stacked Bar Charts in Chart Studio
+title: Stacked Bar Charts
 subtitle: A bar chart with segments to break down and compare different parts within each bar's data group.
 permalink: /stacked-bar-chart/
 imageurl: ../static/images/bar-graph/new stacked thumb.png

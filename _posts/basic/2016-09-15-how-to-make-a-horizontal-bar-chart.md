@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Horizontal Bar Charts in Chart Studio
+title: Horizontal Bar Charts
 subtitle: A type of bar chart that illustrates data with rectangular bars in a horizontal fashion.
 permalink: /horizontal-bar-chart/
 imageurl: ../static/images/bar-graph/horizontalbar-thumbnail.png
