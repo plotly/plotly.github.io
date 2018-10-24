@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Box Plots in Chart Studio
+title: Box Plots
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
 redirect_from: /plotly1/make-a-box-plot/
