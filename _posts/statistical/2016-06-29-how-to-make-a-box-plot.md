@@ -4,7 +4,7 @@ title: Box Plots in Chart Studio
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
 redirect_from: /plotly1/make-a-box-plot/
-imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
+imageurl: ../static/images/box-plot/boxplot-thumbnail.png
 state: active
 tags: statistical
 order: 2.5
@@ -37,28 +37,27 @@ steps:
     - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a raw box plot, as seen below."
       img: "![Values](../static/images/box-plot/box-raw.png)"
     - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
-      img: "![Trace open](../static/images/box-plot/box-traces.png)"
+      img: "![Trace open](../static/images/box-plot/box-traces.gif)"
     - copy: "Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding them all."
       img: "![Finished traces](../static/images/box-plot/box-finish-traces.png)"
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "Use the 'Traces' section under the 'Style' menu, to change the properties of the traces."
-    - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
-    - copy: "To change the colors of your box traces, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each box will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Colour fill](../static/images/box-plot/fill-colour.png)"
-    - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels, and legend."
-      img: "![Type directly](../static/images/box-plot/type-directly.png)"
-      img: "![Type directly](../static/images/box-plot/legend.png)"
-      img: "![Type directly](../static/images/box-plot/axes-label.png)"
-    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
-      img: "![Type in layout panel](../static/images/box-plot/type-directly-in-panel.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu, to change the properties of the traces. To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
+      img: "![Trace Name](../static/images/box-plot/box-trace-name.png)"
+    - copy: "To display the outlier data points corresponding to the box plots, select 'Outliers' under the 'Points' attribute. To display all the points, then select 'Show All'."
+      img: "![Display Points](../static/images/box-plot/box-display-points.png)"
+    - copy: "To change the color of the trace components for each trace, click on the respective color palettes as seen below. "
+      img: "![Colour main](../static/images/box-plot/box-colour-panel.gif)"
+    - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
+      img: "![Plot Title](../static/images/box-plot/box-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Type directly title](../static/images/box-plot/box-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your chart is now done! Click SAVE on the left-hand side, and give your file a name."
-      img: "![Save main](../static/images/box-plot/save-main.png)"
-    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/box-plot/save-pop-up.png)"
+    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/box-plot/box-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
