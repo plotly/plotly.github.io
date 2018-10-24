@@ -48,7 +48,7 @@ steps:
       img: "![Bar Properties](../static/images/bar-graph/groupedbar-bar-properties.png)"
     - copy: "Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/bar-graph/stackedbar-trace-name.png)"
-    - copy: "To make this bar chart a stacked bar chart, go to the property 'Barmode' under 'BarSize and Spacing' and select 'Stack' as the bar mode from the dropdown list."
+    - copy: "To make this bar chart a stacked bar chart, go to the property 'Barmode' under 'Bar Size and Spacing' and select 'Stack' as the bar mode from the dropdown list."
       img: "![Stacked chart](../static/images/bar-graph/stackedbar-choose-mode.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/bar-graph/stackedbar-title.png)"
