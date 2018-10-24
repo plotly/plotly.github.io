@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
-title: How to Make a 2D Histogram Heatmap in Chart Studio
-subtitle: Create a plot that visualizes a bivariate distribution.
+title: 2D Histogram Heatmap
+subtitle: A type of plot that visualizes a bivariate distribution.
 permalink: /make-a-2d-histogram-heatmap/
 imageurl: ../static/images/make-a-histogram/2d hist thumb.png
 state: active
@@ -10,12 +10,12 @@ order: 1.5
 meta_description: A tutorial on how to make a 2D Histogram Heatmap in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a 2D Histogram Heatmap in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:196
+actioncall: How to make a 2D histogram heatmap in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:419
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/2D-Histogram/) or [R](https://plot.ly/r/2D-Histogram/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/196.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/419.embed"></iframe>
 live-graph-image:
 
 steps:

@@ -10,8 +10,8 @@ tags: statistical
 order: 2.5
 meta_description: A tutorial on how to make a box plot in Chart Studio.
 popularity: featured
-actioncall: How to Make a Box Plot in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:108
+actioncall: How to make a box plot in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:108
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/box-plots/) or [R](https://plot.ly/r/box-plots/).
 
@@ -21,33 +21,32 @@ steps:
  - title: Try an Example
    sub-steps:
     - copy: "Box plots may have lines extending vertically from the boxes, or whiskers, indicating variability outside the upper and lower quartiles. This type of plot is also known as a box-and-whisker plot or box-and-whisker diagram."
-    - copy: "After selecting 'Box plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what values and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/box-plot/try-an-example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
-      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type and 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create/box-plot/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/box-plot/import-data.png)"
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose 'Box plot' under 'Chart type'. Note that this chart is only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade."
-      img: "![Choose chart main](../static/images/box-plot/choose-chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your boxed plot. After selecting ‘Box plot', you should then fill out the 'Values' and 'X-Data' dropdown to create the plot."
-      img: "![Values](../static/images/box-plot/Values.png)"
-    - copy: "This will create a raw plot, as seen below. Don't worry, it still needs more work to get it the way you want!"
-      img: "![Raw plot](../static/images/box-plot/raw-plot.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data in 'Values'. We do this by clicking on the '+Trace' button at the top rigth-hand side of that pane."
-      img: "![Trace open](../static/images/box-plot/traces.png)"
-    - copy: " You can add as many traces as you need, until your plot is complete!"
-      img: "![Finished traces](../static/images/box-plot/finish-traces.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Box' under 'Distributions' chart type."
+      img: "![Choose chart](../static/images/box-plot/box-choose-chart.png)"
+    - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a raw box plot, as seen below."
+      img: "![Values](../static/images/box-plot/box-raw.png)"
+    - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
+      img: "![Trace open](../static/images/box-plot/box-traces.png)"
+    - copy: "Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding them all."
+      img: "![Finished traces](../static/images/box-plot/box-finish-traces.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
-    - copy: "To change the colors of your boxes, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each box will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "Use the 'Traces' section under the 'Style' menu, to change the properties of the traces."
+    - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
+    - copy: "To change the colors of your box traces, select ‘Traces’ under the same STYLE tab, then click on FILL and a color pop-up will appear. As you scroll down that pane, each box will have its own FILL color that you can change. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour fill](../static/images/box-plot/fill-colour.png)"
     - copy: "To add a title to your plot, you can type it directly on the title by double-clicking it. The same can be done for the axis labels, and legend."
       img: "![Type directly](../static/images/box-plot/type-directly.png)"
