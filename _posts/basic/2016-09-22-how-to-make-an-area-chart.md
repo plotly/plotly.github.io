@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make an area chart using Chart Studio.
 popularity: featured
 carouselimageurl:
 actioncall: How to create an area chart in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:194
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:423
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/filled-area-plots/) or [R](https://plot.ly/r/filled-area-plots/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/194.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/423.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -47,8 +47,9 @@ steps:
       img: "![Area properties](../static/images/area-chart/area-properties.png)"   
     - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/area-chart/area-trace-name.png)"
-    - copy: "To display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option.
-    Use the color palletes to change the color of each individual component of the traces, as seen below."
+    - copy: "To display/remove the lines on top of the filled-area, click the checkbox corresponding to 'Lines' under the 'Display' option."
+      img: "![Display Lines](../static/images/area-chart/area-lines.gif)"
+    - copy: "Similarly, to display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option. Use the color palletes to change the color of each individual component of the traces, as seen below."
       img: "![Colour main](../static/images/area-chart/area-colour-panel.gif)"
     - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
       img: "![Area properties](../static/images/area-chart/area-layout-properties.png)"  
