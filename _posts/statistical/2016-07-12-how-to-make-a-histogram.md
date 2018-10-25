@@ -36,21 +36,19 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Histogram' under 'Distributions' chart type."
       img: "![Choose chart main](../static/images/histogram-plot/histogram-choose-chart.png)"
-    - copy: "Next, fill out the 'X' and 'Y' values from the dropdowns to create the plot."
+    - copy: "Next, select the 'X' and 'Y' values from the dropdowns to create the plot."
       img: "![Adding x and y axis](../static/images/histogram-plot/histogram-axis.png)"
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "Use the 'Traces' section under the 'Style' menu, to change the properties of the traces."
-      img: "![Colour main](../static/images/make-a-histogram/histogram-colours.png)"
-    - copy: "It's also possible to change the bin size (the width of each bin) and the padding between each bar; it's under the same 'Traces' section. We want padding between each bar, so we've spaced them by 15%."
-      img: "![Bin and bar spacing](../static/images/histogram-plot/histogram-bin-bar.png)"
-    - copy: "To change the color of the traces, click on the color palette as seen below. "
-      img: "![Colour main](../static/images/histogram-plot/histogram-colour-panel.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces such as histogram normalization, binning, and bar size and spacing."
+      img: "![Colour main](../static/images/histogram-plot/histogram-properties.gif)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
-      img: "![Plot Title](../static/images/histogram-plot/histogram-title.png)"
-    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Axis Title](../static/images/histogram-plot/histogram-title.png)"
+    - copy: "To set the axes title, go to the 'Axis' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title' for each axis."
+      img: "![Plot Title](../static/images/histogram-plot/histogram-axis-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/histogram-plot/histogram-title-direct.png)"
 
  - title: Save and Share

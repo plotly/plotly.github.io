@@ -4,7 +4,7 @@ title: Box Plots
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 permalink: /make-a-box-plot/
 redirect_from: /plotly1/make-a-box-plot/
-imageurl: ../static/images/box-plot/boxplot-thumbnail.png
+imageurl: ../static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: statistical
 order: 2.5
