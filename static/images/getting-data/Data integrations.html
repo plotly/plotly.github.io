@@ -5,7 +5,20 @@
     <!-- SEO Tags - title, meta_description -->
     <title>Data integrations</title>
     <meta name="description" content="A tutorial on reliable data sources. Make graphs online and for free with Plotly">
-
+<!-- Global site tag (gtag.js) - AdWords: 1009791370 -->
+<script async src=""https://www.googletagmanager.com/gtag/js?id=AW-1009791370""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1009791370');
+</script>
+<!-- Google Tag Manager Tag -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N6T2RXG');</script>
 <!-- Bing tags -->
     <meta name="msvalidate.01" content="D319859A832F9F1D15A7646E2A42150A">
 <!-- Facebook tags -->
@@ -28,12 +41,12 @@
     <link rel="shortcut icon" href="http://help.plot.ly/images/plotly-ico.png">
 
 
-   
+
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/plotly_icons.css">
     <link href="./Data integrations_files/css" rel="stylesheet" type="text/css">
-  	
+
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/normalize.css">
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/base.css">
@@ -42,7 +55,7 @@
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/state.css">
     <link rel="stylesheet" type="text/css" href="./Data integrations_files/two_col_stylesheet.css">
 
-   
+
   <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
 .MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
 </style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
@@ -124,19 +137,22 @@
 .MJXc-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
 .MathJax_CHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
 </style></head>
-  <body><div id="MathJax_Message" style="display: none;"></div><div class="headerbar">
+  <body>
+        {% include google-tag-body.html %}
+
+        <div id="MathJax_Message" style="display: none;"></div><div class="headerbar">
 
     <div class="headerbar-leftside">
         <a href="https://plot.ly/feed/" class="logo">
-            <i class="ploticon-plotlylogo"></i> 
+            <i class="ploticon-plotlylogo"></i>
             <em>plotly</em>
         </a>
     </div>
 
   <div class="headerbar-rightside hidesmall">
-      
+
       <a href="https://plot.ly/ssi/" id="signup" class="secondary" target="_self">sign up</a>
-      
+
       <a class="button" href="https://plot.ly/product/enterprise/get-in-touch/" target="_self">
           REQUEST DEMO
       </a>
@@ -146,31 +162,31 @@
       <a href="https://plot.ly/plot" class="link --headerbar" target="_self">
       <span class="headerbar-nav-item ">Workspace</span>
       </a>
-  
+
       <a href="https://plot.ly/feed/" class="link --headerbar" target="_self">
       <span class="headerbar-nav-item ">Explore</span>
       </a>
-  
+
       <a href="https://plot.ly/api/" class="link --headerbar" target="_self">
       <span class="headerbar-nav-item ">API</span>
       </a>
-  
+
       <a href="https://plot.ly/product/enterprise/" class="link --headerbar" target="_blank">
       <span class="headerbar-nav-item ">Enterprise</span>
       </a>
   </div>
-  
+
   <div class="hamburger">
 		<a href="http://help.plot.ly/getting-data/#popmenufull" onclick="return clickfullmenu();">
 			<img src="./Data integrations_files/o7Mxj6T.png" alt="Menu" id="hamburgerlink" onmouseover="this.src=&#39;http://i.imgur.com/gj2TtuI.png&#39;" onmouseout="this.src=&#39;http://i.imgur.com/o7Mxj6T.png&#39;">
 		</a>
-		
+
 	</div>
 
 </div>
 
 <!-- POP UP MENU -->
-	<div id="popmenufull" style="display:none;">	 
+	<div id="popmenufull" style="display:none;">
 			<div class="popupheader">
 					<div class="headerbar-leftside">
 						<a href="http://help.plot.ly/feed/" class="logo">
@@ -180,11 +196,11 @@
 					</div>
 
 
-					
+
 					<a href="http://help.plot.ly/getting-data/#popmenufull" onclick="return clickfullmenu();">
 					<div class="close"><img alt="close" src="./Data integrations_files/esVZHwn.png"></div> </a>
-			</div>	
-						
+			</div>
+
 			<div class="popupmenu">
 				<ul>
 					<li><a href="https://plot.ly/plot">Workspace</a></li>
@@ -213,13 +229,13 @@
 <p class="align-left padding_left"><a href="http://help.plot.ly/">Help / </a><a href="http://help.plot.ly/tutorials/">Tutorials / </a>Data integrations</p>
 </div>
 
-  
-  
+
+
   <div class="container">
     <div>
       <div>
         <section>
-              	
+
           <div data-plotly="MattSundquist/5821" style="text-align: center; position: relative;">
     <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: none; text-align: center;" data-plotly="MattSundquist/5821"><img src="./Data integrations_files/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;" width="800" onerror="this.onerror=null;this.src=&#39;https://plot.ly/404.png&#39;;" data-plotly="MattSundquist/5821"></a>
     <iframe id="plotly-MattSundquist:5821" width="800" height="600" frameborder="0" scrolling="no" src="./Data integrations_files/5821.html" style="max-width: 100%;"></iframe>
@@ -311,7 +327,7 @@
 </table>
 
 
-  
+
         </section>
       </div>
     </div>
@@ -327,7 +343,7 @@
       <p>
       email: feedback [at] plot [dot] ly<br>
       tweet:<a href="https://twitter.com/plotlygraphs"> @plotlygraphs</a>.</p>
-      
+
       <h6>About Learn Tutorials</h6>
       <p>email: education [at] plot [dot] ly </p>
     </div>
@@ -338,7 +354,7 @@
 </div>
 
   </div>
-  
+
   <footer class="--footer-main">
     <section class="--footer-top">
         <div class="--wrap">
@@ -439,7 +455,7 @@ MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']], processEsc
 <script type="text/javascript" src="./Data integrations_files/MathJax.js"></script>
 
 
-  
-  
+
+
 
 </body></html>

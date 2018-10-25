@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
+        {% include google-tag-head.html %}
+
     <!-- META TAGS -->
     {% include seo.html %}
     <meta charset='utf-8'>
@@ -28,11 +29,13 @@
         }
     </style>
     <!--[end if]-->
+    <script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
 <body data-spy="scroll" data-target=".watch" style="position:relative;">
+        {% include google-tag-body.html %}
 
 <!--[if lt IE 10]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
