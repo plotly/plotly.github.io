@@ -34,16 +34,18 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '2D Histogram' under 'Distributions' chart type."
       img: "![Choose chart](../static/images/2d-histogram-plot/2d-histogram-choose-chart.png)"
-    - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a 2D histogram as seen below."
-      img: "![Adding x and y axis](../static/images/2d-histogram-plot/2d-histogram-import-data.png)"
+    - copy: "Next, select the 'X', 'Y' and 'Z' values from the dropdown menus. This will create a 2D histogram as seen below. Note that specifying 'Z' is optional. If specified, the histogram function can be configured based on 'Z' values. If omitted, the histogram function defaults to 'Count'."
+      img: "![Adding X Y Z values](../static/images/2d-histogram-plot/2d-histogram-fill-x-y-z.png)"
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces."
-      img: "![Colour main](../static/images/2d-histogram-plot/2d-histogram.png)"
-    - copy: "This is also where you select the colorscale range, as well as the x and y binning as auto or custom, play with the max bins, and show or hide your color bar."
-      img: "![Colour styling](../static/images/make-a-histogram/style 2d hist.gif)"  
+    - copy: "To change the properties of the histogram such as the histogram function and normalization, binning and other trace properties, go to the 'Traces' section under the 'Style' menu."
+      img: "![Properties](../static/images/2d-histogram-plot/2d-histogram-properties.png)"
+    - copy: "Use the colorscale attibute to define the colorscale range for the heatmap. To hide/show colorbar attribute under the same panel."
+      img: "![Colorscale](../static/images/2d-histogram-plot/2d-histogram-colorscale.gif)"
+    - copy: "To set the size and positioning of the colorbar, go to the 'Color Bars'.section under 'Style' menu."
+      img: "![Color Bar](../static/images/2d-histogram-plot/2d-histogram-colorbar.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/2d-histogram-plot/2d-histogram-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
@@ -52,6 +54,6 @@ steps:
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/line-graph-and-scatter-plot-with-excel/2d-histogram-save-main.png)"
+      img: "![Save main](../static/images/2d-histogram-plot/2d-histogram-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
