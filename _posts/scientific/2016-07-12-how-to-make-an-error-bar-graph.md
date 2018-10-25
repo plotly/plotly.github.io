@@ -12,11 +12,11 @@ meta_description: A tutorial on how to make a graph with error bars in Chart Stu
 popularity: featured
 carouselimageurl:
 actioncall: How to make a graph with error bars in Plotly's Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:27
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:417
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/27.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/417.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -45,8 +45,8 @@ steps:
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "To add error bars to the trace, go to the 'Traces' section under the 'Style' menu, and select either 'Symmetric' or 'Assymmetric' option under the desired axis, as seen below, to generate error bars associated with that axis."
-      img: "![Colour main](../static/images/error-bars/error-bar-properties.png)"
-    - copy: "Additionally, this section allows to change the trace properties such as, trace name, color, marker or line properties."
+      img: "![Properties](../static/images/error-bars/error-bar-properties.png)"
+    - copy: "Additionally, this section allows to change the trace properties such as, trace name, color, marker or line properties. To display a line that connects the markers in the trace, click the checkbox corresponding to 'Lines' under the 'Display' option."
       img: "![Trace Properties](../static/images/error-bars/error-bar-trace-properties.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
       img: "![Plot Title](../static/images/error-bars/error-bar-title.png)"
@@ -56,6 +56,6 @@ steps:
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/error-bars/scatter-save-main.png)"
+      img: "![Save main](../static/images/error-bars/error-bar-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
