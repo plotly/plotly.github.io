@@ -28,19 +28,15 @@ steps:
     - copy: "After you've [plotted](http://help.plot.ly/tutorials/#basic), [styled](http://help.plot.ly/style-your-plots/) and [saved](http://help.plot.ly/save-share-and-export-in-plotly/) your graph, you can start adding collaborators."
     - copy: "Click on 'Share' button on the left-hand side of the [Chart Studio](https://plot.ly/create). When the 'Share' modal appears, click on the 'Collaborate' tab at the top. Enter the Plotly username or email address of the collaborators, and you can add a message if you wish. You can also add more than one collaborator, as seen below."
       img: "![Invite people](../static/images/collaboration-doc/add-collaborators.png)"
-    - copy: "In addition, the collaborators can [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid/data associated with the plot. The 'Add Collaborators to Grids' option is set to default. You can restrict them from editing the grid by checking off that option, as seen below." 
-    - copy: "Also, if the 'Send Notification Email' option is checked, an email will be sent to the collaborator's email address (associated with their plotly account). Please note if the collaborator has no plotly account, a [sign-up](https://plot.ly/accounts/login/?action=signup) link will be sent within the email after which they can view and edit the plot."
+    - copy: "In addition, the collaborators can [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid (data) associated with the plot. By default, the option 'Add Collaborators to Grids' is checked on. You can checking off this option while adding collaborators, to restrict them from editing the grid, please note that the collaborators can still be able to change the [style] (http://help.plot.ly/style-your-plots/) of you chart"
+    - copy: "Also, if the 'Send Notification Email' option is checked, an email will be sent to the collaborator's email address (associated with their plotly account). Please note if the collaborator does not have a plotly account, a [sign-up](https://plot.ly/accounts/login/?action=signup) link will be sent within the email, after signing-up they can view and edit the plot."
       img: "![Disable grid](../static/images/collaboration-doc/disable-grid-collaboration.png)"
-    - copy: "Once you've clicked 'Add', their username or email address will appear under 'Current Collaborators'."
+    - copy: "Once you've clicked 'Add', the collaborator's username or email address will appear under the 'Current Collaborators' field."
       img: "![Current collaborators](../static/images/collaboration-doc/current-collaborators.png)"
-
- - title: Add Collaborators to a Grid
-   sub-steps:   
-    - copy: "In order for them to edit any element of the plot, you must add the collaborator on both the plot and the associated data grid. Even if they're only styling the chart and not editing the data, they must be added as collaborators to your grid. If you add them to your plot only, the plot gets copied for the collaborator and is saved as a copied plot." 
-    - copy: "To add collaborators to your grid, go to your [list of files](https://plot.ly/organize/home). Hover over your grid thumbnail, then click on the 'Share' icon."
-      img: "![Organize page](../static/images/collaboration-doc/organize page.png)"
-    - copy: "Once the pop-up appears, add their username or email address and click ADD."
-      img: "![Adding grid collabs](../static/images/collaboration-doc/collaborators to grid.png)"
+    - copy: "Another approach to add collaborators is by navigating to the ['Organize'](https://plot.ly/organize/home) page where the plots and data are stored, and hover over the plot or grid thumbnail and then click the 'Share' icon."
+      img: "![Share from Organize page](../static/images/collaboration-doc/share-from-files.png)"
+    - copy: "To add collaborators only to the grid (data) associated to a plot but not the plot itself, then click 'Share' icon after hovering over the grid's thumbnail. The 'Share' modal will then look like:"
+      img: "![Grid Collaboration](../static/images/collaboration-doc/grid-collaboration.png)"
 
  - title: Remove Collaborators 
    sub-steps:
@@ -49,27 +45,25 @@ steps:
 
  - title: As a Collaborator
    sub-steps:
-    - copy: "Time to switch places! Let's look at it from the collaborator's side."
-    - copy: "If the creator of the plot has opted to notify you by via email, you'll receive one, stating that they want to share a plot with you and wish to collaborate. You'll be given a link of where you can view the plot (called the 'Shareplot' page). You can click on 'Fork & Edit' to edit the plot."
-      img: "![Fork and edit](../static/images/collaboration-doc/fork and edit.png)"
-    - copy: "Otherwise, shared plots and grids can be viewed in the same ['Organize'](https://plot.ly/organize/home) page, then by clicking on 'Shared with me' on the left-hand side."
-      img: "![Shared Files](../static/images/collaboration-doc/sharewithme.png)"
-    - copy: "The plot and/or grid will be listed as thumbnails, and you'll have to hover over one and click on EDIT IN 2.0."
-      img: "![Hover thumbnail](../static/images/collaboration-doc/hover-thumbnail.png)"
-    - copy: "You'll be taken to the [workspace](https://plot.ly/create) and as you can see, it looks exactly like it did when it was saved and shared. Now it's your turn to work on it!"
-      img: "![Hover thumbnail](../static/images/collaboration-doc/collab on workspace.png)"
-    - copy: "Looks like you've [added another trace](http://help.plot.ly/make-a-line-graph-or-scatter-plot/#step-3-create-a-chart) and [styled](http://help.plot.ly/style-your-plots/) the graph. It looks pretty cool!"
-      img: "![New plot](../static/images/collaboration-doc/new plot.png)"
-    - copy: "Now you're now ready to save. There's no need to rename the file."
-      img: "![Save new plot](../static/images/collaboration-doc/save new plot.png)"
-    - copy: "The creator of the plot will go back to their [list of files](https://plot.ly/organize/home) and see that the plot was updated."
-      img: "![New plot](../static/images/collaboration-doc/after collab.png)"   
+    - copy: "If the owner of the plot has opted to notify you by via email, you'll receive one, stating that they want to share a plot with you and wish to collaborate. You'll be given a link of where you can view the plot. You can then click on 'Edit' icon on the top right corner to edit the plot."
+      img: "![Edit](../static/images/collaboration-doc/collaborator-edit.png)"
+    - copy: "Otherwise, all shared plots and grids can be viewed in the ['Organize'](https://plot.ly/organize/home) page, by clicking on the 'Shared with me' tab in the left-hand side, as seen below."
+      img: "![Shared Files](../static/images/collaboration-doc/share-with-me.png)"
+    - copy: "Then, the plot or grid can be viewed or edited by clicking on 'View' or 'Edit' button that appears when hovering over the thumbnail."
+      img: "![Hover thumbnail](../static/images/collaboration-doc/hover-thumbnail.gif)"
+    - copy: "You'll be taken to the [Chart Studio](https://plot.ly/create) and as you can see, it looks exactly like it did when it was saved and shared by the plot owner. Now it's your turn to work on it!"
+      img: "![Hover thumbnail](../static/images/collaboration-doc/collaborator-chart-studio.png)"
+    - copy: "After making the necessary changes, save the plot and data by clicking on the 'Save' button in the left-hand side. Please note that saving the plot and data will only save the changes and update the actual files shared by the owner."
+    - copy: "The owner of the plot will then go back to their ['Organize'](https://plot.ly/organize/home) page and see the updated plot and data."
       
  - title: Helpful Reminders
    sub-steps:
-    - copy: "If you have a PRO account and have created a chart, or used features that are only available with a PRO subscription, but are collaborating with someone who has a Community account, they won't be able to save the plot."
-    - copy: "Under any sharing scenario, the collaborator cannot change the plot or grids names, or add new grids."
-    - copy: "You can save your plots as private or public. If you set your plot as private, no one will be able to view it, only your collaborators will be able to view and edit your plot."
-    - copy: "For an easier way to keep your files organized, and to keep track of your plots and their associated grids, we highly recommend that you name your plot and grid when you [save them](http://help.plot.ly/save-share-and-export-in-plotly/)."
-      img: "![Save plot and data](../static/images/collaboration-doc/save plot and data.png)"     
+    - copy: "When a plot or data is saved after making any changes by the collaborator, it will not create local copies of the plot and grid, rather updates the actual files shared by the owner of the plot."
+    - copy: "When a plot, but not it's grid is shared with the collaborator, a modal will pop up telling the collaborator that they don't have access to change the grid, as seen below."
+      img: "![No Grid](../static/images/collaboration-doc/collaborator-grid-restriction.png)"
+    - copy: "Under any sharing scenario, the collaborator cannot change the plot or grids names, or add new grids to the plot." 
+    - copy: "If the owner of the plot has opted to save the plot or grid as private, no one will be able to view them, only the collaborators will be able to view or edit them."
+    - copy: "Under any circumstances, the collaborator cannot change the privacy settings associated with the plot or grid, or share the files."
+      img: "![No Share](../static/images/collaboration-doc/collaborator-no-share.gif)"
+    - copy: "For an easier way to keep your files organized, and to keep track of the plots and their associated grids, we highly recommend to save them with proper filenames."   
 ---
