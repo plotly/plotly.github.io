@@ -1,66 +1,66 @@
 ---
 layout: tutorial-single_layout
-title: How to Make an Area Chart in Chart Studio
-subtitle: Create a type of line chart that displays different colors in the areas below the lines.
+title: Area Charts
+subtitle: A line chart that displays quantitative data using colored areas between the axis and line(s)
 permalink: /make-an-area-graph/
-imageurl: ../static/images/area-charts-in-excel-with-plotly/area chart thumb.png
+imageurl: ../static/images/area-chart/area chart thumb.png
 state: active
 tags: basic
 order: 9
-meta_description: A tutorial on how to make an area chart using Chart Studio online data visualization software
+meta_description: A tutorial on how to make an area chart using Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make an Area Chart in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:194
+actioncall: How to create an area chart in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:423
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/filled-area-plots/) or [R](https://plot.ly/r/filled-area-plots/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/194.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/423.embed"></iframe>
 live-graph-image:
 
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "With this type of chart, the area between the x-axis and lines are commonly emphasized with colors, shading, and/or textures."
-    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
-      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-      img: "![Import data main](../static/images/area-charts-in-excel-with-plotly/import area chart.png)"
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, choose your 'Chart Type' in the GRAPH section on the left-hand side and select 'Area Chart'."
-    - copy: "Click on GRAPH on the left-hand side to add your axes to your plot. Select 'Area chart' then fill out the X and Y dropdown menus to create the plot."
-      img: "![Adding axes](../static/images/area-charts-in-excel-with-plotly/values area chart.png)"
-    - copy: "This will create a raw area chart, as seen below."
-      img: "![Raw plot](../static/images/area-charts-in-excel-with-plotly/raw area chart.png)"
-    - copy: "For charts that have many values such as this one, we need to add more data to the plot. We do this by clicking on the '+Trace' button at the top right-hand side of that pane."
-      img: "![Trace open](../static/images/area-charts-in-excel-with-plotly/add traces area.png)"
-    - copy: "You can add as many traces as you need, until your plot is complete!"
-      img: "![All traces](../static/images/area-charts-in-excel-with-plotly/all traces area.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Area' under 'Simple' chart type."
+      img: "![Choose chart main](../static/images/area-chart/area-choose-chart.png)"
+    - copy: "Next, select the 'X' and 'Y' values from the dropdown menus. This will create an area trace, as seen below."
+      img: "![Add X and Y](../static/images/area-chart/area-select-x-y.png)"
+    - copy: "To add more traces to the plot, click on '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu."
+      img: "![Trace open](../static/images/area-chart/area-add-trace.gif)"
+    - copy: "Add as many traces as needed, until the plot is complete!"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "Now it's time to choose the color, text position or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
-    - copy: "To change the fill color, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Colour main](../static/images/area-charts-in-excel-with-plotly/colour tab area.png)"
-    - copy: "Not only can you play with the color, but you can also add points to your lines and color those as well. You can change the diameter of the point, and if the dot doesn't do it for you, you can choose another symbol. You also have the option of selecting the type and shape of line and adjusting its thickness. "
-      img: "![Colour styling](../static/images/area-charts-in-excel-with-plotly/area chart colour styles.gif)"  
-    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. "
-      img: "![Type directly title](../static/images/area-charts-in-excel-with-plotly/title area chart.png)"
-    - copy: "The same can be done for the axis labels and legend."
-      img: "![Type directly legend](../static/images/area-charts-in-excel-with-plotly/legend title area.png)"
-    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Title and Fonts' and enter your title in the box, as shown below."
-      img: "![Type in layout panel](../static/images/area-charts-in-excel-with-plotly/title tab for area chart.png)"
-    - copy: "We've also added a source by going to 'Notes' and clicking on the blue '+Annotation' button, then selecting 'Source to data'. For more information on annotations, visit [this](http://help.plot.ly/how-to-add-annotations/) page."
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as area color fill, markers, or line attributes."
+      img: "![Area properties](../static/images/area-chart/area-properties.png)"   
+    - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
+      img: "![Trace Name](../static/images/area-chart/area-trace-name.png)"
+    - copy: "To display/remove the lines on top of the filled-area, click the checkbox corresponding to 'Lines' under the 'Display' option."
+      img: "![Display Lines](../static/images/area-chart/area-lines.gif)"
+    - copy: "Similarly, to display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option. Use the color palletes to change the color of each individual component of the traces, as seen below."
+      img: "![Colour main](../static/images/area-chart/area-colour-panel.gif)"
+    - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
+      img: "![Area properties](../static/images/area-chart/area-layout-properties.png)"  
+    - copy: "To set the plot title, type in the textbox provided under the attribute 'Title'."
+      img: "![Plot Title](../static/images/area-chart/area-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
+      img: "![Type directly title](../static/images/area-chart/area-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your plot is now done! Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/area-charts-in-excel-with-plotly/save main area.png)"
-    - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/area-charts-in-excel-with-plotly/save popup area.png)"     
+    - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/area-chart/area-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
