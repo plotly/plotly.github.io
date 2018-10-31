@@ -5,6 +5,9 @@ title: Plotly Web App Tutorials
 <!DOCTYPE html>
 <html>co
 <head>
+        {% include google-tag-head.html %}
+
+
     {% assign sorted = site.posts | sort: "order" %}
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -39,6 +42,7 @@ title: Plotly Web App Tutorials
 </head>
 
 <body data-spy="scroll" data-target=".watch" style="position:relative;">
+        {% include google-tag-body.html %}
 
 <!--[if lt IE 10]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade

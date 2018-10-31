@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   {% include header.html %}
-  
+
   <body>
+      {% include google-tag-body.html %}
+
     <header>
       <div class="inner">
         <h1>{{page.title}}</h1>
@@ -13,9 +15,9 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-      
+
           {{ content }}
-  
+
         </section>
       </div>
     </div>
