@@ -41,7 +41,7 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "To change the properties of the heatmap trace, namely, change colorscale settings, apply smoothing effect or add/remove gaps between cells, go to the 'Traces' section under the 'Style' menu."
+    - copy: "To change the properties of the heatmap trace such as colorscale settings, smoothing effect or gaps between cells, go to the 'Traces' section under the 'Style' menu."
       img: "![Heatmap properties](../static/images/heat-map/heatmap-properties.png)"
     - copy: "To change the colorbar properties of the heatmap trace such as, set color bar title and change title's location, set the position and sizing of the color bar, go to the 'Color Bars' section under the 'Style' menu."
       img: "![Colorbar properties](../static/images/heat-map/heatmap-colorbar-properties.png)"
