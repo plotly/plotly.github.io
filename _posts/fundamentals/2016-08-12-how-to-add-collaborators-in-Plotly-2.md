@@ -43,7 +43,7 @@ steps:
 
  - title: Add Collaborators to a Folder
    sub-steps:
-    - copy: "In addition to adding collaborators to individual plot or grid, the owner can also add collaborators to folders containing whole bunch of plots and grids. To do that, go to the ['Organize'](https://plot.ly/organize/home) page, then click on the 'Share' icon after hovering over the folder's thumbnail."
+    - copy: "In addition to adding collaborators to individual plot or grid, the owner can also add collaborators to folders containing various files. To do that, go to the ['Organize'](https://plot.ly/organize/home) page, then click on the 'Share' icon after hovering over the folder's thumbnail."
       img: "![Folder Thumbnail](../static/images/collaboration-doc/folder-thumbnail.png)"
     - copy: "The 'Share' modal will then look like as seen below. Choose the desired privacy options for the folder and then proceed with adding the collaborators in the 'Collaborate' tab."
       img: "![Folder Collaboration](../static/images/collaboration-doc/folder-collaboration.png)"
