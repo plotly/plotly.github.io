@@ -10,7 +10,7 @@ order: 2
 meta_description: A tutorial on how to make a 2D Histogram Contour Plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a 2D contour histogram plot in Plotly's Chart Studio
+actioncall: How to make a 2D histogram contour plot in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:415
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/density-plots/#2d-histogram-contour-plot-with-histogram-subplots).
@@ -22,14 +22,14 @@ steps:
  - title: Try an Example
    sub-steps:
     - copy: "2D histogram compares distributions across two variables in a contour plot fashion and the distribution is depicted by a colorscale."
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type and 3) See a basic example."
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
@@ -43,8 +43,8 @@ steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as histogram and binning attributes, color gradients, contours and line attributes."
       img: "![Colourscale](../static/images/create-2d-hstogram-contour-plot/contour2D-properties.png)"
-    - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
-    - copy: "To set the plot title, type in the plot title within the textbox provided under 'Title'."
+    - copy: "Use the 'General' section under the 'Style' menu to set the plot title and change the layout background, margin color and font styles."
+    - copy: "To set the plot title, type the title text within the textbox provided under 'Title.'"
       img: "![Type title](../static/images/create-2d-hstogram-contour-plot/contour2D-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
       img: "![Type Direct](../static/images/create-2d-hstogram-contour-plot/contour2D-title-direct.png)"
