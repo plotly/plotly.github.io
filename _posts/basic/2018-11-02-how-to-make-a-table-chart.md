@@ -39,20 +39,21 @@ steps:
       img: "![Add Values](../static/images/table-chart/table-import-data.png)"
     - copy: "After adding the data to the table, fill out the table style attributes under the 'Header Options', 'Cell Options' and 'Column Options' (if the grid holds those information) via the dropdown menus. The resulting table will look like this:"
       img: "![Finished trace](../static/images/table-chart/table-finished.png)"
+    - copy: "Note that the above style properties can also be set under the `Style` section."
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "To change the properties of the table, go to the 'Traces' section under the 'Style' menu."
+    - copy: "To change the properties of the table plot, go to the 'Traces' section under the 'Style' menu."
       img: "![Table Properties](../static/images/table-chart/table-properties.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
-      img: "![Plot Title](../static/images/table-chart/linescattter-title.png)"
-    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
-      img: "![Type directly title](../static/images/table-chart/linescatter-title-direct.png)"
+      img: "![Plot Title](../static/images/table-chart/table-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+      img: "![Type directly title](../static/images/table-chart/table-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/table-chart/linescattter-save-main.png)"
+      img: "![Save main](../static/images/table-chart/table-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
