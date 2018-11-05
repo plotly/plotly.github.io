@@ -14,7 +14,7 @@ carouselimageurl:
 actioncall: How to make a table chart in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:426
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/line-and-scatter/) or [R](https://plot.ly/r/line-and-scatter/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/table/) or [R](https://plot.ly/r/table/).
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/426.embed"></iframe>
 live-graph-image:
@@ -33,7 +33,7 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Line' under 'Simple' chart type."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Table' under 'Simple' chart type."
       img: "![Choose chart](../static/images/table-chart/table-choose-chart.png)"
     - copy: "Next, fill out the 'Headers' and 'Columns' values from the dropdown menus. This will create a raw table as seen below."
       img: "![Add Values](../static/images/table-chart/table-import-data.png)"
