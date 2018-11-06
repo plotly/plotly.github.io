@@ -35,8 +35,8 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Streamtube' under '3D' chart type."
       img: "![Chart type streamtube](../static/images/create-streamtube-plot/chart-type-streamtube.png)"
-    - copy: Next, fill the 'X', 'Y', 'Z', 'U', 'V' and 'W' values from the dropdown to create the plot. This will create a raw trace for the vortex data, as seen below."
-      img: "![Axes data](../static/images/create-streamtube-plot/select-axes-data.gif)"
+    - copy: Next, fill the 'X', 'Y', 'Z', 'U', 'V', 'W', 'X Start', 'Y start', and 'Z Start' values from the dropdown to create the plot. This will create a raw trace for the str data, as seen below."
+      img: "![Axes data](../static/images/create-streamtube-plot/select-axes-data.png)"
 
  - title: Style Trace
    sub-steps:
