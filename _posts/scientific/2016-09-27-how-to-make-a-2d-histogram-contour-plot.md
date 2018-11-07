@@ -41,13 +41,13 @@ steps:
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as histogram and binning attributes, color gradients, contours and line attributes."
-      img: "![Colourscale](../static/images/create-2d-contour-histogram-plot/contour2D-properties.png)"
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title and change the layout background, margin color and font styles."
     - copy: "To set the plot title, type the title text within the textbox provided under 'Title.'"
       img: "![Type title](../static/images/create-2d-contour-histogram-plot/contour2D-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
       img: "![Type Direct](../static/images/create-2d-contour-histogram-plot/contour2D-title-direct.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as histogram and binning attributes, color gradients, contours and line attributes."
+      img: "![Colourscale](../static/images/create-2d-contour-histogram-plot/contour2D-properties.png)"
     - copy: "To add annotations, go to the 'Annotations' section under the 'Style' section and click on the '+ Annotation' button on the top right corner in the panel."
       img: "![Annotation](../static/images/create-2d-contour-histogram-plot/contour2D-annotation.png)"
 
