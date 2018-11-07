@@ -21,19 +21,19 @@ steps:
     - copy: "Whether you're using Plotly to create graphs for school, business, or for fun, you can [share and export](http://help.plot.ly/save-share-and-export-in-plotly/) these graphs so your colleagues and friends can see your work. Additionally, you can add collaborators to your charts."
     - copy: "What's the difference between sharing and collaborating?"
     - copy: "Sharing is a way for people to view your plot, and you can do so publicly or with a secret link. For more information about sharing, click [here](http://help.plot.ly/how-sharing-works-in-plotly/). Collaborating is not only sharing your plot, you're giving your fellow collaborator the permission to edit it as well. It's a way for more than one user to work on the same plot."
-    - copy: "Collaborators can be anyone; your co-worker or classmate, and they can edit your plot as well as your data. Please note that the collaborators also need to [sign up](http://help.plot.ly/how-to-sign-up-to-plotly/) to Plotly if they don't already have an account."
+    - copy: "Please note that the collaborators also need to [sign up](http://help.plot.ly/how-to-sign-up-to-plotly/) to Plotly if they don't already have an account."
 
  - title: Add Collaborators to a Plot
    sub-steps:
     - copy: "After you've [plotted](http://help.plot.ly/tutorials/#basic), [styled](http://help.plot.ly/style-your-plots/) and [saved](http://help.plot.ly/save-share-and-export-in-plotly/) your graph, you can start adding collaborators."
     - copy: "Click on the 'Share' button on the left-hand side of the [Chart Studio](https://plot.ly/create). When the 'Share' modal appears, click on the 'Collaborate' tab at the top. Enter the Plotly username or email address of the collaborators, and you can add a message if you wish. You can also add more than one collaborator, as seen below."
       img: "![Invite people](../static/images/collaboration-doc/add-collaborators.png)"
-    - copy: "In addition to collaborating on the plot, collaborators can also [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid (data) associated with the plot. By default, the option 'Add Collaborators to Grids' is checked in. You can check off this option while adding collaborators, to restrict them from editing the grid. Please note that when the 'Add Collaborators to Grids' option is off, the collaborators can still edit the [style] (http://help.plot.ly/style-your-plots/) of your chart"
-    - copy: "Also, if the 'Send Notification Email' option is checked, an email will be sent to the collaborator's email address (associated with their plotly account). Please note that if the collaborator does not have a plotly account, a [sign-up](https://plot.ly/accounts/login/?action=signup) link will be sent within the email, after signing up, they will be able to view and edit the plot."
+    - copy: "In addition to collaborating on the plot, collaborators can also [edit](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) the grid (data) associated with the plot. By default, the option 'Add Collaborators to Grids' is checked in. You can uncheck this option while adding collaborators, to restrict them from editing the grid. Please note that when the 'Add Collaborators to Grids' option is off, the collaborators can still edit the [style] (http://help.plot.ly/style-your-plots/) of your chart."
+    - copy: "Also, if the 'Send Notification Email' option is checked, an email will be sent to the collaborator's email address (associated with their plotly account). Please note that if the collaborator is added by email but does not have a Plotly account, a [sign-up](https://plot.ly/accounts/login/?action=signup) link will be sent in the email. After signing up, they will be able to view and edit the plot."
       img: "![Disable grid](../static/images/collaboration-doc/disable-grid-collaboration.png)"
     - copy: "Once you've clicked 'Add', the collaborator's username or email address will appear under the 'Current Collaborators' field."
       img: "![Current collaborators](../static/images/collaboration-doc/current-collaborators.png)"
-    - copy: "Another approach to add collaborators is by navigating to the ['Organize'](https://plot.ly/organize/home) page where the plots and data are stored, and hover over the plot or grid thumbnails and then click the 'Share' icon."
+    - copy: "Another approach to add collaborators is by navigating to your ['Organize'](https://plot.ly/organize/home) page where the plots and data are stored. You can hover over the plot or grid thumbnails and then click the 'Share' icon."
       img: "![Share from Organize page](../static/images/collaboration-doc/share-from-files.png)"
     
  - title: Add Collaborators to a Grid
@@ -43,7 +43,7 @@ steps:
 
  - title: Add Collaborators to a Folder
    sub-steps:
-    - copy: "In addition to adding collaborators to individual plot or grid, the owner can also add collaborators to folders containing various files. To do that, go to the ['Organize'](https://plot.ly/organize/home) page, then click on the 'Share' icon after hovering over the folder's thumbnail."
+    - copy: "In addition to adding collaborators to individual plots or grids, the owner can also add collaborators to folders containing various files. To do that, go to the ['Organize'](https://plot.ly/organize/home) page, then click on the 'Share' icon after hovering over the folder's thumbnail."
       img: "![Folder Thumbnail](../static/images/collaboration-doc/folder-thumbnail.png)"
     - copy: "The 'Share' modal will then look like as seen below. Choose the desired privacy options for the folder and then proceed with adding the collaborators in the 'Collaborate' tab."
       img: "![Folder Collaboration](../static/images/collaboration-doc/folder-collaboration.png)"
@@ -58,7 +58,7 @@ steps:
    sub-steps:
     - copy: "If the owner of the plot has opted to notify you by via email, you'll receive one, stating that they want to share a plot with you and wish to collaborate. You'll be given a link of where you can view the plot. You can then click on the 'Edit' icon on the top right corner to edit the plot."
       img: "![Edit](../static/images/collaboration-doc/collaborator-edit.png)"
-    - copy: "Otherwise, all shared plots and grids can be viewed on the ['Organize'](https://plot.ly/organize/home) page, by clicking on the 'Shared with me' tab on the left-hand side, as seen below."
+    - copy: "Additionally, all shared plots and grids can be viewed on the ['Organize'](https://plot.ly/organize/home) page, by clicking on the 'Shared with me' tab on the left-hand side, as seen below."
       img: "![Shared Files](../static/images/collaboration-doc/share-with-me.png)"
     - copy: "The plot or grid can be viewed or edited by clicking on the 'View' or 'Edit' buttons that appear when hovering over file thumbnails."
       img: "![Hover thumbnail](../static/images/collaboration-doc/hover-thumbnail.gif)"
