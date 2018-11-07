@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Line Graphs in Chart Studio
+title: Line Graphs
 subtitle: A type of graph that shows the relationship between two variables with a line that connects a series of successive data points.
 permalink: /make-a-line-graph/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/new line thumb.png

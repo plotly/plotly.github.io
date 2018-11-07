@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Line and Scatter Plots in Chart Studio
+title: Line and Scatter Plots
 subtitle: Create a plot with multiple traces.
 permalink: /make-a-line-and-scatter-plot/
 redirect_from: /plotly1/make-a-line-graph-and-scatter-plot/
