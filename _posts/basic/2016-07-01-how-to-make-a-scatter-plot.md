@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Scatter Plots in Chart Studio
+title: Scatter Plots
 subtitle: A type of plot that shows the relationship between two variables.
 permalink: /how-to-make-a-scatter-plot/
 imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
