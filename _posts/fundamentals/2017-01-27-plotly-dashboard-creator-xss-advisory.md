@@ -16,13 +16,12 @@ Thanks to Lucky Sen and Mahmoud Gamal for reporting variations of this issue.
 
 ## Affected products and versions
 
-* Plotly On-Premise version 2.0.0 through 2.1.0.
+* Chart Studio Enterprise version 2.0.0 through 2.1.0.
 
 ## Resolution
 
-* This issue has been fixed in Plotly On-Premise version 2.1.1, which is available as a free upgrade to all Plotly
-On-Premise customers.
-* The issue was fixed in Plotly Cloud on 2017-01-18.
+* This issue has been fixed in Chart Studio Enterprise version 2.1.1, which is available as a free upgrade to all Chart Studio Enterprise customers.
+* The issue was fixed in Chart Studio on 2017-01-18.
 
 ## General notes regarding security reporting
 

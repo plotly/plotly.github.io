@@ -34,7 +34,7 @@ steps:
       img: "![Excel view](https://images.plot.ly/excel/grouped-bar-chart/excel-data-grouped-bar-chart.jpg)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/grouped-bar-chart/import-data-grouped-bar-chart.jpg)"
  - title: Creating the Chart
    sub-steps:
@@ -53,7 +53,7 @@ steps:
     - copy: "We can also edit the bar colors. For this, go to 'Traces' popover, and select the trace you wish to edit. Then, in the 'style' tab, select the suitable marker color."
       img: "![Edit Bar color](https://images.plot.ly/excel/grouped-bar-chart/edit-bar-color.jpg)"
     - copy: "To Change the background color, click on 'Layout' popover, and select suitable 'Plot Color' from the general tab."
-      img: "![Edit Backgrond color](https://images.plot.ly/excel/grouped-bar-chart/change-background-color.jpg)"    
+      img: "![Edit Backgrond color](https://images.plot.ly/excel/grouped-bar-chart/change-background-color.jpg)"
  - title: Export & Share
    sub-steps:
     - copy: "The final chart should look like the one below."

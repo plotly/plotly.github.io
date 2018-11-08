@@ -40,7 +40,7 @@ steps:
       img: "![Private link](../static/images/how-sharing-works-in-plotly/privatelink.png)"
     - copy: "Visit your [Organize](https://plot.ly/organize) page and click on the arrow icon to locate the shareable link. You can tell a file is private or has a private link by the closed lock icon at the top corner."
       img: "![Private lock icon](../static/images/how-sharing-works-in-plotly/share link private lock.png)"
-    - copy: "This shareable link is private, but the plot or dashboard can be viewed by anybody with this URL. They don't need to log in to their Plotly account."
+    - copy: "This shareable link is private, but the plot or dashboard can be viewed by anybody with this URL. They don't need to log in to their Chart Studio account."
 
  - title: Folders
    sub-steps:

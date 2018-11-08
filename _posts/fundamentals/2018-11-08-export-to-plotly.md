@@ -1,12 +1,12 @@
 ---
 layout: single
-title: Getting Data
-permalink: /getting-data/
+title: Export To Plotly
+permalink: /export-to-plotly/
 imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
 tags: fundamentals
 order: 30
-meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
+meta_description: Learn how you can build a data exporter for your site.ee
 ---
 
 <div>

@@ -7,7 +7,7 @@ imageurl: ../static/images/embed-plotly-graphs/embed thumb.png
 state: active
 tags: fundamentals
 order: 6
-meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Plotly.
+meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Chart Studio.
 popularity: featured
 actioncall: Embed a Graph
 

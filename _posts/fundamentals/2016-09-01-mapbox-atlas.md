@@ -13,13 +13,13 @@ Plotly can create interactive satellite maps with Mapbox.
 
 These map visualizations are interactive! Scroll or double-click to zoom, click-and-drag to pan, hover over points to see their values.
 
-By default, these maps are downloaded from the public Mapbox API. If you are using [Plotly On-Premise](https://plot.ly/product/enterprise/) you will need to license an account from Mapbox Studio or license a private Mapbox Atlas server.
+By default, these maps are downloaded from the public Mapbox API. If you are using [Chart Studio Enterprise](https://plot.ly/product/enterprise/) you will need to license an account from Mapbox Studio or license a private Mapbox Atlas server.
 
 ### Configuring Plotly with Mapbox Atlas
 
-Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Plotly On-Premise with custom settings.
+Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Chart Studio Enterprise with custom settings.
 
-Mapbox Atlas server is licensed and installed separately from Plotly On-Premise.
+Mapbox Atlas server is licensed and installed separately from Chart Studio Enterprise.
 
 ###### Step 1. Configure Mapbox Atlas to serve vector tilesets for MapboxGL
 Configuring Mapbox Atlas to serve vector tilesets is a Beta feature by Mapbox and does not come configured out of the box in Mapbox Atlas.
@@ -35,9 +35,9 @@ Note: depending on the instructions that your Mapbox representative has given yo
 A JSON file should load:
 ![Mapbox Atlas JSON File](/static/images/mapbox-atlas/atlas-json.png)
 
-###### Step 3. Configure the Mapbox Atlas Settings of Plotly On-Premise
+###### Step 3. Configure the Mapbox Atlas Settings of Chart Studio Enterprise
 
-Navigate to your On-Premise settings at your-plotly-domain:8800/settings and scroll down to the Mapbox section.
+Navigate to your Chart Studio Enterprise settings at your-plotly-domain:8800/settings and scroll down to the Mapbox section.
 
 Enter "ATLAS" as the Mapbox Default Access Token and the URL `https://your-atlas-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json` as the Mapbox Atlas Default Style URL.
 
@@ -59,8 +59,7 @@ The Mapbox Atlas URL that you configured should appear.
 
 Click on the Load Style button.
 
-Note: If your Mapbox Atlas server is running on HTTP but your Plotly On-Premise server
-is running on HTTPS, then the browser will initially block the request.
+Note: If your Mapbox Atlas server is running on HTTP but your Chart Studio Enterprise server is running on HTTPS, then the browser will initially block the request.
 You'll need to click on the Shield icon in the browser's address bar to allow HTTP requests. The web page will reload.
 
 ![Load mixed requests from Mapbox Atlas](/static/images/mapbox-atlas/load-unsafe-scripts.png)

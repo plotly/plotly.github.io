@@ -28,9 +28,9 @@ steps:
  - title: Query
    sub-steps:
     - copy: "For a tutorial on the query tab, which features schema preview, the ability execute sql queries, perform inline data visualization, preview tables and export CSV files, see [Query From Falcon](https://help.plot.ly/database-connectors/query-from-falcon/)."
- - title: Query Apache Spark From Plot.ly
+ - title: Query Apache Spark From Chart Studio
    sub-steps:
-    - copy: "If you want to unlock the full power of Plotly's Chart Studio, you can click the PLOT.LY tab and QUERY [DATABASE] FROM PLOT.LY. To learn more about this feature, naviagte to the [Query From Plot.ly](https://help.plot.ly/database-connectors/query-from-plotly/) tutorial."
+    - copy: "If you want to unlock the full power of Chart Studio, you can click the PLOT.LY tab and QUERY [DATABASE] FROM Chart Studio. To learn more about this feature, naviagte to the [Query From Chart Studio](https://help.plot.ly/database-connectors/query-from-plotly/) tutorial."
  - title: Plotting in Chart Studio
    sub-steps:
     - copy: "If you opted to run your queries from plot.ly and want to make a styled and interactive plot in the Chart Studio. Check out our [Chart Studio](https://help.plot.ly/tutorials/) tutorials"

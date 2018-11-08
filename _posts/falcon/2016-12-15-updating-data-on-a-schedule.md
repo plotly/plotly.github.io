@@ -11,8 +11,8 @@ The Plotly Chart Creator makes HTTP requests directly to the Database Connector 
 
 ### Running Queries on a Schedule
 
-The Plotly Database Connector can run queries on a schedule. The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2).
+The Plotly Database Connector can run queries on a schedule. The Plotly Database Connector will save the results of the queries to user accounts in the Chart Studio Enterprise server through the [Plotly Grids API](https://api.plot.ly/v2).
 
-The Plotly Connector will need your Plotly credentials in order to authenticate on your behalf to schedule these queries.
+The Plotly Database Connector will need your Plotly credentials in order to authenticate on your behalf to schedule these queries.
 
 Get started by following our [step-by-step tutorial on scheduling queries](https://help.plot.ly/database-connectors/schedule-query).

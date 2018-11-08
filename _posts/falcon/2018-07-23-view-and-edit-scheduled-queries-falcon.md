@@ -22,7 +22,7 @@ steps:
       img: "![Search Queries](/static/images/falcon/scheduled-queries-tab/02-falcon-search-queries.png)"
  - title: Query Details
    sub-steps:
-    - copy: "Clicking on an element of the list will open a pop-up that displays more details as well as the option to *LOG IN TO EDIT DETAILS*. Pushing this button will give you the option to log into Plotly Cloud or Plotly On-Premise."
+    - copy: "Clicking on an element of the list will open a pop-up that displays more details as well as the option to *LOG IN TO EDIT DETAILS*. Pushing this button will give you the option to log into Chart Studio or Chart Studio Enterprise."
       img: "![Query Details](/static/images/falcon/scheduled-queries-tab/03-query-details.png)"
  - title: Select Your Account Type
    sub-steps:

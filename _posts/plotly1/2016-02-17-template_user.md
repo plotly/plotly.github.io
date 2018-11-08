@@ -38,7 +38,7 @@ Then created and edit the plot to create the desired template |  ![Template plot
 Now log out of your template account and log in to your original account.
 
 
-While logged in to your original Plotly account, navigate to your template account's profile and open the template you wish to copy. | ![](/static/images/template/step1.jpg)
+While logged in to your original Chart Studio account, navigate to your template account's profile and open the template you wish to copy. | ![](/static/images/template/step1.jpg)
 
 
 After opening the plot, click the 'Copy & edit' button. | ![](/static/images/template/copy.jpg)

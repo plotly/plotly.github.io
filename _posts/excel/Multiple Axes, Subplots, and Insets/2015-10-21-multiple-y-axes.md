@@ -9,7 +9,7 @@ tags: excel
 meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace with Plotly and Excel. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
 popularity: featured
 section: Layouts
-actioncall: Make a Graph with Mulitple Y Axes 
+actioncall: Make a Graph with Mulitple Y Axes
 actioncall-url: https://plot.ly/6816/~Dreamshot?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/multiple_y_axis.csv.zip
 
@@ -35,7 +35,7 @@ steps:
       img: "![Excel view](https://images.plot.ly/excel/multiple-axes-excel/excel-view-multiple-y-axes.png)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/multiple-axes-excel/import-data-multiple-y-axes.png)"
  - title: Creating Your Chart
    sub-steps:
@@ -59,6 +59,6 @@ steps:
     - copy: "We’ve titled our chart. And we’ve linked to our source data in the x-axis label area."
       img: "![Final](https://images.plot.ly/excel/multiple-axes-excel/final-multiple-y-axes.png)"
     - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version." 
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/multiple-axes-excel/excel-multiple-y-axes.png)"
 ---

@@ -18,8 +18,8 @@ otherlang: Know how to program? Learn more about chart attributes for [Python](h
 steps:
  - title: Streaming Support
    sub-steps:
-    - copy: "Streaming is no longer supported in Plotly Cloud."
-    - copy: "Streaming is still available as part of [Plotly On-Premises](https://plot.ly/products/on-premise/). Additionally, [Dash](https://plot.ly/products/dash/) supports streaming, as demonstrated by the [Dash Wind Streaming example](https://github.com/plotly/dash-wind-streaming)."
+    - copy: "Streaming is no longer supported in Chart Studio."
+    - copy: "Streaming is still available as part of [Chart Studio Enterprise](https://plot.ly/products/on-premise/). Additionally, [Dash](https://plot.ly/products/dash/) supports streaming, as demonstrated by the [Dash Wind Streaming example](https://github.com/plotly/dash-wind-streaming)."
 
  - title: Basic Streaming Concepts
    sub-steps:
@@ -40,5 +40,5 @@ steps:
     - copy: "Plotly will close a streaming connection for the following reasons:"
     - copy: "A client establishes additional streams using the same stream token. When this occurs, the oldest connection will be terminated. This means you have to be careful not to run two reconnecting clients in parallel with the same credentials, or else they will take turns disconnecting each other."
     - copy: "A client stops writing data for a time period longer than a minute. If a minute passes without receiving any data from the client the stream connection will be closed. (A connection can be maintained by writing a heartbeat within the 60 second window, a heartbeat is simply a newline)."
-    - copy: "A streaming server is restarted. This is usually related to a code deploy and is not very frequent."  
+    - copy: "A streaming server is restarted. This is usually related to a code deploy and is not very frequent."
 ---

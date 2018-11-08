@@ -34,7 +34,7 @@ steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.csv)"
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/bar-charts/import-data-bar-chart.png)"
  - title: Upload your Excel Data to Plotly&apos;s Grid &lpar;two traces&rpar;
    sub-steps:
@@ -61,7 +61,7 @@ steps:
       img: "![Traces popover](/static/images/bar-chart-with-excel/traces-popover.png)"
     - copy: "Here's how the MODE tab of the TRACES popover for 'All Traces (Bar)' should look."
       img: "![All traces](/static/images/bar-chart-with-excel/all-traces.png)"
-      img: "![Chart Style Horizontal](/static/images/bar-chart-with-excel/mode-horizontal.png)"     
+      img: "![Chart Style Horizontal](/static/images/bar-chart-with-excel/mode-horizontal.png)"
     - copy: "(Alternative: if you want to stack or overlay your bars, instead of grouping them, just change the 'Mode' setting.)"
       img: "![Style mode](/static/images/bar-chart-with-excel/style-mode.png)"
     - copy: "Stacked"

@@ -30,7 +30,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/380.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Upload your Excel data to Plotly's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv)"
@@ -38,7 +38,7 @@ steps:
 
  - title: Head to Plotly
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/3d-surface-plot-with-excel/import-data-3d-surface-plot.png)"
 
 
@@ -66,7 +66,7 @@ steps:
 
     - copy: "**Change Color Scale**:Plotly allows us to set among a wide range of colorscales.To change the color scale of a plot, (1) Click on the 'Traces' popover from the toolbar, (2) Click on 'Style' tab from the pop-up, (3) Turn Auto Color to 'Off', and set one of the color-scales."
       img: "![Set Colorscale](https://images.plot.ly/excel/3d-surface-plot-with-excel/set-colorscale.png)"
-    
+
  - title: Exporting the final chart
    sub-steps:
     - copy: "The final plot should look something like this:"
