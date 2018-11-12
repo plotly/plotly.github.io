@@ -67,11 +67,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       to start making your own plots.
     </td>
     <td>
-<<<<<<< HEAD
        <img alt="How to sign up to plotly 01" src="/static/images/how-to-sign-up-to-plotly/choose_chart_modal.png" title=""/>
-=======
-       <img alt="How to sign up to plotly 00" src="/static/images/how-to-sign-up-to-plotly/select-trace-type.PNG" title=""/>
->>>>>>> fe283a78d2152a49dbc012f88b18ca44738f0ea6
     </td>
    </tr>
    </tbody>
@@ -88,11 +84,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       to check out tutorials on how to use the Chart Studio.
     </td>
     <td>
-<<<<<<< HEAD
        <img alt="How to sign up to plotly 02" src="/static/images/how-to-sign-up-to-plotly/help_homepage.png" title=""/>
-=======
-       <img alt="How to sign up to plotly 05" src="/static/images/how-to-sign-up-to-plotly/help-center.PNG" title=""/>
->>>>>>> fe283a78d2152a49dbc012f88b18ca44738f0ea6
     </td>
    </tr>
   </tbody>
@@ -110,13 +102,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       to view some of the best plots out there!
     </td>
     <td>
-<<<<<<< HEAD
        <img alt="How to sign up to plotly 04" src="/static/images/how-to-sign-up-to-plotly/feeds_page.png" title=""/>
-=======
-     <p >
-       <img alt="How to sign up to plotly 04" src="/static/images/how-to-sign-up-to-plotly/plotly-feed.PNG" title=""/>
-     </p>
->>>>>>> fe283a78d2152a49dbc012f88b18ca44738f0ea6
     </td>
    </tr>
   </tbody>
