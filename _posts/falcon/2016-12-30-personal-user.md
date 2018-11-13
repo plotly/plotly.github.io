@@ -13,7 +13,7 @@ actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 steps:
  - title: What is Falcon?
    sub-steps:
-    - copy: "Falcon is a free, [open-source](https://github.com/plotly/plotly-database-connector/) SQL editor with inline data visualization. With Falcon you can connect to your database in the Connection tab, run SQL queries in the Query tab, then export your results as a CSV or open them in the [Chart Studio](https://plot.ly/create) to unlock the full power of Chart Studio. Optionally, you can use Falcon as a middleman between Chart Studio and your database - so that when your database updates, your charts and dashboards update as well. Currently, Falcon supports connections to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, and SQLite."
+    - copy: "Falcon is a free, [open-source](https://github.com/plotly/plotly-database-connector/) SQL editor with inline data visualization. With Falcon you can connect to your database in the Connection tab, run SQL queries in the Query tab, then export your results as a CSV or open them in the [Chart Studio] (https://plot.ly/create) workspace. Optionally, you can use Falcon as a middleman between Chart Studio and your database - so that when your database updates, your charts and dashboards update as well. Currently, Falcon supports connections to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, and SQLite."
  - title: Download the App
    sub-steps:
     - copy: "If you haven't yet, download Falcon SQL Client from the [Falcon product page](https://plot.ly/free-sql-client-download/) to get started! Upon clicking on the download button for either Mac or Windows distribution, a file should be added to your Downloads folder."

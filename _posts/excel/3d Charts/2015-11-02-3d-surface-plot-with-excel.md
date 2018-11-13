@@ -31,14 +31,14 @@ live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src
 live-graph-image:
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/volcano.csv)"
       img: "![Open data in excel](https://images.plot.ly/excel/3d-surface-plot-with-excel/open-data-in-excel.png)"
 
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Chart Studio](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio. For more about Chart Studio, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/3d-surface-plot-with-excel/import-data-3d-surface-plot.png)"
 
 

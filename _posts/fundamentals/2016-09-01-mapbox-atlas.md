@@ -15,7 +15,7 @@ These map visualizations are interactive! Scroll or double-click to zoom, click-
 
 By default, these maps are downloaded from the public Mapbox API. If you are using [Chart Studio Enterprise](https://plot.ly/product/enterprise/) you will need to license an account from Mapbox Studio or license a private Mapbox Atlas server.
 
-### Configuring Plotly with Mapbox Atlas
+### Configuring Chart Studio with Mapbox Atlas
 
 Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Chart Studio Enterprise with custom settings.
 

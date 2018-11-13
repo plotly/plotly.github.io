@@ -28,13 +28,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv)"
       img: "![View of data](/static/images/box-plot-with-excel/image22.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Chart Studio](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio. For more about Chart Studio, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/box-plots/import-data-box-plot.png)"
     - copy: "Select 'Box plots' from the MAKE A PLOT menu."
       img: "![Box Plot](/static/images/box-plot-with-excel/image18.png)"

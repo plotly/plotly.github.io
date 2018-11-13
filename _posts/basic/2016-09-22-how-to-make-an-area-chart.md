@@ -28,7 +28,7 @@ steps:
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
@@ -44,7 +44,7 @@ steps:
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as area color fill, markers, or line attributes."
-      img: "![Area properties](../static/images/area-chart/area-properties.png)"   
+      img: "![Area properties](../static/images/area-chart/area-properties.png)"
     - copy: "To set the trace names, type the name in the textbox provided under 'Name' property for each trace. Note that updating the trace name will update the legends as well."
       img: "![Trace Name](../static/images/area-chart/area-trace-name.png)"
     - copy: "To display/remove the lines on top of the filled-area, click the checkbox corresponding to 'Lines' under the 'Display' option."
@@ -52,7 +52,7 @@ steps:
     - copy: "Similarly, to display the markers along the filled area's line, click the checkbox corresponding to 'Points' under the 'Display' option. Use the color palletes to change the color of each individual component of the traces, as seen below."
       img: "![Colour main](../static/images/area-chart/area-colour-panel.gif)"
     - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
-      img: "![Area properties](../static/images/area-chart/area-layout-properties.png)"  
+      img: "![Area properties](../static/images/area-chart/area-layout-properties.png)"
     - copy: "To set the plot title, type in the textbox provided under the attribute 'Title'."
       img: "![Plot Title](../static/images/area-chart/area-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."

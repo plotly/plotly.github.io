@@ -28,7 +28,7 @@ steps:
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
@@ -44,7 +44,7 @@ steps:
       img: "![Pie Properties](../static/images/create-pie-chart/pie-properties.gif)"
     - copy: "Use the 'General' section under the 'Style' menu to change the layout background and margin color, set the plot title, and change the font styles."
     - copy: "To set the plot title, type in the textbox provided under the attribute 'Title'."
-      img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"  
+      img: "![Plot Title](../static/images/create-pie-chart/pie-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/create-pie-chart/pie-title-direct.png)"
 

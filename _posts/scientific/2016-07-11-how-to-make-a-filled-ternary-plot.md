@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
     - copy: "Each data point on a ternary chart is plotted according to its relative composition with respects to the 3 main axes. For example, the data point (0.6, 0.2, 0.2) represents a data point that is made up of 60% of axis 1, 20% of axis 2, 20% of axis 3, this sums up to 100% of this point's composition with relation to axes A, B, and C."

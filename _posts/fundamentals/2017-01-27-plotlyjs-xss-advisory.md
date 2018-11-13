@@ -26,7 +26,7 @@ Thanks to Lucky Sen for reporting this issue.
 * This issue is fixed in plotly.js version 1.22.0.
 * This issue has been fixed in Chart Studio Enterprise version 2.0.1, which is available as a free upgrade to all Plotly
 On-Premise customers.
-* The issue was fixed in Chart Studio on 2017-01-11.
+* The issue was fixed in Chart Studio Cloud on 2017-01-11.
 
 ## General notes regarding security reporting
 

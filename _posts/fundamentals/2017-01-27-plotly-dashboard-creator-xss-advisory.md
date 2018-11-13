@@ -21,7 +21,7 @@ Thanks to Lucky Sen and Mahmoud Gamal for reporting variations of this issue.
 ## Resolution
 
 * This issue has been fixed in Chart Studio Enterprise version 2.1.1, which is available as a free upgrade to all Chart Studio Enterprise customers.
-* The issue was fixed in Chart Studio on 2017-01-18.
+* The issue was fixed in Chart Studio Cloud on 2017-01-18.
 
 ## General notes regarding security reporting
 

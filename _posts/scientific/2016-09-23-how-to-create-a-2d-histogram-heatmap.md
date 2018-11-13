@@ -29,7 +29,7 @@ steps:
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Import data main](../static/images/make-a-histogram/import data 2d hist.png)"
 
  - title: Create a Chart
@@ -47,7 +47,7 @@ steps:
     - copy: "To change the colorscale, click on ‘Traces’ under the same STYLE tab, and choose the colorscale you want, with the added option of reversing the colorscale. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Colour main](../static/images/make-a-histogram/colourscale 2d hist.png)"
     - copy: "This is also where you select the colorscale range, as well as the x and y binning as auto or custom, play with the max bins, and show or hide your color bar."
-      img: "![Colour styling](../static/images/make-a-histogram/style 2d hist.gif)"  
+      img: "![Colour styling](../static/images/make-a-histogram/style 2d hist.gif)"
     - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. "
       img: "![Type directly title](../static/images/make-a-histogram/type directly 2d hist.png)"
     - copy: "The same can be done for the axis labels and legend."
@@ -60,5 +60,5 @@ steps:
     - copy: "Your plot is now done! Click SAVE on the left-hand side."
       img: "![Save main](../static/images/make-a-histogram/save main 2d hist.png)"
     - copy: "Give your PLOT and DATA a filename and select them as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/make-a-histogram/save popup 2d hist.png)"     
+      img: "![Save pop-up](../static/images/make-a-histogram/save popup 2d hist.png)"
 ---

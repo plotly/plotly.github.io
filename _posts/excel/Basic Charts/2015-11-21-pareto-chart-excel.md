@@ -33,13 +33,13 @@ steps:
    sub-steps:
     - copy: "A Pareto chart combines a bar and line chart. The Pareto principle states that, 'for many events, roughly 80% of the effects come from 20% of the causes.' In this example, we will see that 80% of complaints come from 20% of the complaint types."
       img: "![Pareto principle](https://images.plot.ly/excel/pareto-chart-excel/pareto-principal-pareto-chart.jpg)"
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/pareto-chart.csv)"
       img: "![Excel view](https://images.plot.ly/excel/pareto-chart-excel/excel-view-pareto-chart.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [Chart Studio](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Chart Studio. For more about Chart Studio, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/pareto-chart-excel/import-pareto-chart.png)"
  - title: Creating Your Chart
    sub-steps:

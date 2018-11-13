@@ -38,7 +38,7 @@ steps:
 
  - title: Option 4 - Import Data from a URL Using Plotly's External Endpoint
    sub-steps:
-    - copy: "You can also upload data from a URL using Plotly's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Plotly's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Plotly's online workspace:  [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
+    - copy: "You can also upload data from a URL using Plotly's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Chart Studio. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Plotly's online workspace:  [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
 
  - title: Option 5 - Import Using our Samples
    sub-steps:

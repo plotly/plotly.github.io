@@ -24,9 +24,9 @@ similar:
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 steps:
- - title: Head to Plotly and Organize
+ - title: Head to Chart Studio and Organize
    sub-steps:
-    - copy: "Head to Plotly's homepage and click 'Organize' in the upper left."
+    - copy: "Head to Chart Studio's homepage and click 'Organize' in the upper left."
       img: "![Organize](https://images.plot.ly/excel/share-your-plot/organize-share-your-plot.png)"
  - title: Create a New Folder
    sub-steps:

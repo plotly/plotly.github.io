@@ -30,7 +30,7 @@ live-graph: <img src="/images/dashboard-carousel.jpg">
 steps:
  - title: Connect Dashboards.ly to your Plotly Account
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Plotly API key from https://plot.ly/settings/api/."
+    - copy: "Head to Chart Studio's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Plotly API key from https://plot.ly/settings/api/."
       img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
  - title: Authentication
    sub-steps:

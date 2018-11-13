@@ -2,7 +2,7 @@
 
 ## 1. Setting the Meta Tag Descriptions
 
-See the Meta Tag Reference section at the bottom 
+See the Meta Tag Reference section at the bottom
 
 ## 2. Adding Images
 
@@ -11,7 +11,7 @@ See the Meta Tag Reference section at the bottom
 When adding a tutorial, its important to make a high-quality thumbnail image for the Excel tutorials home page. Here are some tips to follow:
 
 - Thumbnail images should be at least 677 px X 300 px.
-- Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing. 
+- Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing.
 - The thumbnail image has to be the same chart type as the tutorial BUT NOT NECESSARILY THE SAME CHART. Use the Plotly feed, blog, and Google Image search of Plotly charts to find the best screenshot for your thumbnail.
 - Thumbnail images should be CLEAN and not have too much text in them. Look at the Python docs thumbnail images for inspiration.
 
@@ -34,7 +34,7 @@ Rules to follow when adding new images:
 
 ### Download CSV links and Open Data in Plotly links
 
-- Download CSV links should download CSV files from https://github.com/plotly/datasets. 
+- Download CSV links should download CSV files from https://github.com/plotly/datasets.
 - "Open Data in Plotly" should open the exact grid that is shown in the tutorial WITH THE CORRECT CHART TYPE OPEN using the "plot_type" query parameter. Here are some good examples:
 - https://plot.ly/15176/~jackp/?plot_type=Histogram
 - https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
@@ -58,19 +58,19 @@ https://plot.ly/python/#maps
 
 1. The template system hates quotes within quotes. Make sure to use single quotes within double quote. "This "quote" will not work". But "This 'quote' will work."
 
-2. The template system uses Jekyll, the same markdown that works on GitHub readmes (like this one!): https://help.github.com/articles/github-flavored-markdown/ 
+2. The template system uses Jekyll, the same markdown that works on GitHub readmes (like this one!): https://help.github.com/articles/github-flavored-markdown/
 
 3. REMINDER THAT URLs SHOULD ALWAYS MATCH THE URLs FOR THE PYTHON DOCS FOR NEW TUTORIALS: https://plot.ly/python/. For example:
   - Because the URL for Python line charts is: https://plot.ly/python/line-charts/
   - The URL for Excel line charts would then be: http://help.plot.ly/excel/line-charts
- 
-4. Chart section anchors should also MATCH THE PYTHON DOCS. 
+
+4. Chart section anchors should also MATCH THE PYTHON DOCS.
   - For example https://plot.ly/python/#3d
   - Would then make the 3d section on the Excel homepage help.plot.ly/excel/#3d
 
 5. All datasets for download should be on Plotly's dataset repo: https://github.com/plotly/datasets
 
-6. All "Open Data in Plotly" links should link to the dataset AS A PUBLIC GRID WITHIN PLOTLY'S WORKSPACE. IE, https://plot.ly/15022/~jackp/ 
+6. All "Open Data in Plotly" links should link to the dataset AS A PUBLIC GRID WITHIN CHART STUDIO'S WORKSPACE. IE, https://plot.ly/15022/~jackp/
 
 7. Make sure that the "Know how to program? See how to create this in Python or R." links are updated.
 

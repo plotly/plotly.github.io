@@ -19,7 +19,7 @@ actioncall: Make a Bubble Map
 
 Follow along below to make a bubble map of your own.
 
-### Step 1 - Upload your Excel data to Plotly's grid
+### Step 1 - Upload your Excel data to Chart Studio
 
 Open the data file for this tutorial in Excel. You can download the file here in
 <a href="https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv">CSV</a>
@@ -27,11 +27,11 @@ format.
 
 ![Data](http://i.imgur.com/Xv1qmsQ.png)
 
-### Step 2 - Head to Plotly
+### Step 2 - Head to Chart Studio
 
-Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free
+Head to Chart Studio at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free
 Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will
-now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt"
+now open in Chart Studio. For more about Chart Studio, see the tutorial: <a class="link--impt"
 href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart

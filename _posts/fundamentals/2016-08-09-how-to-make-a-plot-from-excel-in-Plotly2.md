@@ -22,7 +22,7 @@ steps:
 
  - title: Import Your Data File
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) to upload your data's Excel file. You do this by clicking the IMPORT DATA tab."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) to upload your data's Excel file. You do this by clicking the IMPORT DATA tab."
       img: "![Import data second shot](../static/images/enter-data-in-the-grid/import-data-tab.png)"
     - copy: "You have the option to drag and drop your file, or select “click to upload”."
       img: "![Upload files](../static/images/enter-data-in-the-grid/Upload_Files.png)"

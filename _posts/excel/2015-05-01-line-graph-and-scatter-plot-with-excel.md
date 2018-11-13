@@ -19,7 +19,7 @@ actioncall: make a like and scatter plot
 
 Follow along below to make a mixed line and scatter plot in Plotly.
 
-### Step 1: Upload your Excel data to Plotly's grid
+### Step 1: Upload your Excel data to Chart Studio
 
 <table>
 <tbody>
@@ -41,11 +41,11 @@ formats.
 </tr>
 <tr>
 <td>
-Head to Plotly's Workspace at
+Head to Chart Studio at
 <a class="link--impt" href="/plot">
 https://plot.ly/plot
 </a>
-and sign into your free Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial:
+and sign into your free Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Chart Studio. For more about Chart Studio, see the tutorial:
 <a class="link--impt" href="/add-data-to-the-plotly-grid/">
 https://plot.ly/add-data-to-the-plotly-grid/
 </a>

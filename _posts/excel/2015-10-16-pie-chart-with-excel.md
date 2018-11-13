@@ -19,7 +19,7 @@ actioncall: Make a Pie Chart
 
 Follow along below to make a pie chart of your own.
 
-### Step 1 - Upload your Excel data to Plotly's grid
+### Step 1 - Upload your Excel data to Chart Studio
 
 Open the data file for this tutorial in Excel. You can download the file here in
 <a class="link--impt" href="https://www.dropbox.com/s/3h242p30pphiqud/How%20Much%20Money%20do%20You%20Have%20in%20Your%20Savings%20Account_%20copy.xls?raw=1" target="_blank">
@@ -32,9 +32,9 @@ Open the data file for this tutorial in Excel. You can download the file here in
       formats.
 ![Excel view](http://i.imgur.com/QyEi1dy.png)
 
-### Step 2 - Head to Plotly
+### Step 2 - Head to Chart Studio
 
-Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
+Head to Chart Studio at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Chart Studio. For more about Chart Studio, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart
 

@@ -9,7 +9,7 @@ tags: layout
 order: 3
 meta_description: A tutorial on how to add annotations to your plot in Chart Studio.
 popularity: featured
-carouselimageurl: 
+carouselimageurl:
 actioncall: How to add Annotations to Your Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:128
 
@@ -18,17 +18,17 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/128.embed"></iframe>
 live-graph-image:
 
-steps: 
+steps:
  - title: Getting Started
    sub-steps:
     - copy: "Plotly has many great features to spruce up your graphs, including how to [add a logo](http://help.plot.ly/logos/), but did you know that you can also add notes or annotations to your plot? We've got a few to choose from, so let's go!"
 
  - title: Add Your Data
    sub-steps:
-    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
- 
+    - copy: "The first step is to head to Chart Studio's new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
+
  - title: Create Your Chart
-   sub-steps:    
+   sub-steps:
     - copy: "After your data's been added, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
 
  - title: The Annotation Section
