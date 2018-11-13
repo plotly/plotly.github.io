@@ -4,7 +4,7 @@ title: 3D Scatter Plots
 subtitle: A type of scatter plot that shows the relationship between three variables. 
 permalink: /make-a-3d-scatter-plot/
 redirect_from: /plotly1/make-a-3d-scatter-plot/
-imageurl: ../static/images/3D-scatter-plots/new scatter thumb.png
+imageurl: ../static/images/3D-scatter-plots/3D-scatter-thumbnail.png
 state: active
 tags: graph3d
 order: 1
@@ -37,7 +37,7 @@ steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '3D Scatter' under '3D' chart type."
       img: "![Choose chart main](../static/images/3D-scatter-plots/3D-scatter-chart-type.png)"
     - copy: "Next, select 'X', 'Y' and 'Z' values from the dropdown menus. This will create a 3d scatter trace, as seen below."
-      img: "![Adding X Y Z](../static/images/line-graph-and-scatter-plot-with-excel/3D-scatter-data.png)"
+      img: "![Adding X Y Z](../static/images/3D-scatter-plots/3D-scatter-data.png)"
 
  - title: Style a Chart
    sub-steps:
@@ -47,7 +47,7 @@ steps:
       img: "![Type title](../static/images/3D-scatter-plots/3D-scatter-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title."
       img: "![Type directly title](../static/images/3D-scatter-plots/3D-scatter-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as marker symbol, color and size, and hoverinfo."
     - copy: "To change the color of the traces, click on the color palette as seen below. "
       img: "![Color main](../static/images/3D-scatter-plots/3D-scatter-color.png)"
 
