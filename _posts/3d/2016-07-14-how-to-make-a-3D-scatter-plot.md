@@ -22,7 +22,6 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "A 3D scatterplot graphs the data values of three variables against each other on the X, Y, and Z axes."
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
@@ -45,11 +44,15 @@ steps:
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title, as well as change the layout background, margin color and font styles."
     - copy: "To set the plot title, type the title text within the textbox provided under 'Title.'"
       img: "![Type title](../static/images/3D-scatter-plots/3D-scatter-title.png)"
-    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title."
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/3D-scatter-plots/3D-scatter-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as marker symbol, color and size, and hoverinfo."
-    - copy: "To change the color of the traces, click on the color palette as seen below. "
-      img: "![Color main](../static/images/3D-scatter-plots/3D-scatter-color.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the scatter trace such as the marker (points) symbol, color or size, hoverinfo and error bars."
+      img: "![Trace Properties](../static/images/3D-scatter-plots/3D-scatter-properties.png)"
+    - copy: "To change the color of the traces, choose either the option 'Constant' or 'Variable'."
+    - copy: "If 'Constant' is chosen, all the points of the trace are colored in same color. Then choose the color by clicking on the color palette."
+      img: "![Color Palette](../static/images/3D-scatter-plots/3D-scatter-color-palette.png)"
+    - copy: " If 'Variable' is chosen, each point in the trace is colored according to the data specified. Then choose the desired colorscale from the respective dropdown menu. In this plot, the option 'Variable' is chosen, as seen below."
+      img: "![Color main](../static/images/3D-scatter-plots/3D-scatter-colorscale.png)"
 
  - title: Save and Share
    sub-steps:
