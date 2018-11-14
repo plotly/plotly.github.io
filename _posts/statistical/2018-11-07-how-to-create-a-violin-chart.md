@@ -1,16 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Violin Chart
-subtitle: Violin Chart is a combination of a box plot and density plot that shows the distribution shape of the data.
-permalink: /make-a-violin-chart/
+title: Violin Plot
+subtitle: Violin Plot is a combination of a box plot and density plot that shows the distribution shape of the data.
+permalink: /make-a-violin-plot/
 imageurl: ../static/images/violin-plot/violin-thumb.png
 state: active
 tags: statistical
 order: 2.5
-meta_description: A tutorial on how to make a violin chart in Chart Studio.
+meta_description: A tutorial on how to make a violin plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a violin chart in Plotly's Chart Studio
+actioncall: How to make a violin plot in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:430
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/violin/) or [R](https://plot.ly/r/violin/).
