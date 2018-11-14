@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Histograms
-subtitle: A type of plot that visualizes the distribution of continuous data.
+subtitle: A type of plot that visualizes the distribution of numerical data.
 permalink: /make-a-histogram/
 redirect_from: plotly1/make-a-histogram/
 imageurl: ../static/images/histogram-plot/histogram-thumb.png
