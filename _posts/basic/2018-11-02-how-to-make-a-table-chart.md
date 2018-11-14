@@ -1,17 +1,16 @@
 ---
 layout: tutorial-single_layout
-title: Table Chart
-subtitle: How to make a table chart in Chart Studio.
-permalink: /make-a-table-chart/
-redirect_from: /plotly1/make-a-table-chart/
-imageurl: ../static/images/table-chart/table-thumbnail.gif
+title: Table
+subtitle: How to make a table in Chart Studio.
+permalink: /make-a-table/
+imageurl: ../static/images/table/table-thumbnail.gif
 state: active
 tags: basic
 order: 10
-meta_description: A tutorial on how to make a table chart in Chart Studio.
+meta_description: A tutorial on how to make a table in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a table chart in Plotly's Chart Studio
+actioncall: How to make a table in Plotly's Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:426
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/table/) or [R](https://plot.ly/r/table/).
@@ -34,26 +33,26 @@ steps:
  - title: Create a Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Table' under 'Simple' chart type."
-      img: "![Choose chart](../static/images/table-chart/table-choose-chart.png)"
+      img: "![Choose chart](../static/images/table/table-choose-chart.png)"
     - copy: "Next, fill out the 'Headers' and 'Columns' values from the dropdown menus. This will create a raw table as seen below."
-      img: "![Add Values](../static/images/table-chart/table-import-data.png)"
+      img: "![Add Values](../static/images/table/table-import-data.png)"
     - copy: "After adding the data to the table, fill out the table style attributes under the 'Header Options', 'Cell Options' and 'Column Options' (if the grid holds those information) via the dropdown menus. The resulting table will look like this:"
-      img: "![Finished trace](../static/images/table-chart/table-finished.png)"
+      img: "![Finished trace](../static/images/table/table-finished.png)"
     - copy: "Note that the above style properties can also be set under the `Style` section."
 
  - title: Style a Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "To change the properties of the table plot, go to the 'Traces' section under the 'Style' menu."
-      img: "![Table Properties](../static/images/table-chart/table-properties.png)"
+      img: "![Table Properties](../static/images/table/table-properties.png)"
     - copy: "To set the plot title, go to the 'General' section under the 'Style' menu and type in the plot title within the textbox provided under 'Title'."
-      img: "![Plot Title](../static/images/table-chart/table-title.png)"
+      img: "![Plot Title](../static/images/table/table-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
-      img: "![Type directly title](../static/images/table-chart/table-title-direct.png)"
+      img: "![Type directly title](../static/images/table/table-title-direct.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/table-chart/table-save-main.png)"
+      img: "![Save main](../static/images/table/table-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
