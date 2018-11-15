@@ -176,7 +176,7 @@ We’re hiding our legend in the LEGEND popover.
 </tr>
 <tr>
 <td>
-You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Chart Studio graph by clicking DOWNLOAD on the toolbar.
+You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Chart Studio graph by clicking DOWNLOAD on the toolbar.
 </td>
 <td>
 <img alt="How to make a line graph and scatter plot with excel 23" src="/static/images/line-graph-and-scatter-plot-with-excel/image23.png" title=""/>
@@ -193,7 +193,7 @@ Your finished chart should look something like this.
 </tr>
 <tr>
 <td>
-To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in theILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version.
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in theILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version.
 </td>
 <td>
 <img alt="How to make a line graph and scatter plot with excel 21" src="/static/images/line-graph-and-scatter-plot-with-excel/image21.png" title=""/>

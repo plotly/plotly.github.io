@@ -60,6 +60,6 @@ steps:
       img: "![Final Chart](https://images.plot.ly/excel/grouped-bar-chart/final-chart.jpg)"
     - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/grouped-bar-chart/export-image.jpg)"
-    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Insert Plot in Excel](https://images.plot.ly/excel/grouped-bar-chart/insert-grouped-bar-chart-in-excel.jpg)"
 ---

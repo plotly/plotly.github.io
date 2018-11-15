@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title:  Slide Decks
-subtitle: How to create slide decks with Plotly's drag-and-drop editor
+subtitle: How to create slide decks with Chart Studio's drag-and-drop editor editor
 permalink: /slide-decks/
 imageurl: ../static/images/slide-decks/slide-decks.PNG
 state: active

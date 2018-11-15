@@ -73,10 +73,10 @@ steps:
     - copy: "OKCupid Compatibility by Religion<br>Source: <a href=''http://blog.okcupid.com/index.php/how-races-and-religions-match-in-online-dating'' >OKTrends, 2009</a>"
  - title: Export and Share
    sub-steps:
-    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/export-bubble-map.png)"
     - copy: "Your finished chart should look something like this"
       img: "![Bar chart](https://plot.ly/~cimar/200/okcupid-compatibility-by-religion-source-oktrends-2009.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel view](/static/images/heat-map-with-excel/image23.png)"
 ---

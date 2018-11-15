@@ -65,8 +65,8 @@ steps:
       img: "![Suffix](https://images.plot.ly/excel/pareto-chart-excel/suffix-pareto-chart.png)"
     - copy: "Here's our finished graph."
       img: "![Finished](https://images.plot.ly/excel/pareto-chart-excel/finished-pareto-chart.png)"
-    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/pareto-chart-excel/export-pareto-chart.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel workbook](https://images.plot.ly/excel/pareto-chart-excel/excel-pareto-chart.png)"
 ---

@@ -32,10 +32,10 @@ Rules to follow when adding new images:
 - separate words with hyphens: "3d-surface-plot.png", not "3d surface plot.png" and not "3dsurfaceplot.png" and not "3d_surface_plot.png"
 - These are the official html guidelines from google (http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
-### Download CSV links and Open Data in Plotly links
+### Download CSV links and Open Data in Chart Studio links
 
 - Download CSV links should download CSV files from https://github.com/plotly/datasets.
-- "Open Data in Plotly" should open the exact grid that is shown in the tutorial WITH THE CORRECT CHART TYPE OPEN using the "plot_type" query parameter. Here are some good examples:
+- "Open Data in Chart Studio" should open the exact grid that is shown in the tutorial WITH THE CORRECT CHART TYPE OPEN using the "plot_type" query parameter. Here are some good examples:
 - https://plot.ly/15176/~jackp/?plot_type=Histogram
 - https://plot.ly/15093/~jackp/?plot_type=Bar%20chart
 
@@ -70,7 +70,7 @@ https://plot.ly/python/#maps
 
 5. All datasets for download should be on Plotly's dataset repo: https://github.com/plotly/datasets
 
-6. All "Open Data in Plotly" links should link to the dataset AS A PUBLIC GRID WITHIN CHART STUDIO'S WORKSPACE. IE, https://plot.ly/15022/~jackp/
+6. All "Open Data in Chart Studio" links should link to the dataset AS A PUBLIC GRID WITHIN CHART STUDIO'S WORKSPACE. IE, https://plot.ly/15022/~jackp/
 
 7. Make sure that the "Know how to program? See how to create this in Python or R." links are updated.
 

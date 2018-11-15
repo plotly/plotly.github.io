@@ -62,10 +62,10 @@ We’ve titled our chart. You can too. We came up with "2014 U.S. City Populatio
 
 ![Title](http://i.imgur.com/Iu8cKIY.png)
 
-You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar.
+You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the "Share" button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar.
 
 ![Export](http://i.imgur.com/Xre9YPA.png)
 
-To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version.
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version.
 
 ![Excel workbook](http://i.imgur.com/96NPoql.png)

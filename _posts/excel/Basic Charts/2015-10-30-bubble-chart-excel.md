@@ -71,6 +71,6 @@ steps:
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](http://i.imgur.com/ff5feZ5.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel](http://i.imgur.com/DpJJbQP.png)"
 ---
