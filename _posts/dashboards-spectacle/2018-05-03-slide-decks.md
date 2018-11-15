@@ -15,7 +15,7 @@ otherlang: Know how to program? See how to create this with the [Python Presenta
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "To facilitate effective communication of data in a presentation format, Plotly created Slide Decks - a minimalist drag-and-drop editor that feels like Keynote. With Slide Decks, you can easily create styled presentations with embedded interactive and dynamic Plotly charts, which can be hosted in your Chart Studio account and effortlessly shared via a link."
+    - copy: "To facilitate effective communication of data in a presentation format, Plotly created Slide Decks - a minimalist drag-and-drop editor that feels like Keynote. With Slide Decks, you can easily create styled presentations with embedded interactive and dynamic Chart Studio charts, which can be hosted in your Chart Studio account and effortlessly shared via a link."
 
  - title: Get Started
    sub-steps:
@@ -59,7 +59,7 @@ steps:
 
  - title: Add Charts
    sub-steps:
-    - copy: "If you would like to add your Plotly charts to your slide deck, navigate to the top toolbar and click the Plotly button. On the right-hand side of the screen there you can simply paste the charts URL. Click here for more information about [sharing](https://help.plot.ly/how-sharing-works-in-plotly/) and [embedding Plotly charts](https://help.plot.ly/embed-graphs-in-websites/)."
+    - copy: "If you would like to add your Chart Studio charts to your slide deck, navigate to the top toolbar and click the Plotly button. On the right-hand side of the screen there you can simply paste the charts URL. Click here for more information about [sharing](https://help.plot.ly/how-sharing-works-in-plotly/) and [embedding Chart Studio charts](https://help.plot.ly/embed-graphs-in-websites/)."
       img: "![Add Charts](../static/images/slide-decks/add-chart.PNG)"
 
  - title: Add Images

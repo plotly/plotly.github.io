@@ -19,7 +19,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Option 1 - Enter Your Data in the Grid
    sub-steps:
-    - copy: "The first step to making any Plotly graph is adding data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
+    - copy: "The first step to making any Chart Studio graph is adding data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
     - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content."
       img: "![Enter data in grid](../static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 

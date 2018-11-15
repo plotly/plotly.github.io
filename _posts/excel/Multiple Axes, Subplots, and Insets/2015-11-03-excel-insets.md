@@ -1,15 +1,15 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Chart with an Inset Plot with Plotly and Excel
-subtitle: Chart with an Inset Plot with Plotly
+title: Make a Chart with an Inset Plot with Chart Studio and Excel
+subtitle: Chart with an Inset Plot with Chart Studio
 permalink: /excel/insets/
 imageurl: https://images.plot.ly/excel/inset-plot-excel/inset-thumb.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make an inset chart online with Excel. Follow our step-by-step tutorial to make an inset chart for free and online with Plotly.
+meta_description: A tutorial on how to make an inset chart online with Excel. Follow our step-by-step tutorial to make an inset chart for free and online with Chart Studio.
 popularity: featured
 section: Layouts
-actioncall: Make this Chart with an Inset Plot with Plotly
+actioncall: Make this Chart with an Inset Plot with Chart Studio
 actioncall-url: https://plot.ly/6805/~Dreamshot/?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplot.csv.zip
 
@@ -70,7 +70,7 @@ steps:
    sub-steps:
     - copy: "Your plot should now look something like this. In order to get the graph at the top of the tutorial, you’ll need to style it a little more."
       img: "![Final](https://images.plot.ly/excel/inset-plot-excel/final-inset-plot.png)"
-    - copy: "We used a note to link to our source data. You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "We used a note to link to our source data. You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel workbook](https://images.plot.ly/excel/inset-plot-excel/excel-inset-plot.png)"
 ---

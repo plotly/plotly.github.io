@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bubble Map Online with Plotly and Excel
-subtitle: Bubble maps with Plotly
+title: Make a Bubble Map Online with Chart Studio and Excel
+subtitle: Bubble maps with Chart Studio
 permalink: /excel/bubble-maps/
 imageurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
 state: active
@@ -50,8 +50,8 @@ steps:
       img: "![Title](https://images.plot.ly/excel/bubble-maps/titling-bubble-map.png)"
     - copy: "You can just the 'Type' of layout within the dropdown. We suggest going with 'Albers usa' for this plot."
       img: "![Type](https://images.plot.ly/excel/bubble-maps/albers-bubble-map.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/bubble-maps/export-bubble-map.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/bubble-maps/final1-excel-bubble-map.png)"
 ---

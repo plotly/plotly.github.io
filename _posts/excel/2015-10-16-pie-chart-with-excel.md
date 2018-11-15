@@ -1,12 +1,12 @@
 ---
 layout: single
 title: Make a Pie Chart with Excel
-subtitle: Plotly with Excel
+subtitle: Chart Studio with Excel
 permalink: /plotly1/excel/pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a pie chart with Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Pie Chart
 ---
 
@@ -94,7 +94,7 @@ Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link
 
 Source: <a href="http://www.gobankingrates.com/savings-account/62-percent-americans-under-1000-savings-survey-finds/">GOBankingRates</a>
 
-You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
+You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar.
 
 ![Share](http://i.imgur.com/j1W3svM.png)
 
@@ -104,6 +104,6 @@ Your finished chart should look something like this:
 
 ![Final chart](http://i.imgur.com/EUsZAFI.png)
 
-To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version.
 
 ![Excel workbook](http://i.imgur.com/A54g3on.png)

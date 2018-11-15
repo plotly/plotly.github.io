@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-line-of-best-fit/
 imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: plotly1
-meta_description: Make best fit lines of data online and for free with Plotly. A step-by-step tutorial of how to make best fit lines and regressions in your web browser with Plotly.
+meta_description: Make best fit lines of data online and for free with Chart Studio. A step-by-step tutorial of how to make best fit lines and regressions in your web browser with Chart Studio.
 popularity: frontpage
 actioncall: Make a Line of Best Fit
 ---
@@ -16,7 +16,7 @@ actioncall: Make a Line of Best Fit
 
 One of the most basic but potent combos in data visualization is the **scatter plot and trend line**.
 
-Whether you're trying to find the gravitational constant or to see [which professions tend to do better than average at making someone more money than his parents](https://plot.ly/~Vox/6/the-big-picturehousehold-income-during-childhood-vs-income-during-adulthood/), Plotly is the tool for you!
+Whether you're trying to find the gravitational constant or to see [which professions tend to do better than average at making someone more money than his parents](https://plot.ly/~Vox/6/the-big-picturehousehold-income-during-childhood-vs-income-during-adulthood/), Chart Studio is the tool for you!
 
 This 4-step tutorial will show you how to make the graph below from a simple data table or spreadsheet.
 
@@ -47,7 +47,7 @@ Okay — here&#8217;s the moment you&#8217;ve been waiting for. In the &#8216;Pl
 ![Line of best fit](/static/images/line-of-best-fit/3_fit.png)
 
 This will open up a dialogue pane. Click **Add fit to this trace**: | ![Line of best fit](/static/images/line-of-best-fit/3_dialogue.png)
-Plotly is a versatile tool, so there are a number of advanced options. But our task is simple! To generate the straight line that best fits our data, we&#8217;ll: <br> - stay in the **Basic** tab, <br> - select the **Choose a predefined fit function** radio button, <br> - select the **Linear** function family from the drop down, <br> - and then click the **Run this fit** button at the bottom. <br> Voila — we have a line of best fit! The **a** value is the **y-intercept** of our line, and the **b** value is its **slope**. <br> **R<sup>2</sup>** and **Standard error** are measures of how closely the line fits the data, and have to do with how this line was calculated. If you&#8217;d like to learn more about these metrics, [Wikipedia](http://en.wikipedia.org/wiki/Linear_regression) is a good resource. <br> Check the **&#8220;Add results as plot annotation&#8221;** box to annotate the graph the line&#8217;s equation: **y = 0.222 + 9.635x**. | ![Line of best fit](/static/images/line-of-best-fit/3_dialogue2.png)
+Chart Studio is a versatile tool, so there are a number of advanced options. But our task is simple! To generate the straight line that best fits our data, we&#8217;ll: <br> - stay in the **Basic** tab, <br> - select the **Choose a predefined fit function** radio button, <br> - select the **Linear** function family from the drop down, <br> - and then click the **Run this fit** button at the bottom. <br> Voila — we have a line of best fit! The **a** value is the **y-intercept** of our line, and the **b** value is its **slope**. <br> **R<sup>2</sup>** and **Standard error** are measures of how closely the line fits the data, and have to do with how this line was calculated. If you&#8217;d like to learn more about these metrics, [Wikipedia](http://en.wikipedia.org/wiki/Linear_regression) is a good resource. <br> Check the **&#8220;Add results as plot annotation&#8221;** box to annotate the graph the line&#8217;s equation: **y = 0.222 + 9.635x**. | ![Line of best fit](/static/images/line-of-best-fit/3_dialogue2.png)
 
 Your plot should now look something like this:
 ![Line of best fit](http://ec2-54-172-55-46.compute-1.amazonaws.com/wp-content/uploads/2015/01/fits-300x242.png)

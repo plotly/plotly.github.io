@@ -36,5 +36,5 @@ actioncall: Make a chart
 
 <p style="text-align:center;">
     <a class="button btn-large" href="https://plot.ly/python/">Get started with Plotly for Python</a>
-    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a></p>
+    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Chart Studio for Excel</a></p>
 </div>

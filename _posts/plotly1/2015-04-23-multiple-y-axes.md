@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/multiple-y-axes/
 imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: active
 tags: plotly1
-meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
+meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Chart Studio.
 actioncall: Make a Graph with Mulitple Y Axes
 ---
 
@@ -22,7 +22,7 @@ In this tutorial, you will learn how to make multiple-axes charts, like the one 
 
 ### Step 1: Create a graph with multiple traces
 
-Create a Plotly graph or open a graph with 2 or more traces, like the one to the right. We will create a separate y-axis for each of these 3 traces. You can follow along by using this Plotly graph: [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image06.png)
+Create a Chart Studio graph or open a graph with 2 or more traces, like the one to the right. We will create a separate y-axis for each of these 3 traces. You can follow along by using this Chart Studio graph: [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image06.png)
 
 ### Step 2: Adding a second y-axis
 

@@ -23,13 +23,13 @@ steps:
    sub-steps:
     - copy: "To try an example, select 'Chart Type' and a panel will appear with chart type options. Once you locate the 3D line icon under the '3d'column, you can check out an example before adding your own data by clicking the little graph icon that will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Try an Example](../static/images/create-animations/try-an-example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-    - copy: "In this tutorial, we will use a bsic dataset that is available via [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv). Simply copy the URL and then navigate back to the Plotly workspace. Now, click 'IMPORT', select the 'By URL' tab, and paste in the the URL."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "In this tutorial, we will use a bsic dataset that is available via [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv). Simply copy the URL and then navigate back to the Chart Studio workspace. Now, click 'IMPORT', select the 'By URL' tab, and paste in the the URL."
       img: "![Add Data](../static/images/make-a-3d-line-chart/add-data.png)"
 
  - title: Create Your Chart

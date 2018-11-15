@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make Online Dashboards with Plotly and Excel
-subtitle: Dashboards with Plotly
+title: Make Online Dashboards with Chart Studio and Excel
+subtitle: Dashboards with Chart Studio
 permalink: /excel/dashboard/
 imageurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
-meta_description: Make online dashboards for free with Excel data and Plotly charts.
+meta_description: Make online dashboards for free with Excel data and Chart Studio charts.
 popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards

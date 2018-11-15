@@ -7,7 +7,7 @@ imageurl: ../static/images/dates-time-series-and-timestamp/thum-dates-time-serie
 state: active
 tags: fundamentals
 order: 9
-meta_description: Learn how to use dates, time series, and timestamp formats with Plotly graphs. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Learn how to use dates, time series, and timestamp formats with Chart Studio graphs. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: featured
 carouselimageurl:
 actioncall: How to use dates, time series, and timestamp formats in Chart Studio
@@ -40,7 +40,7 @@ steps:
 
  - title: Custom formats for your graph
    sub-steps:
-    - copy: "When you make a graph in Plotly with dates and times, the default labelling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
+    - copy: "When you make a graph in Chart Studio with dates and times, the default labelling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Plotly displays years on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)"
     - copy: "To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/select-axis.png)"

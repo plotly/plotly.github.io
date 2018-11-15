@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title:  How to Create Plotly Dashboards with Crossfilter
-subtitle: Create dashboards with crossfilter functionality using the Plotly data visualization tool
+title:  How to Create Chart Studio Dashboards with Crossfilter
+subtitle: Create dashboards with crossfilter functionality using the Chart Studio datavisualization tool
 permalink: /dashboard-crossfilter/
 imageurl: ../static/images/crossfilter/crossfilter.gif
 state: active
 tags: dashboard
 order: 6
-meta_description: Learn how to create dashboards with crossfilter functionality using the Plotly dashboard tool.
+meta_description: Learn how to create dashboards with crossfilter functionality using the Chart Studio dashboard tool.
 popularity: featured
 actioncall: Create dashboards
 
@@ -16,7 +16,7 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "Plotly dashboards are a stunning way to display and share your graphs. Your charts are fully interactive with publication-quality graphics, and there's nothing to download or install — it's 100% web-based."
+    - copy: "Chart Studio dashboards are a stunning way to display and share your graphs. Your charts are fully interactive with publication-quality graphics, and there's nothing to download or install — it's 100% web-based."
     - copy: "Our dashboards are used by companies such as Netflix, Tesla, and Google for their customization options and features. If you too want to present your plots in a cool way, keep reading."
     - copy: "For this tutorial we've taken screenshots from our dashboard, which can be found [here](https://plot.ly/~plotly2_demo/237/untitled-dashboard/)."
     - copy: "For this tutorial, to visualize World Happiness from 2015 to 2017, we'll create three individual charts: (1) a average happiness choropleth map, (2) GDP per capita scatter plot and (3) a table to visualise the data. In the section below, we'll look at how to make each of the charts."

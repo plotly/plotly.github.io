@@ -6,10 +6,10 @@ permalink: /excel/text-scatter-chart/
 imageurl: https://images.plot.ly/excel/label-points-excel/thumb-label-points.png
 state: active
 tags: excel
-meta_description: Create a text scatter charts in Excel with Plotly. Add text labels to points in a scatter plot.
+meta_description: Create a text scatter charts in Excel with Chart Studio. Add text labels to points in a scatter plot.
 popularity: featured
 section: BasicCharts
-actioncall: Make a Scatter Plot with Plotly
+actioncall: Make a Scatter Plot with Chart Studio
 actioncall-url: https://plot.ly/6944/~Dreamshot/?plot_type=Scatter%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/label-text.csv
 
@@ -57,8 +57,8 @@ steps:
       img: "![Styling](https://images.plot.ly/excel/label-points-excel/styling-label-points.png)"
     - copy: "You can label your axes by clicking on the 'Click to enter X axis title' and 'Click to enter Y axis title' on your graph. The finished product should look something like this."
       img: "![Titles](https://images.plot.ly/excel/label-points-excel/titles-label-points.png)"
-    - copy: "We used a note to link to our source data. You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "We used a note to link to our source data. You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/label-points-excel/export-label-points.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel workbook](https://images.plot.ly/excel/label-points-excel/excel-label-points.png)"
 ---

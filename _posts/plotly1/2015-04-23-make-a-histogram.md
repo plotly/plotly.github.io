@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-histogram/
 imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a histogram online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a histogram online. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
 actioncall: Make a Histogram
 ---

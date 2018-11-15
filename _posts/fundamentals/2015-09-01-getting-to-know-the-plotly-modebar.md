@@ -8,7 +8,7 @@ state: active
 tags: fundamentals
 section: fundamentals
 order: 8
-meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on the Plotly Modebar. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: nil
 ---
 
@@ -24,7 +24,7 @@ Clicking this will instantly start a download of the plot in PNG format.  | ![Do
 
 Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons.
 
-Clicking this selects the **Zoom** mode. To zoom in on a region of a Plotly graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
+Clicking this selects the **Zoom** mode. To zoom in on a region of a Chart Studio graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
 
 To pan across regions of your graph, select the **Pan** mode. Click and hold your mouse to explore the data. Double-click anywhere to return to the original view. | ![Pan](/static/images/getting-to-know-the-plotly-modebar/pan.png)
 

@@ -7,7 +7,7 @@ imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
 state: active
 tags: analysis
 order: 7
-meta_description: A tutorial on quadratic regression. Make graphs online and for free with Plotly
+meta_description: A tutorial on quadratic regression. Make graphs online and for free with Chart Studio
 actioncall: make a chart
 ---
 
@@ -38,7 +38,7 @@ Select **Quadratic** from the drop-down menu. | ![Quadratic fits](/static/images
 You’ll be given the option to guess the coefficients $a$, $b$, and $c$, but this isn’t required. | ![Quadratic fits](/static/images/quadratic-fits/guess-coefficients.png)
 Our **Advanced** tab offers even more flexibility. You can incorporate error data into your fit, restrict the fit to a subset of your data, extend the domain, and change the number of points in the output fit. | ![Quadratic fits](/static/images/quadratic-fits/advanced-options.png)
 To run Plotly’s fit, click on the **Run this fit** button.<br><br>By selecting **Add results as plot annotation**, your graph will include an annotation with $R^2$ value and an equation for the curve of best fit. | ![Quadratic fits](/static/images/quadratic-fits/run-fit.png)
-To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Plotly’s online tools. You might want to check out the **TRACES** button. | ![Quadratic fits](/static/images/quadratic-fits/quadratic-fit-graph.png)
+To close the **Fitting to trace** popover click the **X** in the upper-right corner. We can drag the annotation and even style our graph with Chart Studio’s online tools. You might want to check out the **TRACES** button. | ![Quadratic fits](/static/images/quadratic-fits/quadratic-fit-graph.png)
 It’s easy to add another fit to our graph to compare. In the picture on the right, I’ve added a linear fit, and we can see that it isn’t a good choice. | ![Quadratic fits](/static/images/quadratic-fits/add-another-fit.png)
 Want to remove a fit? Click **FIT DATA** in the toolbar. You will see each fit in the **Fitting to trace** popover. Just click on the trash can icon of the fit you want to remove. | ![Quadratic fits](/static/images/quadratic-fits/delete-fit.png)
 

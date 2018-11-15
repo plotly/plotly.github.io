@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-3d-scatter-plot/
 imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a 3d scatter plot. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a 3d scatter plot. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a 3D Scatter Plot
 ---
 
@@ -22,7 +22,7 @@ Most graphs have two axes, referred to often as the $ x $ axis and the $ y $ axi
 
 Three-dimensional scatter plots are best when you have at least three features that you want to highlight in your graph. Using color and size you can highlight two additional features in your graph. Plotly’s interactive tools also let you explore your plot by zooming, hovering, and rotating your plot.
 
-For this tutorial, we’re using the “Prestige” dataset from R’s “car” package. The data set contains information about status (quantified with the Pineo-Porter index), salary, years of schooling, and gender for job categories in the 1970s. You can learn more in [this document](http://www.princeton.edu/~otorres/Regression101R.pdf). If you follow along with the R tutorial at the link, you can take advantage of Plotly’s awesome [styling](http://vimeo.com/94000688), collaboration and [sharing](https://plot.ly/how-to-share-and-print-plotly-graphs/) tools. If you want to know about integrating Plotly with R, we have [excellent documentation](http://plot.ly/R)!
+For this tutorial, we’re using the “Prestige” dataset from R’s “car” package. The data set contains information about status (quantified with the Pineo-Porter index), salary, years of schooling, and gender for job categories in the 1970s. You can learn more in [this document](http://www.princeton.edu/~otorres/Regression101R.pdf). If you follow along with the R tutorial at the link, you can take advantage of Plotly’s awesome [styling](http://vimeo.com/94000688), collaboration and [sharing](https://plot.ly/how-to-share-and-print-plotly-graphs/) tools. If you want to know about integrating Chart Studio with R, we have [excellent documentation](http://plot.ly/R)!
 
 ### Step 1: Set up the grid
 

@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/update-your-plot/graph-thumbnail.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
+meta_description: A tutorial on how to update data in and add data to Chart Studio graphs. Chart Studio is the easiest way to graph and share your data.
 actioncall: Make a plot
 ---
 
@@ -21,7 +21,7 @@ There are two different options for updating your plots. Note that in both cases
 
 Need help making your graph? Check out our other [tutorials](http://help.plot.ly/tutorials/).
 
-### Update a Plotly graph with new data
+### Update a Chart Studio graph with new data
 
 Do you need to modify your dataset? You can update an existing graph as your data changes.
 

@@ -1,13 +1,13 @@
 ---
 layout: tutorial-single_layout
-title:  Plotly Dashboard Privacy
-subtitle: Dashboard privacy using the Plotly data visualization tool
+title:  Chart Studio Dashboard Privacy
+subtitle: Dashboard privacy using the Chart Studio data visualization tool
 permalink: /dashboard-privacy/
 imageurl: ../static/images/dashboards/dashboard privacy thumb.png
 state: active
 tags: dashboard
 order: 2.5
-meta_description: Learn how to set privacy settings to share dashboards using the Plotly dashboard tool.
+meta_description: Learn how to set privacy settings to share dashboards using the Chart Studio dashboard tool.
 popularity: featured
 actioncall: Dashboard privacy
 
@@ -22,33 +22,33 @@ steps:
 
  - title: Public Plot
    sub-steps:
-    - copy: "We'll start by [adding a plot](http://help.plot.ly/create-a-dashboard/#step-3-add-a-plot) to our dashboard that was used in [this](http://help.plot.ly/make-a-2d-histogram-heatmap/) Plotly tutorial. It was saved as 'Public' so everyone can see it, not just Plotly users."
-      img: "![Save pop-up](../static/images/make-a-histogram/save popup 2d hist.png)"   
+    - copy: "We'll start by [adding a plot](http://help.plot.ly/create-a-dashboard/#step-3-add-a-plot) to our dashboard that was used in [this](http://help.plot.ly/make-a-2d-histogram-heatmap/) Chart Studio tutorial. It was saved as 'Public' so everyone can see it, not just Chart Studio users."
+      img: "![Save pop-up](../static/images/make-a-histogram/save popup 2d hist.png)"
 
  - title: Private Plot
-   sub-steps:      
+   sub-steps:
     - copy: "The [second plot](http://help.plot.ly/create-a-dashboard/#step-4-add-a-second-plot) we'll add to our dashboard was saved as 'Private'. See [this](http://help.plot.ly/how-sharing-works-in-plotly/#privacy-options) page to learn more about private plots."
       img: "![Add private plot](../static/images/dashboards/add private plot.png)"
 
  - title: Plot with Private Link
-   sub-steps:      
+   sub-steps:
     - copy: "The last plot we'll add is one we've saved as ['Private Link'](http://help.plot.ly/how-sharing-works-in-plotly/#secret-links)."
       img: "![Add private link plot](../static/images/dashboards/add private link plot.png)"
 
  - title: Share the Dashboard
-   sub-steps:      
+   sub-steps:
     - copy: "We'll [save](http://help.plot.ly/create-a-dashboard/#step-8-save-and-share-a-dashboard) our dashboard as 'Private Link', then click on 'Share' to find the shareable link."
       img: "![Save as private link](../static/images/dashboards/save as private link.png)"
     - copy: "Below is what the dashboard looks like to the viewer that was given this secret link. Remember, private links allow people with the link to view the dashboard, but it will not appear on your profile, nor is it searchable."
       img: "![Private link shared](../static/images/dashboards/private link shared.gif)"
-    - copy: "The plot that was saved as 'Private' isn't displayed. In this case, we have to reset this graph's privacy setting, either as 'Public' or 'Private Link'. It's very important to note that the dashboard will not automatically update when it's changed to 'Private Link'. After you save it as 'Private Link', go back to your dashboard. Click on the plot, hit 'Edit', then select 'URL' to *enter the shareable link*. This is the only way to update your dashboard's plot from 'Private' to 'Private Link' and be viewable."   
-      img: "![Add private URL](../static/images/dashboards/add private url.png)"    
+    - copy: "The plot that was saved as 'Private' isn't displayed. In this case, we have to reset this graph's privacy setting, either as 'Public' or 'Private Link'. It's very important to note that the dashboard will not automatically update when it's changed to 'Private Link'. After you save it as 'Private Link', go back to your dashboard. Click on the plot, hit 'Edit', then select 'URL' to *enter the shareable link*. This is the only way to update your dashboard's plot from 'Private' to 'Private Link' and be viewable."
+      img: "![Add private URL](../static/images/dashboards/add private url.png)"
     - copy: "Now all plots appear on the dashboard. Remember, this is a dashboard with a secret link."
       img: "![Private link dashboard](../static/images/dashboards/new private link viewed.gif)"
 
  - title: Dashboard Privacy Settings
-   sub-steps:     
-    - copy: "You can also save your dashboard as 'Public' and 'Private'. To show the different dashboard privacy settings and how they appear to a viewer, we've used the following examples." 
+   sub-steps:
+    - copy: "You can also save your dashboard as 'Public' and 'Private'. To show the different dashboard privacy settings and how they appear to a viewer, we've used the following examples."
     - copy: "Below is a plot saved with a secret link, added to a public dashboard. As you can see, it's still viewable."
       img: "![Public dashboard private link plot](../static/images/dashboards/Public dashboard private link.png)"
     - copy: "The following is a private dashboard with a public plot. Even though the plot is public, the *dashboard* is private, so the viewer can't see it."
@@ -57,7 +57,7 @@ steps:
       img: "![Public dashboard private plot](../static/images/dashboards/public dashboard private plot.png)"
 
  - title: Helpful Reminders
-   sub-steps:      
+   sub-steps:
     - copy: "The best option is to add plots that are saved as 'Public' or 'Private Link', and set your dashboard privacy setting as 'Private' or 'Private Link'. Adding a plot that's been saved as 'Private' won't appear to the viewer."
-    - copy: "For more information on how sharing works in Plotly, check out [this](http://help.plot.ly/how-sharing-works-in-plotly/) page."   
+    - copy: "For more information on how sharing works in Chart Studio, check out [this](http://help.plot.ly/how-sharing-works-in-plotly/) page."
 ---

@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/tutorials/
 imageurl: http://i.imgur.com/IQd9Sv5.png
 state: active
 tags: plotly1
-meta_description: Make graphs with filled area bars to denote confidence intervals. Plotly is the easiest way to graph your data online.
+meta_description: Make graphs with filled area bars to denote confidence intervals. Chart Studio is the easiest way to graph your data online.
 popularity:
 actioncall: Draw Filled Confidence Error Bars
 ---

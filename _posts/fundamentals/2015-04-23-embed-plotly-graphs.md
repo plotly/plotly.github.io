@@ -1,23 +1,23 @@
 ---
 layout: tutorial-single_layout
 title:  How to Embed Graphs in a Blog or Website
-subtitle: Embed graphs created with Plotly
+subtitle: Embed graphs created with Chart Studio
 permalink: /embed-graphs-in-websites/
 imageurl: ../static/images/embed-plotly-graphs/embed thumb.png
 state: active
 tags: fundamentals
 order: 6
-meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Chart Studio.
+meta_description: Learn how to embed interactive Chart Studio graphs in websites, blogs, iframes, Tumblr, and WordPress online using Chart Studio.
 popularity: featured
 actioncall: Embed a Graph
 
 steps:
  - title: Embed Plotly Graphs in a Blog or Website
    sub-steps:
-    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Plotly graph. The embedding process is the same whether you're creating graphs from the online [workspace](https://plot.ly/create) or using one of Plotly's APIs. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
+    - copy: "When you embed a Chart Studio graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Chart Studio graph. The embedding process is the same whether you're creating graphs from the online [workspace](https://plot.ly/create) or using one of Plotly's APIs. With our interactive features, your readers have a whole new way to engage with your work. When you update a Chart Studio graph, the graph automatically updates on your blog or website. No need for manual updates!"
     - copy: "We’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
       img: "![Lego](../static/images/embed-plotly-graphs/plotly on wired.png)"
-    - copy: "You can embed a Plotly graph using HTML code or an iframe. These codes are located in Chart Studio, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the [end](http://help.plot.ly/embed-graphs-in-websites/#step-10-embed-on-wordpress) of this page."
+    - copy: "You can embed a Chart Studio graph using HTML code or an iframe. These codes are located in Chart Studio, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the [end](http://help.plot.ly/embed-graphs-in-websites/#step-10-embed-on-wordpress) of this page."
 
  - title: From Your Workspace
    sub-steps:
@@ -45,7 +45,7 @@ steps:
 
  - title: Embed Grid
    sub-steps:
-    - copy: "We've talked a lot about embedding Plotly graphs, but did you know that you can also embed your grid? Just like your plots, grids can be embedded in iframes."
+    - copy: "We've talked a lot about embedding Chart Studio graphs, but did you know that you can also embed your grid? Just like your plots, grids can be embedded in iframes."
     - copy: "You can find the embed code by going to your [Organize](https://plot.ly/organize/) or Profile page and hovering over the saved grid. Grids are saved as 'Private' by default, so it's important that you save your data as 'Public' or 'Private Link'."
     - copy: "Copy the iframe just as you would for the plot and paste it to your website or blog. This is an example of what your grid looks like when it's been embedded."
       img: "![Embed grid](../static/images/embed-plotly-graphs/embed grid.png)"
@@ -76,6 +76,6 @@ steps:
 
  - title: Embed on WordPress
    sub-steps:
-    - copy: "WordPress doesn’t support our HTML code or iframes, but we’ve come up with an easy solution for you. We developed a [WordPress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress's admin."
+    - copy: "WordPress doesn’t support our HTML code or iframes, but we’ve come up with an easy solution for you. We developed a [WordPress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Chart Studio graphs direct from WordPress's admin."
     - copy: "Don't forget to check out our WordPress blog called [Modern Data](http://moderndata.plot.ly/)!"
 ---

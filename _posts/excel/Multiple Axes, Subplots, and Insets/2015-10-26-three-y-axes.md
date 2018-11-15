@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Three Y Axes Graph with Plotly and Excel
+title: Three Y Axes Graph with Chart Studio and Excel
 subtitle: A Step by Step Guide to Making a Graph with Three Y Axes With Plotly and Excel
 permalink: /excel/three-y-axes/
 imageurl: https://images.plot.ly/excel/3-y-axes-excel/three-axes-thumb.png
 state: active
 tags: excel
-meta_description: Create a graph with 3 traces, with a separate y-axis for each trace with Plotly and Excel. Follow our step-by-step tutorial to make a three axes graph for free and online with Plotly.
+meta_description: Create a graph with 3 traces, with a separate y-axis for each trace with Chart Studio and Excel. Follow our step-by-step tutorial to make a three axes graph for free and online with Chart Studio.
 popularity: featured
 section: Layouts
 actioncall: Make a Graph with Three Y Axes
@@ -69,8 +69,8 @@ bottom left."
     - copy: "We’ve titled our chart. We've also colored-coded our y-axis labels to our traces. You can even add 'Tick Prefixes' within the AXES popover and 'Labels' tab. If you feel so moved, you can even color-code the 'ticks' to your traces. Finally, we’ve linked to our source data in the x-axis label area."
       img: "![Prefixes](https://images.plot.ly/excel/3-y-axes-excel/prefixes-3-y-axes.png)"
       img: "![Color Coded](https://images.plot.ly/excel/3-y-axes-excel/color-coded-3-y-axes.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Final](https://images.plot.ly/excel/3-y-axes-excel/final-3-y-axes.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/3-y-axes-excel/excel-3-y-axes.png)"
 ---

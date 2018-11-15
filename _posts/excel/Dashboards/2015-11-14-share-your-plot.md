@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Online Excel Reporting with Plotly
-subtitle: Online Excel Reporting with Plotly
+title: Online Excel Reporting with Chart Studio
+subtitle: Online Excel Reporting with Chart Studio
 permalink: /excel/online-reports/
 imageurl: https://images.plot.ly/excel/share-your-plot/thumbnail-share-your-plot.png
 state: active
 tags: excel
-meta_description: Online Excel reports with Plotly. Plotly is the easiest and fastest way to make charts, reports, and dashboards online.
+meta_description: Online Excel reports with Chart Studio. Chart Studio is the easiest and fastest way to make charts, reports, and dashboards online.
 popularity: featured
 section: Dashboards
 download-url:

@@ -6,7 +6,7 @@ redirect_to: https://help.plot.ly/make-a-3d-surface-plot/
 imageurl: http://i.imgur.com/N0W4TY8.png
 state: active
 tags: plotly1
-meta_description: Create a 3D surface plot online with Plotly. Plotly is the easiest way to graph your data online.
+meta_description: Create a 3D surface plot online with Chart Studio. Chart Studio is the easiest way to graph your data online.
 actioncall: Make a Surface Plot
 ---
 
@@ -26,7 +26,7 @@ Visit the [workspace](https://plot.ly/plot) to enter data. A 3D surface plot gra
 
 Select "3d surface plots" under MAKE A PLOT.
 
-![List of all of the graph types available in Plotly with 3D surface plot selected](http://i.imgur.com/CehZ0II.png)
+![List of all of the graph types available in Chart Studio with 3D surface plot selected](http://i.imgur.com/CehZ0II.png)
 
 Select the columns that will describe your surface plot.
 
@@ -42,6 +42,6 @@ Click "3d surface plot". You can customize every aspect of this chart. Click thr
 ### More resources
 - [Make your own 3D surface plot](https://plot.ly/plot)
 - 3D surface plots in [python](https://plot.ly/python/3d-surface-plots/), [R](https://plot.ly/r/3d-surface-plots/), [MATLAB](https://plot.ly/matlab/3d-surface-plots/), and [other languages](https://plot.ly/api)
-- Plotly is free for public use. For private use, view our [subscription options](https://plot.ly/plans).
+- Chart Studio is free for public use. For private use, view our [subscription options](https://plot.ly/plans).
 - [View more tutorials](https://help.plot.ly/)
 - [View graphs created by the plotly community](https://plot.ly/feed)

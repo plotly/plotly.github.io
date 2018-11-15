@@ -15,7 +15,7 @@ actioncall: Make a Graph
 
 ### Step 1: Set up the Grid
 
-The first step to making any Plotly graph is setting up the data in a grid.
+The first step to making any Chart Studio graph is setting up the data in a grid.
 You can type your data directly into a grid, or copy it from a spreadsheet and paste it in.
 
 
@@ -32,7 +32,7 @@ If you upload a workbook, a new grid will be created for every sheet within the 
 &#8230;they’re all stored in a folder named after your file in the filewell. | ![Filewell](/static/images/enter-data-in-the-grid/filewell.png)
 
 **View Data**
-You can extract the data from any Plotly graph, and build your own graph out of it!
+You can extract the data from any Chart Studio graph, and build your own graph out of it!
 
 Go to any graph page. The one pictured to the right is [https://plot.ly/~slkent/51](https://plot.ly/~slkent/51). Click the **DATA** button, located in the lefthand sidebar, to view the data. To load the data in your workspace, click on **Fork and edit**. | ![Fork and edit](/static/images/enter-data-in-the-grid/view-data-fork-and-edit.png)
 Click the **VIEW DATA** button, located in the toolbar, to view the data. | ![View data](/static/images/enter-data-in-the-grid/get-data.png)

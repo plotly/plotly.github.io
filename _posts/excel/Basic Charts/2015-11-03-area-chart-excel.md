@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Area Chart Online with Plotly and Excel
-subtitle: Area Charts with Plotly
+title: Make a Area Chart Online with Chart Studio and Excel
+subtitle: Area Charts with Chart Studio
 permalink: /excel/area-chart/
 redirect_from: /excel/area-charts/
 imageurl: https://images.plot.ly/excel/area-charts/thum-area-charts-in-excel-with-plotly.png
@@ -59,11 +59,11 @@ steps:
       img: "![Background color](/static/images/area-charts-in-excel-with-plotly/layout-general.png)"
  - title: Export & Share
    sub-steps:
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](/static/images/area-charts-in-excel-with-plotly/finished-chart.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Plot in Excel](/static/images/area-charts-in-excel-with-plotly/image-in-excel.png)"
 
 ---

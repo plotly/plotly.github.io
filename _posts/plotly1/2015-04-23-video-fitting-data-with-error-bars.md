@@ -7,7 +7,7 @@ imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-d
 state: active
 tags: analysis
 order: 12
-meta_description: Learn to fit data with error bars in under two minutes. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Learn to fit data with error bars in under two minutes. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart with Error Bars
 ---
 

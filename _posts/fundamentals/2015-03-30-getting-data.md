@@ -6,7 +6,7 @@ imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
 state: active
 tags: fundamentals
 order: 30
-meta_description: A tutorial on reliable data sources including Data.gov. Plotly is the easiest way to make beautiful graphs online and for free.
+meta_description: A tutorial on reliable data sources including Data.gov. Chart Studio is the easiest way to make beautiful graphs online and for free.
 ---
 
 <div>
@@ -110,7 +110,7 @@ The data will open in a Plotly grid, where you can analyze and graph the data. Y
 <h1><a href="http://www.vernier.com/">Vernier</a></h1>
 
 
-<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers, and experiments) for science classrooms and labs around the world. Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), allow you to use their excellent hardware across platforms, from most devices. You can export data directly to Plotly, which gives you a seamless workflow on your Chromebook, iPad, or tablet. An export to Plotly with Logger Pro is coming soon.</p>
+<p>Vernier develops and produces easy-to-use data-aquisition products (think sensors, data loggers, and experiments) for science classrooms and labs around the world. Vernier's <a href="http://www.vernier.com/products/wireless-solutions/connected-science-system/apps/">Data Share Apps</a> (built for iPad, Android, Chromebooks, and mixed-device classrooms), allow you to use their excellent hardware across platforms, from most devices. You can export data directly to Plotly, which gives you a seamless workflow on your Chromebook, iPad, or tablet. An export to Chart Studio with Logger Pro is coming soon.</p>
 
 <table>
 <tbody>

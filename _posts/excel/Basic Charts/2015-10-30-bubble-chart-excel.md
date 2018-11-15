@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bubble Chart Online with Plotly and Excel
-subtitle: Bubble charts with Plotly
+title: Make a Bubble Chart Online with Chart Studio and Excel
+subtitle: Bubble charts with Chart Studio
 permalink: /excel/bubble-chart/
 imageurl: https://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png
 state: active
@@ -67,10 +67,10 @@ steps:
       img: ![Source](http://i.imgur.com/hYht3pb.png)
  - title: Export & Share
    sub-steps:
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](http://i.imgur.com/ff5feZ5.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](http://i.imgur.com/DpJJbQP.png)"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bar Chart Online with Plotly and Excel
-subtitle: Bar charts with Plotly
+title: Make a Bar Chart Online with Chart Studio and Excel
+subtitle: Bar charts with Chart Studio
 permalink: /excel/bar-chart/
 imageurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 state: active
@@ -84,10 +84,10 @@ steps:
       img: "![Legend popover background color](/static/images/bar-chart-with-excel/legend-background-color.png)"
  - title: Export and Share
    sub-steps:
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/export-bubble-map.png)"
     - copy: "Your finished chart should look something like this"
       img: "![Bar chart](/static/images/bar-chart-with-excel/finished-bar-chart.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](/static/images/bar-chart-with-excel/chart-in-excel.png)"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Time Series (with Error Bars) Online with Plotly and Excel
-subtitle: Time Series Charts with Plotly
+title: Make a Time Series (with Error Bars) Online with Chart Studio and Excel
+subtitle: Time Series Charts with Chart Studio
 permalink: /excel/time-series/
 imageurl: https://images.plot.ly/excel/time-series-with-error-bars/thumb-time-series-in-excel-2.jpg
 state: active
@@ -53,8 +53,8 @@ steps:
    sub-steps:
     - copy: "The final chart should look like the one below."
       img: "![Final Chart](https://images.plot.ly/excel/time-series-with-error-bars/final-plot.jpg)"
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/time-series-with-error-bars/export-image.jpg)"
-    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Insert Plot in Excel](https://images.plot.ly/excel/time-series-with-error-bars/insert-time-series-plot-in-excel.jpg)"
 ---

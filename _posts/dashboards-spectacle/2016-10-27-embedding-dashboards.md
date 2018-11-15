@@ -1,23 +1,23 @@
 ---
 layout: tutorial-single_layout
-title: Embed Plotly Dashboards in a Website
-subtitle: How to Embed Plotly Dashboards
+title: Embed Chart Studio Dashboards in a Website
+subtitle: How to Embed Chart Studio Dashboards
 permalink: /embed-dashboards/
 imageurl: '../static/images/embed-plotly-graphs/embed thumb.png'
 state: active
 tags: dashboard
 order: 5
-meta_description: A tutorial on embedding Plotly dashboards in a website.
+meta_description: A tutorial on embedding Chart Studio dashboards in a website.
 popularity: featured
 carouselimageurl:
-actioncall: Embed Plotly Dashboards
+actioncall: Embed Chart Studio Dashboards
 
 otherlang:
 
 steps:
  - title: Create a Dashboard
    sub-steps:
-    - copy: "In addition to [embedding Plotly charts in a website](https://help.plot.ly/embed-graphs-in-websites/), users can embed [Plotly dashboards](https://plot.ly/dashboards-and-reports/) as well! First, create and save your dashboard at [https://plot.ly/dashboard/create/](https://plot.ly/dashboard/create/). For more information about getting started with dashboards, see: [https://help.plot.ly/create-a-dashboard/](https://help.plot.ly/create-a-dashboard/)."
+    - copy: "In addition to [embedding Chart Studio charts in a website](https://help.plot.ly/embed-graphs-in-websites/), users can embed [Chart Studio dashboards](https://plot.ly/dashboards-and-reports/) as well! First, create and save your dashboard at [https://plot.ly/dashboard/create/](https://plot.ly/dashboard/create/). For more information about getting started with dashboards, see: [https://help.plot.ly/create-a-dashboard/](https://help.plot.ly/create-a-dashboard/)."
     - img: "![Create a dashboard](../static/images/dashboards/create.png)"
 
  - title: Embed Dashboard

@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: LaTeX Typesetting Online with Plotly and Excel
-subtitle: LaTeX Typesetting with Plotly
+title: LaTeX Typesetting Online with Chart Studio and Excel
+subtitle: LaTeX Typesetting with Chart Studio
 permalink: /excel/LaTeX/
 imageurl: https://images.plot.ly/excel/latex-typesetting-excel/thum-latex-typesetting-in-excel.jpg
 state: active

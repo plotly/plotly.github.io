@@ -17,7 +17,7 @@ By default, these maps are downloaded from the public Mapbox API. If you are usi
 
 ### Configuring Chart Studio with Mapbox Atlas
 
-Connecting Mapbox Atlas to Plotly is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Chart Studio Enterprise with custom settings.
+Connecting Mapbox Atlas to Chart Studio is currently a beta feature. If you would like to run these products together, please reach out to our support team. You will need to configure your Mapbox Atlas server and your Chart Studio Enterprise with custom settings.
 
 Mapbox Atlas server is licensed and installed separately from Chart Studio Enterprise.
 

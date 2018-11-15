@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
 title: How to Make a Graph with Multiple Axes with Excel
-subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes with Plotly
+subtitle: A Step by Step Guide to Making a Graph with Multiple Y Axes with Chart Studio
 permalink: /excel/graph-with-multiple-axes/
 imageurl: https://images.plot.ly/excel/multiple-axes-excel/double-axes-chart-thumb.png
 state: active
 tags: excel
-meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace with Plotly and Excel. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
+meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace with Chart Studio and Excel. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Chart Studio.
 popularity: featured
 section: Layouts
 actioncall: Make a Graph with Mulitple Y Axes
@@ -55,10 +55,10 @@ steps:
    sub-steps:
     - copy: "You might notice that the y-axis is busy with grid lines. Open the AXES popover in the toolbar to clean this up. Select the y-axis and turn grid lines 'off.'"
       img: "![Grid lines](https://images.plot.ly/excel/multiple-axes-excel/grid-lines-multilple-y-axes.png)"
-    - copy: "You can adjust the coloring of the traces to your liking or roll with Plotly's defaults. Within the legend on the right side of the graph, you can label your 'line' trace 'Ratio male/female,' Col3 'female,' and Col1 'male.'"
+    - copy: "You can adjust the coloring of the traces to your liking or roll with Chart Studio's defaults. Within the legend on the right side of the graph, you can label your 'line' trace 'Ratio male/female,' Col3 'female,' and Col1 'male.'"
     - copy: "We’ve titled our chart. And we’ve linked to our source data in the x-axis label area."
       img: "![Final](https://images.plot.ly/excel/multiple-axes-excel/final-multiple-y-axes.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/multiple-axes-excel/excel-multiple-y-axes.png)"
 ---

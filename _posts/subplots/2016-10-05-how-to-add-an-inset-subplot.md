@@ -23,7 +23,7 @@ steps:
    sub-steps:
     - copy: "This feature allows you to add an inset plot to a main plot. This is great if you'd like to display related data, or highlight a portion of the main plot."
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
     - copy: "The first step is to head to Chart Studio's new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selections for a specific trace easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/inset import.png)"

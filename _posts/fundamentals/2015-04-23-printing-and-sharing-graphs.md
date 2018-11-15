@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/save-share-and-export-in-plotly/
 imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
 tags: plotly1
-meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Plotly. A step-by-step tutorial of how to save, download, and share Plotly graphs.
+meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Chart Studio. A step-by-step tutorial of how to save, download, and share Chart Studio graphs.
 actioncall: Make a Graph
 ---
 
@@ -34,7 +34,7 @@ The **Sharable Link** page provides you with either a private or public URL. Use
 
 ### Printing: Save and print.
 
-To print a Plotly graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace, then save it.
+To print a Chart Studio graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace, then save it.
 
 In your workspace, look for the **Export** button in the toolbar above your graph. To save time, you can use the keyboard shortcuts “Command-P” (Mac) and “Control-P” (PC). | ![Export button](/static/images/printing-and-sharing-graphs/export-button.png)
 

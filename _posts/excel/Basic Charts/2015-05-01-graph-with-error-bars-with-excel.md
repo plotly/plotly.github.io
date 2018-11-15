@@ -1,13 +1,13 @@
 ---
 layout: excel-tutorial-single_layout
-title: How to Make a Graph with Error Bars with Plotly and Excel
-subtitle: Error Bars with Plotly
+title: How to Make a Graph with Error Bars with Chart Studio and Excel
+subtitle: Error Bars with Chart Studio
 permalink: /excel/graph-with-error-bars/
 imageurl: https://images.plot.ly/excel/graph-with-error-bars/thum-graph-with-error-bars-with-excel.jpg
 state: active
 tags: excel
 section: Statistical
-meta_description: A tutorial on how to make a graph with error bars with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a graph with error bars with Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: featured
 actioncall-url: https://plot.ly/804/~tarzzz/
 download-url: https://www.dropbox.com/s/yv3k05g5yl0rc47/Data.xls?raw=1
@@ -60,8 +60,8 @@ steps:
    sub-steps:
     - copy: "The final chart should look like the one below."
       img: "![Final Chart](https://images.plot.ly/excel/graph-with-error-bars/final-chart.jpg)"
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/graph-with-error-bars/export-image.jpg)"
-    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Insert Plot in Excel](https://images.plot.ly/excel/graph-with-error-bars/insert-chart-in-excel.jpg)"
 ---

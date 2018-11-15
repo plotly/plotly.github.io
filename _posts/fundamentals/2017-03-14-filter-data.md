@@ -23,10 +23,10 @@ steps:
 
  - title: Try an Example
    sub-steps:
-    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
     - copy: "For this tutorial, copy the meteorite dataset URL https://raw.githubusercontent.com/bcdunbar/datasets/master/meteorites_subset.csv and head to Chart Studio's new online [workspace](https://plot.ly/create) and add your data by entering the meteorite URL."
     - copy: "If you decide to try another dataset, keep in mind that Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."

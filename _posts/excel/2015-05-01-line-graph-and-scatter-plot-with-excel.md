@@ -1,12 +1,12 @@
 ---
 layout: single
 title: How to Make a Line and Scatter Plot with Excel
-subtitle: Plotly with Excel
+subtitle: Chart Studio with Excel
 permalink: /excel/line-graph-and-scatter-plot/
 imageurl: /static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make line graphs and scatter plots with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make line graphs and scatter plots with Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: make a like and scatter plot
 ---
 
@@ -176,7 +176,7 @@ We’re hiding our legend in the LEGEND popover.
 </tr>
 <tr>
 <td>
-You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Plotly graph by clicking DOWNLOAD on the toolbar.
+You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the blue "Share" button. Download an image of your Chart Studio graph by clicking DOWNLOAD on the toolbar.
 </td>
 <td>
 <img alt="How to make a line graph and scatter plot with excel 23" src="/static/images/line-graph-and-scatter-plot-with-excel/image23.png" title=""/>
@@ -193,7 +193,7 @@ Your finished chart should look something like this.
 </tr>
 <tr>
 <td>
-To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in theILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in theILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version.
 </td>
 <td>
 <img alt="How to make a line graph and scatter plot with excel 21" src="/static/images/line-graph-and-scatter-plot-with-excel/image21.png" title=""/>

@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: Axes Properties
-subtitle: A Guide to Axes Properties with Plotly
+subtitle: A Guide to Axes Properties with Chart Studio
 permalink: /axes/
 imageurl: ../static/images/misc-tutorial-images/axes thumb.png
 state: active
@@ -10,7 +10,7 @@ order: 5
 meta_description: Learn axes properties using the Plotly online visualization tool.
 popularity: featured
 actioncall: make a chart
-actioncall-url: 
+actioncall-url:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/axes/) or [R](https://plot.ly/r/axes/).
 
@@ -29,7 +29,7 @@ steps:
       img: "![Changing range](../static/images/misc-tutorial-images/y value range.gif)"
 
  - title: Reverse Axis
-   sub-steps:      
+   sub-steps:
     - copy: "Reversing the axis is so easy; just flip the 'Min' and 'Max' values. The animated image below shows that when we switch the 'Min' and 'Max' values, the axis is reversed."
       img: "![Reverse](../static/images/misc-tutorial-images/reverse axis.gif)"
 
@@ -44,7 +44,7 @@ steps:
     - copy: "The tick labels reflect column values that were selected in your trace(s)."
       img: "![Tick labels](../static/images/misc-tutorial-images/x axis tick labels.png)"
     - copy: "You have the option of showing these labels or hiding them. Go to 'Axes', then 'Tick Labels' and depending on the axis you want to change, select X, Y, or 'ALL'. The default is 'SHOW' but click 'Hide' if you don't wish to display them."
-      img: "![Hide or show tick labels](../static/images/misc-tutorial-images/tick labels.gif)"                        
+      img: "![Hide or show tick labels](../static/images/misc-tutorial-images/tick labels.gif)"
 
  - title: Tick Text
    sub-steps:
@@ -58,7 +58,7 @@ steps:
     - copy: "Once you've selected or entered a prefix or suffix, click the icon next to 'Label Positioning'."
     - copy: "A modal will open with a few selections. You can place the prefix or suffix for the first or last tick label, all ticks, or none."
       img: "![Label positioning](../static/images/misc-tutorial-images/label positioning.gif)"
-    
+
  - title: Customize Number of Tick Markers
    sub-steps:
     - copy: "To set the number of ticks, go to 'Axes', and select the number from either 'Tick Labels' or 'Tick Markers'. The markers are hidden under 'Tick Markers' by default, so click 'Inside or 'Outside' to view the options. You can set them as 'Linear' or 'Custom' in the same section."
@@ -67,14 +67,14 @@ steps:
     - copy: "When you work with date or time series plots, you have to convert the date for the step size
   and set offset. Let's say you set ticks on the 15th of every third month, set the 'Step Size' to '2000-01-15' and 'Step Offset' to 'M3'. To set ticks every 4 years, set it to 'M48'. Our plot display our data every year, so it's been set to 'M12'. For more information, visit [this](http://help.plot.ly/make-a-time-series-graph/) page."
       img: "![Linear tick markers](../static/images/misc-tutorial-images/linear tick markers.png)"
-      
+
  - title: Axis Width
    sub-steps:
     - copy: "Your axis width can be adjusted by going to 'Axes', then Layout'. Use the arrows to adjust the start and end position, or type the percentage in the empty field."
       img: "![Axis width](../static/images/misc-tutorial-images/axis width.gif)"
-      
- - title: Axis Positioning 
+
+ - title: Axis Positioning
    sub-steps:
     - copy: "The axis can also be repositioned and anchored. The x-axis can stay at the bottom or be moved to the top, and the y-axis can be moved to the left or right. If left 'Unanchored', they can be positioned vertically or horizontally by adjusting the percentage."
-      img: "![Axis positioning](../static/images/misc-tutorial-images/axis positioning.gif)" 
----   
+      img: "![Axis positioning](../static/images/misc-tutorial-images/axis positioning.gif)"
+---

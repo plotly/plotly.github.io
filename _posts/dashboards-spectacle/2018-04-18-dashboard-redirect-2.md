@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title:  How to Create Plotly Dashboards
+title:  How to Create Chart Studio Dashboards
 subtitle: Build beautiful web-based interfaces in Python
 permalink: /dashboards
 redirect_to:

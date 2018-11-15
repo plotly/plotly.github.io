@@ -12,7 +12,7 @@ When adding a tutorial, its important to make a high-quality thumbnail image for
 
 - Thumbnail images should be at least 677 px X 300 px.
 - Partial screenshots of an interesting part of the chart are usually better thumbnails that trying to screenshot the entire thing.
-- The thumbnail image has to be the same chart type as the tutorial BUT NOT NECESSARILY THE SAME CHART. Use the Plotly feed, blog, and Google Image search of Plotly charts to find the best screenshot for your thumbnail.
+- The thumbnail image has to be the same chart type as the tutorial BUT NOT NECESSARILY THE SAME CHART. Use the Plotly feed, blog, and Google Image search of Chart Studio charts to find the best screenshot for your thumbnail.
 - Thumbnail images should be CLEAN and not have too much text in them. Look at the Python docs thumbnail images for inspiration.
 
 ### All Images
@@ -99,8 +99,8 @@ https://plot.ly/python/choropleth-maps/
 ## 5. Meta Tag Reference
 
 - layout: Should always be "excel-tutorial-single_layout"
-- title: Make a [type of chart] Online with Plotly and Excel
-- subtitle [type of chart] with Plotly
+- title: Make a [type of chart] Online with Chart Studio and Excel
+- subtitle [type of chart] with Chart Studio
 - permalink: /excel/[type-of-chart]. **NEW TUTORIALS SHOULD ALWAYS MATCH URLs EXACTLY OF PYTHON DOCS:** https://plot.ly/python/
 - imageurl: See section below on adding thumbnail images
 - state: active or inactive. Set to inactive for unfinished tutorials
@@ -112,7 +112,7 @@ https://plot.ly/python/choropleth-maps/
   - 3D Charts
   - Layouts
   - Dashboards
-- meta_description: How to make a [chart type] online with Plotly and Excel data. [Add another more descriptive sentence here about the tutorial]
+- meta_description: How to make a [chart type] online with Chart Studio and Excel data. [Add another more descriptive sentence here about the tutorial]
 - popularity: Should always be featured
 actioncall-url: **SHOULD ALWAYS LINK TO THE PLOTLY GRID IN THE WORKSPACE THAT IS AT THE START OF THE TUTORIAL** Example:
   - https://plot.ly/15084/~jackp/

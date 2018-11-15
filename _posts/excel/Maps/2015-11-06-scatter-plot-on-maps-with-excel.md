@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Scatter Plot on a Map with Plotly and Excel
-subtitle: Scatter Plots on Maps with Plotly
+title: Make a Scatter Plot on a Map with Chart Studio and Excel
+subtitle: Scatter Plots on Maps with Chart Studio
 permalink: /excel/scatter-plots-on-maps/
 imageurl: https://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a scatter plot on a map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a scatter plot on a map with Chart Studio and Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: featured
 section: Maps
 actioncall-url: https://plot.ly/15122/~jackp/?plot_type=Scatter%20map
@@ -50,8 +50,8 @@ steps:
    sub-steps:
     - copy: "We’ve titled our chart. You can too. We came up with 'Most Trafficked U.S. Airports.' Below that, we've specified that the hover text represents the number of arriving flights in Feb. 2011."
       img: "![Title](https://images.plot.ly/excel/scatter-plot-on-a-map/title-scatter-plot-on-a-map.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/scatter-plot-on-a-map/export-scatter-plot-on-a-map.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/scatter-plot-on-a-map/excel-scatter-plot-on-a-map.png)"
 ---

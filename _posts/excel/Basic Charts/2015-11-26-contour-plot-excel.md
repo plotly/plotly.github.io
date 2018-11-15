@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Contour Plot Online with Plotly and Excel
-subtitle: Contour Plots with Plotly
+title: Make a Contour Plot Online with Chart Studio and Excel
+subtitle: Contour Plots with Chart Studio
 permalink: /excel/contour-plots/
 imageurl: https://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg
 state: active
@@ -54,8 +54,8 @@ steps:
       img: "![Final Plot](https://images.plot.ly/excel/contour-plots/thumb-contour-plot-in-excel.jpg)"
  - title: Export & Share
    sub-steps:
-    - copy: "You can also export a static image of your plotly graph. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can also export a static image of your plotly graph. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/contour-plots/export-image.jpg)"
-    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it."
+    - copy: "To add the chart inside an excel sheet, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it."
       img: "![Plot in Excel](https://images.plot.ly/excel/contour-plots/excel-contour-plot.jpg)"
 ---

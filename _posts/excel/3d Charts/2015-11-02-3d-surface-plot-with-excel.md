@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a 3D Surface Plot Online with Plotly and Excel
-subtitle: 3D Surface Plots with Plotly
+title: Make a 3D Surface Plot Online with Chart Studio and Excel
+subtitle: 3D Surface Plots with Chart Studio
 permalink: /excel/3d-surface/
 redirect_from: /excel/3d-surface-plot/
 imageurl: https://images.plot.ly/excel/3d-surface-plot-with-excel/thumb-surface-plot-with-excel.png
@@ -73,6 +73,6 @@ steps:
       img: "![Finished Plot](https://images.plot.ly/excel/3d-surface-plot-with-excel/3d-surface-plot-with-excel-final.png)"
     - copy: "You can export the finished plot to embed in the excel notebook. We also recommend adding the Plotly link to the excel for easy access to the interactive version. To get the link to the chart, click on the 'Share' button. To export the chart, as an image, click on 'EXPORT' button on the toolbar."
       img: "![Share Button](https://images.plot.ly/excel/3d-surface-plot-with-excel/export-3d-surface-chart.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it:"
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it:"
       img: "![Excel](https://images.plot.ly/excel/3d-surface-plot-with-excel/excel-3d-surface-plot.png)"
 ---

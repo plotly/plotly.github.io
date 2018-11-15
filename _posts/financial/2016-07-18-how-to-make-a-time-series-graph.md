@@ -24,7 +24,7 @@ steps:
     - copy: "A time series graph is a great way to evaluate patterns and behavior in data over time."
     - copy: "After selecting 'Line plot' under 'Chart Type', you can check out an example before adding your own data. Clicking the 'try an example' button will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/time-series/try-an-example-time-series.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Data
@@ -49,7 +49,7 @@ steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the color of your lines, the line thickness and line type, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Color panel](../static/images/time-series/style-color.png)"
-    - copy: "Right below that color section is 'Values Shown on Hover'. Plotly is all about interative charts, and although the x-axis shows only the year, you can hover over the plot to see the values of each month. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', or 'Name'."
+    - copy: "Right below that color section is 'Values Shown on Hover'. Chart Studio is all about interative charts, and although the x-axis shows only the year, you can hover over the plot to see the values of each month. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', or 'Name'."
       img: "![Hover values](../static/images/time-series/style-values-on-hover.png)"
     - copy: "Now, lets style the Axes. Navigate to'Axes' under STYLE and then select the 'Tick Labels' panel. Here, select 'Custom' in the same section, and enter the number of markers you want to show on your plot."
       img: "![Hover values](../static/images/time-series/style-tick-labels.png)"

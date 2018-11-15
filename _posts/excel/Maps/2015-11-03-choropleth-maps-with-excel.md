@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Choropleth Map with Plotly and Excel
-subtitle: Choropleth Maps with Plotly
+title: Make a Choropleth Map with Chart Studio and Excel
+subtitle: Choropleth Maps with Chart Studio
 permalink: /excel/choropleth-maps/
 imageurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a choropleth map with Plotly and Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a choropleth map with Chart Studio and Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: featured
 section: Maps
 actioncall-url: https://plot.ly/15115/~jackp/?plot_type=Choropleth%20map
@@ -47,8 +47,8 @@ steps:
    sub-steps:
     - copy: "We’ve titled our chart. You can too. We came up with '2011 U.S. Agriculture Exports by State.' Also, you can title your color bar. It is in 'Millions of USD.'"
       img: "![Title](https://images.plot.ly/excel/choropleth-maps/title-choropleth-map.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/choropleth-maps/export-choropleth-map.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Plotly version."
       img: "![Excel](https://images.plot.ly/excel/choropleth-maps/excel-choropleth-map.png)"
 ---
