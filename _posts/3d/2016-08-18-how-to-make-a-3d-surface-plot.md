@@ -48,10 +48,12 @@ steps:
       img: "![Type directly title](../static/images/3D-surface-plot/3D-surface-title-direct.png)"
     - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the 3D surface such as the colorscale, lighting effects and its position, and hoverinfo."
       img: "![Trace Properties](../static/images/3D-surface-plot/3D-surface-properties.png)"
-    - copy: "To change the colorscale of the traces, click on the current colorscale next to the attribute 'Colorscale' which will display the available colorscale types in the dropdown menu and the corresponding colorscales (premade) available for that type. Then choose the desired colorscale. To reverse the chosen colorscale, set the 'Orientation' attribute to 'Reversed', as seen below."
+    - copy: "To change the colorscale of the traces, click on the current colorscale next to the attribute 'Colorscale' which will display the available colorscale types within the dropdown menu and the corresponding preset colorscales that are available under that type. Then choose the desired colorscale. To reverse the chosen colorscale, set the 'Orientation' attribute to 'Reversed', as seen below.."
       img: "![Color main](../static/images/3D-surface-plot/3D-surface-colorscale.png)"
-    - copy: "Additionally, to show/hide the color bar, set the desired option next to the attribute 'Color Bar'. Use the attibute 'Colorscale' to define the colorscale range for the 3D surface. Additionally, to hide/show the colorbar, click the desired option next to the attribute 'Color Bar' under the same panel."
+    - copy: "Additionally, to show/hide the color bar, set the desired option next to the attribute 'Color Bar'. Use the 'Color Bar' section under the 'Style' menu, to change the size and positioning of the color bar."
       img: "![Color main](../static/images/3D-surface-plot/3D-surface-colorbar.png)"
+    - copy: "To change the axes tile, go to the 'Axes' section under the 'Style' menu and type the title text within the textbox provided under the 'Title' property for each axis."
+      img: "![Axes title](../static/images/3D-surface-plot/3D-surface-axes.png)"
 
  - title: Save and Share
    sub-steps:
