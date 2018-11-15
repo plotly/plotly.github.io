@@ -11,11 +11,11 @@ meta_description: A tutorial on how to make a candlestick chart in Chart Studio.
 popularity: featured
 carouselimageurl:
 actioncall: How to make a candlestick chart in Chart Studio
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo:309
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:449
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/candlestick-charts/) or [R](https://plot.ly/r/candlestick-charts/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/309.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/449.embed"></iframe>
 live-graph-image:
 
 steps:
