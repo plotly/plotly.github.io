@@ -29,7 +29,7 @@ steps:
 
  - title: Add Your Data to Plotly
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
@@ -49,14 +49,14 @@ steps:
     - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the scatter trace such as the marker (points) symbol, color or size, hoverinfo and error bars."
       img: "![Trace Properties](../static/images/3D-scatter-plots/3D-scatter-properties.png)"
     - copy: "To change the color of the traces, choose either the option 'Constant' or 'Variable'."
-    - copy: "If 'Constant' is chosen, all the points of the trace are colored in same color. Then choose the color by clicking on the color palette."
+    - copy: "If 'Constant' is chosen, all the points of the trace are colored in the same color. Then choose the color by clicking on the color palette."
       img: "![Color Palette](../static/images/3D-scatter-plots/3D-scatter-color-palette.png)"
     - copy: " If 'Variable' is chosen, each point in the trace is colored according to the data specified. Then choose the desired colorscale from the respective dropdown menu. In this plot, the option 'Variable' is chosen, as seen below."
       img: "![Color main](../static/images/3D-scatter-plots/3D-scatter-colorscale.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+    - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
       img: "![Save main](../static/images/3D-scatter-plots/3D-scatter-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
