@@ -23,7 +23,7 @@ meta_description: How to sign up to Plotly. Plotly is the easiest way to make an
       <a class="link--impt" href="https://plot.ly/">
        plot.ly
       </a>
-      and click the "LOG IN" button on the top right corner of the webpage.
+      and click the "LOG IN" button in the top right corner of the webpage.
     </td>
     <td>
        <img alt="How to sign up to plotly 00" src="/static/images/how-to-sign-up-to-plotly/plotly_page.png" title=""/>
@@ -36,11 +36,11 @@ meta_description: How to sign up to Plotly. Plotly is the easiest way to make an
   <tbody>
    <tr>
     <td>
-      Switch to "SIGN UP" tab in the modal that appears and fill in your email address, desired username, and the password. 
+      Switch to the "SIGN UP" tab in the modal that appears and fill in your email address, desired username, and the password. 
       <p >
       - Please note that the username cannot be modified once the account is created.
       </p>
-      After filling the credentials, click on the "SIGN UP" button.
+      After filling in the credentials, click on the "SIGN UP" button.
       <p >
       - You can also sign up using Facebook, Twitter, GitHub or Google+.
       </p>
@@ -81,7 +81,7 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       <a class="link--impt" href="http://help.plot.ly/">
        help.plot.ly
       </a>
-      to check out tutorials on how to use the Chart Studio.
+      to check out tutorials on how to use Chart Studio.
     </td>
     <td>
        <img alt="How to sign up to plotly 02" src="/static/images/how-to-sign-up-to-plotly/help_homepage.png" title=""/>
