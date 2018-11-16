@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: OHLC Charts in Chart Studio
-subtitle: A type of chart that shows the open, high, low and close price of financial dataover a certain period of time.
+subtitle: A type of chart that shows the open, high, low and close price of financial data over a certain period of time.
 permalink: /make-a-ohlc/
 imageurl: ../static/images/ohlc-chart/thumbnail.png
 state: active
