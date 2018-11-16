@@ -32,9 +32,9 @@ actioncall: Make a chart
 </div>
 
 
-<p>Download the chart above made in Python to Excel, simply by appending <code>.xls</code> or <code>.csv</code> to the chart URL. Plotly lets you easily share data and charts between different languages and platforms.</p>
+<p>Download the chart above made in Python to Excel, simply by appending <code>.xls</code> or <code>.csv</code> to the chart URL. Chart Studio lets you easily share data and charts between different languages and platforms.</p>
 
 <p style="text-align:center;">
-    <a class="button btn-large" href="https://plot.ly/python/">Get started with Plotly for Python</a>
-    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Plotly for Excel</a></p>
+    <a class="button btn-large" href="https://plot.ly/python/">Get started with Plotly's Python Open Source Graphing Library</a>
+    <a class="button btn-large" href="http://help.plot.ly/excel/">Get started with Chart Studio for Excel</a></p>
 </div>
