@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/save-share-and-export-in-plotly/
 imageurl: /static/images/printing-and-sharing-graphs/thum-printing-and-sharing-graphs.png
 state: active
 tags: plotly1
-meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Plotly. A step-by-step tutorial of how to save, download, and share Plotly graphs.
+meta_description: Beautiful and publication ready graphs are easy to make, share, and print with Chart Studio. A step-by-step tutorial of how to save, download, and share Chart Studio graphs.
 actioncall: Make a Graph
 ---
 
@@ -18,7 +18,7 @@ actioncall: Make a Graph
     <script data-plotly="abtran:14" src="https://plot.ly/embed.js" async></script>
 </div>
 
-At Plotly, we love sharing. It’s easy to share or print a Plotly chart. Here’s how.
+At Chart Studio, we love sharing. It’s easy to share or print a Chart Studio chart. Here’s how.
 
 ### Sharing: Direct link, facebook, and more
 
@@ -28,13 +28,13 @@ To share from the Organize tab, click the Share button as indicated. | ![Share b
 
 To share from a plot in the Workspace, click the Share button as indicated. | ![Share from Workspace](/static/images/printing-and-sharing-graphs/sharing-from-workspace.png)
 
-In the **Share Plot** popover you can set your graph to be public or private. You can read more about what this means on our <a href="http://help.plot.ly/how-sharing-works-in-plotly/">How Sharing Works</a> page. The **Collaborators** page lets you share with specific email addresses and Plotly users. | ![Collaborators page](/static/images/printing-and-sharing-graphs/collaborators.png)
+In the **Share Plot** popover you can set your graph to be public or private. You can read more about what this means on our <a href="http://help.plot.ly/how-sharing-works-in-plotly/">How Sharing Works</a> page. The **Collaborators** page lets you share with specific email addresses and Chart Studio users. | ![Collaborators page](/static/images/printing-and-sharing-graphs/collaborators.png)
 
 The **Sharable Link** page provides you with either a private or public URL. Users you assign as collaborators can edit your graphs with you. You can do this with both public and private graphs. | ![Sharable link](/static/images/printing-and-sharing-graphs/sharable-link.png)
 
 ### Printing: Save and print.
 
-To print a Plotly graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace, then save it.
+To print a Chart Studio graph, we recommend you save the graph to your computer, and then print. If you want to print someone else’s graph, you can “fork and edit” the graph into your own workspace, then save it.
 
 In your workspace, look for the **Export** button in the toolbar above your graph. To save time, you can use the keyboard shortcuts “Command-P” (Mac) and “Control-P” (PC). | ![Export button](/static/images/printing-and-sharing-graphs/export-button.png)
 

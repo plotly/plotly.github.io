@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Zoom, Pan, and Hover Controls in Plotly Graphs
+title: Zoom, Pan, and Hover Controls in Chart Studio Graphs
 subtitle: Zoom, Pan, and Hover Controls in Three Short Videos
 permalink: /zoom-pan-hover-controls/
 imageurl: /static/images/zoom-pan-hover/zoom.png
@@ -8,18 +8,18 @@ state: active
 tags: fundamentals
 section: fundamentals
 order: 7
-meta_description: Zoom, pan, and hover controls. Plotly let's you create interactive charts online, and for free, using our web app, MATLAB, Python, or R.
+meta_description: Zoom, pan, and hover controls. Chart Studio let's you create interactive charts online, and for free, using our web app, MATLAB, Python, or R.
 actioncall: Make a graph
 ---
 
-# Zoom, Pan, and Hover Controls in Plotly Graphs
+# Zoom, Pan, and Hover Controls in Chart Studio Graphs
 
 <div>
     <a href="https://plot.ly/~Dreamshot/628" target="_blank" title="Climate Change Attribution" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/628.png" alt="Climate Change Attribution" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="Dreamshot:628" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Plotly offers free, online tools for analyzing data and making graphs. You can bring your graphing and data analysis to the next level with zoom, pan, and hover.
+Chart Studio offers free, online tools for analyzing data and making graphs. You can bring your graphing and data analysis to the next level with zoom, pan, and hover.
 
 In this guide, we'll show you how to
 

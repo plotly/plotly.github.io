@@ -16,7 +16,7 @@ meta_description: Free PDF download of printable graph paper, available in diffe
 [Letter (8.5&#8243; x 11&#8243;) &#8211; 5mm grid](https://plot.ly/static/pdf/graphpaper_5mm.pdf) | [A4 (8.27&#8243; x 11.69&#8243;) &#8211; 5mm grid](https://plot.ly/static/pdf/graphpaper_a4_5mm.pdf)
 [Letter (8.5&#8243; x 11&#8243;) &#8211; 1/4&#8243; grid](https://plot.ly/static/pdf/graphpaper_1-4.pdf) | [A4 (8.27&#8243; x 11.69&#8243;) &#8211; 1/4&#8243; grid](https://plot.ly/static/pdf/graphpaper_a4_1-4.pdf)
 
-### Plotly lets you analyze and graph your data online
+### Chart Studio lets you analyze and graph your data online
 Get started now! Check out this [tutorial](https://plot.ly/how-to-create-a-line-of-best-fits/) on how to make a line of best fit!
 
 <div>
