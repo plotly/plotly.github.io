@@ -33,17 +33,17 @@ Connect the lines you've drawn. This box plot is starting to look more boxy...
 
 #### The Whiskers
 
-Every box plot has lines at Q1, the median, and Q3. The other major feature of a box plot is its  **whiskers**, which can be drawn using a few different methods. Plotly offers three methods, which you can switch between under Style &rarr; Show Points.
+Every box plot has lines at Q1, the median, and Q3. The other major feature of a box plot is its  **whiskers**, which can be drawn using a few different methods. Chart Studio offers three methods, which you can switch between under Style &rarr; Show Points.
 
 ##### Whiskers With All Points Visible
 
-To draw the whiskers when all points are displayed, Plotly first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier **). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
+To draw the whiskers when all points are displayed, Chart Studio first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier **). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig4b.jpg" id = "boxplotfig4" width = "588.4" height = "197.99" />
 
 ##### Whiskers With Only Outliers Visible
 
-If you ask Plotly to only display outliers, the whiskers remain in the same spot, but only the outlier points are drawn. This is a common view for box plots. In the example below, even though most of the points aren't drawn, we still know quite a bit about this data set. How might you describe it, just from the box, whiskers, and outliers? Often this display gives us all the information we need, and showing every single point would be distracting.
+If you ask Chart Studio to only display outliers, the whiskers remain in the same spot, but only the outlier points are drawn. This is a common view for box plots. In the example below, even though most of the points aren't drawn, we still know quite a bit about this data set. How might you describe it, just from the box, whiskers, and outliers? Often this display gives us all the information we need, and showing every single point would be distracting.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig5a.jpg" id = "boxplotfig5" width = "538.19" height = "145.73" />
 
@@ -57,7 +57,7 @@ You can also show no data points at all on a box plot. In this case, the whisker
 
 ##### Too Many Points: Jitter
 
-Sometimes when viewing all data, the points become stacked on top of each other and it's difficult to see their individual values. In this case, the points can be "jittered" in Plotly, or moved away from the number line a random distance between 0 and a value of your choosing.
+Sometimes when viewing all data, the points become stacked on top of each other and it's difficult to see their individual values. In this case, the points can be "jittered" in Chart Studio, or moved away from the number line a random distance between 0 and a value of your choosing.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig11.jpg" id = "boxplotfig11" width = "504.52" height = "145.73" />
 
@@ -65,13 +65,13 @@ You might also need to jitter the points if values are not continuous, but fall 
 
 ##### Two Types of Outliers
 
-When in "Outlier" mode, Plotly makes a distinction between two types of outliers:  **outliers** are more than 3 &#215; IQR above Q3 or below Q1, and are represented by a <em>filled</em> circle.  **Suspected outliers** are more than 1.5 IQR but less than 3 IQR above Q3 or below Q1 and are represented by an <em>open</em> circle, as shown below.
+When in "Outlier" mode, Chart Studio makes a distinction between two types of outliers:  **outliers** are more than 3 &#215; IQR above Q3 or below Q1, and are represented by a <em>filled</em> circle.  **Suspected outliers** are more than 1.5 IQR but less than 3 IQR above Q3 or below Q1 and are represented by an <em>open</em> circle, as shown below.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig8b.jpg" id = "boxplotfig8" width = "600" height = "234.24" />
 
 ### How to Read a Box plot
 
-First of all, while it was useful thinking of bo xplot data as lying on a number line, it's more common to see box plots rotated vertically (this is how Plotly displays them).
+First of all, while it was useful thinking of bo xplot data as lying on a number line, it's more common to see box plots rotated vertically (this is how Chart Studio displays them).
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig7.jpg" id = "boxplotfig7" width = "515.08" height = "515.08" />
 
@@ -116,7 +116,7 @@ You should also make sure that the data in each series follows some guidelines:
 * Box plots should not be constructed for very small data sets. A data set with only three points in it, for example, shouldn't logically be divided into four quartiles. In these cases, you can just graph the data as a scatterplot, without any boxes.
 * Usually, different trials should contain the same total number of data points. If one set is much larger than another, for example, it has a larger chance of containing random outliers. Someone looking at your box plot and seeing one series with five or six outliers, and no outliers elsewhere, might draw incorrect conclusions.
 
-##### Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
+##### Questions? Please try searching Chart Studio’s <a href="http://community.plot.ly/">community forum</a>.
 
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>

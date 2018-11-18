@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-3d-line-plot/
 imageurl: /static/images/line-graph3d/line-graph3d.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a 3d chart online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a 3d chart online. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a 3D Line Graph
 ---
 
@@ -28,13 +28,13 @@ Three-dimensional line graphs are often used by mathematicians and scientists to
 
 We’re going to set up the grid with three columns of data, each representing one of the functions of $ t $ above. If you want a shortcut, you can find the data at: [https://plot.ly/~mariahh/71.](https://plot.ly/~mariahh/71)
 
-To start, visit the Plotly workspace at [https://plot.ly/plotSelect](https://plot.ly/plot) +NEW, and then Grid. | ![How to make a 3d line chart online](/static/images/line-graph3d/image10.png)
+To start, visit the Chart Studio workspace at [https://plot.ly/plotSelect](https://plot.ly/plot) +NEW, and then Grid. | ![How to make a 3d line chart online](/static/images/line-graph3d/image10.png)
 Select 3d line plots from the MAKE A PLOT menu.The instructions in the sidebar explain the structure of the data we will need to produce. | ![How to make a 3d line chart online](/static/images/line-graph3d/image05.png)
 First, we will generate the $ z(t)=t $ values using the *Generate x-values* option in the DATA TOOLS menu. | ![How to make a 3d line chart online](/static/images/line-graph3d/image04.png)
 We’re going to plot two periods of the helix. Since the helix described above has period $ t $ values between 0 and ~12.57. We generate 200 values. | ![How to make a 3d line chart online](/static/images/line-graph3d/image09.png)
 We can rename the column of data by clicking on the arrow next to the title “Linear scale”. Select Rename, and type in the label for your column. | ![How to make a 3d line chart online](/static/images/line-graph3d/image02.png)
-To generate values for $ y(t) $, we will again use Plotly’s built-in data tools. From the DATA TOOLS menu, select *Formulas f(x)*.| ![How to make a 3d line chart online](/static/images/line-graph3d/image01.png)
-To generate the values for $ x=t $. To tell Plotly which values we want to apply the cosine function to, we select choose as x just below the label “t” in the first column of the grid.Click *Run* in the Formulas f(x)sidebar to generate the $ x(t) $ values.We follow the same steps to produce the values for $ \sin(x) $ in the sidebar. | ![How to make a 3d line chart online](/static/images/line-graph3d/image01.png)
+To generate values for $ y(t) $, we will again use Chart Studio’s built-in data tools. From the DATA TOOLS menu, select *Formulas f(x)*.| ![How to make a 3d line chart online](/static/images/line-graph3d/image01.png)
+To generate the values for $ x=t $. To tell Chart Studio which values we want to apply the cosine function to, we select choose as x just below the label “t” in the first column of the grid.Click *Run* in the Formulas f(x)sidebar to generate the $ x(t) $ values.We follow the same steps to produce the values for $ \sin(x) $ in the sidebar. | ![How to make a 3d line chart online](/static/images/line-graph3d/image01.png)
 Finally, select 3d line plots from the MAKE A PLOT menu. Choose the column “t” as z, column “sin(t)” as y, and “cos(t)” as x.Click the blue button in the sidebar to create the plot. | ![How to make a 3d line chart online](/static/images/line-graph3d/image07.png)
 
 ### Step 2: Style it

@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/multiple-y-axes/
 imageurl: /static/images/multiple-y-axes/thum-multiple-y-axes.png
 state: active
 tags: plotly1
-meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Plotly.
+meta_description: Create a graph with 2 or more traces, with a separate y-axis for each trace. Follow our step-by-step tutorial to make a multiple axes graph for free and online with Chart Studio.
 actioncall: Make a Graph with Mulitple Y Axes
 ---
 
@@ -22,13 +22,13 @@ In this tutorial, you will learn how to make multiple-axes charts, like the one 
 
 ### Step 1: Create a graph with multiple traces
 
-Create a Plotly graph or open a graph with 2 or more traces, like the one to the right. We will create a separate y-axis for each of these 3 traces. You can follow along by using this Plotly graph: [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image06.png)
+Create a Chart Studio graph or open a graph with 2 or more traces, like the one to the right. We will create a separate y-axis for each of these 3 traces. You can follow along by using this Chart Studio graph: [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image06.png)
 
 ### Step 2: Adding a second y-axis
 
 Now, we’ll add a second y-axis to the right-hand-side of this plot. Make sure that your browser is pointed to [https://plot.ly/plot](https://plot.ly/plot) and that you have this chart &#8211; [https://plot.ly/~Dreamshot/575](https://plot.ly/~Dreamshot/575) &#8211; or another one open for editing.
 
-Click on the AXES icon on the Plotly toolbar to open the AXES editing popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
+Click on the AXES icon on the Chart Studio toolbar to open the AXES editing popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
 
 The AXES popover appears. Here’s what it looks like. Click on the “+” to add a new axis. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image10.png)
 
@@ -40,7 +40,7 @@ Close the AXES popover and take a look at our chart &#8211; It now has a second 
 
 High five! You’ve created a second y-axis (on the right), but all three of the data traces still scale with the first y-axis (on the left). What gives? This is because all three traces are still assigned to the first y-axis. You need to assign a trace to the new y-axis in order for its data to scale with it &#8211; the steps below show you how.
 
-First, click on the TRACES icon on the Plotly toolbar to open the TRACES popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
+First, click on the TRACES icon on the Chart Studio toolbar to open the TRACES popover. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image11.png)
 Select the green trace from the traces dropdown. Then, click “Y2” under “Axes” to assign the green trace to the new y-axis. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image08.png)
 Close the AXES popover to inspect your chart. Notice that the green trace now scales with second y-axis on the right-hand-side. | ![How to make a graph with multiple axes online](/static/images/multiple-y-axes/image00.png)
 

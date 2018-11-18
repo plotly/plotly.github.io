@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/add-data-to-the-plotly-grid/
 imageurl: /static/images/enter-data-in-the-grid/thum-enter-data-in-the-grid.png
 state: active
 tags: plotly1
-meta_description: A step-by-step tutorial on how to enter data in Plotly for easy, online graphing. Upload data from your computer, import from Google Drive, or import from Dropbox.
+meta_description: A step-by-step tutorial on how to enter data in Chart Studio for easy, online graphing. Upload data from your computer, import from Google Drive, or import from Dropbox.
 actioncall: Make a Graph
 ---
 
@@ -15,7 +15,7 @@ actioncall: Make a Graph
 
 ### Step 1: Set up the Grid
 
-The first step to making any Plotly graph is setting up the data in a grid.
+The first step to making any Chart Studio graph is setting up the data in a grid.
 You can type your data directly into a grid, or copy it from a spreadsheet and paste it in.
 
 
@@ -25,14 +25,14 @@ Type directly into the cells, or type &#8220;ctrl-v&#8221; to paste in clipboard
 
 Click the **Save** icon and give it a name, then choose your **Sharing Settings** or just click **Close**. It will be saved to your **Workspace** under **My files** for future plots and to share it. | ![Name and save grid](/static/images/enter-data-in-the-grid/name-and-save-grid.png) !New grid in workplace](/static/images/enter-data-in-the-grid/new-grid-in-workplace.png)
 
-You can import .csv, .xls, or .xlsx files directly into Plotly. Additionally, you can import data from Google Drive and Dropbox.
+You can import .csv, .xls, or .xlsx files directly into Chart Studio. Additionally, you can import data from Google Drive and Dropbox.
 
 Upload a file using the **IMPORT** tab. | ![Import from Google Drive](/static/images/enter-data-in-the-grid/import-from-google-drive.png) ![File upload](/static/images/enter-data-in-the-grid/file-upload.png)
 If you upload a workbook, a new grid will be created for every sheet within the book&#8230; | ![New sheets in workspace](/static/images/enter-data-in-the-grid/new-sheets-in-workspace.png)
 &#8230;they’re all stored in a folder named after your file in the filewell. | ![Filewell](/static/images/enter-data-in-the-grid/filewell.png)
 
 **View Data**
-You can extract the data from any Plotly graph, and build your own graph out of it!
+You can extract the data from any Chart Studio graph, and build your own graph out of it!
 
 Go to any graph page. The one pictured to the right is [https://plot.ly/~slkent/51](https://plot.ly/~slkent/51). Click the **DATA** button, located in the lefthand sidebar, to view the data. To load the data in your workspace, click on **Fork and edit**. | ![Fork and edit](/static/images/enter-data-in-the-grid/view-data-fork-and-edit.png)
 Click the **VIEW DATA** button, located in the toolbar, to view the data. | ![View data](/static/images/enter-data-in-the-grid/get-data.png)
