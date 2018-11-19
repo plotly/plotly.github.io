@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: 3D Cone Plots
-subtitle: Create a 3D vortex using cone plots.
+subtitle: Use 3D cone plots to visualize vector fields in 3-dimensions.
 permalink: /make-a-cone-plot/
 imageurl: ../static/images/3d-cone-plot/3d-cone-thumbnail.png
 state: active
@@ -34,7 +34,7 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Cone' under '3D' chart type."
       img: "![Chart type cone](../static/images/3d-cone-plot/chart-type-cone.png)"
-    - copy: Next, fill the 'X', 'Y', 'Z', 'U', 'V' and 'W' values from the dropdown to create the plot. This will create a raw trace for the vortex data, as seen below."
+    - copy: "Next, specify the vector field of the cone trace using 6 variables: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position variables that set the X, Y and Z coordinates of the vector field, and 'U', 'V' and 'W' are the vector component variables that set the X, Y and Z components of the vector field respectively. Note that the cones are drawn exactly at the given positions."
       img: "![Axes data](../static/images/3d-cone-plot/select-axes-data.gif)"
 
  - title: Style Trace

@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: 3D Streamtube Plots
-subtitle: A streamtube is a tubular region surrounded by streamlines that form a closed loop. It's a continuous version of a streamtube plot (3D quiver plot) and can provide insight into flow data from natural systems.
+subtitle: Use 3D streamtubes to visualize flow in a vector field in 3-dimensions.
 permalink: /make-a-streamtube-plot/
 imageurl: ../static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
 state: active
@@ -21,7 +21,6 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "If you want to make a chart with multiple line and scatter traces, this tutorial is for you!"
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
@@ -35,7 +34,7 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Streamtube' under '3D' chart type."
       img: "![Chart type streamtube](../static/images/3d-streamtube-plot/chart-type-streamtube.png)"
-    - copy: Next, fill the 'X', 'Y', 'Z', 'U', 'V', 'W', 'X Start', 'Y start', and 'Z Start' values from the dropdown to create the plot. This will create a raw trace for the str data, as seen below."
+    - copy: "Next, specify the vector field of the streamtube trace using 6 variables: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position variables that set the X, Y and Z coordinates of the vector field, and 'U', 'V' and 'W' are the vector component variables that set the X, Y and Z components of the vector field respectively. Note that the tubes' starting positions will be cut from the vector field's X-Z plane at its minimum Y value. To specify your own starting position, use the attributes 'X Start', 'Y Start' and 'Z Start'."
       img: "![Axes data](../static/images/3d-streamtube-plot/select-axes-data.png)"
 
  - title: Style Trace
