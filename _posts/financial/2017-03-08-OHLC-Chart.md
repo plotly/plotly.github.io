@@ -45,7 +45,7 @@ steps:
       img: "![Type title](../static/images/ohlc-chart/ohlc-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/ohlc-chart/ohlc-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as the colorscale, lighting effects and its position, and hoverinfo."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as the colorscale, lighting effects, light position, and hoverinfo."
       img: "![Trace Properties](../static/images/ohlc-chart/ohlc-properties.png)"
     - copy: "To change the color of the traces, click on the color palette next to the attributes 'Line Color' and 'Fill Color' under the properties 'Increasing Trace Styles'."
       img: "![Color main](../static/images/ohlc-chart/ohlc-color.png)"
