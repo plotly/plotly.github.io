@@ -34,7 +34,7 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Cone' under '3D' chart type."
       img: "![Chart type cone](../static/images/3d-cone-plot/chart-type-cone.png)"
-    - copy: "Next, specify the vector field of the cone trace using 6 variables: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position variables that set the X, Y and Z coordinates of the vector field, and 'U', 'V' and 'W' are the vector component variables that set the X, Y and Z components of the vector field respectively. Note that the cones are drawn exactly at the given positions."
+    - copy: "Next, specify the vector field of the cone trace using the six attributes: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position arrays that set the X, Y and Z coordinates of the vector field, while 'U', 'V' and 'W' are the vector component arrays that set the X, Y and Z components of the vector field respectively. Note that the cones are drawn exactly at the given positions."
       img: "![Axes data](../static/images/3d-cone-plot/select-axes-data.gif)"
 
  - title: Style Trace

@@ -34,7 +34,7 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Streamtube' under '3D' chart type."
       img: "![Chart type streamtube](../static/images/3d-streamtube-plot/chart-type-streamtube.png)"
-    - copy: "Next, specify the vector field of the streamtube trace using 6 variables: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position variables that set the X, Y and Z coordinates of the vector field, and 'U', 'V' and 'W' are the vector component variables that set the X, Y and Z components of the vector field respectively. Note that the tubes' starting positions will be cut from the vector field's X-Z plane at its minimum Y value. To specify your own starting position, use the attributes 'X Start', 'Y Start' and 'Z Start'."
+    - copy: "Next, specify the vector field of the streamtube trace using the six attributes: 'X', 'Y', 'Z', 'U', 'V' and 'W' using their resepective dropdown menus. 'X', 'Y' and 'Z' are the vector position arrays that set the X, Y and Z coordinates of the vector field, while 'U', 'V' and 'W' are the vector component arrays that set the X, Y and Z components of the vector field respectively. Note that the tubes' starting positions, by default, will be cut from the vector field's X-Z plane at its minimum Y value. To specify your own starting position, use the attributes 'X Start', 'Y Start' and 'Z Start'."
       img: "![Axes data](../static/images/3d-streamtube-plot/select-axes-data.png)"
 
  - title: Style Trace
