@@ -46,7 +46,7 @@ steps:
       img: "![Type title](../static/images/3D-surface-plot/3D-surface-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/3D-surface-plot/3D-surface-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the 3D surface such as the colorscale, lighting effects and its position, and hoverinfo."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the 3D surface such as the colorscale, lighting effects, light position, and hoverinfo."
       img: "![Trace Properties](../static/images/3D-surface-plot/3D-surface-properties.png)"
     - copy: "To change the colorscale of the traces, click on the current colorscale next to the attribute 'Colorscale,' which will display a dropdown menu with the available colorscale types and their corresponding preset colorscales. Choose the desired colorscale. To reverse the chosen colorscale, set the 'Orientation' attribute to 'Reversed', as seen below."
       img: "![Color main](../static/images/3D-surface-plot/3D-surface-colorscale.png)"
