@@ -13,7 +13,7 @@ meta_description: How to sign up to Plotly. Plotly is the easiest way to make an
 
 # How to sign up for Plotly
 
-## Step 1: Get started!
+## Step 1: Create your free account!
 
  <table>
   <tbody>
