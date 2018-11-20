@@ -6,7 +6,7 @@ gem 'jekyll'
 
 
 group :jekyll_plugins do
-  gem 'algoliasearch-jekyll'
+  gem 'jekyll-algolia'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
 end

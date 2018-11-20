@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Scatter Ternary Plot
 subtitle: A type of plot that depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-scatter-plot/
-imageurl: ../static/images/ternary-scatter-plot/thum-scatter-ternary.png
+imageurl: ../static/images/ternary-scatter-plot/ternary-scatter-thumbnail.png
 state: active
 tags: scientific
 meta_description: A tutorial on how to make a scatter ternary plot in Chart Studio.
@@ -32,14 +32,14 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Violin' under 'Distributions' chart type."
-      img: "![Choose chart](../static/images/ternary-scatter-plot/select-ternary.png)"
-    - copy: "Each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the data point (1, 2, 1) represents a data point that is made up of 25% of axis 1, 50% of axis 2, 25% of axis 3, this sums up to 100% of this point's composition with relation to axes A, B, and C."
-    - copy: "To plot this data point, you will need to populate 3 columns on the grid, each column will then be mapped to one of the 3 axes. To add an additional data point to the graph, you will need to add an additional row to these 3 columns. In the example below, you can see how we would enter data to plot 4 data points onto our ternary plot."
-      img: "![Data Format](../static/images/ternary-scatter-plot/data-formatting.png)"
-    - copy: "Now you can map your data columns to the axes that they will represent on the ternary graph. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
-      img: "![Plot Data](../static/images/ternary-scatter-plot/data-plotting.png)"
-    - copy: "To add another trace (layer), create 3 more columns and populate them with your data for the next trace. You can also reuse the same columns, if relevant, on multiple traces. Once your data for the second trace is added, you will have to map your columns to axes for the second trace, just like we did for the first trace. To do so, click on the '+Trace' button in the upper right corner of the GRAPH panel. Assign the columns you've created for the second trace to their respective A, B, C axes. You should now see two traces on your scatter ternary plot."
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type."
+      img: "![Choose chart](../static/images/ternary-scatter-plot/ternary-scatter-type.png)"
+    - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (75, 20, 5) represents a data point that is made up of 75% of axis A, 20% of axis B and 5% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
+      img: "![Data Format](../static/images/ternary-scatter-plot/ternary-scatter-data-format.png)"
+    - copy: "In addition, each column represents an axis for the data points. To plot all your data points on the ternary graph, you will need to map the data columns on the grid to the axes by specifying the values for the attributes 'A', 'B' and 'C' from their respective dropdown menus. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
+      img: "![Plot Data](../static/images/ternary-scatter-plot/ternary-scatter-add-values.png)"
+    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Repeat the above steps to map the data columns of the second trace on the grid to the respective axes. Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding all the traces."
+      img: "![Add Trace](../static/images/ternary-scatter-plot/ternary-scatter-add-trace.png)"
 
  - title: Style a Chart
    sub-steps:
@@ -49,7 +49,7 @@ steps:
       img: "![Plot Title](../static/images/ternary-scatter-plot/violin-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
       img: "![Type directly title](../static/images/ternary-scatter-plot/violin-title-direct.png)"
-    - copy: "To change the properties specific to the traces in the plot such trace name, color, etc., go to the 'Traces' section under the 'Style' menu."
+    - copy: "To change the properties specific to the traces in the plot such as trace name, color, etc., go to the 'Traces' section under the 'Style' menu."
       img: "![Trace Properties](../static/images/ternary-scatter-plot/violin-trace-properties.gif)"
     - copy: "Use the 'Points' property to show/hide/modify the marker points associated with the violins."
       img: "![Violin Points](../static/images/ternary-scatter-plot/violin-points.gif)"
