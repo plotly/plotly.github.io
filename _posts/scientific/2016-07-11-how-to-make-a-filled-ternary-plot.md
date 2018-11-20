@@ -32,27 +32,32 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Violin' under 'Distributions' chart type."
-      img: "![Choose chart](../static/images/ternary-filled-plot/violin-choose-chart.png)"
-    - copy: "Next, select the 'X'and 'Y' values from the dropdown menus. This will add a violin trace to the chart as seen below."
-      img: "![Adding X Y Z values](../static/images/ternary-filled-plot/violin-fill-x-y-z.png)"
-    - copy: "Each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the data point (0.6, 0.2, 0.2) represents a data point that is made up of 60% of axis 1, 20% of axis 2, 20% of axis 3, this sums up to 100% of this point's composition with relation to axes A, B, and C."
-    - copy: "To plot this data point, you will need to populate 3 columns on the grid, each column will then be mapped to one of the 3 axes. To add an additional data point to the graph, you will need to add an additional row to these 3 columns. In the example below, you can see how we would enter data to plot 3 data points onto our ternary plot."
-      img: "![Add Data](../static/images/ternary-filled-plot/data-formatting.png)"
-    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding all the traces."
-      img: "![Add All](../static/images/ternary-filled-plot/violin-add-trace.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type."
+      img: "![Choose chart](../static/images/ternary-filled-plot/ternary-filled-type.png)"
+    - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (75, 20, 5) represents a data point that is made up of 75% of axis A, 20% of axis B and 5% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
+      img: "![Data Format](../static/images/ternary-filled-plot/ternary-filled-data-format.png)"
+    - copy: "In addition, each column represents an axis for the data points. To plot all your data points on the ternary graph, you will need to map the data columns on the grid to the axes by specifying the values for the attributes 'A', 'B' and 'C' from their respective dropdown menus. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
+      img: "![Plot Data](../static/images/ternary-filled-plot/ternary-filled-add-values.png)"
+    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Repeat the above steps to map the data columns of the second trace on the grid to the respective axes. Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding all the traces."
+      img: "![Add Trace](../static/images/ternary-filled-plot/ternary-filled-add-trace.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "To style your ternary plot, click on STYLE on the left-hand side menu of the workspace and play around with the styling of your plot."
-    - copy: "To change the styling related to the data on your plot, for example, add filling to the area we've delimited in our plot, go to ‘Traces’ under the STYLE tab, and change the Fill. A note with regards to filling, the styling option 'To next' will only work if there are multiple traces and one completely encloses the other, unless this is the case, this option should not be used and 'To Self' should be used instead. Also with regards to colours, certain colours and typefaces are available only with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Add Style](../static/images/ternary-filled-plot/filled-shape.png)"
-    - copy: "To change the Title, Axes and Trace names, you can do so directly on the graph by double-clicking on the corresponding area. Further styling is also possible under the 'Layout' and 'Axes' sections of the STYLE menu. Note that to style trace names, the 'Legend' needs to be set to visible, if it is not the case, go to the 'Legend' section under the STYLE menu and select the option 'Show'."
-      img: "![Type directly title](../static/images/ternary-filled-plot/titles.png)"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "Use the 'General' section under the 'Style' menu to change the general style properties such as plot background color, margin color and font sytlings, the layout properties, the modebar and interactive settings."
+    - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property in the 'General' section."
+      img: "![Plot Title](../static/images/ternary-filled-plot/ternary-filled-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+      img: "![Type directly title](../static/images/ternary-filled-plot/ternary-filled-title-direct.png)"
+    - copy: "To change the properties specific to the traces in the plot such as trace's name, color, show/hide legend, marker size, marker symbol, etc., go to the 'Traces' section under the 'Style' menu."
+      img: "![Trace Properties](../static/images/ternary-filled-plot/ternary-filled-trace-properties.png)"
+    - copy: "Use the 'Axes' section under the 'Style' to change the axes-specific properties such as axes' title, range, and line properties."
+    - copy: "To set the axes title, type in the axis title within the textbox provided under 'Title' for each axis or simply click and then enter the axis title directly on the plot interface.."
+      img: "![Axes Title](../static/images/ternary-filled-plot/ternary-filled-axes-title.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "When your plot is done, click SAVE on the left-hand side menu, give your plot and grid a name, and identify them as 'Public' or 'Private'."
-      img: "![Save main](../static/images/ternary-filled-plot/saving.png)"
-    - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
+    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/ternary-filled-plot/ternary-filled-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
