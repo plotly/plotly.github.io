@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Filled Ternary Plot
 subtitle: A type of plot that depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-filled-plot/
-imageurl: ../static/images/ternary-filled-plot/thum-filled-ternary.png
+imageurl: ../static/images/ternary-filled-plot/ternary-filled-thumbnail.png
 state: active
 tags: scientific
 meta_description: A tutorial on how to make a filled ternary plot in Chart Studio.
@@ -33,8 +33,8 @@ steps:
  - title: Create a Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type."
-      img: "![Choose chart](../static/images/ternary-filled-plot/ternary-filled-type.png)"
-    - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (75, 20, 5) represents a data point that is made up of 75% of axis A, 20% of axis B and 5% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
+      img: "![Choose chart](../static/images/ternary-scatter-plot/ternary-scatter-type.png)"
+    - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (10, 0, 90) represents a data point that is made up of 10% of axis A, 0% of axis B and 90% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
       img: "![Data Format](../static/images/ternary-filled-plot/ternary-filled-data-format.png)"
     - copy: "In addition, each column represents an axis for the data points. To plot all your data points on the ternary graph, you will need to map the data columns on the grid to the axes by specifying the values for the attributes 'A', 'B' and 'C' from their respective dropdown menus. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
       img: "![Plot Data](../static/images/ternary-filled-plot/ternary-filled-add-values.png)"
