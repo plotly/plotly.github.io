@@ -49,7 +49,7 @@ steps:
       img: "![Plot Title](../static/images/ternary-scatter-plot/ternary-scatter-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/ternary-scatter-plot/ternary-scatter-title-direct.png)"
-    - copy: "To change the properties specific to the traces in the plot such as trace's name, color, show/hide legend, marker size, marker symbol, etc., go to the 'Traces' section under the 'Style' menu."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties specific to the traces in the plot such as trace's name, color, show/hide legend, marker size, marker symbol, etc."
       img: "![Trace Properties](../static/images/ternary-scatter-plot/ternary-scatter-trace-properties.png)"
     - copy: "Use the 'Axes' section under the 'Style' to change the axes-specific properties such as axes' title, range, and line properties."
     - copy: "To set the axes title, type in the axis title within the textbox provided under 'Title' for each axis or simply click and then enter the axis title directly on the plot interface.."
