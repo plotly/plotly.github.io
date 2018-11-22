@@ -1,8 +1,9 @@
 ---
 layout: tutorial-single_layout
-title: How to Add a Range Slider in Chart Studio
-subtitle: Learn to add a range slider and timescale buttons to a time-series chart using the Chart Studio data visualization tool.
+title: How to Add a Range Slider
+subtitle: Learn to add a range slider and timescale buttons to a time-series chart using Plotly's Chart Studio.
 permalink: /range-slider/
+redirect_from: /make-a-time-series-graph/
 imageurl: ../static/images/styling-and-customizing-graphs/timescalethumb.png
 state: active
 tags: layout
@@ -10,12 +11,12 @@ order: 4
 meta_description: A tutorial on the range slider and timescale buttons in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: Range slider and timescale buttons in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:190
+actioncall: Range slider and timescale buttons in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:457
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/range-slider/) or [R](https://plot.ly/r/range-slider/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/190.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/457.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -62,5 +63,11 @@ steps:
     - copy: "What's left now is to play with the style of the timescale buttons, including the background color, border width and its color, and text. You can also adjust the position of the buttons by clicking on the arrows next to the horizontal and vertical position fields."  
       img: "![Timescale attributes](../static/images/styling-and-customizing-graphs/Timescale Attributes2.png)"
     - copy: "Your chart is now ready!"
-      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/timescalegif.gif)"  
+      img: "![Range slider attributes](../static/images/styling-and-customizing-graphs/timescalegif.gif)"
+
+ - title: Save and Share
+   sub-steps:
+    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/range-slider/range-slider-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
