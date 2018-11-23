@@ -4,7 +4,7 @@ title: How to Add a Range Slider
 subtitle: Learn to add a range slider and timescale buttons to a time-series chart using Plotly's Chart Studio.
 permalink: /range-slider/
 redirect_from: /make-a-time-series-graph/
-imageurl: ../static/images/range-slider/timescalethumb.png
+imageurl: ../static/images/range-slider/thumbnail.png
 state: active
 tags: layout
 order: 4
@@ -23,7 +23,7 @@ steps:
  - title: Getting Started
    sub-steps:
     - copy: "The interactive range slider allows you to experience your graphs on a whole other level. It is a great way to display a specific range within your chart, especially for time series plots."
-    - copy: "You can check out an example by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio the plot and data fatured in this tutorial."
+    - copy: "You can check out an example by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open the plot and data fatured in this tutorial in Plotly's Chart Studio."
 
  - title: Add Your Data
    sub-steps:
@@ -42,32 +42,29 @@ steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "Use the 'General' section under the 'Style' menu to change the general style properties such as plot background color, margin color and font sytlings and other layout properties."
     - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property."
-      img: "![Plot Title](../static/images/range-slider/range-slider2.png)"
+      img: "![Plot Title](../static/images/range-slider/range-slider-plot-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title."
+      img: "![Direct Title](../static/images/range-slider/range-slider-plot-title-direct.png)"
     - copy: "Use the 'Traces' section under the 'Style' menu to change the trace properties such as line color, width and shape."
       img: "![Trace Properties](../static/images/range-slider/range-slider-trace-properties.png)"
-    - copy: "After you've [plotted](http://help.plot.ly/tutorials/#basic) and [styled](https://help.plot.ly/tutorials/#layout) your chart, you're ready to add the range slider to the chart. To do that, go to the 'Axes' section under the 'Style' menu and click 'Show' under the 'Range Slider' property."
-      img: "![Range slider tab](../static/images/range-slider/range-slider-show.png)"
-    - copy: "This will display the range slider under the plot and the style settings specific to the range slider  under the property itself."
-      img: "![Range slider](../static/images/range-slider/range-slider-display.png)"    
-    - copy: "In addition to the range slider, you can also add timescale button(s) to your chart. Upon clicking the timescale button allows you to display a specific range of the plot associated with that button. Please not that the timescale button feature is only available when the date axis is properly formatted. Refer to [this helpful page](https://help.plot.ly/date-format-and-time-series/) for more information on formatting dates in Plotly."
-    - copy: "After formatting your time and/or dates, click 'Show' under the 'Timescale Buttons' property in the same 'Axes' section. Then click on the '+ Button' button to add a new button."
-      img: "![Timescale](../static/images/range-slider/timescale2.png)"
-    - copy: "Two buttons will appear on your plot. The 'reset' button is added by default to reset your slider range after you've clicked on a specific timescale button."
-      img: "![Reset button](../static/images/range-slider/reset button3.png)"
-    - copy: "The button next to it is the one you'll set up. We'll start with adding a timescale set for one year. Double-click on the field next to LABEL to add your own."
-      img: "![First button](../static/images/range-slider/1 year2.png)"
-    - copy: "Click on the STEP dropdown menu to change the timescale interval."
-      img: "![Step](../static/images/range-slider/step2.png)"
-    - copy: "For our 5-year timescale, we've chose the 'Year' as the STEP, and the number 5 as the COUNT. The STEPMODE has been selected to 'Backward'."
-      img: "![5 years](../static/images/range-slider/5 years2.png)"
-    - copy: "Add more buttons by clicking the blue '+Button' button."  
-      img: "![Adding more buttons](../static/images/range-slider/addingbuttons2.png)"
-    - copy: "The 'YTD' represents the year-to-date, which is the most recent date in your plot, and going back one year (from the month of January). This is where you'd select 'To Date' in your 'Stepmode'."
-    - copy: "What's left now is to play with the style of the timescale buttons, including the background color, border width and its color, and text. You can also adjust the position of the buttons by clicking on the arrows next to the horizontal and vertical position fields."  
-      img: "![Timescale attributes](../static/images/range-slider/Timescale Attributes2.png)"
-    - copy: "Your chart is now ready!"
-      img: "![Range slider attributes](../static/images/range-slider/timescalegif.gif)"
+    - copy: "After you've [plotted](http://help.plot.ly/tutorials/#basic) and [styled](https://help.plot.ly/tutorials/#layout) your chart, you're ready to add the range slider to the chart. To do that, go to the 'Axes' section under the 'Style' menu and click 'Show' under the 'Range Slider' property. This will display the range slider under the plot and the style settings specific to the range slider under the property itself."
+      img: "![Range slider show](../static/images/range-slider/range-slider-show.png)"
+    - copy: "In addition to range slider, you can also add timescale button(s) to your chart. Timescale buttons, upon clicking them, allows you to display a specific range of the plot associated with that button. Please note that this property is only available when the date axis is properly formatted, refer to [this helpful page](https://help.plot.ly/date-format-and-time-series/) for more information on formatting dates in Plotly."
+    - copy: "After formatting the date and/or time axis, click 'Show' under the 'Timescale Buttons' property in the same 'Axes' section. This will display the style options for the timescale buttons that will be added."
+      img: "![Timescale Display](../static/images/range-slider/range-slider-timescale-display.png)"
+    - copy: "Then click on the '+ Button' button to add a new  timescale button. This will display a new panel containing the attributes associated with the new timescale button: 'Label', 'Count', 'Step' and 'Stepmode'."
+      img: "![Timescale Display](../static/images/range-slider/range-slider-timescale-button.png)"
+    - copy: "The atttribute 'Label' sets the text label to appear on the button, 'Count' represents the number of steps to take to update the range, 'Step' represents the unit of measurement, and 'Stepmode' alows to set the range update mode between 'Backward' and 'To Date'."
+      img: "![Timescale](../static/images/range-slider/range-slider-timescale-buttons.gif)"
+    - copy: " If 'Backward' is chosen as 'Stepmode', the range update shifts the start of range back by 'Count' times 'Step'."
+      img: "![1Year button](../static/images/range-slider/range-slider-1year-button.png)"
+    - copy: " If 'To Date' is chosen, the range update shifts the start of range back to the first timestamp from 'Count' times 'Step' back. For example, with 'Step' set to 'Year' and count set to 1, the range update shifts the start of the range back to January 01 of the current year of the most recent date."
+      img: "![YTD button](../static/images/range-slider/range-slider-YTD-button.png)"
+    - copy: "Add more buttons by clicking the '+ Button' button." 
+    - copy: "For adding a 'Reset' button that resets the slider's range after you've clicked on a specific timescale button, set the 'Step' attribute to 'All' from the dropdown."
+      img: "![Reset button](../static/images/range-slider/range-slider-reset-button.png)"
+    - copy: "Finally, set the styling options for the timescale buttons via the attributes available below the button panels."
+      img: "![Reset button](../static/images/range-slider/range-slider-button-styles.png)"
 
  - title: Save and Share
    sub-steps:
