@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-graph-with-error-bars/
 imageurl: /static/images/graph-with-error-bars/thum-graph-with-error-bars.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a graph with error bars online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a graph with error bars online. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
 actioncall: Make a Graph with Error Bars
 ---
@@ -22,7 +22,7 @@ actioncall: Make a Graph with Error Bars
 
 ### Step 1: Set up the grid
 
-This is one way you could set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~cimar/209](https://plot.ly/~cimar/209) ). | ![plotly grid](/static/images/graph-with-error-bars/plotly-grid.png)
+This is one way you could set up Chart Studio’s grid to make the graph above (data here: [https://plot.ly/~cimar/209](https://plot.ly/~cimar/209) ). | ![plotly grid](/static/images/graph-with-error-bars/plotly-grid.png)
 Select **Scatter plot** from the **MAKE A PLOT** menu. You can also add error bars to line plots and bar charts. | ![select scatter plot](/static/images/graph-with-error-bars/scatter-plot.png)
 Click the **Error bars** option in the sidebar.| ![Error bars option](/static/images/graph-with-error-bars/options-error-bars.png)
 Select the column of error values that correspond to your y-values. | ![Select error values Y](/static/images/graph-with-error-bars/select-error-values-y.png)

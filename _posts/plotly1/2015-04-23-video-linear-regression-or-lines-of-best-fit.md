@@ -7,7 +7,7 @@ imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video
 state: active
 tags: analysis
 order: 11
-meta_description: Learn to calculate a line of best fit in less than two minutes. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: Learn to calculate a line of best fit in less than two minutes. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Chart
 ---
 
