@@ -10,7 +10,7 @@ order: 3
 meta_description: A tutorial on how to create a 3D mesh plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: 3D Mesh Plots in Chart Studio
+actioncall: How to make 3D mesh in Plotly's Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:445
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-mesh-plots/) or [R](https://plot.ly/r/3d-mesh-plots/).
@@ -20,7 +20,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Chart Studio users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
