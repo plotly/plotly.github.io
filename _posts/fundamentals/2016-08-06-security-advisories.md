@@ -5,7 +5,7 @@ layout: single_new
 support: true
 ---
 
-Chart Studio encourages security researchers to find vulnerabilities in our systems as part of our [bounty program](/security/). As of August 1, 2016, we will also announce the security vulnerabilities in our systems after they have been evaluated and fixed across our Cloud and On-Premise systems.
+Plotly encourages security researchers to find vulnerabilities in our systems as part of our [bounty program](/security/). As of August 1, 2016, we will also announce the security vulnerabilities in our systems after they have been evaluated and fixed across our Cloud and On-Premise systems.
 
 If you believe that you have found a security vulnerability, please report the issue by following our [security bounty program guidelines](/security/).  Note that we have recently changed the address used to report issues, but reports to the old address will still be reviewed within 24h and are eligible for bounties.
 
