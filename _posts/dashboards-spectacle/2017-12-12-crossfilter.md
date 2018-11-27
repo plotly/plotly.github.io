@@ -23,7 +23,7 @@ steps:
 
  - title: Add Data
    sub-steps:
-    - copy: "To get started, head to Chart Studio’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the World Happiness Dataset from the Sustainable Development Solutions Network. To begin, simply view the [dataset](https://plot.ly/~bdun9/2521/) and click **'Fork & Edit'**. The Chart Studio ought to open and you're all set to go."
+    - copy: "To get started, head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. For this tutorial, we'll use the World Happiness Dataset from the Sustainable Development Solutions Network. To begin, simply view the [dataset](https://plot.ly/~bdun9/2521/) and click **'Fork & Edit'**. The Chart Studio ought to open and you're all set to go."
       img: "![Fork and Edit](../static/images/crossfilter/choropleth/fork-and-edit.png)"
     - copy: "Alternatively, navigate to the [Chart Studio](https://plot.ly/create/) and click **'Import'**, **'By URL'**, and then paste in the **URL** (https://raw.githubusercontent.com/bcdunbar/datasets/master/worldhappiness.csv)."
       img: "![Add Data](../static/images/crossfilter/choropleth/add-data.png)"
