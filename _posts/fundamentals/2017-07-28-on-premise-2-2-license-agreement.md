@@ -1,6 +1,6 @@
 ---
 permalink: /on-premise-2.2-license-agreement/
-title: Plotly On-Premise License Agreement
+title: Chart Studio Enterprise License Agreement
 layout: single_new
 support: true
 ---

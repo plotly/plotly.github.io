@@ -1,1 +1,1 @@
-# Tutorials for Plotly's original user interface: [Plotly 1.0](https://plot.ly/plot)
+# Tutorials for Chart Studio's original user interface: [Chart Studio](https://plot.ly/plot)

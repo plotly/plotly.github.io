@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Histogram Chart Online with Plotly and Excel
-subtitle: Histrograms with Plotly
+title: Make a Histogram Chart Online with Chart Studio and Excel
+subtitle: Histrograms with Chart Studio
 permalink: /excel/histogram/
 imageurl: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png
 state: active
@@ -28,13 +28,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/6903/_2013-nhl-player-height.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/214/_2013-nhl-player-height.csv)"
       img: "![Data view](https://images.plot.ly/excel/histogram/excel-view-histogram.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/histogram/import-data-histogram.png)"
     - copy: "Select 'Histogram' from the MAKE A PLOT menu."
       img: "![How to make a histogram with excel](/static/images/histogram-with-excel/image18.png)"
@@ -58,7 +58,7 @@ steps:
       img: "![Histogram with curve](/static/images/histogram-with-excel/image03.png)"
     - copy: "The popup now shows the fit statistics and parameters in the curve's equation, a+h*exp(-(x-x0)^2/(2*w^2))."
       img: "![Fit statistics](/static/images/histogram-with-excel/image14.png)"
-    - copy: "(Alternative: if you want to group your values more or less than Plotly has by default, do so in the 'Range/bins' tab of the TRACES popover.)"
+    - copy: "(Alternative: if you want to group your values more or less than Chart Studio has by default, do so in the 'Range/bins' tab of the TRACES popover.)"
       img: "![Bin size](/static/images/histogram-with-excel/image11.png)"
     - copy: "You'll probably want to remake your fit with the revised trace."
       img: "![Firs trace change](/static/images/histogram-with-excel/image06.png)"
@@ -69,7 +69,7 @@ steps:
     - copy: "Open the NOTES popover."
       img: "![Notes menu item](/static/images/histogram-with-excel/image22.png)"
     - copy: "This is what the NOTES popover looks like. The '+' sign adds new notes. Hide the arrow. Set the 'Move with' option to 'Data', as the note refers to a specific pair of points on the plot."
-      img: "![Adding an annotation with Plotly](/static/images/histogram-with-excel/image24.png)"
+      img: "![Adding an annotation with Chart Studio](/static/images/histogram-with-excel/image24.png)"
     - copy: "Find the note on the plot, and drag it to where you want it. Click the note to edit its text. Use markup to style and format it. <b>MEAN: 72.8''<br>MEDIAN:73''</b>"
       img: "![Graph markup](https://images.plot.ly/excel/histogram/note-histogram.png)"
     - copy: "Click the plot title and axis titles to edit their text. Use markup to link to your source."
@@ -91,11 +91,11 @@ steps:
       img: "![Removing the legend](/static/images/histogram-with-excel/image12.png)"
  - title: Export & Share
    sub-steps:
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](https://images.plot.ly/excel/histogram/final-histogram.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel](https://images.plot.ly/excel/histogram/excel-histogram.png)"
 
 ---

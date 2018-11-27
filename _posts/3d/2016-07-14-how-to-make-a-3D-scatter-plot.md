@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: 3D Scatter Plots
-subtitle: A type of scatter plot that shows the relationship between three variables. 
+subtitle: A type of scatter plot that shows the relationship between three variables.
 permalink: /make-a-3d-scatter-plot/
 redirect_from: /plotly1/make-a-3d-scatter-plot/
 imageurl: ../static/images/3D-scatter-plots/3D-scatter-thumbnail.png
@@ -27,11 +27,12 @@ steps:
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
+
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '3D Scatter' under '3D' chart type."
       img: "![Choose chart main](../static/images/3D-scatter-plots/3D-scatter-chart-type.png)"

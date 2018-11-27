@@ -1,6 +1,6 @@
 ---
 permalink: /on-premise-2.5-license-agreement/
-title: Plotly On-Premise License Agreement
+title: Chart Studio Enterprise License Agreement
 layout: single_new
 support: true
 ---
@@ -57,7 +57,7 @@ The License is subject to the following restrictions:
 
 (d) Licensee may only make one copy of the Software for backup purposes.
 
-(e) Licensee agrees to enable anonymized on premise server performance analytics. 
+(e) Licensee agrees to enable anonymized on premise server performance analytics.
 
 **5.** **Prohibited Uses**
 

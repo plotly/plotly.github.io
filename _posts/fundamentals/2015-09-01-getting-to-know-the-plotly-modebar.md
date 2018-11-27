@@ -1,20 +1,20 @@
 ---
 layout: single
-title: Getting to Know The Plotly Modebar
-subtitle: A Guide to the Options in the Plotly Modebar
+title: Getting to Know The Chart Studio Modebar
+subtitle: A Guide to the Options in the Chart Studio Modebar
 permalink: /getting-to-know-the-plotly-modebar/
 imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
 tags: fundamentals
 section: fundamentals
 order: 8
-meta_description: A tutorial on the Plotly Modebar. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on the Chart Studio Modebar. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: nil
 ---
 
-# Getting to Know The Plotly Modebar
+# Getting to Know The Chart Studio Modebar
 
-At the top of every two-dimensional Plotly plot you will find icons with the following functions. For 3d plots see below:
+At the top of every two-dimensional Chart Studio plot you will find icons with the following functions. For 3d plots see below:
 
 ### Download plot as a PNG
 
@@ -24,19 +24,19 @@ Clicking this will instantly start a download of the plot in PNG format.  | ![Do
 
 Clicking and holding with your mouse allows you to zoom and pan. You can toggle between modes by clicking on the zoom or pan icons.
 
-Clicking this selects the **Zoom** mode. To zoom in on a region of a Plotly graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
+Clicking this selects the **Zoom** mode. To zoom in on a region of a Chart Studio graph, click and hold your mouse, moving across the region. Release your mouse. To return to the original view, double-click anywhere on the plot. | ![Zoom](/static/images/getting-to-know-the-plotly-modebar/zoom.png)
 
 To pan across regions of your graph, select the **Pan** mode. Click and hold your mouse to explore the data. Double-click anywhere to return to the original view. | ![Pan](/static/images/getting-to-know-the-plotly-modebar/pan.png)
 
 ### Zoom In/Out
 
-You can zoom in and out by clicking on the + and - buttons. Plotly keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.
+You can zoom in and out by clicking on the + and - buttons. Chart Studio keeps axes labels and annotations the same size to preserve readability. Your axes labels will automatically optimize as you zoom in.
 
 ![Zoom In](/static/images/getting-to-know-the-plotly-modebar/zoom-in.png)  | ![Zoom Out](/static/images/getting-to-know-the-plotly-modebar/zoom-out.png)
 
 ### Autoscale and reset axes
 
-When a graph is made using Plotly, we guess how the graph axes should be set. This is called “autoscale”. Sometimes our guess isn’t exactly what the graph creator wants. When a graph is made, the user can change the axes, and then save their graph. You can return to this saved form by clicking on Reset Axes.
+When a graph is made using Chart Studio, we guess how the graph axes should be set. This is called “autoscale”. Sometimes our guess isn’t exactly what the graph creator wants. When a graph is made, the user can change the axes, and then save their graph. You can return to this saved form by clicking on Reset Axes.
 
 Clicking this zooms to include your Axes Range, if this has been set. If it has not been set it zooms to a setting that is optimized to include all the viewable data, the same as if Autoscale had been clicked.  | ![Reset Axes](/static/images/getting-to-know-the-plotly-modebar/reset-axes.png)
 
