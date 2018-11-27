@@ -22,7 +22,7 @@ steps:
 
  - title: Webpage Examples
    sub-steps:
-    - copy: "Privacy and security are important at Chart Studio, and our security measures may only allow certain webpages to work on the dashboards."
+    - copy: "Privacy and security are important at Plotly, and our security measures may only allow certain webpages to work on the dashboards."
     - copy: "Please note that not all websites allow embedding, and some webpages may be blocked for security reasons. That being said, you can still add cool pages to the dashboard, you just need to try and see if they'll work. We'll show you a few example below."
     - copy: "Some of the pages that can be added to your dashboard include videos, maps, feeds, and content from your personal or business website."
     - copy: "We'll add a map and a video for this tutorial. Let's begin!"
