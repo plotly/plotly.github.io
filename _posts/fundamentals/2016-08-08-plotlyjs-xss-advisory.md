@@ -1,6 +1,6 @@
 ---
 permalink: /security-advisories/2016-08-08-plotlyjs-xss-advisory/
-title: Chart Studio Security Advisory - XSS in plotly.js
+title: Plotly Security Advisory - XSS in plotly.js
 layout: single_new
 support: true
 ---
