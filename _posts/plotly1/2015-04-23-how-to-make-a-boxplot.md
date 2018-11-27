@@ -1,15 +1,15 @@
 ---
 layout: single
-title: Make a Box Plot in Plotly 1.0
+title: Make a Box Plot in Chart Studio 1.0
 subtitle: A Step by Step Guide to Making a Box Plot
 permalink: /plotly1/make-a-box-plot/
 redirect_to: https://help.plot.ly/make-a-box-plot/
 imageurl: /static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: plotly1
-meta_description: Box plots are used to better understand how values are spaced out in different sets of data. Follow this step-by-step tutorial to make a box plot for free and online with Plotly.
+meta_description: Box plots are used to better understand how values are spaced out in different sets of data. Follow this step-by-step tutorial to make a box plot for free and online with Chart Studio.
 popularity: frontpage
-actioncall: Make a Box Plot in Plotly 1.0
+actioncall: Make a Box Plot in Chart Studio 1.0
 ---
 
 # Make a Box Plot
@@ -24,9 +24,9 @@ If you think you want to know more about what box plots are, read this dataliter
 
 ### Step 1: Set up the grid
 
-This is one way you could set up Plotly’s grid to make the graph above. Grab the data set [here](https://plot.ly/~cimar/205). | ![Data set in grid](/static/images/how-to-make-a-boxplot/data-set-in-grid.png)
+This is one way you could set up Chart Studio’s grid to make the graph above. Grab the data set [here](https://plot.ly/~cimar/205). | ![Data set in grid](/static/images/how-to-make-a-boxplot/data-set-in-grid.png)
 Select **Box plots** from the **MAKE A PLOT** menu. | ![Box plot in Make a Plot menu](/static/images/how-to-make-a-boxplot/box-plot-in-make-a-plot-menu.png)
-Select **Choose as Y** for each column and click the blue **Plot** button in the sidebar to create the chart.  (For more help with the grid see [Add Data to the Plotly Grid](https://plot.ly/add-data-to-the-plotly-grid/) ) | ![Blue plot button](/static/images/how-to-make-a-boxplot/blue-plot-button.png)
+Select **Choose as Y** for each column and click the blue **Plot** button in the sidebar to create the chart.  (For more help with the grid see [Add Data to the Chart Studio Grid](https://plot.ly/add-data-to-the-plotly-grid/) ) | ![Blue plot button](/static/images/how-to-make-a-boxplot/blue-plot-button.png)
 
 ### Step 2: Traces
 

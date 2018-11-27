@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Online Excel Reporting with Plotly
-subtitle: Online Excel Reporting with Plotly
+title: Online Excel Reporting with Chart Studio
+subtitle: Online Excel Reporting with Chart Studio
 permalink: /excel/online-reports/
 imageurl: https://images.plot.ly/excel/share-your-plot/thumbnail-share-your-plot.png
 state: active
 tags: excel
-meta_description: Online Excel reports with Plotly. Plotly is the easiest and fastest way to make charts, reports, and dashboards online.
+meta_description: Online Excel reports with Chart Studio. Chart Studio is the easiest and fastest way to make charts, reports, and dashboards online.
 popularity: featured
 section: Dashboards
 download-url:
@@ -24,9 +24,9 @@ similar:
    imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 steps:
- - title: Head to Plotly and Organize
+ - title: Head to Chart Studio and Organize
    sub-steps:
-    - copy: "Head to Plotly's homepage and click 'Organize' in the upper left."
+    - copy: "Head to the Chart Studio homepage and click 'Organize' in the upper left."
       img: "![Organize](https://images.plot.ly/excel/share-your-plot/organize-share-your-plot.png)"
  - title: Create a New Folder
    sub-steps:
@@ -40,17 +40,17 @@ steps:
       img: "![Add to Folder](https://images.plot.ly/excel/share-your-plot/add-share-your-plot.png)"
     - copy: "Once you have selected the correct folder, go ahead and click 'MOVE' within the 'Move To' menu."
       img: "![Move to Folder](https://images.plot.ly/excel/share-your-plot/move-share-your-plot.png)"
-    - copy: "Your Plotly homepage should now look something like this."
+    - copy: "Your Chart Studio homepage should now look something like this."
       img: "![Home](https://images.plot.ly/excel/share-your-plot/home-share-your-plot.png)"
  - title: Share Your Folder
    sub-steps:
     - copy: "Now, hover over your new folder and click the 'Share' arrow."
       img: "![Share Your Folder](https://images.plot.ly/excel/share-your-plot/share-share-your-plot.png)"
-    - copy: "The 'Share Folder' popover will then appear. You can 'Invite People' by entering their Plotly username or email address. You can also add a message if you'd like."
+    - copy: "The 'Share Folder' popover will then appear. You can 'Invite People' by entering their Chart Studio username or email address. You can also add a message if you'd like."
       img: "![Invite](https://images.plot.ly/excel/share-your-plot/invite-share-your-plot.png)"
     - copy: "Click the 'SHARABLE LINK' tab to acquire a link to your folder. You can share this with other collaborators."
       img: "![Link](https://images.plot.ly/excel/share-your-plot/link-share-your-plot.png)"
- - title: Your Plotly Homepage
+ - title: Your Chart Studio Homepage
    sub-steps:
     - copy: "Our 'Error Bar Graphs' folder can be found here at the link provided: [click here](https://plot.ly/~Dinosaur/folder/Dinosaur:17)."
       img: "![Final](https://images.plot.ly/excel/share-your-plot/final-share-your-plot.png)"

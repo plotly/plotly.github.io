@@ -1,12 +1,12 @@
 ---
 layout: single
 title: Make a Pie Chart with Excel
-subtitle: Plotly with Excel
+subtitle: Chart Studio with Excel
 permalink: /plotly1/excel/pie-chart/
 imageurl: http://i.imgur.com/2OgdHqp.png
 state: active
 tags: excel
-meta_description: A tutorial on how to make a pie chart with Excel. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a pie chart with Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Pie Chart
 ---
 
@@ -19,7 +19,7 @@ actioncall: Make a Pie Chart
 
 Follow along below to make a pie chart of your own.
 
-### Step 1 - Upload your Excel data to Plotly's grid
+### Step 1 - Upload your Excel data to Chart Studio's grid
 
 Open the data file for this tutorial in Excel. You can download the file here in
 <a class="link--impt" href="https://www.dropbox.com/s/3h242p30pphiqud/How%20Much%20Money%20do%20You%20Have%20in%20Your%20Savings%20Account_%20copy.xls?raw=1" target="_blank">
@@ -32,9 +32,9 @@ Open the data file for this tutorial in Excel. You can download the file here in
       formats.
 ![Excel view](http://i.imgur.com/QyEi1dy.png)
 
-### Step 2 - Head to Plotly
+### Step 2 - Head to Chart Studio
 
-Head to Plotly's Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Plotly account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
+Head to the Chart Studio Workspace at <a class="link--impt" href="/plot">https://plot.ly/plot</a> and sign into your free Chart Studio account. Go to "Import," click "Upload a file," then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see the tutorial: <a class="link--impt" href="/add-data-to-the-plotly-grid/">https://plot.ly/add-data-to-the-plotly-grid/</a>
 
 ### Step 3 - Creating Your Chart
 
@@ -94,7 +94,7 @@ Once your note looks like you want it to, use the markdown &lt;a&gt; tag to link
 
 Source: <a href="http://www.gobankingrates.com/savings-account/62-percent-americans-under-1000-savings-survey-finds/">GOBankingRates</a>
 
-You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the "Share" button. Download an image of your Plotly graph by clicking EXPORT on the toolbar.
+You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the "Share" button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar.
 
 ![Share](http://i.imgur.com/j1W3svM.png)
 
@@ -104,6 +104,6 @@ Your finished chart should look something like this:
 
 ![Final chart](http://i.imgur.com/EUsZAFI.png)
 
-To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version.
+To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version.
 
 ![Excel workbook](http://i.imgur.com/A54g3on.png)

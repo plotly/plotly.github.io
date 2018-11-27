@@ -26,7 +26,7 @@ steps:
 
  - title: Add Your Data
    sub-steps:
-    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/create/line-of-best-fit/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
+    - copy: "The first step is to head to the Chart Studio [workspace](https://plot.ly/create/line-of-best-fit/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
 
  - title: Create Your Plot
    sub-steps:

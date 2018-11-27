@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/color-points-of-a-scatter-plot-by-third-column/colored-scatter.png
 state: active
 tags: plotly1
-meta_description: Color points of a scatter plot by groups defined in a column of your data. Use Plotly to make interactive graphs for free, online.
+meta_description: Color points of a scatter plot by groups defined in a column of your data. Use Chart Studio to make interactive graphs for free, online.
 actioncall: make a scatter plot
 ---
 
@@ -20,7 +20,7 @@ actioncall: make a scatter plot
 
 ### Step 1 : Set up the grid
 
-[R](www.r-project.org/), a free programming environment for statistical computing and graphics, comes with several sample data sets to give you some data to work with right away. We've entered part of the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into a Plotly grid. Our data includes measurements on sepal length and sepal width of 150 different irises, catagorized into three different species.<br><br>Once you've loaded the data, click **Fork and edit** to move the data into your Plotly workspace. | ![Load iris data into your Plotly workspace.](http://i.imgur.com/FKZKylI.png)
+[R](www.r-project.org/), a free programming environment for statistical computing and graphics, comes with several sample data sets to give you some data to work with right away. We've entered part of the [sepal and petal data](https://plot.ly/~Dreamshot/3249) into a Chart Studio grid. Our data includes measurements on sepal length and sepal width of 150 different irises, catagorized into three different species.<br><br>Once you've loaded the data, click **Fork and edit** to move the data into your Chart Studio workspace. | ![Load iris data into your Chart Studio workspace.](http://i.imgur.com/FKZKylI.png)
 
 ### Step 2: Graph the data
 
@@ -30,4 +30,4 @@ Select **Scatter Plots** from the **MAKE A PLOT** menu. Click **choose as x** an
 
 Your graph should look something like this: | ![Default three trace scatter plot](http://i.imgur.com/cxEk2ST.png)
 You can add or modify axis labels and the plot title by clicking and typing. Notice how the legend specifies the species of iris and each species has a different color on the plot. | ![Axis titles and trace legends.](http://i.imgur.com/byvVi9M.png)
-Plotly graphs are interactive! You can hover over the scatter points for more information. [Styling options](/styling-and-customizing-graphs-video) are contained in the TRACES popover. Learn more about our [interactive features in three short videos](/zoom-pan-hover-controls). | ![The final graph is interactive.](http://i.imgur.com/hGuXkfN.png)
+Chart Studio graphs are interactive! You can hover over the scatter points for more information. [Styling options](/styling-and-customizing-graphs-video) are contained in the TRACES popover. Learn more about our [interactive features in three short videos](/zoom-pan-hover-controls). | ![The final graph is interactive.](http://i.imgur.com/hGuXkfN.png)

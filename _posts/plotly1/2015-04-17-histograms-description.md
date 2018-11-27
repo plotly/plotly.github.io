@@ -32,7 +32,7 @@ Label the data (in the example below each data point is an SAT score), draw in a
 
 <img src="/static/images/histograms-description/03-histogram-description.gif" id="fig3" width="600" height="267.76" />
 
-And that’s how to construct a histogram... by hand! Plotly can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Plotly which series of data to plot, and we take care of the rest. Plotly automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the **sample size**), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
+And that’s how to construct a histogram... by hand! Chart Studio can automatically create histogram plots for you (doing the steps above behind the scenes). All you need to do is tell Chart Studio which series of data to plot, and we take care of the rest. Chart Studio automatically determines the range of the histogram (where to start and stop on the number line) as well as the bin size (the width of each bin on the number line). You can change these options later under Style &rarr; Range/Bins. As you increase the number of points (also called the **sample size**), you can draw thinner and thinner bins with a higher level of precision, as illustrated below.
 
 
 <img src="/static/images/histograms-description/04-histogram-description.gif" id="fig5" width="423.09" height="407.88" />
@@ -158,10 +158,10 @@ For a quick summary of the normalization types, let's look at our sample histogr
             </table>
 </div>
 
-Don't worry if this seems like a lot of calculation. Plotly does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
+Don't worry if this seems like a lot of calculation. Chart Studio does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
 
-##### Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
+##### Questions? Please try searching Chart Studio’s <a href="http://community.plot.ly/">community forum</a>.
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 

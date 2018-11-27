@@ -1,15 +1,15 @@
 ---
 layout: excel-tutorial-single_layout
-title: Create a Shaded Region on a Chart with Plotly and Excel
+title: Create a Shaded Region on a Chart with Chart Studio and Excel
 subtitle: A Step-by-Step Guide to Create a Shaded Region on a Chart
 permalink: /excel/shaded-region-on-chart/
 imageurl: https://images.plot.ly/excel/shaded-region-excel/thumb-shaded-region.png
 state: active
 tags: excel
-meta_description: Create a shaded region on a chart. Easily make interactive graphs online and for free with Plotly.
+meta_description: Create a shaded region on a chart. Easily make interactive graphs online and for free with Chart Studio.
 popularity: featured
 section: BasicCharts
-actioncall: Created a Shaded Region with Plotly
+actioncall: Created a Shaded Region with Chart Studio
 actioncall-url: https://plot.ly/7127/~Dreamshot/?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv
 
@@ -29,17 +29,17 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/7133.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/shaded-region.csv)"
       img: "![Excel view](https://images.plot.ly/excel/shaded-region-excel/excel-view-shaded-region.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/shaded-region-excel/import-shaded-region.png)"
  - title: Creating Your Chart
    sub-steps:
-    - copy: "Once you've loaded the data in Plotly, label your columns like we did below. You'll have Z scores and probability density as one x-y combination. You'll also have a second x-y combination; this is critical for shading purposes! Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
+    - copy: "Once you've loaded the data in Chart Studio, label your columns like we did below. You'll have Z scores and probability density as one x-y combination. You'll also have a second x-y combination; this is critical for shading purposes! Then, select 'Line plots' from the CHOOSE PLOT TYPE menu. When you're finished, click on the blue 'LINE PLOT' button in the sidebar."
       img: "![Grid](https://images.plot.ly/excel/shaded-region-excel/grid-shaded-region.png)"
     - copy: "Your plot would initially look something like this."
       img: "![Original](https://images.plot.ly/excel/shaded-region-excel/original-shaded-region.png)"
@@ -59,8 +59,8 @@ steps:
       img: "![Styling](https://images.plot.ly/excel/shaded-region-excel/styling-shaded-region.png)"
     - copy: "Here's our finished graph."
       img: "![Finished](https://images.plot.ly/excel/shaded-region-excel/finished-shaded-region.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/shaded-region-excel/export-shaded-region.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel workbook](https://images.plot.ly/excel/shaded-region-excel/excel-workbook-shaded-region.png)"
 ---

@@ -22,7 +22,7 @@ actioncall: Make a Bubble Chart
 
 ## Step 1: Set up the grid
 
-This is one way you could set up Plotly’s grid to make the graph above. Select the (T)ext column, (x) column, (y) column, and (S)ize as shown in the image for the different traces. The different colors represent different traces on the plot. Learn more about the grid [here](https://plot.ly/add-data-to-the-plotly-grid) and copy the data [here](https://plot.ly/~cimar/212). | ![Bubble chart grid](/static/images/bubble-chart/bubble-chart-grid.png)
+This is one way you could set up Chart Studio’s grid to make the graph above. Select the (T)ext column, (x) column, (y) column, and (S)ize as shown in the image for the different traces. The different colors represent different traces on the plot. Learn more about the grid [here](https://plot.ly/add-data-to-the-plotly-grid) and copy the data [here](https://plot.ly/~cimar/212). | ![Bubble chart grid](/static/images/bubble-chart/bubble-chart-grid.png)
 
 Select **Bubble charts** from the **MAKE A PLOT** menu. Note: choosing a plot type will update the available options in the grid. | ![Bubble charts in make a plot menu](/static/images/bubble-chart/bubble-charts-in-make-a-plot-menu.png)
 Click the **Size by** option in the sidebar, and the **Text** option. | ![Bubble chart options](/static/images/bubble-chart/bubble-chart-options.png)

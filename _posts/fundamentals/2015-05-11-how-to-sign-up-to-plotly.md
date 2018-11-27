@@ -1,17 +1,17 @@
 ---
 layout: single
-title: How to sign up for Plotly
-subtitle: A guide to signing up to Plotly
+title: How to sign up for Chart Studio
+subtitle: A guide to signing up to Chart Studio
 permalink: /how-to-sign-up-to-plotly/
 imageurl: /static/images/how-to-sign-up-to-plotly/create-a-plotly-account.png
 state: active
 tags: fundamentals
 section: fundamentals
 order: 1
-meta_description: How to sign up to Plotly. Plotly is the easiest way to make and share graphs, online and for free.
+meta_description: How to sign up to Chart Studio. Chart Studio is the easiest way to make and share graphs, online and for free.
 ---
 
-# How to sign up for Plotly
+# How to sign up for Chart Studio
 
 ## Step 1: Go to plot.ly
 
