@@ -17,7 +17,7 @@ actioncall: Make a Graph
     <script data-plotly="Dreamshot:609" src="https://plot.ly/embed.js" async></script>
 </div>
 
-Want to add a link to the data source on one of your graphs? Need superscripts or subscripts in your title? Chart Studio supports several HTML tags and codes for special characters, like Greek letters.  In this tutorial we’ll show you the basics of integrating these features with Chart Studio using our Web App. Looking for even more formatting options? LaTeX offers additional flexibility. Check out our tutorial [here](https://plot.ly/LaTeX-basics/).
+Want to add a link to the data source on one of your graphs? Need superscripts or subscripts in your title? Chart Studio supports several HTML tags and codes for special characters, like Greek letters.  In this tutorial we’ll show you the basics of integrating these features with Chart Studio. Looking for even more formatting options? LaTeX offers additional flexibility. Check out our tutorial [here](https://plot.ly/LaTeX-basics/).
 Chart Studio uses a subset of HTML tags to do things like newline (&lt;br&gt;), bold (&lt;b&gt;&lt;/b&gt;), italics (&lt;i&gt;&lt;/i&gt;), and hyperlinks (&lt;a href=’&#8230;’&gt;&lt;/a&gt;). Tags &lt;em&gt;, &lt;sup&gt;, and &lt;sub&gt; are also supported. Follow along below for some examples.
 
 ### Step 1: Using HTML with Chart Studio
