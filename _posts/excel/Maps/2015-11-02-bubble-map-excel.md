@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bubble Map Online with Plotly and Excel
-subtitle: Bubble maps with Plotly
+title: Make a Bubble Map Online with Chart Studio and Excel
+subtitle: Bubble maps with Chart Studio
 permalink: /excel/bubble-maps/
 imageurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
 state: active
@@ -28,13 +28,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~Dreamshot/6752.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv)"
       img: "![Excel view](https://images.plot.ly/excel/bubble-maps/excel-view-bubble-map.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/bubble-maps/import-data-bubble-map.png)"
  - title: Creating Your Chart
    sub-steps:
@@ -50,8 +50,8 @@ steps:
       img: "![Title](https://images.plot.ly/excel/bubble-maps/titling-bubble-map.png)"
     - copy: "You can just the 'Type' of layout within the dropdown. We suggest going with 'Albers usa' for this plot."
       img: "![Type](https://images.plot.ly/excel/bubble-maps/albers-bubble-map.png)"
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/bubble-maps/export-bubble-map.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel](https://images.plot.ly/excel/bubble-maps/final1-excel-bubble-map.png)"
 ---

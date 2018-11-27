@@ -21,13 +21,13 @@ steps:
  - title: Introduction
    sub-steps:
     - copy: "In this tutorial we will look at how to control the layout of subplots."
- 
- - title: Add Your Data to Plotly
+
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
     - copy: "For this tutorial, we'll use the mtcars dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/motor_trend_car_road_tests.csv). Simply, copy the URL from Github. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from Github."
       img: "![Add Data](../static/images/subplot-layouts/add-data.png)"
- 
+
  - title: Create Your Chart
    sub-steps:
     - copy: "Now that the data has been added, we can select our chart types. Here, we will use a single trace for each subplot. First, we will use the default chart type, 'Scatter'."
@@ -48,7 +48,7 @@ steps:
       img: "![Fourth Plot Traces](../static/images/subplot-layouts/add-4th-trace-values.png)"
     - copy: "Like previously, click the 'Subplot & Multiple Axes' button in the fourth trace panel where a selection of subplot arrangements ought to be presented. For this subplot, select 'Stacked' and click 'Confirm'. As previously mentioned, you may notice that the layout isn't what you want but we will address this once we have added all the plots."
       img: "![Stacked](../static/images/subplot-layouts/stacked.png)"
- 
+
  - title: Style Your Chart
    sub-steps:
     - copy: "Now that we have all the plots and subplots added we need to organise the subplot layouts. Thus, select 'Axes' under the STYLE tab and navigate to 'Layout'. Here, we'll make a serious of changes to each axis across all plots."
@@ -77,7 +77,7 @@ steps:
       img: "![Zero Line](../static/images/subplot-layouts/zero-line.png)"
     - copy: "Lastly, we want to add a title to the plot. For this, navigate to 'Layout' under 'STYLE' and then select 'Titles and Fonts'. In the text box enter 'Subplot Layouts' or alternatively, like before, you can enter it directly in the plot where it says 'Click to Enter Plot Title'."
       img: "![Add Title](../static/images/subplot-layouts/add-title.png)"
- 
+
  - title: Save and Share
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."

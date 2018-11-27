@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/label-points-with-text-in-a-scatter-plot/
 imageurl: /static/images/label-points-with-text/scatter-labeled-points.png
 state: active
 tags: textandlinks
-meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Plotly.
+meta_description: Add text labels to points in a scatter plot. Easily make interactive graphs online and for free with Chart Studio.
 actioncall: Make a scatter plot
 ---
 
@@ -20,11 +20,11 @@ actioncall: Make a scatter plot
 
 ### **Step 1:** Set up the grid
 
-The graph above lets you compare relative losses with absolute losses for certain companies after the 2008 crash. The data contains market capitalization values from 2007 and 2009, in billions of dollars. We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Plotly. You can click the link to open the data set. Once the data loads, click **Fork and edit** to load the data into your Plotly workspace. | ![Loss data loaded in your workspace for graphing](http://imgur.com/BJDmvAX.png)
+The graph above lets you compare relative losses with absolute losses for certain companies after the 2008 crash. The data contains market capitalization values from 2007 and 2009, in billions of dollars. We’ve already entered the [loss data](https://plot.ly/~Dreamshot/3163) into Chart Studio. You can click the link to open the data set. Once the data loads, click **Fork and edit** to load the data into your Chart Studio workspace. | ![Loss data loaded in your workspace for graphing](http://imgur.com/BJDmvAX.png)
 
 ### **Step 2:** Associating text to each data point
 
-Once you've loaded the data in Plotly, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels. When you're finished, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
+Once you've loaded the data in Chart Studio, select **Scatter plot** from the **MAKE A PLOT** menu. Look for the **text** option in the sidebar. This will enable you to select columns that associate text with corresponding data points. For each group of data that you want to plot, you'll need to select a column of $x$-values, a column of $y$-values, and a column for the text labels. When you're finished, click on the blue **Scatter plot** button in the sidebar. | ![Making a scatter plot with text associated to each data point.](http://i.imgur.com/7tqqiEz.png)
 
 ### **Step 3:** Adding text labels to the points of a graph
 

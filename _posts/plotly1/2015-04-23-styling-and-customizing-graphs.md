@@ -7,7 +7,7 @@ imageurl: /static/images/styling-and-customizing-graphs/thum-styling-and-customi
 state: active
 tags: analysis
 order: 14
-meta_description: Learn how to style and customize Plotly graphs in under a minute. Plotly is the easiest way to make and share graphs, online and for free.
+meta_description: Learn how to style and customize Chart Studio graphs in under a minute. Chart Studio is the easiest way to make and share graphs, online and for free.
 actioncall: Make a Graph
 ---
 

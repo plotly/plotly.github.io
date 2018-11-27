@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-line-graph-or-scatter-plot/
 imageurl: /static/images/scatter-graph/thum-scatter-graph.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a line graph and a scatter plot online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a line graph and a scatter plot online. Chart Studio is the easiest and fastest way to make and share graphs online.
 actioncall: Make a Line or Scatter Graph
 ---
 
@@ -22,7 +22,7 @@ actioncall: Make a Line or Scatter Graph
 ### Step 1: Set up the grid
 
 
-This is how you would set up Plotly’s grid to make the graph above (data here: [https://plot.ly/~cimar/173](https://plot.ly/~cimar/173) .| ![How to make a line graph and scatter plot online](/static/images/scatter-graph/image16.png)
+This is how you would set up Chart Studio’s grid to make the graph above (data here: [https://plot.ly/~cimar/173](https://plot.ly/~cimar/173) .| ![How to make a line graph and scatter plot online](/static/images/scatter-graph/image16.png)
 Select “Line plot” from the MAKE A PLOT menu.|![How to make a line graph and scatter plot online](/static/images/scatter-graph/image02.png)
 Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/grid](https://plot.ly/grid)| ![How to make a line graph and scatter plot online](/static/images/scatter-graph/image13.png)
 

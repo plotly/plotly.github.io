@@ -1,23 +1,23 @@
 ---
 layout: tutorial-single_layout
 title:  How to Embed Graphs in a Blog or Website
-subtitle: Embed graphs created with Plotly
+subtitle: Embed graphs created with Chart Studio
 permalink: /embed-graphs-in-websites/
 imageurl: ../static/images/embed-plotly-graphs/embed thumb.png
 state: active
 tags: fundamentals
 order: 6
-meta_description: Learn how to embed interactive Plotly graphs in websites, blogs, iframes, Tumblr, and WordPress online using Plotly.
+meta_description: Learn how to embed interactive Chart Studio graphs in websites, blogs, iframes, Tumblr, and WordPress online using Chart Studio.
 popularity: featured
 actioncall: Embed a Graph
 
 steps:
- - title: Embed Plotly Graphs in a Blog or Website
+ - title: Embed Chart Studio Graphs in a Blog or Website
    sub-steps:
-    - copy: "When you embed a Plotly graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Plotly graph. The embedding process is the same whether you're creating graphs from the online [workspace](https://plot.ly/create) or using one of Plotly's APIs. With our interactive features, your readers have a whole new way to engage with your work. When you update a Plotly graph, the graph automatically updates on your blog or website. No need for manual updates!"
+    - copy: "When you embed a Chart Studio graph, it means you’re sharing your graph, your data and the code that describes your graph all in one place. You can embed any Chart Studio graph. The embedding process is the same whether you're creating graphs from the online [workspace](https://plot.ly/create) or using one of Chart Studio's APIs. With our interactive features, your readers have a whole new way to engage with your work. When you update a Chart Studio graph, the graph automatically updates on your blog or website. No need for manual updates!"
     - copy: "We’re in [Wired Magazine](http://www.wired.com/2014/08/lego-cost), [The Washington Post](http://www.washingtonpost.com/blogs/wonkblog/wp/2013/06/14/do-low-taxes-on-the-rich-leave-the-middle-class-with-lower-wages/), and the [National Post](http://sports.nationalpost.com/2014/08/02/how-does-p-k-subbans-new-contract-stack-up-against-other-elite-nhl-defencemen)."
       img: "![Lego](../static/images/embed-plotly-graphs/plotly on wired.png)"
-    - copy: "You can embed a Plotly graph using HTML code or an iframe. These codes are located in Plotly's workspace, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the [end](http://help.plot.ly/embed-graphs-in-websites/#step-10-embed-on-wordpress) of this page."
+    - copy: "You can embed a Chart Studio graph using HTML code or an iframe. These codes are located in Chart Studio's workspace, your list of files, also called your ['Organize'](https://plot.ly/organize/), and your Profile page. It's also possible to share someone else’s graph, so keep reading to find out more. If you’re using wordpress.com, jump to the [end](http://help.plot.ly/embed-graphs-in-websites/#step-10-embed-on-wordpress) of this page."
 
  - title: From Your Workspace
    sub-steps:
@@ -33,19 +33,19 @@ steps:
 
  - title: From Your Profile
    sub-steps:
-    - copy: "Next is if you'd like to embed from your Profile page. You can get there by typing this URL:'http://plot.ly/~YOURUSERNAME' into your address bar, or by going to your username on the top right-hand side of Plotly's pages and selecting 'Profile' from the dropdown menu. Just like in your Organize, hover over the plot, but this time click on the Share icon to view the same Share popup."
+    - copy: "Next is if you'd like to embed from your Profile page. You can get there by typing this URL:'http://plot.ly/~YOURUSERNAME' into your address bar, or by going to your username on the top right-hand side of Chart Studio's pages and selecting 'Profile' from the dropdown menu. Just like in your Organize, hover over the plot, but this time click on the Share icon to view the same Share popup."
       img: "![Sharable link](../static/images/embed-plotly-graphs/share from profile.png)"
 
  - title: Share Another User's Plot
    sub-steps:
-    - copy: "If you happen to be in [Plotly's Feed](https://plot.ly/) and see a cool graph you want to share, click on the 'Sharing Link' at the bottom right-hand side of the plot."
+    - copy: "If you happen to be in [Chart Studio's Feed](https://plot.ly/) and see a cool graph you want to share, click on the 'Sharing Link' at the bottom right-hand side of the plot."
       img: "![Embed button](../static/images/embed-plotly-graphs/share from feed.png)"
-    - copy: "You can also share someone else's graph from their Viewplot, via their Shareable Link. If you don't happen to have this link, but do see their plot (in Plotly's Feed, for example), hover over the plot and click VIEW. Notice the sharing options located in the bottom right corner; click on the '</>' button."
+    - copy: "You can also share someone else's graph from their Viewplot, via their Shareable Link. If you don't happen to have this link, but do see their plot (in Chart Studio's Feed, for example), hover over the plot and click VIEW. Notice the sharing options located in the bottom right corner; click on the '</>' button."
       img: "![Embed button](../static/images/embed-plotly-graphs/embed button.png)"
 
  - title: Embed Grid
    sub-steps:
-    - copy: "We've talked a lot about embedding Plotly graphs, but did you know that you can also embed your grid? Just like your plots, grids can be embedded in iframes."
+    - copy: "We've talked a lot about embedding Chart Studio graphs, but did you know that you can also embed your grid? Just like your plots, grids can be embedded in iframes."
     - copy: "You can find the embed code by going to your [Organize](https://plot.ly/organize/) or Profile page and hovering over the saved grid. Grids are saved as 'Private' by default, so it's important that you save your data as 'Public' or 'Private Link'."
     - copy: "Copy the iframe just as you would for the plot and paste it to your website or blog. This is an example of what your grid looks like when it's been embedded."
       img: "![Embed grid](../static/images/embed-plotly-graphs/embed grid.png)"
@@ -69,13 +69,13 @@ steps:
 
  - title: Add the Code to Your Website
    sub-steps:
-    - copy: "Copy the HTML snippet or iframe and paste it into your site's source code. For our example, we'll add a graph to our [Plotly blog](http://blog.plot.ly/) hosted by [tumblr](http://www.tumblr.com). We're going to add the HTML snippet just the way it is, but sometimes you'll find that the image needs to be resized. We’ve found trial and error is best."
+    - copy: "Copy the HTML snippet or iframe and paste it into your site's source code. For our example, we'll add a graph to our [Chart Studio blog](http://blog.plot.ly/) hosted by [tumblr](http://www.tumblr.com). We're going to add the HTML snippet just the way it is, but sometimes you'll find that the image needs to be resized. We’ve found trial and error is best."
       img: "![How to embed plotly graphs in websites](../static/images/embed-plotly-graphs/embed graph to tumblr.png)"
     - copy: "This is how it appears after it's been posted."
       img: "![Live embedded image](../static/images/embed-plotly-graphs/live blog.png)"
 
  - title: Embed on WordPress
    sub-steps:
-    - copy: "WordPress doesn’t support our HTML code or iframes, but we’ve come up with an easy solution for you. We developed a [WordPress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Plotly graphs direct from WordPress's admin."
+    - copy: "WordPress doesn’t support our HTML code or iframes, but we’ve come up with an easy solution for you. We developed a [WordPress plugin](https://wordpress.org/plugins/wp-plotly) which makes it easy to embed Chart Studio graphs direct from WordPress's admin."
     - copy: "Don't forget to check out our WordPress blog called [Modern Data](http://moderndata.plot.ly/)!"
 ---

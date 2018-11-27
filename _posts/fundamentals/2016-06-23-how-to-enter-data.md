@@ -19,13 +19,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 steps:
  - title: Option 1 - Enter Your Data in the Grid
    sub-steps:
-    - copy: "The first step to making any Plotly graph is adding data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
+    - copy: "The first step to making any Chart Studio graph is adding data to the grid. You can type your data directly into the grid, or copy it from a spreadsheet and paste it in."
     - copy: "You can also type directly into the cells, or use your keyboard shortcuts to paste in clipboard content."
       img: "![Enter data in grid](../static/images/enter-data-in-the-grid/Enter_Data_in_Grid.png)"
 
  - title: Option 2 - Import Your Data File
    sub-steps:
-    - copy: "You can import .xls, .xlsx, or .csv files directly into Plotly. Upload a file using the IMPORT DATA tab."
+    - copy: "You can import .xls, .xlsx, or .csv files directly into Chart Studio. Upload a file using the IMPORT DATA tab."
       img: "![Import data main shot](../static/images/enter-data-in-the-grid/Import_Data_Main_Shot.png)"
       img: "![Import data second shot](../static/images/enter-data-in-the-grid/import-data-tab.png)"
     - copy: "You have the option to drag and drop your file, or select “click to upload”."
@@ -36,13 +36,13 @@ steps:
     - copy: "You can also upload data by entering the URL of an online data set. Please note we only support cdv and excel files at this time."
       img: "![Enter data by URL](../static/images/enter-data-in-the-grid/Import_Data_by_URL.png)"
 
- - title: Option 4 - Import Data from a URL Using Plotly's External Endpoint
+ - title: Option 4 - Import Data from a URL Using Chart Studio's External Endpoint
    sub-steps:
-    - copy: "You can also upload data from a URL using Plotly's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Plotly's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Plotly's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Plotly's online workspace:  [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
+    - copy: "You can also upload data from a URL using Chart Studio's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Chart Studio's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Chart Studio's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Chart Studio's online workspace:  [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
 
  - title: Option 5 - Import Using our Samples
    sub-steps:
-    - copy: "Additionally, you can use the examples provided here at Plotly. Choose any of these to get started!"
+    - copy: "Additionally, you can use the examples provided here at Chart Studio. Choose any of these to get started!"
       img: "![Import with examples](../static/images/enter-data-in-the-grid/Import_Using_Examples.png)"
 
  - title: Update Your Data
@@ -59,5 +59,5 @@ steps:
     - copy: "Click the blue '+ Trace' button at the top right-hand side of that panel; this will add another trace to your plot. Select the X and Y values using the data from another grid. Since we've already selected Grid 2 values, we'll now add them from Grid 3. Repeat these steps until you've added values from all your grids."
       img: "![grid 3](../static/images/enter-data-in-the-grid/grid-3.png)"
     - copy: "Don't forget to [save](http://help.plot.ly/save-share-and-export-in-plotly/) your plot and name your file!"
-    - copy: "We're currently busy adding new features to our Plotly 2 workspace. At the moment, the option of deleting grids  isn't available. Both these features will be available in the near future, so check back soon!"
+    - copy: "We're currently busy adding new features to our Chart Studio workspace. At the moment, the option of deleting grids  isn't available. Both these features will be available in the near future, so check back soon!"
 ---

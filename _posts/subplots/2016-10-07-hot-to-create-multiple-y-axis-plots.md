@@ -24,9 +24,9 @@ steps:
    sub-steps:
     - copy: "An additional y-axis can be placed on the right-hand side of your graph, and it's really simple to create. This feature is useful if you'd like to compare datasets with vastly different ranges or types of data."
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "The first step is to head to Plotly’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Plotly 1.0](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selecting specific traces easier."
+    - copy: "The first step is to head to Chart Studio’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Chart Studio](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selecting specific traces easier."
       img: "![Import data](../static/images/multiple-y-axes/mult y import.png)"
 
  - title: Create a Plot

@@ -7,7 +7,7 @@ redirect_to: https://help.plot.ly/make-a-histogram/
 imageurl: /static/images/make-a-histogram/thum-make-a-histogram.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to make a histogram online. Plotly is the easiest and fastest way to make and share graphs online.
+meta_description: A tutorial on how to make a histogram online. Chart Studio is the easiest and fastest way to make and share graphs online.
 popularity: frontpage
 actioncall: Make a Histogram
 ---
@@ -23,7 +23,7 @@ Follow along below to make a histogram of your own. If you’re unfamiliar with 
 
 ### Step 1: Set up the grid
 
-This is one way you could set up Plotly’s grid to make the graph above.  Copy the data here: [https://plot.ly/~cimar/127](https://plot.ly/~cimar/127) | ![How to make a histogram online](/static/images/make-a-histogram/image01.png)
+This is one way you could set up Chart Studio’s grid to make the graph above.  Copy the data here: [https://plot.ly/~cimar/127](https://plot.ly/~cimar/127) | ![How to make a histogram online](/static/images/make-a-histogram/image01.png)
 Select “Histogram” from the MAKE A PLOT menu. | ![How to make a histogram online](/static/images/make-a-histogram/image18.png)
 Select only one column of data for a basic histogram (two with the ‘group by’ option)… | ![How to make a histogram online](/static/images/make-a-histogram/image05.png)
 &#8230;These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or “bin” of values appears in the column. To learn more see: [https://help.plot.ly/histogram/](/histogram/) | ![How to Make a Histogram Online](/static/images/make-a-histogram/image15.gif)

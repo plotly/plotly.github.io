@@ -24,7 +24,7 @@ steps:
     - copy: "You've finished [plotting](http://help.plot.ly/tutorials/#basic) and [styling](http://help.plot.ly/style-your-plots/) your graph, but did you know you can also add an image to it? This is especially great if you wish to include your logo."
     - copy: "If you'd like to play around with the chart type of your choice, along with its data, click the 'try an example' button to get a sample chart. This is a good way to get a feel of the workspace before starting your own work."
       img: "![Try and example](../static/images/how-to-add-a-logo/try-an-example.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your [workspace](https://plot.ly/create/infographic/)."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your [workspace](https://plot.ly/create/infographic/)."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
 steps:
