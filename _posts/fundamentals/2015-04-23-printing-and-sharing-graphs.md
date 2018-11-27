@@ -18,7 +18,7 @@ actioncall: Make a Graph
     <script data-plotly="abtran:14" src="https://plot.ly/embed.js" async></script>
 </div>
 
-At Chart Studio, we love sharing. It’s easy to share or print a Chart Studio chart. Here’s how.
+At Plotly, we love sharing. It’s easy to share or print a Chart Studio chart. Here’s how.
 
 ### Sharing: Direct link, facebook, and more
 
