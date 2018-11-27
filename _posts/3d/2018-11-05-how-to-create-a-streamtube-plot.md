@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: 3D Streamtube Plots
-subtitle: Use 3D streamtubes to visualize flow in a vector field in 3-dimensions.
+subtitle: A streamtube is a tubular region surrounded by streamlines that form a closed loop. It's a continuous version of a streamtube plot (3D quiver plot) and can provide insight into flow data from natural systems.
 permalink: /make-a-streamtube-plot/
 imageurl: ../static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
 state: active
