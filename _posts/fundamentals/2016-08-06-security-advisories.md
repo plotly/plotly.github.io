@@ -1,6 +1,6 @@
 ---
 permalink: /security-advisories/
-title: Chart Studio Security Advisories
+title: Plotly Security Advisories
 layout: single_new
 support: true
 ---
