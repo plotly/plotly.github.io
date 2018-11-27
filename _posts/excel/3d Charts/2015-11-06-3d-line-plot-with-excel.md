@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a 3D Line Plot Online with Plotly and Excel
-subtitle: 3D Line Plots with Plotly
+title: Make a 3D Line Plot Online with Chart Studio and Excel
+subtitle: 3D Line Plots with Chart Studio
 permalink: /excel/3d-line-plot/
 imageurl: https://images.plot.ly/excel/3d-line-plot-with-excel/3d-line-plot-with-excel-thumb.png
 state: active
@@ -28,14 +28,14 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~tarzzz/423.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/line_3d_dataset.csv)"
       img: "![Open data in excel](https://images.plot.ly/excel/3d-line-plot-with-excel/open-data-in-excel.png)"
 
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/3d-line-plot-with-excel/import-data-3d-line-plot.png)"
 
 
@@ -66,9 +66,9 @@ steps:
    sub-steps:
     - copy: "The final plot will look something like this:"
       img: "![Finished Plot](https://images.plot.ly/excel/3d-line-plot-with-excel/3d-line-plot-with-excel-final.png)"
-    - copy: "You can export the finished plot to embed in the excel notebook. We also recommend adding the Plotly link to the excel for easy access to the interactive version. To get the link to the chart, click on the 'Share' button. To export the chart, as an image, click on 'EXPORT' button on the toolbar."
+    - copy: "You can export the finished plot to embed in the excel notebook. We also recommend adding the Chart Studio link to the excel for easy access to the interactive version. To get the link to the chart, click on the 'Share' button. To export the chart, as an image, click on 'EXPORT' button on the toolbar."
       img: "![Share Button](https://images.plot.ly/excel/3d-line-plot-with-excel/export-3d-line-plot.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it:"
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it:"
       img: "![Excel](https://images.plot.ly/excel/3d-line-plot-with-excel/excel-3d-line-plot.png)"
 
 ---
