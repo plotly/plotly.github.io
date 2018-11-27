@@ -21,14 +21,16 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
-    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
+    - copy: "To try an example, select 'Chart Type' and a panel will appear with chart type options. Once you locate the 3D line icon under the '3d'column, you can check out an example before adding your own data by clicking the little graph icon that will show what a sample chart looks like after adding data and playing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Try an Example](../static/images/create-animations/try-an-example.png)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
+      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Plotly’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "In this tutorial, we will use a bsic dataset that is available via [Chart Studio's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv). Simply copy the URL and then navigate back to the Chart Studio workspace. Now, click 'IMPORT', select the 'By URL' tab, and paste in the the URL."
+      img: "![Add Data](../static/images/make-a-3d-line-chart/add-data.png)"
 
  - title: Create a Chart
    sub-steps:
