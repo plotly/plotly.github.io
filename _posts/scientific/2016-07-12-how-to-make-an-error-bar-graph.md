@@ -11,7 +11,7 @@ order: 1
 meta_description: A tutorial on how to make a graph with error bars in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a graph with error bars in Chart Studio's Chart Studio
+actioncall: How to make a graph with error bars in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:417
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/error-bars/) or [R](https://plot.ly/r/error-bars/).
