@@ -33,4 +33,4 @@ On-Premise customers.
 
 Please send all security reports concerning Plotly products to [security@plot.ly](mailto:security@plot.ly).
 
-[Return to the main Chart Studio Security Advisories page](http://help.plot.ly/security-advisories/)
+[Return to the main Plotly Security Advisories page](http://help.plot.ly/security-advisories/)
