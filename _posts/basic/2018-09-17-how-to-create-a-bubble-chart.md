@@ -22,7 +22,7 @@ steps:
  - title: Add Your Data to Chart Studio
    sub-steps:
     - copy: "Bubble charts are scatter plots with an added size dimension, thus three dimensional data is represented as x position, y position, and size of the marker."
-    - copy: "Head to Plotly's [Chart Studio](https://plot.ly/create/) to get started. You have the option of typing directly in the grid, uploading your local file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) to get started. You have the option of typing directly in the grid, uploading your local file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Example after](../static/images/create-bubble-chart/add-data.png)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
 
