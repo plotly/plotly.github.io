@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Box Plot Online with Plotly and Excel
-subtitle: Box Plots with Plotly
+title: Make a Box Plot Online with Chart Studio and Excel
+subtitle: Box Plots with Chart Studio
 permalink: /excel/box-plot/
 imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
@@ -28,13 +28,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.csv)"
       img: "![View of data](/static/images/box-plot-with-excel/image22.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/box-plots/import-data-box-plot.png)"
     - copy: "Select 'Box plots' from the MAKE A PLOT menu."
       img: "![Box Plot](/static/images/box-plot-with-excel/image18.png)"
@@ -51,7 +51,7 @@ steps:
  - title: Style and Annotate
    sub-steps:
     - copy: "Your plot should look something like this."
-      img: "![Plotly box plot](/static/images/box-plot-with-excel/image05.png)"
+      img: "![Chart Studio box plot](/static/images/box-plot-with-excel/image05.png)"
     - copy: "In order to get the graph at the top of the chart, you'll need to style it more."
       img: "![Style your plot](/static/images/box-plot-with-excel/image13.png)"
     - copy: "This is what the 'Style' tab of the TRACES popover should look like for 'All Traces (Box)'.    We've narrowed our boxes, spread them out more, and stroked them with a thinner weight. We've also made the accompanying points smaller and more spread-out."
@@ -63,7 +63,7 @@ steps:
     - copy: "Here's how the LAYOUT popover should look."
       img: "![Graph Layout](/static/images/box-plot-with-excel/image04.png)"
     - copy: " We've nudged the top margin, and we're giving our chart a grey background. We've also changed the font."
-      img: "![Plotly graph styling](/static/images/box-plot-with-excel/image06.png)"
+      img: "![Chart Studio graph styling](/static/images/box-plot-with-excel/image06.png)"
     - copy: "This is what the 'Lines' tab of the AXES popover looks like for 'All Axes'. We've made the grid lines white, and the x-axis a little heavier."
       img: "![Axes styling](/static/images/box-plot-with-excel/image14.png)"
     - copy: "This is what the 'Labels' tab of the AXES popover looks like for 'X Axis'. We've rotated the labels."
@@ -75,10 +75,10 @@ steps:
     - copy: "Points Scored per NBA Game<br>data taken from <i><a href=''https://plot.ly/jackp/969''>Points Scored by the Top 50 Scoring NBA Players in 2012</a></i>"
  - title: Export & Share
    sub-steps:
-    - copy: "Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
       img: "![Finished](https://plot.ly/~cimar/203/points-scored-per-nba-game-data-taken-from-points-scored-by-the-top-50-scoring-n.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Plot in Excel](/static/images/box-plot-with-excel/image24.png)"
 ---

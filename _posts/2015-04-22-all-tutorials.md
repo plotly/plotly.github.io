@@ -1,6 +1,6 @@
 ---
 layout: tutorials
-title: Plotly Tutorials
+title: Chart Studio Tutorials
 subtitle: Online Graphing for Everyone
 permalink: /tutorials/
 ---

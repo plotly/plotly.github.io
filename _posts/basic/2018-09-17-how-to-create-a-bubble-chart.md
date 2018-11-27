@@ -10,7 +10,7 @@ order: 7
 meta_description: A tutorial on how to make a bubble chart in Chart Studio.
 popularity: featured
 carouselimageurl: ../static/images/create-bubble-chart/bubble.jpg
-actioncall: How to create a bubble chart in Plotly's Chart Studio
+actioncall: How to create a bubble chart in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:397
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/bubble-charts/) or [R](https://plot.ly/r/bubble-charts/).
@@ -22,9 +22,9 @@ steps:
  - title: Add Data
    sub-steps:
     - copy: "Bubble charts are scatter plots with an added size dimension, thus three dimensional data is represented as x position, y position, and size of the marker."
-    - copy: "Head to Plotly's [Chart Studio](https://plot.ly/create/) to get started. You have the option of typing directly in the grid, uploading your local file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio's [Chart Studio](https://plot.ly/create/) to get started. You have the option of typing directly in the grid, uploading your local file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![Example after](../static/images/create-bubble-chart/add-data.png)"
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in Chart Studio."
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
 
  - title: Create Chart
    sub-steps:
@@ -52,6 +52,6 @@ steps:
    sub-steps:
     - copy: "Now, the bubble chart has been created. To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
       img: "![Save main](../static/images/create-bubble-chart/save-bubble-chart.png)"
-    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
+    - copy: "For more information on privacy settings and how sharing works, visit Chart Studio's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 
 ---

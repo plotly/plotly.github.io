@@ -21,13 +21,13 @@ steps:
  - title: Introduction
    sub-steps:
     - copy: "In this tutorial we will look at how to create subplots with a shared x-axis."
- 
- - title: Add Your Data to Plotly
+
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Plotly’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
     - copy: "For this tutorial, we'll use the NZ Weather dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/nz_weather.csv). Simply, copy the URL from Github. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from Github."
       img: "![Add Data](../static/images/shared-x-axis-subplots/add-data.png)"
- 
+
  - title: Create Your Chart
    sub-steps:
     - copy: "Now that the data has been added, we can select our chart types. Here, we will use a single trace for each subplot. First, we will use the default chart type, 'Time Series'."
@@ -40,7 +40,7 @@ steps:
       img: "![Add Subplot](../static/images/shared-x-axis-subplots/add-subplot.png)"
     - copy: "If you make a mistake when selected the subplot layout, you can simply click 'UNDO', which is situated immediately below 'Confirm'."
       img: "![Undo Mistakes](../static/images/shared-x-axis-subplots/undo-button.png)"
- 
+
  - title: Style Your Chart
    sub-steps:
     - copy: "Now we can style our plot! Under STYLE select 'Traces', then click individual at the top of the panel - this will enable you to customize each trace. Here, select the 'Dunedin' trace and then click color, which will force a color panel to appear. For the purpose of this tutorial we picked one of the preselected colors at the bottom."
@@ -53,7 +53,7 @@ steps:
       img: "![Y-Axis Title](../static/images/shared-x-axis-subplots/title-yaxis.png)"
     - copy: "For the chart title, you can navigate to 'Layout' under the STYLE tab and select 'Titles and Fonts'. Below the textbox you can select 'Edit in HTML'. Alternatively, like the axes' title, you can edit directly on the plot."
       img: "![Chart Title](../static/images/shared-x-axis-subplots/title-chart.png)"
- 
+
  - title: Save and Share
    sub-steps:
     - copy: "Your chart is now done! Click SAVE on the left-hand side."

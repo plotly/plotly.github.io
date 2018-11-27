@@ -1,13 +1,13 @@
 ---
 layout: single
-title: Update a Graph with New Data in Plotly 1.0
-subtitle: How to update your plotly graphs with new data in Plotly 1.0
+title: Update a Graph with New Data in Chart Studio
+subtitle: How to update your plotly graphs with new data in Chart Studio
 permalink: /update-a-graphs-data/
 redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/update-your-plot/graph-thumbnail.png
 state: active
 tags: plotly1
-meta_description: A tutorial on how to update data in and add data to Plotly graphs. Plotly is the easiest way to graph and share your data.
+meta_description: A tutorial on how to update data in and add data to Chart Studio graphs. Chart Studio is the easiest way to graph and share your data.
 actioncall: Make a plot
 ---
 
@@ -15,13 +15,13 @@ actioncall: Make a plot
 
 If you want see update your graph in Chart Studio, visit [this page](http://help.plot.ly/add-data-to-the-plotly-grid/#step-5-update-your-data) to see how easy it is!
 
-Plotly offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to update your grids and plots with new data. Have a plot [embedded in your webpage or blog](http://help.plot.ly/embed-graphs-in-websites)? When you update your graph using the steps below, the embedded graph will automatically update as well. No need to modify your page with a new URL.
+Chart Studio offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to update your grids and plots with new data. Have a plot [embedded in your webpage or blog](http://help.plot.ly/embed-graphs-in-websites)? When you update your graph using the steps below, the embedded graph will automatically update as well. No need to modify your page with a new URL.
 
 There are two different options for updating your plots. Note that in both cases you have to save your newly modified grid to update your plot, and you still have to open and close the plot to see the changes.
 
 Need help making your graph? Check out our other [tutorials](http://help.plot.ly/tutorials/).
 
-### Update a Plotly graph with new data
+### Update a Chart Studio graph with new data
 
 Do you need to modify your dataset? You can update an existing graph as your data changes.
 
