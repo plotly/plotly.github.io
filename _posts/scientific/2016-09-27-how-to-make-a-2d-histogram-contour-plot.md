@@ -10,7 +10,7 @@ order: 2
 meta_description: A tutorial on how to make a 2D Histogram Contour Plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a 2D histogram contour plot in Chart Studio's Chart Studio
+actioncall: How to make a 2D histogram contour plot in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:415
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/density-plots/#2d-histogram-contour-plot-with-histogram-subplots).
@@ -29,7 +29,7 @@ steps:
 
  - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Chart Studio’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:

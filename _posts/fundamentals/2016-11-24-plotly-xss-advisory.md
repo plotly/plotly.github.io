@@ -1,6 +1,6 @@
 ---
 permalink: /security-advisories/2016-11-24-plotly-xss-advisory/
-title: Chart Studio Security Advisory - XSS in Chart Studio web interface
+title: Plotly Security Advisory - XSS in Chart Studio web interface
 layout: single_new
 support: true
 ---
@@ -28,6 +28,6 @@ Thanks to Nassim Bouali and Mahmoud G. for reporting these issues.
 
 ## General notes regarding security reporting
 
-Please send all security reports concerning Chart Studio security products to [security@plot.ly](mailto:security@plot.ly).
+Please send all security reports concerning Plotly products to [security@plot.ly](mailto:security@plot.ly).
 
-[Return to the main Chart Studio Security Advisories page](http://help.plot.ly/security-advisories/)
+[Return to the main Plotly Security Advisories page](http://help.plot.ly/security-advisories/)

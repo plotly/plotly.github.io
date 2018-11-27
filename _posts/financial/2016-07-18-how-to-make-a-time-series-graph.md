@@ -49,7 +49,7 @@ steps:
     - copy: "You can choose your colors, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your chart."
     - copy: "To change the color of your lines, the line thickness and line type, click on ‘Traces’ under the same STYLE tab. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
       img: "![Color panel](../static/images/time-series/style-color.png)"
-    - copy: "Right below that color section is 'Values Shown on Hover'. Chart Studio is all about interative charts, and although the x-axis shows only the year, you can hover over the plot to see the values of each month. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', or 'Name'."
+    - copy: "Right below that color section is 'Values Shown on Hover'. Chart Studio is all about interactive charts, and although the x-axis shows only the year, you can hover over the plot to see the values of each month. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', or 'Name'."
       img: "![Hover values](../static/images/time-series/style-values-on-hover.png)"
     - copy: "Now, lets style the Axes. Navigate to'Axes' under STYLE and then select the 'Tick Labels' panel. Here, select 'Custom' in the same section, and enter the number of markers you want to show on your plot."
       img: "![Hover values](../static/images/time-series/style-tick-labels.png)"

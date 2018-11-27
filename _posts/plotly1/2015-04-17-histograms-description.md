@@ -161,7 +161,7 @@ For a quick summary of the normalization types, let's look at our sample histogr
 Don't worry if this seems like a lot of calculation. Chart Studio does it for you, and makes it easy to switch between normalization modes under Style &rarr; Range/Bins &rarr; Normalization.
 
 
-##### Questions? Please try searching Chart Studio’s <a href="http://community.plot.ly/">community forum</a>.
+##### Questions? Please try searching Plotly’s <a href="http://community.plot.ly/">community forum</a>.
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 

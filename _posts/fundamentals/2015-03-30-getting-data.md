@@ -21,7 +21,7 @@ meta_description: A tutorial on reliable data sources including Data.gov. Chart 
 
 Keeping track of your data source is important. That's why Chart Studio automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/data-source-url.png">
 
-You can also sync Chart Studio graphs with [externally sourced data](http://chriddyp.github.io/external-source-plotter/). These graphs can be shared by a URL or embedded in a webpage, and whenever a user views the graph, Chart Studio fetches the latest data from your web service. Use the [external source plotter](http://chriddyp.github.io/external-source-plotter/) when you don't want to send your user to Chart Studio's Web App. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox.
+You can also sync Chart Studio graphs with [externally sourced data](http://chriddyp.github.io/external-source-plotter/). These graphs can be shared by a URL or embedded in a webpage, and whenever a user views the graph, Chart Studio fetches the latest data from your web service. Use the [external source plotter](http://chriddyp.github.io/external-source-plotter/) when you don't want to send your user to Chart Studio. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox.
 
 
 
@@ -118,7 +118,7 @@ The data will open in a Chart Studio grid, where you can analyze and graph the d
 <table>
 <tbody>
 <tr>
-<td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Chart Studio</b> to open the collected data in Chart Studio's web app.</td>
+<td>Click on the <b>Download</b> icon in the top-right corner of the Data Share web app. Select <b>Export to Chart Studio</b> to open the collected data in Chart Studio.</td>
 <td><img src="/static/images/getting-data/6snjGKq.png"></td>
 </tr>
 </tbody>

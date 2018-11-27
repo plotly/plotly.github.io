@@ -10,7 +10,7 @@ order: 1.5
 meta_description: A tutorial on how to make a 2D Histogram in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to make a 2D histogram in Chart Studio's Chart Studio
+actioncall: How to make a 2D histogram in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:419
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/2D-Histogram/) or [R](https://plot.ly/r/2D-Histogram/).
@@ -28,7 +28,7 @@ steps:
 
  - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Chart Studio’s [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
  - title: Create a Chart
    sub-steps:
