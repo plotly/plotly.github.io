@@ -23,13 +23,13 @@ steps:
 
  - title: Try an Example
    sub-steps:
-    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Plotly' on the left-hand side. It'll open in your workspace."
+    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
- - title: Add Your Data to Plotly
+ - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "For this tutorial, copy the meteorite dataset URL https://raw.githubusercontent.com/bcdunbar/datasets/master/meteorites_subset.csv and head to Plotly’s new online [workspace](https://plot.ly/create) and add your data by entering the meteorite URL."
-    - copy: "If you decide to try another dataset, keep in mind that Plotly accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+    - copy: "For this tutorial, copy the meteorite dataset URL https://raw.githubusercontent.com/bcdunbar/datasets/master/meteorites_subset.csv and head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data by entering the meteorite URL."
+    - copy: "If you decide to try another dataset, keep in mind that Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
       img: "![insert](../static/images/filters/import-data.png)"
 
  - title: Create Chart
@@ -38,10 +38,10 @@ steps:
       img: "![insert](../static/images/filters/chart-type.png)"
     - copy: "Immediately below, click the 'Latitude' dropdown and select the column name 'recatlat', then click the 'Longtitude' dropwdown and select column name 'recatlon'."
       img: "![insert](../static/images/filters/trace-values.png)"
-      
+
  - title: Style Chart
    sub-steps:
-    - copy: "Like many other charts, here you can apply numerous styles to your chart but for the purpose of this tutorial we have decided to just change the marker opacity. To do this, simply click 'Traces' under the 'STYLE' tab and in the text box next to 'marker opacity' enter '0.5'." 
+    - copy: "Like many other charts, here you can apply numerous styles to your chart but for the purpose of this tutorial we have decided to just change the marker opacity. To do this, simply click 'Traces' under the 'STYLE' tab and in the text box next to 'marker opacity' enter '0.5'."
       img: "![insert](../static/images/filters/style-trace.png)"
 
  - title: Filter Categorical Data
