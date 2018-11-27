@@ -1,7 +1,7 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Bar Chart Online with Plotly and Excel
-subtitle: Bar charts with Plotly
+title: Make a Bar Chart Online with Chart Studio and Excel
+subtitle: Bar charts with Chart Studio
 permalink: /excel/bar-chart/
 imageurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
 state: active
@@ -29,14 +29,14 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.embed"></iframe>
 
 steps:
- - title: Upload your Excel Data to Plotly's Grid
+ - title: Upload your Excel Data to Chart Studio's Grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~cimar/197/la-zoo-vs-sf-zoo.csv)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/bar-charts/import-data-bar-chart.png)"
- - title: Upload your Excel Data to Plotly&apos;s Grid &lpar;two traces&rpar;
+ - title: Upload your Excel Data to Chart Studio&apos;s Grid &lpar;two traces&rpar;
    sub-steps:
     - copy: "The first option is to arrange these two data sets into two different columns."
       img: "![Two different columns](/static/images/bar-chart-with-excel/initial-data.png)"
@@ -44,7 +44,7 @@ steps:
       img: "![Labeling](/static/images/bar-chart-with-excel/bar-charts-in-make-a-plot-menu.png)"
     - copy: "Click the blue plot button in the sidebar to create the chart."
       img: "![Original](/static/images/bar-chart-with-excel/bar-chart.png)"
- - title: Upload your Excel data to Plotly&apos;s Grid &lpar;group by&rpar;
+ - title: Upload your Excel data to Chart Studio&apos;s Grid &lpar;group by&rpar;
    sub-steps:
     - copy: "Your second option is to have a column of variables identifying which dataset each row belongs to, and then 'grouping by' this column."
       img: "![Domain](/static/images/bar-chart-with-excel/initial-data-2.png)"
@@ -61,7 +61,7 @@ steps:
       img: "![Traces popover](/static/images/bar-chart-with-excel/traces-popover.png)"
     - copy: "Here's how the MODE tab of the TRACES popover for 'All Traces (Bar)' should look."
       img: "![All traces](/static/images/bar-chart-with-excel/all-traces.png)"
-      img: "![Chart Style Horizontal](/static/images/bar-chart-with-excel/mode-horizontal.png)"     
+      img: "![Chart Style Horizontal](/static/images/bar-chart-with-excel/mode-horizontal.png)"
     - copy: "(Alternative: if you want to stack or overlay your bars, instead of grouping them, just change the 'Mode' setting.)"
       img: "![Style mode](/static/images/bar-chart-with-excel/style-mode.png)"
     - copy: "Stacked"
@@ -84,10 +84,10 @@ steps:
       img: "![Legend popover background color](/static/images/bar-chart-with-excel/legend-background-color.png)"
  - title: Export and Share
    sub-steps:
-    - copy: "You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://s3-us-west-1.amazonaws.com/plotly-tutorials/excel/bubble-maps/export-bubble-map.png)"
     - copy: "Your finished chart should look something like this"
       img: "![Bar chart](/static/images/bar-chart-with-excel/finished-bar-chart.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel](/static/images/bar-chart-with-excel/chart-in-excel.png)"
 ---

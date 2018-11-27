@@ -1,12 +1,12 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make Online Dashboards with Plotly and Excel
-subtitle: Dashboards with Plotly
+title: Make Online Dashboards with Chart Studio and Excel
+subtitle: Dashboards with Chart Studio
 permalink: /excel/dashboard/
 imageurl: https://images.plot.ly/excel/dashboards/dashboards-thumbnail.png
 state: active
 tags: excel
-meta_description: Make online dashboards for free with Excel data and Plotly charts.
+meta_description: Make online dashboards for free with Excel data and Chart Studio charts.
 popularity: featured
 carouselimageurl: /images/dashboard-carousel.jpg
 section: Dashboards
@@ -28,9 +28,9 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <img src="/images/dashboard-carousel.jpg">
 
 steps:
- - title: Connect Dashboards.ly to your Plotly Account
+ - title: Connect Dashboards.ly to your Chart Studio Account
    sub-steps:
-    - copy: "Head to Plotly's dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Plotly API key from https://plot.ly/settings/api/."
+    - copy: "Head to the Chart Studio dashboard site: [dashboards.ly](http://dashboards.ly/). You'll have to retrieve your Chart Studio API key from https://plot.ly/settings/api/."
       img: "![Sign in](http://i.imgur.com/CO5K1Nh.png)"
  - title: Authentication
    sub-steps:

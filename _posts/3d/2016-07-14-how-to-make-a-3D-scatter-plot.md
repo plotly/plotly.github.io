@@ -1,22 +1,22 @@
 ---
 layout: tutorial-single_layout
-title: 3D Scatter Plots in Chart Studio
-subtitle: Create a plot that represents the relationship between three variables.
+title: 3D Scatter Plots
+subtitle: A type of scatter plot that shows the relationship between three variables. 
 permalink: /make-a-3d-scatter-plot/
 redirect_from: /plotly1/make-a-3d-scatter-plot/
-imageurl: ../static/images/scatter-plot-3D/new scatter thumb.png
+imageurl: ../static/images/3D-scatter-plots/3D-scatter-thumbnail.png
 state: active
 tags: graph3d
 order: 1
 meta_description: A tutorial on how to make a 3D scatter plot in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: How to Make a 3D Scatter Plot in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:33
+actioncall: How to make a 3D scatter plot in Plotly's Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:437
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/3d-scatter-plots/) or [R](https://plot.ly/r/3d-scatter-plots/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/33.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/437.embed"></iframe>
 live-graph-image:
 
 steps:
@@ -35,29 +35,30 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to GRAPH on the left-hand side, then 'Create'. Choose '3D Scatter' under 'Chart type'."
-      img: "![Choose chart main](../static/images/scatter-plot-3D/3D-scatter-chart-type.png)"
-    - copy: "Click on GRAPH on the left-hand side to add your values to your graph. After selecting ‘3D Scatter', you should then fill out the X, Y, and Z dropdowns to create the plot."
-      img: "![Values dropdown](../static/images/scatter-plot-3D/3D-scatter-XYZ-values.png)"
-    - copy: "This will create a raw 3D scatter plot as seen below."
-      img: "![Raw plot](../static/images/scatter-plot-3D/3D-scatter-raw.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '3D Scatter' under '3D' chart type."
+      img: "![Choose chart main](../static/images/3D-scatter-plots/3D-scatter-chart-type.png)"
+    - copy: "Next, select 'X', 'Y' and 'Z' values from the dropdown menus. This will create a 3D scatter trace, as seen below."
+      img: "![Adding X Y Z](../static/images/3D-scatter-plots/3D-scatter-data.png)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "You can choose your color, text position, or typeface. Click on STYLE on the left-hand side to play around with the style of your plot."
-    - copy: "To change the color of the points, click on ‘Traces’ under the same STYLE tab, and choose the color you want. Additionally, this section allows you to change the diameter of the points and also the symbol. Note that certain colors and typeface are only available with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Colour main](../static/images/scatter-plot-3D/3D-scatter-colour-panel.png)"
-    - copy: "To add a title to your graph, you can type it directly on the title by double-clicking it. The same can be done for the legend."
-      img: "![Type directly title](../static/images/scatter-plot-3D/3D-scatter-type-title.png)"
-    - copy: "Another option is to visit the 'Layout' section under STYLE, click on 'Text' and enter your title in the box, as shown below."
-      img: "![Type in layout panel](../static/images/scatter-plot-3D/3D-Scatter-title-panel.png)"
-    - copy: "For adding axes labels, the 'Text' box is found in the 'Axes' section under STYLE. Note that you have to click on each X, Y, and Z text box to add its own label."
-      img: "![Type directly axis](../static/images/scatter-plot-3D/3D-scatter-axes-title.png)"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "Use the 'General' section under the 'Style' menu to set the plot title, as well as change the layout background, margin color and font styles."
+    - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property."
+      img: "![Type title](../static/images/3D-scatter-plots/3D-scatter-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+      img: "![Type directly title](../static/images/3D-scatter-plots/3D-scatter-title-direct.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the scatter trace such as the marker (points) symbol, color or size, hoverinfo and error bars."
+      img: "![Trace Properties](../static/images/3D-scatter-plots/3D-scatter-properties.png)"
+    - copy: "To change the color of the traces, choose either the option 'Constant' or 'Variable'."
+    - copy: "If 'Constant' is chosen, all the points of the trace are colored in the same color. Then choose the color by clicking on the color palette."
+      img: "![Color Palette](../static/images/3D-scatter-plots/3D-scatter-color-palette.png)"
+    - copy: " If 'Variable' is chosen, each point in the trace is colored according to the data specified. Then choose the desired colorscale from the respective dropdown menu. In this plot, the option 'Variable' is chosen, as seen below."
+      img: "![Color main](../static/images/3D-scatter-plots/3D-scatter-colorscale.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your plot is now done! Click SAVE on the left-hand side."
-      img: "![Save main](../static/images/scatter-plot-3D/new scatter save main.png)"
-    - copy: "Give your file a name, then select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save pop-up](../static/images/scatter-plot-3D/3D-scatter-plot-save-popup.png)"
+    - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/3D-scatter-plots/3D-scatter-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Plotly's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
