@@ -14,7 +14,8 @@ Updated August 01, 2017
 
 Chart Studio throttles the number of requests made to its servers. This keeps server traffic and costs manageable while still providing a useful experience. If you exceed the number of allowed requests for your plan, you will receive a message and have to wait 1 to 24 hours to make additional requests.
 
-The Chart Studio Web App uses the <a href="https://api.plot.ly/v2/">V2</a> version of the Chart Studio API. While the popular API libraries (Python, R, MATLAB) use both the <a href="https://plot.ly/rest/">V1</a> and <a href="https://api.plot.ly/v2/">V2</a> versions of the Chart Studio API.
+Chart Studio uses the <a href="https://api.plot.ly/v2/">V2</a> version of the Plotly API. While the popular API libraries (Python, R, MATLAB) use both the <a href="https://plot.ly/rest/">V1</a> and <a href="https://api.plot.ly/v2/">V2</a> versions of the Plotly API.
+
 
 ### Limits on Requests to Chart Studio Servers
 
@@ -37,7 +38,7 @@ While many functions use the API, The API limits are as follows:
       <td><a href="https://plot.ly/rest/">V1</a></td>
     </tr>
     <tr>
-      <td>Chart Studio Web App (<a href="https://plot.ly/plot">plot.ly</a>)</td>
+      <td>Chart Studio (<a href="https://plot.ly/plot">plot.ly</a>)</td>
       <td>GET requests are not limited</td>
       <td>1000</td>
       <td>None</td>

@@ -42,7 +42,7 @@ steps:
       img: "![Traces histogram](../static/images/styling-and-customizing-graphs/traces-histogram.png)"
     - copy: "For plots that contain a colorscale (i.e. scatter plots, contour plots, heatmaps, choropleth maps, and 3D charts), this is where you'll find it. The heatmap has a 'Smoothing' option, which will create a continuous heatmap instead of color blocks."
       img: "![Traces smoothing](../static/images/styling-and-customizing-graphs/style-smoothing.gif)"
-    - copy: "Plotly is all about interative charts, so you can hover over the plot to see the values of that plot. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', 'Z' or ‘Name' under 'Values Shown on Hover'."
+    - copy: "Chart Studio is all about interative charts, so you can hover over the plot to see the values of that plot. Depending on what values you want to appear when you hover, can click on the 'X', 'Y', 'Z' or ‘Name' under 'Values Shown on Hover'."
       img: "![Hover values](../static/images/styling-and-customizing-graphs/values-on-hover.png)"
 
  - title: Layout

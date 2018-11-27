@@ -24,6 +24,7 @@ Keeping track of your data source is important. That's why Chart Studio automati
 You can also sync Chart Studio graphs with [externally sourced data](http://chriddyp.github.io/external-source-plotter/). These graphs can be shared by a URL or embedded in a webpage, and whenever a user views the graph, Chart Studio fetches the latest data from your web service. Use the [external source plotter](http://chriddyp.github.io/external-source-plotter/) when you don't want to send your user to Chart Studio's Web App. We have examples documented for SQLite, Flask, Quandl, Google Drive, GitHub Gists, and Dropbox.
 
 
+
 <h1><a href="https://www.data.gov/meta/open-apps/">Data.gov</a></h1>
 
 
@@ -44,7 +45,8 @@ You can also sync Chart Studio graphs with [externally sourced data](http://chri
 <td><img src="/static/images/getting-data/filter-format.png"></td>
 </tr>
 <tr>
-<td>Once you select a data set, look for the "Open With" option (this will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Chart Studio's Web App.</td>
+<td>Once you select a data set, look for the "Open With" option (this will only appear on supported data sets). Click on <b>plotly</b>, and the data set will open inside Chart Studio.</td>
+
 <td><img src="/static/images/getting-data/rent-estimates.png"></td>
 </tr>
 </tbody>
@@ -82,7 +84,8 @@ Check out our short video on [Styling and Customizing Graphs](http://help.plot.l
 <td><img src="/static/images/getting-data/BZEQ9C4.png"></td>
 </tr>
 <tr>
-<td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the <b>Chart Studio</b> button, and the data set will open inside Chart Studio's Web App.</td>
+<td>We chose the "Butter, AA Chicago" data set, supplied by the <a href="http://www.wsj.com/">Wall Street Journal</a>. Click on the <b>Plotly</b> button, and the data set will open inside Chart Studio.</td>
+
 <td><img src="/static/images/getting-data/2ttCf9B.png"></td>
 </tr>
 </tbody>
