@@ -35,7 +35,11 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Choropleth' under 'Maps' chart type."
       img: "![chart type](../static/images/choropleth-map/choropleth-map-chart-type.png)"
-    - copy: "Now, specify the coordinates in terms of location IDs (i.e., abbrevations). Note that the coordinates correspond to the centroid of each given location. The attribute 'Location Format' determines the set of locations used to match entries in 'Location' to regions of the map."
+    - copy: "Now, specify the coordinates in terms of location IDs (i.e., abbrevations). Note that the coordinates correspond to the centroid of each given location. The attribute 'Location Format' determines the set of locations used to match entries in 'Location' to regions of the map. Finally, define the color values from the dropdown menu next to the attribute 'Values'."
+      img: "![trace values](../static/images/choropleth-map/select-trace-values.png)"
+    - copy: "Notice that the data used in this example contains data points only for the USA, hence the points are populated around the USA region."
+    - copy: "To change the view to just the USA, go to the 'Subplots' section under the 'Structure' menu and select 'USA' from the dropdown next to the attribute 'Region' under the property 'Map Projection'. This simply changes the region to the USA as opposed to a global map. Below, the 'Projection' dropdown will automatically default to 'Albers USA' then."
+      img: "![Subplot section](../static/images/choropleth-map/select-map-region.png)"
 
  - title: Style a Chart
    sub-steps:
@@ -43,18 +47,14 @@ steps:
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title, and other layout properties."
     - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property."
       img: "![Plot Title](../static/images/choropleth-map/choropleth-map-title.png)"
-    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the color bar title."
       img: "![Type directly title](../static/images/choropleth-map/choropleth-map-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as the marker (points) symbol, color or size and hoverinfo."
-      img: "![Trace Properties](../static/images/choropleth-map/choropleth-map-properties.png)"
-    - copy: "To change the color of the traces, choose either the option 'Constant' or 'Variable'."
-    - copy: "If 'Constant' is chosen, all the points of the trace are colored in the same color. Then choose the color by clicking on the color palette."
-      img: "![Color Palette](../static/images/3D-scatter-plots/3D-scatter-color-palette.png)"
-    - copy: " If 'Variable' is chosen, each point in the trace is colored according to the data specified. Then choose the desired colorscale from the respective dropdown menu. In this plot, the option 'Variable' is chosen, as seen below."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace."
+    - copy: "To change the colorscale of the traces, click on the current colorscale next to the attribute 'Colorscale' in the same section. This will display a dropdown menu with the available colorscale types and their corresponding preset colorscales. Choose the desired colorscale."
       img: "![Color main](../static/images/choropleth-map/choropleth-map-colorscale.png)"
-    - copy: "Use the 'Color Bars' section under the 'Style' menu to change the properties of the color bar such as title, size and position, etc."
-      img: "![Color Bar](../static/images/choropleth-map/choropleth-map-colorbar.png)"
-    - copy: "Similar to the plot title, the color bar title can also be entered directly on the plot interface."
+    - copy: "To reverse the chosen colorscale, set the 'Orientation' attribute to 'Reversed', as seen below."
+    - copy: "Additionally, to show/hide the color bar, set the desired option next to the attribute 'Color Bar'. Use the 'Color Bar' section under the 'Style' menu to change the size and positioning of the color bar or to set the color bar title."
+      img: "![Color main](../static/images/choropleth-map/choropleth-map-colorbar.png)"
 
  - title: Save and Share
    sub-steps:
