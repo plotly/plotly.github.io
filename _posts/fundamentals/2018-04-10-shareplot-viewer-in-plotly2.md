@@ -30,27 +30,28 @@ steps:
       img: "![Shareplot Query](../static/images/view-plot/shareplot-sql-query.png)"
     - copy: "How can you get to the View Plot page if you don't have the shareable link handy? Keep reading to find out!"
 
- - title: From Organize Homepage
+ - title: From the Chart Studio Homepage
    sub-steps:
-    - copy: "The ['Organize'](https://plot.ly/organize/home) page is also known as your 'list of files', is nothing but the homepage of your plotly account. This is where your saved plots and grids are kept."
+    - copy: "The '[organize](https://plot.ly/organize/home)' page, also known as your 'list of files', is nothing but the homepage of your Chart Studio account. This is where your saved plots and grids are kept."
       img: "![Organize Homepage](../static/images/view-plot/organize-page.png)"
     - copy: "Hover over the thumbnail of the plot you'd like to view and click the'View' button."
       img: "![Thumbnail hover](../static/images/view-plot/thumb-hover.png)"
     - copy: "It'll direct you to the View Plot page, and you'll see the associated data, code, and forking history of that plot. If you select to view a grid"
 
- - title: From Chart Studio Workspace
+ - title: From the Chart Studio Workspace
    sub-steps:
     - copy: "Another way to get to your View Plot page is through the [Chart Studio Workspace](https://plot.ly/create)."
-    - copy: "Click on your username on the top right-hand side and choose either 'My Files' or 'Profile' from the pop-up list."
-      img: "![Workspace dropdown](../static/images/view-plot/workspace-dropdown.png)"
+    - copy: "Click on your username on the top right-hand side and choose either the 'My Files' or 'Profile' menu from the drop-down."
+      img: "![Workspace dropdown](../static/images/view-plot/chart-studio.png)"
     - copy: "Both 'My Files' and 'Profile' pages are very similar, in the sense that you can see all the plots and grids that you've saved, but only *you* can view your 'Organize' page."
     - copy: "From either of these pages, you can follow the same steps as above. Just hover over the thumbnail of your choice and click on 'View'."
 
- - title: From Your Feed
+ - title: From the Chart Studio Feed
    sub-steps:
-    - copy: "The [Chart Studio feed](https://plot.ly/) is featured on Chart Studio's homepage. You can click on 'My Files' to access your 'Organize' page, or click on your username to select from the same dropdown menu as seen in the workspace."
+    - copy: "The '[feed](https://plot.ly/feed/)' page, similar to the workspace, is also featured on the Chart Studio homepage. You can click on the 'My Files' tab on the top to get to your '[organize](https://plot.ly/organize/home)' page."
       img: "![Feed Page](../static/images/view-plot/feed-page.png)"
-    - copy: "This is also where users' plots are displayed for the public to see. These plots have saved as 'Public'."
-    - copy: "Hover over the plot you'd like to check out and click on 'View'. It'll direct you to the View Plot page."
-      img: "![Feed Hover](../static/images/view-plot/plotly-feed-hover.gif)"
+    - copy: "Or click on your username to select from the same dropdown menu as seen in the workspace."
+    - copy: "The Chart Studio Feed page is where the users' plots are displayed for the public to see. Please note that only those plots that are saved as 'Public' will be displayed in this page."
+    - copy: "Hover over the plot you'd like to check out and click on the 'View' button. It'll direct you to the View Plot page of that plot."
+      img: "![Feed Hover](../static/images/view-plot/feed-hover.png)"
 ---
