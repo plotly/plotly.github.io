@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: JSON Viewer/Editor in Chart Studio
+title: JSON Viewer/Editor
 subtitle: How to use the JSON Viewer/Editor in Chart Studio
 permalink: /view-and-edit-JSON/
 imageurl: ../static/images/misc-tutorial-images/JSON-thumb.png
@@ -11,7 +11,7 @@ meta_description: A tutorial on how to use the JSON viewer/editor in Chart Studi
 popularity: featured
 carouselimageurl:
 actioncall: How to use the JSON Viewer/Editor in Chart Studio
-actioncall-url:
+actioncall-url: https://plot.ly/~plotly2_demo/475/
 
 otherlang: Know how to program? Learn more about chart attributes for [Python](https://plot.ly/python/reference/) or [R](https://plot.ly/r/reference/).
 
@@ -21,19 +21,26 @@ steps:
    sub-steps:
     - copy: "JSON, which stands for JavaScript Object Notation, is an open-standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs."
     - copy: "What does this mean? It's a way to store information in an organized, easy-to-access manner. It also provides us a human-readable collection of data that we can access in a really clear manner."
-    - copy: "The new online [workspace](https://plot.ly/alpha/workspace/) not only lets you view your plot's attributes through JSON, but opening the JSON panel also allows you to edit most of your plot's properties. This is especially cool if you're new to coding."
+    - copy: "The [Chart Studio Workspace](https://plot.ly/create/) not only lets you view your plot's attributes through JSON, but opening the JSON panel also allows you to edit most of your plot's properties. This is especially handy if you're new to coding."
 
- - title: The JSON Panel
+steps:
+ - title: Try an Example
    sub-steps:
-    - copy: "The first step is to head to Chart Studio's new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
-    - copy: "For this tutorial,  we're using Chart Studio's box plot example, as well as a few of [our own projects](https://plot.ly/~plotly2_demo/folder/home). To find the box plot example, select 'Box plot' under 'Chart Type', and click the 'try an example' button. As you can see, the data's already been added, and the plot has been styled. This is a great way to get yourself acquainted with not only the JSON editor, but the entire workspace as well."
-      img: "![Example after](../static/images/box-plot/try-an-example.png)"
-    - copy: "You can [plot](http://help.plot.ly/tutorials/#basic) and [style](http://help.plot.ly/style-your-plots/) your graph as you wish, by using the STYLE tab on the left-hands side, or by using the JSON tab."
-      img: "![JSON tab](../static/images/misc-tutorial-images/JSON tab main.png)"
-    - copy: "Once you've opened this tab, a panel will open to reveal the JSON code. If you're new to coding, it may look a little overwhelming, but it's not as scary as it seems."
+    - copy: "The first step is to head to Chart Studio [Workspace](https://plot.ly/create/) and check out an example. First, select the 'Type' menu. Hovering the mouse over a chart type icon, will display three options: 1) Charts like this by Chart Studio users, 2) View tutorials on this chart type and 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "This is a great way to get yourself acquainted with not only the JSON editor, but the also the Chart Studio Workspace."
+    - copy: "You can use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in the Chart Studio."
+    - copy: "You can also add your own data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+
+ - title: JSON Editor
+   sub-steps:
+    - copy: "You can [plot](http://help.plot.ly/tutorials/#basic) and [style](http://help.plot.ly/style-your-plots/) your chart as you wish, by using the 'Style' menu on the left-hands side, or by using the 'JSON' menu."
+      img: "![JSON Menu](../static/images/misc-tutorial-images/JSON tab main.png)"
+    - copy: "Once after clicking the 'JSON' menu, click on the 'Tree' section underneath it. This will reveal the JSON tree of your chart within the panel. If you're new to JSON, it may look a little overwhelming, but it's not as scary as it seems."
       img: "![JSON panel](../static/images/misc-tutorial-images/JSON-panel-open.png)"
-    - copy: "As you're going through the attributes in this panel, it's a good idea to have [this reference](https://plot.ly/javascript/reference/) opened to help you out in case you need an explanation about a certain attribute."
-    - copy: "As you scroll down this panel, you'll see that the 'object' consists of two sections: 'data' and 'layout'."
+    - copy: "As you're going through the properties and attributes in this panel, it's a good idea to have the [plotly.js reference](https://plot.ly/javascript/reference/) opened in a new tab to help you out in case you need an explanation about a certain attribute."
+    - copy: "As you scroll down this panel, you'll see that the 'object' consists of three sections: 'data', 'layout' and 'frames'."
 
  - title: The Data Section
    sub-steps:
