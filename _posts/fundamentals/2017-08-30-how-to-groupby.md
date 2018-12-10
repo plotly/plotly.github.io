@@ -5,7 +5,7 @@ subtitle: Use the Group Function in Chart Studio
 permalink: /group-by/
 imageurl: ../static/images/groupby/thumbnail.png
 state: active
-tags: fundamentals
+tags: transforms
 order: 10.5
 meta_description: A tutorial on how to use the group function in Chart Studio.
 popularity: featured

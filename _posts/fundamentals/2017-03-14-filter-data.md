@@ -5,7 +5,7 @@ subtitle: Filter Data in Chart Studio
 permalink: /filter-data/
 imageurl: ../static/images/filters/filter-thimb.PNG
 state: active
-tags: fundamentals
+tags: transforms
 order: 10
 meta_description: A tutorial on how to apply filters to data in Chart Studio
 popularity: featured
