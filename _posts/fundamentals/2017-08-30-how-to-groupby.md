@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
-title: Split/Group
-subtitle: Split or group the data in Chart Studio
+title: Split into groups
+subtitle: Split a single trace into multiple traces using categorical data in Chart Studio
 permalink: /split/
 redirect_from: /group-by/
 imageurl: ../static/images/split-groups/thumbnail.png
@@ -37,7 +37,7 @@ steps:
    sub-steps:
     - copy: "After adding data, to split the trace into groups, head to the 'Transforms' section under the 'Structure' menu. Click on the '+ Transform' button on the top right corner of the panel and then choose the 'Split' option."
       img: "![Transform Button](../static/images/filters/add-transform.png)"
-    - copy: "This will display a Split sub-panel directly below the button as seen below. Here, you can choose the data column containing the categories based on which you can split the trace; use the dropdown menu next to the attribute 'By' and then choose the desired data column."
+    - copy: "This will display a Split sub-panel directly below the button as seen below. Here, you can choose the data column containing the categories based on which you can split the trace; use the dropdown menu next to the attribute 'By' and then choose the desired categorical data. In this example, the trace is split based on the continents."
       img: "![Split By](../static/images/split-groups/split-groups-select-by.gif)"
 
  - title: Style a Chart
