@@ -18,7 +18,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Introduction
    sub-steps:
-    - copy: "Understanding how to apply filters to data in Chart Studio can be categorized based on three different filter operations: a) an inequality (=, <, >, <=, >=, ≠) between the target and the reference, b) a specific (open/closed) range, or c) specific values in a data column. This tutorial will cover all the three filter operations that can be applied to any format of the data: (1) categorical data, (2) continuous data, and (3) dates. In addition, you can also apply more than one filter to a single plot."
+    - copy: "Understanding how to apply filters to data in Chart Studio can be categorized based on three different filter operations: a) an inequality (=, <, >, <=, >=, ≠) between the target and the reference, b) a specific (open/closed) range, or c) specific set of values in a data column. This tutorial will cover all the three filter operations that can be applied to any format of the data: (1) categorical data, (2) continuous data, and (3) dates. In addition, you can also apply more than one filter to a single plot."
 
  - title: Try an Example
    sub-steps:

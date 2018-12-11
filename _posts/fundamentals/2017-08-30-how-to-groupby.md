@@ -1,68 +1,53 @@
 ---
 layout: tutorial-single_layout
-title: Group in Chart Studio
-subtitle: Use the Group Function in Chart Studio
-permalink: /group-by/
-imageurl: ../static/images/groupby/thumbnail.png
+title: Split/Group
+subtitle: Split or group the data in Chart Studio
+permalink: /split/
+redirect_from: /group-by/
+imageurl: ../static/images/split-groups/thumbnail.png
 state: active
 tags: transforms
 order: 10.5
-meta_description: A tutorial on how to use the group function in Chart Studio.
+meta_description: A tutorial on how to use the split transform in Chart Studio.
 popularity: featured
 carouselimageurl:
-actioncall: A tutorial on how to use the group function in Chart Studio.
-actioncall-url: https://plot.ly/create/?fid=plotly2_demo%3A378
+actioncall: A tutorial on how to use the split transform in Chart Studio.
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:479
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/379.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~plotly2_demo/479.embed"></iframe>
 
 steps:
- - title: Open Data From This Tutorial
+ - title: Try an Example
    sub-steps:
-    - copy: "To use the data featured in this tutorial click on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
+    - copy: "Before getting started with your own dataset, you can check out an example. You can use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
       img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
 
  - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-    - copy: "For this tutorial, we'll use the gapminder dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv). Simply, copy the URL from Github. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from Github."
-      img: "![Add Data](../static/images/groupby/add-data.png)"
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
- - title: Create Your Chart
+ - title: Create a Chart
    sub-steps:
-    - copy: "Now that we have the data added to the grid, we can select our chart type. Select GRAPH on the left-hand side, then 'Create'. Click 'Chart Type', then choose 'Scatter' in the 'BASIC' column."
-      img: "![Chart Type](../static/images/groupby/chart-type.png)"
-    - copy: "Use the X and Y dropdowns to define X and Y variables for the chart. For this example, select the ‘gdpPerCap’ to display GDP per capita data on the x axis and select ‘lifeExp’ to display life expectancy data on the Y axis. Next, you can size points relative to data and display additional information on hover. Here, select ‘population’ to size points based on the population of each country. In addition, select ‘country’ in the ‘Hover Text’ dropdown to display the name of the country for each point on hover."
-      img: "![Add Trace Values](../static/images/groupby/add-trace-values.png)"
-    - copy: "Now that we have our data and traces we can apply a filter. More specifically, for the gapminder dataset, due to its size, we will filter data from 2007 only. In order to achieve this we add a filter by selecting ‘Filter’ under ‘Create’ and click the ‘+ Filter’ button"
-      img: "![Add Filter](../static/images/groupby/add-filter.png)"
-    - copy: "Select ‘year’ from the dropdown to filter by year"
-      img: "![Select Filter](../static/images/groupby/select-filter.png)"
-    - copy: "First, select gdpPercap from the ‘Traces To Filter’ dropdown. Next, make sure that the ‘Operator’ dropdown is set to Matching values and the ‘Include’ option is also selected (these are the default selections), use the dropdown under Include to select ‘2007’."
-      img: "![Filter Controls](../static/images/groupby/filter-controls.png)"
-    - copy: "Now that we have filtered the data, you may notice that you have multiple traces - as we do in this dataset - that you wish to define. Here, we can utilize the group function. To do so, select 'group' under the 'Graph' tab and then click the '+ group' button situated at the top."
-      img: "![Add Group](../static/images/groupby/add-group.png)"
-    - copy: "First, we need to select the variable we wish to groupby. In this tutorial, we will select continents by using the dropwdown in the grouping panel."
-      img: "![Group By](../static/images/groupby/groupby.png)"
-    - copy: "Second, we need to determine which traces we wish to apply the grouping across. Here, our Y value, gdpPercap, is selected by default. Notice that the groups are automatically colored according to Chart Studio's default color array - we will discuss how to alter these in the next section."
-      img: "![Across Traces](../static/images/groupby/across-traces.png)"
+    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side, then choose the 'Type' of trace. In this tutorial, 'Scatter' plot is used."
+      img: "![Choose chart main](../static/images/line-graph-and-scatter-plot-with-excel/scatter-choose-chart.png)"
+    - copy: "Next, select 'X' and 'Y' values from the dropdown menus. This will create a raw scatter trace, as seen below."
+      img: "![Adding x and y axis](../static/images/split-groups/split-groups-import-data.png)"
+
+ - title: Apply Transforms
+   sub-steps:
+    - copy: "After adding data, to split the trace into groups, head to the 'Transforms' section under the 'Structure' menu. Click on the '+ Transform' button on the top right corner of the panel and then choose the 'Split' option."
+      img: "![Transform Button](../static/images/filters/add-transform.png)"
+    - copy: "This will display a Split sub-panel directly below the button as seen below. Here, you can choose the data column containing the categories based on which you can split the trace; use the dropdown menu next to the attribute 'By' and then choose the desired data column."
+      img: "![Split By](../static/images/split-groups/split-groups-select-by.gif)"
 
  - title: Style a Chart
    sub-steps:
-    - copy: "Concerning style, immediately we can see that we need to set better sizing for our markers. Here, navigate to 'Traces' under the 'Style' tab and set 'Maximum Marker Size' to 10."
-      img: "![Size Reference](../static/images/groupby/marker-sizeref.png)"
-    - copy: "For this dataset, it'll beneficial to apply a logarithmic scale to the y-axis. In the ‘Axes’ style tab, open the ‘Range’ container and select ‘Y’ to apply changes to the y axis."
-      img: "![Log Scale](../static/images/groupby/log-scale.png)"
-    - copy: "Now, we can style the individual continents that were separated when we used the group function. Navigate to 'Traces' under the 'Style' tab where you should see a dropwdown titled 'Group By Category'. Use this to style each category."
-      img: "![Group By Category](../static/images/groupby/group-by-category.png)"
-    - copy: "For example, select 'Europe' from the dropdown and click on the color dot to activate the colopanel popup. Now, pick a color of your choosing. For the pupose of this tutorial we've left the default setting of orange."
-      img: "![Style Markers](../static/images/groupby/style-markers.png)"
-    - copy: "Repeat this process for the remainder of the categories if you wish to change the colors - or apply any other trace stylings."
-      img: "![Style All Markers](../static/images/groupby/style-all-markers.png)"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+      img: "![insert](../static/images/split-groups/trace-properties.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "Your chart is now done! Click SAVE on the left-hand side."
-      img: "![Save Button](../static/images/groupby/save-button.png)"
-    - copy: "After giving your file a name, select your PLOT and DATA as 'Public' or 'Private'. For more information on how sharing works, including the difference between private, public and secret sharing, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page."
-      img: "![Save Modal](../static/images/groupby/save-modal.png)"
+    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/split-groups/split-groups-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Chart Studio's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---
