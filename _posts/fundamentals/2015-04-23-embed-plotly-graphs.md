@@ -63,14 +63,14 @@ steps:
  - title: Customize the iframe
    sub-steps:
     - copy: "You can add these URL query parameters to further customize the iframe."
-      img: "<div class='table-grid'><iframe align='middle' width='909' height='280' marginwidth='10' marginheight='5' frameborder='0' scrolling='no' src='https://plot.ly/~plotly2_demo/482.embed?align=center'></iframe></div>"
+      img: "<div class='table-grid'><iframe align='middle' width='1020' height='330' marginwidth='35' marginheight='15' frameborder='0' scrolling='no' src='https://plot.ly/~plotly2_demo/482.embed?autosize=true&align=center'></iframe></div>"
 
  - title: Add the Code to Your Website
    sub-steps:
     - copy: "Copy the HTML snippet or iframe and paste it into your site's source code. For our example, we'll add a graph to our [blog](http://blog.plot.ly/) hosted by [tumblr](http://www.tumblr.com). We're going to add the HTML snippet just the way it is, but sometimes you'll find that the image needs to be resized. We’ve found trial and error is best."
-      img: "![How to embed plotly graphs in websites](../static/images/embed-plotly-graphs/embed_graph totumblr.png)"
+      img: "![How to embed plotly graphs in websites](../static/images/embed-plotly-graphs/embed_graph_to_tumblr.png)"
     - copy: "This is how it appears after it's been posted."
-      img: "![Live embedded image](../static/images/embed-plotly-graphs/live blog.png)"
+      img: "![Live embedded image](../static/images/embed-plotly-graphs/live_blog.png)"
 
  - title: Embed on WordPress
    sub-steps:
