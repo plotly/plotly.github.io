@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Embed graphs
+title: Embed Your Graphs
 subtitle: How to embed graphs in a Blog or Website
 permalink: /embed-graphs-in-websites/
 imageurl: ../static/images/embed-plotly-graphs/thumbnail.png
@@ -50,20 +50,20 @@ steps:
     - copy: "Copy the iframe just as you would for the plot and paste it to your website or blog. This is an example of what your grid looks like when it's been embedded."
       img: "![Embed grid](../static/images/embed-plotly-graphs/embed_grid.png)"
 
- - title: Embed as iframe/HTML
+ - title: Embed the div
    sub-steps:
-    - copy: "When in 'Embed' tab in the Share modal, choose between 'iframe' or 'HTML' based on your requirement and copy the embed code."
+    - copy: "Simply copy and paste the HTML snippet into your website or HTML application."
       img: "![Final embedding code](../static/images/embed-plotly-graphs/iframe-HTML.png)"
     - copy: "If you need an iframe, feel free to use the example below. You’ll have to replace the URL of our graph with your own."
       img: "![iframe code 1](../static/images/embed-plotly-graphs/iframe.png)"
     - copy: "If you are using a secret link with a private key, update the private link to include '.embed' before the '?share_key' term. Here's an example:"
       img: "![iframe code 2](../static/images/embed-plotly-graphs/iframe_share_key.png)"
-    - copy: "You can also control the width and the height of the iframe by modifying the 'width' and 'height' keywords, the graph will autosize in the iframe container."
+    - copy: "You can also control the width and the height of the iframe by modifying the 'width' and 'height' keywords, the graph will autosize accordingly within the iframe container."
 
  - title: Customize the iframe
    sub-steps:
     - copy: "You can add these URL query parameters to further customize the iframe."
-      img: "![Options](../static/images/embed-plotly-graphs/options.png)"
+      img: "<div class='table-grid'><iframe align='middle' width='909' height='280' marginwidth='10' marginheight='5' frameborder='0' scrolling='no' src='https://plot.ly/~plotly2_demo/482.embed?align=center'></iframe></div>"
 
  - title: Add the Code to Your Website
    sub-steps:
