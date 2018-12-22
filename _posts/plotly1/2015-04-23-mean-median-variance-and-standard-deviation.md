@@ -15,7 +15,7 @@ actioncall: Make a graph
 # Mean, Median, Variance and Standard Deviation
 
 <div>
-    <a href="https://plot.ly/~chris/2730/" target="_blank" title="Age of Physics, Chemistry and Medicine Nobel Prize Winners" style="display: block; text-align: center;"><img src="https://plot.ly/~chris/2730.png" alt="Age of Physics, Chemistry and Medicine Nobel Prize Winners" style="max-width: 100%;width: 1052px;"  width="1052" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~chris/2730/" target="_blank" title="Age of Physics, Chemistry and Medicine Nobel Prize Winners" style="display: block; text-align: center;"><img src="https://plot.ly/~chris/2730.png" alt="Age of Physics, Chemistry and Medicine Nobel Prize Winners" style="max-width: 100%;width: 1052px;"  width="1052" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="chris:2730" src="https://plot.ly/embed.js" async></script>
 </div>
 

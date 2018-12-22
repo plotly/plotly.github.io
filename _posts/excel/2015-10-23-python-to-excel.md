@@ -14,7 +14,7 @@ actioncall: Make a chart
 
 <h1>Python to Excel</h1>
 
-<img src="/images/python-to-excel-cropped.jpg" alt="Python to Excel" />
+<img src="/images/python-to-excel-cropped.jpg" alt="Python to Excel">
 
 <h3 style="color:#444;">
     Python chart URL <a href="https://plot.ly/~jackp/671" target="_blank">https://plot.ly/~jackp/671/</a>
@@ -27,7 +27,7 @@ actioncall: Make a chart
 </h3>
 
 <div>
-    <a href="https://plot.ly/~jackp/671/" target="_blank" title="&lt;br&gt;&lt;b&gt;Average effective tax rates,&lt;br&gt;by income percentiles, 1960-2004&lt;/b&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~jackp/671.png" alt="&lt;br&gt;&lt;b&gt;Average effective tax rates,&lt;br&gt;by income percentiles, 1960-2004&lt;/b&gt;" style="max-width: 100%;width: 606px;"  width="606" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~jackp/671/" target="_blank" title="&lt;br&gt;&lt;b&gt;Average effective tax rates,&lt;br&gt;by income percentiles, 1960-2004&lt;/b&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~jackp/671.png" alt="&lt;br&gt;&lt;b&gt;Average effective tax rates,&lt;br&gt;by income percentiles, 1960-2004&lt;/b&gt;" style="max-width: 100%;width: 606px;"  width="606" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="jackp:671"  src="https://plot.ly/embed.js" async></script>
 </div>
 

@@ -13,7 +13,7 @@ actioncall: Make a Graph
 # Links, Text, and HTML in Graphs
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/609/" target="_blank" title="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/609.png" alt="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~Dreamshot/609/" target="_blank" title="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/609.png" alt="&lt;b&gt;How Apple&#39;s Stock Reacts to New Product Announcements&lt;/b&gt;&lt;br&gt;Apple&#39;s stock price after product announcements " style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Dreamshot:609" src="https://plot.ly/embed.js" async></script>
 </div>
 

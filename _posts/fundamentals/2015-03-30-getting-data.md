@@ -10,7 +10,7 @@ meta_description: A tutorial on reliable data sources including Data.gov. Chart 
 ---
 
 <div>
-    <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~MattSundquist/5821/" target="_blank" title="US Ice Cream Production and Consumption" style="display: block; text-align: center;"><img src="https://plot.ly/~MattSundquist/5821.png" alt="US Ice Cream Production and Consumption" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="MattSundquist:5821" src="https://plot.ly/embed.js" async></script>
 </div>
 
