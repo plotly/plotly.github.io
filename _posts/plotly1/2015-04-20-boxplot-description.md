@@ -121,7 +121,7 @@ You should also make sure that the data in each series follows some guidelines:
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 
-<script type = 'text/javascript'>
+<script>
  $(document).ready(function()
 {
     $('#boxplotfig1').waypoint(

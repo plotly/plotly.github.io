@@ -165,7 +165,7 @@ Don't worry if this seems like a lot of calculation. Chart Studio does it for yo
 
 <script src = "https://plot.ly/static/js/plugins/waypoints.min.js"></script>
 
-<script type = 'text/javascript'>
+<script>
         $(document).ready(function(direction) {
             $('#fig1').waypoint(
                 function() {
