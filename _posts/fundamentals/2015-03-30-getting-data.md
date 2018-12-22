@@ -15,8 +15,8 @@ meta_description: A tutorial on reliable data sources including Data.gov. Chart 
 </div>
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 Keeping track of your data source is important. That's why Chart Studio automatically includes a link to the URL that hosts your data. | <img src="/static/images/getting-data/data-source-url.png">
@@ -52,8 +52,8 @@ You can also sync Chart Studio graphs with [externally sourced data](http://chri
 </tbody>
 </table>
 
-<br />
-<br />
+<br>
+<br>
 
 <h1><a href="http://arohatgi.info/WebPlotDigitizer/tutorial.html">WebPlotDigitizer</a></h1>
 
@@ -91,8 +91,8 @@ Check out our short video on [Styling and Customizing Graphs](http://help.plot.l
 </tbody>
 </table>
 
-<br />
-<br />
+<br>
+<br>
 
 <h1><a href="http://blog.import.io/post/plotly-integration">import.io</a></h1>
 
@@ -107,8 +107,8 @@ We can check the columns of data what we wish to extract to Chart Studio. Here w
 
 The data will open in a Chart Studio grid, where you can analyze and graph the data. You might like to check out our tutorials on [basic statistics](/basic-statistics-mean-median-standard-deviation) and [histograms](/make-a-histogram) to get some ideas.
 
-<br />
-<br />
+<br>
+<br>
 
 <h1><a href="http://www.vernier.com/">Vernier</a></h1>
 
