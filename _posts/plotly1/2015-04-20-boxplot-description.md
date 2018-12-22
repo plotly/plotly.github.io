@@ -37,7 +37,7 @@ Every box plot has lines at Q1, the median, and Q3. The other major feature of a
 
 ##### Whiskers With All Points Visible
 
-To draw the whiskers when all points are displayed, Chart Studio first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier **). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
+To draw the whiskers when all points are displayed, Chart Studio first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier**). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig4b.jpg" id = "boxplotfig4" width = "588.4" height = "197.99">
 
