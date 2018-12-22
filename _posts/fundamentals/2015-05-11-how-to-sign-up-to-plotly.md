@@ -37,11 +37,11 @@ meta_description: How to sign up to Chart Studio. Chart Studio is the easiest wa
    <tr>
     <td>
       Switch to the "SIGN UP" tab in the modal that appears and fill in your email address, desired username, and the password. 
-      <p >
+      <p>
       - Please note that the username cannot be modified once the account is created.
       </p>
       After filling in the credentials, click on the "SIGN UP" button.
-      <p >
+      <p>
       - You can also sign up using Facebook, Twitter, GitHub or Google+.
       </p>
     </td>

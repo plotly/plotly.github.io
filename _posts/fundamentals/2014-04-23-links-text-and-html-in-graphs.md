@@ -99,7 +99,7 @@ You can also add characters to your titles and annotation with HTML entities. He
 
 <div class="responsive-table">
 
-<table id="text-table" >
+<table id="text-table">
 <thead></thead>
 <tbody>
 <tr>
