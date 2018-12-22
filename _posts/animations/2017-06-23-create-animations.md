@@ -27,7 +27,7 @@ steps:
  - title: Add Your Data to Chart Studio
    sub-steps:
     - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-    - copy: "For this tutorial, we'll use the gapminder dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv). Simply, copy the URL from Github. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from Github."
+    - copy: "For this tutorial, we'll use the gapminder dataset which can be found [here](https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv). Simply, copy the URL from GitHub. Now, returning to the workspace select 'IMPORT' and then 'By URL'. Here, you just paste the URL from GitHub."
       img: "![Add Data](../static/images/create-animations/add-data.png)"
  - title: Create Your Chart
    sub-steps:
