@@ -184,7 +184,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'start' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -207,7 +207,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -223,7 +223,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'sql' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -246,7 +246,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -263,7 +263,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'nosql' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -286,7 +286,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -303,7 +303,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'other' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -326,7 +326,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -343,7 +343,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'advanced' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -366,7 +366,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>

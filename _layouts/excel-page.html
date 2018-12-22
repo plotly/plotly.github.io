@@ -181,7 +181,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.section == 'BasicCharts' and page.state == 'active' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -206,7 +206,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -225,7 +225,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.section == 'Statistical' and page.state == 'active' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -250,7 +250,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -269,7 +269,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.state == 'active' and page.tags contains 'graph3d' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -294,7 +294,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -313,7 +313,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.section == 'Maps' and page.state == 'active' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -338,7 +338,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -356,7 +356,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.tags contains 'classroom' or page.tags contains 'dataliteracy' or page.tags contains 'videos' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -381,7 +381,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -399,7 +399,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.section == 'Layouts' and page.state == 'active' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -424,7 +424,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -445,7 +445,7 @@ title: Chart Studio Excel Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in site.posts %}
+                        {%- for page in site.posts -%}
                         {% if page.section == 'Dashboards' and page.state == 'active' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                          <li class="--grid-item">
@@ -470,7 +470,7 @@ title: Chart Studio Excel Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
