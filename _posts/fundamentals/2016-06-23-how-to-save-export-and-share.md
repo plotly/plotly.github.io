@@ -49,9 +49,9 @@ steps:
     - copy: "If you want to share your plot's [ViewPlot](https://help.plot.ly/viewplot/) page, go to the 'Link & Privacy' tab and copy the 'Shareable Link' and send it to the recipient."
       img: "![Shareable link](../static/images/save-export-and-share/shareable-link.png)"
     - copy: "If you want your colleagues and friends to see and contribute in your work, you can add them collaborators to your work. To do this, simply invite them by adding their information in the fields under the 'Collaborate' tab and then click the 'Add' button. To learn more about collaborating, visit [this](http://help.plot.ly/collaborate-in-plotly/) page."
-      img: "![Share collaborators](../static/images/misc-tutorial-images/add-collaborators.png)"
+      img: "![Share collaborators](../static/images/save-export-and-share/share-collaborators.png)"
     - copy: "If you want to embed your plot in a webpage, head to the 'Embed' tab and copy the code underneath it. You have the option of embedding your plot as an HTML snippet or iframe. For more information on how to embed your plot in a blog or website, click [here](http://help.plot.ly/embed-graphs-in-websites/)."
-      img: "![Embed pop-up](../static/images/save-export-and-share/embed_plot.png)"
-    - copy: "Last but not least, you can also share your plot on social media! Simply click on the Facebook, Twitter or Google+ icon."
+      img: "![Embed pop-up](../static/images/save-export-and-share/embed-plot.png)"
+    - copy: "Last but not least, you can also share your plot on social media! Simply click on the Facebook, Twitter or Google+ icon, under the 'Link & Privacy' tab."
       img: "![Social media icons](../static/images/save-export-and-share/social-media.png)"
 ---
