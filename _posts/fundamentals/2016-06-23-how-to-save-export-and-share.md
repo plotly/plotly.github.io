@@ -16,7 +16,7 @@ actioncall: How to save, share, and export in Chart Studio
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/#static-image-export) or [R](https://plot.ly/r/#static-image-export).
 
 steps:
- - title: Save Your Plot
+ - title: Save a Plot
    sub-steps:
     - copy: "Once you have your plott and chart ready to go, click on the 'Save' button on the left-hand side of the chart Studio Workspace."
       img: "![Save Button](../static/images/save-export-and-share/save-button.png)"
