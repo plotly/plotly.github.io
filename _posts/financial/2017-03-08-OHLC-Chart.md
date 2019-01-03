@@ -21,6 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
+    - copy: "The ohlc (short for Open-High-Low-Close) is a style of financial chart that describes Open, High, Low and Close for a given X coordinate which is most likely time."
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
@@ -36,6 +37,9 @@ steps:
       img: "![Chart Type](../static/images/ohlc-chart/ohlc-chart-type.png)"
     - copy: "Next, select 'X', 'Open', 'High', 'Low' and 'Close' values from the dropdown menus. This will create the OHLC trace as seen below."
       img: "![Add values](../static/images/ohlc-chart/ohlc-values.png)"
+    - copy: "In OHLC chart, the tip of the lines represent the 'Low' and 'High' values and the horizontal segments represent the 'Open' and 'Close' values."
+    - copy: "Note that the OHLC trace is described in two color variants, one for the increasing trace and the other for decreasing trace."
+    - copy: "The sample points where the 'Close' value is higher than the 'Open' value are said to be increasing, while the sample points where the 'Close' value is lower than the 'Open' value are said to be decreasing. The color styles for the increasing and decreasing can be set under the 'Style' menu which will be discussed in the next step."
 
  - title: Style a Chart
    sub-steps:
@@ -43,14 +47,11 @@ steps:
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title, as well as change the layout background, margin color and font styles."
     - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property."
       img: "![Type title](../static/images/ohlc-chart/ohlc-title.png)"
-    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+    - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title."
       img: "![Type directly title](../static/images/ohlc-chart/ohlc-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as the colorscale, lighting effects, light position, and hoverinfo."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the trace such as the line width, color and hoverinfo."
+    - copy: "To change the color of the traces, click on the color palette next to the attribute 'Line Color' under the properties 'Increasing Trace Styles' and 'Decreasing Trace Styles'."
       img: "![Trace Properties](../static/images/ohlc-chart/ohlc-properties.png)"
-    - copy: "To change the color of the traces, click on the color palette next to the attributes 'Line Color' and 'Fill Color' under the properties 'Increasing Trace Styles'."
-      img: "![Color main](../static/images/ohlc-chart/ohlc-color.png)"
-    - copy: "To change the axes titles, go to the 'Axes' section under the 'Style' menu and type the title text within the textbox provided under the 'Title' property for each axis."
-      img: "![Axes title](../static/images/ohlc-chart/ohlc-axes.png)"
 
  - title: Save and Share
    sub-steps:
