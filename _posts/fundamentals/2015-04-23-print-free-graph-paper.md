@@ -20,6 +20,6 @@ meta_description: Free PDF download of printable graph paper, available in diffe
 Get started now! Check out this [tutorial](https://plot.ly/how-to-create-a-line-of-best-fits/) on how to make a line of best fit!
 
 <div>
-    <a href="https://plot.ly/~cimar/37/" target="_blank" title="velocity (m/s) vs time (s)" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/37.png" alt="velocity (m/s) vs time (s)" style="max-width: 100%;width: 1015px;"  width="1015" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~cimar/37/" target="_blank" title="velocity (m/s) vs time (s)" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/37.png" alt="velocity (m/s) vs time (s)" style="max-width: 100%;width: 1015px;"  width="1015" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="cimar:37" src="https://plot.ly/embed.js" async></script>
 </div>

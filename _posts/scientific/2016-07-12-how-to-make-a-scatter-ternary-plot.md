@@ -13,7 +13,7 @@ carouselimageurl:
 actioncall: How to Make a Scatter Ternary Plot in Chart Studio
 actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:29
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-plots/),  [Javascript](https://plot.ly/javascript/ternary-plots/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-plots/),  [JavaScript](https://plot.ly/javascript/ternary-plots/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/29.embed"></iframe>
 live-graph-image:

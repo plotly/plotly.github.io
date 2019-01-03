@@ -14,7 +14,7 @@ actioncall: Make a 3D Line Graph
 # Make a 3D Line Graph
 
 <div>
-    <a href="https://plot.ly/~mariahh/72/" target="_blank" title="Helix" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/72.png" alt="Helix" style="max-width: 100%;width: 742px;"  width="742" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~mariahh/72/" target="_blank" title="Helix" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/72.png" alt="Helix" style="max-width: 100%;width: 742px;"  width="742" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="mariahh:72" src="https://plot.ly/embed.js" async></script>
 </div>
 

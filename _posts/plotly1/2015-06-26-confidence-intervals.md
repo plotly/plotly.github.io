@@ -13,7 +13,7 @@ actioncall: Draw Filled Confidence Error Bars
 ---
 
 <div>
-    <a href="https://plot.ly/~TestBot/20387/" target="_blank" title="wt vs mpg" style="display: block; text-align: center;"><img src="https://plot.ly/~TestBot/20387.png" alt="wt vs mpg" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~TestBot/20387/" target="_blank" title="wt vs mpg" style="display: block; text-align: center;"><img src="https://plot.ly/~TestBot/20387.png" alt="wt vs mpg" style="max-width: 100%;"  onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="TestBot:20387" src="https://plot.ly/embed.js" async></script>
 </div>
 

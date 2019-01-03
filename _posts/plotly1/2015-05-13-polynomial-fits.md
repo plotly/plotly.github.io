@@ -14,7 +14,7 @@ actioncall: start fitting polynomials
 # Fitting data with a polynomial
 
 <div>
-    <a href="https://plot.ly/~mariahh/2903/" target="_blank" title="Native Mexican Turkey&#39;s Growth" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/2903.png" alt="Native Mexican Turkey&#39;s Growth" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~mariahh/2903/" target="_blank" title="Native Mexican Turkey&#39;s Growth" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/2903.png" alt="Native Mexican Turkey&#39;s Growth" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="mariahh:2903" src="https://plot.ly/embed.js" async></script>
 </div>
 

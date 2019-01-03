@@ -13,7 +13,7 @@ actioncall: Make a Bubble Map
 <div>
     <a href="https://plot.ly/~Dreamshot/6575/" target="_blank" title="City Populations" style="display: block;
     text-align: center;"><img src="https://plot.ly/~Dreamshot/6575.png" alt="City Populations" style="max-width: 100%;width:
-    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Dreamshot:6575" src="https://plot.ly/embed.js" async></script>
 </div>
 
