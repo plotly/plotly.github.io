@@ -32,14 +32,15 @@ steps:
 
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type."
+    - copy: "After adding data, lets first add a ternary plot to the chart. To do this, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type. Although we're using 'Ternary Scatter' type trace, the filled area will be added subsequently once we have a raw ternary plot."
       img: "![Choose chart](../static/images/ternary-scatter-plot/ternary-scatter-type.png)"
     - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (10, 0, 90) represents a data point that is made up of 10% of axis A, 0% of axis B and 90% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
       img: "![Data Format](../static/images/ternary-filled-plot/ternary-filled-data-format.png)"
     - copy: "In addition, each column represents an axis for the data points. To plot all your data points on the ternary graph, you will need to map the data columns on the grid to the axes by specifying the values for the attributes 'A', 'B' and 'C' from their respective dropdown menus. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
       img: "![Plot Data](../static/images/ternary-filled-plot/ternary-filled-add-values.png)"
-    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Repeat the above steps to map the data columns of the second trace on the grid to the respective axes. Add as many traces as needed, until the plot is complete! This is what the plot looks like after adding all the traces."
+    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Repeat the above steps to map the data columns of the second trace on the grid to the respective axes. Add as many traces as needed, until the ternary plot is complete! This is what the plot looks like after adding all the traces."
       img: "![Add Trace](../static/images/ternary-filled-plot/ternary-filled-add-trace.png)"
+    - copy: "Adding the filled area to this ternary plot will be covered in the next step."
 
  - title: Style a Chart
    sub-steps:
@@ -49,7 +50,9 @@ steps:
       img: "![Plot Title](../static/images/ternary-filled-plot/ternary-filled-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface."
       img: "![Type directly title](../static/images/ternary-filled-plot/ternary-filled-title-direct.png)"
-    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties specific to the traces in the plot such as trace's name, color, display points/lines/text, fill color, etc."
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties specific to the traces in the plot such as trace's name, color, filled area type and its color, etc."
+    - copy: "Now, to add fills to the ternary plot, choose either the option 'To Self' or 'To Next' from the dropdown menu next to the attribute 'Fill To' under the property 'Filled Area'."
+    - copy: "'To Self' connects the endpoints of the trace (or each segment of the trace if it has gaps) into a closed shape. 'To Next' fills the space between two traces if one completely encloses the other, and behaves like 'To Self' if there is no trace before it."
       img: "![Trace Properties](../static/images/ternary-filled-plot/ternary-filled-trace-properties.gif)"
     - copy: "Use the 'Axes' section under the 'Style' to change the axes-specific properties such as axes' title, range, and line properties."
     - copy: "To set the axes title, type in the axis title within the textbox provided under 'Title' for each axis or simply click and then enter the axis title directly on the plot interface.."
