@@ -50,7 +50,7 @@ steps:
     - copy: "Let's consider an instance where we want to change the marker symbol from 'circle' to 'cross' for the scatter trace in the plot. To cross-check if the symbol 'cross' is available, head to the reference page, as mentioned earlier, and navigate to the [symbols](https://plot.ly/javascript/reference/#scatter-marker-symbol) attribute under the marker property for the 'Scatter' type chart. It looks like 'cross' is available on that list."
     - copy: "Now, head to the scatter trace's properties in the JSON tree. In this plot, the scatter trace is added in the last, hence, click on the last object ('2') to reveal its properties and then click on the property 'marker' to reveal the marker attributes."
       img: "![Traces image](../static/images/json-tree-editor/change-symbol.gif)"
-    - copy: "How do you change them? Hover your mouse over the fields next to the attributes as seen above and type directly into the field, or select/unselect the checkbox, if available. See the image below for a quick example for selecting/unselecting a checkbox."
+    - copy: "To change the value for an attribute, hover your mouse over the field next to it as seen above and type directly into the field, or select/unselect the checkbox, if available. See the image below for a quick example for selecting/unselecting a checkbox."
       img: "![True or false](../static/images/json-tree-editor/show-legend-JSON.gif)"
 
  - title: Layout
