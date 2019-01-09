@@ -36,8 +36,8 @@ steps:
 
  - title: JSON Editor
    sub-steps:
-    - copy: "Once the chart is [created](https://help.plot.ly/tutorials/#basic), you can [style](https://help.plot.ly/style-your-plots/) your chart as you wish, by using the 'Style' menu on the left-hand side, or by using the 'JSON' menu."
-    - copy: "After clicking the 'JSON' menu, click on the 'Tree' section underneath it. This will reveal the JSON tree of your chart within the panel. You'll see that the tree consists of three objects: 'data', 'layout' and 'frames'. If you're new to JSON, it may look a little overwhelming, but it's not as scary as it seems."
+    - copy: "Once the chart is [created](https://help.plot.ly/tutorials/#basic), you can [style](https://help.plot.ly/style-your-plots/) your chart via the 'Style' menu or 'JSON' menu. To learn more about styling the chart via the 'Style' menu, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "After clicking the 'JSON' menu, head to the 'Tree' section which will reveal the JSON tree of your chart within the panel. You'll see that the tree consists of three objects: 'data', 'layout' and 'frames'."
       img: "![JSON Menu](../static/images/json-tree-editor/JSON-menu.png)"
     - copy: "As you're going through the attributes in this panel, its a good idea to have the [plotly.js reference](https://plot.ly/javascript/reference/) opened in a new tab to help you out in case you need an explanation about a certain attribute."
 
@@ -45,10 +45,10 @@ steps:
    sub-steps:
     - copy: "Although this object is labeled as 'data', it's important to note that you cannot edit your data here. To do that, follow [this tutorial](https://help.plot.ly/add-data-to-the-plotly-grid/)."
       img: "![JSON Data](../static/images/json-tree-editor/JSON-menu-data.png)"
-    - copy: "There are three parts to this 'data' object because when this plot was created, three traces were added to it. All the elements will be the same in each of these 'Traces', but depending on what you want each of these 'Traces' to look like, they'll be filled differently."
+    - copy: "There are three parts to this 'data' object because when this plot was created, three traces were added to it. Each of these 'Traces' contain the same editable properties and can be edited to individually style each trace."
     - copy: "This is where you can change the trace properties such as the trace name, thickness of the lines, marker size, symbol, point diameter, colors for each element of the trace, etc."
-    - copy: "Let's consider an instance where we want to change the marker symbol from 'circle' to 'cross' for the scatter trace in the plot. This is where the reference page mentioned earlier comes in handy! We can use any of [these symbols](https://plot.ly/javascript/reference/#scatter-marker-symbol), and it looks like 'cross' is available on that list! We'll go right ahead and change it, as well as the size."
-    - copy: "First, head to the scatter trace's properties. In this plot, the scatter trace is added last, hence, click on the last object ('2') to reveal its properties and then click on the property 'marker' to reveal the marker attributes."
+    - copy: "Let's consider an instance where we want to change the marker symbol from 'circle' to 'cross' for the scatter trace in the plot. To cross-check if the symbol 'cross' is available, head to the reference page, as mentioned earlier, and navigate to the [symbols](https://plot.ly/javascript/reference/#scatter-marker-symbol) attribute under the marker property for the 'Scatter' type chart. It looks like 'cross' is available on that list."
+    - copy: "Now, head to the scatter trace's properties in the JSON tree. In this plot, the scatter trace is added in the last, hence, click on the last object ('2') to reveal its properties and then click on the property 'marker' to reveal the marker attributes."
       img: "![Traces image](../static/images/json-tree-editor/change-symbol.gif)"
     - copy: "How do you change them? Hover your mouse over the fields next to the attributes as seen above and type directly into the field, or select/unselect the checkbox, if available. See the image below for a quick example for selecting/unselecting a checkbox."
       img: "![True or false](../static/images/json-tree-editor/show-legend-JSON.gif)"
@@ -56,14 +56,13 @@ steps:
  - title: Layout
    sub-steps:
     - copy: "This is the object that describes the overall display of the plot, including the plot/axes title, annotations, shapes, legend positioning, etc. Unlike the 'data' object, the 'layout' object isn't divided by the traces, but by the sections of the plot."
-    - copy: "The 'annotations' property under the 'layout' object allows you to edit your annotations, if available in the chart. By looking at the JSON tree, you can see that we have one annotation on the chart. You can change the attributes such as text, color, and font of the annotation directly within this panel without even navigating to the 'Annotation' section under the 'Style' menu."
+    - copy: "The 'annotations' property under the 'layout' object allows you to edit your annotations. Note that you can not add any new annotations in the JSON tree editor. To add a new annotation, head to the 'Annotation' section under the 'Style' menu. To learn more about how to add annotations, please visit [this tutorial](https://help.plot.ly/how-to-add-annotations/)."
+    - copy: "Now looking at the JSON tree, you can see that we have one annotation on the chart. You can change the attributes associated with that annotation directly within this panel without even navigating to the 'Annotation' section."
       img: "![Annotations](../static/images/json-tree-editor/annotations-JSON.png)"
-    - copy: "However, please note that you cannot add any new annotations via the JSON tree editor. This can only be done via the 'Annotation' section under the 'Style' menu. To learn more about how to add annotations, please visit [this tutorial](https://help.plot.ly/how-to-add-annotations/)."
     - copy: "Let's consider another instance: removing the grid lines in the X axis. For this, head to the property 'xaxis' and select the checkbox next to the attribute 'showgrid' or type 'false' directly in the field next to it. To do the same for Y axis, head to the property 'yaxis'."
       img: "![Axes attributes](../static/images/json-tree-editor/axes-JSON.png)"
-    - copy: "Also, use the search box on the top-right corner of the panel to find the appropriate fields or values that you are looking for to modify. In addition, you could use the down/up arrows available on the right side of the search box to navigate to the next/previous field, if more than one field is available matching the text you entered."
+    - copy: "You can also make use of the search box on the top-right corner of the panel to find the appropriate fields or values that you are looking for to modify. Use the down/up arrows available on the right side of the search box to navigate to the next/previous field respectively, if more than one field is available matching the text you entered."
       img: "![Search Tool](../static/images/json-tree-editor/search-tool.gif)"
-    - copy: "Please note, although you can't add __new attributes__ to your plot using the JSON editor, in some cases you still have a little more control by setting things specifically to your liking, rather than just using the Chart Studio Workspace menus on the left-hand side of the panel."
 
  - title: Frames
    sub-steps:
