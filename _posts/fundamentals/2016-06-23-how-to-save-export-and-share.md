@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: How to Save, Export, and Share in Chart Studio
+title: How to Save, Export, and Share in the Chart Studio Workspace
 subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
 redirect_from: /how-to-share-and-print-plotly-graphs/

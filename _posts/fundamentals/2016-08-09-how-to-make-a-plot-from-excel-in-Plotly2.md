@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Make a Plot from Excel in Chart Studio
+title: Make a Plot from Excel in the Chart Studio Workspace
 subtitle: How to make a plot from Excel in Chart Studio
 permalink: /make-a-plot-from-excel/
 imageurl: ../static/images/enter-data-in-the-grid/excel-thumb.png
