@@ -32,22 +32,22 @@ steps:
 
  - title: Option 3 - Import Data from a URL
    sub-steps:
-    - copy: "You can also upload data by entering the URL of an online data set. Please note that Chart Studio supports only secured URLs (HTTPS) and accepted file formats are same as mentioned above: .xls, .xlsx, or .csv."
+    - copy: "You can upload data by entering the URL of an online data set. Please note that Chart Studio supports only secured URLs (HTTPS) and accepted file formats are same as mentioned above: .xls, .xlsx, or .csv."
       img: "![Enter data by URL](../static/images/import-data/import_data_url.png)"
 
- - title: Option 4 - Import Data from a SQL Database
+ - title: Option 4 - Import Data via Falcon SQL Client
    sub-steps:
-    - copy: "Additionally, you can use the data associated with the examples provided in our [tutorials](https://help.plot.ly/tutorials/). You can also find examples under each chart type as seen below."
-      img: "![Import from SQL](../static/images/import-data/import_data_chart_types.png)"
+    - copy: "You can import data by connecting to your SQL database through the [Falcon SQL client](https://plot.ly/free-sql-client-download/). To learn more about how to connect your databases to your chart via Falcon, check out [this](https://help.plot.ly/database-connectors/) section."
+      img: "![Import from SQL](../static/images/import-data/import_sql.png)"
 
  - title: Option 5 - Import Data from the Examples
    sub-steps:
-    - copy: "You can also use the example data provided under the 'Examples'tab. Choose any of these to get started!"
+    - copy: "You can also use the example data provided under the 'Examples' tab in the 'Import' modal. Choose any of these examples to get started!"
       img: "![Import from Examples](../static/images/import-data/import_data_examples.png)"
 
  - title: Option 6 - Import Data from a URL using Chart Studio's External Endpoint
    sub-steps:
-    - copy: "You can also upload data from a URL using Chart Studio's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Chart Studio's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Chart Studio's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Chart Studio's online workspace: [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
+    - copy: "Additionally, you can upload data from a URL using Chart Studio's external endpoint. Entering https://plot.ly/external/?url=YOUR_URL in your browser will open your data in Chart Studio's workspace. This method for uploading and parsing your data doesn't impose the same SSL restrictions that you may encounter with the above import method. For example, open this link to load data from [Chart Studio's dataset repo](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv) into Chart Studio's online workspace: [https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv](https://plot.ly/external/?url=https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)."
 
  - title: Update Data
    sub-steps:
@@ -57,10 +57,13 @@ steps:
 
  - title: Work with Multiple Grids
    sub-steps:
-    - copy: "You can also work with multiple grids. If you're working with multiple grids, there's a specific way to select your values. Let's say you have two grids open, each with their own dataset. Click on GRAPH, then 'Create'. When you select the X and Y values from their dropdown, select them under their specific grid (the grid label is grayed out). In the image below, you'll see that we've added values from Grid 2."
-      img: "![Grid dropdown](../static/images/import-data/grid-2.png)"
-    - copy: "Another important thing to remember if you want to save your plot with all your grids is that you must include data from each grid into a trace. If you miss this step, your saved plot will open with certain grids missing."
-    - copy: "Click the blue '+ Trace' button at the top right-hand side of that panel; this will add another trace to your plot. Select the X and Y values using the data from another grid. Since we've already selected Grid 2 values, we'll now add them from Grid 3. Repeat these steps until you've added values from all your grids."
-      img: "![grid 3](../static/images/import-data/grid-3.png)"
+    - copy: "You can also work with multiple grids with each grid containing data imported from any of the above mentioned sources. After adding all the necessary data required for the chart, click on the '+ Trace' button at the top right-hand side of the Chart Studio Workspace panel and then choose the 'Type' of trace you'd like to work with."
+      img: "![Add Trace](../static/images/import-data/trace_button.png)"
+    - copy: "When you select the X and Y values from their dropdown, make sure to select them under their specific grid. In the image below, you'll see that we've added 'X' values from Grid 2 and 'Y' values from Grid 1."
+      img: "![Grid dropdown](../static/images/import-data/trace_data.png)"
+    - copy: "In addition to adding your data from different grids to the trace, you can also associate them to the trace's style attributes such as marker size, marker color, colorscale, etc."
+      img: "![Style Attributes](../static/images/import-data/style.png)"
+    - copy: "Note that if you want to save your plot with all your grids, you must include data from each grid into a trace. If not, your saved plot will open with only the grids that are associated to it."
     - copy: "Don't forget to [save](http://help.plot.ly/save-share-and-export-in-plotly/) your plot and name your file!"
+      img: "![Save Plot](../static/images/import-data/save.png)"
 ---
