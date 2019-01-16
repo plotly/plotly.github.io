@@ -4,152 +4,184 @@ title: Plotly Help Center
 
 <!DOCTYPE html>
 <html>
-<head>
-        {% include google-tag-head.html %}
+  <head>
+    {% include google-tag-head.html %}
+    {% include drift-tag.html %}
 
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="{{site.stylesheet}}">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://images.plot.ly/assets/css/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="{{ site.stylesheet }}" />
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/stylesheets/plotly_icons.css"
+    />
 
     <!-- Icon -->
-    <link rel="shortcut icon" href="/images/plotly-ico.png?v=2" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/images/plotly-ico.png?v=2"
+      type="image/x-icon"
+    />
 
     <!-- META TAGS -->
     {% include _new/_page-components/_seo.html %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <meta name="theme-color" content="#447bdc">
+    <meta name="theme-color" content="#447bdc" />
+  </head>
 
+  <body>
+    {% include google-tag-body.html %} {% include
+    _new/_page-components/_header-main.html %}
 
-</head>
-
-
-<body>
-            {% include google-tag-body.html %}
-
-{% include _new/_page-components/_header-main.html %}
-
-<main class="page --home">
-    <div class="--wrap-top">
+    <main class="page --home">
+      <div class="--wrap-top">
         <section class="hero">
-            <div class="hero-bg">
-                <img src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/background-images/home-img.jpg" data-depth="0.50" alt=""
-                                      class="layer"></div>
-            <div class="--wrap-inner">
-                <div class="--welcome layer">
-                    <span class="meta">Welcome to the</span>
-                    <h1>{{site.title}}</h1>
-                    <p>
-                        Resources for using Chart Studio and our Open Source Graphing Libraries.
-                    </p>
-                </div>
+          <div class="hero-bg">
+            <img
+              src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/background-images/home-img.jpg"
+              data-depth="0.50"
+              alt=""
+              class="layer"
+            />
+          </div>
+
+          <div class="--wrap-inner">
+            <div class="--welcome layer">
+              <span class="meta">Welcome to the</span>
+              <h1>{{ site.title }}</h1>
+              <p>
+                Resources for using Chart Studio and our Open Source Graphing
+                Libraries.
+              </p>
             </div>
+          </div>
         </section>
         <section class="--documentation-categories">
-            <div class="--wrap category-buttons">
-                <ul>
-                    <li>
-                        <a href="/tutorials/">
+          <div class="--wrap category-buttons">
+            <ul>
+              <li>
+                <a href="/tutorials/">
+                  <div class="category-wrap">
+                    <div class="category-img">
+                      <img
+                        src="https://images.plot.ly/logo/new-branding/plotly-logomark.png"
+                        alt="Plotly logo"
+                      />
+                    </div>
+                    <div class="category-meta">
+                      <h2>Chart Studio</h2>
+                      <p>Anyone making charts or dashboards online.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://plot.ly/api/">
+                  <div class="category-wrap">
+                    <div class="category-img">
+                      <img
+                        src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/background-images/python-logo.png"
+                        alt="python logo"
+                      />
+                    </div>
+                    <div class="category-meta">
+                      <h2>Open Source Graphing Libraries</h2>
 
-                            <div class="category-wrap">
-                                <div class="category-img"><img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly logo">
-                                </div>
-                                <div class="category-meta">
-                                    <h2>Chart Studio</h2>
-                                    <p>Anyone making charts or dashboards online.</p>
-                                </div>
-                            </div>
-                        </a>
+                      <p>
+                        Engineers and data scientists using Python, R, Matlab or
+                        JavaScript.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
 
-                    </li>
-                    <li>
-                        <a href="https://plot.ly/api/">
-                            <div class="category-wrap">
-                                <div class="category-img"><img src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/background-images/python-logo.png" alt="python logo">
-                                </div>
-                                <div class="category-meta">
+              <li>
+                <a href="https://dash.plot.ly/">
+                  <div class="category-wrap">
+                    <div class="category-img">
+                      <img src="/images/dash.png" alt="Dash logo" />
+                    </div>
+                    <div class="category-meta">
+                      <h2>Dash</h2>
+                      <p>
+                        Dash is ideal for building data visualization apps with
+                        highly custom user interfaces in pure Python.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/database-connectors/">
+                  <div class="category-wrap">
+                    <div class="category-img">
+                      <img
+                        src="https://help.plot.ly/static/images/falcon/logos/query-from-falcon.png"
+                        alt="Falcon logo"
+                      />
+                    </div>
 
-                                    <h2>Open Source Graphing Libraries</h2>
-
-                                    <p>Engineers and data scientists using Python, R, Matlab or JavaScript.</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://dash.plot.ly/">
-                            <div class="category-wrap">
-                                <div class="category-img"><img src="/images/dash.png" alt="Dash logo">
-                                </div>
-                                <div class="category-meta">
-                                    <h2>Dash</h2>
-                                    <p>
-                                        Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/database-connectors/">
-                            <div class="category-wrap">
-                                <div class="category-img"><img
-                                        src="https://help.plot.ly/static/images/falcon/logos/query-from-falcon.png" alt="Falcon logo"></div>
-                                <div class="category-meta">
-                                    <h2>Falcon SQL Client</h2>
-                                    <p>
-                                        SQL Analysts who want to visualize query results and sync data to Chart Studio
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://community.plot.ly/">
-                            <div class="category-wrap">
-                                <div class="category-img">
-                                    <!--<img src="http://i.imgur.com/jCMx2iC.png" alt="">-->
-                                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                                        <path fill="#000000"
-                                              d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"/>
-                                    </svg>
-                                </div>
-                                <div class="category-meta">
-                                    <h2>Community</h2>
-                                    <p>
-                                        Ask questions, get help, and discuss data viz ideas
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                    <div class="category-meta">
+                      <h2>Falcon SQL Client</h2>
+                      <p>
+                        SQL Analysts who want to visualize query results and
+                        sync data to Chart Studio
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://community.plot.ly/">
+                  <div class="category-wrap">
+                    <div class="category-img">
+                      <!--<img src="http://i.imgur.com/jCMx2iC.png" alt="">-->
+                      <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path
+                          fill="#000000"
+                          d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="category-meta">
+                      <h2>Community</h2>
+                      <p>Ask questions, get help, and discuss data viz ideas</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
-    </div>
-</main>
+      </div>
+    </main>
 
-{% include _new/_page-components/_footer-main.html %}
+    {% include _new/_page-components/_footer-main.html %}
 
-<script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/libraries.min.js"></script>
-<script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/jquery.parallax.js"></script>
-<script>
-    $(document).ready(function () {
+    <script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/libraries.min.js"></script>
+    <script src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/js/jquery.parallax.js"></script>
+    <script>
+      $(document).ready(function() {
         // jQuery Selections
-        var scene = $('.hero-bg');
+        var scene = $(".hero-bg");
 
-// Pretty simple huh?
+        // Pretty simple huh?
         scene.parallax();
-    });
-</script>
-<script src="/js/main.js"></script>
-</body>
-
+      });
+    </script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
