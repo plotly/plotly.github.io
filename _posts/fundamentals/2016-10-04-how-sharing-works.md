@@ -18,7 +18,7 @@ steps:
    sub-steps:
     - copy: "At Chart Studio, we're all about sharing and collaborating, but we understand that privacy is an important concern."
     - copy: "There are three privacy settings for your Chart Studio files: public, private and private link. The plots and grids have their own privacy settings, as well as the [dashboards](http://help.plot.ly/create-a-dashboard/). Visit [this](http://help.plot.ly/dashboard-privacy/#step-5-share-the-dashboard) page to learn more about dashboard privacy and how it interacts with plot privacy."
-    - copy: "Users with a Community subsciption are limited to saving 25 public files. Whereas, Student and Personal subscribers are able to save up to 2,500 public or private charts and Professional subscribers can save unlimited public and private charts. For more information regarding accounts, please see our [plans](https://plot.ly/products/cloud/) "
+    - copy: "Users with a Community subscription are limited to saving 25 public files. Whereas, Student and Personal subscribers are able to save up to 2,500 public or private charts and Professional subscribers can save unlimited public and private charts. For more information regarding accounts, please see our [plans](https://plot.ly/products/cloud/) "
 
  - title: Public
    sub-steps:
