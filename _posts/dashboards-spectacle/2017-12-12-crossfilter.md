@@ -102,26 +102,26 @@ steps:
  - title: Add Charts to Dashboard
    sub-steps:
     - copy: "First, to add the Maximum Cases per Month Map, click *+Plot* in the bottom left corner of the screen. A new box ought to appear with the option to 'Add a Plot'. Click, the *'Your Files'* option and then in the pop-up select the **Average Happiness by Country** map we made earlier."
-      img: "![Add Choropleth](../static/images/crossfilter/dashboard/add-plot.png)"
+      img: "![Add Choropleth](../static/images/dashboard-crossfilter/add-plot.png)"
     - copy: "Next, add the **Average GDP per Capita by Country** scatter plot following the same process. As we are making a fairly simple and straight forward dashboard, we can just leave this plot immediate below the previous map."
-      img: "![Add Scatter](../static/images/crossfilter/dashboard/add-plot2.png)"
+      img: "![Add Scatter](../static/images/dashboard-crossfilter/add-plot2.png)"
     - copy: "Again, immediately below, add the **World Happiness Data Table**."
-      img: "![Add Table](../static/images/crossfilter/dashboard/add-plot3.png)"
+      img: "![Add Table](../static/images/dashboard-crossfilter/add-plot3.png)"
     - copy: "Now that we have added all the plots to the dashboard, for each plot where it says, 'Enter a title...'' insert plot titles: **Average Happiness by Country**, **Average GDP per Capita by Country** and **World Happiness Data Table** in the same order as we added the plots. Your result ought to look like below."
-      img: "![Add Plot Titles](../static/images/crossfilter/dashboard/add-titles.png)"
+      img: "![Add Plot Titles](../static/images/dashboard-crossfilter/add-titles.png)"
 
  - title: Style the Dashboard
    sub-steps:
     - copy: "Now that we have the structure of our dashboard, we can style it. To do so, navigate to the *settings icon* directly opposite the dashboard title. When hovering you ought to see the option settings from the menu."
-      img: "![Settings](../static/images/crossfilter/dashboard/settings.png)"
+      img: "![Settings](../static/images/dashboard-crossfilter/settings.png)"
     - copy: "After clicking *settings*, a panel ought to appear from the right-hand side of the screen. Here, we have the option of headers, colors, text, layout, and filter. First, in *Headers*, we can set the title, add a logo, and multiple links. For this tutorial, add **World Happiness 2015-2017** to the *Title* text box. Next, let's add the Sustainable Development Solutions Network logo. We can do this by simply adding the URL for the logo PNG: **http://unsdsn.org/wp- content/themes/sdsn/assets/  img/sdsn_logo_fc.png**. Also, we can add an link to the data source by typing the text **Data Source: World Happiness Report** and then in the *URL* box, enter **http://worldhappiness.report/**."
-      img: "![Header](../static/images/crossfilter/dashboard/headers.png)"
+      img: "![Header](../static/images/dashboard-crossfilter/headers.png)"
     - copy: "In the next tab, *Colors*, we can manipulate the background, borders, and text colors. As you can see, the dashboard has already added these by default. That said, keeping with our plot themes, we will set *Header Background*, *Page Background*, *Box Background*, *Box Border*, and *Box Header Background* to **#444444**. Then, set *Header Font Color* and *Box Header Font Color* to **#FFFFFF**."
-      img: "![Colors](../static/images/crossfilter/dashboard/colors.png)"
+      img: "![Colors](../static/images/dashboard-crossfilter/colors.png)"
     - copy: "*Text*, the third settings option, allows you to control all things text, including font color, family, and size, as well as header styles and text box styles. Again, like the Colors tab, some values are defined. However, here, we'll set the *Font Family* to **Raleway**. Make the header font larger by selecting **2.2em** in the *Header Font Size* and, additionally, change the *Header Font Weight* to **300**."
-      img: "![Text](../static/images/crossfilter/dashboard/text.png)"
+      img: "![Text](../static/images/dashboard-crossfilter/text.png)"
     - copy: "In *Layout*, you have the option of setting the page layout as either a dashboard or a report. Here, we'll leave it as the default dashboard setting. The last settings category, *Filter*, provides you with the option to enable or disable the Search Bar or the Crossfilter feature. For this tutorial, leave the *Search Bar* as-is but let’s enable the *Crossfilter* feature by selecting **Enable** (for more information about this feature see the next section)."
-      img: "![Filter](../static/images/crossfilter/dashboard/filter.png)"
+      img: "![Filter](../static/images/dashboard-crossfilter/filter.png)"
     - copy: "Congrats, your dashboard is complete! Click **Save** on in the bottom right-hand side of the screen. In the pop-up, enter your filename and select either **Public** (visible to all), or **Private Link** (visible only to those who you share the link with), or **Private** (visible only to you) and hit **Save**."
-      img: "![Save](../static/images/crossfilter/dashboard/save.png)"
+      img: "![Save](../static/images/dashboard-crossfilter/save.png)"
 ---
