@@ -453,7 +453,6 @@ body {
     color: #f4f4f8; }
   .header-large--wrap .header--blue-bg {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(100, 91, 158, 0.89)), to(rgba(58, 124, 187, 0.89)));
-    background-image: -webkit-linear-gradient(bottom, rgba(100, 91, 158, 0.89) 0%, rgba(58, 124, 187, 0.89) 100%);
     background-image: linear-gradient(0deg, rgba(100, 91, 158, 0.89) 0%, rgba(58, 124, 187, 0.89) 100%);
     width: 100%;
     height: 100%; }
@@ -714,7 +713,6 @@ header.header-main {
       -webkit-box-align: stretch;
       -webkit-align-items: stretch;
       -ms-flex-align: stretch;
-      -ms-grid-row-align: stretch;
       align-items: stretch;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
@@ -872,15 +870,7 @@ header.header-main {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 10px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    .\--footer-main ul.\--footer-body {
-      -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap; } }
-
+    margin-bottom: 10px; }
   .\--footer-main .\--footer-column {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 20%;
@@ -1417,7 +1407,6 @@ aside.\--sidebar-container {
               -webkit-box-align: center;
               -webkit-align-items: center;
               -ms-flex-align: center;
-              -ms-grid-row-align: center;
               align-items: center;
               -webkit-box-pack: center;
               -webkit-justify-content: center;
@@ -1849,7 +1838,7 @@ ul.\--ref {
         border-right: 0; }
 
 .\--help-box {
-  background: #447bdc;
+  background: #000749;
   padding: 40px 20px;
   -webkit-box-flex: 0;
   -webkit-flex: 0;
@@ -1896,7 +1885,6 @@ ul.\--ref {
               -webkit-box-align: center;
               -webkit-align-items: center;
               -ms-flex-align: center;
-              -ms-grid-row-align: center;
               align-items: center;
               border-right: 0;
               -webkit-box-orient: vertical;
@@ -4144,7 +4132,6 @@ img {
       -webkit-box-align: center;
       -webkit-align-items: center;
       -ms-flex-align: center;
-      -ms-grid-row-align: center;
       align-items: center;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
@@ -4198,23 +4185,3 @@ main.page--no-sidebar {
     main.page--no-sidebar section.page--content ul {
       list-style: disc;
       margin-left: 20px; }
-
-
-.mailchimp-footer-text{
-  margin-block-start: 0em;
-  font-size: 80%;
-  color: #626262;
-}
-
-.mc-input{
-  margin-bottom: 10px;
-  border: 1px solid #626262;
-  padding: 5px;
-  margin-top: 5px;
-}
-
-.mc-embedded-subscribe{
-  color: #fff;
-  background-color: #119dff;
-  box-shadow: 0px 2px 8px rgba(#506784, 0.4);
-}
