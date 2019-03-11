@@ -35,9 +35,10 @@ steps:
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Choropleth' under 'Maps' chart type."
       img: "![chart type](../static/images/choropleth-map/choropleth-map-chart-type.png)"
-    - copy: "Now, specify the coordinates in terms of location IDs (i.e., abbrevations). Note that the coordinates correspond to the centroid of each given location. The attribute 'Location Format' determines the set of locations used to match entries in 'Location' to regions of the map. Finally, define the color values from the dropdown menu next to the attribute 'Values'."
+    - copy: "Now, specify the coordinates in terms of location IDs (i.e., abbrevations). Note that the coordinates correspond to the centroid of each given location."
+    - copy: "The attribute 'Location Format' determines the set of locations used to match entries in 'Location' to regions of the map. Then, specify the color values from the dropdown menu next to the attribute 'Values'."
       img: "![trace values](../static/images/choropleth-map/select-trace-values.png)"
-    - copy: "Notice that the data used in this example contains data points only for the USA, hence the points are populated around the USA region."
+    - copy: "The data used in this example contains data points only for the USA, hence the points are populated around the USA region. Note that, at the moment, the Chart Studio supports only countrywise location IDs for the World map and is limited to the USA region for statewise location IDs."
     - copy: "To change the view to just the USA, go to the 'Subplots' section under the 'Structure' menu and select 'USA' from the dropdown next to the attribute 'Region' under the property 'Map Projection'. This simply changes the region to the USA as opposed to a global map. Below, the 'Projection' dropdown will automatically default to 'Albers USA' then."
       img: "![Subplot section](../static/images/choropleth-map/select-map-region.png)"
 
