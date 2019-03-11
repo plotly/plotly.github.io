@@ -14,7 +14,7 @@ actioncall: Make a 3D Scatter Plot
 # Making a 3D Scatter Plot
 
 <div>
-    <a href="https://plot.ly/~mariahh/90/" target="_blank" title="Income, education, gender and prestige" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/90.png" alt="Income, education, gender and prestige" style="max-width: 100%;width: 1031px;"  width="1031" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~mariahh/90/" target="_blank" title="Income, education, gender and prestige" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/90.png" alt="Income, education, gender and prestige" style="max-width: 100%;width: 1031px;"  width="1031" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="mariahh:90" src="https://plot.ly/embed.js" async></script>
 </div>
 

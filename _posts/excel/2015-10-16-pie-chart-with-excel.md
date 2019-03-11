@@ -13,7 +13,7 @@ actioncall: Make a Pie Chart
 # Make a Pie Chart with Excel
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/6177/" target="_blank" title="How Much Money Do You Have in Your Savings Account?" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/6177.png" alt="How Much Money Do You Have in Your Savings Account?" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~Dreamshot/6177/" target="_blank" title="How Much Money Do You Have in Your Savings Account?" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/6177.png" alt="How Much Money Do You Have in Your Savings Account?" style="max-width: 100%;width: 560px;"  width="560" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Dreamshot:6177" src="https://plot.ly/embed.js" async></script>
 </div>
 

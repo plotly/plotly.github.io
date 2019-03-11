@@ -1,53 +1,66 @@
 ---
 layout: tutorial-single_layout
-title: Filled Ternary Plots in Chart Studio
-subtitle: A type of plot that depicts depicts the ratio of 3 variables on a triangular grid.
+title: Filled Ternary Plot
+subtitle: A type of plot that depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-filled-plot/
-imageurl: ../static/images/How-to-make-a-filled-ternary-plot/thum-filled-ternary.png
+imageurl: ../static/images/ternary-filled-plot/ternary-filled-thumbnail.png
 state: active
 tags: scientific
 meta_description: A tutorial on how to make a filled ternary plot in Chart Studio.
 popularity: featured
-order: 5
+order: 3
 carouselimageurl:
-actioncall: How to Make a Filled Ternary Plot in Chart Studio
-actioncall-url: https://plot.ly/alpha/workspace/?fid=plotly2_demo:21
+actioncall: How to make a filled ternary plot in Chart Studio
+actioncall-url: https://plot.ly/create/?fid=plotly2_demo:455
 
-otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-contour/),  [Javascript](https://plot.ly/javascript/ternary-contour/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
+otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/ternary-contour/),  [JavaScript](https://plot.ly/javascript/ternary-contour/) and [Matlab](https://plot.ly/matlab/ternary-plots/).
 
-live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/21.embed"></iframe>
+live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/455.embed"></iframe>
 live-graph-image:
 
 steps:
+ - title: Try an Example
+   sub-steps:
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Plotly users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
+      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
+
  - title: Add Your Data to Chart Studio
    sub-steps:
-    - copy: "Head to Chart Studio’s new online [workspace](https://plot.ly/create) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](http://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
-    - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
-      img: "![Open data](../static/images/enter-data-in-the-grid/open-this-data.png)"
-    - copy: "Each data point on a ternary chart is plotted according to its relative composition with respects to the 3 main axes. For example, the data point (0.6, 0.2, 0.2) represents a data point that is made up of 60% of axis 1, 20% of axis 2, 20% of axis 3, this sums up to 100% of this point's composition with relation to axes A, B, and C."
-    - copy: "To plot this data point, you will need to populate 3 columns on the grid, each column will then be mapped to one of the 3 axes. To add an additional data point to the graph, you will need to add an additional row to these 3 columns. In the example below, you can see how we would enter data to plot 3 data points onto our ternary plot."
-      img: "![Add Data](../static/images/How-to-make-a-filled-ternary-plot/data-formatting.png)"
+    - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
+
  - title: Create a Chart
    sub-steps:
-    - copy: "After adding your own data, go to the GRAPH section on the left-hand side menu of the workspace and select 'Ternary plot' from the 'Chart Type' dropdown menu."
-      img: "![Choose chart main](../static/images/How-to-make-a-filled-ternary-plot/select-ternary.png)"
-    - copy: "Now you can map your data columns to the axes that they will represent on the ternary graph. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
-      img: "![Plot Data](../static/images/How-to-make-a-filled-ternary-plot/data-plotting.png)"
-    - copy: "To add another trace (layer), create 3 more columns and populate them with your data for the next trace. You can also reuse the same columns, if relevant, on multiple traces. Once your data for the second trace is added, you will have to map your columns to axes for the second trace, just like we did for the first trace. To do so, click on the '+Trace' button in the upper right corner of the GRAPH panel. Assign the columns you've created for the second trace to their respective A, B, C axes. You should now see two traces on your filled ternary plot."
-    - copy: "Tip: if you have multiple traces to add, the 'Collapse All' button may be useful to easily get back to the specific trace that you want to work on."
-      img: "![Add Trace](../static/images/How-to-make-a-filled-ternary-plot/second-trace.png)"
+    - copy: "After adding data, lets first add a ternary plot to the chart. To do this, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Ternary Scatter' under 'Specialized' chart type. Although we're using 'Ternary Scatter' type trace, the filled area will be added subsequently once we have a raw ternary plot."
+      img: "![Choose chart](../static/images/ternary-scatter-plot/ternary-scatter-type.png)"
+    - copy: "Note that each data point on a ternary plot is plotted according to its relative composition with respects to the 3 main axes. For example, the row (10, 0, 90) represents a data point that is made up of 10% of axis A, 0% of axis B and 90% of axis C, this sums up to 100% of this data point's composition with relation to the three axes."
+      img: "![Data Format](../static/images/ternary-filled-plot/ternary-filled-data-format.png)"
+    - copy: "In addition, each column represents an axis for the data points. To plot all your data points on the ternary graph, you will need to map the data columns on the grid to the axes by specifying the values for the attributes 'A', 'B' and 'C' from their respective dropdown menus. Once this mapping is complete, the data points you've entered into the grid will appear on the ternary plot."
+      img: "![Plot Data](../static/images/ternary-filled-plot/ternary-filled-add-values.png)"
+    - copy: "To add more traces to the chart, click on the '+ Trace' button at the top right corner of the panel in the 'Traces' section under the 'Structure' menu. Repeat the above steps to map the data columns of the second trace on the grid to the respective axes. Add as many traces as needed, until the ternary plot is complete! This is what the plot looks like after adding all the traces."
+      img: "![Add Trace](../static/images/ternary-filled-plot/ternary-filled-add-trace.png)"
+    - copy: "Adding the filled area to this ternary plot will be covered in the next step."
 
  - title: Style a Chart
    sub-steps:
-    - copy: "To style your ternary plot, click on STYLE on the left-hand side menu of the workspace and play around with the styling of your plot."
-    - copy: "To change the styling related to the data on your plot, for example, add filling to the area we've delimited in our plot, go to ‘Traces’ under the STYLE tab, and change the Fill. A note with regards to filling, the styling option 'To next' will only work if there are multiple traces and one completely encloses the other, unless this is the case, this option should not be used and 'To Self' should be used instead. Also with regards to colours, certain colours and typefaces are available only with a PRO subscription. Click [here](https://plot.ly/products/cloud/) to upgrade!"
-      img: "![Add Style](../static/images/How-to-make-a-filled-ternary-plot/filled-shape.png)"
-    - copy: "To change the Title, Axes and Trace names, you can do so directly on the graph by double-clicking on the corresponding area. Further styling is also possible under the 'Layout' and 'Axes' sections of the STYLE menu. Note that to style trace names, the 'Legend' needs to be set to visible, if it is not the case, go to the 'Legend' section under the STYLE menu and select the option 'Show'."
-      img: "![Type directly title](../static/images/How-to-make-a-filled-ternary-plot/titles.png)"
+    - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
+    - copy: "Use the 'General' section under the 'Style' menu to change the general style properties such as plot background color, margin color and font sytlings, the layout properties, the modebar and interactive settings."
+    - copy: "To set the plot title, type the title text within the textbox provided under the 'Title' property in the 'General' section."
+      img: "![Plot Title](../static/images/ternary-filled-plot/ternary-filled-title.png)"
+    - copy: "Another approach is to click and then enter the title directly on the plot interface."
+      img: "![Type directly title](../static/images/ternary-filled-plot/ternary-filled-title-direct.png)"
+    - copy: "Use the 'Traces' section under the 'Style' menu to change the properties specific to the traces in the plot such as trace's name, color, filled area type and its color, etc."
+    - copy: "Now, to add fills to the ternary plot, choose either the option 'To Self' or 'To Next' from the dropdown menu next to the attribute 'Fill To' under the property 'Filled Area'."
+    - copy: "'To Self' connects the endpoints of the trace (or each segment of the trace if it has gaps) into a closed shape. 'To Next' fills the space between two traces if one completely encloses the other, and behaves like 'To Self' if there is no trace before it."
+      img: "![Trace Properties](../static/images/ternary-filled-plot/ternary-filled-trace-properties.gif)"
+    - copy: "Use the 'Axes' section under the 'Style' to change the axes-specific properties such as axes' title, range, and line properties."
+    - copy: "To set the axes title, type in the axis title within the textbox provided under 'Title' for each axis or simply click and then enter the axis title directly on the plot interface.."
+      img: "![Axes Title](../static/images/ternary-filled-plot/ternary-filled-axes-title.png)"
 
  - title: Save and Share
    sub-steps:
-    - copy: "When your plot is done, click SAVE on the left-hand side menu, give your plot and grid a name, and identify them as 'Public' or 'Private'."
-      img: "![Save main](../static/images/How-to-make-a-filled-ternary-plot/saving.png)"
-    - copy: "For more information on how to save, export, and share, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
+    - copy: "To save the plot click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
+      img: "![Save main](../static/images/ternary-filled-plot/ternary-filled-save-main.png)"
+    - copy: "For more information on privacy settings and how sharing works, visit Chart Studio's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---

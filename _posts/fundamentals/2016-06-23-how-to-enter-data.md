@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: How to Add Data in Chart Studio
+title: How to Add Data in the Chart Studio Workspace
 subtitle: A step-by-step guide to entering or importing data.
 permalink: /add-data-to-the-plotly-grid/
 redirect_from: /plotly1/add-data-to-the-plotly1-grid/

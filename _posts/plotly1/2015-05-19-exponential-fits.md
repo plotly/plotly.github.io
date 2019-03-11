@@ -14,7 +14,7 @@ actioncall: Make a chart
 # Fitting data with an exponential function
 
 <div>
-    <a href="https://plot.ly/~mariahh/63/" target="_blank" title="Rat population growth under optimal conditions" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/63.png" alt="Rat population growth under optimal conditions" style="max-width: 100%;width: 1019px;"  width="1019" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~mariahh/63/" target="_blank" title="Rat population growth under optimal conditions" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/63.png" alt="Rat population growth under optimal conditions" style="max-width: 100%;width: 1019px;"  width="1019" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="mariahh:63" src="https://plot.ly/embed.js" async></script>
 </div>
 
