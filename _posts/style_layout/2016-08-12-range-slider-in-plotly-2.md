@@ -22,7 +22,7 @@ live-graph-image:
 steps:
  - title: Getting Started
    sub-steps:
-    - copy: "The interactive range slider allows you to experience your graphs on a whole other level. It is a great way to display a specific range within your chart, especially for time series plots."
+    - copy: "The interactive range slider allows users to select and drilldown into specific areas of the graph. It is a great way to display a specific range within your chart, especially for time series plots."
     - copy: "You can check out an example by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open the plot and data fatured in this tutorial in Chart Studio."
 
  - title: Add Your Data
