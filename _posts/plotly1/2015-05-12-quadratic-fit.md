@@ -14,7 +14,7 @@ actioncall: make a chart
 # Fitting data with a quadratic function
 
 <div>
-    <a href="https://plot.ly/~mariahh/56/" target="_blank" title="Almost squares" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/56.png" alt="Almost squares" style="max-width: 100%;width: 1023px;"  width="1023" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~mariahh/56/" target="_blank" title="Almost squares" style="display: block; text-align: center;"><img src="https://plot.ly/~mariahh/56.png" alt="Almost squares" style="max-width: 100%;width: 1023px;"  width="1023" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="mariahh:56" src="https://plot.ly/embed.js" async></script>
 </div>
 

@@ -14,7 +14,7 @@ actioncall: Make a chart
 
 <h1>MATLAB to Excel</h1>
 
-<img src="/images/matlab-to-excel-cropped.jpg" />
+<img src="/images/matlab-to-excel-cropped.jpg">
 
 <h3 style="color:#444;">
     MATLAB chart URL <a href="https://plot.ly/~jackp/3835" target="_blank">https://plot.ly/~jackp/383</a>
@@ -27,7 +27,7 @@ actioncall: Make a chart
 </h3>
 
 <div>
-    <a href="https://plot.ly/~jackp/3835/" target="_blank" title="MATLAB contour" style="display: block; text-align: center;"><img src="https://plot.ly/~jackp/3835.png" alt="MATLAB contour" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~jackp/3835/" target="_blank" title="MATLAB contour" style="display: block; text-align: center;"><img src="https://plot.ly/~jackp/3835.png" alt="MATLAB contour" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="jackp:3835"  src="https://plot.ly/embed.js" async></script>
 </div>
 

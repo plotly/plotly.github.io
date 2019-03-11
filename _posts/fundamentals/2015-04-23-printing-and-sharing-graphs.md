@@ -14,7 +14,7 @@ actioncall: Make a Graph
 # Printing and Sharing Graphs
 
 <div>
-    <a href="https://plot.ly/~abtran/14/" target="_blank" title="When San Francisco Meetup Groups were formed" style="display: block; text-align: center;"><img src="https://plot.ly/~abtran/14.png" alt="When San Francisco Meetup Groups were formed" style="max-width: 100%;width: 1137px;"  width="1137" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~abtran/14/" target="_blank" title="When San Francisco Meetup Groups were formed" style="display: block; text-align: center;"><img src="https://plot.ly/~abtran/14.png" alt="When San Francisco Meetup Groups were formed" style="max-width: 100%;width: 1137px;"  width="1137" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="abtran:14" src="https://plot.ly/embed.js" async></script>
 </div>
 

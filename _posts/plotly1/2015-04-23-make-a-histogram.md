@@ -15,7 +15,7 @@ actioncall: Make a Histogram
 # A Step by Step Guide to Making a Histogram
 
 <div>
-    <a href="https://plot.ly/~cimar/214/" target="_blank" title="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/214.png" alt="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="max-width: 100%;width: 1360px;"  width="1360" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~cimar/214/" target="_blank" title="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/214.png" alt="&lt;b&gt;2013 NHL PLAYER HEIGHT&lt;/b&gt;" style="max-width: 100%;width: 1360px;"  width="1360" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="cimar:214" src="https://plot.ly/embed.js" async></script>
 </div>
 

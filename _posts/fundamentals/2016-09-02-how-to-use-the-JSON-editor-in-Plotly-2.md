@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: JSON Viewer/Editor in Chart Studio
-subtitle: How to use the JSON Viewer/Editor in Chart Studio
+subtitle: How to use the JSON Viewer/Editor in the Chart Studio Workspace
 permalink: /view-and-edit-JSON/
 imageurl: ../static/images/misc-tutorial-images/JSON-thumb.png
 state: active
