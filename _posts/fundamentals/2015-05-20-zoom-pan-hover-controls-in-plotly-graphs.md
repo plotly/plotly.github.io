@@ -1,14 +1,14 @@
 ---
 layout: tutorial-single_layout
 title: Zoom, Pan, and Hover Controls
-subtitle: How to zoom, pan and hover interactively in Chart Studio
+subtitle: How to zoom, pan, and hover in Chart Studio
 permalink: /zoom-pan-hover-controls/
 imageurl: /static/images/zoom-pan-hover/thumbnail.gif
 state: active
 tags: fundamentals
 section: fundamentals
 order: 7
-actioncall: How to zoom, pan and hover interactively in Chart Studio
+actioncall: Zoom, pan, and hover interaction in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:480
 
 live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~plotly2_demo/480.embed"></iframe>
