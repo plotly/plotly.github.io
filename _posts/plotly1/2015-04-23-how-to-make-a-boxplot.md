@@ -15,7 +15,7 @@ actioncall: Make a Box Plot in Chart Studio
 # Make a Box Plot
 
 <div>
-    <a href="https://plot.ly/~Nicole_G/22/" target="_blank" title="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~Nicole_G/22.png" alt="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="max-width: 100%;width: 854px;"  width="854" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~Nicole_G/22/" target="_blank" title="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="display: block; text-align: center;"><img src="https://plot.ly/~Nicole_G/22.png" alt="Points Scored per NBA Game&lt;br&gt;data taken from &lt;i&gt;&lt;a href=&quot;https://plot.ly/jackp/969&quot;&gt;Points Scored by the Top 50 Scoring NBA Players in 2012&lt;/a&gt;&lt;/i&gt;" style="max-width: 100%;width: 854px;"  width="854" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Nicole_G:22" src="https://plot.ly/embed.js" async></script>
 </div>
 

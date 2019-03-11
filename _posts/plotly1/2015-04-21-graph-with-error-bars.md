@@ -15,7 +15,7 @@ actioncall: Make a Graph with Error Bars
 # Make a Graph with Error Bars
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/1151/" target="_blank" title="Points Scored in First Seven Games of Season" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/1151.png" alt="Points Scored in First Seven Games of Season" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~Dreamshot/1151/" target="_blank" title="Points Scored in First Seven Games of Season" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/1151.png" alt="Points Scored in First Seven Games of Season" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Dreamshot:1151" src="https://plot.ly/embed.js" async></script>
 </div>
 
