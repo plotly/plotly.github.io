@@ -3,13 +3,14 @@ title: Chart Studio Tutorials
 ---
 
 <!DOCTYPE html>
-<html>co
+<html>
 <head>
         {% include google-tag-head.html %}
+        {% include drift-tag.html %}
 
 
     {% assign sorted = site.posts | sort: "order" %}
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
@@ -18,9 +19,9 @@ title: Chart Studio Tutorials
     <!--hello-->
     <!-- Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css"/>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700"
-          rel="stylesheet" type="text/css"/>
+          rel="stylesheet" type="text/css">
 
 
     <!-- Stylesheets -->
@@ -87,7 +88,7 @@ title: Chart Studio Tutorials
                           d="M2.6,10.59L8.38,4.8L10.07,6.5C9.83,7.35 10.22,8.28 11,8.73V14.27C10.4,14.61 10,15.26 10,16A2,2 0 0,0 12,18A2,2 0 0,0 14,16C14,15.26 13.6,14.61 13,14.27V9.41L15.07,11.5C15,11.65 15,11.82 15,12A2,2 0 0,0 17,14A2,2 0 0,0 19,12A2,2 0 0,0 17,10C16.82,10 16.65,10 16.5,10.07L13.93,7.5C14.19,6.57 13.71,5.55 12.78,5.16C12.35,5 11.9,4.96 11.5,5.07L9.8,3.38L10.59,2.6C11.37,1.81 12.63,1.81 13.41,2.6L21.4,10.59C22.19,11.37 22.19,12.63 21.4,13.41L13.41,21.4C12.63,22.19 11.37,22.19 10.59,21.4L2.6,13.41C1.81,12.63 1.81,11.37 2.6,10.59Z"></path>
                 </svg>
             </div>
-            <span>Fork on Github</span></a></div>
+            <span>Fork on GitHub</span></a></div>
     </div>
 </section>
 <main class="--page --index">
@@ -120,6 +121,9 @@ title: Chart Studio Tutorials
                             <a href="#scientific" class="button no_underline">Specialized Charts</a>
                         </li>
                         <li class="--sidebar-item">
+                            <a href="#transforms" class="button no_underline">Transforms</a>
+                        </li>
+                        <li class="--sidebar-item">
                             <a href="#layout" class="button no_underline">Style & Layout</a>
                         </li>
                         <li class="--sidebar-item">
@@ -132,7 +136,6 @@ title: Chart Studio Tutorials
                             <a href="#analysis" class="button no_underline">Analysis</a>
                         <li class="--sidebar-item">
                             <a href="#dashboard" class="button no_underline">Dashboards</a>
-                        </li>
                         </li>
                     </ul>
                     <button class="--btn search">
@@ -150,7 +153,7 @@ title: Chart Studio Tutorials
                                       d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z"/>
                             </svg>
                         </div>
-                        <span><a href="/">Back to Plotly Help Center</a></span>
+                        <span><a href="/">Back to {{site.title}}</a></span>
                     </button>
                 </nav>
             </div>
@@ -179,7 +182,7 @@ title: Chart Studio Tutorials
             <section class="--tutorial-section algolia__search-content js-algolia__search-content">
                 <header class="--section-header">Search</header>
                 <section class="--grid">
-                    <ul class="--grid-list posts algolia__results" >
+                    <ul class="--grid-list posts algolia__results">
                     </ul>
                 </section>
             </section>
@@ -197,7 +200,7 @@ title: Chart Studio Tutorials
                 <section class="--grid">
                     <ul class="--grid-list">
 
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'fundamentals' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li style="background-image: url(/images/default.png);" class="--grid-item">
@@ -220,7 +223,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -237,7 +240,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'basic' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -263,7 +266,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -280,7 +283,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'statistical' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -312,7 +315,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -329,7 +332,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'maps' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -361,7 +364,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -378,7 +381,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'graph3d' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -410,7 +413,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -427,7 +430,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'financial' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -459,7 +462,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -476,7 +479,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'scientific' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -508,11 +511,57 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
             <!--End Specialized Charts Section-->
+            <!-- Start Transforms Section -->
+            <section class="--tutorial-section">
+                <header class="--section-header"><a href="#transforms" name="transforms" id="transforms">Transforms</a>
+                    <div class="icon copy" data-tooltip="Click to copy direct link.">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#000000"
+                                    d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"/>
+                        </svg>
+                    </div>
+                </header>
+                <section class="--grid">
+                    <ul class="--grid-list">
+                        {% for page in sorted %}
+                        {% if page.state == 'active' and page.tags contains 'transforms' %}
+                        {% if page.imageurl == "" or page.imageurl == nil %}
+                        <li class="--grid-item">
+                            <a href="{{page.permalink}}">
+
+                                <!--<a href="{{page.permalink}}">-->
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="/images/default.png" alt="{{page.title}}">
+                                </div>
+                            </a>
+
+                            {% else %}
+                        <li style="background-image: url({{page.imageurl}});" class="--grid-item">
+                            <a href="{{page.permalink}}">
+                                <div class="--item-meta"><span>{{page.title}}</span></div>
+                                <div class="--item-image">
+                                    <span>View Tutorial</span>
+                                    <img src="{{page.imageurl}}" alt="{{page.title}}">
+                                </div>
+                            </a>
+                            {% endif %}
+
+                        </li>
+
+
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </section>
+            </section>
+            <!--End Transoforms Section-->
             <!-- Start Layout Section -->
             <section class="--tutorial-section">
                 <header class="--section-header"><a href="#layout" name="layout" id="layout">Style & Layout</a>
@@ -525,7 +574,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'layout' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -557,7 +606,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -574,7 +623,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'subplot' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -606,7 +655,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -624,7 +673,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'textandlinks' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -656,7 +705,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -673,7 +722,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.tags contains 'analysis' or page.tags contains 'dataliteracy' or page.tags contains
                         'videos' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
@@ -700,7 +749,7 @@ title: Chart Studio Tutorials
 
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>
@@ -717,7 +766,7 @@ title: Chart Studio Tutorials
                 </header>
                 <section class="--grid">
                     <ul class="--grid-list">
-                        {% for page in sorted %}
+                        {%- for page in sorted -%}
                         {% if page.state == 'active' and page.tags contains 'dashboard' %}
                         {% if page.imageurl == "" or page.imageurl == nil %}
                         <li class="--grid-item">
@@ -742,7 +791,7 @@ title: Chart Studio Tutorials
                         </li>
 
                         {% endif %}
-                        {% endfor %}
+                        {%- endfor -%}
                     </ul>
                 </section>
             </section>

@@ -21,7 +21,7 @@ Whether you're trying to find the gravitational constant or to see [which profes
 This 4-step tutorial will show you how to make the graph below from a simple data table or spreadsheet.
 
 <div>
-    <a href="https://plot.ly/~cimar/37/" target="_blank" title="velocity (m/s) vs time (s)" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/37.png" alt="velocity (m/s) vs time (s)" style="max-width: 100%;width: 1015px;"  width="1015" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~cimar/37/" target="_blank" title="velocity (m/s) vs time (s)" style="display: block; text-align: center;"><img src="https://plot.ly/~cimar/37.png" alt="velocity (m/s) vs time (s)" style="max-width: 100%;width: 1015px;"  width="1015" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="cimar:37" src="https://plot.ly/embed.js" async></script>
 </div>
 

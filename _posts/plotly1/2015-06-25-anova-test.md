@@ -25,7 +25,7 @@ For each example, we begin by hypothesizing that there is no difference across t
 ### Start with plotting the data
 When we have continuous data, we can first plot the data and see whether we can see differences across the groups before we run the statistical test. We can also use the plots to visually inspect whether the data meets some assumptions made by ANOVA. The two assumptions that we can investigate visually are: i) that the variance within the groups are the same, and ii) that the data is normally distributed within the groups. We can use Chart Studio to make box plots and scatter plots to visualize our data. Let’s consider **Example 2** and two possibilities for what the data may have looked like if you collected data on the donation amounts from the ten individuals per campaign and made a scatter plot of this information:
 <div>
-    <a href="https://plot.ly/~corinne.riddell/77/" target="_blank" title="Data from two campaigns" style="display: block; text-align: center;"><img src="https://plot.ly/~corinne.riddell/77.png" alt="Data from two campaigns" style="max-width: 100%;width: 540px;"  width="540" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~corinne.riddell/77/" target="_blank" title="Data from two campaigns" style="display: block; text-align: center;"><img src="https://plot.ly/~corinne.riddell/77.png" alt="Data from two campaigns" style="max-width: 100%;width: 540px;"  width="540" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="corinne.riddell:77" src="https://plot.ly/embed.js" async></script>
 </div>
 

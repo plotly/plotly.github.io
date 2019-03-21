@@ -14,7 +14,7 @@ actioncall: make a scatter plot
 # How to Color Points of a Scatter Plot by a Third Column
 
 <div>
-    <a href="https://plot.ly/~Dreamshot/3251" target="_blank" title="Iris Plant Traits, by Type" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3251.png" alt="Iris Plant Traits, by Type" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~Dreamshot/3251" target="_blank" title="Iris Plant Traits, by Type" style="display: block; text-align: center;"><img src="https://plot.ly/~Dreamshot/3251.png" alt="Iris Plant Traits, by Type" style="max-width: 100%;width: 1154px;"  width="1154" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
     <script data-plotly="Dreamshot:3251" src="https://plot.ly/embed.js" async></script>
 </div>
 
