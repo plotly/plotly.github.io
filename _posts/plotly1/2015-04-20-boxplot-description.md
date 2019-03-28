@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial-single_layout
 title: Intro to Box Plots
 subtitle: What is a Box Plot?
 permalink: /what-is-a-box-plot/
@@ -35,25 +35,25 @@ Connect the lines you've drawn. This box plot is starting to look more boxy...
 
 Every box plot has lines at Q1, the median, and Q3. The other major feature of a box plot is its  **whiskers**, which can be drawn using a few different methods. Chart Studio offers three methods, which you can switch between under Style &rarr; Show Points.
 
-##### Whiskers With All Points Visible
+##### Whiskers with all Points Visible
 
 To draw the whiskers when all points are displayed, Chart Studio first calculates the  **interquartile range (IQR)**, which is the distance between Q1 and Q3. Next, we look at a subset of the data, ranging between 1.5 &#215; IQR below Q1 and 1.5 &#215; IQR above Q3 (anything outside of this range is called an  **outlier**). We then draw lines at the smallest and largest point within this subset. These lines define our whiskers.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig4b.jpg" id = "boxplotfig4" width = "588.4" height = "197.99">
 
-##### Whiskers With Only Outliers Visible
+##### Whiskers with Only Outliers Visible
 
 If you ask Chart Studio to only display outliers, the whiskers remain in the same spot, but only the outlier points are drawn. This is a common view for box plots. In the example below, even though most of the points aren't drawn, we still know quite a bit about this data set. How might you describe it, just from the box, whiskers, and outliers? Often this display gives us all the information we need, and showing every single point would be distracting.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig5a.jpg" id = "boxplotfig5" width = "538.19" height = "145.73">
 
-##### Whiskers with No Points Visible
+##### Whiskers with no Points Visible
 
 You can also show no data points at all on a box plot. In this case, the whiskers are drawn differently, but they're quite simple. Just draw one whisker at the smallest data point, and another and the largest.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig6.jpg" id = "boxplotfig6" width = "504.52" height = "145.72">
 
-#### Other Box plot Features
+#### Other Box Plot Features
 
 ##### Too Many Points: Jitter
 

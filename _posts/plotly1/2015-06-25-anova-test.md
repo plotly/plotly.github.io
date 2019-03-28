@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial-single_layout
 title: ANOVA Test
 subtitle: A Step by Step Guide to ANOVA
 permalink: /anova-test/
@@ -7,13 +7,10 @@ imageurl:
 state:
 tags: analysis
 order: 6
-meta_description: The ANOVA test is a hypothesis test that provides a quantitative method to compare means of three or more samples. Learn to use Chart Studio's ANOVA test.
+meta_description: The ANOVA test is a hypothesis test that provides a quantitative method to compare means of three or more samples. Learn to use Chart Studio's ANOVA test. 
 actioncall: Make a Graph
 ---
-
-# The One-way ANOVA Test
-
-### When do you use one-way ANOVA?
+### When Do You Use One-way ANOVA?
 ANOVA stands for the “analysis of variance”. One-way ANOVA is a statistical test used to determine if there are differences between three or more groups on **one** continuous outcome of interest. For example:
 
 **Example 1.** You manufacture cement and are interested in whether different mixing techniques have different levels of resistance to breakage (called tensile strength). You are interested in three different mixing techniques and mix five batches of cement using each technique. You can measure the tensile strength for each batch and use this data to test if the average resistance varies across the three techniques.
@@ -22,7 +19,7 @@ ANOVA stands for the “analysis of variance”. One-way ANOVA is a statistical 
 
 For each example, we begin by hypothesizing that there is no difference across the groups in the outcome of interest (this is called our null hypothesis). For the first example, our null hypothesis is that the average tensile strength of the cement is the same for each of the three mixing techniques. In the second example, our null hypothesis is that, on average, sponsors will give the same amount of money independent of the donation campaign they were exposed to. Using one-way ANOVA, you will be able to say whether there is evidence in favour of the null hypothesis or against the null hypothesis.
 
-### Start with plotting the data
+### Plot Data
 When we have continuous data, we can first plot the data and see whether we can see differences across the groups before we run the statistical test. We can also use the plots to visually inspect whether the data meets some assumptions made by ANOVA. The two assumptions that we can investigate visually are: i) that the variance within the groups are the same, and ii) that the data is normally distributed within the groups. We can use Chart Studio to make box plots and scatter plots to visualize our data. Let’s consider **Example 2** and two possibilities for what the data may have looked like if you collected data on the donation amounts from the ten individuals per campaign and made a scatter plot of this information:
 <div>
     <a href="https://plot.ly/~corinne.riddell/77/" target="_blank" title="Data from two campaigns" style="display: block; text-align: center;"><img src="https://plot.ly/~corinne.riddell/77.png" alt="Data from two campaigns" style="max-width: 100%;width: 540px;"  width="540" onerror="this.onerror=null;this.src='https://plot.ly/404.png';"></a>
@@ -38,7 +35,7 @@ In the second plot (Scenario 2), the averages across the campaigns are very simi
 Sometimes, you might be convinced by graphing the data alone that there is a difference among the group means, such as with the data shown for Scenario 1. However, you can imagine an additional scenario in which the visualization isn’t so clear; there might be a difference between the means, but based on visualization alone it is difficult to gauge whether we think there is a difference or not. ANOVA is an objective tool used to say whether a difference exists or not.
 
 
-### Calculating the one-way ANOVA test statistic
+### Calculating the One-way ANOVA Test Statistic
 
 The one-way ANOVA test uses information about how far each group average is away from the overall average to quantify differences across the groups. The test statistic is a ratio of two numbers, where the numerator quantifies the amount of variability between group averages and the denominator quantifies the amount of varability within each group. A higher test statistic value implies that the numerator is large and that there is more variabiity between group averages which implies a difference in the average value across groups. Thus, the higher the value of the test statistic, the more evidence there is against the null hypothesis.
 
@@ -88,7 +85,7 @@ $$\text{Variance between the groups} =\frac{10 \times (100.20-117.77)^2 + 10 \ti
 
 For the denominator of the test statistic we take the squared difference between each individual donation value and the group-level average and divide this by \sum\limits_{g=1}^G(n_g-1):
 
-#### Calculating the denominator of the F-statistic for each individual:
+#### Calculating the Denominator of the F-statistic for each Individual:
 
 | Sponsor       |Campaign 1     |Campaign 2     |Campaign 3    |
 |:--------:| :-----------: |:-------------:| :-----:|
