@@ -9,7 +9,6 @@ $('document').ready(function() {
         callback: function(toggle, anchor) {} // Function to run after scrolling
     });
 
-
     var aChildren = $(".steps ul li").children(); // find the a children of the list items
     var aArray = []; // create the empty aArray
     for (var i = 0; i < aChildren.length; i++) {
@@ -47,16 +46,13 @@ $('document').ready(function() {
         }
     });
 
-
     $(window).scroll(function() {
         var length = $('main .wrap').position().top + $('main .wrap').outerHeight(true);
         var helpH = $('main .help-box').outerHeight(true);
         var tlt = $('main .tutorials-like-this').outerHeight(true);
         var bottom = (helpH + tlt)-11;
 
-
         length = length - 488;
-
 
         var scroll = $(this).scrollTop();
 
@@ -67,9 +63,7 @@ $('document').ready(function() {
         tlt = $('main .tutorials-like-this').outerHeight(true);
         bottom = (helpH + tlt);
 
-
         length = length - 488;
-
 
         scroll = $(this).scrollTop();
 

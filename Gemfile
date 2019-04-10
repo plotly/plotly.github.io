@@ -8,6 +8,6 @@ gem 'percy-cli'
 
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll'
-  gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
 end
