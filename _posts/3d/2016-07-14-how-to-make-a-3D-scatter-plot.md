@@ -1,7 +1,7 @@
 ---
 layout: tutorial-single_layout
 title: 3D Scatter Plots
-subtitle: Shows the relationship between three variables.
+subtitle: A type of scatter plot that shows the relationship between three variables.
 permalink: /make-a-3d-scatter-plot/
 redirect_from: /plotly1/make-a-3d-scatter-plot/
 imageurl: ../static/images/3D-scatter-plots/3D-scatter-thumbnail.png
