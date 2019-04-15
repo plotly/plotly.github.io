@@ -2,6 +2,7 @@
 layout: single
 title: An Introduction to Chart Studio Modebar
 subtitle: A Guide to the Options in the Chart Studio Modebar
+permalink: /getting-to-know-the-plotly-modebar/
 imageurl: /static/images/getting-to-know-the-plotly-modebar/icons-thumb.png
 state: active
 tags: fundamentals
