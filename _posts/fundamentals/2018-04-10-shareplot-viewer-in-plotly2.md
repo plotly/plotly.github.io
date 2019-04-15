@@ -43,7 +43,7 @@ steps:
     - copy: "Another way to get to your View Plot page is through the [Chart Studio Workspace](https://plot.ly/create)."
     - copy: "Click on your username on the top right-hand side and choose either the 'My Files' or 'Profile' menu from the drop-down."
       img: "![Workspace dropdown](../static/images/view-plot/chart-studio.png)"
-    - copy: "Both 'My Files' and 'Profile' pages are very similar, in the sense that you can see all the plots and grids that you've saved, but only *you* can view your 'Organize' page."
+    - copy: "Both 'My Files' and 'Profile' pages are very similar, in the sense that you can see all the plots and grids that you've saved." Please notice your profile will only display plots that are public or shared with the viewer(s), but only *you* can view your 'Organize' page, and yor private plots.
     - copy: "From either of these pages, you can follow the same steps as above. Just hover over the thumbnail of your choice and click on 'View'."
 
  - title: From the Chart Studio Feed
