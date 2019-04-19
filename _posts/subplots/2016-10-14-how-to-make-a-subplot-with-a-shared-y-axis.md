@@ -23,17 +23,17 @@ steps:
    sub-steps:
     - copy:  "This feature allows you to plot graphs that share the same y-axis."
 
- - title: Add Your Data to Chart Studio
+ - title: Add Data
    sub-steps:
     - copy: "The first step is to head to Chart Studio’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Chart Studio](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selecting specific traces easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/shared y import.png)"
 
- - title: Create a Plot
+ - title: Create Plot
    sub-steps:
     - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic)). We'll use the [bar chart](http://help.plot.ly/grouped-bar-chart/) for the first trace."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/shared y first trace.png)"
 
- - title: Select a Subplot
+ - title: Select Subplot
    sub-steps:
    - copy: "For the second trace, we'll click the blue '+Trace' button on the right-hand side of the panel, change the chart type to ['Scatter plot'](http://help.plot.ly/how-to-make-a-scatter-plot/), select our x and y values, then click on 'Subplot and Multiple Axes'."
      img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/shared y second trace.png)"
@@ -45,7 +45,7 @@ steps:
    - copy: "We'll label the x-axis for that last plot by double-clicking the area and typing it directly."
      img: "![Axis label](../static/images/graph-with-multiple-axes-with-excel/shared y axis label.png)"
 
- - title: Style a Plot
+ - title: Style Plot
    sub-steps:
     - copy: "We've styled this plot by playing with the [colors](http://help.plot.ly/style-your-plots/#step-3-traces), and adding [grid lines](http://help.plot.ly/style-your-plots/#step-6-axes). For more styling tips, consult [this](http://help.plot.ly/style-your-plots/) page."
       img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/shared y final.png)"
