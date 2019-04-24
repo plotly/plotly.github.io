@@ -5,7 +5,7 @@ subtitle: Basic Statistics
 permalink: /basic-statistics-mean-median-standard-deviation/
 redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png
-state: inactive
+state: active
 tags: analysis
 order: 10
 meta_description: Calculate and analyze basic statistics like the mean, median, variance and standard deviation online and for free with Chart Studio.
