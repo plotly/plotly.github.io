@@ -4,7 +4,7 @@ title: Quadratic fits
 permalink: /quadratic-fits/
 redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/quadratic-fits/quadratic-regression-with-equation.png
-state: active
+state: inactive
 tags: analysis
 order: 7
 meta_description: A tutorial on quadratic regression. Make graphs online and for free with Chart Studio

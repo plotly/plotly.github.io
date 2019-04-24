@@ -5,7 +5,7 @@ subtitle: A Step by Step Guide to the Chi-Square Test
 permalink: /chi-square-test/
 redirect_to: https://help.plot.ly/tutorials/
 imageurl: /static/images/chi-square/thum-chi-square.png
-state: active
+state: inactive
 tags: analysis
 order: 5
 meta_description: The chi-square test is a hypothesis test that provides a quantitative method to compare observed frequencies with expected frequencies. Learn to use Chart Studio's chi-square test.

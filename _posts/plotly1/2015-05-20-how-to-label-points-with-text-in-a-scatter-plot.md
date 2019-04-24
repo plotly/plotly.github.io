@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial-single_layout
 title: Label Points With Text in a Scatter Plot
 subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
 permalink: /plotly1/label-points-with-text-in-a-scatter-plot/
