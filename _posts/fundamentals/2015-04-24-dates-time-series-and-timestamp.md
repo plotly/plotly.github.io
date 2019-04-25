@@ -1,6 +1,6 @@
 ---
 layout: tutorial-single_layout
-title: Formatting Dates, Time Series and Timestamp
+title: Formatting Dates, Time Series and Timestamps
 subtitle: Dates and Times in Chart Studio
 permalink: /date-format-and-time-series/
 imageurl: ../static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
