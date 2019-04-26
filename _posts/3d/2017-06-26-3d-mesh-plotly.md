@@ -20,16 +20,21 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 1) Charts like this by Chart Studio users, 2) View tutorials on this chart type, and, 3) See a basic example."
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+
+    1) Charts like this by Chart Studio users
+    2) View tutorials on this chart type
+    3) See a basic example."
+
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
 
- - title: Add Your Data to Chart Studio
+ - title: Add Data
    sub-steps:
     - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering a URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 
- - title: Create a Chart
+ - title: Create Chart
    sub-steps:
     - copy: "After adding the data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose '3D Mesh' under '3D' chart type."
       img: "![Chart Type](../static/images/3D-mesh-plot/3D-mesh-chart-type.png)"
@@ -40,7 +45,7 @@ steps:
     - copy: "Now, that the 3d mesh has it's structure completed, you can now add the coloring options via the following attributes: 'Intensity', 'Facecolor' or 'Vertexcolor'. The attribute 'Intensity' sets the vertex intensity values, 'Facecolor' sets the color of each face and 'Vertex' sets the color of each vertex. In this example, the coloring is set via the attribute 'Intensity' using 'Y' axis values."
       img: "![Coloring Options](../static/images/3D-mesh-plot/3D-mesh-intensity.png)"
 
- - title: Style a Chart
+ - title: Style Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title, as well as change the layout background, margin color and font styles."
