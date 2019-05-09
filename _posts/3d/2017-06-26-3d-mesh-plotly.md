@@ -19,9 +19,14 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
+
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type, and
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+
+    1) Charts like this by Chart Studio users
+    2) View tutorials on this chart type
     3) See a basic example."
 
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."

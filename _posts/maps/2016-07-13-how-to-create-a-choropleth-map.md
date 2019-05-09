@@ -23,6 +23,8 @@ steps:
    sub-steps:
     - copy: "A choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region."
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+
     1) Charts like this by Plotly users
     2) View tutorials on this chart type
     3) See a basic example."
