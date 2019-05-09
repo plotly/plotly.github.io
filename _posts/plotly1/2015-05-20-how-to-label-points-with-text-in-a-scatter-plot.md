@@ -2,7 +2,7 @@
 layout: single
 title: Label Points With Text in a Scatter Plot
 subtitle: A Step-by-Step Guide to Labeling Points With Text in a Scatter Plot
-permalink: /label-points-with-text-in-a-scatter-plot/
+permalink: /plotly1/label-points-with-text-in-a-scatter-plot/
 redirect_to: https://help.plot.ly/label-points-with-text-in-a-scatter-plot/
 imageurl: /static/images/label-points-with-text/scatter-labeled-points.png
 state: active
