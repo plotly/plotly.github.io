@@ -50,7 +50,6 @@ steps:
    sub-steps:
     - copy: "Now you should see the Falcon interface (like below). Here, you can setup a connection to your databases. As you can see there are numerous databases available. For more specific guidance, visit the tutorial for your database or see [our full list](/database-connectors/), which includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
       img: "![Getting Connected](/static/images/falcon/personal/connections.png)"
-
  - title: Setup Scheduled Queries
    sub-steps:
     - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query/)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."
