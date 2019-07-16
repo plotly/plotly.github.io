@@ -40,9 +40,9 @@ steps:
 
  - title: Custom Format
    sub-steps:
-    - copy: "When you make a graph in Chart Studio with dates and times, the default labelling picks spacing that fits the graph. Here the dates is included year, month, and day, but Chart Studio displays month and year by default."
+    - copy: "When you make a graph in Chart Studio with dates and times, the default labelling picks spacing that fits the graph. Here the dates included year, month, and day, but Chart Studio displays month and year by default."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/dateFormat.png)"
-    - copy: "To customize date format, from 'Axes' under 'Style' menu choose 'Tick Labels' submenu. Next, select the axis you wish to modify, and then set 'advanced(d3-time-format)' for 'Label Format' attribute. A text box would be appeared for which you can choose a [custom time format](https://github.com/d3/d3-time-format/blob/v2.1.3/README.md#timeFormat)."
+    - copy: "To customize date format, from 'Axes' under 'Style' menu choose 'Tick Labels' submenu. Next, select the axis you wish to modify, and then set 'advanced(d3-time-format)' for 'Label Format' attribute. A text box will appear where you can enter a [custom time format](https://github.com/d3/d3-time-format/blob/v2.1.3/README.md#timeFormat)."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/time-format.png)"
     - copy: "In 'Label Format', '%b %Y' tells Chart Studio to display an abbreviated month and the year with century. One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
     - copy: "To change the number of values displayed on the time axis, use the 'Axes' under the 'Style' menu. Then from 'Tick Label' sub menu, pick a 'Max Number of Labels' of dates to display. Chart Studio automatically finds the greatest lower bound to be evenly spaced along the axis."
