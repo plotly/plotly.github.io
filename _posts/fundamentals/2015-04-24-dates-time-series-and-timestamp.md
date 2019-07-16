@@ -26,32 +26,29 @@ steps:
     - copy: "Chart Studio’s date format is 'yyyy-mm-dd HH:MM:SS.ssssss'. You can enter this format directly, or depending on your data entry method, use our parsers to convert for you."
     - copy: "For our API users, we have guides for time series in [MATLAB](https://plot.ly/matlab/time-series/), [Python](https://plot.ly/python/time-series/), and [R](https://plot.ly/r/time-series/). If you’re using Python, we accept 'datetime.date' and 'datetime.datetime' formats. For plotly.js, we support JavaScript Date objects. Using MATLAB, you can specify the date format directly so our parser knows what to do. In R, we support R’s classes Date, POSIXlt and POSIXct in our ggplot2 to Chart Studio conversion."
 
- - title: Entering dates and times in Chart Studio’s grid
+ - title: Entering Dates and Times in Chart Studio’s Grid
    sub-steps:
     - copy: "To enter dates directly in the grid, you’ll need to use the format: yyyy-mm-dd HH:MM:SS.ssssss. Note that the hour must be a number between 00 and 23, with hours 12 through 23 reserved for PM. Your entry must include the four-digit year."
       img: "![dateandtime](../static/images/dates-time-series-and-timestamp/dates and times.png)"
     - copy: "You can truncate the fractional seconds to any number of digits. All other truncations require you to keep entire fields. Here are a few common mistakes to avoid."
       img: "![fractional seconds](../static/images/dates-time-series-and-timestamp/fractional seconds.png)"
 
- - title: Importing files with dates and times
+ - title: Importing Files with Dates and Times
    sub-steps:
-    - copy: "Uploading a data set into the grid from your computer, Google Drive, or Dropbox? Chart Studio will parse the data for you into our native format so you’re ready to customize your graph."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/import-data-file.png)"
+    - copy: "[Uploading a data set](https://help.plot.ly/add-data-to-the-plotly-grid/#step-2-option-2-import-a-data-file) into the grid from your computer, or an online repository? Chart Studio will parse the data for you into our native format so you’re ready to customize your graph."
+      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/upload.png)"
 
- - title: Custom formats for your graph
+ - title: Custom Format
    sub-steps:
-    - copy: "When you make a graph in Chart Studio with dates and times, the default labelling picks spacing that fits the graph. Here our dates included both year and month, but as you can see, Chart Studio displays years on the x axis."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/ted-talks-visualized.png)"
-    - copy: "To customize, we select AXES in the toolbar. In the popover, select the axis you wish to modify."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/select-axis.png)"
-    - copy: "Select the Labels tab to reveal options for a Custom date format and Hover format. We use the time format [here](https://github.com/mbostock/d3/wiki/Time-Formatting) (see the table below for some of the most used examples). For example, in Custom date format, '%b %Y' tells Chart Studio to display an abbreviated month and the year with century. One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/axes-labels.png)"
-    - copy: "The Hover format, '%B %Y', tells Chart Studio to show the full month name and year with century when using the hover feature to explore the data."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/hover-format.png)"
-    - copy: "To change the number of values displayed on the time axis, use the Ticks tab in the AXES popover. Pick a 'Max #' of dates to display, and Chart Studio automatically finds the greatest lower bound to be evenly spaced along the axis."
-      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/axes-ticks.png)"
-    - copy: "If you don’t specify any Custom date format, Chart Studio will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis."
+    - copy: "When you make a graph in Chart Studio with dates and times, the default labelling picks spacing that fits the graph. Here the dates included year, month, and day, but Chart Studio displays month and year by default."
+      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/dateFormat.png)"
+    - copy: "To customize date format, from 'Axes' under 'Style' menu choose 'Tick Labels' submenu. Next, select the axis you wish to modify, and then set 'advanced(d3-time-format)' for 'Label Format' attribute. A text box will appear where you can enter a [custom time format](https://github.com/d3/d3-time-format/blob/v2.1.3/README.md#timeFormat)."
+      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/time-format.png)"
+    - copy: "In 'Label Format', '%b %Y' tells Chart Studio to display an abbreviated month and the year with century. One extra option: '%{n}f' allows you to show fractional seconds, where 'n' tells us the number of digits to include."
+    - copy: "To change the number of values displayed on the time axis, use the 'Axes' under the 'Style' menu. Then from 'Tick Label' sub menu, pick a 'Max Number of Labels' of dates to display. Chart Studio automatically finds the greatest lower bound to be evenly spaced along the axis."
+      img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/maxNumberOfLabels.png)"
+    - copy: "If you don’t specify any custom date format, Chart Studio will choose the format depending on your zoom level. As your viewer zooms in, new levels of detail will be included on the x axis."
       img: "![Date format and time series](../static/images/dates-time-series-and-timestamp/zoom-level.gif)"
     - copy: "Some common date and time formats are included in the table below."
-      img: "![Table](../static/images/dates-time-series-and-timestamp/format-table.png)"
+      img: "![Table](../static/images/dates-time-series-and-timestamp/timeSeriesFormat.png)"
 ---
