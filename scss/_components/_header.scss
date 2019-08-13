@@ -140,11 +140,11 @@ header {
           padding:$unit*2 $unit*4 !important;
           font-size:18px !important;
         }
-        
+
         }
-       
-        
-        
+
+
+
         li:not(.tablet) {
           @include tablet {
             display: none !important;
@@ -177,7 +177,7 @@ header {
           color: currentColor !important;
         }
       }
-      background-color: #fff;
+      background-color: #F1F5FB;
     }
     .\--wrap {
       display: flex;

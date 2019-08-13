@@ -596,7 +596,7 @@ header.header-main {
       text-decoration: none !important; }
   header.header-main.\--default, .header-large--wrap + header.header-main.\--default.affix {
     color: #626262 !important;
-    background-color: #fff; }
+    background-color: #F1F5FB; }
     header.header-main.\--default a:not(.button):link, header.header-main.\--default a:not(.button):visited, header.header-main.\--default a:not(.button):active {
       color: currentColor !important; }
   header.header-main .\--wrap {
@@ -3003,7 +3003,8 @@ ul.\--ref {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    color: #626262;
+    color: #506784;
+    font-size: 12pt;
     margin-top: 6vh;
     max-width: 580px;
     text-align: center; }
@@ -3013,17 +3014,17 @@ ul.\--ref {
     .page.\--home .hero .\--welcome h1 {
       width: 100%;
       font-size: 36pt;
+      color: #2a3f5f;
       font-family: "Asap", sans-serif;
+      font-weight: 350;
       margin: 0;
-      font-weight: 100;
-      color: #447bdc;
       padding-top: 10px;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      padding-bottom: 0; }
       @media (max-width: 584px) {
         .page.\--home .hero .\--welcome h1 {
           font-size: 3rem;
           padding: 10px 40px;
-          margin-bottom: 0;
           padding-bottom: 0; } }
     @media (max-width: 584px) {
       .page.\--home .hero .\--welcome p {
