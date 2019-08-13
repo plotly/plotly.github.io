@@ -140,7 +140,6 @@ h6 {
   margin-left: -80px;
   padding: 7px;
   width: 160px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   background-color: #000;
   background-color: rgba(51, 51, 51, 0.9);
@@ -367,7 +366,6 @@ body.no-scroll {
     float: right;
     padding: 5px;
     color: white;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
     margin-left: 10px;
     font-size: 0.85rem;
@@ -397,7 +395,6 @@ code::-webkit-scrollbar {
 
 code::-webkit-scrollbar-thumb {
   background: rgba(68, 123, 220, 0.8);
-  -webkit-border-radius: 0;
   border-radius: 0;
   width: 3px; }
 
@@ -409,7 +406,6 @@ code::-webkit-scrollbar-thumb {
 
 .\--sidebar-fixed::-webkit-scrollbar-thumb {
   background: rgba(68, 123, 220, 0.8);
-  -webkit-border-radius: 0;
   border-radius: 0;
   width: 3px; }
 
@@ -822,7 +818,6 @@ header.header-main {
         top: 0;
         border: 1px solid currentColor;
         opacity: 0.3;
-        -webkit-border-radius: 6px;
         border-radius: 6px; }
       header.header-main .\--wrap .button:hover {
         text-decoration: none;
@@ -1307,7 +1302,6 @@ aside.\--sidebar-container {
               margin-top: -9px;
               left: 20px;
               position: absolute;
-              -webkit-border-radius: 50%;
               border-radius: 50%;
               border: 1px solid #e7e7e7;
               border-color: #2391fe;
@@ -1473,7 +1467,6 @@ aside.\--sidebar-container {
             justify-content: center;
             background-color: white;
             border: 1px solid #e7e7e7;
-            -webkit-border-radius: 50%;
             border-radius: 50%;
             padding: 10px;
             -webkit-transition: 0.2s all ease-in-out;
@@ -2020,7 +2013,6 @@ ul.\--ref {
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   transition-property: transform,-webkit-transform;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
   background-color: #000; }
 
@@ -2967,6 +2959,10 @@ ul.\--ref {
 .page.\--home .hero {
   width: 100%;
   height: 45vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110% 110%;
+  background-image: url(https://plotly-tutorials.s3-us-west-1.amazonaws.com/assets/api/images/help-center-bg.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2986,27 +2982,8 @@ ul.\--ref {
   overflow: hidden; }
   @media (max-width: 584px) {
     .page.\--home .hero {
-      height: 100vh; } }
-  .page.\--home .hero .hero-bg {
-    height: 45vh;
-    left: 50% !important;
-    margin-left: -1200px;
-    top: -300px !important;
-    width: 2400px;
-    position: absolute;
-    z-index: 1; }
-    @media (max-width: 584px) {
-      .page.\--home .hero .hero-bg {
-        height: 100vh;
-        left: 50% !important;
-        margin-left: -1200px;
-        top: -169px !important;
-        width: 2400px;
-        position: absolute;
-        z-index: 1;
-        -webkit-transform: scale(0.65) !important;
-        -ms-transform: scale(0.65) !important;
-        transform: scale(0.65) !important; } }
+      height: 100vh;
+      background-size: cover; } }
   .page.\--home .hero .\--welcome {
     position: relative;
     z-index: 2;
@@ -3035,7 +3012,8 @@ ul.\--ref {
         margin-top: 110px; } }
     .page.\--home .hero .\--welcome h1 {
       width: 100%;
-      font-size: 5rem;
+      font-size: 36pt;
+      font-family: "Asap", sans-serif;
       margin: 0;
       font-weight: 100;
       color: #447bdc;
@@ -3051,7 +3029,9 @@ ul.\--ref {
       .page.\--home .hero .\--welcome p {
         padding: 0 40px; } }
     .page.\--home .hero .\--welcome span {
-      color: #c8c8c8;
+      color: #506784;
+      font-size: 14pt;
+      font-family: "Open Sans", sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px; }
 
@@ -3162,7 +3142,6 @@ ul.\--ref {
         justify-content: center;
         background-color: white;
         border: 1px solid #e7e7e7;
-        -webkit-border-radius: 50%;
         border-radius: 50%;
         padding: 10px;
         -webkit-transition: 0.2s all ease-in-out;
@@ -3279,7 +3258,6 @@ ul.\--ref {
       align-items: center;
       padding-bottom: 10px; }
       .\--tutorial-index .\--welcome .\--title .\--category-img {
-        -webkit-border-radius: 50%;
         border-radius: 50%;
         border: 1px solid #e7e7e7;
         padding: 15px;
@@ -3861,17 +3839,14 @@ body {
   display: block; }
   .\--tutorial-section.no-image .\--grid-list {
     -webkit-columns: 2;
-    -moz-columns: 2;
     columns: 2;
     border: 1px solid #e7e7e7;
     margin-top: 20px;
     -webkit-column-gap: 0;
-    -moz-column-gap: 0;
     column-gap: 0; }
     @media (max-width: 1023px) {
       .\--tutorial-section.no-image .\--grid-list {
         -webkit-columns: 1;
-        -moz-columns: 1;
         columns: 1; } }
   .\--tutorial-section.no-image .\--grid-item {
     background: white;
@@ -3880,7 +3855,6 @@ body {
     border: 0;
     -webkit-column-break-inside: avoid;
     /* Chrome, Safari */
-    page-break-inside: avoid;
     /* Theoretically FF 20+ */
     break-inside: avoid-column;
     /* IE 11 */
