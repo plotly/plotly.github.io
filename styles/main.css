@@ -743,7 +743,7 @@ header.header-main {
           -ms-flex-pack: center;
           justify-content: center; }
           header.header-main .\--wrap .\--nav-mobile ul li a {
-            width: 100%;
+            width: 50%;
             -webkit-align-self: stretch;
             -ms-flex-item-align: stretch;
             align-self: stretch;
@@ -808,7 +808,13 @@ header.header-main {
       letter-spacing: 0.5px;
       font-weight: 400;
       opacity: 0.8;
-      color: #447bdc; }
+      color: white !important;
+      background-color: #119dff !important;
+      border-radius: 5px; }
+      @media (max-width: 584px) {
+        header.header-main .\--wrap .button {
+          background-color: transparent;
+          color: #447bdc; } }
       header.header-main .\--wrap .button::before {
         content: '';
         position: absolute;

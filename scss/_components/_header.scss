@@ -346,7 +346,9 @@ header {
         letter-spacing: 0.5px;
         font-weight: 400;
         opacity: 0.8;
-        color: $blue;
+        color: white !important;
+        background-color: #119dff !important;
+        border-radius: 5px;
         &::before {
           content: '';
           position: absolute;
