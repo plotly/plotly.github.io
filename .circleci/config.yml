@@ -1,0 +1,46 @@
+version: 2
+jobs:
+  build:
+    branches:
+      ignore:
+        - gh-pages
+
+    docker:
+      # a packaged system that has the instructions for creating a running container.
+      - image: circleci/ruby:2.3.3
+
+    # actions that need to be taken to perform your job
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "SHA256:USaw9IC3qDmo5lTDeDE1ctu2VeLlrFbqhYZrPVJlw2U"
+            - "c0:90:93:c0:d1:79:9e:d6:14:2e:0f:30:77:1a:83:04"
+
+      # checks out the source code for a job over SSH
+      - checkout
+
+      - run:
+          name: install dependencies
+          command: bundle install --path vendor/bundle
+
+      - run:
+          name: deployment-help-repo
+          command: |
+            git config --global user.email "accounts@plot.ly"
+            git config --global user.name "Deployer"
+            bundle exec jekyll build
+            mkdir snapshots
+            cd _site
+            cp -r 'css' '../snapshots'
+            cp -r 'fonts' '../snapshots'
+            cp -r 'images' '../snapshots'
+            cp -r 'static' '../snapshots'
+            cp -r 'js' '../snapshots'
+            cp -r 'styles' '../snapshots'
+            cp -r 'stylesheets' '../snapshots'
+            cp 'index.html' '../snapshots'
+            cp --parents 'tutorials/index.html' '../snapshots'
+            cp --parents 'make-a-plot-from-excel/index.html' '../snapshots'
+            cd ..
+            percy snapshot snapshots --enable_javascript
+            rm -rf 'snapshots/'
