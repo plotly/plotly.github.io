@@ -743,7 +743,7 @@ header.header-main {
           -ms-flex-pack: center;
           justify-content: center; }
           header.header-main .\--wrap .\--nav-mobile ul li a {
-            width: 50%;
+            width: 100%;
             -webkit-align-self: stretch;
             -ms-flex-item-align: stretch;
             align-self: stretch;
@@ -811,10 +811,6 @@ header.header-main {
       color: white !important;
       background-color: #119dff !important;
       border-radius: 5px; }
-      @media (max-width: 584px) {
-        header.header-main .\--wrap .button {
-          background-color: transparent;
-          color: #447bdc; } }
       header.header-main .\--wrap .button::before {
         content: '';
         position: absolute;
@@ -872,6 +868,11 @@ header.header-main {
     margin: 0;
     padding: 0;
     margin-bottom: 10px; }
+    @media screen and (min-width: 1200px) {
+      .\--footer-main ul.\--footer-body {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; } }
   .\--footer-main .\--footer-column {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 20%;
@@ -879,6 +880,8 @@ header.header-main {
     flex: 1 1 20%;
     padding: 10px;
     min-width: 125px; }
+    .\--footer-main .\--footer-column .social-icons-wrapper .social-icons a {
+      height: 40px; }
     @media (max-width: 1023px) {
       .\--footer-main .\--footer-column {
         -webkit-box-flex: 1;
@@ -986,12 +989,27 @@ header.header-main {
       display: inline-block;
       margin-left: 20px; }
 
-.mc-embedded-subscribe {
-  margin-top: 10px;
-  color: #fff;
+.subscribe-text {
+  -webkit-margin-before: 0em;
+  margin-block-start: 0em;
+  font-size: 80%;
+  color: #626262; }
+
+.subscribe-button {
+  text-decoration: none;
+  padding: 5px;
   background-color: #119dff;
-  -webkit-box-shadow: 0px 2px 8px rgba(80, 103, 132, 0.4);
-  box-shadow: 0px 2px 8px rgba(80, 103, 132, 0.4); }
+  color: white !important;
+  border-radius: 5px;
+  margin-top: 11px !important;
+  font-size: 13px; }
+
+.subscribe-button:hover {
+  text-decoration: none !important;
+  color: white !important; }
+
+.subscribe-button:focus {
+  text-decoration: none; }
 
 .\--page.\--index .\--wrap {
   position: relative; }
