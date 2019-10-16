@@ -23,17 +23,17 @@ steps:
    sub-steps:
     - copy: "This feature allows you to add an inset plot to a main plot. This is great if you'd like to display related data, or highlight a portion of the main plot."
 
- - title: Add Your Data to Chart Studio
+ - title: Add Data
    sub-steps:
     - copy: "The first step is to head to Chart Studio’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Chart Studio](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selections for a specific trace easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/inset import.png)"
 
- - title: Create a Plot
+ - title: Create Plot
    sub-steps:
     - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic)))."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/inset values.png)"
 
- - title: Select a Subplot
+ - title: Select Subplot
    sub-steps:
     - copy: "We need two traces in our main plot, so we'll repeat the above steps by clicking the blue '+Trace' button on the right-hand side of the panel to add the second trace."
       img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/inset second trace.png)"
@@ -47,7 +47,7 @@ steps:
       img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)"
     - copy: "You can also add more than one inset. Just add another trace, click on the 'Subplot and Multiple Axes', and select the same 'Inset' arrangement. It's not necessary for our plot, so now we'll get to the fun part."
 
- - title: Style a Plot
+ - title: Style Plot
    sub-steps:
     - copy: "We've styled this plot quite a bit, which includes [adding lines](http://help.plot.ly/style-your-plots/#step-6-axes) around both plots, customizing our [tick labels and markers](http://help.plot.ly/style-your-plots/#step-6-axes), and playing with [colors and typefaces](http://help.plot.ly/style-your-plots/#step-3-traces)."
       img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/inset final plot.png)"

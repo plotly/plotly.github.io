@@ -1,7 +1,6 @@
 ---
 layout: tutorial-single_layout
 title: 3D Line Charts
-subtitle: How to create a 3D Line Chart.
 permalink: /make-a-3d-line-plot/
 redirect_from: /make-a-3d-line-chart/
 imageurl: ../static/images/3D-line-chart/3d-line-thumbnail.png

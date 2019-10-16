@@ -23,17 +23,17 @@ steps:
    sub-steps:
     - copy:  "This second horizontal axis will be set on top on your graph, making it a cool feature to use when you have mixed types of data or varying ranges."
 
- - title: Add Your Data to Chart Studio
+ - title: Add Data
    sub-steps:
     - copy: "The first step is to head to Chart Studio’s new online [workspace](https://plot.ly/create) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/). It's also a good idea to name your columns beforehand (either by [adding your data](http://help.plot.ly/plotly1/add-data-to-the-plotly1-grid/#how-to-enter-data-in-the-grid) using [Chart Studio](https://plot.ly/plot), or naming them in the CSV or Excel file that you're uploading), and [label your axes](http://help.plot.ly/style-your-plots/#step-6-axes). This will make selecting specific traces easier."
       img: "![Import data](../static/images/graph-with-multiple-axes-with-excel/import stacked x.png)"
 
- - title: Create a Plot
+ - title: Create Plot
    sub-steps:
     - copy: "After adding your data, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the [chart type]((http://help.plot.ly/tutorials/#basic)). We'll use the [scatter plot](http://help.plot.ly/how-to-make-a-scatter-plot/) for this tutorial."
       img: "![Subplot Trace](../static/images/graph-with-multiple-axes-with-excel/stacked first trace.png)"
 
- - title: Select a Subplot
+ - title: Select Subplot
    sub-steps:
    - copy: "The next trace is where we'll introduce the multiple x-axes feature. We'll click the blue '+Trace' button on the right-hand side of the panel to add the second trace, select our x and y values, then click on 'Subplot and Multiple Axes'."
      img: "![Second trace](../static/images/graph-with-multiple-axes-with-excel/stacked second trace.png)"
@@ -44,7 +44,7 @@ steps:
    - copy: "If you select an arrangement and then change your mind, the 'Undo' button will cancel the last arrangement selection *only*. This is very important to remember."
      img: "![Undo button](../static/images/graph-with-multiple-axes-with-excel/general undo button.png)"
 
- - title: Style a Plot
+ - title: Style Plot
    sub-steps:
     - copy: "We've styled this plot by playing with the [colors](http://help.plot.ly/style-your-plots/#step-3-traces), adding [grid lines](http://help.plot.ly/style-your-plots/#step-6-axes) and adjusting the [margins](http://help.plot.ly/style-your-plots/#step-4-layout) of our plot. We also removed the x-axes labels since we don't need them anymore. For more styling tips, consult [this](http://help.plot.ly/style-your-plots/) page."
       img: "![Final plot](../static/images/graph-with-multiple-axes-with-excel/final stacked x.png)"

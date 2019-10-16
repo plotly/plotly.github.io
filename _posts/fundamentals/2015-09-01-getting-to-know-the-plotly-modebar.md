@@ -54,6 +54,7 @@ Clicking 'Compare data on hover' will show you the data for all points with the 
 
 ### 3D Charts
 
+the mode bar for 3D charts gives you additional options for controlling rotations and also lets you toggle between the default view, and your last saved view. | ![3D Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 The mode bar for 3D charts gives you additional options for controlling rotations and also lets you toggle between the default view, and your last saved view. | ![3D Buttons](/static/images/getting-to-know-the-plotly-modebar/3d-buttons.png)
 
 'Orbital Rotation' rotates the plot around its middle point in three-dimensional space. | ![Orbital Rotation](/static/images/getting-to-know-the-plotly-modebar/orbital-rotation.png)
