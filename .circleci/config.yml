@@ -16,12 +16,32 @@ jobs:
             - "SHA256:USaw9IC3qDmo5lTDeDE1ctu2VeLlrFbqhYZrPVJlw2U"
             - "c0:90:93:c0:d1:79:9e:d6:14:2e:0f:30:77:1a:83:04"
 
+      - restore_cache:
+          keys:
+            - source-v1- #one time, not every time!
+      
       # checks out the source code for a job over SSH
       - checkout
 
+      - save_cache:
+          key: source-v1-1 # Sept 7, 2019
+          paths:
+            - ".git"
+
+      - restore_cache:
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}
+            - gem-cache-v1
+            
       - run:
           name: install dependencies
           command: bundle install --path vendor/bundle
+    
+      - save_cache:
+          key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
 
       - run:
           name: deployment-help-repo
@@ -41,6 +61,19 @@ jobs:
             cp 'index.html' '../snapshots'
             cp --parents 'tutorials/index.html' '../snapshots'
             cp --parents 'make-a-plot-from-excel/index.html' '../snapshots'
+            cp --parents 'database-connectors/index.html' '../snapshots'
+            cp --parents 'make-a-line-and-scatter-plot/index.html' '../snapshots'
+            cp --parents 'make-a-histogram/index.html' '../snapshots'
+            cp --parents 'make-a-choropleth-map/index.html' '../snapshots'
+            cp --parents 'make-a-3d-line-plot/index.html' '../snapshots'
+            cp --parents 'make-a-candlestick/index.html' '../snapshots'
+            cp --parents 'ternary-filled-plot/index.html' '../snapshots'
+            cp --parents 'filter-data/index.html' '../snapshots'
+            cp --parents 'range-slider/index.html' '../snapshots'
+            cp --parents 'subplot-layouts/index.html' '../snapshots'
+            cp --parents 'adding-HTML-and-links-to-charts/index.html' '../snapshots'
+            cp --parents 'anova-test/index.html' '../snapshots'
+            cp --parents 'create-a-dashboard/index.html' '../snapshots'
             cd ..
             percy snapshot snapshots --enable_javascript
             rm -rf 'snapshots/'
