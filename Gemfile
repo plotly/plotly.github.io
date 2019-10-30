@@ -4,6 +4,7 @@ gem 'github-pages'
 
 gem 'jekyll'
 
+gem 'percy-cli'
 
 group :jekyll_plugins do
   gem 'algoliasearch-jekyll'

@@ -1,0 +1,72 @@
+version: 2
+jobs:
+  build:
+    branches:
+      ignore:
+        - gh-pages
+
+    docker:
+      # a packaged system that has the instructions for creating a running container.
+      - image: circleci/ruby:2.3.3
+
+    # actions that need to be taken to perform your job
+    steps:
+      - restore_cache:
+          keys:
+            - source-v1- #one time, not every time!
+      
+      # checks out the source code for a job over SSH
+      - checkout
+
+      - save_cache:
+          key: source-v1-1 # Sept 7, 2019
+          paths:
+            - ".git"
+
+      - restore_cache:
+          keys:
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - gem-cache-v1-{{ arch }}-{{ .Branch }}
+            - gem-cache-v1
+            
+      - run:
+          name: install dependencies
+          command: bundle install --path vendor/bundle
+    
+      - save_cache:
+          key: gem-cache-v1-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: deployment-help-repo
+          command: |
+            bundle exec jekyll build
+            mkdir snapshots
+            cd _site
+            cp -r 'css' '../snapshots'
+            cp -r 'fonts' '../snapshots'
+            cp -r 'images' '../snapshots'
+            cp -r 'static' '../snapshots'
+            cp -r 'js' '../snapshots'
+            cp -r 'styles' '../snapshots'
+            cp -r 'stylesheets' '../snapshots'
+            cp 'index.html' '../snapshots'
+            cp --parents 'tutorials/index.html' '../snapshots'
+            cp --parents 'make-a-plot-from-excel/index.html' '../snapshots'
+            cp --parents 'database-connectors/index.html' '../snapshots'
+            cp --parents 'make-a-line-and-scatter-plot/index.html' '../snapshots'
+            cp --parents 'make-a-histogram/index.html' '../snapshots'
+            cp --parents 'make-a-choropleth-map/index.html' '../snapshots'
+            cp --parents 'make-a-3d-line-plot/index.html' '../snapshots'
+            cp --parents 'make-a-candlestick/index.html' '../snapshots'
+            cp --parents 'ternary-filled-plot/index.html' '../snapshots'
+            cp --parents 'filter-data/index.html' '../snapshots'
+            cp --parents 'range-slider/index.html' '../snapshots'
+            cp --parents 'subplot-layouts/index.html' '../snapshots'
+            cp --parents 'adding-HTML-and-links-to-charts/index.html' '../snapshots'
+            cp --parents 'anova-test/index.html' '../snapshots'
+            cp --parents 'create-a-dashboard/index.html' '../snapshots'
+            cd ..
+            percy snapshot snapshots --enable_javascript
+            rm -rf 'snapshots/'

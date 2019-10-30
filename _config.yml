@@ -1,4 +1,4 @@
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 #  - algoliasearch-jekyll
@@ -15,6 +15,7 @@ exclude:
   - scss
   - node_modules
   - gulpfile.js
+  - vendor
 
 #
 #algolia:

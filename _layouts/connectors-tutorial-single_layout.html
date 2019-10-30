@@ -140,7 +140,7 @@
                           </div>
                         </div>
                         <div class="step--title">
-                            <h3 class="step--title-text js--step-anchor" id="step-{{ forloop.index }}-{{ step.title | slugify.pretty }}">{{ step.title }}</h3>
+                            <h3 class="step--title-text js--step-anchor" id="step-{{ forloop.index }}-{{ step.title | slugify: 'pretty' }}">{{ step.title }}</h3>
 
                             <div class="icon copy js--copy-id" data-tooltip="Click to copy direct link!">
                                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
