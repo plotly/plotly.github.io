@@ -41,8 +41,6 @@ jobs:
       - run:
           name: deployment-help-repo
           command: |
-            git config --global user.email "accounts@plot.ly"
-            git config --global user.name "Deployer"
             bundle exec jekyll build
             mkdir snapshots
             cd _site
