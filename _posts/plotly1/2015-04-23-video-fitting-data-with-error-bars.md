@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Video - Fitting Data With Error Bars
+layout: tutorial-single_layout
+title: Video - Fitting Data with Error Bars
 subtitle: How to Fit Data with Error Bars
 permalink: /fitting-data-with-error-bars-video/
 imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
@@ -11,7 +11,7 @@ meta_description: Learn to fit data with error bars in under two minutes. Chart 
 actioncall: Make a Chart with Error Bars
 ---
 
-# Fitting Data With Error Bars
+# Fitting Data with Error Bars
 
 To play with the graph shown in this video, see [Intensity (AU) vs Normalized wavelength (nm)](https://plot.ly/2505/~chris/).
 

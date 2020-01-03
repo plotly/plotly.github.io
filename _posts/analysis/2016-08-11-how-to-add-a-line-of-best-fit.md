@@ -24,16 +24,16 @@ steps:
    sub-steps:
     - copy: "A line of best fit, also called a trend line or linear regression, is a straight line drawn on a graph that best represents the data on a plot. This line passes through some of the points, all of the points, or none of the points. It can be used to make predictions or to show trends in data. It's a pretty cool feature to add to your plots, so let's get started!"
 
- - title: Add Your Data
+ - title: Add Data
    sub-steps:
     - copy: "The first step is to head to the Chart Studio [workspace](https://plot.ly/create/line-of-best-fit/) and [add your data](http://help.plot.ly/add-data-to-the-plotly-grid/)."
 
- - title: Create Your Plot
+ - title: Create Plot
    sub-steps:
     - copy: "After your data's been added, go to GRAPH on the left-hand side, then 'Create'. Choose your 'Chart type', and add your traces using the X and Y dropdown (this section is different depending on the chart type)."
     - copy: "Like the way we've styled this plot? For more styling tips, see [this](http://help.plot.ly/style-your-plots/) tutorial!"
 
- - title: Select Your Fit
+ - title: Select Fit
    sub-steps:
     - copy: "When you've finished plotting your data, visit the ANALYSIS section on the left-hand side of your workspace. Click on the blue '+ Analysis' button, then click on the dropdown menu and select 'Fit'."
       img: "![Analysis section](../static/images/line-of-best-fit/analysis-section.png)"

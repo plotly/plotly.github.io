@@ -21,6 +21,12 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
+
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
+    1) Charts like this by Chart Studio users
+    2) View tutorials on this chart type
+    3) See a basic example."
+
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
 
     1) Charts like this by Chart Studio users
@@ -31,7 +37,7 @@ steps:
       img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in Chart Studio."
 
- - title: Add Data 
+ - title: Add Data
    sub-steps:
     - copy: "Head to [Chart Studio](https://plot.ly/create/) and add your data. You have the option of typing directly in the grid, uploading your file, or entering the URL of an online dataset. Chart Studio accepts .xls, .xlsx, or .csv files. For more information on how to enter your data, see [this](https://help.plot.ly/add-data-to-the-plotly-grid/) tutorial."
 

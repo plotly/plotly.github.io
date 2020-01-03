@@ -21,6 +21,12 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
+
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options:
+    1) Charts like this by Chart Studio users
+    2) View tutorials on this chart type
+    3) See a basic example."
+    
     - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options: 
 
     1) Charts like this by Chart Studio users

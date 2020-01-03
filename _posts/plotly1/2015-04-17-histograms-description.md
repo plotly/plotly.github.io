@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial-single_layout
 title: Intro to Histograms
 subtitle: What is a histogram?
 permalink: /histogram/
@@ -11,9 +11,6 @@ meta_description: What is a histogram? When do you use a histogram? An interacti
 popularity: frontpage
 actioncall: Make a Histogram
 ---
-
-# Intro to Histograms
-
 ### What is a Histogram?
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -61,7 +58,7 @@ The animation above demonstrates what happens as our sample set of data grows: w
 While the shape of a histogram tells us quite a bit, frequency as a value on the y-axis is only useful in specialized cases. Changing the y axis values without changing the shape of the histogram is known as **normalizing** (not to be confused with Normal distributions!), and can be done in a few different ways.
 
 
-#### Probability distributions
+#### Probability Distributions
 
 
 While it might sometimes be interesting to know that 47 people received a SAT score between 1500 and 1550, it is often more useful to know <em>how likely</em> is it that a *random* person taking the SAT will receive a score between 1500 and 1550. In other words, we want to change our **frequency distribution** into a **discrete probability distribution**. In a discrete probability distribution, the bar heights all sum to probability of 1 (or 100%), as demonstrated below.
@@ -71,7 +68,7 @@ While it might sometimes be interesting to know that 47 people received a SAT sc
 
 It turns out converting from frequency to probability is very simple, we just divide each frequency by the total sample size (so a given bin with a frequency of 50 out of 200 total data points becomes a probability of 0.25, or 25% likely). Because we divide every bar by the same number, everything shrinks by the same proportion and the shape remains the same.
 
-#### Probability density distributions
+#### Probability Density Distributions
 
 We could also take each probability and divide it by the width of a bin, &#916;x, (again, not changing the overall shape) to convert our discrete probability distribution to a **probability density distribution**. These histograms are used to model **probability density functions**, which have the property that the area underneath the function between two values of x is equal to the probability that a given random variable (in our example, a random SAT test taker) will fall between those two values. That means that the Area under the whole histogram must equal 1 (since the probability of *any* value occurring is 1).
 
@@ -79,7 +76,7 @@ We could also take each probability and divide it by the width of a bin, &#916;x
 
 For a fixed data range, probability density functions are a good way to compare histograms of different sample sizes &mdash; as the sample size gets larger, the bins get thinner, so the heights stay comparable.
 
-#### Frequency density distributions
+#### Frequency Density Distributions
 
 
 Finally, frequency distributions can also be divided by bin width to give **frequency density distributions**. Instead of summing to 1, the areas of the bars will sum to the total number of data points in the sample.

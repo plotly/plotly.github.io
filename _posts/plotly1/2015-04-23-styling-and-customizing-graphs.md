@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tutorial-single_layout
 title: Video - Styling and Customizing Graphs
 subtitle: How to style and customize graphs
 permalink: /styling-and-customizing-graphs-video/

@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Video - Linear Regression or Lines of Best Fit
+layout: tutorial-single_layout
+title: Video - Linear Regression
 subtitle: How to create a line of best fit
 permalink: /lines-of-best-fit-video/
 imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
