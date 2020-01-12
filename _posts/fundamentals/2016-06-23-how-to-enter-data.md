@@ -37,7 +37,7 @@ steps:
 
  - title: Option 4 - Import Data via Falcon SQL Client
    sub-steps:
-    - copy: "You can import data by connecting to your SQL database through the [Falcon SQL client](https://plot.ly/free-sql-client-download/). To learn more about how to connect your databases to your chart via Falcon, check out [this](https://help.plot.ly/database-connectors/) section."
+    - copy: "You can import data by connecting to your SQL database through the [Falcon SQL client](https://help.plot.ly/database-connectors/personal-login/). To learn more about how to connect your databases to your chart via Falcon, check out [this](https://help.plot.ly/database-connectors/personal-login/) section."
       img: "![Import from SQL](../static/images/import-data/import_sql.png)"
 
  - title: Option 5 - Import Data from the Examples
