@@ -19,18 +19,20 @@ steps:
 
  - title: Get Started
    sub-steps:
-    - copy: "The Slide Deck Editor is a standalone desktop application that connects to your Chart Studio account. If you haven't already, download [Slide Deck Editor](https://plot.ly/online-presentation-tool/)."
-      img: "![Download Editor](../static/images/slide-decks/download.PNG)"
+    - copy: "The Slide Deck Editor is a standalone desktop application that connects to your Chart Studio account. If you haven't already, download Slide Deck Editor."
+    - copy: "[Download For Windows](https://images-plotly.imgix.net/spectacle-editor/Spectacle.Editor.Setup.0.1.4.exe){: .typeform-share}"
+    - copy: "[Download For Mac](https://github.com/plotly/spectacle-editor/releases/download/v0.1.6/Spectacle.Editor-0.1.6.dmg)"
 
  - title: Sign In
    sub-steps:
     - copy: "Once you have downloaded and installed the Slide Decks Editor, click 'SIGN IN TO PLOT.LY' situated in the top-right of the editor interface. In the pop-up modal enter your Chart Studio username and password."
       img: "![Sign In Modal](../static/images/slide-decks/sign-in.PNG)"
 
- - title: Use Templates
+ - title: Use A Template
    sub-steps:
-    - copy: "Navigating back to the Slide Deck Editor [landing page]](https://plot.ly/online-presentation-tool/), you can click to view or download business, science, or research styled templates. Alternatively, you can visit the dedicated template account - [Slide Template](https://plot.ly/~slide_templates/#/) - for more options"
-      img: "![Download Template](../static/images/slide-decks/download-template.PNG)"
+    - copy: "Plotly provides templates to help you start building your presentations. You view or download business, science, or research styled templates by visiting the dedicated template account - [Slide Template](https://plot.ly/~slide_templates/#/). To continue with this tutorial, downlaod the example template."
+    - copy: "[Download Template](https://plot.ly/~slide_templates/6.json)"
+    - copy: "[Preview Template](https://plot.ly/~slide_templates/6.embed#/?_k=18961w)"
     - copy: "After you click download, a JSON formatted file will be download to your local machine. Next, open the Slide Deck Editor application and click 'File', 'Open', and then select the downloaded JSON file. Now, you ought to see something like the below image."
       img: "![Downloaded Template](../static/images/slide-decks/downloaded-template.PNG)"
 

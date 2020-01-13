@@ -16,8 +16,9 @@ steps:
     - copy: "Falcon is a free, [open-source](https://github.com/plotly/plotly-database-connector/) SQL editor with inline data visualization. With Falcon you can connect to your database in the Connection tab, run SQL queries in the Query tab, then export your results as a CSV or open them in the [Chart Studio](https://plot.ly/create) to unlock the full power of Plotly graphs. Optionally, you can use Falcon as a middleman between plot.ly and your database - so that when your database updates, your charts and dashboards update as well. Currently, Falcon supports connections to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, and SQLite."
  - title: Download the App
    sub-steps:
-    - copy: "If you haven't yet, download Falcon SQL Client from the [Falcon product page](https://plot.ly/free-sql-client-download/) to get started! Upon clicking on the download button for either Mac or Windows distribution, a file should be added to your Downloads folder."
-      img: "![Download](/static/images/falcon/personal/download.png)"
+    - copy: "If you haven't yet, download Falcon SQL Client to get started! Upon clicking on the download link for either Mac or Windows distribution, a file should be added to your Downloads folder."
+    - copy: "[Download For Windows](https://github.com/plotly/falcon/releases/download/v4.1.0/win-falcon-v4.1.0.zip)"
+    - copy: "[Download For Mac](https://github.com/plotly/falcon/releases/download/v4.1.0/mac-falcon-v4.1.0.zip)"
  - title: Install Falcon (Windows)
    sub-steps:
     - copy: "Visit your Downloads folder and double click on the application executable to unzip."
