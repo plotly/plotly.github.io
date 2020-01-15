@@ -4,7 +4,6 @@
         {% include google-tag-head.html %}
         {% include drift-tag.html %}
 
-
     <script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
     <!-- META TAGS -->
     {% include seo.html %}
@@ -18,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/plotly_icons.css">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Inconsolata|Ubuntu+Mono:400,700"
           rel="stylesheet" type="text/css">
-
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://images.plot.ly/assets/css/normalize.css">
@@ -40,12 +38,10 @@
 <body data-spy="scroll" data-target=".watch" style="position:relative;">
         {% include google-tag-body.html %}
 
-
 <!--[if lt IE 10]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-
 
 <!-- Navigation -->
 {% include _new/_page-components/_header-main.html %}
@@ -150,7 +146,6 @@
                         </div>
                     </div>
 
-
                 {% for content in step.sub-steps %}
                 <p class="step--content">{{ content.copy | escape | markdownify }}</p>
                 {% if content.img %}
@@ -170,7 +165,6 @@
 {% include help-box.html %}
 
 {% include _new/_page-components/_footer-main.html %}
-
 
 <script src="//images.plot.ly/assets/js/ZeroClipboard.min.js"></script>
 <script src="/js/main.js"></script>
