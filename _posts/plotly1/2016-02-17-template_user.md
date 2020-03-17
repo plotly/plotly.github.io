@@ -27,10 +27,10 @@ My Chart Studio username is [chelsea_lyn](https://plot.ly/~chelsea_lyn/), howeve
 After creating the template account, log in and create the template, i.e. the graph you want to replicate.
 
 
-First, add some dummy data: | ![Dummy Data](/static/images/template/dummy-data.jpg)
+First, add some dummy data: | ![Dummy Data](https://plotly.github.io/static/images/template/dummy-data.jpg)
 
 
-Then created and edit the plot to create the desired template |  ![Template plot ](/static/images/template/template-plot.jpg)
+Then created and edit the plot to create the desired template |  ![Template plot ](https://plotly.github.io/static/images/template/template-plot.jpg)
 
 
 ### Create a Chart from your Template
@@ -38,19 +38,19 @@ Then created and edit the plot to create the desired template |  ![Template plot
 Now log out of your template account and log in to your original account.
 
 
-While logged in to your original Chart Studio account, navigate to your template account's profile and open the template you wish to copy. | ![](/static/images/template/step1.jpg)
+While logged in to your original Chart Studio account, navigate to your template account's profile and open the template you wish to copy. | ![](https://plotly.github.io/static/images/template/step1.jpg)
 
 
-After opening the plot, click the 'Copy & edit' button. | ![](/static/images/template/copy.jpg)
+After opening the plot, click the 'Copy & edit' button. | ![](https://plotly.github.io/static/images/template/copy.jpg)
 
 
-This will open the template plot in the workspace. Save the plot, then go to your [organize folder](https://plot.ly/organize/home) (via the My Charts button). | ![](/static/images/template/step2.jpg)
+This will open the template plot in the workspace. Save the plot, then go to your [organize folder](https://plot.ly/organize/home) (via the My Charts button). | ![](https://plotly.github.io/static/images/template/step2.jpg)
 
 
-In your [organize folder](https://plot.ly/organize/home), select and open the copied data grid and plot. | ![](/static/images/template/step3.jpg)
+In your [organize folder](https://plot.ly/organize/home), select and open the copied data grid and plot. | ![](https://plotly.github.io/static/images/template/step3.jpg)
 
 
-Update the data grid and save. Saving the data grid will automatically update the associated plot, but you must *refresh the browser* to see the changes. | ![](/static/images/template/step4.jpg)
+Update the data grid and save. Saving the data grid will automatically update the associated plot, but you must *refresh the browser* to see the changes. | ![](https://plotly.github.io/static/images/template/step4.jpg)
 
 
-Make any edits to your chart and save! You can copy & edit the template chart as many times as you'd like to create multiple graphs from your template with different data sets. | ![](/static/images/template/final.jpg)
+Make any edits to your chart and save! You can copy & edit the template chart as many times as you'd like to create multiple graphs from your template with different data sets. | ![](https://plotly.github.io/static/images/template/final.jpg)

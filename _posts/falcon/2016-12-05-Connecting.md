@@ -24,21 +24,21 @@ To enable HTTP connections, you may need to give your browser permission to conn
 ### Google Chrome
 
 Google Chrome will display a _Shield_ in the address bar.
-![Shield icon in Google Chrome](/static/images/database-connectors/connecting/chrome-shield-icon.png)
+![Shield icon in Google Chrome](https://plotly.github.io/static/images/database-connectors/connecting/chrome-shield-icon.png)
 
 Click on the _Shield_ and click "Load unsafe scripts". The page will refresh and you should be able to connect successfully.
-![Load unsafe scripts prompt in Google Chrome](/static/images/database-connectors/connecting/chrome-shield-prompt.png)
+![Load unsafe scripts prompt in Google Chrome](https://plotly.github.io/static/images/database-connectors/connecting/chrome-shield-prompt.png)
 
 
 ### Firefox
 Firefox will display a _Shield_ on the left of the address bar.
-![Shield icon in Firefox](/static/images/database-connectors/connecting/firefox-shield-icon.png)
+![Shield icon in Firefox](https://plotly.github.io/static/images/database-connectors/connecting/firefox-shield-icon.png)
 
 Click on the _Shield_ and click the Right hand arrow.
-![Firefox security shield prompt](/static/images/database-connectors/connecting/firefox-shield-prompt-1.png)
+![Firefox security shield prompt](https://plotly.github.io/static/images/database-connectors/connecting/firefox-shield-prompt-1.png)
 
 Follow the prompt and click "Disable protection for now". The browser will refresh and you should be able to connect.
-![Firefox security shield prompt displaying "Disable protection for now"](/static/images/database-connectors/connecting/firefox-shield-prompt-2.png)
+![Firefox security shield prompt displaying "Disable protection for now"](https://plotly.github.io/static/images/database-connectors/connecting/firefox-shield-prompt-2.png)
 
 ### Safari
 

@@ -18,19 +18,19 @@ steps:
  - title: Visit Plotly
    sub-steps:
     - copy: "If you are using Plotly's On-Premise service, you can access Plotly's platform at your Plotly base domain as it was set-up by your IT department; often it is of the form 'plotly.your-company-name.com'. We will use the latter domain throughout this tutorial. To start using Falcon as an on-premise user, visit 'plotly.your-company-name.com/create' and click on 'Import' in the top-right corner."
-      img: "![](/static/images/falcon/on-prem/import-data.png)"
+      img: "![](https://plotly.github.io/static/images/falcon/on-prem/import-data.png)"
  - title: Choose SQL Option
    sub-steps:
     - copy: "Click on the SQL tab of the dialog window."
-      img: "![](/static/images/falcon/on-prem/sql-tab.png)"
+      img: "![](https://plotly.github.io/static/images/falcon/on-prem/sql-tab.png)"
  - title: Visit Your On-Premise Connector
    sub-steps:
     - copy: "Click on the link to your on-premise connector which is configured to your company-name domain. Clicking on the link should bring you to 'plotly.your-company-name.com/external-data-connector'. In future, you may of course, visit the database connector directly at 'plotly.your-company-name.com/external-data-connector' without heading to 'plotly.your-company-name.com/create' first if you wish to add or modify your connections."
-      img: "![](/static/images/falcon/on-prem/connector-link.png)"
+      img: "![](https://plotly.github.io/static/images/falcon/on-prem/connector-link.png)"
  - title: Setup Connections to Your Databases
    sub-steps:
     - copy: "You can now setup connections to your databases. For more specific guidance, visit the tutorial for your database visit [our full list](/database-connectors/) that includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
-      img: "![](/static/images/falcon/on-prem/get-going.png)"
+      img: "![](https://plotly.github.io/static/images/falcon/on-prem/get-going.png)"
  - title: Additionnal Information
    sub-steps:
     - copy: "Falcon stores the credentials to your databases. When Falcon runs on your On-Premise account, these credentials only need to be saved to the connector by one user. All users of Plotly On-Premise will have access to the databases and datastores that get configured."

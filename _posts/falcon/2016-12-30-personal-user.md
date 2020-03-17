@@ -23,23 +23,23 @@ steps:
    sub-steps:
     - copy: "Visit your Downloads folder and double click on the application executable to unzip."
     - copy: "Next, double click on the application. Your application will start to install itself. Note that some security settings may require you to install the application as an Administrator (right click and choose the administrator option to do so). The installation process may take up to several minutes."
-      img: "![Installing windows](/static/images/falcon/personal/installing-windows.png)"
+      img: "![Installing windows](https://plotly.github.io/static/images/falcon/personal/installing-windows.png)"
     - copy: "Once installed, a desktop icon will be created on your desktop. Double click on it to open the application and you're ready to soar."
-      img: "![Desktop Windows](/static/images/falcon/personal/desktop-windows.png)"
+      img: "![Desktop Windows](https://plotly.github.io/static/images/falcon/personal/desktop-windows.png)"
  - title: Install Falcon (Mac)
    sub-steps:
     - copy: "Visit your Downloads folder, double click on the application installer DMG file."
-      img: "![downloading Mac](/static/images/falcon/personal/downloading-mac.png)"
+      img: "![downloading Mac](https://plotly.github.io/static/images/falcon/personal/downloading-mac.png)"
     - copy: "Drag the Falcon icon into the Applications folder when prompted."
-      img: "![Installing mac](/static/images/falcon/personal/installing-mac.png)"
+      img: "![Installing mac](https://plotly.github.io/static/images/falcon/personal/installing-mac.png)"
     - copy: "Once installed, a desktop icon will be created in your applications folder. Double click on it to open the application. Note that some security settings may require you to open the application as an Administrator (right click and choose the administrator option to do so)"
-      img: "![Desktop mac](/static/images/falcon/personal/desktop-mac.png)"
+      img: "![Desktop mac](https://plotly.github.io/static/images/falcon/personal/desktop-mac.png)"
  - title: Authorization
    sub-steps:
     - copy: "Now that the application is installed you can open it. Here, the connector app may automatically log you in with your Plotly credentials. If not, you will be prompted for your Plotly login credentials."
-      img: "![Plotly Creds](/static/images/falcon/personal/plotly-creds.png)"
+      img: "![Plotly Creds](https://plotly.github.io/static/images/falcon/personal/plotly-creds.png)"
     - copy: "Next, A new window will open asking for you to confirm authorization by clicking 'Authorize'"
-      img: "![Authorize](/static/images/falcon/personal/authorize.png)"
+      img: "![Authorize](https://plotly.github.io/static/images/falcon/personal/authorize.png)"
  - title: Automatic SSL
    sub-steps:
     - copy: "In version 2.0+, the app will now automatically generate an SSL. This may take *several minutes*!"
@@ -50,9 +50,9 @@ steps:
  - title: Setup a Connection to Your Databases
    sub-steps:
     - copy: "Now you should see the Falcon interface (like below). Here, you can setup a connection to your databases. As you can see there are numerous databases available. For more specific guidance, visit the tutorial for your database or see [our full list](/database-connectors/), which includes [MySQL](/database-connectors/mysql/), [MS SQL](/database-connectors/mssql/), [PostgreSQL](/database-connectors/postgres/), [MariaDB](/database-connectors/mariadb/), [Redshift](/database-connectors/redshift/), [Apache Drill and Parquet files](/database-connectors/apache-drill/), [S3](/database-connectors/s3/), [Elasticsearch](/database-connectors/elasticsearch/) or [request a new one](https://plotly.typeform.com/to/KUiCSl) if you do not see what you want."
-      img: "![Getting Connected](/static/images/falcon/personal/connections.png)"
+      img: "![Getting Connected](https://plotly.github.io/static/images/falcon/personal/connections.png)"
     - copy: "If you're unsure of how your credentials should be formatted, see an example by toggling 'Show Sample Credentials'."
-      img: "![Sample Credentials](/static/images/falcon/personal/sample-credentials.png)"
+      img: "![Sample Credentials](https://plotly.github.io/static/images/falcon/personal/sample-credentials.png)"
  - title: Setup Scheduled Queries
    sub-steps:
     - copy: "The Plotly Database Connector stores the credentials to your databases. It can also run queries on a schedule ([see tutorial](https://help.plot.ly/database-connectors/schedule-query/)). The Plotly Database Connector will save the results of the queries to user accounts in the Plotly On-Premise server through the [Plotly Grids API](https://api.plot.ly/v2)."

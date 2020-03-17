@@ -32,7 +32,7 @@ steps:
  - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv)"
-      img: "![Excel view](/static/images/area-charts-in-excel-with-plotly/excel-data.png)"
+      img: "![Excel view](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/excel-data.png)"
  - title: Head to Chart Studio
    sub-steps:
     - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
@@ -41,29 +41,29 @@ steps:
    sub-steps:
     - copy: "To make an area plot from a line plot, edit the 'Fill To' attribute in the MODE tab of the TRACES popover."
     - copy: "Here's how the TRACES popover for 'trace 0' looks. Notice 'Fill To' has been set to 'Y=0'."
-      img: "![Fill](/static/images/area-charts-in-excel-with-plotly/traces-popover-fill-to.png)"
+      img: "![Fill](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/traces-popover-fill-to.png)"
     - copy: "Here's how the TRACES popover for 'trace 1' looks. Notice 'Fill To' has been set to 'Next Y'."
-      img: "![ Set fill to](/static/images/area-charts-in-excel-with-plotly/fill-to-next-y.png)"
+      img: "![ Set fill to](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/fill-to-next-y.png)"
  - title: Optional styling to make your plot prettier
    sub-steps:
     - copy: "Nice! Now you have your area plot. If you want, you can change the colors and apply smoothing to the lines to get a chart that looks like one at the top of the tutorial."
     - copy: "Here's how your area chart looks before styling."
-      img: "![Chart before styling](/static/images/area-charts-in-excel-with-plotly/chart-before-styling.png)"
+      img: "![Chart before styling](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/chart-before-styling.png)"
     - copy: "Here's how the TRACES popover looks with smoothing and the change of colors."
-      img: "![Style Tab](/static/images/area-charts-in-excel-with-plotly/style-tab.png)"
+      img: "![Style Tab](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/style-tab.png)"
     - copy: "The smoothing button is highlighted in red."
-      img: "![Smoothing buttons highlighted](/static/images/area-charts-in-excel-with-plotly/smoothing-button-highlighted.png)"
+      img: "![Smoothing buttons highlighted](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/smoothing-button-highlighted.png)"
     - copy: "Here's how the AXES popover looks with the axes lines thickened and made white."
-      img: "![Axes popover lines tab](/static/images/area-charts-in-excel-with-plotly/axes-lines.png)"
+      img: "![Axes popover lines tab](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/axes-lines.png)"
     - copy: "Here's how the LAYOUT popover looks with the plot and margin background color changed to grey."
-      img: "![Background color](/static/images/area-charts-in-excel-with-plotly/layout-general.png)"
+      img: "![Background color](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/layout-general.png)"
  - title: Export & Share
    sub-steps:
     - copy: "Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](http://i.imgur.com/tIGzmyp.png)"
     - copy: "Your finished chart should look something like this:"
-      img: "![Finished](/static/images/area-charts-in-excel-with-plotly/finished-chart.png)"
+      img: "![Finished](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/finished-chart.png)"
     - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
-      img: "![Plot in Excel](/static/images/area-charts-in-excel-with-plotly/image-in-excel.png)"
+      img: "![Plot in Excel](https://plotly.github.io/static/images/area-charts-in-excel-with-plotly/image-in-excel.png)"
 
 ---

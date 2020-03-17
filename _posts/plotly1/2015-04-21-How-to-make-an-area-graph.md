@@ -23,21 +23,21 @@ Area plots are the same as scatter and line plots, but with different trace opti
 ### Step 1: Setting up the data in the grid
 
 
-This is how you would set up Chart Studio’s grid to make the graph above (you can grab the data [here](https://plot.ly/~Dreamshot/566)). Select **choose as X** for Column 1 and select **choose as Y** for both Columns 2 and 3, then click the blue plot button to create the chart. | ![LA vs NY population](/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
+This is how you would set up Chart Studio’s grid to make the graph above (you can grab the data [here](https://plot.ly/~Dreamshot/566)). Select **choose as X** for Column 1 and select **choose as Y** for both Columns 2 and 3, then click the blue plot button to create the chart. | ![LA vs NY population](https://plotly.github.io/static/images/How-to-make-an-area-graph/la-vs-ny-population.png)
 
 ### Step 2: Adding fill under traces
 
 To make an area plot from a line plot, edit the **Fill To** attribute in the Mode tab of the **TRACES** popover.
 
-Here’s how the **TRACES** popover for “trace 0” looks. Notice **Fill To** has been set to “Y=0”. | ![Trace 0 mode](/static/images/How-to-make-an-area-graph/trace-0-mode.png)
-Here’s how the **TRACES** popover for “trace 1” looks. Notice **Fill To** has been set to “Next Y”. | ![Trace 1 mode](/static/images/How-to-make-an-area-graph/trace-1-mode.png)
+Here’s how the **TRACES** popover for “trace 0” looks. Notice **Fill To** has been set to “Y=0”. | ![Trace 0 mode](https://plotly.github.io/static/images/How-to-make-an-area-graph/trace-0-mode.png)
+Here’s how the **TRACES** popover for “trace 1” looks. Notice **Fill To** has been set to “Next Y”. | ![Trace 1 mode](https://plotly.github.io/static/images/How-to-make-an-area-graph/trace-1-mode.png)
 
 ### Step 3: Optional styling to make your plot prettier
 
 Nice! Now you have your area plot. If you want, you can change the colors and apply smoothing to the lines to get a chart that looks like one at the top of the tutorial.
 
-Here’s how your area chart looks before styling. | ![Chart before styling](/static/images/How-to-make-an-area-graph/chart-before-styling.png)
-Here’s how the **TRACES** popover looks with smoothing and the change of colors. The smoothing button is highlighted in red. | ![Smoothing button highlighted](/static/images/How-to-make-an-area-graph/smoothing-button-highlighted.png) ![Trace 1 Style](/static/images/How-to-make-an-area-graph/trace-1-style.png)
-Here’s how the **AXES** popover looks with the axes lines thickened and made white. | ![All axes lines thickened](/static/images/How-to-make-an-area-graph/all-axes-lines-thickened.png)
-Here’s how the **LAYOUT** popover looks with the plot and margin background color changed to grey. |![Grey layout popover](/static/images/How-to-make-an-area-graph/grey-layout-popover.png)
-Your finished chart should look something like this. | ![Finished area graph](/static/images/How-to-make-an-area-graph/finished-area-graph.png)
+Here’s how your area chart looks before styling. | ![Chart before styling](https://plotly.github.io/static/images/How-to-make-an-area-graph/chart-before-styling.png)
+Here’s how the **TRACES** popover looks with smoothing and the change of colors. The smoothing button is highlighted in red. | ![Smoothing button highlighted](https://plotly.github.io/static/images/How-to-make-an-area-graph/smoothing-button-highlighted.png) ![Trace 1 Style](https://plotly.github.io/static/images/How-to-make-an-area-graph/trace-1-style.png)
+Here’s how the **AXES** popover looks with the axes lines thickened and made white. | ![All axes lines thickened](https://plotly.github.io/static/images/How-to-make-an-area-graph/all-axes-lines-thickened.png)
+Here’s how the **LAYOUT** popover looks with the plot and margin background color changed to grey. |![Grey layout popover](https://plotly.github.io/static/images/How-to-make-an-area-graph/grey-layout-popover.png)
+Your finished chart should look something like this. | ![Finished area graph](https://plotly.github.io/static/images/How-to-make-an-area-graph/finished-area-graph.png)

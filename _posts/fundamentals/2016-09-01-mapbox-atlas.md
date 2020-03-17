@@ -33,7 +33,7 @@ Once you have setup your Mapbox Atlas server to serve vector tiles, test the fol
 Note: depending on the instructions that your Mapbox representative has given you, the `light-v6` and the `cilo6dghg0008a2kqgq9dnsug.json` components of the Mapbox Atlas vector tile may differ.
 
 A JSON file should load:
-![Mapbox Atlas JSON File](/static/images/mapbox-atlas/atlas-json.png)
+![Mapbox Atlas JSON File](https://plotly.github.io/static/images/mapbox-atlas/atlas-json.png)
 
 ###### Step 3. Configure the Mapbox Atlas Settings of Chart Studio On-Premise
 
@@ -41,7 +41,7 @@ Navigate to your On-Premise settings at your-plotly-domain:8800/settings and scr
 
 Enter "ATLAS" as the Mapbox Default Access Token and the URL `https://your-atlas-domain:2999/pages/light-v6/cilo6dghg0008a2kqgq9dnsug.json` as the Mapbox Atlas Default Style URL.
 
-![Mapbox Atlas Settings](/static/images/mapbox-atlas/mapbox-settings.png)
+![Mapbox Atlas Settings](https://plotly.github.io/static/images/mapbox-atlas/mapbox-settings.png)
 
 Save your settings and restart your server.
 
@@ -51,11 +51,11 @@ Visit the plotly chart creator at https://your-plotly-domain.com/create.
 
 Select a "Satellite" map.
 
-![Satellite Maps Chart Option](/static/images/mapbox-atlas/satellite-maps-chart-option.png)
+![Satellite Maps Chart Option](https://plotly.github.io/static/images/mapbox-atlas/satellite-maps-chart-option.png)
 
 The Mapbox Atlas URL that you configured should appear.
 
-![Mapbox Atlas URL in the Chart Studio Chart Editor](/static/images/mapbox-atlas/mapbox-atlas-style-url.png)
+![Mapbox Atlas URL in the Chart Studio Chart Editor](https://plotly.github.io/static/images/mapbox-atlas/mapbox-atlas-style-url.png)
 
 Click on the Load Style button.
 
@@ -63,12 +63,12 @@ Note: If your Mapbox Atlas server is running on HTTP but your Chart Studio On-Pr
 is running on HTTPS, then the browser will initially block the request.
 You'll need to click on the Shield icon in the browser's address bar to allow HTTP requests. The web page will reload.
 
-![Load mixed requests from Mapbox Atlas](/static/images/mapbox-atlas/load-unsafe-scripts.png)
+![Load mixed requests from Mapbox Atlas](https://plotly.github.io/static/images/mapbox-atlas/load-unsafe-scripts.png)
 
 Once your style has successfully loaded, you'll see a map like this:
 
-![Load mixed requests from Mapbox Atlas](/static/images/mapbox-atlas/plotly-chart-editor-with-a-mapbox-atlas-chart.png)
+![Load mixed requests from Mapbox Atlas](https://plotly.github.io/static/images/mapbox-atlas/plotly-chart-editor-with-a-mapbox-atlas-chart.png)
 
 Enter some data, select a latitude and longitude column and make your first chart.
 
-![Load mixed requests from Mapbox Atlas](/static/images/mapbox-atlas/plotly-mapbox-chart.png)
+![Load mixed requests from Mapbox Atlas](https://plotly.github.io/static/images/mapbox-atlas/plotly-mapbox-chart.png)

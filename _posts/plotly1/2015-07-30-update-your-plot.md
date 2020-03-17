@@ -25,9 +25,9 @@ Need help making your graph? Check out our other [tutorials](http://help.plot.ly
 
 Do you need to modify your dataset? You can update an existing graph as your data changes.
 
-1) Create your initial dataset and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an Excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](/static/images/update-your-plot/new-grid.png)
+1) Create your initial dataset and make a new plot, then save the plot. If you uploaded your dataset from a file, the grid will have the same name as the file that you uploaded. For example, if you uploaded an Excel file named 'my-data.xlsx', your grid will be named 'my-data'. Saving the plot will automatically save a grid with the same name but with " Grid" appended to the filename.  Close the plot. | ![New grid](https://plotly.github.io/static/images/update-your-plot/new-grid.png)
 
-2) Click on **Organize**, open and edit your newly saved grid, then click **Save** again. | ![New grid](/static/images/update-your-plot/open-grid.png)
+2) Click on **Organize**, open and edit your newly saved grid, then click **Save** again. | ![New grid](https://plotly.github.io/static/images/update-your-plot/open-grid.png)
 
 3) When you reopen your plot you will notice that it has been
 automatically updated with the new modifications.
@@ -36,8 +36,8 @@ automatically updated with the new modifications.
 
 You can update data in a plot by using **Insert Into**. Do this only if you want to add a new trace to a graph, from either the same grid or a new one.
 
-1) Navigate to the grid in question in the **Workspace** and select the drop-down next to **Make a new plot**.  | ![Workspace](/static/images/update-your-plot/workspace.png)
+1) Navigate to the grid in question in the **Workspace** and select the drop-down next to **Make a new plot**.  | ![Workspace](https://plotly.github.io/static/images/update-your-plot/workspace.png)
 
-2) Select the plot you want to update (note: only open tabs will be shown in the menu so you may have to open the graph you want to update).  | ![Insert data into plot](/static/images/update-your-plot/insert-into.png)
+2) Select the plot you want to update (note: only open tabs will be shown in the menu so you may have to open the graph you want to update).  | ![Insert data into plot](https://plotly.github.io/static/images/update-your-plot/insert-into.png)
 
-You can open multiple grids by selecting multiple files and clicking the **Open** Action above. Data from these grids can then be inserted into any open plot. | ![Open multiple grids](/static/images/update-your-plot/open-multiple-grids.png)
+You can open multiple grids by selecting multiple files and clicking the **Open** Action above. Data from these grids can then be inserted into any open plot. | ![Open multiple grids](https://plotly.github.io/static/images/update-your-plot/open-multiple-grids.png)

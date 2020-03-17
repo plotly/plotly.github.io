@@ -31,10 +31,10 @@ Here's how you can use Chart Studio to calculate the chi-squared statistic and p
 
 ### Step 1: Set up the grid
 
-We've already entered the [coin flip data into Chart Studio](https://plot.ly/3210/~mariahh/). Click the link to open the data in your workspace. | ![Coin flip data in the Chart Studio grid.](/static/images/chi-square/coin-flip-data.png)
+We've already entered the [coin flip data into Chart Studio](https://plot.ly/3210/~mariahh/). Click the link to open the data in your workspace. | ![Coin flip data in the Chart Studio grid.](https://plotly.github.io/static/images/chi-square/coin-flip-data.png)
 
 ### Step 2: Chi-squared test
 
-Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Choose chi-squared test from the ANALYSIS menu.](/static/images/chi-square/pick-chi-square-test-coin-flip.png)
-Select **choose as obs** in the column labeled "Observed", and **choose as exp** in the column labeled "Expected". Click on the blue **Perform Chi-squared Test** button in the sidebar. | ![Choose columns and run chi-squared test](/static/images/chi-square/run-coin-toss-chi-square.png)
-Chart Studio puts the results in the first two columns to the right of our data. In this case, the chi-squared statistic is 2.56, and the P-value is 0.1096. By convention, because 0.1096 is greater than 0.05, we decide that the difference is not statistically significant. In other words, even though we didn't observe exactly 50 heads and 50 tails in our coin toss, the distribution that we did see is likely due to chance. | ![Results of chi-squared test.](/static/images/chi-square/chi-square-test-results.png)
+Once the data has opened in your workspace, select <strong>Chi-squared test</strong> from the ANALYSIS menu. | ![Choose chi-squared test from the ANALYSIS menu.](https://plotly.github.io/static/images/chi-square/pick-chi-square-test-coin-flip.png)
+Select **choose as obs** in the column labeled "Observed", and **choose as exp** in the column labeled "Expected". Click on the blue **Perform Chi-squared Test** button in the sidebar. | ![Choose columns and run chi-squared test](https://plotly.github.io/static/images/chi-square/run-coin-toss-chi-square.png)
+Chart Studio puts the results in the first two columns to the right of our data. In this case, the chi-squared statistic is 2.56, and the P-value is 0.1096. By convention, because 0.1096 is greater than 0.05, we decide that the difference is not statistically significant. In other words, even though we didn't observe exactly 50 heads and 50 tails in our coin toss, the distribution that we did see is likely due to chance. | ![Results of chi-squared test.](https://plotly.github.io/static/images/chi-square/chi-square-test-results.png)
