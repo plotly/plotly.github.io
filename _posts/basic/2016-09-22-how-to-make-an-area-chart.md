@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Area Charts
 subtitle: A line chart that displays quantitative data using colored areas between the axis and line(s)
 permalink: /make-an-area-graph/
-imageurl: ../static/images/area-chart/area chart thumb.png
+imageurl:  https://plotly.github.io/static/images/area-chart/area chart thumb.png
 state: active
 tags: basic
 order: 9
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

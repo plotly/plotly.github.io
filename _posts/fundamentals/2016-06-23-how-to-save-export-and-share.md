@@ -4,7 +4,7 @@ title: How to Save, Export, and Share in Chart Studio
 subtitle: How to save your work and share it.
 permalink: /save-share-and-export-in-plotly/
 redirect_from: /how-to-share-and-print-plotly-graphs/
-imageurl: ../static/images/how-to-save-export-and-share/save-thumb.png
+imageurl:  https://plotly.github.io/static/images/how-to-save-export-and-share/save-thumb.png
 state: active
 tags: fundamentals
 order: 4

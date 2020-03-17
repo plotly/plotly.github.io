@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  How to Add a Webpage to a Dashboard
 subtitle: Adding a webpage to a dashboard using the Chart Studio dashboard tool
 permalink: /add-a-webpage/
-imageurl: ../static/images/dashboards/webpage thumb.png
+imageurl:  https://plotly.github.io/static/images/dashboards/webpage thumb.png
 state: active
 tags: dashboard
 order: 4

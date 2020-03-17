@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Create Charts Using Excel Data
 subtitle: How to make a plot from Excel in Chart Studio
 permalink: /make-a-plot-from-excel/
-imageurl: ../static/images/excel-doc/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/excel-doc/thumbnail.png
 state: active
 tags: fundamentals
 order: 2.5

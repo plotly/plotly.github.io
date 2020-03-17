@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Style Your Plots in Chart Studio
 subtitle: How to style your plots.
 permalink: /style-your-plots/
-imageurl: ../static/images/styling-and-customizing-graphs/style-your-plots.png
+imageurl:  https://plotly.github.io/static/images/styling-and-customizing-graphs/style-your-plots.png
 state: active
 tags: layout
 order: 1

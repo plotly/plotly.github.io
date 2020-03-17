@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  Slide Decks
 subtitle: How to create slide decks with Chart Studio's drag-and-drop editor
 permalink: /slide-decks/
-imageurl: ../static/images/slide-decks/slide-decks.PNG
+imageurl:  https://plotly.github.io/static/images/slide-decks/slide-decks.PNG
 state: active
 tags: dashboard
 order: 6

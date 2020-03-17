@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Stacked Bar Charts
 subtitle: A bar chart with segments to break down and compare different parts within each bar's data group.
 permalink: /stacked-bar-chart/
-imageurl: ../static/images/bar-graph/new stacked thumb.png
+imageurl:  https://plotly.github.io/static/images/bar-graph/new stacked thumb.png
 state: active
 tags: basic
 order: 5
@@ -20,7 +20,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

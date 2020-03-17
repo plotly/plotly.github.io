@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Animations in Chart Studio
 subtitle: Create Animations in Chart Studio
 permalink: /create-animations/
-imageurl: ../static/images/create-animations/animations.png
+imageurl:  https://plotly.github.io/static/images/create-animations/animations.png
 state: active
 tags: animations
 order: 1

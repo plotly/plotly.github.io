@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: LaTeX Basics with Chart Studio
 subtitle: A Step by Step Guide to LaTeX Basics with Chart Studio
 permalink: /LaTeX-basics/
-imageurl: ../static/images/LaTeX-basics/thum-LaTeX-basics.png
+imageurl:  https://plotly.github.io/static/images/LaTeX-basics/thum-LaTeX-basics.png
 state: active
 tags: layout
 order: 5

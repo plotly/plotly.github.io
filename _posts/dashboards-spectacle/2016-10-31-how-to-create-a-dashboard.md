@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  How to Create Chart Studio Dashboards
 subtitle: Create dashboards using the Chart Studio data visualization tool
 permalink: /create-a-dashboard/
-imageurl: ../static/images/dashboards/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/dashboards/thumbnail.png
 state: active
 tags: dashboard
 order: 1

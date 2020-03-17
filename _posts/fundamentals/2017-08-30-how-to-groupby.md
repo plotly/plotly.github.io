@@ -4,7 +4,7 @@ title: Split into groups
 subtitle: Split a single trace into multiple traces using categorical data in Chart Studio
 permalink: /split/
 redirect_from: /group-by/
-imageurl: ../static/images/split-groups/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/split-groups/thumbnail.png
 state: active
 tags: transforms
 order: 10.5

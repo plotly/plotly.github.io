@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  Chart Studio Dashboard Privacy
 subtitle: Dashboard privacy using the Chart Studio data visualization tool
 permalink: /dashboard-privacy/
-imageurl: ../static/images/dashboards/dashboard privacy thumb.png
+imageurl:  https://plotly.github.io/static/images/dashboards/dashboard privacy thumb.png
 state: active
 tags: dashboard
 order: 2.5

@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Scatter Ternary Plot
 subtitle: A type of plot that depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-scatter-plot/
-imageurl: ../static/images/ternary-scatter-plot/ternary-scatter-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/ternary-scatter-plot/ternary-scatter-thumbnail.png
 state: active
 tags: scientific
 meta_description: A tutorial on how to make a scatter ternary plot in Chart Studio.

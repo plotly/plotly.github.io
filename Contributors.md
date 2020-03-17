@@ -35,7 +35,7 @@ title: Box Plots in Plotly 2.0
 subtitle: A convenient way of graphically depicting groups of numerical data through their quartiles.
 meta_description: A tutorial on how to make a box plot in Plotly 2.0.
 permalink: /make-a-box-plot/
-imageurl: ../static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
+imageurl:  https://plotly.github.io/static/images/how-to-make-a-boxplot/thum-how-to-make-a-boxplot.png
 state: active
 tags: statistical
 order: 2.5
@@ -103,4 +103,4 @@ git push origin your_feature_branch
 ```
 Visit the [plotly.github.io repo](https://github.com/plotly/plotly.github.io) and open a pull request against `master`. You can then tag **@cldougl** and **@bcdunbar** for a review.
 
-Once you've merged your changes check them online.  
+Once you've merged your changes check them online.

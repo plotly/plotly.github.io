@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Make Subplots in Chart Studio
 subtitle: Create subplots using the Chart Studio data visualization tool
 permalink: /subplots/
-imageurl: ../static/images/graph-with-multiple-axes-with-excel/subplotthumbnail.png
+imageurl:  https://plotly.github.io/static/images/graph-with-multiple-axes-with-excel/subplotthumbnail.png
 state: active
 tags: subplot
 order: 1

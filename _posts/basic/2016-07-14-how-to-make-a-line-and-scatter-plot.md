@@ -4,7 +4,7 @@ title: Line and Scatter Plots
 subtitle: Create a plot with multiple traces.
 permalink: /make-a-line-and-scatter-plot/
 redirect_from: /plotly1/make-a-line-graph-and-scatter-plot/
-imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-line-thumb.png
+imageurl:  https://plotly.github.io/static/images/line-graph-and-scatter-plot-with-excel/scatter-line-thumb.png
 state: active
 tags: basic
 order: 3
@@ -23,7 +23,7 @@ steps:
  - title: Try an Example
    sub-steps:
     - copy: "If you want to make a chart with multiple line and scatter traces, this tutorial is for you!"
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

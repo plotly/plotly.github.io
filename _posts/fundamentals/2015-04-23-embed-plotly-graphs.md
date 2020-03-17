@@ -4,7 +4,7 @@ title: Embed Your Graphs
 subtitle: How to embed graphs in a Blog or Website
 permalink: /embed-graphs-in-websites/
 redirect_from: /how-to-embed-plotly-graphs-in-websites/
-imageurl: ../static/images/embed-plotly-graphs/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/embed-plotly-graphs/thumbnail.png
 state: active
 tags: fundamentals
 order: 6

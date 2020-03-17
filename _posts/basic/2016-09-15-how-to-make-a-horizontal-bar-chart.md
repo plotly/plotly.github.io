@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Horizontal Bar Charts
 subtitle: A type of bar chart that illustrates data with rectangular bars in a horizontal fashion.
 permalink: /horizontal-bar-chart/
-imageurl: ../static/images/bar-graph/horizontalbar-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/bar-graph/horizontalbar-thumbnail.png
 state: active
 tags: basic
 order: 6
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

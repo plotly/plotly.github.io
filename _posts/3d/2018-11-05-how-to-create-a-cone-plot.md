@@ -3,13 +3,13 @@ layout: tutorial-single_layout
 title: 3D Cone Plots
 subtitle: Use 3D cone plots to visualize vector fields in 3-dimensions.
 permalink: /make-a-cone-plot/
-imageurl: ../static/images/3d-cone-plot/3d-cone-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/3d-cone-plot/3d-cone-thumbnail.png
 state: active
 tags: graph3d
 order: 4
 meta_description: A tutorial on how to make a cone plot in Chart Studio.
 popularity: featured
-carouselimageurl: ../static/images/3d-cone-plot/3d-cone-thumbnail.png
+carouselimageurl:  https://plotly.github.io/static/images/3d-cone-plot/3d-cone-thumbnail.png
 actioncall: How to make 3D cone plots in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:395
 
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Plotly users
     2) View tutorials on this chart type

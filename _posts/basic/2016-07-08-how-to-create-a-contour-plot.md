@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Contour Plots
 subtitle: A plot that represents a 3D surface by plotting on a 2D grid.
 permalink: /make-a-contour-plot/
-imageurl: ../static/images/create-contour-plot/contour-thumb.png
+imageurl:  https://plotly.github.io/static/images/create-contour-plot/contour-thumb.png
 state: active
 tags: basic
 order: 11
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

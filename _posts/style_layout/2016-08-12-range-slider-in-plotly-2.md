@@ -4,7 +4,7 @@ title: How to Add a Range Slider
 subtitle: Learn to add a range slider and timescale buttons to a time-series chart using Plotly's Chart Studio.
 permalink: /range-slider/
 redirect_from: /make-a-time-series-graph/
-imageurl: ../static/images/range-slider/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/range-slider/thumbnail.png
 state: active
 tags: layout
 order: 4
@@ -59,7 +59,7 @@ steps:
       img: "![1Year button](../static/images/range-slider/range-slider-1year-button.png)"
     - copy: " If 'To Date' is chosen, the range update shifts the start of range back to the first timestamp from 'Count' times 'Step' back. For example, with 'Step' set to 'Year' and count set to 1, the range update shifts the start of the range back to January 01 of the current year of the most recent date."
       img: "![YTD button](../static/images/range-slider/range-slider-YTD-button.png)"
-    - copy: "Add more buttons by clicking the '+ Button' button." 
+    - copy: "Add more buttons by clicking the '+ Button' button."
       img: "![5and10 Years](../static/images/range-slider/range-slider-5and10yrs-button.png)"
     - copy: "For adding a 'Reset' button that resets the slider's range after you've clicked on a specific timescale button, set the 'Step' attribute to 'All' from the dropdown."
       img: "![Reset button](../static/images/range-slider/range-slider-reset-button.png)"

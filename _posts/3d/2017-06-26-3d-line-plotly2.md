@@ -4,7 +4,7 @@ title: 3D Line Charts
 subtitle: How to create a 3D Line Chart.
 permalink: /make-a-3d-line-plot/
 redirect_from: /make-a-3d-line-chart/
-imageurl: ../static/images/3D-line-chart/3d-line-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/3D-line-chart/3d-line-thumbnail.png
 state: active
 tags: graph3d
 order: 1.5
@@ -21,7 +21,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Plotly users
     2) View tutorials on this chart type

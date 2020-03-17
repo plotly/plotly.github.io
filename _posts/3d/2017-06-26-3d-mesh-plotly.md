@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: 3D Mesh Plot
 subtitle: How to create a 3D mesh plot.
 permalink: /make-a-3d-mesh-plot/
-imageurl: ../static/images/3D-mesh-plot/3d-mesh-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/3D-mesh-plot/3d-mesh-thumbnail.png
 state: active
 tags: graph3d
 order: 3
@@ -20,7 +20,7 @@ live-graph: <iframe width="900" height="800" frameborder="0" scrolling="no" src=
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

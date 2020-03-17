@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Scatter Plots
 subtitle: A type of plot that shows the relationship between two variables.
 permalink: /how-to-make-a-scatter-plot/
-imageurl: ../static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
+imageurl:  https://plotly.github.io/static/images/line-graph-and-scatter-plot-with-excel/scatter-thumb.png
 state: active
 tags: basic
 order: 1
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon, will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

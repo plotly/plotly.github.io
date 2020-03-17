@@ -4,7 +4,7 @@ title: Make a Line of Best Fit in Chart Studio
 subtitle: How to make a line of best fit in Chart Studio
 permalink: /make-a-line-of-best-fit/
 redirect_from: /plotly1/make-a-line-of-best-fit/
-imageurl: ../static/images/line-of-best-fit/best-fit-thumb.png
+imageurl:  https://plotly.github.io/static/images/line-of-best-fit/best-fit-thumb.png
 state: active
 tags: analysis
 order: 1

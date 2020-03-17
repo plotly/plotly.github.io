@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Filled Ternary Plot
 subtitle: A type of plot that depicts the ratio of 3 variables on a triangular grid.
 permalink: /ternary-filled-plot/
-imageurl: ../static/images/ternary-filled-plot/ternary-filled-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/ternary-filled-plot/ternary-filled-thumbnail.png
 state: active
 tags: scientific
 meta_description: A tutorial on how to make a filled ternary plot in Chart Studio.

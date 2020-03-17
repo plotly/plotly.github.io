@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title:  How to Create Chart Studio Dashboards with Crossfilter
 subtitle: Create dashboards with crossfilter functionality using the Chart Studio data visualization tool
 permalink: /dashboard-crossfilter/
-imageurl: ../static/images/crossfilter/crossfilter.gif
+imageurl:  https://plotly.github.io/static/images/crossfilter/crossfilter.gif
 state: active
 tags: dashboard
 order: 6

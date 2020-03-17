@@ -4,7 +4,7 @@ title: Heatmaps
 subtitle: A graphical representation of data where the individual values contained in a matrix are represented as colors.
 permalink: /make-a-heatmap/
 redirect_from: /plotly1/make-a-heatmap/
-imageurl: ../static/images/heat-map/new thumb.png
+imageurl:  https://plotly.github.io/static/images/heat-map/new thumb.png
 state: active
 tags: basic
 order: 10
@@ -22,7 +22,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Chart Studio users
     2) View tutorials on this chart type

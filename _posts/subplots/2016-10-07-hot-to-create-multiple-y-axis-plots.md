@@ -4,7 +4,7 @@ title: How to Make Multiple Y-Axes Plots in Chart Studio
 subtitle: Create a plot with multiple y-axes using the Chart Studio data visualization tool
 permalink: /multiple-y-axes/
 redirect_from: /make-a-graph-with-multiple-axes/
-imageurl: ../static/images/multiple-y-axes/multiple y thumb.png
+imageurl:  https://plotly.github.io/static/images/multiple-y-axes/multiple y thumb.png
 state: active
 tags: subplot
 order: 3

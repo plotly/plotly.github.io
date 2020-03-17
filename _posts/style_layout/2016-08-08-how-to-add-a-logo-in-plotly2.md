@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Add a Logo in Chart Studio
 subtitle: How to add a logo to your plots.
 permalink: /logos/
-imageurl: ../static/images/how-to-add-a-logo/logo-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/how-to-add-a-logo/logo-thumbnail.png
 state: active
 tags: layout
 order: 2

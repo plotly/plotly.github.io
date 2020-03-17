@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: 2D Histogram
 subtitle: A type of plot that visualizes a bivariate distribution.
 permalink: /make-a-2d-histogram-heatmap/
-imageurl: ../static/images/2d-histogram-plot/2d-hist-thumb.png
+imageurl:  https://plotly.github.io/static/images/2d-histogram-plot/2d-hist-thumb.png
 state: active
 tags: statistical
 order: 1.5

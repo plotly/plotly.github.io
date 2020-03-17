@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Apply Filters
 subtitle: Filter Data in Chart Studio
 permalink: /filter-data/
-imageurl: ../static/images/filters/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/filters/thumbnail.png
 state: active
 tags: transforms
 order: 10

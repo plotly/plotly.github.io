@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Candlestick Charts
 subtitle: A type of chart that describes the price movements of financial data over a certain period of time.
 permalink: /make-a-candlestick/
-imageurl: ../static/images/candlestick-chart/thumbnail.png
+imageurl:  https://plotly.github.io/static/images/candlestick-chart/thumbnail.png
 state: active
 tags: financial
 order: 3

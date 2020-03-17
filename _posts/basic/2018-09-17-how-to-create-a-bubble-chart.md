@@ -3,13 +3,13 @@ layout: tutorial-single_layout
 title: Bubble Charts
 subtitle: A type of scatter chart that displays three dimensions of data.
 permalink: /make-a-bubble-chart/
-imageurl: ../static/images/create-bubble-chart/bubble.jpg
+imageurl:  https://plotly.github.io/static/images/create-bubble-chart/bubble.jpg
 state: active
 tags: basic
 order: 7
 meta_description: A tutorial on how to make a bubble chart in Chart Studio.
 popularity: featured
-carouselimageurl: ../static/images/create-bubble-chart/bubble.jpg
+carouselimageurl:  https://plotly.github.io/static/images/create-bubble-chart/bubble.jpg
 actioncall: How to create a bubble chart in Chart Studio
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:397
 

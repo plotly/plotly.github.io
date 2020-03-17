@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Add Annotations in Chart Studio
 subtitle: How to add annotations to your plot.
 permalink: /how-to-add-annotations/
-imageurl: ../static/images/styling-and-customizing-graphs/notes-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/styling-and-customizing-graphs/notes-thumbnail.png
 state: active
 tags: layout
 order: 3

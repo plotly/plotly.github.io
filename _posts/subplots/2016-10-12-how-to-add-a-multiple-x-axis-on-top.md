@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Make Multiple X-Axes Plots in Chart Studio
 subtitle: Create a plot with multiple x-axes using the Chart Studio data visualization tool
 permalink: /multiple-x-axes/
-imageurl: ../static/images/graph-with-multiple-axes-with-excel/stackedxthumbnail.png
+imageurl:  https://plotly.github.io/static/images/graph-with-multiple-axes-with-excel/stackedxthumbnail.png
 state: active
 tags: subplot
 order: 4

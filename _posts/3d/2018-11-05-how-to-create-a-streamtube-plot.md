@@ -3,13 +3,13 @@ layout: tutorial-single_layout
 title: 3D Streamtube Plots
 subtitle: A streamtube is a tubular region surrounded by streamlines that form a closed loop. It's a continuous version of a streamtube plot (3D quiver plot) and can provide insight into flow data from natural systems.
 permalink: /make-a-streamtube-plot/
-imageurl: ../static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
 state: active
 tags: graph3d
 order: 4
 meta_description: A tutorial on how to make a streamtube in Chart Studio.
 popularity: featured
-carouselimageurl: ../static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
+carouselimageurl:  https://plotly.github.io/static/images/3d-streamtube-plot/3d-streamtube-thumbnail.png
 actioncall: How to make 3D streamtubes in Chart Studio.
 actioncall-url: https://plot.ly/create/?fid=plotly2_demo:428
 
@@ -21,7 +21,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Plotly users
     2) View tutorials on this chart type

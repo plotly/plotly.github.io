@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Shared X-Axis Subplots in Chart Studio
 subtitle: Shared X-Axis Subplots in Chart Studio
 permalink: /shared-x-axis-subplots/
-imageurl: ../static/images/shared-x-axis-subplots/shared-x-axis-subplots.png
+imageurl:  https://plotly.github.io/static/images/shared-x-axis-subplots/shared-x-axis-subplots.png
 state: active
 tags: subplots
 order: 5

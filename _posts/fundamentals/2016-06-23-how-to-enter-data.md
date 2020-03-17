@@ -4,7 +4,7 @@ title: Import Data
 subtitle: A step-by-step guide for entering or importing data into the Chart Studio Workspace.
 permalink: /add-data-to-the-plotly-grid/
 redirect_from: /plotly1/add-data-to-the-plotly1-grid/
-imageurl: ../static/images/import-data/import-data.png
+imageurl:  https://plotly.github.io/static/images/import-data/import-data.png
 state: active
 tags: fundamentals
 order: 2

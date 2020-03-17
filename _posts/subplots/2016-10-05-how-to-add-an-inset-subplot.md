@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Add an Inset in Chart Studio
 subtitle: Add an inset using the Chart Studio data visualization tool
 permalink: /inset-subplots/
-imageurl: ../static/images/graph-with-multiple-axes-with-excel/inset thumb.png
+imageurl:  https://plotly.github.io/static/images/graph-with-multiple-axes-with-excel/inset thumb.png
 state: active
 tags: subplot
 order: 2

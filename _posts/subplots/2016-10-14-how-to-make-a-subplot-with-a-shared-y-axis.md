@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How to Make Subplots with a Shared Y-Axis in Chart Studio
 subtitle: Create a subplot with a shared y-axis using the Chart Studio data visualization tool
 permalink: /shared-y-axis-subplots/
-imageurl: ../static/images/graph-with-multiple-axes-with-excel/shared y thumbnail.png
+imageurl:  https://plotly.github.io/static/images/graph-with-multiple-axes-with-excel/shared y thumbnail.png
 state: active
 tags: subplot
 order: 3.5

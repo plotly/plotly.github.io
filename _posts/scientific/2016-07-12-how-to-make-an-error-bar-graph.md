@@ -4,7 +4,7 @@ title: Error bars
 subtitle: A graphical representation of the variability of data used on graphs to indicate the error, or uncertainty in a reported measurement.
 permalink: /make-a-graph-with-error-bars/
 redirect_from: /plotly1/make-a-graph-with-error-bars/
-imageurl: ../static/images/error-bars/error-bar-thumb.png
+imageurl:  https://plotly.github.io/static/images/error-bars/error-bar-thumb.png
 state: active
 tags: scientific
 order: 1

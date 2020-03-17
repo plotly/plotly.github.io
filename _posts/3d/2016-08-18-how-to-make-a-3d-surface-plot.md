@@ -4,7 +4,7 @@ title: 3D Surface Plots
 subtitle: Create a three-dimensional surface plot that connects a set of data points.
 permalink: /make-a-3d-surface-plot/
 redirect_from: /make-a-3D-surface-plot/
-imageurl: ../static/images/3D-surface-plot/3D-surface-thumbnail.png
+imageurl:  https://plotly.github.io/static/images/3D-surface-plot/3D-surface-thumbnail.png
 state: active
 tags: graph3d
 order: 2
@@ -22,7 +22,7 @@ live-graph-image:
 steps:
  - title: Try an Example
    sub-steps:
-    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options: 
+    - copy: "Before getting started with your own dataset, you can check out an example. First, select the 'Type' menu. Hovering the mouse over the chart type icon will display three options:
 
     1) Charts like this by Plotly users
     2) View tutorials on this chart type

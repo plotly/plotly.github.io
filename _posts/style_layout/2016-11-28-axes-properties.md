@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Axes Properties
 subtitle: A Guide to Axes Properties with Chart Studio
 permalink: /axes/
-imageurl: ../static/images/misc-tutorial-images/axes thumb.png
+imageurl:  https://plotly.github.io/static/images/misc-tutorial-images/axes thumb.png
 state: active
 tags: layout
 order: 5

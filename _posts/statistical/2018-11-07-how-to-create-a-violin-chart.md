@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Violin Plot
 subtitle: Violin Plot is a combination of a box plot and density plot that shows the distribution shape of the data.
 permalink: /make-a-violin-plot/
-imageurl: ../static/images/violin-plot/violin-thumb.png
+imageurl:  https://plotly.github.io/static/images/violin-plot/violin-thumb.png
 state: active
 tags: statistical
 order: 2.5

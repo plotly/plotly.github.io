@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Collaborate in Chart Studio
 subtitle: How to collaborate on plots and grids in Chart Studio
 permalink: /collaborate-in-plotly/
-imageurl: ../static/images/collaboration-doc/collaborator-thumb.png
+imageurl:  https://plotly.github.io/static/images/collaboration-doc/collaborator-thumb.png
 state: active
 tags: fundamentals
 order: 13

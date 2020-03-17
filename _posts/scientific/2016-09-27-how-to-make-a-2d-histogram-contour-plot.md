@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: 2D Contour Histogram Plots
 subtitle: A type of contour plot that visualizes a bivariate distribution with contour lines.
 permalink: /make-a-2d-histogram-contour-plot/
-imageurl: ../static/images/create-2d-contour-histogram-plot/2d-contour-thumb.png
+imageurl:  https://plotly.github.io/static/images/create-2d-contour-histogram-plot/2d-contour-thumb.png
 state: active
 tags: statistical
 order: 2

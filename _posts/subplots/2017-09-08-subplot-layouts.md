@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Subplot Layouts in Chart Studio
 subtitle: Subplot Layouts in Chart Studio
 permalink: /subplot-layouts/
-imageurl: ../static/images/subplot-layouts/subplot-layouts.png
+imageurl:  https://plotly.github.io/static/images/subplot-layouts/subplot-layouts.png
 state: active
 tags: subplot
 order: 1.5
