@@ -36,16 +36,16 @@ steps:
  - title: Select Your Fit
    sub-steps:
     - copy: "When you've finished plotting your data, visit the ANALYSIS section on the left-hand side of your workspace. Click on the blue '+ Analysis' button, then click on the dropdown menu and select 'Fit'."
-      img: "![Analysis section](../static/images/line-of-best-fit/analysis-section.png)"
+      img: "![Analysis section](https://plotly.github.io/static/images/line-of-best-fit/analysis-section.png)"
     - copy: "Select your 'Target Trace' (remember, these are the traces you've set up earlier). You'll then have to select the function you want under 'Function Family'. The dropdown menu has a few to choose from including linear, quadratic, polynomial, and exponential to name a few."
-      img: "![Common fit function](../static/images/line-of-best-fit/common-fit-function.png)"
+      img: "![Common fit function](https://plotly.github.io/static/images/line-of-best-fit/common-fit-function.png)"
     - copy: "Alternatively, you have the option of adding your own fit function by selecting 'Custom fit function' and entering it in the field. You can also enter your parameters in the 'Constant Estimates' fields."
-      img: "![Custom fit function](../static/images/line-of-best-fit/custom-fit-function.png)"
+      img: "![Custom fit function](https://plotly.github.io/static/images/line-of-best-fit/custom-fit-function.png)"
     - copy: "Your advanced options include fitting to a specific range and/or displaying your fit over a specific range."
-      img: "![Advanced options](../static/images/line-of-best-fit/advanced-options.png)"
+      img: "![Advanced options](https://plotly.github.io/static/images/line-of-best-fit/advanced-options.png)"
     - copy: "The blue 'More' button on the bottom right will display two output options. You have the choice of setting your output with evenly spaced points and using the slider to enter your points, or your points matching your X data."
-      img: "![More button](../static/images/line-of-best-fit/more-button.png)"
+      img: "![More button](https://plotly.github.io/static/images/line-of-best-fit/more-button.png)"
     - copy: "The last thing to do is click 'RUN' at the bottom. We've chosen the 'Linear' function, and this is what our plot looks like with the line of best fit."
-      img: "![Run fit](../static/images/line-of-best-fit/run-function.png)"
+      img: "![Run fit](https://plotly.github.io/static/images/line-of-best-fit/run-function.png)"
     - copy: "Don't forget to save your graph and show it off to your friends by sharing it. For more information on how to save, share, and export, visit [this](http://help.plot.ly/save-share-and-export-in-plotly/) page!"
 ---

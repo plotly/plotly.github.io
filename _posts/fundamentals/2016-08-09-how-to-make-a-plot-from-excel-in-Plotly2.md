@@ -22,15 +22,15 @@ steps:
  - title: Import Your Data File
    sub-steps:
     - copy: "Head to [Chart Studio Workspace](https://plot.ly/create) and click on the 'Import' button next to your username in the top-right corner of the workspace."
-      img: "![Import button](../static/images/excel-doc/import_data.png)"
+      img: "![Import button](https://plotly.github.io/static/images/excel-doc/import_data.png)"
     - copy: "The 'Import' modal will appear, where you can upload your local data-file saved in the above mentioned format under the 'Upload' tab. You can either click the 'Upload' button or simply drag and drop the file into the window within the modal."
-      img: "![Upload files](../static/images/excel-doc/upload.gif)"
+      img: "![Upload files](https://plotly.github.io/static/images/excel-doc/upload.gif)"
     - copy: "After uploading the file, the data will get imported into a new grid in the workspace."
 
  - title: Create Your Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side, then select the chart type of your choice under the attribute 'Type'. If you have a particular plot in mind but need help getting started, visit our [Help page](http://help.plot.ly/tutorials/) for more tutorials."
-      img: "![Choose chart main](../static/images/excel-doc/chart_type.png)"
+      img: "![Choose chart main](https://plotly.github.io/static/images/excel-doc/chart_type.png)"
 
  - title: Save and Share
    sub-steps:

@@ -30,23 +30,23 @@ steps:
  - title: Add a Map
    sub-steps:
     - copy: "We'll start with a Google map, and we find the embed code by clicking on the menu tab on the left-hand side of the Google Maps page."
-      img: "![Locate embed code](../static/images/dashboards/locate embed.gif)"
+      img: "![Locate embed code](https://plotly.github.io/static/images/dashboards/locate embed.gif)"
     - copy: "Once you're in the [Chart Studio Dashboards page](https://plot.ly/dashboard/create), click on the 'Webpage' button at the bottom left-hand side."
-      img: "![Add webpage](../static/images/dashboards/webpage.png)"
+      img: "![Add webpage](https://plotly.github.io/static/images/dashboards/webpage.png)"
     - copy: "As you can see in the animated image below, we copy and paste the Google link into the URL field, but use only the URL part of the embed code. Click 'Save'."
-      img: "![Map url](../static/images/dashboards/maps url.gif)"
+      img: "![Map url](https://plotly.github.io/static/images/dashboards/maps url.gif)"
     - copy: "This is what our map looks like on our dashboard."
-      img: "![Dashboard map](../static/images/dashboards/dashboard map .png)"
+      img: "![Dashboard map](https://plotly.github.io/static/images/dashboards/dashboard map .png)"
 
  - title: Add a Video
    sub-steps:
     - copy: "Websites like Vimeo and Youtube have an embed option for their videos. While you *can* add a Vimeo video to our dashboard, videos from Youtube don't work at the moment."
     - copy: "Once we've located the embed code on the Vimeo website, we'll add the actual URL of the video instead of the entire snippet."
-      img: "![Vimeo embed code](../static/images/dashboards/vimeo embed code.png)"
+      img: "![Vimeo embed code](https://plotly.github.io/static/images/dashboards/vimeo embed code.png)"
     - copy: "We'll enter this link in the URL field."
-      img: "![Add video url](../static/images/dashboards/add video.png)"
+      img: "![Add video url](https://plotly.github.io/static/images/dashboards/add video.png)"
     - copy: "Our dashboard now has a video."
-      img: "![Dashboard video](../static/images/dashboards/dashboard video.png)"
+      img: "![Dashboard video](https://plotly.github.io/static/images/dashboards/dashboard video.png)"
     - copy: "Our dashboard is looking pretty cool. You can [style](http://help.plot.ly/create-a-dashboard/#step-6-style-your-dashboard) your dashboard and [resize and rearrange](http://help.plot.ly/create-a-dashboard/#step-5-size-and-arrange-the-plots) the items once again before you [save](http://help.plot.ly/create-a-dashboard/#step-9-save-and-share-a-dashboard)."
-      img: "![Cool dashboard](../static/images/dashboards/cool dashboard.gif)"
+      img: "![Cool dashboard](https://plotly.github.io/static/images/dashboards/cool dashboard.gif)"
 ---

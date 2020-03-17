@@ -28,7 +28,7 @@ steps:
     3) See a basic example."
 
     - copy: "Clicking the 'See a basic example' option will show what a sample chart looks like after adding data and editing with the style. You'll also see what labels and style attributes were selected for this specific chart, as well as the end result."
-      img: "![Example after](../static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
+      img: "![Example after](https://plotly.github.io/static/images/line-graph-and-scatter-plot-with-excel/scatter-try-example.gif)"
     - copy: "You can also use the data featured in this tutorial by clicking on 'Open This Data in Chart Studio' on the left-hand side. It'll open in your workspace."
 
  - title: Add Data
@@ -38,24 +38,24 @@ steps:
  - title: Create Chart
    sub-steps:
     - copy: "After adding data, go to the 'Traces' section under the 'Structure' menu on the left-hand side. Choose the 'Type' of trace, then choose 'Contour' under 'Simple' chart type."
-      img: "![Choose chart](../static/images/create-contour-plot/contour-choose-chart.png)"
+      img: "![Choose chart](https://plotly.github.io/static/images/create-contour-plot/contour-choose-chart.png)"
     - copy: "Next, fill out the necessary 'X', 'Y' and 'Z' values from their respective dropdown menus. This will create a contour, as seen below. In this example, our data was formatted as a Z matrix so we will add all columns of our dataset to the 'Z' dropdown. We do not have to specify 'X' or 'Y' data in this example, so we will leave those dropdown fields empty."
-      img: "![Adding axes](../static/images/create-contour-plot/contour-values.png)"
+      img: "![Adding axes](https://plotly.github.io/static/images/create-contour-plot/contour-values.png)"
 
  - title: Style Chart
    sub-steps:
     - copy: "The 'Style' menu displays many options to modify characteristics of the overall chart layout or the individual traces. To see more options about styling the chart, visit the [style and layout](https://help.plot.ly/tutorials/#layout) section of the Chart Studio documentation."
     - copy: "Use the 'General' section under the 'Style' menu to set the plot title, as well as change the layout background, margin color and font styles."
     - copy: "To set the plot title, type the title text within the textbox provided under 'Title.'"
-      img: "![Type title](../static/images/create-contour-plot/contour-title.png)"
+      img: "![Type title](https://plotly.github.io/static/images/create-contour-plot/contour-title.png)"
     - copy: "Another approach is to click and then enter the title directly on the plot interface. The same can be done for the axes title and the legends."
-      img: "![Type Direct](../static/images/create-contour-plot/contour-title-direct.png)"
+      img: "![Type Direct](https://plotly.github.io/static/images/create-contour-plot/contour-title-direct.png)"
     - copy: "Use the 'Traces' section under the 'Style' menu to change the properties of the traces, such as color gradients, contours, or line attributes."
-      img: "![Colourscale](../static/images/create-contour-plot/contour-properties.png)"
+      img: "![Colourscale](https://plotly.github.io/static/images/create-contour-plot/contour-properties.png)"
 
  - title: Save and Share
    sub-steps:
     - copy: "To save the plot, click the 'Save' button on the left-hand side. A save modal will appear, as seen below, where you can specify the filenames and privacy settings for your plot and data grid."
-      img: "![Save main](../static/images/create-contour-plot/contour-save-main.png)"
+      img: "![Save main](https://plotly.github.io/static/images/create-contour-plot/contour-save-main.png)"
     - copy: "For more information on privacy settings and how sharing works, visit Chart Studio's [sharing tutorial](http://help.plot.ly/save-share-and-export-in-plotly/)."
 ---

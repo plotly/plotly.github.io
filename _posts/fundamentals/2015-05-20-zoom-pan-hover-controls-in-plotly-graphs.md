@@ -34,37 +34,37 @@ steps:
  - title: Zoom-in and Zoom-out/Autoscale the plot
    sub-steps:
     - copy: "If the plot's drag mode is set to 'Zoom', click and drag on the plot to zoom-in and double-click to zoom-out completely, i.e., autoscale both the axes."
-      img: "![Drag Zoom](../static/images/zoom-pan-hover/drag-to-zoom.gif)"
+      img: "![Drag Zoom](https://plotly.github.io/static/images/zoom-pan-hover/drag-to-zoom.gif)"
 
  - title: Zoom-in along axes
    sub-steps:
     - copy: "To zoom along only one axis, click and drag near the edges of either one of the axes. Additionally, to zoom-in along both the axes together, click and drag near the corners of both the axes."
-      img: "![Zoom Axis](../static/images/zoom-pan-hover/zoom-axis.gif)"
+      img: "![Zoom Axis](https://plotly.github.io/static/images/zoom-pan-hover/zoom-axis.gif)"
 
  - title: Pan and Reset the plot
    sub-steps:
     - copy: "If the plot's drag mode is set to 'Pan', click and drag on the plot to pan and double-click to reset the pan."
-      img: "![Drag Pan](../static/images/zoom-pan-hover/drag-to-pan.gif)"
+      img: "![Drag Pan](https://plotly.github.io/static/images/zoom-pan-hover/drag-to-pan.gif)"
     - copy: "Please note that, by default, the plot's drag mode is set to 'Zoom'."
 
  - title: Pan along axes
    sub-steps:
     - copy: "To Pan along one axis, click and drag from the center of the axis."
-      img: "![Example after](../static/images/zoom-pan-hover/pan-axis.gif)"
+      img: "![Example after](https://plotly.github.io/static/images/zoom-pan-hover/pan-axis.gif)"
 
 
  - title: Zoom-out/Autoscale/Reset an axis
    sub-steps:
     - copy: "Double-click on a single axis to autoscale along that axis alone."
-      img: "![Example after](../static/images/zoom-pan-hover/double-click-autoscale.gif)"
+      img: "![Example after](https://plotly.github.io/static/images/zoom-pan-hover/double-click-autoscale.gif)"
 
  - title: Change Drag/Hover mode via Chart Studio
    sub-steps:
     - copy: "First, head to the 'Edit' page of your plot by hovering on the plot's thumbnail and clicking on the 'Edit' button. This will redirect you to the [Chart Studio Workspace]((https://plot.ly/create/). When you are in the workspace, go to the 'General' section under the 'Style' menu."
     - copy: "To change the drag mode, head to the 'Drag' property under the 'Interactions' sub-panel and set the 'Mode' attribute using the dropdown menu."
-      img: "![Drag Mode](../static/images/zoom-pan-hover/change-drag-mode.png)"
+      img: "![Drag Mode](https://plotly.github.io/static/images/zoom-pan-hover/change-drag-mode.png)"
     - copy: "To change the hover mode, head to the 'Hover' property in the same 'Interactions' sub-panel and set the 'Mode' attribute using the dropdown menu."
-      img: "![Hover Mode](../static/images/zoom-pan-hover/change-hover-mode.png)"
+      img: "![Hover Mode](https://plotly.github.io/static/images/zoom-pan-hover/change-hover-mode.png)"
 
  - title: Change Drag/Hover mode and Autoscale/Reset axes via Mode Bar
    sub-steps:
