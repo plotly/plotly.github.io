@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Schedule Persistent Queries
 subtitle: Set your data to be updated using peristent queries with Chart Studio and the Plotly Database Connector.
 permalink: /database-connectors/schedule-query/
-imageurl:  http://blog.sqlauthority.com/wp-content/uploads/2007/05/bigclock-800x800.png
+imageurl:  https://blog.sqlauthority.com/wp-content/uploads/2007/05/bigclock-800x800.png
 state: active
 tags: advanced
 section: Basics
