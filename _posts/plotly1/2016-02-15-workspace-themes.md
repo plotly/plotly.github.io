@@ -4,7 +4,7 @@ title: Workspace Themes
 subtitle: How to add themes to your Chart Studio graphs
 permalink: /themes/
 redirect_to: https://help.plot.ly/tutorials/
-imageurl: /static/images/themes/themes-thumbnail.jpg
+imageurl: https://plotly.github.io/static/images/themes/themes-thumbnail.jpg
 state: active
 tags: plotly1
 meta_description: A tutorial on how to add themes to Chart Studio graphs. Chart Studio is the easiest way to graph and share your data.

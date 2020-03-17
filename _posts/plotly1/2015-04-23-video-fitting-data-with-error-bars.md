@@ -3,7 +3,7 @@ layout: single
 title: Video - Fitting Data With Error Bars
 subtitle: How to Fit Data with Error Bars
 permalink: /fitting-data-with-error-bars-video/
-imageurl: /static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
+imageurl: https://plotly.github.io/static/images/video-fitting-data-with-error-bars/thum-video-fitting-data-with-error-bars.png
 state: active
 tags: analysis
 order: 12

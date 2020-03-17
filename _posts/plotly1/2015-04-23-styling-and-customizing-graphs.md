@@ -3,7 +3,7 @@ layout: single
 title: Video - Styling and Customizing Graphs
 subtitle: How to style and customize graphs
 permalink: /styling-and-customizing-graphs-video/
-imageurl: /static/images/styling-and-customizing-graphs/thum-styling-and-customizing-graphs.png
+imageurl: https://plotly.github.io/static/images/styling-and-customizing-graphs/thum-styling-and-customizing-graphs.png
 state: active
 tags: analysis
 order: 14

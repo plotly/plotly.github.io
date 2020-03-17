@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Setup Falcon using your Plotly On-Premise service
 subtitle: Setup database connections using Falcon with Plotly On-Premise
 permalink: /database-connectors/on-prem-login/
-imageurl:  /static/images/falcon/logos/on-premise.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/on-premise.png
 state: active
 tags: start
 section: Basics

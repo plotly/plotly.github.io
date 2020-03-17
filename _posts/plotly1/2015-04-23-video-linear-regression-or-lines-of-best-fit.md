@@ -3,7 +3,7 @@ layout: single
 title: Video - Linear Regression or Lines of Best Fit
 subtitle: How to create a line of best fit
 permalink: /lines-of-best-fit-video/
-imageurl: /static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
+imageurl: https://plotly.github.io/static/images/video-linear-regression-or-lines-of-best-fit/thum-video-linear-regression-or-lines-of-best-fit.png
 state: active
 tags: analysis
 order: 11

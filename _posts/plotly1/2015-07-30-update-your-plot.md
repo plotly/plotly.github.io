@@ -4,7 +4,7 @@ title: Update a Graph with New Data in Chart Studio
 subtitle: How to update your plotly graphs with new data in Chart Studio
 permalink: /update-a-graphs-data/
 redirect_to: https://help.plot.ly/tutorials/
-imageurl: /static/images/update-your-plot/graph-thumbnail.png
+imageurl: https://plotly.github.io/static/images/update-your-plot/graph-thumbnail.png
 state: active
 tags: plotly1
 meta_description: A tutorial on how to update data in and add data to Chart Studio graphs. Chart Studio is the easiest way to graph and share your data.

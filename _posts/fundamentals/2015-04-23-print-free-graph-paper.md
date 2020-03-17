@@ -2,7 +2,7 @@
 layout: single
 title: Print Free Graph Paper Online
 permalink: /print-free-graph-paper/
-imageurl: /static/images/print-free-graph-paper/thum-print-free-graph-paper.png
+imageurl: https://plotly.github.io/static/images/print-free-graph-paper/thum-print-free-graph-paper.png
 state: active
 tags: analysis
 order: 16

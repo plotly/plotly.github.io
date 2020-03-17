@@ -4,7 +4,7 @@ title: Make a 3D Line Graph
 subtitle: A Step by Step Guide to Making a 3D Line Graph
 permalink: /make-a-3d-line-chart/
 redirect_to: https://help.plot.ly/make-a-3d-line-plot/
-imageurl: /static/images/line-graph3d/line-graph3d.png
+imageurl: https://plotly.github.io/static/images/line-graph3d/line-graph3d.png
 state: active
 tags: plotly1
 meta_description: A tutorial on how to make a 3d chart online. Chart Studio is the easiest and fastest way to make and share graphs online.

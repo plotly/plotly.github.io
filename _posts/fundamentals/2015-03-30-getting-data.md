@@ -2,7 +2,7 @@
 layout: single
 title: Getting Data
 permalink: /getting-data/
-imageurl: /static/images/getting-data/getting-data-ice-cream-production.png
+imageurl: https://plotly.github.io/static/images/getting-data/getting-data-ice-cream-production.png
 state: active
 tags: fundamentals
 order: 30

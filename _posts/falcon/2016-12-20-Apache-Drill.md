@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Connect Your Charts and Dashboards to Parquet files with Apache Drill
 subtitle: Graph data from your Parquet files using Apache Drill database with Chart Studio and Falcon.
 permalink: /database-connectors/apache-drill/
-imageurl:  /static/images/falcon/logos/apache-drill.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/apache-drill.png
 state: active
 tags: other
 section: Basics

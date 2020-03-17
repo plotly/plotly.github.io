@@ -4,7 +4,7 @@ title: Make a 3D Scatter Plot
 subtitle: A Step by Step Guide to Making a 3D Scatter Plot
 permalink: /plotly1/make-a-3d-scatter-plot/
 redirect_to: https://help.plot.ly/make-a-3d-scatter-plot/
-imageurl: /static/images/scatter-plot-3D/thum-scatter-plot-3D.png
+imageurl: https://plotly.github.io/static/images/scatter-plot-3D/thum-scatter-plot-3D.png
 state: active
 tags: plotly1
 meta_description: A tutorial on how to make a 3d scatter plot. Chart Studio is the easiest and fastest way to make and share graphs online.

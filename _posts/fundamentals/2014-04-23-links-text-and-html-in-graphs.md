@@ -3,7 +3,7 @@ layout: single
 title: Links, Text, and HTML in Graphs
 subtitle: How to insert link, text and HTML in graphs
 permalink: /adding-HTML-and-links-to-charts/
-imageurl: /static/images/links-text-and-html-in-graphs/thum-links-text-and-html-in-graphs.png
+imageurl: https://plotly.github.io/static/images/links-text-and-html-in-graphs/thum-links-text-and-html-in-graphs.png
 state: active
 tags: textandlinks
 meta_description: How to insert links, text and html in plotly charts. Make graphs online and for free with Chart Studio

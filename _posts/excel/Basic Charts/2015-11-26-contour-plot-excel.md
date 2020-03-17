@@ -15,10 +15,10 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/volcano.c
 similar:
  - title: Make a Heatmap
    url: /excel/heatmap
-   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
+   imgurl: https://plotly.github.io/static/images/heat-map-with-excel/thum-heat-map-with-excel.png
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bubble Chart
    url: /excel/bubble-chart
    imgurl: https://images.plot.ly/excel/bubble-charts/bubble-chart-thumb.png

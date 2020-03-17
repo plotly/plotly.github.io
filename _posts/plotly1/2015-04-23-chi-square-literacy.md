@@ -3,7 +3,7 @@ layout: single
 title: Intro to the chi-square test
 subtitle: Understanding when to use a chi square test
 permalink: /chi-square/
-imageurl: /static/images/chi-square/thum-chi-square.png
+imageurl: https://plotly.github.io/static/images/chi-square/thum-chi-square.png
 state: inactive
 tags: analysis
 order: 4

@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Bubble Map Online with Chart Studio and Excel
 subtitle: Bubble maps with Chart Studio
 permalink: /excel/bubble-maps/
-imageurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
+imageurl: https://plotly.github.io/static/images/bubble-map-with-excel/bubble-map-thumb.png
 state: active
 tags: excel
 section: Maps
@@ -15,7 +15,7 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/2014_us_c
 similar:
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps/
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
    imgurl: https://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png

@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Connect Your Charts and Dashboards to a Apache Spark Database
 subtitle: Graph data from your Apache Spark database with Chart Studio and Falcon.
 permalink: /database-connectors/apache-spark/
-imageurl:  /static/images/falcon/logos/apache-spark.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/apache-spark.png
 state: active
 tags: sql
 section: Basics

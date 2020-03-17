@@ -3,7 +3,7 @@ layout: single
 title: Plotly JSON chart schema
 subtitle: Plotly JSON chart schema
 permalink: /json-chart-schema/
-imageurl: /static/images/box-plot/box-plot-thumbnail.png
+imageurl: https://plotly.github.io/static/images/box-plot/box-plot-thumbnail.png
 state: active
 meta_description: The Plotly JSON chart schema is the complete, human-readable text format that describes all physical attributes of any scientific chart.
 popularity: frontpage
@@ -11,7 +11,7 @@ popularity: frontpage
 
 # Background
 
-The Plotly JSON visualization schema is a complete declarative format for creating, saving, and sharing interactive, scientific charts. The advantage of saving charts as JSON is portability - charts can be shared across any language or platform that understands the schema. 
+The Plotly JSON visualization schema is a complete declarative format for creating, saving, and sharing interactive, scientific charts. The advantage of saving charts as JSON is portability - charts can be shared across any language or platform that understands the schema.
 
 The complete JSON schema is maintained as part of Plotly's [V2 REST API](https://api.plot.ly/v2/):
 
@@ -48,15 +48,15 @@ Below is a Plotly bar chart with the JSON specification that describes it.
     "data": [
         {
             "x": [
-                "giraffes", 
-                "orangutans", 
+                "giraffes",
+                "orangutans",
                 "monkeys"
-            ], 
+            ],
             "y": [
-                20, 
-                14, 
+                20,
+                14,
                 23
-            ], 
+            ],
             "type": "bar"
         }
     ]
@@ -79,15 +79,15 @@ Below is a Plotly bar chart with the JSON specification that describes it.
 
 Using this JSON specification, it is easy to handle translation between different chart and data formats:
 
-| Chart Translations  | Link to Translation                                                     | 
+| Chart Translations  | Link to Translation                                                     |
 | --------------------|:-----------------------------------------------------------------------:|
 | Interactive chart   | [https://plot.ly/~PlotBot/880](https://plot.ly/~PlotBot/880)            |
 | JSON specification  | [https://plot.ly/~PlotBot/880.json](https://plot.ly/~PlotBot/880.json)  |
 | Chart image         | [https://plot.ly/~PlotBot/880.png](https://plot.ly/~PlotBot/880.png)    |
 | Python code         | [https://plot.ly/~PlotBot/880.py](https://plot.ly/~PlotBot/880.py)      |
 | JavaScript code     | [https://plot.ly/~PlotBot/880.js](https://plot.ly/~PlotBot/880.js)      |
-| CSV download        | [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)    | 
-| Excel download      | [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)  | 
+| CSV download        | [https://plot.ly/~PlotBot/880.csv](https://plot.ly/~PlotBot/880.csv)    |
+| Excel download      | [https://plot.ly/~PlotBot/880.xlsx](https://plot.ly/~PlotBot/880.xlsx)  |
 
 ***
 

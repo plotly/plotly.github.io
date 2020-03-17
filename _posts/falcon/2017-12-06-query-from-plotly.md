@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Query from Plotly
 subtitle: Query inside the Chart Studio to unlock all Plotly chart types and styling options.
 permalink: /database-connectors/query-from-plotly/
-imageurl:  /static/images/falcon/logos/query-from-plotly.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/query-from-plotly.png
 state: active
 tags: advanced
 section: Basics

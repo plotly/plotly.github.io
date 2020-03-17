@@ -3,7 +3,7 @@ layout: single
 title: Intro to Histograms
 subtitle: What is a histogram?
 permalink: /histogram/
-imageurl: /static/images/histograms-description/thum-histogram-description.png
+imageurl: https://plotly.github.io/static/images/histograms-description/thum-histogram-description.png
 state: active
 tags: analysis
 order: 2

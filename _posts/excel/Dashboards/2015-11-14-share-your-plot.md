@@ -21,7 +21,7 @@ similar:
    imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
  - title: Make a Heatmap
    url: /excel/heatmap
-   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
+   imgurl: https://plotly.github.io/static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 steps:
  - title: Head to Chart Studio and Organize

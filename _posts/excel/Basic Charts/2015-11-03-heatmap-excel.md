@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Heatmap Online with Chart Studio and Excel
 subtitle: Heatmaps with Chart Studio
 permalink: /excel/heatmap/
-imageurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
+imageurl: https://plotly.github.io/static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 state: active
 tags: excel
 section: Scientific
@@ -15,7 +15,7 @@ download-url: https://github.com/plotly/datasets/raw/master/okcupid-compatibilit
 similar:
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Histogram
    url: /excel/histogram
    imgurl: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png

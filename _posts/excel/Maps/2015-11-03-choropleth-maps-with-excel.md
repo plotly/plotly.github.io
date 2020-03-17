@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Choropleth Map with Chart Studio and Excel
 subtitle: Choropleth Maps with Chart Studio
 permalink: /excel/choropleth-maps/
-imageurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+imageurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make a choropleth map with Chart Studio and Excel. Chart Studio is the easiest and fastest way to make and share graphs online.
@@ -15,7 +15,7 @@ download-url: https://raw.githubusercontent.com/plotly/datasets/master/2011_us_a
 similar:
  - title: Make a Bubble Map
    url: /excel/bubble-maps/
-   imgurl: /static/images/bubble-map-with-excel/bubble-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/bubble-map-with-excel/bubble-map-thumb.png
  - title: Plot Data on a Map
    url: /excel/scatter-plots-on-maps/
    imgurl: https://images.plot.ly/excel/scatter-plot-on-a-map/scatter-plot-on-a-map-thumb.png

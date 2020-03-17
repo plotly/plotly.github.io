@@ -10,7 +10,7 @@ tags: fundamentals
 order: 2
 meta_description: A tutorial on how to enter data in Chart Studio.
 popularity: featured
-carouselimageurl: /static/images/import-data/thumbnail.png
+carouselimageurl: https://plotly.github.io/static/images/import-data/thumbnail.png
 actioncall: How to enter data in Chart Studio
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/) or [R](https://plot.ly/r/getting-started/).

@@ -16,13 +16,13 @@ download-url: https://plot.ly/~Dreamshot/564/nyc-vs-la-population-1900-2010.csv
 similar:
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart
    imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png
  - title: Make a Heatmap
    url: /excel/heatmap
-   imgurl: /static/images/heat-map-with-excel/thum-heat-map-with-excel.png
+   imgurl: https://plotly.github.io/static/images/heat-map-with-excel/thum-heat-map-with-excel.png
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/filled-area-plots/) or [R](https://plot.ly/r/filled-area-plots/).
 

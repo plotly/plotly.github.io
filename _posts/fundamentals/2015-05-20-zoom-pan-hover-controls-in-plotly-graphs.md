@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Zoom, Pan, and Hover Controls
 subtitle: How to zoom, pan, and hover in Chart Studio
 permalink: /zoom-pan-hover-controls/
-imageurl: /static/images/zoom-pan-hover/thumbnail.gif
+imageurl: https://plotly.github.io/static/images/zoom-pan-hover/thumbnail.gif
 state: active
 tags: fundamentals
 section: fundamentals
@@ -24,7 +24,7 @@ steps:
                 4. Pan along axes; \n
                 5. Zoom-out/Autoscale/Reset along an axis; \n
                 6. Change Drag/Hover mode; \n
-                7. Autoscale/Reset axes via Mode Bar." 
+                7. Autoscale/Reset axes via Mode Bar."
     - copy: "Make sure to check out our other [tutorials](http://help.plot.ly/tutorials/)!"
 
  - title: Try the Example

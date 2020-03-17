@@ -3,7 +3,7 @@ layout: single
 title: How to Make a Line and Scatter Plot with Excel
 subtitle: Chart Studio with Excel
 permalink: /excel/line-graph-and-scatter-plot/
-imageurl: /static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
+imageurl: https://plotly.github.io/static/images/line-graph-and-scatter-plot-with-excel/thum-line-graph-and-scatter-plot-with-excel.png
 state: active
 tags: excel
 meta_description: A tutorial on how to make line graphs and scatter plots with Excel. Chart Studio is the easiest and fastest way to make and share graphs online.

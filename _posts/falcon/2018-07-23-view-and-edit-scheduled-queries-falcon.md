@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: View and Edit Scheduled Queries from Falcon
 subtitle: View and edit SQL queries scheduled by Falcon.
 permalink: /database-connectors/view-scheduled-queries/
-imageurl:  /static/images/falcon/logos/query-from-falcon.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/query-from-falcon.png
 state: active
 tags: advanced
 section: Basics

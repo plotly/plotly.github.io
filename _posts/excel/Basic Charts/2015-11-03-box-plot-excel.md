@@ -3,7 +3,7 @@ layout: excel-tutorial-single_layout
 title: Make a Box Plot Online with Chart Studio and Excel
 subtitle: Box Plots with Chart Studio
 permalink: /excel/box-plot/
-imageurl: /static/images/box-plot-with-excel/thum-box-plot-with-excel.png
+imageurl: https://plotly.github.io/static/images/box-plot-with-excel/thum-box-plot-with-excel.png
 state: active
 tags: excel
 section: Statistical
@@ -15,7 +15,7 @@ download-url: https://plot.ly/~cimar/203.csv
 similar:
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Histogram
    url: /excel/histogram
    imgurl: https://images.plot.ly/excel/histogram/thum-histogram-with-excel.png

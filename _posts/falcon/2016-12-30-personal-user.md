@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Setup Falcon SQL Client on a Personal Computer
 subtitle: Setup a database connection using Falcon SQL Client
 permalink: /database-connectors/personal-login/
-imageurl:  /static/images/falcon/logos/personal-login.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/personal-login.png
 state: active
 tags: start
 section: Basics

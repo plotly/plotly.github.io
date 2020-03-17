@@ -4,7 +4,7 @@ title: Create a Chart from a Template
 subtitle: How to create multiple Chart Studio graphs with different data from a template.
 permalink: /template/
 redirect_to: https://help.plot.ly/tutorials/
-imageurl: /static/images/template/template-thumbnail.jpg
+imageurl: https://plotly.github.io/static/images/template/template-thumbnail.jpg
 state: active
 tags: plotly1
 meta_description: A tutorial on how to create multiple Chart Studio graphs with different data from a single template. Chart Studio is the easiest way to graph and share your data.

@@ -3,7 +3,7 @@ layout: connectors-tutorial-single_layout
 title: Query from Falcon
 subtitle: Preview schemas, write queries and perform inline data visualization with Falcon.
 permalink: /database-connectors/query-from-falcon/
-imageurl:  /static/images/falcon/logos/query-from-falcon.png
+imageurl:  https://plotly.github.io/static/images/falcon/logos/query-from-falcon.png
 state: active
 tags: advanced
 section: Basics

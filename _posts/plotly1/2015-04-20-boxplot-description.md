@@ -3,7 +3,7 @@ layout: single
 title: Intro to Box Plots
 subtitle: What is a Box Plot?
 permalink: /what-is-a-box-plot/
-imageurl: /static/images/box-plot/box-plot-thumbnail.png
+imageurl: https://plotly.github.io/static/images/box-plot/box-plot-thumbnail.png
 state: active
 tags: analysis
 order: 3

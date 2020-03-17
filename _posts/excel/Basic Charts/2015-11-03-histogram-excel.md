@@ -15,7 +15,7 @@ download-url: https://github.com/plotly/datasets/raw/master/nhl_draft_2013_%40th
 similar:
  - title: Make a Choropleth Map
    url: /excel/choropleth-maps
-   imgurl: /static/images/choropleth-map-with-excel/choropleth-map-thumb.png
+   imgurl: https://plotly.github.io/static/images/choropleth-map-with-excel/choropleth-map-thumb.png
  - title: Make a Bar Chart
    url: /excel/bar-chart/
    imgurl: https://images.plot.ly/excel/bar-charts/thum-bar-chart-with-excel.png

@@ -4,7 +4,7 @@ title: Mean, Median, Variance and Standard Deviation
 subtitle: Basic Statistics
 permalink: /basic-statistics-mean-median-standard-deviation/
 redirect_to: https://help.plot.ly/tutorials/
-imageurl: /static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png
+imageurl: https://plotly.github.io/static/images/mean-median-variance-and-standard-deviation/thum-mean-median-variance-and-standard-deviation.png
 state: active
 tags: analysis
 order: 10

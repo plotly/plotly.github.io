@@ -4,7 +4,7 @@ title: Make a Line of Best Fit
 subtitle: How to make a line of best fit
 permalink: /plotly1/make-a-line-of-best-fit/
 redirect_to: https://help.plot.ly/make-a-line-of-best-fit/
-imageurl: /static/images/line-of-best-fit/thum-line-of-best-fit.png
+imageurl: https://plotly.github.io/static/images/line-of-best-fit/thum-line-of-best-fit.png
 state: active
 tags: plotly1
 meta_description: Make best fit lines of data online and for free with Chart Studio. A step-by-step tutorial of how to make best fit lines and regressions in your web browser with Chart Studio.
