@@ -75,7 +75,7 @@ First of all, while it was useful thinking of bo xplot data as lying on a number
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig7.jpg" id = "boxplotfig7" width = "515.08" height = "515.08">
 
-So far, we've looked at box plots for a single series. Graphs such as [histograms](/histogram/) give a more complete picture of a single series, but the real strength of a box plot is comparing <em>multiple</em> series at a glance. Take the example below, showing hours slept for each day of the week, for a group of 20 high school students.
+So far, we've looked at box plots for a single series. Graphs such as [histograms](https://help.plot.ly/histogram/) give a more complete picture of a single series, but the real strength of a box plot is comparing <em>multiple</em> series at a glance. Take the example below, showing hours slept for each day of the week, for a group of 20 high school students.
 
 <img class="article-img" src="https://plot.ly/static/img/literacy/boxplot/boxplotfig9.jpg" id = "boxplotfig9" width = "600" height = "353.43">
 
@@ -104,7 +104,7 @@ On a box plot, the outliers stand out and seem important. While they're interest
 
 ### What Type of Data Belongs on a Box plot?
 
-Usually, box plots are used to compare multiple different series of data. It's perfectly valid to create a box plot for one series, although a [histogram](/histogram/) might give a more complex or complete picture of the data. Some examples of data sets to compare:
+Usually, box plots are used to compare multiple different series of data. It's perfectly valid to create a box plot for one series, although a [histogram](https://help.plot.ly/histogram/) might give a more complex or complete picture of the data. Some examples of data sets to compare:
 
 * **Multiple trials of the same experiment:** In many Scientific fields, when the same experiment is run many times, the results are tracked in a box plot to show consistencies or inconsistencies across trials.
 * **Multiple trials of different experiments:** Many similar experiments might be run, with some condition or parameter changing each time. A box plot might help find trends or patterns. The above example of tracking hours slept on various days fits this model.

@@ -33,7 +33,7 @@ steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv)"
  - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](https://help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/choropleth-maps/import-data-choropleth-map.png)"
  - title: Creating Your Chart
    sub-steps:

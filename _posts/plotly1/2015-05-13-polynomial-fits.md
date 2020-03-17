@@ -20,7 +20,7 @@ actioncall: start fitting polynomials
 
 
 
-Chart Studio offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit polynomial curves to your data and explain what that means. Make sure to check out our other [tutorials](/tutorials) to learn how to fit your data with [Gaussians](/gaussian-fits), [exponentials](/exponential-fits) and [logarithms](/logarithmic-fits).
+Chart Studio offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit polynomial curves to your data and explain what that means. Make sure to check out our other [tutorials](https://help.plot.ly/tutorials) to learn how to fit your data with [Gaussians](https://help.plot.ly/gaussian-fits), [exponentials](https://help.plot.ly/exponential-fits) and [logarithms](https://help.plot.ly/logarithmic-fits).
 
 Developing an intuition for the best function to fit to your data takes some practice, and Chart Studio is a great tool to test your guesses. Keep in mind that with $n$ data points, there is a unique $n - 1$ degree polynomial that will fit the points exactly, but this polynomial won’t tell us much about our data. In discovering trends, we need to be careful that we don’t *overfit* the data.
 
@@ -30,9 +30,9 @@ To fit the data with a polynomial curve we choose coefficients that minimize the
 
 ### **Step 1:** Make a plot
 
-We have lots of great tutorials to help you make scatter plots, line graphs, histograms, bar charts, and more. If you need help, head to our [tutorials page](/tutorials).
+We have lots of great tutorials to help you make scatter plots, line graphs, histograms, bar charts, and more. If you need help, head to our [tutorials page](https://help.plot.ly/tutorials).
 
-You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Button to upload data to Chart Studio](https://plotly.github.io/static/images/polynomial-fits/button-to-upload-data-to-plotly.png)
+You can import files from Google Drive, Dropbox, or Excel to create a data set. You’ll find more details in our [“How to Enter Data in the grid”](https://help.plot.ly/add-data-to-the-plotly-grid) tutorial.<br><br>For this tutorial we’ll use data from a data set that you can find at:<br><br>https://plot.ly/~mariahh/93 | ![Button to upload data to Chart Studio](https://plotly.github.io/static/images/polynomial-fits/button-to-upload-data-to-plotly.png)
 To use the data, look for the **Fork and edit** button, just above the data set, on the right side of your screen. Click it and a copy of the data will open in your workspace. | ![Copy data to your Chart Studio workspace](https://plotly.github.io/static/images/polynomial-fits/copy-data-to-your-plotly-workspace.png)
 To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Chart Studio will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** box in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot with Chart Studio](https://plotly.github.io/static/images/polynomial-fits/make-a-scatter-plot-with-plotly.png)
 

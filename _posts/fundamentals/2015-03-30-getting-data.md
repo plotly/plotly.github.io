@@ -10,7 +10,7 @@ meta_description: A tutorial on reliable data sources including Data.gov. Chart 
 ---
 
 Note, if you were redirected here after trying to upload a dataset directly to Chart Studio this is no longer possible.
-See our tutorial on [adding data to the plotly grid](/add-data-to-the-plotly-grid/) for more info on adding data to
+See our tutorial on [adding data to the plotly grid](https://help.plot.ly/add-data-to-the-plotly-grid/) for more info on adding data to
 Chart Studio. Below is a [Dash](https://plot.ly/products/dash/) app built around a
 [dataset](https://catalog.data.gov/dataset/grain-transportation-report-figure-8) hosted on [data.gov](https://www.data.gov/).
 It loads the data directly from the source and its

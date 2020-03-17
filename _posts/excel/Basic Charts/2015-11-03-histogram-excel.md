@@ -34,7 +34,7 @@ steps:
       img: "![Data view](https://images.plot.ly/excel/histogram/excel-view-histogram.png)"
  - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](https://help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/histogram/import-data-histogram.png)"
     - copy: "Select 'Histogram' from the MAKE A PLOT menu."
       img: "![How to make a histogram with excel](https://plotly.github.io/static/images/histogram-with-excel/image18.png)"
@@ -42,7 +42,7 @@ steps:
       img: "![Single data column](https://plotly.github.io/static/images/histogram-with-excel/image05.png)"
     - copy: "These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or 'bin' of values appears in the column. To learn more see: [histogram](https://plot.ly/histogram/)"
       img: "![Histograpm with plotly](https://plotly.github.io/static/images/histogram-with-excel/image15.gif)"
-    - copy: "Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [here](/add-data-to-the-plotly-grid/)"
+    - copy: "Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [here](https://help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Histogram button](https://plotly.github.io/static/images/histogram-with-excel/image21.png)"
  - title: Drawing the Curve
    sub-steps:

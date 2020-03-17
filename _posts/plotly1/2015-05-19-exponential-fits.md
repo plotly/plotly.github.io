@@ -19,7 +19,7 @@ actioncall: Make a chart
 </div>
 
 
-Chart Studio offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit exponential curves to your data and explain what that means. Make sure to check out our other [tutorials](/tutorials) to learn how to fit your data with [polynomials](/polynomial-fits), [gaussians](/guassian-fits), and [logarithms](/logarithmic-fits).
+Chart Studio offers free, online tools for analyzing data and making graphs. In this tutorial we’ll show you how to fit exponential curves to your data and explain what that means. Make sure to check out our other [tutorials](https://help.plot.ly/tutorials) to learn how to fit your data with [polynomials](https://help.plot.ly/polynomial-fits), [gaussians](https://help.plot.ly/guassian-fits), and [logarithms](https://help.plot.ly/logarithmic-fits).
 
 An *exponential fit* is a method of modeling data with an exponential function. Exponential growth (or decay) occurs naturally in many settings--the growth of bacteria can be modeled with an exponential function, scientists study radioactive decay in order to determine how old dinosaur bones are, and money in a savings account grows exponentially.
 
@@ -32,13 +32,13 @@ Exponential data falls into two categories: growth and decay. Learn to recognize
 *Exponential growth* is characterized by slow initial growth that becomes rapidly faster as time progresses. | ![A picture of exponential growth](https://plotly.github.io/static/images/exponential-fits/a-picture-of-exponential-growth.png)
 *Exponential decay* begins with a fast (and negative) rate of change, which decreases (in magnitude) with time. | ![A picture of exponential decay](https://plotly.github.io/static/images/exponential-fits/a-picture-of-exponential-decay.png)
 
-In Chart Studio, our predefined exponential functions take the form $a+be^{cx}$. If you want to fit your curve with another base, you can use the **Define your own fit function** option. If you need help, our [tutorial on custom fit functions](/custom-fit-functions) will help. Chart Studio finds the best exponential fit by choosing coefficients $a$, $b$ and $c$ that minimize the mean squared error. The closer the $R^2$ value is to 1, the better the fit.
+In Chart Studio, our predefined exponential functions take the form $a+be^{cx}$. If you want to fit your curve with another base, you can use the **Define your own fit function** option. If you need help, our [tutorial on custom fit functions](https://help.plot.ly/custom-fit-functions) will help. Chart Studio finds the best exponential fit by choosing coefficients $a$, $b$ and $c$ that minimize the mean squared error. The closer the $R^2$ value is to 1, the better the fit.
 
 ### **Step 1:** Make a plot
 
-We have a collection of great tutorials to help you make line graphs, scatter plots, histograms, bar charts, and more. If you need help, you’ll find everything you need on our [tutorials page](/tutorials).
+We have a collection of great tutorials to help you make line graphs, scatter plots, histograms, bar charts, and more. If you need help, you’ll find everything you need on our [tutorials page](https://help.plot.ly/tutorials).
 
-You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to Enter Data in the Grid”](/add-data-to-the-plotly-grid) tutorial. | ![Button to upload data to Chart Studio](https://plotly.github.io/static/images/exponential-fits/button-to-upload-data-to-plotly.png)
+You can import files from Google Drive, Dropbox, or Excel for your graphs. You’ll find more details in our [“How to Enter Data in the Grid”](https://help.plot.ly/add-data-to-the-plotly-grid) tutorial. | ![Button to upload data to Chart Studio](https://plotly.github.io/static/images/exponential-fits/button-to-upload-data-to-plotly.png)
 In an optimal world (for rodents), a rat population can double in size every 47 days. Starting with two rats on day zero, we’ll have four rats on day 47, 8 rats on day 94, and so on.<br><br>You can enter this data in Chart Studio’s grid directly, or you can **Fork & edit** it from<br><br>https://plot.ly/~mariahh/63 | ![Picture of optimal rat population growth data](https://plotly.github.io/static/images/exponential-fits/picture-of-optimal-rat-population-growth-data.png)
 To make a scatter plot, choose **Scatter plots** from the **MAKE A PLOT** menu.<br><br>Chart Studio will automatically select the first column of data to be $x$ values, and the second column to be $y$ values. In our case, this is exactly what we want.<br><br>Click on the blue **Scatter plot** button in the sidebar to make your scatter plot. Your plot will open in a new tab. | ![Make a scatter plot with Chart Studio](https://plotly.github.io/static/images/exponential-fits/make-a-scatter-plot-with-plotly.png)
 

@@ -21,13 +21,13 @@ actioncall: Make a graph
 
 Chart Studio has built in statistical tools to help you analyze data with only a few clicks.
 
-We’re set up for both descriptive and inferential statistics, so whether you’re looking to plot a graph with error bars (see our awesome tutorial [here](/how-to-make-a-graph-with-error-bars/) or do a simple statistical analysis of the ages of Nobel Prize winners, you’ve come to the right place.
+We’re set up for both descriptive and inferential statistics, so whether you’re looking to plot a graph with error bars (see our awesome tutorial [here](https://help.plot.ly/how-to-make-a-graph-with-error-bars/) or do a simple statistical analysis of the ages of Nobel Prize winners, you’ve come to the right place.
 
 Our statistics tool computes the minimum and maximum values, mean, median, quartiles, standard deviation, variance and standard error. The data in this tutorial comes from [http://www.nber.org/nobel/](http://www.nber.org/nobel/), which was used by Jones and Weinberg in their paper [“Age dynamics in scientific creativity”](http://www.pnas.org/content/108/47/18910).
 
 
 ### Step 1 : Set up the grid
-You can load data into Chart Studio by typing directly, cutting &amp; pasting or importing data from an external source. If you need help, our tutorial [Add Data to Chart Studio’s Grid](/add-data-to-the-plotly-grid/) is the perfect place to start.
+You can load data into Chart Studio by typing directly, cutting &amp; pasting or importing data from an external source. If you need help, our tutorial [Add Data to Chart Studio’s Grid](https://help.plot.ly/add-data-to-the-plotly-grid/) is the perfect place to start.
 
 In this example, we’ve loaded all the Nobel Prize winners in medicine, physics and chemistry, their birth years, and computed their age when they won their award. Copy the data here: [https://plot.ly/~mariahh/8/](https://plot.ly/~mariahh/8/) | ![Basic statistics tutorial](https://plotly.github.io/static/images/mean-median-variance-and-standard-deviation/image08.png)
 

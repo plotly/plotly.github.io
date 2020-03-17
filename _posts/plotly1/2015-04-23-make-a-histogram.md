@@ -26,7 +26,7 @@ Follow along below to make a histogram of your own. If you’re unfamiliar with 
 This is one way you could set up Chart Studio’s grid to make the graph above.  Copy the data here: [https://plot.ly/~cimar/127](https://plot.ly/~cimar/127) | ![How to make a histogram online](https://plotly.github.io/static/images/make-a-histogram/image01.png)
 Select “Histogram” from the MAKE A PLOT menu. | ![How to make a histogram online](https://plotly.github.io/static/images/make-a-histogram/image18.png)
 Select only one column of data for a basic histogram (two with the ‘group by’ option)… | ![How to make a histogram online](https://plotly.github.io/static/images/make-a-histogram/image05.png)
-&#8230;These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or “bin” of values appears in the column. To learn more see: [https://help.plot.ly/histogram/](/histogram/) | ![How to Make a Histogram Online](https://plotly.github.io/static/images/make-a-histogram/image15.gif)
+&#8230;These values will appear on our x-axis.  The heights of the bars of our histogram will denote how many times each value or “bin” of values appears in the column. To learn more see: [https://help.plot.ly/histogram/](https://help.plot.ly/histogram/) | ![How to Make a Histogram Online](https://plotly.github.io/static/images/make-a-histogram/image15.gif)
 Click the blue plot button in the sidebar to create the chart.  (For more help with the grid see: [https://plot.ly/add-data-to-the-plotly-grid/](https://plot.ly/add-data-to-the-plotly-grid)) | ![How to make a histogram online](https://plotly.github.io/static/images/make-a-histogram/image21.png)
 
 ### Step 2: Drawing the curve

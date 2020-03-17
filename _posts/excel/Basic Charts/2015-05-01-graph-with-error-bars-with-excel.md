@@ -34,7 +34,7 @@ steps:
       img: "![Excel view](https://images.plot.ly/excel/graph-with-error-bars/excel-data.jpg)"
  - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import', click 'Upload a file', then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](https://help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/graph-with-error-bars/import-data.jpg)"
  - title: Creating the Chart
    sub-steps:
