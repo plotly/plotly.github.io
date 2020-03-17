@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Embed Chart Studio Dashboards in a Website
 subtitle: How to Embed Chart Studio Dashboards
 permalink: /embed-dashboards/
-imageurl: 'https://plotly.github.io/static/images/embed-plotly-graphs/embed thumb.png'
+imageurl: https://plotly.github.io/static/images/embed-plotly-graphs/thumbnail.png
 state: active
 tags: dashboard
 order: 5
