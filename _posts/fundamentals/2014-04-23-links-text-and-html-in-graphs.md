@@ -33,7 +33,7 @@ For this tutorial, we’ll examine some of the styling from the graph: [https://
 ### Step 2: The essentials
 
 
-<img class="img-responsive-table" src="/static/images/links-text-and-html-in-graphs/table1.png">
+<img class="img-responsive-table" src="https://plotly.github.io/static/images/links-text-and-html-in-graphs/table1.png">
 
 <div class="responsive-table">
 
@@ -95,7 +95,7 @@ Chart Studio&lt;/a&gt;</td>
 You can also add characters to your titles and annotation with HTML entities. Here are a few you might find useful. You can find the full collection [here](http://character-code.com/).
 
 
-<img class="img-responsive-table" src="/static/images/links-text-and-html-in-graphs/table2.png">
+<img class="img-responsive-table" src="https://plotly.github.io/static/images/links-text-and-html-in-graphs/table2.png">
 
 <div class="responsive-table">
 

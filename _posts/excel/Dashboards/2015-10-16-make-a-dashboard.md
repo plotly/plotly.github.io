@@ -25,7 +25,7 @@ similar:
 
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/dashboard/) or [R](https://plot.ly/r/dashboard/).
 
-live-graph: <img src="/images/dashboard-carousel.jpg">
+live-graph: <img src="https://plotly.github.io/images/dashboard-carousel.jpg">
 
 steps:
  - title: Connect Dashboards.ly to your Chart Studio Account

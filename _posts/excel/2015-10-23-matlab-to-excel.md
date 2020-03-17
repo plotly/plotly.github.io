@@ -14,7 +14,7 @@ actioncall: Make a chart
 
 <h1>MATLAB to Excel</h1>
 
-<img src="/images/matlab-to-excel-cropped.jpg">
+<img src="https://plotly.github.io/images/matlab-to-excel-cropped.jpg">
 
 <h3 style="color:#444;">
     MATLAB chart URL <a href="https://plot.ly/~jackp/3835" target="_blank">https://plot.ly/~jackp/383</a>
