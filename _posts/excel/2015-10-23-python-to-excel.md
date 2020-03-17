@@ -14,7 +14,7 @@ actioncall: Make a chart
 
 <h1>Python to Excel</h1>
 
-<img src="/images/python-to-excel-cropped.jpg" alt="Python to Excel">
+<img src="https://plotly.github.io/images/python-to-excel-cropped.jpg" alt="Python to Excel">
 
 <h3 style="color:#444;">
     Python chart URL <a href="https://plot.ly/~jackp/671" target="_blank">https://plot.ly/~jackp/671/</a>
