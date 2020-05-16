@@ -10,9 +10,3 @@ meta_description: Chart Studio is the easiest way to make beautiful graphs onlin
 ---
 
 If you've landed on this page by clicking on an "edit this chart" button in a Plotly.js-powered chart in order to load a copy of it into [Plotly Chart Studio Cloud](https://chart-studio.plotly.com/create) for editing, unfortunately this chart is now out of date and will need to be [reconfigured to use the domain name `chart-studio.plotly.com` rather than `plot.ly`](https://plotly.com/javascript/configuration-options/#display-the-edit-chart-link). Please contact the author or host of the plot in question to get this fixed.
-
-
-<br />
-<br />
-<br />
-<a href="https://dash.plotly.com"><img width="100%" style="margin-top: 20px;" src="/all_static/images/dash.png"></a>
