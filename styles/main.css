@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 @import url(https://plotly.github.io/stylesheets/plotly_icons.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 html {
   font-size: 12px;
   font-family: "Open Sans", sans-serif;
@@ -57,6 +58,7 @@ body {
     body main.\--page .\--page-body {
       width: -webkit-calc(100% - 220px);
       width: calc(100% - 220px); }
+
     body main.\--page.\--tutorial-index {
       margin-top: 0; }
 
@@ -527,7 +529,7 @@ header.header-main {
   transition: 0.2s ease-in-out all;
   position: fixed;
   top: 0;
-  z-index: 999999;
+  z-index: 9999999;
   border-bottom: 1px solid #e7e7e7;
   width: 100%;
   display: -webkit-box;
@@ -596,7 +598,8 @@ header.header-main {
       text-decoration: none !important; }
   header.header-main.\--default, .header-large--wrap + header.header-main.\--default.affix {
     color: #626262 !important;
-    background-color: #F1F5FB; }
+
+    }
     header.header-main.\--default a:not(.button):link, header.header-main.\--default a:not(.button):visited, header.header-main.\--default a:not(.button):active {
       color: currentColor !important; }
   header.header-main .\--wrap {
@@ -1064,8 +1067,8 @@ aside.\--sidebar-container {
     max-height: calc(100vh - 128px);
     overflow-y: auto; }
     aside.\--sidebar-container .\--sidebar-fixed.affix {
-      top: -webkit-calc(80px + 48px) !important;
-      top: calc(80px + 48px) !important;
+      top: -webkit-calc(80px + 1px) !important;
+      top: calc(80px + 1px) !important;
       z-index: 1;
       position: fixed !important; }
     aside.\--sidebar-container .\--sidebar-fixed.affix-top {
@@ -1736,7 +1739,6 @@ ul.\--ref {
   height: 48px;
   min-height: 48px;
   width: 100%;
-  border-bottom: 1px solid #e7e7e7;
   padding: 0 20px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1750,10 +1752,8 @@ ul.\--ref {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  position: fixed;
-  background: white;
-  top: 80px;
-  z-index: 99999; }
+
+ }
   .\--breadcrumb-container .\--fork a {
     padding-top: 5px;
     display: -webkit-box;
@@ -1762,8 +1762,8 @@ ul.\--ref {
     display: flex; }
     .\--breadcrumb-container .\--fork a div.icon {
       width: 20px;
-      margin-right: 2px;
-      margin-top: -2px; }
+      margin-right: 4px;
+      margin-top: -5px; }
       .\--breadcrumb-container .\--fork a div.icon svg {
         max-width: 100%; }
         .\--breadcrumb-container .\--fork a div.icon svg path {
@@ -1838,6 +1838,7 @@ ul.\--ref {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
+      font-weight: 400;
       display: flex;
       -webkit-box-align: center;
       -webkit-align-items: center;
@@ -3259,15 +3260,14 @@ ul.\--ref {
   overflow-x: hidden; }
 
 .\--index {
-  margin-top: -webkit-calc(80px + 48px);
-  margin-top: calc(80px + 48px);
+  margin-top: 80px;
   min-height: -webkit-calc(100vh - 660px);
   min-height: calc(100vh - 660px); }
 
 .\--tutorial-index {
   padding-bottom: 20px; }
   .\--tutorial-index .\--welcome {
-    padding: 40px;
+    padding: 20px;
     position: relative; }
     .\--tutorial-index .\--welcome::before {
       content: '';
@@ -3275,7 +3275,7 @@ ul.\--ref {
       top: 100%;
       width: -webkit-calc(100% - 20px);
       width: calc(100% - 20px);
-      background: #e4e4ee;
+      background: #fff;
       height: 1px;
       margin-top: -1px;
       position: absolute; }
@@ -3290,11 +3290,9 @@ ul.\--ref {
       align-items: center;
       padding-bottom: 10px; }
       .\--tutorial-index .\--welcome .\--title .\--category-img {
-        border-radius: 50%;
-        border: 1px solid #e7e7e7;
-        padding: 15px;
-        background: white;
-        margin-right: 10px;
+
+
+        margin-right: 20px;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -3307,11 +3305,11 @@ ul.\--ref {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        width: 100px;
+        width: 60px;
         position: relative;
-        height: 100px;
-        min-width: 100px;
-        min-height: 100px; }
+        height: 60px;
+        min-width: 60px;
+        min-height: 60px; }
         @media (max-width: 584px) {
           .\--tutorial-index .\--welcome .\--title .\--category-img {
             display: none; } }
@@ -3319,7 +3317,7 @@ ul.\--ref {
           width: 60px;
           position: absolute; }
       .\--tutorial-index .\--welcome .\--title h1 {
-        font-weight: 100;
+        font-weight: 700;
         font-size: 3rem;
         opacity: 0.7; }
   .\--tutorial-index .\--section {
@@ -3350,22 +3348,16 @@ ul.\--ref {
       height: 1px;
       position: absolute; }
   .\--tutorial-index .\--tutorial-section header.\--section-header {
-    padding: 20px;
+    padding: 40px 20px 0px 20px;
     font-size: 2rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
+    font-weight: 700;
     display: flex;
     position: relative; }
     .\--tutorial-index .\--tutorial-section header.\--section-header::before {
-      content: '';
-      left: 20px;
-      top: 100%;
-      width: 25%;
-      background: #ebebf2;
-      height: 1px;
-      margin-top: -1px;
-      position: absolute; }
+      }
     .\--tutorial-index .\--tutorial-section header.\--section-header a::before {
       display: none; }
     .\--tutorial-index .\--tutorial-section header.\--section-header div.icon {
@@ -3693,7 +3685,7 @@ body {
   font-weight: 400; }
 
 .\--tutorial-section:not(.no-image) .\--grid {
-  padding-top: 20px; }
+  padding-top: 0px; }
   @media (max-width: 1023px) {
     .\--tutorial-section:not(.no-image) .\--grid {
       padding-left: 20px; } }
@@ -4155,9 +4147,8 @@ img {
   .tutorial--step .step--number .box {
     position: relative;
     z-index: 2;
-    padding: 10px 20px;
-    background: #447bdc;
-    color: white; }
+    padding: 10px 10px;
+    color: #111; }
 
 .live-plot {
   margin-bottom: 20px; }
