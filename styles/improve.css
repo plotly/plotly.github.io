@@ -77,7 +77,17 @@ body .--grid .--grid-list {
     border-radius: 5px;
     background-color: #fff !important;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    margin: 1% 1% 2% 1%; }
+    margin: 1% 1% 2% 1% !important; }
+    @media screen and (max-width: 1199px) {
+      body .--grid .--grid-list li.\--grid-item {
+        width: 31%;
+        min-width: 31%;
+        max-width: 31%; } }
+    @media screen and (max-width: 767px) {
+      body .--grid .--grid-list li.\--grid-item {
+        width: 48%;
+        min-width: 48%;
+        max-width: 48%; } }
     body .--grid .--grid-list li.\--grid-item:hover {
       box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); }
     body .--grid .--grid-list li.\--grid-item .--item-meta {
@@ -100,6 +110,15 @@ body .\--tutorial-section:not(.no-image) .\--grid-item .\--item-image {
   max-height: 180px;
   -webkit-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all; }
+@media screen and (max-width: 991px) {
+  body .\--tutorial-index .\--welcome .\--title h1 {
+    padding: 0px;
+    margin: 0px; } }
+@media screen and (max-width: 991px) {
+  body .\--tutorial-index .\--tutorial-section header.\--section-header {
+    padding-top: 0px !important; } }
+body .toggle-sidebar {
+  display: none !important; }
 body main.\--page .\--page-body {
   padding-left: 20px;
   padding-top: 10px; }
@@ -120,10 +139,35 @@ body .\--btn.back {
   border: none; }
 body .--help-box {
   background-color: #000 !important; }
-body .\--footer-meta, body .\--footer-main {
+body .\--footer-meta,
+body .\--footer-main {
   border: none;
   background: #0e1012;
   width: 100%;
   color: #ddd; }
+
+@media screen and (max-width: 584px) {
+  .--sidebar-container {
+    display: none !important; } }
+
+.tutorial--step .step--number .box {
+  background-color: #fff; }
+
+.tutorial-content h2 {
+  padding-left: 20px; }
+
+.tutorial--step .step--image img {
+  border: none;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); }
+
+.tutorial--step .step--image {
+  background: transparent;
+  border: none; }
+
+.page--single .tutorial-content table td img,
+.page--single .tutorial-content table th img {
+  border-radius: 6px 6px 0px 0px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=improve.css.map */

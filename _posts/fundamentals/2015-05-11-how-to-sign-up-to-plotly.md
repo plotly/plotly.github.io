@@ -25,13 +25,15 @@ meta_description: How to sign up to Chart Studio. Chart Studio is the easiest wa
       </a>
       and click the "LOG IN" button in the top right corner of the webpage.
     </td>
+
+   </tr>
+   <tr>
     <td>
-       <img alt="How to sign up to plotly 00" src="https://plotly.github.io/static/images/how-to-sign-up-to-plotly/plotly_page.png" title=""/>
+       <img alt="How to sign up to plotly 00" src="../static/images/how-to-sign-up-to-plotly/plotly_page.png" title=""/>
     </td>
    </tr>
    </tbody>
   </table>
-
  <table>
   <tbody>
    <tr>
@@ -45,8 +47,11 @@ meta_description: How to sign up to Chart Studio. Chart Studio is the easiest wa
       - You can also sign up using Facebook, Twitter, GitHub or Google+.
       </p>
     </td>
-    <td>
-       <img alt="How to sign up to plotly 00" src="https://plotly.github.io/static/images/how-to-sign-up-to-plotly/signup_modal.png" title=""/>
+
+   </tr>
+   <tr>
+   <td>
+       <img alt="How to sign up to plotly 00" src="../static/images/how-to-sign-up-to-plotly/signup_modal.png" title=""/>
     </td>
    </tr>
    </tbody>
@@ -66,8 +71,11 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       </a>
       to start making your own plots.
     </td>
-    <td>
-       <img alt="How to sign up to plotly 01" src="https://plotly.github.io/static/images/how-to-sign-up-to-plotly/choose_chart_modal.png" title=""/>
+
+   </tr>
+   <tr>
+   <td>
+       <img alt="How to sign up to plotly 01" src="../static/images/how-to-sign-up-to-plotly/choose_chart_modal.png" title=""/>
     </td>
    </tr>
    </tbody>
@@ -83,10 +91,11 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       </a>
       to check out tutorials on how to use Chart Studio.
     </td>
-    <td>
-       <img alt="How to sign up to plotly 02" src="https://plotly.github.io/static/images/how-to-sign-up-to-plotly/help_homepage.png" title=""/>
-    </td>
+
    </tr>
+   <tr> <td>
+       <img alt="How to sign up to plotly 02" src="../static/images/how-to-sign-up-to-plotly/help_homepage.png" title=""/>
+    </td></tr>
   </tbody>
  </table>
 
@@ -101,9 +110,10 @@ You’ll get an email from [accounts@plot.ly](mailto:accounts@plot.ly) to verify
       </a>
       to view some of the best plots out there!
     </td>
-    <td>
-       <img alt="How to sign up to plotly 04" src="https://plotly.github.io/static/images/how-to-sign-up-to-plotly/feeds_page.png" title=""/>
-    </td>
+
    </tr>
+   <tr> <td>
+       <img alt="How to sign up to plotly 04" src="../static/images/how-to-sign-up-to-plotly/feeds_page.png" title=""/>
+    </td></tr>
   </tbody>
  </table>
