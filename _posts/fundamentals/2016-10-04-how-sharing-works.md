@@ -25,31 +25,31 @@ steps:
     - copy: "Anyone can view a public plot, grid, or dashboard. The public file will appear in your profile. It can also appear in the [Chart Studio feed](https://plot.ly/) and search engines. You don't need to be logged in to Chart Studio to view it."
     - copy: "All charts, grids, and dashboards featured in our [tutorials](http://help.plot.ly/tutorials/) are public. That way, *everyone* can view them."
     - copy: "When you [save](http://help.plot.ly/save-share-and-export-in-plotly/#step-1-save-your-plot) a plot, grid, or dashboard, select 'Public'."
-      img: "![Public file](https://plotly.github.io/static/images/how-sharing-works-in-plotly/public.png)"
+      img: "![Public file](../static/images/how-sharing-works-in-plotly/public.png)"
 
  - title: Private
    sub-steps:
     - copy: "When you save your plot as 'Private', only you can view it, as long as you're logged into your account. It won't appear in the Chart Studio feed, your profile, or search engines. You can [add collaborators](http://help.plot.ly/collaborate-in-plotly/) to a private file. Collaborators will be able to view and edit the file when they are logged in. Please note that community users can only save public files. [Upgrade to PRO](https://plot.ly/products/cloud/) and save unlimited private files."
-      img: "![Private file](https://plotly.github.io/static/images/how-sharing-works-in-plotly/save_private.png)"
+      img: "![Private file](../static/images/how-sharing-works-in-plotly/save_private.png)"
     - copy: "Someone viewing your private plot will see this on their screen."
-      img: "![Private file viewed](https://plotly.github.io/static/images/how-sharing-works-in-plotly/private 404.png)"
+      img: "![Private file viewed](../static/images/how-sharing-works-in-plotly/private 404.png)"
 
  - title: Private Link
    sub-steps:
     - copy: "Anyone with the secret link can view it. Just like a private plot, it won't appear in the Chart Studio feed, your profile, or search engines. However, if it's embedded inside a webpage or an IPython notebook, anybody viewing that page will see it; you don't need to be logged in. Please note that community users can only save public files. [Upgrade to PRO](https://plot.ly/products/cloud/) and save unlimited private link files.."
-      img: "![Private link](https://plotly.github.io/static/images/how-sharing-works-in-plotly/private_link.png)"
+      img: "![Private link](../static/images/how-sharing-works-in-plotly/private_link.png)"
     - copy: "Visit your [Organize](https://plot.ly/organize) page and click on the arrow icon to locate the shareable link. You can tell a file is private or has a private link by the closed lock icon at the top corner."
-      img: "![Private lock icon](https://plotly.github.io/static/images/how-sharing-works-in-plotly/share link private lock.png)"
+      img: "![Private lock icon](../static/images/how-sharing-works-in-plotly/share link private lock.png)"
     - copy: "This shareable link is private, but the plot or dashboard can be viewed by anybody with this URL. They don't need to log in to their Chart Studio account."
 
  - title: Folders
    sub-steps:
     - copy: "You can create a folder from within your Organize page by clicking '+ New' and selecting 'Folder'. Community users can create only one folder, but you can [upgrade to Pro](https://plot.ly/settings/subscription/) for unlimited folders."
-      img: "![New folder](https://plotly.github.io/static/images/how-sharing-works-in-plotly/new folder.png)"
+      img: "![New folder](../static/images/how-sharing-works-in-plotly/new folder.png)"
     - copy: "To move a file to a folder, hover over it and click on the folder icon."
-      img: "![Move file](https://plotly.github.io/static/images/how-sharing-works-in-plotly/select file.png)"
+      img: "![Move file](../static/images/how-sharing-works-in-plotly/select file.png)"
     - copy: "Select the folder you want to move your file to, then click 'Move'."
-      img: "![Select folder](https://plotly.github.io/static/images/how-sharing-works-in-plotly/move to folder.png)"
+      img: "![Select folder](../static/images/how-sharing-works-in-plotly/move to folder.png)"
     - copy: "Changing a folder's privacy setting affects the contents in the following ways."
     - copy: "Changing a folder from 'Private' to 'Public' changes the setting of all files and folders to public."
     - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private."
