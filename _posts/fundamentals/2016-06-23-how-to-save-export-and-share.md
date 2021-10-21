@@ -19,7 +19,7 @@ steps:
  - title: Save Your Plot
    sub-steps:
     - copy: "Once you have your data and plot ready to go, click on SAVE on the left-hand side."
-      img: "![Save tab main screen](../static/images/graph-with-multiple-axes-with-excel/shared y save main.png)"
+      img: "![Save tab main screen](../static/images/graph-with-multiple-axes-with-excel/shared-y-save-main.png)"
     - copy: "Give your PLOT and DATA a filename and select the privacy setting. For more information on how sharing works, including the difference between private, public, and secret sharing, visit [this](http://help.plot.ly/how-sharing-works-in-plotly/) page."
       img: "![Save pop-up](../static/images/graph-with-multiple-axes-with-excel/shared-y-save-popup.png)"
 
@@ -41,20 +41,20 @@ steps:
     - copy: "To export your data in a CSV or Excel file, visit your [Organize page](https://plot.ly/organize/home). You can also locate it by typing the following on your address bar: 'http://plot.ly/~YOURUSERNAME'. This is your Profile page. Hover over your plot and click VIEW."
       img: "![View plot](../static/images/how-to-save-export-and-share/new-view-plot.png)"
     - copy: "Click on the blue 'Export' button just above your plot, then select '.csv' or '.xlsx' from the popup menu."
-      img: "![Export data](../static/images/how-to-save-export-and-share/export data popup.png)"
+      img: "![Export data](../static/images/how-to-save-export-and-share/export-data-popup.png)"
     - copy: "Your files will download to your device."
 
  - title: Share Your Plot
    sub-steps:
     - copy: "You can share your plot in different ways."
-      img: "![Share plot main](../static/images/how-to-save-export-and-share/new share main.png)"
+      img: "![Share plot main](../static/images/how-to-save-export-and-share/new-share-main.png)"
     - copy: "When you click on the SHAREABLE LINK tab, you can copy the URL and send it to others so they'll be able to view your plot."
       img: "![Shareable link](../static/images/how-to-save-export-and-share/Shareable_Link.png)"
     - copy: "If you want to add collaborators, simply invite them by adding their information with optional message in the fields, then click ADD. For more information on collaborating, visit [this](http://help.plot.ly/collaborate-in-plotly/) page."
-      img: "![Share collaborators](../static/images/misc-tutorial-images/adding collaborators.png)"
+      img: "![Share collaborators](../static/images/misc-tutorial-images/adding-collaborators.png)"
     - copy: "The EMBED tab will give you a link so you can add it to a website. You have the option of embedding your plot as an HTML snippet or iframe. For more information on how to embed your plot in a blog or website, click [here](http://help.plot.ly/embed-graphs-in-websites/)."
-      img: "![Embed pop-up](../static/images/how-to-save-export-and-share/new embed.png)"
+      img: "![Embed pop-up](../static/images/how-to-save-export-and-share/new-embed.png)"
     - copy: "Last but not least, you can also share your plot on social media! Simply click on the Facebook, Twitter, and Google Plus icons."
-      img: "![Social media icons](../static/images/how-to-save-export-and-share/new social media.png)"
+      img: "![Social media icons](../static/images/how-to-save-export-and-share/new-social-media.png)"
     - copy: "Love the graphs that are featured on this page? Check out our [tutorials](http://help.plot.ly/tutorials/#basic) to learn how to create really cool plots!"
 ---
