@@ -45,11 +45,11 @@ steps:
  - title: Folders
    sub-steps:
     - copy: "You can create a folder from within your Organize page by clicking '+ New' and selecting 'Folder'. Community users can create only one folder, but you can [upgrade to Pro](https://plot.ly/settings/subscription/) for unlimited folders."
-      img: "![New folder](../static/images/how-sharing-works-in-plotly/new folder.png)"
+      img: "![New folder](../static/images/how-sharing-works-in-plotly/new-folder.png)"
     - copy: "To move a file to a folder, hover over it and click on the folder icon."
-      img: "![Move file](../static/images/how-sharing-works-in-plotly/select file.png)"
+      img: "![Move file](../static/images/how-sharing-works-in-plotly/select-file.png)"
     - copy: "Select the folder you want to move your file to, then click 'Move'."
-      img: "![Select folder](../static/images/how-sharing-works-in-plotly/move to folder.png)"
+      img: "![Select folder](../static/images/how-sharing-works-in-plotly/move-to-folder.png)"
     - copy: "Changing a folder's privacy setting affects the contents in the following ways."
     - copy: "Changing a folder from 'Private' to 'Public' changes the setting of all files and folders to public."
     - copy: "Changing a folder from 'Public' to 'Private' changes the status of the contents to private."
