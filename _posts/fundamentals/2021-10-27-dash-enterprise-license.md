@@ -1,7 +1,7 @@
 ---
 permalink: /dash-enterprise-license-agreement/
 title: Dash Enterprise License Agreement
-layout: single_new
+layout: blank
 support: true
 redirect_from: /on-premise-2.5-license-agreement/
 ---
