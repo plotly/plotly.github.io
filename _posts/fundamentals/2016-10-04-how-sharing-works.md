@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: How Sharing Works In Chart Studio
 subtitle: Sharing plots, grids, dashboards, and folders using the Chart Studio data visualization tool
 permalink: /how-sharing-works-in-plotly/
-imageurl:  https://plotly.github.io/static/images/how-sharing-works-in-plotly/sharing thumb.png
+imageurl:  ../static/images/how-sharing-works-in-plotly/sharing-thumb.png
 state: active
 tags: fundamentals
 order: 5

@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: Formatting Dates, Time Series, and Timestamps
 subtitle: Dates and Times in Chart Studio
 permalink: /date-format-and-time-series/
-imageurl:  https://plotly.github.io/static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
+imageurl:  ../static/images/dates-time-series-and-timestamp/thum-dates-time-series-and-timestamp.png
 state: active
 tags: fundamentals
 order: 9

@@ -4,7 +4,7 @@ title: Embed Your Graphs
 subtitle: How to embed graphs in a Blog or Website
 permalink: /embed-graphs-in-websites/
 redirect_from: /how-to-embed-plotly-graphs-in-websites/
-imageurl:  https://plotly.github.io/static/images/embed-plotly-graphs/thumbnail.png
+imageurl:  ../static/images/embed-plotly-graphs/thumbnail.png
 state: active
 tags: fundamentals
 order: 6
@@ -23,7 +23,7 @@ steps:
  - title: From Chart Studio Workspace
    sub-steps:
     - copy: "To share a plot from the [Chart Studio Workspace](https://plot.ly/create/), click 'Share' button on the left-hand side after saving the plot."
-      img: "![Workspace share option](https://plotly.github.io/static/images/embed-plotly-graphs/share_button.png)"
+      img: "![Workspace share option](../static/images/embed-plotly-graphs/share_button.png)"
     - copy: "The Share modal will pop-up and display a link under the 'Embed' tab. You can then copy and paste this link to your website. You have the option of embedding your plot as an HTML snippet or iframe."
     - copy: "If the plot is saved as 'Public', everyone will be able to view the embedded plot. If the plot is saved as 'Private', only you and your collaborators will be able to see it. If the plot is embedded with a Secret Link, those that have that link will be able to see the plot. Also, when you embed a private plot but don't add any collaborators, only you will be able to view it. For more information on privacy settings and how sharing works, visit [Chart Studio's sharing tutorial](https://help.plot.ly/save-share-and-export-in-plotly/)."
 
@@ -54,7 +54,7 @@ steps:
  - title: Embed the div
    sub-steps:
     - copy: "Simply copy and paste the HTML snippet into your website or HTML application."
-      img: "![Final embedding code](https://plotly.github.io/static/images/embed-plotly-graphs/iframe-HTML.png)"
+      img: "![Final embedding code](../static/images/embed-plotly-graphs/iframe-HTML.png)"
     - copy: "If you need an iframe, feel free to use the example below. You’ll have to replace the URL of our graph with your own."
       img: "![iframe code 1](https://plotly.github.io/static/images/embed-plotly-graphs/iframe.png)"
     - copy: "If you are using a secret link with a private key, update the private link to include '.embed' before the '?share_key' term. Here's an example:"

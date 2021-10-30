@@ -2,7 +2,7 @@
 layout: single
 title: Importing Data into Chart Studio Cloud
 permalink: /getting-data/
-imageurl: https://plotly.github.io/static/images/getting-data/getting-data-ice-cream-production.png
+imageurl: ../static/images/getting-data/getting-data-ice-cream-production.png
 state: active
 tags: fundamentals
 order: 30

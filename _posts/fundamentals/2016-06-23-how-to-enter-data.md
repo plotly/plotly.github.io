@@ -4,7 +4,7 @@ title: Import Data
 subtitle: A step-by-step guide for entering or importing data into the Chart Studio Workspace.
 permalink: /add-data-to-the-plotly-grid/
 redirect_from: /plotly1/add-data-to-the-plotly1-grid/
-imageurl:  https://plotly.github.io/static/images/import-data/import-data.png
+imageurl:  ../static/images/import-data/import-data.png
 state: active
 tags: fundamentals
 order: 2
@@ -12,9 +12,7 @@ meta_description: A tutorial on how to enter data in Chart Studio.
 popularity: featured
 carouselimageurl: https://plotly.github.io/static/images/import-data/thumbnail.png
 actioncall: How to enter data in Chart Studio
-
 otherlang: Know how to program? See how to create this in [Python](https://plot.ly/python/plot-data-from-csv/) or [R](https://plot.ly/r/getting-started/).
-
 
 steps:
  - title: Option 1 - Enter the Data directly into the Grid

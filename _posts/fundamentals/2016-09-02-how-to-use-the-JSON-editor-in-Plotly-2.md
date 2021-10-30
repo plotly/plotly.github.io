@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: JSON Tree Editor
 subtitle: How to use the JSON tree editor in Chart Studio to edit your plots.
 permalink: /view-and-edit-JSON/
-imageurl:  https://plotly.github.io/static/images/json-tree-editor/thumbnail.png
+imageurl:  ../static/images/json-tree-editor/thumbnail.png
 state: active
 tags: fundamentals
 order: 12

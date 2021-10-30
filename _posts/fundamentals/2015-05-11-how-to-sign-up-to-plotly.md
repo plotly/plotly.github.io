@@ -3,7 +3,7 @@ layout: single
 title: How to sign up for Chart Studio
 subtitle: A guide to signing up to Chart Studio
 permalink: /how-to-sign-up-to-plotly/
-imageurl: https://plotly.github.io/static/images/how-to-sign-up-to-plotly/signup-thumbnail.png
+imageurl: ../static/images/how-to-sign-up-to-plotly/signup-thumbnail.png
 state: active
 tags: fundamentals
 section: fundamentals

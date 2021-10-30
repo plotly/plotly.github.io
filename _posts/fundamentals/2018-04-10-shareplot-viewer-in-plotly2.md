@@ -3,7 +3,7 @@ layout: tutorial-single_layout
 title: View Plots
 subtitle: Get to know your plot's view page
 permalink: /viewplot/
-imageurl:  https://plotly.github.io/static/images/view-plot/thumbnail.png
+imageurl:  ../static/images/view-plot/thumbnail.png
 state: active
 tags: fundamentals
 order: 14
