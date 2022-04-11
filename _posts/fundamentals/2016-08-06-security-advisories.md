@@ -1,7 +1,7 @@
 ---
 permalink: /security-advisories/
 title: Plotly Security Advisories
-layout: single_new
+layout: single
 support: true
 ---
 
