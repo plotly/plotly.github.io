@@ -1,7 +1,7 @@
 ---
 permalink: /on-premise-2.2-license-agreement/
 title: Chart Studio Enterprise License Agreement
-layout: single_new
+layout: single
 support: true
 ---
 

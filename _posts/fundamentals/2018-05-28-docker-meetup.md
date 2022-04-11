@@ -1,5 +1,5 @@
 ---
-layout: single_new
+layout: single
 title: Docker Meetup Presentations
 subtitle: Docker Montréal meetup, May 29, 2018
 permalink: /docker-meetup

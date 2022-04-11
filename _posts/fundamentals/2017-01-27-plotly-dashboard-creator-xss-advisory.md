@@ -1,7 +1,7 @@
 ---
 permalink: /security-advisories/2017-01-27-plotly-dashboard-creator-xss-advisory
 title: Plotly Security Advisory - XSS in Chart Studio Dashboard Creator
-layout: single_new
+layout: single
 support: true
 ---
 

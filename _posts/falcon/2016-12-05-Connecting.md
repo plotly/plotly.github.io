@@ -2,7 +2,7 @@
 permalink: /database-connectors/connecting
 title: Connecting to the Plotly Connector - Tips and Troubleshooting
 tags: advanced
-layout: single_new
+layout: single
 popularity: featured
 actioncall-url: https://github.com/plotly/electron-sql-connector/releases
 ---

@@ -1,7 +1,7 @@
 ---
 permalink: /security-advisories/2017-01-27-plotlyjs-xss-advisory/
 title: Plotly Security Advisory - XSS in plotly.js
-layout: single_new
+layout: single
 support: true
 ---
 
